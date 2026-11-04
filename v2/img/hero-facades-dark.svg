@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-hidden="true">
+<circle cx="440" cy="72" r="34" fill="#af9868"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#f5f1e8" stroke-width="3">
+<path d="M20 320H540"/>
+<!-- maison 1 -->
+<path d="M40 320V190H150V320"/><path d="M30 190L95 140L160 190" stroke="#af9868"/>
+<rect x="60" y="215" width="26" height="36" rx="13"/><rect x="104" y="215" width="26" height="36" rx="13"/><rect x="76" y="274" width="38" height="46"/>
+<!-- immeuble -->
+<path d="M175 320V110H300V320"/><path d="M165 110H310" stroke="#af9868"/>
+<path d="M195 140h22v30h-22zM232 140h22v30h-22zM268 140h22v30h-22zM195 195h22v30h-22zM232 195h22v30h-22zM268 195h22v30h-22z"/>
+<path d="M195 250h22v30h-22zM268 250h22v30h-22z"/><rect x="233" y="270" width="22" height="50"/>
+<!-- maison 2 -->
+<path d="M325 320V170H440V320"/><path d="M315 170L382 118L450 170" stroke="#af9868"/>
+<path d="M345 200h24v34h-24zM395 200h24v34h-24z"/><path d="M357 200v34M345 217h24M407 200v34M395 217h24"/><rect x="368" y="268" width="32" height="52"/>
+<!-- maison 3 -->
+<path d="M460 320V210H535V320"/><path d="M452 210L497 175L543 210" stroke="#af9868"/>
+<rect x="478" y="262" width="26" height="58"/>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#af9868" stroke-width="3"><path d="M110 70c0-10 8-18 18-18M470 330c8-14 22-20 36-16"/></g>
+</svg>
