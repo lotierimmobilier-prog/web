@@ -7,23 +7,26 @@ declare(strict_types=1);
 
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 
-const BASE = 'https://www.lotier-immobilier.com/nos-biens/';
+$base = getenv('SYNC_BASE') ?: 'https://www.lotier-immobilier.com/nos-biens/'; // surcharge réservée aux tests
 const UA   = 'LotierV2-sync/1.0 (+https://www.lotier-immobilier.com)';
 $sortie = $argv[1] ?? __DIR__ . '/data/biens.json';
 
-function get(string $url): ?string {
+// Retourne [code HTTP, corps, URL finale] ; code 0 = échec réseau.
+function get(string $url): array {
     if (function_exists('curl_init')) {
         $c = curl_init($url);
         curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 30, CURLOPT_USERAGENT => UA]);
-        $h = curl_exec($c); $code = (int)curl_getinfo($c, CURLINFO_RESPONSE_CODE); curl_close($c);
-        return ($h !== false && $code === 200) ? (string)$h : null;
+        $h = curl_exec($c); $code = $h === false ? 0 : (int)curl_getinfo($c, CURLINFO_RESPONSE_CODE);
+        $final = (string)curl_getinfo($c, CURLINFO_EFFECTIVE_URL); curl_close($c);
+        return [$code, $h === false ? '' : (string)$h, $final];
     }
     $ctx = stream_context_create(['http' => ['header' => 'User-Agent: ' . UA, 'timeout' => 30, 'ignore_errors' => true]]);
     $h = @file_get_contents($url, false, $ctx);
     $code = 0;
     if (isset($http_response_header[0]) && preg_match('#\s(\d{3})\s#', $http_response_header[0], $m)) $code = (int)$m[1];
-    return ($h !== false && $code === 200) ? $h : null;
+    return [$h === false ? 0 : $code, $h === false ? '' : $h, $url];
 }
+function abandon(string $msg): never { fwrite(STDERR, $msg . " Fichier conservé.\n"); exit(1); }
 function txt(string $s): string {
     return trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags(str_replace('<', ' <', $s)), ENT_QUOTES | ENT_HTML5, 'UTF-8')) ?? '');
 }
@@ -33,10 +36,13 @@ function nombre(string $s): float {
 
 $biens = [];
 for ($page = 1; $page <= 50; $page++) {
-    $h = get($page === 1 ? BASE : BASE . "page/$page/");
-    if ($h === null) break;
+    $url = $page === 1 ? $base : $base . "page/$page/";
+    [$code, $h, $final] = get($url);
+    if ($code === 404 && $page > 1) break;                     // fin normale de la pagination
+    if ($code !== 200) abandon("Page $page : réponse HTTP $code (échec, pas une fin de liste).");
+    if (!str_starts_with($final, $base)) abandon("Page $page : redirigée vers $final, la source n'est plus accessible.");
     $parts = array_slice(explode('<div class="iwp__item">', $h), 1);
-    if (!$parts) break;
+    if (!$parts) { if ($page === 1) abandon('Aucune annonce sur la première page.'); break; }
     foreach ($parts as $blk) {
         if (preg_match('#<a href="([^"]+)"#', $blk, $u) === 0 || preg_match('#<h3>(.*?)</h3>#s', $blk, $t) === 0) continue;
         preg_match('#<img[^>]*src="([^"]+)"#', $blk, $img);

@@ -13,6 +13,8 @@ DirectoryIndex index.html index.php
 # --- Redirections permanentes des anciennes pages
 <IfModule mod_rewrite.c>
 RewriteEngine On
+# (le script de synchro des annonces lit /nos-biens/ : il est exempté de la redirection)
+RewriteCond %{HTTP_USER_AGENT} !LotierV2-sync [NC]
 RewriteRule ^nos-biens/?$                 /biens/                       [R=301,L]
 RewriteRule ^syndic-de-copropriete/?$     /syndic/                      [R=301,L]
 RewriteRule ^gestion-locative-lotier/?$   /gestion-locative-occitanie/  [R=301,L]

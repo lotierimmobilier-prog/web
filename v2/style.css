@@ -124,7 +124,7 @@ address{font-style:normal;line-height:1.8}
 .js-reveal .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
-.hero.photo{min-height:min(78vh,680px);display:flex;align-items:center}
+.hero.photo{min-height:min(78vh,680px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
 .hero.photo::before{background:linear-gradient(90deg,rgba(35,31,32,.82) 0%,rgba(35,31,32,.55) 42%,rgba(35,31,32,.05) 75%),url(img/hero-occitanie.webp) center/cover no-repeat,var(--ink)}
 .hero.photo.photo-b::before{background:linear-gradient(90deg,rgba(35,31,32,.85) 0%,rgba(35,31,32,.6) 45%,rgba(35,31,32,.1) 80%),url(img/ville-occitanie.webp) center/cover no-repeat,var(--ink)}
 .hero.photo.photo-b{min-height:420px}
