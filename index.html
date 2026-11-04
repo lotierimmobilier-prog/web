@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOTIER Immobilier | Vente, location et syndic à Béziers, Montpellier et Rodilhan</title>
+  <meta name="description" content="Agence immobilière indépendante : vente, location et syndic de copropriété, de Béziers à Avignon.">
+  <link rel="icon" href="assets/lotier-immobilier-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair+Display:wght@400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#top" aria-label="LOTIER Immobilier, accueil">
+        <img src="assets/lotier-immobilier-logo.png" alt="LOTIER Immobilier" width="140" height="48">
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#metiers">Vente</a>
+        <a href="#metiers">Location</a>
+        <a href="#metiers">Syndic</a>
+        <a href="#annonces">Annonces</a>
+        <a href="#agents">Devenir agent</a>
+        <a href="#contact">Espace client</a>
+        <a class="btn btn-navy" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <section class="hero container">
+      <div class="hero-title">
+        <span class="label">AGENCE INDÉPENDANTE · BÉZIERS · MONTPELLIER · RODILHAN</span>
+        <h1 class="display">Votre bien, notre métier.</h1>
+      </div>
+      <div class="hero-foot">
+        <p class="lead">Vente, location et syndic de copropriété, de Béziers à Avignon. Une seule agence, un interlocuteur qui connaît votre dossier.</p>
+        <div class="hero-actions">
+          <a class="btn btn-navy" href="#annonces">Voir nos annonces</a>
+          <a class="text-link" href="#metiers">Confier mon bien</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-photo-wrap container">
+      <div class="placeholder hero-photo" role="img" aria-label="Emplacement photo : façade de l'agence de Béziers">
+        [PHOTO PLEINE LARGEUR : façade de l'agence ou rue de Béziers]
+      </div>
+      <form class="search" id="recherche" aria-label="Rechercher un bien" onsubmit="return false">
+        <div class="search-tabs">
+          <button type="button" data-mode="vente" aria-pressed="true">Acheter</button>
+          <button type="button" data-mode="location" aria-pressed="false">Louer</button>
+          <button type="button" data-mode="estimer" aria-pressed="false">Estimer</button>
+        </div>
+        <div class="search-fields">
+          <div class="field" id="field-ville">
+            <label for="ville">VILLE</label>
+            <select id="ville">
+              <option>Toutes les villes</option>
+              <option>Béziers</option>
+              <option>Montpellier</option>
+              <option>Nîmes</option>
+              <option>Avignon</option>
+              <option>Narbonne</option>
+              <option>Carcassonne</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="type">TYPE DE BIEN</label>
+            <select id="type">
+              <option>Tous les biens</option>
+              <option>Appartement</option>
+              <option>Maison</option>
+              <option>Immeuble</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="budget">BUDGET MAXIMUM</label>
+            <input id="budget" type="text" placeholder="Ex. 250 000 €">
+          </div>
+          <button type="submit" class="btn btn-navy" id="search-submit">Rechercher</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section container" id="metiers">
+      <div class="section-head">
+        <div class="stack-3">
+          <span class="label">VENTE · LOCATION · SYNDIC</span>
+          <h2 class="title">Quel est votre projet ?</h2>
+        </div>
+      </div>
+      <div class="profiles">
+        <div class="profile-tabs" role="group" aria-label="Choisir votre situation">
+          <button type="button" data-profile="bailleur" aria-pressed="true"><span>Propriétaire bailleur</span><svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="#6e5d33" stroke-width="1.5" aria-hidden="true"><path d="M0 6h26M21 1l5 5-5 5"/></svg></button>
+          <button type="button" data-profile="locataire" aria-pressed="false"><span>Locataire</span><svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="#6e5d33" stroke-width="1.5" aria-hidden="true"><path d="M0 6h26M21 1l5 5-5 5"/></svg></button>
+          <button type="button" data-profile="vendeur" aria-pressed="false"><span>Vendeur</span><svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="#6e5d33" stroke-width="1.5" aria-hidden="true"><path d="M0 6h26M21 1l5 5-5 5"/></svg></button>
+          <button type="button" data-profile="acquereur" aria-pressed="false"><span>Acquéreur</span><svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="#6e5d33" stroke-width="1.5" aria-hidden="true"><path d="M0 6h26M21 1l5 5-5 5"/></svg></button>
+          <button type="button" data-profile="copro" aria-pressed="false"><span>Copropriétaire</span><svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="#6e5d33" stroke-width="1.5" aria-hidden="true"><path d="M0 6h26M21 1l5 5-5 5"/></svg></button>
+        </div>
+        <div class="profile-panel" aria-live="polite">
+          <span class="label" id="panel-kicker">LOCATION</span>
+          <h3 id="panel-title">Mettez votre bien en location, l'esprit tranquille</h3>
+          <p class="muted" id="panel-text">Nous trouvons le locataire, rédigeons le bail et suivons votre bien au quotidien. À partir de 39,99 € par mois.</p>
+          <div class="profile-actions">
+            <a class="btn btn-navy" id="panel-a1" href="mailto:gestion@lotier-immobilier.com">Mettre mon bien en location</a>
+            <a class="text-link" id="panel-a2" href="#recherche">Estimer mon loyer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" aria-label="Chiffres clés">
+      <div class="stats">
+        <div class="stat"><strong>2018</strong><span>Création de l'agence par trois associés</span></div>
+        <div class="stat"><strong>40+</strong><span>Copropriétés en syndic</span></div>
+        <div class="stat"><strong>900+</strong><span>Lots gérés</span></div>
+        <div class="stat"><strong>10</strong><span>Collaborateurs, de la vente au syndic</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="annonces">
+      <div class="section-head">
+        <div class="stack-3">
+          <span class="label">NOS ANNONCES</span>
+          <h2 class="title">Les biens du moment</h2>
+        </div>
+        <a class="text-link" href="#annonces">Voir toutes les annonces</a>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="placeholder card-photo" role="img" aria-label="Emplacement photo de l'annonce 1">[PHOTO DE L'ANNONCE]</div>
+          <div class="card-body">
+            <span class="label">VENTE</span>
+            <h3 class="heading">[TYPE DE BIEN] · [VILLE]</h3>
+            <span class="muted">[SURFACE] m² · [PIÈCES] pièces</span>
+            <span class="price">[PRIX] €</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="placeholder card-photo" role="img" aria-label="Emplacement photo de l'annonce 2">[PHOTO DE L'ANNONCE]</div>
+          <div class="card-body">
+            <span class="label">LOCATION</span>
+            <h3 class="heading">[TYPE DE BIEN] · [VILLE]</h3>
+            <span class="muted">[SURFACE] m² · [PIÈCES] pièces</span>
+            <span class="price">[LOYER] € par mois</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="placeholder card-photo" role="img" aria-label="Emplacement photo de l'annonce 3">[PHOTO DE L'ANNONCE]</div>
+          <div class="card-body">
+            <span class="label">VENTE</span>
+            <h3 class="heading">[TYPE DE BIEN] · [VILLE]</h3>
+            <span class="muted">[SURFACE] m² · [PIÈCES] pièces</span>
+            <span class="price">[PRIX] €</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" aria-label="Nos agences">
+      <div class="agencies">
+        <div class="stack-4" style="max-width:520px">
+          <span class="label">NOS AGENCES</span>
+          <h2 class="title">Une agence locale, de Béziers à Avignon</h2>
+          <p class="muted" style="margin:0">Trois agences et des agents partout en Languedoc, dans la vallée du Rhône et sur le couloir de l'Aude.</p>
+        </div>
+        <ul class="agency-list">
+          <li><span class="city">Béziers</span><span class="small muted">40 rue Française, 34500</span></li>
+          <li><span class="city">Montpellier</span><span class="small muted">[ADRESSE À COMPLÉTER], 34000</span></li>
+          <li><span class="city">Rodilhan</span><span class="small muted">[ADRESSE À COMPLÉTER], 30230</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container" id="avis" aria-label="Avis clients">
+      <div class="section-head">
+        <div class="stack-3">
+          <span class="label">AVIS CLIENTS</span>
+          <h2 class="title">Ils nous ont fait confiance</h2>
+        </div>
+        <a class="text-link" href="#avis">Voir tous les avis</a>
+      </div>
+      <div class="cards">
+        <figure class="quote">
+          <blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote>
+          <figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote>
+          <figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote>
+          <figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section container" aria-label="Actualités">
+      <div class="section-head">
+        <div class="stack-3">
+          <span class="label">ACTUALITÉS</span>
+          <h2 class="title">L'actu immo de la semaine</h2>
+        </div>
+        <a class="text-link" href="#top">Toutes les actualités</a>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="placeholder card-wide" role="img" aria-label="Emplacement visuel de l'article 1">[VISUEL]</div>
+          <div class="card-body"><span class="label">[CATÉGORIE] · [DATE]</span><h3 class="heading">[TITRE DE L'ARTICLE]</h3></div>
+        </article>
+        <article class="card">
+          <div class="placeholder card-wide" role="img" aria-label="Emplacement visuel de l'article 2">[VISUEL]</div>
+          <div class="card-body"><span class="label">[CATÉGORIE] · [DATE]</span><h3 class="heading">[TITRE DE L'ARTICLE]</h3></div>
+        </article>
+        <article class="card">
+          <div class="placeholder card-wide" role="img" aria-label="Emplacement visuel de l'article 3">[VISUEL]</div>
+          <div class="card-body"><span class="label">[CATÉGORIE] · [DATE]</span><h3 class="heading">[TITRE DE L'ARTICLE]</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="agents">
+      <div class="recruit">
+        <div class="recruit-text">
+          <span class="label">DEVENIR AGENT</span>
+          <h2 class="title">Devenez agent immobilier indépendant</h2>
+          <p class="muted">Une offre clé en main pour exercer à votre compte, avec les outils, la formation et le réseau d'une agence indépendante.</p>
+        </div>
+        <a class="text-link" href="mailto:contact@lotier-immobilier.com">Découvrir l'offre</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-intro">
+          <h2>Parlons de votre projet.</h2>
+          <p class="lead">Vente, location ou syndic : écrivez-nous, un conseiller vous répond rapidement.</p>
+          <div><a class="btn btn-light" href="mailto:contact@lotier-immobilier.com">Écrire à l'agence</a></div>
+        </div>
+        <dl class="contact-details">
+          <div><dt>BÉZIERS · SIÈGE</dt><dd>LOTIER Immobilier<br>40 rue Française<br>34500 Béziers</dd></div>
+          <div><dt>MONTPELLIER</dt><dd>LOTIER Immobilier<br>[ADRESSE À COMPLÉTER]<br>34000 Montpellier</dd></div>
+          <div><dt>RODILHAN</dt><dd>LOTIER Immobilier<br>[ADRESSE À COMPLÉTER]<br>30230 Rodilhan</dd></div>
+          <div><dt>CONTACT</dt><dd><a href="tel:+33467112831">04 67 11 28 31</a><br><a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></dd></div>
+          <div><dt>HORAIRES</dt><dd>[HORAIRES À CONFIRMER]<br>Fermé le samedi, le dimanche et les jours fériés</dd></div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <nav class="footer-nav" aria-label="Informations légales">
+      <a href="#top">Nos honoraires</a>
+      <a href="#top">Conditions générales de vente</a>
+      <a href="#top">Mentions légales</a>
+      <a href="#top">Questions fréquentes</a>
+      <a href="#top">Données personnelles</a>
+      <a href="#top">Facebook</a>
+      <a href="#top">Instagram</a>
+    </nav>
+    <div class="legal">
+      <p class="small muted">SARL LOTIER, SIRET 452 117 294 00044. Carte professionnelle CPI3401 2016 000 014 824. Garantie financière : SOCAF, n° 105 708 080. 40 rue Française, 34500 Béziers.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
