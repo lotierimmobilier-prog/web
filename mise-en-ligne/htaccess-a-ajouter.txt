@@ -1,0 +1,24 @@
+# ============================================================
+# À AJOUTER dans /.htaccess de la RACINE, tout en haut, AVANT "# BEGIN WordPress"
+# Sauvegarder l'ancien .htaccess avant (copie : htaccess-sauvegarde-AAAA-MM-JJ.txt)
+# Si erreur 500 : remettre la sauvegarde.
+# Voir aussi audit-lotier/3-htaccess.txt (en-têtes de sécurité, cache, compression).
+# ============================================================
+
+# La page d'accueil statique passe avant celle de WordPress
+DirectoryIndex index.html index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Anciennes pages remplacées par la v2 (redirections permanentes)
+RewriteRule ^nos-biens/?$                 /biens/                       [R=301,L]
+RewriteRule ^syndic-de-copropriete/?$     /syndic/                      [R=301,L]
+RewriteRule ^gestion-locative-lotier/?$   /gestion-locative-occitanie/  [R=301,L]
+RewriteRule ^mentions-legales-2/?$        /mentions-legales/            [R=301,L]
+
+# Les pages suivantes RESTENT sur WordPress et ne bougent pas :
+#   /propriete/*  (fiches des biens), /mentions-legales/, /faq/, /gestion/, /mandataire/ …,
+#   /lotier-immobilier-accueil/page-de-connexion-ics-lotier/, /wp-admin/, /wp-content/
+# /recrutement/ reste le dossier existant qui renvoie vers rejoindre.lotier-immobilier.com
+</IfModule>
