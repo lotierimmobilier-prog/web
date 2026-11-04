@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lotier Immobilier | Agence immobilière en Occitanie</title>
+<meta name="description" content="Agence immobilière en Occitanie : vente, gestion locative et syndic à Montpellier, Nîmes, Béziers et Carcassonne. Appelez le 04 67 11 28 31.">
+<link rel="canonical" href="https://www.lotier-immobilier.com/v2/">
+<meta name="robots" content="noindex, nofollow"><!-- version de test : retirer à la mise en ligne -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lotier Immobilier – Agence en Occitanie">
+<meta property="og:description" content="Vente, gestion locative et syndic à Montpellier, Nîmes, Béziers et Carcassonne.">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Lotier Immobilier","url":"https://www.lotier-immobilier.com/","telephone":"+33467112831","email":"contact@lotier-immobilier.com","address":{"@type":"PostalAddress","streetAddress":"38/40 rue Française","postalCode":"34500","addressLocality":"Béziers","addressCountry":"FR"},"areaServed":[{"@type":"City","name":"Montpellier"},{"@type":"City","name":"Nîmes"},{"@type":"City","name":"Béziers"},{"@type":"City","name":"Carcassonne"},{"@type":"City","name":"Narbonne"},{"@type":"City","name":"Avignon"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"09:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"14:00","closes":"18:00"}]}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="./">Lotier <span>Immobilier</span></a>
+  <nav aria-label="Navigation principale">
+    <a href="biens/">Nos biens</a>
+    <a href="carte/">Carte</a>
+    <a href="estimer/">Estimer</a>
+    <a href="syndic/">Syndic</a>
+    <a href="actualites/">Actualités</a>
+    <a href="contact/">Contact</a>
+    <a href="favoris/">♡ Favoris</a>
+    <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
+  </nav>
+</header>
+<main id="contenu">
+  <section class="hero has-fig"><div>
+    <h1>Votre agence immobilière en <em>Occitanie</em></h1>
+    <p>Vente, gestion locative et syndic de copropriété à Montpellier, Nîmes, Béziers et Carcassonne.</p>
+        <form class="search" action="biens/" method="get">
+      <div class="tabs" role="radiogroup" aria-label="Projet">
+        <label><input type="radio" name="type" value="location" checked> Louer</label>
+        <label><input type="radio" name="type" value="vente"> Acheter</label>
+        <a href="estimer/">Estimer</a>
+      </div>
+      <div class="fields">
+        <label>Ville
+          <select name="ville"><option value="">Toutes les villes</option><option>Montpellier</option><option>Nîmes</option><option>Béziers</option><option>Carcassonne</option></select>
+        </label>
+        <label>Budget maximum
+          <select name="max"><option value="">Sans limite</option><option value="600">600 €</option><option value="1000">1 000 €</option><option value="100000">100 000 €</option><option value="200000">200 000 €</option><option value="400000">400 000 €</option></select>
+        </label>
+        <button class="btn" type="submit">Rechercher</button>
+      </div>
+    </form>
+  </div><img class="fig" src="img/hero-facades.svg" alt="" width="560" height="360"></section>
+
+  <section id="villes" class="wrap">
+    <h2>Nos villes</h2>
+    <ul class="cities">
+      <li><a href="villes/montpellier/"><span class="n">Montpellier</span><span class="d">Hérault</span></a></li>
+      <li><a href="villes/nimes/"><span class="n">Nîmes</span><span class="d">Gard</span></a></li>
+      <li><a href="villes/beziers/"><span class="n">Béziers</span><span class="d">Hérault · notre agence</span></a></li>
+      <li><a href="villes/carcassonne/"><span class="n">Carcassonne</span><span class="d">Aude</span></a></li>
+    </ul>
+  <p class="note wrap0">Nous intervenons aussi à <a href="villes/narbonne/">Narbonne</a> et <a href="villes/avignon/">Avignon</a>.</p>
+  </section>
+
+  <section id="biens" class="wrap" data-biens data-limit="6" data-src="data/biens.json">
+    <h2>Nos dernières annonces</h2>
+    <div class="biens-liste"></div>
+    <p><a class="btn" href="biens/">Voir tous nos biens</a></p>
+  </section>
+
+  <section id="metiers" class="wrap">
+    <h2>Nos métiers</h2>
+    <div class="tiles">
+      <a class="tile t1" href="biens/?type=location"><img src="img/metier-location.svg" alt="" width="56" height="56"><span>Location</span><small>Trouver un logement</small></a>
+      <a class="tile t2" href="gestion-locative-occitanie/"><img src="img/metier-gestion.svg" alt="" width="56" height="56"><span>Gestion</span><small>Déléguer vos locations</small></a>
+      <a class="tile t3" href="biens/?type=vente"><img src="img/metier-transaction.svg" alt="" width="56" height="56"><span>Transaction</span><small>Acheter ou vendre</small></a>
+      <a class="tile t4" href="syndic/"><img src="img/metier-syndic.svg" alt="" width="56" height="56"><span>Syndic</span><small>Gérer votre immeuble</small></a>
+    </div>
+  </section>
+
+  <section id="agence" class="wrap">
+    <h2>Notre agence de Béziers</h2>
+    <address>
+      38/40 rue Française, 34500 Béziers<br>
+      Lundi, mardi, mercredi et vendredi<br>
+      9h00 – 12h00 / 14h00 – 18h00<br>
+      <a href="tel:+33467112831">04 67 11 28 31</a> · <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>
+    </address>
+  </section>
+
+  <section id="contact" class="wrap">
+    <h2>Une question ?</h2>
+    <p>Écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou <a href="contact/">utilisez le formulaire</a>.</p>
+  </section>
+</main>
+<footer>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="espace-client/">Espace client Gestion / Syndic</a> · <a href="gestion-locative-occitanie/">Gestion locative</a> · <a href="devenir-agent/">Devenir agent</a></p>
+<p class="villes-pied"><a href="villes/beziers/">Béziers</a> · <a href="villes/montpellier/">Montpellier</a> · <a href="villes/nimes/">Nîmes</a> · <a href="villes/carcassonne/">Carcassonne</a> · <a href="villes/narbonne/">Narbonne</a> · <a href="villes/avignon/">Avignon</a></p>
+</footer>
+<script src="biens.js" defer></script>
+</body>
+</html>
