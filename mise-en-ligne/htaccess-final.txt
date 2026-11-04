@@ -1,0 +1,62 @@
+# ================================================================
+# BLOC À AJOUTER TOUT EN HAUT du fichier /.htaccess de la racine,
+# AVANT la ligne "# BEGIN WordPress".  (remplace htaccess-a-ajouter.txt)
+#
+# 1. Télécharger l'ancien .htaccess et le garder (sauvegarde).
+# 2. Coller ce bloc en haut, enregistrer, recharger le site.
+# 3. En cas d'erreur 500 : remettre la sauvegarde (un module manque probablement).
+# ================================================================
+
+# --- Page d'accueil statique avant celle de WordPress
+DirectoryIndex index.html index.php
+
+# --- Redirections permanentes des anciennes pages
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^nos-biens/?$                 /biens/                       [R=301,L]
+RewriteRule ^syndic-de-copropriete/?$     /syndic/                      [R=301,L]
+RewriteRule ^gestion-locative-lotier/?$   /gestion-locative-occitanie/  [R=301,L]
+RewriteRule ^mentions-legales-2/?$        /mentions-legales/            [R=301,L]
+</IfModule>
+# Restent sur WordPress, sans changement : /propriete/* (fiches), /faq/, /gestion/, /mandataire/ …,
+# /lotier-immobilier-accueil/page-de-connexion-ics-lotier/, /wp-admin/, /wp-content/.
+# /mentions-legales/ est désormais la page statique (le dossier remplace la page WordPress).
+# /recrutement/ (dossier existant vers rejoindre.lotier-immobilier.com) n'est pas touché.
+
+# --- En-têtes de sécurité (sans HSTS includeSubDomains : le sous-domaine "rejoindre" est en http)
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header unset X-Powered-By
+</IfModule>
+
+# --- Fichiers sensibles / informatifs
+<FilesMatch "^(readme\.html|license\.txt|wp-config\.php|xmlrpc\.php)$">
+  Require all denied
+</FilesMatch>
+
+# --- Le script de synchro ne doit pas être appelé depuis le web (il se protège aussi lui-même)
+<Files "sync-biens.php">
+  Require all denied
+</Files>
+
+# --- Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# --- Cache navigateur (les annonces data/biens.json restent fraîches : 1 heure)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png  "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/json "access plus 1 hour"
+</IfModule>

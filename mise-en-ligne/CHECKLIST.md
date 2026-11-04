@@ -28,10 +28,10 @@ python3 scripts/check_links.py release
 
 ## 3. Déposer sur l'hébergement
 - [ ] Comparer les dossiers de `release/` avec ceux déjà présents à la racine du serveur
-      (`actualites, biens, carte, contact, data, devenir-agent, espace-client, estimer, favoris, gestion-locative-occitanie, img, syndic, vendor, villes`).
+      (`actualites, biens, carte, contact, data, devenir-agent, espace-client, estimer, favoris, fonts, gestion-locative-occitanie, img, mentions-legales, syndic, vendor, villes`).
       **Ne jamais écraser un dossier existant** sans l'avoir regardé (ex. `/recrutement/` existe déjà et n'est volontairement pas touché).
 - [ ] Téléverser le **contenu** de `release/` à la racine (FTP / gestionnaire de fichiers), dont `index.html`, `biens.js`, `carte.js`, `style.css`, `contact/envoyer.php`.
-- [ ] Ajouter `htaccess-a-ajouter.txt` en tête du `.htaccess` (+ en-têtes de sécurité de `audit-lotier/3-htaccess.txt`).
+- [ ] Ajouter `htaccess-final.txt` en tête du `.htaccess` (+ en-têtes de sécurité de `audit-lotier/3-htaccess.txt`).
 - [ ] Ajouter `audit-lotier/4-securite-wordpress.php` dans `wp-content/mu-plugins/` (ferme l'API des utilisateurs, XML-RPC).
 
 ## 4. Tests juste après la mise en ligne (5 minutes)
