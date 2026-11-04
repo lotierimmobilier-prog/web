@@ -72,8 +72,11 @@
         var o = el('option', null, v + ' (' + counts[v] + ')'); o.value = v; sel.appendChild(o);
       });
       root.querySelectorAll('[data-f]').forEach(function (i) { i.addEventListener('change', filter); });
-      var t = new URLSearchParams(location.search).get('type');
-      if (t) root.querySelector('[data-f="type"]').value = t;
+      var q = new URLSearchParams(location.search);
+      ['type', 'ville', 'max'].forEach(function (k) {
+        var v = q.get(k), s = root.querySelector('[data-f="' + k + '"]');
+        if (v && s) s.value = v;
+      });
       filter();
     } else { render(all); }
   }).catch(function () {

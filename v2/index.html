@@ -31,7 +31,22 @@
   <section class="hero">
     <h1>Votre agence immobilière en <em>Occitanie</em></h1>
     <p>Vente, gestion locative et syndic de copropriété à Montpellier, Nîmes, Béziers et Carcassonne.</p>
-    <p><a class="btn" href="#contact">Nous contacter</a> <a class="btn ghost" href="biens/">Voir nos biens</a></p>
+        <form class="search" action="biens/" method="get">
+      <div class="tabs" role="radiogroup" aria-label="Projet">
+        <label><input type="radio" name="type" value="location" checked> Louer</label>
+        <label><input type="radio" name="type" value="vente"> Acheter</label>
+        <a href="#contact">Estimer</a>
+      </div>
+      <div class="fields">
+        <label>Ville
+          <select name="ville"><option value="">Toutes les villes</option><option>Montpellier</option><option>Nîmes</option><option>Béziers</option><option>Carcassonne</option></select>
+        </label>
+        <label>Budget maximum
+          <select name="max"><option value="">Sans limite</option><option value="600">600 €</option><option value="1000">1 000 €</option><option value="100000">100 000 €</option><option value="200000">200 000 €</option><option value="400000">400 000 €</option></select>
+        </label>
+        <button class="btn" type="submit">Rechercher</button>
+      </div>
+    </form>
   </section>
 
   <section id="villes" class="wrap">
@@ -52,10 +67,11 @@
 
   <section id="metiers" class="wrap">
     <h2>Nos métiers</h2>
-    <div class="cards">
-      <article><h3>Vente et achat</h3><p>Maison, immeuble de rapport, appartement : nous vous accompagnons de l'estimation à la signature.</p></article>
-      <article><h3>Gestion locative</h3><p>Dès 39,99 € par mois. Lois, fiscalité, impayés : ne restez pas seul face à la réglementation.</p></article>
-      <article><h3>Syndic de copropriété</h3><p>Une gestion claire des parties communes de votre immeuble.</p></article>
+    <div class="tiles">
+      <a class="tile t1" href="biens/?type=location"><span>Location</span><small>Trouver un logement</small></a>
+      <a class="tile t2" href="#contact"><span>Gestion</span><small>Déléguer vos locations</small></a>
+      <a class="tile t3" href="biens/?type=vente"><span>Transaction</span><small>Acheter ou vendre</small></a>
+      <a class="tile t4" href="#contact"><span>Syndic</span><small>Gérer votre immeuble</small></a>
     </div>
   </section>
 

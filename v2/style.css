@@ -47,3 +47,19 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3
 .note{color:var(--muted);font-size:.9rem}
 nav a[aria-current]{border-bottom:2px solid var(--accent)}
 main.wrap{border-top:0}
+
+.search{margin-top:32px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tabs{display:flex;border-bottom:1px solid var(--line)}
+.tabs label,.tabs a{flex:1;text-align:center;padding:14px 8px;cursor:pointer;font-weight:600;color:var(--muted);text-decoration:none}
+.tabs input{position:absolute;opacity:0}
+.tabs label:has(input:checked){color:var(--accent);box-shadow:inset 0 -3px var(--accent)}
+.tabs label:has(input:focus-visible){outline:3px solid var(--ink);outline-offset:-3px}
+.fields{display:grid;grid-template-columns:1fr 1fr auto;gap:16px;padding:20px;align-items:end}
+.fields label{display:flex;flex-direction:column;gap:4px;font-size:.9rem;color:var(--muted)}
+.fields select{font:inherit;color:var(--ink);padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:#fff}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.tile{display:flex;flex-direction:column;justify-content:flex-end;min-height:160px;padding:20px;border-radius:12px;color:#fff;text-decoration:none;transition:filter .15s ease}
+.tile:hover{filter:brightness(1.08)}
+.tile span{font:600 1.4rem Georgia,serif}.tile small{opacity:.9}
+.t1{background:#7a4a22}.t2{background:#4f5d3a}.t3{background:#2f4a63}.t4{background:#5b3a4f}
+@media(max-width:640px){.fields{grid-template-columns:1fr}}
