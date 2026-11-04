@@ -10,12 +10,12 @@ Seules la page d'accueil et les nouvelles pages (liste dans `release/`) sont ser
 - [ ] Choisir un moment calme (soir ou week-end).
 
 ## 1. À compléter / décider (bloquant)
-- [ ] **Mentions légales** : éditeur, SIRET/RCS, carte professionnelle, garantie financière, assurance RCP, hébergeur, médiateur (modèle : `audit-lotier/2-mentions-legales.md`). À corriger sur la page WordPress `/mentions-legales/`.
+- [x] **Mentions légales** : reprises du site actuel dans `mentions-legales/` (SIRET, carte pro, garanties, médiateur). À corriger : la phrase CNIL « via la société , » (nom vide à la source), l'hébergeur (absent), le RCS.
 - [ ] **Page Estimer** : coller le code de l'outil d'estimation dans `estimer/index.html` (repère « COLLER ICI »).
 - [ ] **Devenir agent** : compléter statut / rémunération / formation dans `devenir-agent/index.html`. La page renvoie vers `rejoindre.lotier-immobilier.com` : vérifier que le lien fonctionne (https).
 - [ ] **Relire les 3 articles** de `actualites/` et la page `gestion-locative-occitanie/`.
 - [ ] **Adresses des autres agences** (Montpellier, Nîmes, Carcassonne…) si elles existent.
-- [ ] **Favicon et image de partage** (1200×630) : à fournir.
+- [x] Logo, favicon et image de partage : en place (`v2/img/`). Les photos d'ambiance sont générées par IA : voir `v2/img/CREDITS.md` ; les remplacer par de vraies photos de la région/de l'agence dès que possible.
 - [ ] Vérifier les positions de `data/communes.json` (petites communes approximatives).
 - [ ] Politique de confidentialité (`/politique-de-confidentialite/` renvoie 404 aujourd'hui) : à créer (Complianz peut la générer).
 
@@ -28,10 +28,10 @@ python3 scripts/check_links.py release
 
 ## 3. Déposer sur l'hébergement
 - [ ] Comparer les dossiers de `release/` avec ceux déjà présents à la racine du serveur
-      (`actualites, biens, carte, contact, data, devenir-agent, espace-client, estimer, favoris, gestion-locative-occitanie, img, syndic, vendor, villes`).
+      (`actualites, biens, carte, contact, data, devenir-agent, espace-client, estimer, favoris, fonts, gestion-locative-occitanie, img, mentions-legales, syndic, vendor, villes`).
       **Ne jamais écraser un dossier existant** sans l'avoir regardé (ex. `/recrutement/` existe déjà et n'est volontairement pas touché).
 - [ ] Téléverser le **contenu** de `release/` à la racine (FTP / gestionnaire de fichiers), dont `index.html`, `biens.js`, `carte.js`, `style.css`, `contact/envoyer.php`.
-- [ ] Ajouter `htaccess-a-ajouter.txt` en tête du `.htaccess` (+ en-têtes de sécurité de `audit-lotier/3-htaccess.txt`).
+- [ ] Ajouter `htaccess-final.txt` en tête du `.htaccess` (+ en-têtes de sécurité de `audit-lotier/3-htaccess.txt`).
 - [ ] Ajouter `audit-lotier/4-securite-wordpress.php` dans `wp-content/mu-plugins/` (ferme l'API des utilisateurs, XML-RPC).
 
 ## 4. Tests juste après la mise en ligne (5 minutes)
@@ -55,5 +55,7 @@ python3 scripts/check_links.py release
 3. Restaurer la sauvegarde si besoin.
 
 ## 7. Entretien
-- Annonces : relancer `scrape_biens.py` puis téléverser `data/biens.json` (ou me demander d'automatiser).
+- **Annonces, mise à jour automatique** : téléverser `sync-biens.php` à la racine, puis créer une tâche planifiée (cron) chez l'hébergeur, par exemple toutes les heures :
+  `php /chemin/du/site/sync-biens.php` (le fichier refuse de s'exécuter depuis un navigateur, et garde l'ancien `data/biens.json` si le résultat est vide ou suspect).
+- Le dossier `data/` doit être inscriptible par PHP.
 - Limite connue : les fiches détail et les pages WordPress gardent l'ancien habillage tant qu'elles ne sont pas refaites.
