@@ -22,6 +22,7 @@
   <nav aria-label="Navigation principale">
     <a href="#villes">Nos villes</a>
     <a href="#metiers">Nos métiers</a>
+    <a href="biens/">Nos biens</a>
     <a href="#agence">L'agence</a>
     <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
   </nav>
@@ -30,7 +31,7 @@
   <section class="hero">
     <h1>Votre agence immobilière en <em>Occitanie</em></h1>
     <p>Vente, gestion locative et syndic de copropriété à Montpellier, Nîmes, Béziers et Carcassonne.</p>
-    <p><a class="btn" href="#contact">Nous contacter</a> <a class="btn ghost" href="https://www.lotier-immobilier.com/nos-biens/">Voir nos biens</a></p>
+    <p><a class="btn" href="#contact">Nous contacter</a> <a class="btn ghost" href="biens/">Voir nos biens</a></p>
   </section>
 
   <section id="villes" class="wrap">
@@ -41,6 +42,12 @@
       <li><a href="#contact"><span class="n">Béziers</span><span class="d">Hérault · notre agence</span></a></li>
       <li><a href="#contact"><span class="n">Carcassonne</span><span class="d">Aude</span></a></li>
     </ul>
+  </section>
+
+  <section id="biens" class="wrap" data-biens data-limit="6" data-src="data/biens.json">
+    <h2>Nos dernières annonces</h2>
+    <div class="biens-liste"></div>
+    <p><a class="btn" href="biens/">Voir tous nos biens</a></p>
   </section>
 
   <section id="metiers" class="wrap">
@@ -70,5 +77,6 @@
 <footer>
   <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a></p>
 </footer>
+<script src="biens.js" defer></script>
 </body>
 </html>

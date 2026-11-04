@@ -1,0 +1,1154 @@
+{
+ "maj": "2026-11-04T10:00:56+00:00",
+ "biens": [
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-avec-terrasse/",
+   "titre": "Maison de village avec terrasse",
+   "ville": "Capendu",
+   "type": "location",
+   "prix": 750.0,
+   "surface": 95.0,
+   "chambres": 4,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/11/photo_a014dafb1f8f3f26691d0a4c8a9fdec3-17363-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-renovee-avec-climatisation-louee-meublee/",
+   "titre": "Maison de village rénovée avec climatisation louée meublée",
+   "ville": "Conques-sur-Orbiel",
+   "type": "location",
+   "prix": 650.0,
+   "surface": 81.5,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_2e416718381fd8ac31e1b34cc2aa4645-17341-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/studio-spacieux-au-centre-de-limoux-2/",
+   "titre": "Studio Spacieux au Centre de Limoux",
+   "ville": "Limoux",
+   "type": "location",
+   "prix": 465.0,
+   "surface": 68.0,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_3b61885c5c9cca1ce1cd4bb85e9a8ed5-17330-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/",
+   "titre": "À LOUER LOCAL COMMERCIAL AVEC MEZZANINE ENTRE BÉZIERS ET",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 210.0,
+   "surface": 20.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_062cac32865290492850c77a7e61bc9f-17322-0-1024x986.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-t1-narbonne-centre-historique-382-m2/",
+   "titre": "Appartement T1 Narbonne centre historique 38,2 m2",
+   "ville": "Narbonne",
+   "type": "location",
+   "prix": 500.0,
+   "surface": 38.2,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_2f135dca2ee7f40632c581863ff06c12-17311-0-1024x768.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/",
+   "titre": "À LOUER APPARTEMENT T2 BOULEVARD DE LA LIBERTÉ BÉZIERS",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 430.0,
+   "surface": 44.06,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_3b04888a8fec86deb04eca04bb96513e-17294-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/investissement-nimes-murs-commerciaux-studio-loue-111/",
+   "titre": "Investissement Nîmes Murs commerciaux + studio loué 111",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 261000.0,
+   "surface": 111.36,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_ac954bccf76631582a662aa834c9d5c4-17285-0-1024x768.png",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/",
+   "titre": "NÎMES – A LOUER – STUDIO – 14,99M2 – CENTRE VILLE PROCHE FAC",
+   "ville": "Nîmes",
+   "type": "location",
+   "prix": 415.0,
+   "surface": 14.99,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_483e352dc35c2083d5b220cff05e50c2-17280-1-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/",
+   "titre": "À VENDRE MAISON DE VILLAGE D’ENVIRON 190 M2 AVEC EXTÉRIEUR",
+   "ville": "Villeneuve-lès-Béziers",
+   "type": "vente",
+   "prix": 174000.0,
+   "surface": 191.0,
+   "chambres": 4,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_5db3e78f658539b764d08caa6277b67d-17255-0-768x1024.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-t4-non-meuble-centre-ville-carcassonne/",
+   "titre": "Appartement T4 non meublé – centre ville Carcassonne",
+   "ville": "Carcassonne",
+   "type": "location",
+   "prix": 800.0,
+   "surface": 106.58,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_c9fdaf2efb89efa604344375e1e0f47b-17239-0-1024x768.png",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/local-commercial-boulevard-de-geneve/",
+   "titre": "LOCAL COMMERCIAL BOULEVARD DE GENÈVE",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 450.0,
+   "surface": 77.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_c50f8632ee1876b29a2cdd200315a6de-17225-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/",
+   "titre": "À VENDRE APPARTEMENT T3 LUMINEUX SECTEUR GARE / MARÉCHAL",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 76000.0,
+   "surface": 53.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_86988b4e94be48b3bd164b43d1835e43-17192-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/",
+   "titre": "ALES maison des années 60 de 90 m2 avec jardin et parking 4",
+   "ville": "Alès",
+   "type": "vente",
+   "prix": 164300.0,
+   "surface": 89.0,
+   "chambres": 4,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_41d35fbc4c4f19326a1e631d73bdc70b-17180-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/",
+   "titre": "Nîmes Costières appartement type 3 avec terrasse et garage",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 250000.0,
+   "surface": 84.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_3beac2b52042d6ff7da0b0e56057da7d-17164-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/",
+   "titre": "BAISSE DE PRIX – MEYNES – MAISON DE VILLAGE – 87,16M2 – 2 CH",
+   "ville": "Meynes",
+   "type": "vente",
+   "prix": 243000.0,
+   "surface": 87.16,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_95fa3a577174933bad0600f894b44369-17150-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/",
+   "titre": "À LOUER APPARTEMENT T3 SPACIEUX EN CENTRE-VILLE HISTORIQUE",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 533.0,
+   "surface": 65.17,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_caa05b5875599e8106be13f7502a83ba-17139-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-appartement-t3-spacieux-en-centre-ville-historique/",
+   "titre": "À LOUER APPARTEMENT T3 SPACIEUX EN CENTRE-VILLE HISTORIQUE",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 504.0,
+   "surface": 57.12,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_704f2474d83cb7ea4cd942346abf44b8-17128-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-t2-meuble-a-capendu/",
+   "titre": "Appartement T2 meublé à Capendu",
+   "ville": "Capendu",
+   "type": "location",
+   "prix": 450.0,
+   "surface": 33.4,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_0da834e63122eed80405220cdb16cfc1-17121-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/",
+   "titre": "Clarensac dans la vaunage entre Nîmes et Montpellier maison",
+   "ville": "Clarensac",
+   "type": "vente",
+   "prix": 320000.0,
+   "surface": 127.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_19ca5eea93cb87319f370d0a3d4a2ec8-17106-0-768x1024.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/",
+   "titre": "A VENDRE BEZIERS QUARTIER CATHEDRALE (34) IMMEUBLE A FORT",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 263000.0,
+   "surface": 185.0,
+   "chambres": 5,
+   "sdb": 4,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_cf7d81df6d3671cab0aee11ab0307bb8-17096-0-768x1024.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/",
+   "titre": "A VENDRE BEZIERS QUARTIER CATHEDRALE (34) IMMEUBLE A FORT",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 357000.0,
+   "surface": 185.0,
+   "chambres": 5,
+   "sdb": 4,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_272d58522bd27a53a948c6a78e70cb7e-17092-0.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/",
+   "titre": "A LOUER BÉZIERS CENTRE-VILLE (34) APPARTEMENT T3 BIS AVE",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 635.0,
+   "surface": 54.9,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_b2f615ae88d50a7063a12688dab4ce3d-17084-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/studio-spacieux-au-centre-de-limoux/",
+   "titre": "Studio Spacieux au Centre de Limoux",
+   "ville": "Limoux",
+   "type": "location",
+   "prix": 465.0,
+   "surface": 68.0,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/10/photo_4b0bb1f424a9d0188418070d777ec567-17073-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/bel-appartement-de-115m2-avec-terrasse-a-capendu/",
+   "titre": "Bel appartement de 115m2 avec terrasse à Capendu",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 145000.0,
+   "surface": 115.8,
+   "chambres": 3,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_2f41356aa9527acd55ba263ebe80c35d-16988-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/",
+   "titre": "CAPENDU STUDIO MEUBLÉ VENDU LOUÉ TERRASSE RENTA BRUTE",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 54000.0,
+   "surface": 27.4,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_2dfaae96bb358b78c9cbcfb65fd9378f-16978-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/",
+   "titre": "SAINT-CHRISTOL-LÈS-ALÈS 121,44 M2 2 LOTS TERRASSE 26 M",
+   "ville": "Saint-Christol-lez-Alès",
+   "type": "vente",
+   "prix": 122000.0,
+   "surface": 136.39,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_8f512d4af57105a5728545926f908897-16947-0-1024x768.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/montpellier-estanove-appartement-2-chambres-ideal-etud/",
+   "titre": "MONTPELLIER ESTANOVE APPARTEMENT 2 CHAMBRES IDÉAL ÉTUD",
+   "ville": "Montpellier",
+   "type": "location",
+   "prix": 850.0,
+   "surface": 70.26,
+   "chambres": 2,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_ea5047b34cd0d3b94ed30bc464a8f9b1-16940-1-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/",
+   "titre": "NOUVEAUTÉ À CAPENDU MAISON 140 M2 AVEC PISCINE, GARAGE ET",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 224000.0,
+   "surface": 140.0,
+   "chambres": 3,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_e3aec539b13322fe3b275f388c2bd394-16916-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-a-vendre-fond-de-commerce-restaurant/",
+   "titre": "NIMES – À VENDRE FOND DE COMMERCE RESTAURANT",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 365000.0,
+   "surface": 155.21,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_ea4e5da8b0807a68cf382a543f9e50be-16890-0-1024x768.jpg",
+   "badges": [
+    "Vente-fonds-de-commerce"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-vendue-louee-et-meublee-investissement-locatif-cle/",
+   "titre": "Maison vendue louée et meublée Investissement locatif clé",
+   "ville": "Pezens",
+   "type": "vente",
+   "prix": 89000.0,
+   "surface": 81.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_c2d8ea07743e916de608a5d51240992d-16876-0-1024x768.png",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/",
+   "titre": "TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin",
+   "ville": "Trèbes",
+   "type": "vente",
+   "prix": 207000.0,
+   "surface": 105.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d28962d1edbb7d04a8c194be73611c99-16852-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/",
+   "titre": "Montpellier Appartement 2 pièces avec cave et cour privati",
+   "ville": "Montpellier",
+   "type": "vente",
+   "prix": 155000.0,
+   "surface": 52.0,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_4928909cfed9936b2b509e23d9cc5e92-16842-0-1024x576.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-t2-dans-residence-livree-en-2025/",
+   "titre": "Appartement T2 dans résidence livrée en 2025",
+   "ville": "Montpellier",
+   "type": "vente",
+   "prix": 190000.0,
+   "surface": 42.89,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_771f906c714c810eeee15a6d556d7600-16792-0-1024x575.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/terrain-agricole-de-plus-de-8000m2-a-douzens/",
+   "titre": "Terrain agricole de plus de 8000m2 à Douzens",
+   "ville": "Douzens",
+   "type": "vente",
+   "prix": 5000.0,
+   "surface": 8741.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_2cbcc96ec93b82e1cef284a9daa12113-16779-0.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/",
+   "titre": "À LOUER APPARTEMENT T2 DE 31 M2 EN CENTRE-VILLE HISTORIQUE",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 394.0,
+   "surface": 32.75,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_74670d7b62d31570841851f30325b7ce-16770-0-768x1024.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/",
+   "titre": "CAVEIRAC T2 NEUF AVEC 153 M2 DE JARDIN ET FRAIS DE NOTAIRE",
+   "ville": "Caveirac",
+   "type": "vente",
+   "prix": 230000.0,
+   "surface": 45.92,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_b5022590b601da84756644b0c3b2e3ca-16764-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/",
+   "titre": "CAVEIRAC T2 NEUF AVEC PATIO PRIVATIF ET FRAIS DE NOTAIRE R",
+   "ville": "Caveirac",
+   "type": "vente",
+   "prix": 220000.0,
+   "surface": 45.78,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_af0b6b8979c4ab89f2f4bde3b7a14fb6-16758-0-1024x374.jpg",
+   "badges": [
+    "Vente de prestige"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/",
+   "titre": "L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d",
+   "ville": "Caveirac",
+   "type": "vente",
+   "prix": 360000.0,
+   "surface": 80.34,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_bf6e3ece97381148a1c475ba3798fd1d-16752-0.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/",
+   "titre": "Coup de coeur à Calvisson : Villa T4 de 2016 avec jardin, gar",
+   "ville": "Calvisson",
+   "type": "vente",
+   "prix": 309000.0,
+   "surface": 84.55,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_3b84e703739627cad9bd08e258f134f9-16740-5-1024x768.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/",
+   "titre": "LANGLADE VILLA NEUVE – T4 de 90m2 – 3 CHAMBRES – GARAGE –",
+   "ville": "Langlade",
+   "type": "vente",
+   "prix": 399000.0,
+   "surface": 90.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_175b047f2aefaa2a72cc37cef98c224b-16729-0-1024x768.png",
+   "badges": [
+    "Coup de coeur",
+    "Vente de prestige"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/",
+   "titre": "À VENDRE APPARTEMENT T3 LUMINEUX AVEC TERRASSE, BOX EN SOU",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 149800.0,
+   "surface": 83.85,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_97cb9c3240cd458421c39e2048a6d159-16711-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/",
+   "titre": "Coup de coeur à Aubais : T3 neuf avec terrasse dans une résid",
+   "ville": "Aubais",
+   "type": "vente",
+   "prix": 299000.0,
+   "surface": 69.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_23daf796f2414976667cda292b1a3ee6-16674-0-1-1024x683.png",
+   "badges": [
+    "Vente de prestige"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/",
+   "titre": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 85000.0,
+   "surface": 122.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_dbe808768f9e4ba0bdaea2369249bde4-16653-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-avec-jardin-et-piscine-a-comigne/",
+   "titre": "Maison avec jardin et piscine à Comigne",
+   "ville": "Comigne",
+   "type": "vente",
+   "prix": 239000.0,
+   "surface": 127.0,
+   "chambres": 5,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d2ad0401a36fa3311ef85f927a919406-16622-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-familiale-136-m2-90-m2-de-garages-et-dependances/",
+   "titre": "Maison familiale 136 m2 + 90 m2 de garages et dépendances",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 175000.0,
+   "surface": 136.63,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_46910c5750eede762758552ecfbe4e13-16600-2-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/",
+   "titre": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
+   "ville": "Montpellier",
+   "type": "vente",
+   "prix": 241000.0,
+   "surface": 41.07,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_cf86af1eaf3d892debf6266c40607f01-16588-8-1024x576.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/proche-clementville-dernier-etage-avec-garage/",
+   "titre": "Proche Clémentville, dernier étage avec garage.",
+   "ville": "Montpellier",
+   "type": "vente",
+   "prix": 284000.0,
+   "surface": 90.64,
+   "chambres": 3,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_0eba5d14a9c45e79f0a2ae505b9a0ba5-16572-0-1024x576.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/",
+   "titre": "Appartement loué de 50 m2 en rez-de-jardin situé dans une r",
+   "ville": "Carcassonne",
+   "type": "vente",
+   "prix": 80000.0,
+   "surface": 50.0,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_1342c81c8fb983385526a205b2618408-16566-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/",
+   "titre": "À VENDRE APPARTEMENT T2 BIS AVEC TERRASSE DERNIER ÉTAGE,",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 55000.0,
+   "surface": 48.34,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d47b0ef70957abdedf0ea62458e742df-16556-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/",
+   "titre": "ALES maison des années 60 de 90 m2 avec jardin et parking 4",
+   "ville": "Alès",
+   "type": "vente",
+   "prix": 164300.0,
+   "surface": 89.0,
+   "chambres": 4,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_41d35fbc4c4f19326a1e631d73bdc70b-16544-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/",
+   "titre": "À VENDRE APPARTEMENT T3 AVEC BALCON ET BOX RÉSIDENCE AMA",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 124000.0,
+   "surface": 61.65,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d6651e0b3cbe8d2567d3b9171649158f-16537-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/",
+   "titre": "Nîmes Costières appartement type 3 avec terrasse et garage",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 250000.0,
+   "surface": 84.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_3beac2b52042d6ff7da0b0e56057da7d-16520-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/",
+   "titre": "À VENDRE APPARTEMENT AUX BEAUX VOLUMES IMMEUBLE BOURGEOI",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 135000.0,
+   "surface": 100.17,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_e62694a54af0e8353950deced14693c6-16503-0-747x1024.png",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-beziers-appartement-de-cour-privative/",
+   "titre": "À VENDRE BEZIERS -APPARTEMENT DE COUR PRIVATIVE",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 129600.0,
+   "surface": 76.07,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_647b16d0f9dce6cfabcb921aa39b11e4-16492-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/",
+   "titre": "Fond de commerce à vendre Axe principal traversant Capendu",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 60000.0,
+   "surface": 120.0,
+   "chambres": null,
+   "sdb": 2,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d8053bda18fd62fb9b920a1a8c9cc0ce-16483-0-1024x768.png",
+   "badges": [
+    "Vente-fonds-de-commerce"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/",
+   "titre": "NÎMES QUARTIER ROUTE D’UZES – MAISON TYPE 5 AVEC MAGNIFIQU",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 395000.0,
+   "surface": 116.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_47fb55e06ac1eee035e4df121c024bb5-16462-0-1024x768.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/",
+   "titre": "BAISSE DE PRIX – MEYNES – MAISON DE VILLAGE – 87,16M2 – 2 CH",
+   "ville": "Meynes",
+   "type": "vente",
+   "prix": 243000.0,
+   "surface": 87.16,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_95fa3a577174933bad0600f894b44369-16448-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/",
+   "titre": "Grande maison de village sur 3 niveaux à Rieux-Minervois",
+   "ville": "Rieux-Minervois",
+   "type": "vente",
+   "prix": 75000.0,
+   "surface": 112.37,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_8dcb32ddf1814211b20cb0f0607e256c-16426-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-avec-vue-canal-residence-amarine/",
+   "titre": "À LOUER APPARTEMENT T2 AVEC VUE CANAL RÉSIDENCE AMARINE,",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 490.0,
+   "surface": 35.86,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_dbab82887477c544d97c4e8124e86ec8-16419-1-1024x768.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-a-renover-avec-grange-capendu-11/",
+   "titre": "Maison de village à rénover avec grange Capendu (11)",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 38500.0,
+   "surface": 120.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_27c52d60c71fe142a7e59ca70e00d74b-16376-0-1024x768.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/",
+   "titre": "Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 210000.0,
+   "surface": 75.04,
+   "chambres": 2,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_52fd7755421b128c9357c507ad3de78b-16366-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/",
+   "titre": "Carcassonne Confort, élégance et espace pour toute la fami",
+   "ville": "Carcassonne",
+   "type": "vente",
+   "prix": 330000.0,
+   "surface": 240.0,
+   "chambres": 5,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_8938654181ae0c0350659b73e9f9f298-16347-0-1024x768.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/ensemble-immobilier-de-6-lots/",
+   "titre": "Ensemble immobilier de 6 lots",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 399900.0,
+   "surface": 400.0,
+   "chambres": 7,
+   "sdb": 4,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_2391300a7615d01d6ba870693e805c9d-16326-0-1024x683.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/uzes-terrain-840m2-viabilise/",
+   "titre": "UZES – TERRAIN 840M2 – VIABILISÉ",
+   "ville": "Uzès",
+   "type": "vente",
+   "prix": 214000.0,
+   "surface": 840.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_25b52e101438bef4a47d20db4952cc2c-16321-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/saint-ambroix-a-proximite-dales-local-commercial-appartem/",
+   "titre": "Saint Ambroix à proximité d’Alès local commercial + appartem",
+   "ville": "Saint-Ambroix",
+   "type": "vente",
+   "prix": 57000.0,
+   "surface": 68.0,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_855e8371a567932a8b43852535b2e130-16292-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/",
+   "titre": "Clarensac dans la vaunage entre Nîmes et Montpellier maison",
+   "ville": "Clarensac",
+   "type": "vente",
+   "prix": 320000.0,
+   "surface": 127.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_19ca5eea93cb87319f370d0a3d4a2ec8-16272-0-768x1024.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-en-location-a-5-minutes-de-pont-rouge-carcassonne/",
+   "titre": "Maison en location à 5 minutes de Pont Rouge Carcassonne",
+   "ville": "Villemoustaussou",
+   "type": "location",
+   "prix": 720.0,
+   "surface": 93.2,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_b5c0a9c2cfa59d5334a52c73763baadb-16249-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/propriete-dexception-avec-vue-panoramique-et-piscine-vill/",
+   "titre": "Propriété d’Exception avec Vue Panoramique et Piscine Vill",
+   "ville": "Villedubert",
+   "type": "vente",
+   "prix": 1145000.0,
+   "surface": 320.0,
+   "chambres": 4,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_b77b4e6e80011e8137b7e49dd7780122-16228-0-1024x680.jpg",
+   "badges": [
+    "Vente de prestige"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/terrain-constructible-de-1-470-m2-a-villedubert/",
+   "titre": "Terrain constructible de 1 470 m2 à Villedubert",
+   "ville": "Villedubert",
+   "type": "vente",
+   "prix": 111000.0,
+   "surface": 1470.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_62b9822186833d5dc7ad277e5b96a0b7-16222-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/",
+   "titre": "À VENDRE MAISON DE VILLE AVEC GRAND GARAGE ET COMBLES AMÉN",
+   "ville": "Maureilhan",
+   "type": "vente",
+   "prix": 177000.0,
+   "surface": 89.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_058b6bc309558e1fa6e68090837df1b0-16204-0-1024x683.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/",
+   "titre": "Maison de village de 63m2 à Villemoutaussou vendue louée",
+   "ville": "Villemoustaussou",
+   "type": "vente",
+   "prix": 99000.0,
+   "surface": 67.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_643ab82bf0b7c981c4b81861d8186c56-16192-0-1024x768.png",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/",
+   "titre": "À VENDRE STUDIO SPACIEUX DE 31 M2 AVEC BALCON ET GARAGE, A",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 70000.0,
+   "surface": 33.0,
+   "chambres": null,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_d74bdcd5572fbc9d30c6c32371b282b4-16182-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/terrain-constructible-de-3000m2-a-floure/",
+   "titre": "Terrain constructible de 3000m2 à Floure",
+   "ville": "Floure",
+   "type": "vente",
+   "prix": 110000.0,
+   "surface": 3000.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_157ae43966861d0dee8b9536161d75dd-16165-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/immeuble-de-rapport/",
+   "titre": "Immeuble de rapport",
+   "ville": "Carcassonne",
+   "type": "vente",
+   "prix": 230000.0,
+   "surface": 166.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_1a9a521681adc3a6112a8e96ea6bc84c-16150-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-proche-gare-belle-residence-neuve-appartement-type/",
+   "titre": "Nîmes proche gare – Belle résidence neuve – appartement type",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 280000.0,
+   "surface": 73.6,
+   "chambres": 3,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_8722e457fef24a4fe210e09dcc5945ee-16138-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-capouchine-neuf-rare-dernier-etage-appartement/",
+   "titre": "Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 351900.0,
+   "surface": 84.48,
+   "chambres": 3,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_21a395e19bbc5d3f82831bdfd40b674c-16130-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/",
+   "titre": "Nîmes Capouchiné – résidence neuve – FRAIS DE NOTAIRE REDUIT",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 249900.0,
+   "surface": 64.1,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_f6a96d64eee5abdae28e26850b042d17-16125-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/",
+   "titre": "Garons dans résidence neuve fin 2024 appartement type 3 avec",
+   "ville": "Garons",
+   "type": "vente",
+   "prix": 234900.0,
+   "surface": 67.87,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_3a9cd1e300d793a02180df0401c946ff-16119-0.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/",
+   "titre": "A LOUER BÉZIERS CENTRE-VILLE (34) IMMEUBLE BOURGEOIS A",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 726.0,
+   "surface": 98.0,
+   "chambres": 2,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_eb90ae68161e1c3ce65ab9eacb84d0fb-16070-0-576x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/local-commercial-zone-commercial-capendu/",
+   "titre": "Local Commercial Zone Commercial Capendu",
+   "ville": "Capendu",
+   "type": "location",
+   "prix": 660.0,
+   "surface": 66.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_a82bca6f4a8c5602af423322e0c19bde-16048-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/",
+   "titre": "À LOUER BUREAUX DE CARACTÈRE RUE CLEMENCEAU, COEUR DE VIL",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 735.0,
+   "surface": 100.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_eec1005a8759f83cae867a375fe6bd24-16037-0-683x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/terrain-de-loisir-a-proximite-des-habitations/",
+   "titre": "Terrain de loisir à proximité des habitations",
+   "ville": "Barbaira",
+   "type": "vente",
+   "prix": 22000.0,
+   "surface": 1400.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_aa06ddcb91101cc999b804b1e4bbba03-16032-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/",
+   "titre": "A VENDRE, BEZIERS (34) QUARTIER DE LA CROUZETTE MAISON T7",
+   "ville": "Béziers",
+   "type": "vente",
+   "prix": 209000.0,
+   "surface": 120.0,
+   "chambres": 4,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_3ef813268c4b40e8b99905d5982183b5-16019-0-768x1024.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/clarensac-maison-de-village-3-chambres-environ-100m2-d/",
+   "titre": "CLARENSAC – MAISON DE VILLAGE – 3 CHAMBRES – environ 100M2 d",
+   "ville": "Clarensac",
+   "type": "vente",
+   "prix": 149000.0,
+   "surface": 80.0,
+   "chambres": 3,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_b0cfa06200d656523aa622161b8f18bb-16006-0-1024x768.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-capendu-de-180m2-en-location-avec-barbara-bouba/",
+   "titre": "À Capendu, de 180m2 en location avec BARBARA BOUBA",
+   "ville": "Capendu",
+   "type": "location",
+   "prix": 760.0,
+   "surface": 180.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_07971f9c5a949076ffcd94a7d434708a-15996-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/garage-viabilise-de-134-m2-sur-deux-niveaux/",
+   "titre": "Garage viabilisé de 134 m2 sur deux niveaux",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 45000.0,
+   "surface": 134.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_0754afd8ef3cada356f80096ccf6c157-15984-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/immeuble-avec-1-local-commercial-et-1-t4/",
+   "titre": "Immeuble avec 1 local commercial et 1 T4",
+   "ville": "Carcassonne",
+   "type": "vente",
+   "prix": 170000.0,
+   "surface": 170.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_7c5db7e82d3580874ba3d088ec0bb98d-15970-0-1024x768.jpg",
+   "badges": [
+    "Coup de coeur"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-meublee-1-chambre/",
+   "titre": "Appartement meublée 1 chambre",
+   "ville": "Carcassonne",
+   "type": "location",
+   "prix": 515.0,
+   "surface": 38.21,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_77a48e134198939cc8de4c27cbb1269a-15962-0-1024x768.jpg",
+   "badges": [
+    "Exclusivité"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/terrain-de-loisir-a-capendu/",
+   "titre": "Terrain de loisir à Capendu",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 25000.0,
+   "surface": 1457.0,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_412e1ef1d359894aa21baea9e3ebf2d1-15960-0-1024x768.jpg",
+   "badges": []
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/",
+   "titre": "À VENDRE FOND DE COMMERCE – CENTRE VILLE DE NÎMES – ENVIRON",
+   "ville": "Nîmes",
+   "type": "vente",
+   "prix": 45000.0,
+   "surface": 48.96,
+   "chambres": null,
+   "sdb": null,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_3348f7c5022a63f97b0d4d4c4cbfbdbf_inc_0-15957-0.png",
+   "badges": [
+    "Vente-fonds-de-commerce"
+   ]
+  },
+  {
+   "url": "https://www.lotier-immobilier.com/propriete/appartement-meuble-a-pezens/",
+   "titre": "Appartement meublé à Pezens",
+   "ville": "Pezens",
+   "type": "location",
+   "prix": 490.0,
+   "surface": 65.0,
+   "chambres": 1,
+   "sdb": 1,
+   "image": "https://www.lotier-immobilier.com/wp-content/uploads/2026/09/photo_b89d80f76e2d95657920f8682537b91e-15927-4-1024x768.jpg",
+   "badges": []
+  }
+ ]
+}
