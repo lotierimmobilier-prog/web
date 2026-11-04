@@ -94,3 +94,10 @@ details{border-top:1px solid var(--line);padding:12px 0}summary{cursor:pointer;f
 .pin{background:transparent}.pin span{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-weight:600;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
 .pop ul{margin:8px 0;padding-left:16px}.pop a.btn{color:#fff;margin-top:4px;font-size:.85rem;padding:8px 12px}
 @media(max-width:640px){#carte{height:420px}}
+
+.hero.has-fig{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;max-width:1100px}
+.hero.has-fig .fig,.titre-fig .fig{width:100%;height:auto}
+.titre-fig{display:grid;grid-template-columns:1fr minmax(160px,260px);gap:24px;align-items:center}
+.tile{position:relative}.tile img{position:absolute;right:16px;top:16px;opacity:.9}
+@media(max-width:760px){.hero.has-fig{grid-template-columns:1fr}.hero.has-fig .fig{max-width:360px}.titre-fig{grid-template-columns:1fr}.titre-fig .fig{max-width:220px}}
+button.btn{font:inherit;font-weight:600;border:0;cursor:pointer}

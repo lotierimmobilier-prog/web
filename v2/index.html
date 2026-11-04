@@ -20,21 +20,18 @@
 <header class="top">
   <a class="brand" href="./">Lotier <span>Immobilier</span></a>
   <nav aria-label="Navigation principale">
-    <a href="#villes">Nos villes</a>
-    <a href="#metiers">Nos métiers</a>
     <a href="biens/">Nos biens</a>
     <a href="carte/">Carte</a>
     <a href="estimer/">Estimer</a>
     <a href="syndic/">Syndic</a>
     <a href="actualites/">Actualités</a>
-    <a href="recrutement/">Recrutement</a>
     <a href="contact/">Contact</a>
     <a href="favoris/">♡ Favoris</a>
     <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
   </nav>
 </header>
 <main id="contenu">
-  <section class="hero">
+  <section class="hero has-fig"><div>
     <h1>Votre agence immobilière en <em>Occitanie</em></h1>
     <p>Vente, gestion locative et syndic de copropriété à Montpellier, Nîmes, Béziers et Carcassonne.</p>
         <form class="search" action="biens/" method="get">
@@ -53,7 +50,7 @@
         <button class="btn" type="submit">Rechercher</button>
       </div>
     </form>
-  </section>
+  </div><img class="fig" src="img/hero-facades.svg" alt="" width="560" height="360"></section>
 
   <section id="villes" class="wrap">
     <h2>Nos villes</h2>
@@ -75,10 +72,10 @@
   <section id="metiers" class="wrap">
     <h2>Nos métiers</h2>
     <div class="tiles">
-      <a class="tile t1" href="biens/?type=location"><span>Location</span><small>Trouver un logement</small></a>
-      <a class="tile t2" href="contact/?objet=estimer"><span>Gestion</span><small>Déléguer vos locations</small></a>
-      <a class="tile t3" href="biens/?type=vente"><span>Transaction</span><small>Acheter ou vendre</small></a>
-      <a class="tile t4" href="syndic/"><span>Syndic</span><small>Gérer votre immeuble</small></a>
+      <a class="tile t1" href="biens/?type=location"><img src="img/metier-location.svg" alt="" width="56" height="56"><span>Location</span><small>Trouver un logement</small></a>
+      <a class="tile t2" href="contact/?objet=estimer"><img src="img/metier-gestion.svg" alt="" width="56" height="56"><span>Gestion</span><small>Déléguer vos locations</small></a>
+      <a class="tile t3" href="biens/?type=vente"><img src="img/metier-transaction.svg" alt="" width="56" height="56"><span>Transaction</span><small>Acheter ou vendre</small></a>
+      <a class="tile t4" href="syndic/"><img src="img/metier-syndic.svg" alt="" width="56" height="56"><span>Syndic</span><small>Gérer votre immeuble</small></a>
     </div>
   </section>
 
@@ -98,7 +95,7 @@
   </section>
 </main>
 <footer>
-  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="espace-client/">Espace client Gestion / Syndic</a></p>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="espace-client/">Espace client Gestion / Syndic</a> · <a href="recrutement/">Recrutement</a></p>
 <p class="villes-pied"><a href="villes/beziers/">Béziers</a> · <a href="villes/montpellier/">Montpellier</a> · <a href="villes/nimes/">Nîmes</a> · <a href="villes/carcassonne/">Carcassonne</a> · <a href="villes/narbonne/">Narbonne</a> · <a href="villes/avignon/">Avignon</a></p>
 </footer>
 <script src="biens.js" defer></script>
