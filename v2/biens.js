@@ -4,6 +4,7 @@
   if (!root) return;
   var limit = parseInt(root.getAttribute('data-limit') || '0', 10);
   var withFilters = root.hasAttribute('data-filtres');
+  var cityOnly = root.getAttribute('data-ville');
   var dataUrl = root.getAttribute('data-src');
   var list = root.querySelector('.biens-liste');
   var count = root.querySelector('.biens-count');
@@ -44,7 +45,7 @@
     var shown = limit ? items.slice(0, limit) : items;
     shown.forEach(function (b) { list.appendChild(card(b)); });
     if (count) count.textContent = items.length + (items.length > 1 ? ' biens' : ' bien');
-    if (!items.length) list.appendChild(el('p', null, 'Aucun bien ne correspond à ces critères.'));
+    if (!items.length) list.appendChild(el('p', null, cityOnly ? 'Pas d\'annonce en ligne à ' + cityOnly + ' pour le moment : contactez-nous, nous avons peut-être des biens avant publication.' : 'Aucun bien ne correspond à ces critères.'));
   }
 
   function filter() {
@@ -64,6 +65,7 @@
 
   fetch(dataUrl).then(function (r) { return r.json(); }).then(function (d) {
     all = d.biens || [];
+    if (cityOnly) all = all.filter(function (b) { return b.ville === cityOnly; });
     if (withFilters) {
       var sel = root.querySelector('[data-f="ville"]');
       var counts = {};
