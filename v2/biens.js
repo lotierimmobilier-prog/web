@@ -5,6 +5,7 @@
   var limit = parseInt(root.getAttribute('data-limit') || '0', 10);
   var withFilters = root.hasAttribute('data-filtres');
   var cityOnly = root.getAttribute('data-ville');
+  var onlyFavs = root.hasAttribute('data-favoris');
   var dataUrl = root.getAttribute('data-src');
   var list = root.querySelector('.biens-liste');
   var count = root.querySelector('.biens-count');
@@ -21,7 +22,26 @@
     return t.charAt(0).toUpperCase() + t.slice(1);
   }
 
+  var KEY = 'lotier_favoris';
+  function favs() { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { return []; } }
+  function saveFavs(l) { try { localStorage.setItem(KEY, JSON.stringify(l)); } catch (e) {} }
+  function isFav(u) { return favs().indexOf(u) > -1; }
+  function toggleFav(u) { var l = favs(), i = l.indexOf(u); if (i > -1) l.splice(i, 1); else l.push(u); saveFavs(l); return i === -1; }
+  function favButton(b, onChange) {
+    var btn = el('button', 'fav'); btn.type = 'button';
+    function paint() { var on = isFav(b.url); btn.setAttribute('aria-pressed', on); btn.textContent = on ? '♥' : '♡'; btn.setAttribute('aria-label', (on ? 'Retirer des favoris : ' : 'Ajouter aux favoris : ') + titre(b.titre)); }
+    btn.addEventListener('click', function () { toggleFav(b.url); paint(); if (onChange) onChange(); });
+    paint(); return btn;
+  }
+
   function card(b) {
+    var wrap = el('div', 'bien-carte');
+    wrap.appendChild(cardLink(b));
+    wrap.appendChild(favButton(b, onFavChange));
+    return wrap;
+  }
+
+  function cardLink(b) {
     var a = el('a', 'bien'); a.href = safe(b.url);
     var fig = el('div', 'bien-img');
     if (b.image) { var im = el('img'); im.src = safe(b.image); im.alt = titre(b.titre); im.loading = 'lazy'; im.width = 400; im.height = 300; fig.appendChild(im); }
@@ -40,12 +60,20 @@
     return a;
   }
 
+  function onFavChange() { if (onlyFavs) filterAndRender(); }
+
   function render(items) {
     list.textContent = '';
     var shown = limit ? items.slice(0, limit) : items;
     shown.forEach(function (b) { list.appendChild(card(b)); });
     if (count) count.textContent = items.length + (items.length > 1 ? ' biens' : ' bien');
     if (!items.length) list.appendChild(el('p', null, cityOnly ? 'Pas d\'annonce en ligne à ' + cityOnly + ' pour le moment : contactez-nous, nous avons peut-être des biens avant publication.' : 'Aucun bien ne correspond à ces critères.'));
+  }
+
+  function filterAndRender() {
+    var l = favs(); var items = all.filter(function (b) { return l.indexOf(b.url) > -1; });
+    render(items);
+    if (!items.length) { list.textContent = ''; var p = el('p', null, 'Aucun favori pour le moment. Touchez le cœur sur une annonce pour la retrouver ici.'); list.appendChild(p); }
   }
 
   function filter() {
@@ -66,6 +94,7 @@
   fetch(dataUrl).then(function (r) { return r.json(); }).then(function (d) {
     all = d.biens || [];
     if (cityOnly) all = all.filter(function (b) { return b.ville === cityOnly; });
+    if (onlyFavs) { filterAndRender(); return; }
     if (withFilters) {
       var sel = root.querySelector('[data-f="ville"]');
       var counts = {};

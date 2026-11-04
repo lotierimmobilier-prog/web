@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte des biens en Occitanie | Lotier Immobilier</title>
+<meta name="description" content="Carte des biens à vendre et à louer de Lotier Immobilier : Béziers, Montpellier, Nîmes, Carcassonne et alentours.">
+<link rel="canonical" href="https://www.lotier-immobilier.com/v2/carte/index.html">
+<meta name="robots" content="noindex, nofollow"><!-- version de test : retirer à la mise en ligne -->
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="../">Lotier <span>Immobilier</span></a>
+  <nav aria-label="Navigation principale">
+    <a href="../biens/">Nos biens</a>
+    <a href="../carte/">Carte</a>
+    <a href="../estimer/">Estimer</a>
+    <a href="../syndic/">Syndic</a>
+    <a href="../actualites/">Actualités</a>
+    <a href="../recrutement/">Recrutement</a>
+    <a href="../contact/">Contact</a>
+    <a href="../favoris/">♡ Favoris</a>
+    <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
+  </nav>
+</header>
+<main id="contenu" class="wrap">
+  <h1 class="h1-page">Carte des biens</h1>
+  <form class="filtres" onsubmit="return false">
+    <label>Projet<select data-c="type"><option value="">Vente et location</option><option value="vente">Acheter</option><option value="location">Louer</option></select></label>
+    <label>Prix maximum<select data-c="max"><option value="">Sans limite</option><option value="600">600 € (location)</option><option value="1000">1 000 € (location)</option><option value="100000">100 000 € (vente)</option><option value="200000">200 000 € (vente)</option><option value="400000">400 000 € (vente)</option></select></label>
+  </form>
+  <p id="carte-count" class="biens-count" aria-live="polite"></p>
+  <div id="carte" role="region" aria-label="Carte des biens"></div>
+  <p class="note">Les repères indiquent la commune du bien, pas son adresse exacte. Le fond de carte provient d'OpenStreetMap : l'affichage de la carte envoie votre adresse IP à ce service.
+  <a href="../biens/">Voir la liste des biens</a></p>
+</main>
+<script src="../vendor/leaflet/leaflet.js"></script>
+<script src="../carte.js" defer></script>
+<footer>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="../espace-client/">Espace client Gestion / Syndic</a></p>
+<p class="villes-pied"><a href="../villes/beziers/">Béziers</a> · <a href="../villes/montpellier/">Montpellier</a> · <a href="../villes/nimes/">Nîmes</a> · <a href="../villes/carcassonne/">Carcassonne</a> · <a href="../villes/narbonne/">Narbonne</a> · <a href="../villes/avignon/">Avignon</a></p>
+</footer>
+</body>
+</html>

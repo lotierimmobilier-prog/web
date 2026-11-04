@@ -85,3 +85,12 @@ main.wrap{border-top:0}
 details{border-top:1px solid var(--line);padding:12px 0}summary{cursor:pointer;font-weight:600}details p{margin:8px 0 0;color:var(--muted)}
 .villes-pied{margin:8px 0 0;font-size:.9rem}
 .zones strong a{color:inherit}
+
+.bien-carte{position:relative}
+.fav{position:absolute;right:8px;top:8px;width:40px;height:40px;border:0;border-radius:50%;background:#fff;color:var(--accent);font-size:1.4rem;line-height:1;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.fav[aria-pressed=true]{color:#b3261e}
+.fav:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+#carte{height:560px;border:1px solid var(--line);border-radius:8px;margin:16px 0;z-index:0}
+.pin{background:transparent}.pin span{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-weight:600;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.pop ul{margin:8px 0;padding-left:16px}.pop a.btn{color:#fff;margin-top:4px;font-size:.85rem;padding:8px 12px}
+@media(max-width:640px){#carte{height:420px}}

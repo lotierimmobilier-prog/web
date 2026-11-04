@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mes favoris | Lotier Immobilier</title>
+<meta name="description" content="Retrouvez les biens que vous avez enregistrés en favoris.">
+<link rel="canonical" href="https://www.lotier-immobilier.com/v2/favoris/index.html">
+<meta name="robots" content="noindex, nofollow"><!-- version de test : retirer à la mise en ligne -->
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="../">Lotier <span>Immobilier</span></a>
+  <nav aria-label="Navigation principale">
+    <a href="../biens/">Nos biens</a>
+    <a href="../carte/">Carte</a>
+    <a href="../estimer/">Estimer</a>
+    <a href="../syndic/">Syndic</a>
+    <a href="../actualites/">Actualités</a>
+    <a href="../recrutement/">Recrutement</a>
+    <a href="../contact/">Contact</a>
+    <a href="../favoris/">♡ Favoris</a>
+    <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
+  </nav>
+</header>
+<main id="contenu" class="wrap" data-biens data-favoris data-src="../data/biens.json">
+  <h1 class="h1-page">Mes favoris</h1>
+  <p class="note">Vos favoris sont enregistrés uniquement dans ce navigateur, sans compte.</p>
+  <p class="biens-count" aria-live="polite"></p>
+  <div class="biens-liste"></div>
+</main>
+<script src="../biens.js" defer></script>
+<footer>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="../espace-client/">Espace client Gestion / Syndic</a></p>
+<p class="villes-pied"><a href="../villes/beziers/">Béziers</a> · <a href="../villes/montpellier/">Montpellier</a> · <a href="../villes/nimes/">Nîmes</a> · <a href="../villes/carcassonne/">Carcassonne</a> · <a href="../villes/narbonne/">Narbonne</a> · <a href="../villes/avignon/">Avignon</a></p>
+</footer>
+</body>
+</html>
