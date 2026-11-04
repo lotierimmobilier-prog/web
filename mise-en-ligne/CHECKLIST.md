@@ -10,7 +10,7 @@ Seules la page d'accueil et les nouvelles pages (liste dans `release/`) sont ser
 - [ ] Choisir un moment calme (soir ou week-end).
 
 ## 1. À compléter / décider (bloquant)
-- [ ] **Mentions légales** : éditeur, SIRET/RCS, carte professionnelle, garantie financière, assurance RCP, hébergeur, médiateur (modèle : `audit-lotier/2-mentions-legales.md`). À corriger sur la page WordPress `/mentions-legales/`.
+- [x] **Mentions légales** : reprises du site actuel dans `mentions-legales/` (SIRET, carte pro, garanties, médiateur). À corriger : la phrase CNIL « via la société , » (nom vide à la source), l'hébergeur (absent), le RCS.
 - [ ] **Page Estimer** : coller le code de l'outil d'estimation dans `estimer/index.html` (repère « COLLER ICI »).
 - [ ] **Devenir agent** : compléter statut / rémunération / formation dans `devenir-agent/index.html`. La page renvoie vers `rejoindre.lotier-immobilier.com` : vérifier que le lien fonctionne (https).
 - [ ] **Relire les 3 articles** de `actualites/` et la page `gestion-locative-occitanie/`.
@@ -55,5 +55,7 @@ python3 scripts/check_links.py release
 3. Restaurer la sauvegarde si besoin.
 
 ## 7. Entretien
-- Annonces : relancer `scrape_biens.py` puis téléverser `data/biens.json` (ou me demander d'automatiser).
+- **Annonces, mise à jour automatique** : téléverser `sync-biens.php` à la racine, puis créer une tâche planifiée (cron) chez l'hébergeur, par exemple toutes les heures :
+  `php /chemin/du/site/sync-biens.php` (le fichier refuse de s'exécuter depuis un navigateur, et garde l'ancien `data/biens.json` si le résultat est vide ou suspect).
+- Le dossier `data/` doit être inscriptible par PHP.
 - Limite connue : les fiches détail et les pages WordPress gardent l'ancien habillage tant qu'elles ne sont pas refaites.
