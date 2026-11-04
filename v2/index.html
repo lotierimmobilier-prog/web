@@ -12,7 +12,7 @@
 <meta property="og:description" content="Vente, gestion locative et syndic à Montpellier, Nîmes, Béziers et Carcassonne.">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Lotier Immobilier","url":"https://www.lotier-immobilier.com/","telephone":"+33467112831","email":"contact@lotier-immobilier.com","address":{"@type":"PostalAddress","streetAddress":"38/40 rue Française","postalCode":"34500","addressLocality":"Béziers","addressCountry":"FR"},"areaServed":[{"@type":"City","name":"Montpellier"},{"@type":"City","name":"Nîmes"},{"@type":"City","name":"Béziers"},{"@type":"City","name":"Carcassonne"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"09:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"14:00","closes":"18:00"}]}
+{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Lotier Immobilier","url":"https://www.lotier-immobilier.com/","telephone":"+33467112831","email":"contact@lotier-immobilier.com","address":{"@type":"PostalAddress","streetAddress":"38/40 rue Française","postalCode":"34500","addressLocality":"Béziers","addressCountry":"FR"},"areaServed":[{"@type":"City","name":"Montpellier"},{"@type":"City","name":"Nîmes"},{"@type":"City","name":"Béziers"},{"@type":"City","name":"Carcassonne"},{"@type":"City","name":"Narbonne"},{"@type":"City","name":"Avignon"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"09:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday"],"opens":"14:00","closes":"18:00"}]}
 </script>
 </head>
 <body>
@@ -23,7 +23,11 @@
     <a href="#villes">Nos villes</a>
     <a href="#metiers">Nos métiers</a>
     <a href="biens/">Nos biens</a>
-    <a href="#agence">L'agence</a>
+    <a href="estimer/">Estimer</a>
+    <a href="syndic/">Syndic</a>
+    <a href="actualites/">Actualités</a>
+    <a href="recrutement/">Recrutement</a>
+    <a href="contact/">Contact</a>
     <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
   </nav>
 </header>
@@ -35,7 +39,7 @@
       <div class="tabs" role="radiogroup" aria-label="Projet">
         <label><input type="radio" name="type" value="location" checked> Louer</label>
         <label><input type="radio" name="type" value="vente"> Acheter</label>
-        <a href="#contact">Estimer</a>
+        <a href="estimer/">Estimer</a>
       </div>
       <div class="fields">
         <label>Ville
@@ -52,11 +56,12 @@
   <section id="villes" class="wrap">
     <h2>Nos villes</h2>
     <ul class="cities">
-      <li><a href="#contact"><span class="n">Montpellier</span><span class="d">Hérault</span></a></li>
-      <li><a href="#contact"><span class="n">Nîmes</span><span class="d">Gard</span></a></li>
-      <li><a href="#contact"><span class="n">Béziers</span><span class="d">Hérault · notre agence</span></a></li>
-      <li><a href="#contact"><span class="n">Carcassonne</span><span class="d">Aude</span></a></li>
+      <li><a href="biens/"><span class="n">Montpellier</span><span class="d">Hérault</span></a></li>
+      <li><a href="biens/"><span class="n">Nîmes</span><span class="d">Gard</span></a></li>
+      <li><a href="biens/"><span class="n">Béziers</span><span class="d">Hérault · notre agence</span></a></li>
+      <li><a href="biens/"><span class="n">Carcassonne</span><span class="d">Aude</span></a></li>
     </ul>
+  <p class="note wrap0">Nous intervenons aussi à Narbonne et Avignon.</p>
   </section>
 
   <section id="biens" class="wrap" data-biens data-limit="6" data-src="data/biens.json">
@@ -69,9 +74,9 @@
     <h2>Nos métiers</h2>
     <div class="tiles">
       <a class="tile t1" href="biens/?type=location"><span>Location</span><small>Trouver un logement</small></a>
-      <a class="tile t2" href="#contact"><span>Gestion</span><small>Déléguer vos locations</small></a>
+      <a class="tile t2" href="contact/?objet=estimer"><span>Gestion</span><small>Déléguer vos locations</small></a>
       <a class="tile t3" href="biens/?type=vente"><span>Transaction</span><small>Acheter ou vendre</small></a>
-      <a class="tile t4" href="#contact"><span>Syndic</span><small>Gérer votre immeuble</small></a>
+      <a class="tile t4" href="syndic/"><span>Syndic</span><small>Gérer votre immeuble</small></a>
     </div>
   </section>
 
@@ -87,11 +92,11 @@
 
   <section id="contact" class="wrap">
     <h2>Une question ?</h2>
-    <p>Écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez-nous.</p>
+    <p>Écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou <a href="contact/">utilisez le formulaire</a>.</p>
   </section>
 </main>
 <footer>
-  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a></p>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="espace-client/">Espace client Gestion / Syndic</a></p>
 </footer>
 <script src="biens.js" defer></script>
 </body>

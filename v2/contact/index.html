@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Lotier Immobilier Occitanie</title>
+<meta name="description" content="Contactez Lotier Immobilier : agence de Béziers, vente, location, gestion locative et syndic en Occitanie.">
+<link rel="canonical" href="https://www.lotier-immobilier.com/v2/contact/index.html">
+<meta name="robots" content="noindex, nofollow"><!-- version de test : retirer à la mise en ligne -->
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="../">Lotier <span>Immobilier</span></a>
+  <nav aria-label="Navigation principale">
+    <a href="../biens/">Nos biens</a>
+    <a href="../estimer/">Estimer</a>
+    <a href="../syndic/">Syndic</a>
+    <a href="../actualites/">Actualités</a>
+    <a href="../recrutement/">Recrutement</a>
+    <a href="../contact/">Contact</a>
+    <a class="btn" href="tel:+33467112831">04 67 11 28 31</a>
+  </nav>
+</header>
+<main id="contenu" class="wrap narrow">
+  <h1 class="h1-page">Nous contacter</h1>
+  <p>Un projet d'achat, de vente, de location ou une question sur votre copropriété ? Écrivez-nous, nous vous répondons rapidement.</p>
+  <p id="retour" class="alert ok" role="status" hidden>Merci, votre message a bien été envoyé. Nous vous répondons rapidement.</p>
+  <p id="retour-err" class="alert err" role="alert" hidden>Votre message n'a pas pu être envoyé. Vérifiez les champs ou appelez-nous au 04 67 11 28 31.</p>
+  <form class="contact" action="envoyer.php" method="post">
+    <label>Votre projet
+      <select name="objet" required>
+        <option value="">Choisir</option>
+        <option>Acheter</option><option>Louer</option><option>Vendre / estimer mon bien</option>
+        <option>Gestion locative</option><option>Syndic de copropriété</option><option>Recrutement : devenir agent</option><option>Autre demande</option>
+      </select>
+    </label>
+    <label>Nom et prénom <input name="nom" autocomplete="name" required maxlength="100"></label>
+    <label>E-mail <input type="email" name="email" autocomplete="email" required maxlength="150"></label>
+    <label>Téléphone (facultatif) <input type="tel" name="tel" autocomplete="tel" maxlength="20"></label>
+    <label>Message <textarea name="message" rows="6" required minlength="10" maxlength="3000"></textarea></label>
+    <div class="hp" aria-hidden="true"><label>Ne pas remplir <input name="site" tabindex="-1" autocomplete="off"></label></div>
+    <input type="hidden" name="t" value="">
+    <label class="check"><input type="checkbox" name="rgpd" value="1" required>
+      <span>J'accepte que Lotier Immobilier utilise ces informations pour répondre à ma demande. Elles ne sont conservées que le temps nécessaire. Vous pouvez exercer vos droits d'accès, de rectification et d'effacement en écrivant à contact@lotier-immobilier.com.</span></label>
+    <button class="btn" type="submit">Envoyer ma demande</button>
+  </form>
+  <section class="coord">
+    <h2>Notre agence de Béziers</h2>
+    <address>38/40 rue Française, 34500 Béziers<br>Lundi, mardi, mercredi et vendredi · 9h00 – 12h00 / 14h00 – 18h00<br>
+    <a href="tel:+33467112831">04 67 11 28 31</a> · <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></address>
+  </section>
+</main>
+<script>document.querySelector('input[name=t]').value=Date.now();
+var o=new URLSearchParams(location.search).get('objet'),m={syndic:'Syndic de copropriété',recrutement:'Recrutement : devenir agent',estimer:'Vendre / estimer mon bien'};if(o&&m[o])document.querySelector('select[name=objet]').value=m[o];
+if(location.search.indexOf('envoye=1')>-1){var n=document.getElementById('retour');if(n)n.hidden=false}
+if(location.search.indexOf('erreur=1')>-1){var e=document.getElementById('retour-err');if(e)e.hidden=false}</script>
+<footer>
+  <p>© Lotier Immobilier · <a href="https://www.lotier-immobilier.com/mentions-legales/">Mentions légales</a> · <a href="../espace-client/">Espace client Gestion / Syndic</a></p>
+</footer>
+</body>
+</html>
