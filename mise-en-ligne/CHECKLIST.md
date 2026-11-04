@@ -15,7 +15,7 @@ Seules la page d'accueil et les nouvelles pages (liste dans `release/`) sont ser
 - [ ] **Devenir agent** : compléter statut / rémunération / formation dans `devenir-agent/index.html`. La page renvoie vers `rejoindre.lotier-immobilier.com` : vérifier que le lien fonctionne (https).
 - [ ] **Relire les 3 articles** de `actualites/` et la page `gestion-locative-occitanie/`.
 - [ ] **Adresses des autres agences** (Montpellier, Nîmes, Carcassonne…) si elles existent.
-- [ ] **Favicon et image de partage** (1200×630) : à fournir.
+- [x] Logo, favicon et image de partage : en place (`v2/img/`). Les photos d'ambiance sont générées par IA : voir `v2/img/CREDITS.md` ; les remplacer par de vraies photos de la région/de l'agence dès que possible.
 - [ ] Vérifier les positions de `data/communes.json` (petites communes approximatives).
 - [ ] Politique de confidentialité (`/politique-de-confidentialite/` renvoie 404 aujourd'hui) : à créer (Complianz peut la générer).
 
