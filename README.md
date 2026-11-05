@@ -10,6 +10,7 @@ Site vitrine statique (HTML, CSS, JavaScript), sans étape de compilation. Direc
 - `css/styles.css` : styles, avec les jetons de la charte en variables CSS
 - `js/main.js` : immeuble isométrique, animations (respectent « réduire les animations »), carrousel, filtres des conseils, recherche, estimation
 - `assets/lotier-logo.png` : le vrai logo (recadré, fond transparent) ; `assets/lotier-immobilier-logo.png` : fichier d'origine
+- `assets/fonts/` : police Plus Jakarta Sans hébergée sur le site (licence SIL OFL 1.1, voir `OFL.txt`) : aucune requête vers Google Fonts
 - `assets/photos/` : photos d'illustration libres de droits (voir `CREDITS.md`)
 - `robots.txt`, `sitemap.xml`, `llms.txt` : référencement et assistants IA
 
