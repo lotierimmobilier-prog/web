@@ -322,14 +322,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .contact-details dt { font-size: 12px; letter-spacing: 0.16em; font-weight: 800; color: var(--gold-t); margin-bottom: 8px; }
 .contact-details a { text-underline-offset: 3px; }
 
-/* ---------- Pied de page ---------- */
-.site-footer { padding-block: 40px 36px; display: grid; gap: 22px; }
-.footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 32px; }
-.footer-top .logo img { height: 52px; }
-.footer-nav { display: flex; flex-wrap: wrap; gap: 4px 26px; }
-.footer-nav a { padding: 8px 0; text-decoration: none; font-weight: 600; font-size: 15px; color: var(--mut); }
-.footer-nav a:hover { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
-
 /* ---------- Barre d'appels mobile ---------- */
 .mbar { display: none; }
 @media (max-width: 760px) {
@@ -539,3 +531,37 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 @media (max-width: 980px) { .models { grid-template-columns: 1fr; } }
 .cards-2 { grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 700px) { .cards-2 { grid-template-columns: 1fr; } }
+
+
+/* ---------- Pied de page ---------- */
+.footer { margin-top: clamp(64px, 9vw, 120px); padding-block: 0 clamp(28px, 4vw, 40px); background: linear-gradient(180deg, rgba(219, 233, 251, 0), rgba(219, 233, 251, 0.75) 40%, rgba(253, 243, 222, 0.7)); border-top: 1px solid var(--line); }
+.contact + .footer, .estim + .footer { margin-top: 0; }
+.footer-cta { margin-top: clamp(-52px, -4vw, -36px); padding: clamp(22px, 3vw, 34px) clamp(22px, 3vw, 40px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px 32px; position: relative; z-index: 2; transform: translateY(-50%); margin-bottom: calc(-1 * clamp(18px, 3vw, 28px)); }
+.footer-cta strong { display: block;font-weight: 800; font-size: clamp(24px, 3vw, 34px); letter-spacing: -0.045em; line-height: 1.1; }
+.footer-cta span { display: block; color: var(--mut); margin-top: 6px; }
+.footer-cta-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.footer-cta h2 { font-weight: 800; font-size: clamp(24px, 3vw, 36px); letter-spacing: -0.045em; line-height: 1.05; }
+.footer-cta p { color: var(--mut); margin-top: 6px; max-width: 46ch; }
+.footer-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 32px clamp(24px, 4vw, 56px); padding-block: 8px clamp(28px, 4vw, 44px); }
+.f-brand { display: grid; gap: 16px; align-content: start; }
+.f-brand .logo img { height: 56px; }
+.f-brand p { color: var(--mut); max-width: 34ch; font-size: 15px; }
+.footer address { font-style: normal; font-size: 15px; line-height: 1.7; }
+.footer address a { font-weight: 700; text-decoration: none; }
+.footer address a:hover, .footer-grid a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.footer-grid nav { display: grid; gap: 10px; align-content: start; }
+.footer-grid h2, .footer-grid h3 { font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mut); margin-bottom: 4px; }
+.footer-grid ul { display: grid; gap: 10px; }
+.footer-grid nav a { text-decoration: none; font-weight: 600; font-size: 15px; color: var(--navy); }
+.footer-grid nav a:hover { color: var(--gold-t); }
+.footer-bottom { border-top: 1px solid var(--line); padding-top: 22px; display: grid; gap: 14px; }
+.footer-legal { display: flex; flex-wrap: wrap; gap: 6px 26px; }
+.footer-legal a { text-decoration: none; font-weight: 700; font-size: 14px; color: var(--navy); }
+.footer-legal a:hover { color: var(--gold-t); text-decoration: underline; text-underline-offset: 3px; }
+.footer-line { font-size: 13px; color: var(--mut); }
+.footer-line .to-top { float: right; margin-top: -8px; }
+.to-top { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; margin-left: auto; border-radius: 999px; background: rgba(255, 255, 255, 0.85); border: 1px solid rgba(15, 39, 68, 0.15); text-decoration: none; font-weight: 700; font-size: 14px; color: var(--navy); transition: background 0.25s, color 0.25s; }
+.to-top:hover { background: var(--navy); color: #fff; }
+.to-top svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 980px) { .footer-grid { grid-template-columns: 1fr 1fr; } .f-brand { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px 20px; } .footer-cta .acts .btn { width: 100%; } }
