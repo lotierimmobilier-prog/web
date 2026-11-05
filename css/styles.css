@@ -565,3 +565,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .to-top svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 @media (max-width: 980px) { .footer-grid { grid-template-columns: 1fr 1fr; } .f-brand { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px 20px; } .footer-cta .acts .btn { width: 100%; } }
+.socials { display: flex; gap: 10px; }
+.soc { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 12px; background: rgba(255, 255, 255, 0.85); border: 1px solid rgba(15, 39, 68, 0.15); color: var(--navy); transition: background 0.25s, color 0.25s; }
+.soc:hover { background: var(--navy); color: #fff; }
