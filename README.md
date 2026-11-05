@@ -15,4 +15,4 @@ Les pages de ville et de blog sont générées à partir de gabarits ; pour les 
 
 Mise en ligne : copier le contenu du dossier à la racine de l'hébergement (OVH).
 
-À compléter avant publication : photos et annonces réelles, avis, articles, adresses de Montpellier et de Rodilhan, horaires, pages légales. Les champs concernés sont écrits entre crochets dans `index.html`. Le domaine `lotier-immobilier.com` (canonical, sitemap, JSON-LD, `llms.txt`) est à confirmer.
+À compléter avant publication : photos et annonces réelles, avis, articles, adresses de Montpellier et de Nîmes, horaires, pages légales. Les champs concernés sont écrits entre crochets dans `index.html`. Le domaine `lotier-immobilier.com` (canonical, sitemap, JSON-LD, `llms.txt`) est à confirmer.

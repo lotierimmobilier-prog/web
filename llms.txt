@@ -1,6 +1,6 @@
 # LOTIER Immobilier
 
-> Agence immobilière indépendante créée en 2018 par trois associés. Vente, location, gestion locative et syndic de copropriété, de Béziers à Avignon. Trois agences : Béziers (siège), Montpellier et Rodilhan.
+> Agence immobilière indépendante créée en 2018 par trois associés. Vente, location, gestion locative et syndic de copropriété, de Béziers à Avignon. Trois agences : Béziers (siège), Montpellier et Nîmes.
 
 LOTIER Immobilier (SARL LOTIER) accompagne les propriétaires, vendeurs, acquéreurs, bailleurs, locataires et copropriétaires. L'agence gère plus de 900 lots et plus de 40 copropriétés, avec une dizaine de collaborateurs.
 
@@ -13,7 +13,7 @@ LOTIER Immobilier (SARL LOTIER) accompagne les propriétaires, vendeurs, acquér
 
 ## Zones couvertes
 
-Béziers, Montpellier, Rodilhan, Nîmes, Avignon, Narbonne, Carcassonne et leurs environs (Languedoc, vallée du Rhône, couloir de l'Aude).
+Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne et leurs environs (Languedoc, vallée du Rhône, couloir de l'Aude).
 
 ## Pages principales
 

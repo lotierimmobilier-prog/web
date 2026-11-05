@@ -407,3 +407,17 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .faq-simple summary { grid-template-columns: 1fr 32px; padding: 20px 24px; }
 .faq-simple .answer { padding: 0 24px 24px; }
 .faq-simple h3 { font-size: clamp(17px, 1.8vw, 20px); }
+
+/* Plan du site et pages légales */
+.plan-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.plan-blog { grid-template-columns: repeat(3, 1fr); }
+.plan-box { padding: 24px; display: grid; gap: 10px; align-content: start; }
+.plan-box h2, .plan-blog h3 { font-weight: 800; font-size: 20px; letter-spacing: -0.03em; }
+.plan-blog > div { padding: 22px 24px; border-radius: 22px; background: rgba(255, 255, 255, 0.78); border: 1px solid #fff; display: grid; gap: 10px; align-content: start; }
+.plan-grid ul { display: grid; gap: 8px; }
+.plan-grid a { text-decoration: none; font-weight: 600; font-size: 15px; color: var(--navy); }
+.plan-grid a:hover { text-decoration: underline; text-underline-offset: 3px; color: var(--gold-t); }
+.legal-note { padding: 14px 20px; margin-bottom: 24px; font-size: 14px; font-weight: 600; border-left: 5px solid var(--gold-hi); }
+.legal .prose a { color: var(--gold-t); }
+@media (max-width: 1020px) { .plan-grid, .plan-blog { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .plan-grid, .plan-blog { grid-template-columns: 1fr; } }
