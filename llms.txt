@@ -18,10 +18,39 @@ Béziers, Montpellier, Rodilhan, Nîmes, Avignon, Narbonne, Carcassonne et leurs
 ## Pages principales
 
 - [Accueil](https://lotier-immobilier.com/): présentation, annonces, estimation en ligne.
-- [Annonces](https://lotier-immobilier.com/#annonces): biens à vendre et à louer.
 - [Conseils immo](https://lotier-immobilier.com/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.
-- [Actualités](https://lotier-immobilier.com/#actualites): le marché local et la vie en copropriété.
+- [Blog](https://lotier-immobilier.com/blog/index.html): 20 guides pratiques.
 - [Contact](https://lotier-immobilier.com/#contact): coordonnées des agences.
+
+## Pages par ville
+
+- [Agence immobilière à Béziers](https://lotier-immobilier.com/agence-immobiliere-beziers.html): vente, location, gestion locative et syndic à Béziers.
+- [Agence immobilière à Montpellier](https://lotier-immobilier.com/agence-immobiliere-montpellier.html): vente, location, gestion locative et syndic à Montpellier.
+- [Agence immobilière à Nîmes](https://lotier-immobilier.com/agence-immobiliere-nimes.html): vente, location, gestion locative et syndic à Nîmes.
+- [Agence immobilière à Carcassonne](https://lotier-immobilier.com/agence-immobiliere-carcassonne.html): vente, location, gestion locative et syndic à Carcassonne.
+
+## Articles du blog
+
+- [Home staging : 8 gestes simples pour mieux vendre](https://lotier-immobilier.com/blog/home-staging-mieux-vendre.html) (Vendre, 2026-10-26): Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+- [Constituer un dossier de location solide](https://lotier-immobilier.com/blog/dossier-de-location-solide.html) (Locataire, 2026-10-17): Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.
+- [Visiter un appartement : la check-list de l'acheteur](https://lotier-immobilier.com/blog/visiter-un-appartement-checklist.html) (Acheter, 2026-10-02): Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+- [Premier achat immobilier : 6 erreurs à éviter](https://lotier-immobilier.com/blog/premier-achat-erreurs-a-eviter.html) (Acheter, 2026-09-22): Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
+- [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier-immobilier.com/blog/fixer-le-bon-prix-estimation.html) (Vendre, 2026-09-17): Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
+- [Assemblée générale de copropriété : bien se préparer](https://lotier-immobilier.com/blog/assemblee-generale-copropriete-preparer.html) (Syndic, 2026-07-03): Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.
+- [Dépôt de garantie : montant, restitution, retenues](https://lotier-immobilier.com/blog/depot-de-garantie-location.html) (Locataire, 2026-06-16): Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
+- [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier-immobilier.com/blog/frais-de-notaire-comprendre.html) (Acheter, 2026-06-10): Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.
+- [Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi](https://lotier-immobilier.com/blog/vivre-a-carcassonne.html) (Villes, 2026-05-03): Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.
+- [Charges de copropriété : lire un appel de fonds](https://lotier-immobilier.com/blog/charges-copropriete-appel-de-fonds.html) (Syndic, 2026-04-21): Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.
+- [Vivre à Montpellier : du centre historique aux nouveaux quartiers](https://lotier-immobilier.com/blog/vivre-a-montpellier.html) (Villes, 2026-04-18): Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.
+- [Loyers impayés : les bons réflexes du propriétaire](https://lotier-immobilier.com/blog/loyers-impayes-reflexes-proprietaire.html) (Bailleur, 2026-04-13): Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.
+- [Vivre à Nîmes : Arènes, Écusson et art de vivre gardois](https://lotier-immobilier.com/blog/vivre-a-nimes.html) (Villes, 2026-03-29): Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.
+- [Travaux en copropriété : qui décide, qui paie ?](https://lotier-immobilier.com/blog/travaux-en-copropriete-qui-decide.html) (Syndic, 2026-02-14): Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
+- [DPE : comprendre les classes A à G](https://lotier-immobilier.com/blog/dpe-classes-a-g-comprendre.html) (Bailleur, 2026-02-07): Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.
+- [Louer son bien : meublé ou vide ?](https://lotier-immobilier.com/blog/meuble-ou-vide-choisir-location.html) (Bailleur, 2026-02-06): Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
+- [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier-immobilier.com/blog/mandat-exclusif-ou-simple.html) (Vendre, 2026-01-28): Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.
+- [Les diagnostics immobiliers obligatoires pour vendre](https://lotier-immobilier.com/blog/diagnostics-immobiliers-obligatoires-vente.html) (Vendre, 2026-01-16): DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.
+- [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier-immobilier.com/blog/compromis-de-vente-points-de-vigilance.html) (Acheter, 2026-01-01): Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.
+- [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier-immobilier.com/blog/vivre-a-beziers.html) (Villes, 2025-11-25): Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
 
 ## Contact
 

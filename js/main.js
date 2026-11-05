@@ -196,6 +196,7 @@
   var budgetLabel = document.querySelector('label[for="budget"]');
   var budgetInput = document.getElementById('budget');
   function setMode(key) {
+    if (!budgetLabel || !budgetInput) return;
     tabs.forEach(function (t) { t.setAttribute('aria-pressed', String(t.getAttribute('data-mode') === key)); });
     budgetLabel.textContent = modes[key].label;
     budgetInput.placeholder = modes[key].hint;
@@ -227,6 +228,17 @@
       var f = c.getAttribute('data-filter');
       chips.forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); });
       items.forEach(function (d) { d.hidden = !(f === 'all' || d.getAttribute('data-cat') === f); });
+    });
+  });
+
+  // ----- Blog : filtre par thème -----
+  var bchips = document.querySelectorAll('[data-bf]');
+  var cards = document.querySelectorAll('#blog-list .blog-card');
+  bchips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      var f = c.getAttribute('data-bf');
+      bchips.forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); });
+      cards.forEach(function (d) { d.hidden = !(f === 'all' || d.getAttribute('data-cat') === f); });
     });
   });
 })();
