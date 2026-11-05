@@ -568,3 +568,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .socials { display: flex; gap: 10px; }
 .soc { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 12px; background: rgba(255, 255, 255, 0.85); border: 1px solid rgba(15, 39, 68, 0.15); color: var(--navy); transition: background 0.25s, color 0.25s; }
 .soc:hover { background: var(--navy); color: #fff; }
+.my-logo { display: block; height: 72px; width: auto; margin-bottom: 18px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.nav-my { font-weight: 800; color: var(--gold-t); }
+.tb-my { font-weight: 700; }
