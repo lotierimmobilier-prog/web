@@ -108,19 +108,31 @@
   }
 
   // ----- Immeuble isométrique -----
-  var FLOORS = [
+  var SETS = {
+    services: [
     { n: 'Conseil', t: 'Un conseiller à votre écoute', p: 'On commence toujours par vous écouter, avant de parler prix ou calendrier.', a: 'Prendre rendez-vous', h: '#contact' },
     { n: 'Location', t: 'Louer l\'esprit tranquille', p: 'Nous trouvons le locataire, rédigeons le bail et suivons votre bien. À partir de 39,99 € par mois.', a: 'Mettre mon bien en location', h: 'mailto:gestion@lotier-immobilier.com' },
     { n: 'Vente', t: 'Vendre au bon prix', p: 'Estimation, mandat, visites, signature : un conseiller vous accompagne jusqu\'à l\'acte.', a: 'Estimer mon bien', h: '#estimer' },
     { n: 'Syndic', t: 'Une copropriété claire', p: 'Assemblées, charges, travaux : une gestion transparente pour votre immeuble.', a: 'Écrire au syndic', h: 'mailto:syndic@lotier-immobilier.com' },
     { n: 'Estimation', t: 'Combien vaut votre bien ?', p: 'Une estimation appuyée sur les ventes récentes de votre quartier.', a: 'Estimer mon bien', h: '#estimer' }
-  ];
+  ],
+    parcours: [
+      { n: 'Candidature', t: 'Un échange avec l\'équipe', p: 'Présentez votre parcours et vos motivations par téléphone ou avec le formulaire de candidature.', a: 'Postuler', h: '#postuler' },
+      { n: 'Carte pro', t: 'On monte votre dossier', p: 'Constitution du dossier de carte professionnelle, valable trois ans.', a: 'Voir les conditions', h: '#conditions' },
+      { n: 'Kit et formation', t: 'Une semaine pour démarrer', p: 'Vous recevez votre kit de démarrage et suivez une semaine de formation avec un formateur dédié.', a: 'Voir le parcours', h: '#parcours' },
+      { n: 'Premières ventes', t: 'Accompagné dès le début', p: 'Vous démarrez avec l\'équipe à chaque étape, avec un mentor dédié dès votre arrivée.', a: 'Voir le parcours', h: '#parcours' },
+      { n: 'Indépendance', t: 'Signez votre indépendance', p: '75 % de commission HT, sans redevance de marque ni quotas imposés.', a: 'Postuler maintenant', h: '#postuler' }
+    ]
+  };
+  var FLOORS = SETS.services;
+  var ARIA = 'Immeuble en trois dimensions : chaque étage est un service de l\'agence';
+
 
   function isoSvg() {
     var S = 46, W = 3.1, D = 2.5, H = 1.0, ox = 300, oy = 330, c30 = Math.cos(Math.PI / 6), s30 = Math.sin(Math.PI / 6);
     function P(x, y, z) { return [(ox + (x - y) * c30 * S).toFixed(1), (oy + (x + y) * s30 * S - z * S).toFixed(1)].join(','); }
     function poly(pts, cls, style) { return '<polygon class="' + cls + '"' + (style ? ' style="' + style + '"' : '') + ' points="' + pts.map(function (q) { return P(q[0], q[1], q[2]); }).join(' ') + '"/>'; }
-    var s = '<svg viewBox="0 0 600 470" role="group" aria-label="Immeuble en trois dimensions : chaque étage est un service de l\'agence"><defs><filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter></defs>';
+    var s = '<svg viewBox="0 0 600 470" role="group" aria-label="' + ARIA + '"><defs><filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter></defs>';
     s += '<polygon points="' + [P(-0.8, -0.8, 0), P(W + 0.8, -0.8, 0), P(W + 0.8, D + 0.8, 0), P(-0.8, D + 0.8, 0)].join(' ') + '" fill="#cfd9e6" opacity=".7"/>';
     s += '<polygon points="' + [P(0.2, 0.2, 0), P(W + 1.2, 0.2, 0), P(W + 1.2, D + 1.2, 0), P(0.2, D + 1.2, 0)].join(' ') + '" fill="#0f2744" opacity=".28" filter="url(#sh)"/>';
     FLOORS.forEach(function (f, k) {
@@ -143,6 +155,7 @@
 
   var isoBox = document.getElementById('iso-svg');
   if (isoBox) {
+    if (isoBox.dataset.floors === 'parcours') { FLOORS = SETS.parcours; ARIA = 'Immeuble en trois dimensions : chaque étage est une étape pour devenir agent LOTIER'; }
     isoBox.innerHTML = isoSvg();
     var fls = isoBox.querySelectorAll('.fl');
     var btns = document.querySelectorAll('.elev button');
@@ -241,4 +254,39 @@
       cards.forEach(function (d) { d.hidden = !(f === 'all' || d.getAttribute('data-cat') === f); });
     });
   });
+
+  // ----- Recrutement : simulateur de commission -----
+  var sim = document.getElementById('simulateur');
+  if (sim) {
+    var range = document.getElementById('sim-range');
+    var eur = function (n) { return Math.round(n).toLocaleString('fr-FR') + ' €'; };
+    var rows = [['a', 0.55], ['b', 0.65], ['l', 0.75]];
+    var runSim = function () {
+      var v = +range.value;
+      document.getElementById('sim-honoraires').textContent = eur(v);
+      rows.forEach(function (r) {
+        document.getElementById('sim-' + r[0]).textContent = eur(v * r[1]);
+        document.getElementById('bar-' + r[0]).style.width = (r[1] / 0.75 * 100) + '%';
+      });
+      document.getElementById('sim-gap').textContent = '+ ' + eur(v * (0.75 - 0.65));
+    };
+    range.addEventListener('input', runSim);
+    document.getElementById('sim-replay').addEventListener('click', function () {
+      rows.forEach(function (r) { document.getElementById('bar-' + r[0]).style.width = '0%'; });
+      void sim.offsetWidth;
+      setTimeout(runSim, 60);
+    });
+    runSim();
+  }
+
+  // ----- Recrutement : formulaire de candidature (prépare un e-mail) -----
+  var apply = document.getElementById('postuler-form');
+  if (apply) {
+    apply.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var g = function (id) { return document.getElementById(id).value.trim(); };
+      var body = 'Bonjour,\n\nJe souhaite rejoindre LOTIER Immobilier comme agent commercial indépendant.\n\nNom : ' + g('ap-nom') + '\nTéléphone : ' + g('ap-tel') + '\nE-mail : ' + g('ap-mail') + '\nVille : ' + g('ap-ville') + '\nSituation : ' + g('ap-situation') + '\n\nMessage :\n' + g('ap-msg') + '\n\nMerci de me recontacter.';
+      window.location.href = 'mailto:recrutement@lotier-immobilier.com?subject=' + encodeURIComponent('Candidature agent commercial indépendant') + '&body=' + encodeURIComponent(body);
+    });
+  }
 })();
