@@ -13,7 +13,7 @@ LOTIER Immobilier (SARL LOTIER) accompagne les propriétaires, vendeurs, acquér
 
 ## Zones couvertes
 
-Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne et leurs environs (Languedoc, vallée du Rhône, couloir de l'Aude).
+Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs environs (Languedoc, vallée du Rhône, couloir de l'Aude).
 
 ## Pages principales
 
@@ -28,6 +28,9 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne et leurs environs 
 - [Agence immobilière à Montpellier](https://lotier-immobilier.com/agence-immobiliere-montpellier.html): vente, location, gestion locative et syndic à Montpellier.
 - [Agence immobilière à Nîmes](https://lotier-immobilier.com/agence-immobiliere-nimes.html): vente, location, gestion locative et syndic à Nîmes.
 - [Agence immobilière à Carcassonne](https://lotier-immobilier.com/agence-immobiliere-carcassonne.html): vente, location, gestion locative et syndic à Carcassonne.
+- [Agence immobilière à Narbonne](https://lotier-immobilier.com/agence-immobiliere-narbonne.html): vente, location, gestion locative et syndic à Narbonne.
+- [Agence immobilière à Avignon](https://lotier-immobilier.com/agence-immobiliere-avignon.html): vente, location, gestion locative et syndic à Avignon.
+- [Agence immobilière à Agde](https://lotier-immobilier.com/agence-immobiliere-agde.html): vente, location, gestion locative et syndic à Agde.
 
 ## Articles du blog
 

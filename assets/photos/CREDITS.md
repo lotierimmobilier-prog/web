@@ -27,3 +27,9 @@ Elles servent de décor en attendant les photos de l'agence : à remplacer avant
 | `nimes2.jpg` | https://www.pexels.com/photo/33108632/ |
 | `carcassonne.jpg` | https://www.pexels.com/photo/37384988/ |
 | `carcassonne2.jpg` | https://www.pexels.com/photo/38104408/ |
+| `narbonne.jpg` | https://www.pexels.com/photo/37384987/ |
+| `narbonne2.jpg` | https://www.pexels.com/photo/30672382/ |
+| `agde.jpg` | https://www.pexels.com/photo/32778947/ |
+| `agde2.jpg` | https://www.pexels.com/photo/32778993/ |
+| `avignon.jpg` | https://www.pexels.com/photo/32183966/ |
+| `avignon2.jpg` | https://www.pexels.com/photo/30037006/ |
