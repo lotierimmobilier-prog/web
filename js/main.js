@@ -441,6 +441,7 @@
 (function () {
   var KEY = 'lotier-cookies-v1', box = null;
   function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function saved() { try { var r = read(); return r ? JSON.parse(r).choix : null; } catch (e) { return null; } }
   function save(v) { try { localStorage.setItem(KEY, JSON.stringify({ choix: v, date: new Date().toISOString() })); } catch (e) {} }
   var chat = document.getElementById('chat');
   var prefix = chat ? chat.getAttribute('data-prefix') || '' : '';
@@ -462,6 +463,7 @@
       '<label><input type="checkbox" id="ck-stats"> Mesure d’audience (aucune n’est active aujourd’hui)</label>' +
       '<button type="button" class="btn btn-primary" data-ck="valider">Valider mon choix</button></div>';
     document.body.appendChild(box);
+    if (saved() === 'tout') box.querySelector('#ck-stats').checked = true;
     box.addEventListener('click', function (ev) {
       var b = ev.target.closest('[data-ck]'); if (!b) return;
       var a = b.getAttribute('data-ck');
