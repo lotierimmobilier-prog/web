@@ -488,3 +488,15 @@
   document.addEventListener('click', function (ev) { if (ev.target.closest('[data-cookie-open]')) open(); });
   if (!read()) setTimeout(open, 900);
 })();
+
+/* Page des agents : filtre par secteur (sans JavaScript, tous les secteurs restent affichés). */
+(function () {
+  var bar = document.querySelector('.agents-filter');
+  if (!bar) return;
+  var sects = document.querySelectorAll('.agent-sect');
+  function apply(id) {
+    sects.forEach(function (s) { s.hidden = id !== 'all' && s.getAttribute('data-sect') !== id; });
+    bar.querySelectorAll('[data-sect]').forEach(function (b) { var on = b.getAttribute('data-sect') === id; b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+  }
+  bar.addEventListener('click', function (ev) { var b = ev.target.closest('[data-sect]'); if (b) apply(b.getAttribute('data-sect')); });
+})();
