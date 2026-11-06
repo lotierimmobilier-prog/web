@@ -97,7 +97,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .btn-block { width: 100%; }
 .mag { transform: translate(var(--tx, 0px), var(--ty, 0px)); transition: transform 0.25s var(--ease), background 0.25s, color 0.25s, filter 0.25s, border-color 0.25s, box-shadow 0.25s; }
 .acts { display: flex; flex-wrap: wrap; gap: 12px 14px; align-items: center; }
-.text-link { font-weight: 700; font-size: 15px; color: var(--gold-t); text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1.5px no-repeat; padding-bottom: 3px; transition: background-size 0.35s var(--ease); }
+.text-link { font-weight: 700; font-size: 15px; color: var(--gold-t); text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1.5px no-repeat; padding-bottom: 3px; transition: background-size 0.35s var(--ease); display: inline-block; padding-top: 6px; }
 .text-link:hover { background-size: 0 1.5px; background-position: 100% 100%; }
 
 /* ---------- Bandeau + en-tête ---------- */
@@ -124,7 +124,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .nav-toggle svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
 @media (max-width: 1180px) {
   .nav-toggle { display: flex; }
-  .site-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: rgba(255, 255, 255, 0.99); border-bottom: 1px solid var(--line); flex-direction: column; align-items: stretch; gap: 0; padding: 8px var(--gutter) 22px; }
+  .site-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: #fff; border-bottom: 1px solid var(--line); flex-direction: column; align-items: stretch; gap: 0; padding: 8px var(--gutter) 22px; }
   .site-nav.open { display: flex; max-height: calc(100vh - 230px); max-height: calc(100dvh - 230px); overflow-y: auto; overscroll-behavior: contain; }
   .site-nav a:not(.btn) { padding: 15px 0; border-bottom: 1px solid var(--line); font-size: 18px; }
   .site-nav .btn { margin: 18px 0 0; }
@@ -239,7 +239,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .section-cta { display: flex; justify-content: center; margin-top: 36px; }
 
 /* ---------- Bandeau estimation ---------- */
-.estim { position: relative; overflow: hidden; margin-top: clamp(64px, 9vw, 120px); background: linear-gradient(120deg, #f6dd94, #e9c25a); color: var(--navy); }
+.estim { position: relative; overflow: hidden; margin-top: clamp(64px, 9vw, 120px); background: linear-gradient(120deg, #f6f0e1, #e7d9b4); color: var(--navy); }
 .estim .container { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-block: clamp(44px, 6vw, 80px); }
 .estim h2 { font-weight: 800; font-size: clamp(32px, 4.6vw, 60px); line-height: 1; letter-spacing: -0.05em; text-wrap: balance; }
 .estim p { margin-top: 14px; font-size: 18px; max-width: 48ch; }
@@ -271,7 +271,8 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .faq-cta p { font-weight: 800; font-size: 22px; letter-spacing: -0.03em; max-width: 520px; line-height: 1.25; }
 
 /* ---------- Agences ---------- */
-.agencies { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+.agencies > * { min-width: 0; }
+.agencies { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
 .agencies .photo { position: relative; aspect-ratio: 4 / 3; border-radius: 32px; overflow: hidden; box-shadow: 0 30px 60px rgba(15, 39, 68, 0.18); }
 .agencies .photo img { position: absolute; left: 0; top: -8%; width: 100%; height: 116%; object-fit: cover; transform: translateY(var(--py, 0px)); }
 .agencies .photo .glass { position: absolute; left: 16px; bottom: 16px; padding: 12px 18px; font-weight: 700; font-size: 14px; }
@@ -279,7 +280,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .agency-list li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; padding: 18px 22px; background: rgba(255, 255, 255, 0.78); border: 1px solid #fff; border-radius: 18px; transition: transform 0.3s var(--ease); }
 .agency-list li:hover { transform: translateX(6px); }
 .agency-list .city { font-weight: 800; font-size: 24px; letter-spacing: -0.04em; }
-@media (max-width: 860px) { .agencies { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .agencies { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------- Avis ---------- */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px; }
@@ -730,3 +731,8 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 .rband-link:hover { color: #f4e7c2; }
 @media (max-width: 860px) { .rband-box { grid-template-columns: 1fr; } .rband-photo { min-height: 200px; } .rband-photo::after { background: linear-gradient(180deg, rgba(134, 114, 68, 0) 55%, #867244); } .rband-copy { padding: 8px 22px 26px; } .rband-act .btn { width: 100%; justify-content: center; } }
 @media (prefers-reduced-motion: reduce) { .rband-sticker { animation: none; } }
+
+/* Tablette : pas de carte orpheline sur la dernière ligne */
+@media (min-width: 561px) and (max-width: 1020px) { .city-cards > :last-child:nth-child(odd) { grid-column: 1 / -1; } }
+@media (min-width: 660px) and (max-width: 950px) { .cards > :nth-child(3):last-child { grid-column: 1 / -1; } }
+@media (min-width: 1021px) and (max-width: 1120px) { .city-cards > :last-child:nth-child(3n+1) { grid-column: 1 / -1; } }
