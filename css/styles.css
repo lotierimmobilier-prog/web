@@ -669,7 +669,7 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 .chat-form button { width: 46px; border: 0; border-radius: 12px; background: linear-gradient(135deg, var(--gold), var(--gold-hi)); color: var(--navy); cursor: pointer; display: grid; place-items: center; }
 .chat-form button svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .chat-foot { margin: 0; padding: 8px 16px 12px; font-size: 12px; color: var(--mut); background: #f6f9fd; }
-@media (max-width: 860px) { .chat { bottom: calc(70px + max(10px, env(safe-area-inset-bottom, 0px))); } .chat-fab-txt { display: none; } .chat-fab { padding: 8px; } .chat-panel { height: min(520px, calc(100vh - 150px)); } }
+@media (max-width: 860px) { .chat { bottom: calc(70px + max(10px, env(safe-area-inset-bottom, 0px))); } .chat-fab-txt { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } .chat-fab { padding: 8px; } .chat-panel { height: min(520px, calc(100vh - 150px)); } }
 @media (prefers-reduced-motion: reduce) { .chat-fab { transition: none; } }
 
 /* ---------- Bandeau des partenaires ---------- */
