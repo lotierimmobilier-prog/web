@@ -1,0 +1,11 @@
+{
+  "_aide": "Ajouter un agent dans la liste « agents ». Champs : nom, role (facultatif), secteurs (liste d'identifiants de la liste « secteurs »), communes (texte libre), email, telephone, site (adresse du mini-site), photo (facultatif, ex. assets/agents/prenom-nom.jpg). Un agent peut couvrir plusieurs secteurs.",
+  "secteurs": [
+    {"id": "beziers-agde", "nom": "Béziers et Agde", "dept": "Hérault"},
+    {"id": "montpellier", "nom": "Montpellier", "dept": "Hérault"},
+    {"id": "nimes", "nom": "Nîmes", "dept": "Gard"},
+    {"id": "carcassonne-narbonne", "nom": "Carcassonne et Narbonne", "dept": "Aude"},
+    {"id": "avignon", "nom": "Avignon", "dept": "Vaucluse"}
+  ],
+  "agents": []
+}
