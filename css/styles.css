@@ -758,3 +758,8 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
   main .section::before { width: 280px; height: 280px; right: -150px; opacity: 0.1; }
   main .section:nth-of-type(even)::before { right: auto; left: -150px; }
 }
+
+/* Safari / iPhone : les mots animés (inline-block) rendaient le texte doré invisible avec le dégradé découpé dans le texte ; on utilise une couleur unie */
+.gold-text .w { background: none; color: #947f50; -webkit-text-fill-color: #947f50; }
+.gold-text:has(.w) { background: none; }
+@media (max-width: 700px) { .hero:not(.hero-tight)::before { opacity: 0.28; } }
