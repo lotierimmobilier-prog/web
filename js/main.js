@@ -92,7 +92,7 @@
     var TEL = chat.getAttribute('data-phone'), TELL = chat.getAttribute('data-phone-label');
     var history = [], started = false;
     var L = {
-      est: ['Estimer mon bien', P + 'index.html#estimer'], rdv: ['Prendre rendez-vous', P + 'index.html#contact'],
+      est: ['Estimer mon bien', P + 'index.html#estimer'], rdv: ['Contacter l\'agence', P + 'index.html#contact'],
       hon: ['Nos honoraires', P + 'nos-honoraires/'], blog: ['Les conseils du blog', P + 'blog/index.html'],
       join: ['Devenir agent', P + 'rejoindre/'], cmp: ['Comparatif réseaux et agences', P + 'rejoindre/comparatif/'],
       my: ['Espace client MyLotier', P + 'mylotier/'], faq: ['Questions fréquentes', P + 'index.html#conseils'],
@@ -100,7 +100,7 @@
     };
     var KB = [
       { k: ['estim', 'valeur', 'prix de mon', 'combien vaut'], t: 'Pour estimer votre bien, indiquez son adresse et ses caractéristiques dans le formulaire d\'estimation : un conseiller vous recontacte pour affiner avec une visite.', l: ['est', 'blog'] },
-      { k: ['rendez', 'rdv', 'rencontr', 'visite'], t: 'Pour convenir d\'un rendez-vous, appelez-nous ou passez par la section contact : un conseiller vous répond.', l: ['rdv'], tel: 1 },
+      { k: ['rendez', 'rdv', 'rencontr', 'visite'], t: 'Pour échanger avec un conseiller, appelez-nous ou passez par la section contact : il vous répond.', l: ['rdv'], tel: 1 },
       { k: ['honorair', 'frais', 'tarif', 'commission', 'combien coute', 'coût', 'cout'], t: 'Notre barème est détaillé sur la page des honoraires. La gestion locative démarre à 39,99 € par mois. Pour un devis précis, un conseiller vous répond.', l: ['hon'], tel: 1 },
       { k: ['louer', 'location', 'locataire', 'bailleur', 'gestion locative'], t: 'Nous trouvons le locataire, rédigeons le bail et suivons votre bien, avec une gestion locative à partir de 39,99 € par mois.', l: ['rdv', 'blog'] },
       { k: ['vendre', 'vente', 'mandat'], t: 'Estimation, mandat, visites, signature : un conseiller vous accompagne jusqu\'à l\'acte. Commencez par une estimation.', l: ['est', 'blog'] },
@@ -269,7 +269,7 @@
   // ----- Immeuble isométrique -----
   var SETS = {
     services: [
-    { n: 'Conseil', t: 'Un conseiller à votre écoute', p: 'On commence toujours par vous écouter, avant de parler prix ou calendrier.', a: 'Prendre rendez-vous', h: '#contact' },
+    { n: 'Conseil', t: 'Un conseiller à votre écoute', p: 'On commence toujours par vous écouter, avant de parler prix ou calendrier.', a: 'Nous contacter', h: '#contact' },
     { n: 'Location', t: 'Louer l\'esprit tranquille', p: 'Nous trouvons le locataire, rédigeons le bail et suivons votre bien. À partir de 39,99 € par mois.', a: 'Mettre mon bien en location', h: 'mailto:gestion@lotier-immobilier.com' },
     { n: 'Vente', t: 'Vendre au bon prix', p: 'Estimation, mandat, visites, signature : un conseiller vous accompagne jusqu\'à l\'acte.', a: 'Estimer mon bien', h: '#estimer' },
     { n: 'Syndic', t: 'Une copropriété claire', p: 'Assemblées, charges, travaux : une gestion transparente pour votre immeuble.', a: 'Écrire au syndic', h: 'mailto:syndic@lotier-immobilier.com' },

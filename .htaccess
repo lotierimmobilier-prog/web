@@ -20,26 +20,6 @@ DirectoryIndex index.html
   # /index.html -> /
   RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
   RewriteRule ^index\.html$ / [L,R=301]
-
-  # Anciennes adresses du site WordPress : redirections permanentes vers les nouvelles pages
-  # (liste établie à partir du plan du site de l'ancien site ; à tester après la mise en ligne)
-  RewriteRule ^gestion-2/?$ /nos-honoraires/ [NE,L,R=301]
-  RewriteRule ^(gestion|gestion-locative|gestion-locative-lotier)/?$ /location/ [NE,L,R=301]
-  RewriteRule ^syndic-de-copropriete/?$ /syndic/ [NE,L,R=301]
-  RewriteRule ^mentions-legales-2/?$ /mentions-legales/ [NE,L,R=301]
-  RewriteRule ^faq/?$ /#conseils [NE,L,R=301]
-  RewriteRule ^avis/?$ /#avis [NE,L,R=301]
-  RewriteRule ^nos-biens/?$ /#annonces [NE,L,R=301]
-  RewriteRule ^(mandataire|transaction-mandataire|faq-mandataire|gestion-mandataire)/?$ /rejoindre/ [NE,L,R=301]
-  RewriteRule ^(jerome-bouba-entrepreneur-immobilier-et-fondateur-de-lotier-immobilier|nicolas-popovitch-parcours-et-experience-dans-limmobilier)/?$ /notre-service/ [NE,L,R=301]
-  RewriteRule ^(espace-proprietaire|espace-membre|connections|login|logout|user|members|account|password-reset|lotier-immobilier-accueil/page-de-connexion-ics-lotier)/?$ /mylotier/ [NE,L,R=301]
-  RewriteRule ^limportance-dune-gestion-de-copropriete-efficace/?$ /blog/charges-copropriete-appel-de-fonds.html [NE,L,R=301]
-  RewriteRule ^vendre-votre-bien-immobilier-pourquoi-lentretien-fait-toute-la-difference/?$ /blog/home-staging-mieux-vendre.html [NE,L,R=301]
-  RewriteRule ^(il-achete-letage-entier|2-immeubles-tres-rentable|pourquoi-recevez-vous-cet-email-en-tant-que-locataire|category/blog|category/non-classe)/?$ /blog/ [NE,L,R=301]
-  # Anciennes fiches de biens et filtres de recherche : retour vers la section Annonces
-  RewriteRule ^(propriete|iwp_[a-z_]+)/ /#annonces [NE,L,R=301]
-  # Anciens comptes auteurs, brouillons : retour vers l'accueil
-  RewriteRule ^(author/.*|brouillon-auto(-2)?/?)$ / [L,R=301]
 </IfModule>
 
 <IfModule mod_deflate.c>
