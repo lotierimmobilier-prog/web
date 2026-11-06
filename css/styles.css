@@ -96,7 +96,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .topbar a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .topbar svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .tb-r { display: flex; gap: 8px 28px; flex-wrap: wrap; }
-@media (max-width: 760px) { .tb-l { display: none; } .tb-r { width: 100%; justify-content: space-between; } .tb-r a:nth-child(3) { display: none; } }
+@media (max-width: 760px) { .tb-l { display: none; } .tb-r { width: 100%; justify-content: space-between; } }
 
 .site-header { position: sticky; top: 0; z-index: 60; background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 16px 28px; min-height: 80px; }
@@ -568,7 +568,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .tb-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 .tb-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .tb-btn:focus-visible { outline: 2px solid var(--gold-hi); outline-offset: 3px; }
-@media (max-width: 760px) { .tb-r a:nth-child(2) { display: none; } }
 .bell-wrap { position: relative; display: flex; align-items: center; }
 .bell { position: relative; display: inline-flex; align-items: center; gap: 10px; background: none; border: 0; padding: 8px; border-radius: 12px; color: var(--navy); cursor: pointer; font: inherit; font-weight: 600; font-size: 15px; }
 .bell:hover { background: rgba(15, 39, 68, 0.07); }
