@@ -736,3 +736,30 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 @media (min-width: 561px) and (max-width: 1020px) { .city-cards > :last-child:nth-child(odd) { grid-column: 1 / -1; } }
 @media (min-width: 660px) and (max-width: 950px) { .cards > :nth-child(3):last-child { grid-column: 1 / -1; } }
 @media (min-width: 1021px) and (max-width: 1120px) { .city-cards > :last-child:nth-child(3n+1) { grid-column: 1 / -1; } }
+
+/* ---------- Croix occitane (décor : très transparente, à moitié visible) ---------- */
+main { overflow-x: clip; }
+/* B : contour fin derrière l'immeuble de l'accueil */
+.hero:not(.hero-tight)::before, .hero:not(.hero-tight)::after { content: ""; position: absolute; z-index: -1; pointer-events: none; background: url(../assets/croix-occitane-contour.svg) center / contain no-repeat; }
+.hero:not(.hero-tight)::before { right: -300px; top: 2%; width: 900px; height: 900px; opacity: 0.38; transform: rotate(14deg); }
+.hero:not(.hero-tight)::after { left: -260px; bottom: -120px; width: 520px; height: 520px; opacity: 0.22; transform: rotate(-8deg); }
+/* C : demi-croix qui dépasse des sections, en alternance */
+main .section { isolation: isolate; }
+main .section::before { content: ""; position: absolute; z-index: -1; top: -40px; right: -220px; width: 440px; height: 440px; background: url(../assets/croix-occitane.svg) center / contain no-repeat; opacity: 0.13; transform: rotate(12deg); pointer-events: none; }
+main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: rotate(-12deg); }
+/* E : photo de la ville vue à travers la croix, pages de ville */
+.city-hero > .container { position: relative; z-index: 1; }
+.croix-photo { position: absolute; z-index: 0; right: -250px; top: -70px; width: 760px; height: 760px; background-size: cover; background-position: center; -webkit-mask: url(../assets/croix-occitane.svg) center / contain no-repeat; mask: url(../assets/croix-occitane.svg) center / contain no-repeat; opacity: 0.55; pointer-events: none; }
+@media (max-width: 860px) { .croix-photo { width: 440px; height: 440px; right: -200px; top: -50px; opacity: 0.3; } }
+@media (max-width: 560px) { .croix-photo { width: 300px; height: 300px; right: -140px; top: -60px; opacity: 0.26; } }
+@media (max-width: 700px) {
+  .hero:not(.hero-tight)::before { width: 340px; height: 340px; right: -190px; top: 14%; }
+  .hero:not(.hero-tight)::after { display: none; }
+  main .section::before { width: 280px; height: 280px; right: -150px; opacity: 0.1; }
+  main .section:nth-of-type(even)::before { right: auto; left: -150px; }
+}
+
+/* Safari / iPhone : les mots animés (inline-block) rendaient le texte doré invisible avec le dégradé découpé dans le texte ; on utilise une couleur unie */
+.gold-text .w { background: none; color: #947f50; -webkit-text-fill-color: #947f50; }
+.gold-text:has(.w) { background: none; }
+@media (max-width: 700px) { .hero:not(.hero-tight)::before { opacity: 0.2; } }
