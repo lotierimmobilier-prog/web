@@ -707,3 +707,22 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 @keyframes flotte { from { transform: translateY(-7px); } to { transform: translateY(7px); } }
 @media (prefers-reduced-motion: reduce) { .cl { animation: none; transform: translate3d(30vw, 0, 0); } .cl svg { animation: none; } }
 @media (max-width: 700px) { .cl-near { display: none; } }
+
+/* ---------- Bandeau de recrutement ---------- */
+.rband { padding-block: clamp(32px, 5vw, 64px); }
+.rband-box { position: relative; overflow: hidden; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 40px; padding: clamp(26px, 4vw, 48px); border-radius: 26px; background: #867244; color: #fff; }
+.rband-box::before { content: ""; position: absolute; right: -80px; top: -120px; width: 360px; height: 360px; border-radius: 50%; background: rgba(255, 255, 255, 0.08); }
+.rband-copy { position: relative; max-width: 640px; display: grid; gap: 10px; }
+.rband-kicker { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #efe6d0; }
+.rband-box h2 { margin: 0; font-size: clamp(26px, 3.6vw, 42px); line-height: 1.08; letter-spacing: -0.04em; text-wrap: balance; }
+.rband-box h2 em { font-style: normal; color: #f4e7c2; }
+.rband-copy p:last-child { margin: 0; font-size: 17px; color: #fff; }
+.rband-act { position: relative; display: grid; justify-items: start; gap: 12px; }
+.rband-sticker { position: absolute; right: -10px; top: -86px; width: 74px; height: 74px; border-radius: 50%; display: grid; place-items: center; background: #f4e7c2; color: #5e4e2c; font-weight: 800; font-size: 19px; transform: rotate(12deg); animation: sticker 5s ease-in-out infinite; }
+@keyframes sticker { 50% { transform: rotate(-6deg) translateY(-4px); } }
+.btn-white { background: #fff; color: var(--navy); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2); }
+.btn-white:hover { background: #f7f1e3; }
+.rband-link { color: #fff; font-weight: 700; text-underline-offset: 4px; }
+.rband-link:hover { color: #f4e7c2; }
+@media (max-width: 700px) { .rband-sticker { display: none; } .rband-act { width: 100%; } .rband-act .btn { width: 100%; justify-content: center; } }
+@media (prefers-reduced-motion: reduce) { .rband-sticker { animation: none; } }
