@@ -4,7 +4,7 @@ Site vitrine statique (HTML, CSS, JavaScript), sans étape de compilation. Direc
 
 - `index.html` : page d'accueil (données structurées JSON-LD, balises Open Graph, lien canonique)
 - `agence-immobiliere-beziers.html`, `...-montpellier.html`, `...-nimes.html`, `...-carcassonne.html`, `...-narbonne.html`, `...-avignon.html`, `...-agde.html` : une page de référencement par ville (contenu local, questions-réponses, FAQPage)
-- `mentions-legales/` et `lotier-rgpd/` : pages obligatoires, aux adresses de l'ancien site (informations reprises de l'ancien site, en `noindex` tant qu'elles ne sont pas confirmées) ; `nos-honoraires/` et `conditions-generales/` : à compléter
+- `mentions-legales/` et `lotier-rgpd/` : pages obligatoires, aux adresses de l'ancien site (informations reprises de l'ancien site, en `noindex` tant qu'elles ne sont pas confirmées) ; `nos-honoraires/` : barème des honoraires
 - `rejoindre/` : page de recrutement (agents commerciaux indépendants), reprise de rejoindre.lotier-immobilier.com ; le `.htaccess` redirige le sous-domaine vers cette page
 - `blog/` : 20 articles (BlogPosting, FAQPage) et leur index ; les dates de publication sont des exemples
 - `css/styles.css` : styles, avec les jetons de la charte en variables CSS
