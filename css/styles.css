@@ -780,3 +780,10 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 @keyframes ckin{from{opacity:0;transform:translateY(10px)}}
 @media (prefers-reduced-motion:reduce){.cookie-banner{animation:none}}
 @media (max-width:640px){.cookie-banner{left:8px;right:8px;bottom:8px;width:auto;padding:16px}}
+
+/* Note Google dans le bandeau du haut */
+.tb-l { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 4px 16px; }
+.tb-rate { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.tb-rate b { color: #fff; font-weight: 600; }
+.tb-rate .stars { color: #e3c77a; letter-spacing: 1px; font-size: 14px; }
+@media (max-width: 760px) { .tb-l { display: flex; padding-block: 6px 0; } .tb-txt { display: none; } }
