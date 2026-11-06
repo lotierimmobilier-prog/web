@@ -787,3 +787,11 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .tb-rate b { color: #fff; font-weight: 600; }
 .tb-rate .stars { color: #e3c77a; letter-spacing: 1px; font-size: 14px; }
 @media (max-width: 760px) { .tb-l { display: flex; padding-block: 6px 0; } .tb-txt { display: none; } }
+
+/* Tableaux d'honoraires */
+.table-wrap { overflow-x: auto; margin: 16px 0 28px; border-radius: 18px; }
+.table-wrap .legal-table { margin: 0; }
+.hon-table th.num, .hon-table td.num { text-align: center; font-variant-numeric: tabular-nums; }
+.hon-table td.num { font-weight: 500; }
+.hon-zones th.num, .hon-zones td.num { min-width: 104px; white-space: nowrap; }
+@media (max-width: 640px) { .hon-table th, .hon-table td { padding: 12px 10px; font-size: 14px; } .hon-zones th.num, .hon-zones td.num { min-width: 0; white-space: normal; } }
