@@ -145,6 +145,32 @@
   }
   })();
 
+
+  // ----- Ciel : nuages en parallaxe derrière les bandeaux d'en-tête de page -----
+  (function () {
+    var hosts = document.querySelectorAll('.hero, .page-hero');
+    if (!hosts.length) return;
+    var NS = 'http://www.w3.org/2000/svg';
+    var defs = document.createElementNS(NS, 'svg');
+    defs.setAttribute('width', '0'); defs.setAttribute('height', '0'); defs.setAttribute('aria-hidden', 'true'); defs.style.position = 'absolute';
+    defs.innerHTML = '<defs><linearGradient id="ng" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#eef5fd"/><stop offset="1" stop-color="#bdd3ee"/></linearGradient>' +
+      '<symbol id="nuage" viewBox="0 0 240 110"><path fill="url(#ng)" d="M50 96c-22 0-38-13-38-30 0-15 12-27 28-29 3-17 20-30 40-30 14 0 26 6 33 16 6-5 14-8 23-8 20 0 36 14 38 32 17 1 30 13 30 28 0 14-14 21-32 21z"/></symbol></defs>';
+    document.body.insertBefore(defs, document.body.firstChild);
+    var FULL = [[6, 150, 110, -20, 'far', 11], [30, 120, 120, -75, 'far', 13], [52, 140, 105, -50, 'far', 12], [14, 260, 80, -10, 'mid', 9], [46, 300, 90, -55, 'mid', 10], [70, 240, 85, -35, 'mid', 8], [24, 420, 62, -30, 'near', 8], [60, 460, 70, -8, 'near', 9]];
+    var LIGHT = [[8, 130, 110, -25, 'far', 11], [55, 150, 105, -70, 'far', 12], [20, 240, 85, -15, 'mid', 9], [50, 280, 95, -60, 'mid', 10]];
+    [].forEach.call(hosts, function (host) {
+      [].forEach.call(host.querySelectorAll('.orb, .cloud'), function (n) { n.parentNode.removeChild(n); });
+      var sky = document.createElement('div'); sky.className = 'sky'; sky.setAttribute('aria-hidden', 'true');
+      (host.classList.contains('hero') && !host.classList.contains('hero-tight') ? FULL : LIGHT).forEach(function (c) {
+        var el = document.createElement('span'); el.className = 'cl cl-' + c[4];
+        el.style.cssText = 'top:' + c[0] + '%;width:' + c[1] + 'px;--d:' + c[2] + 's;--dl:' + c[3] + 's;--b:' + c[5] + 's';
+        el.innerHTML = '<svg viewBox="0 0 240 110" aria-hidden="true"><use href="#nuage"/></svg>';
+        sky.appendChild(el);
+      });
+      host.insertBefore(sky, host.firstChild);
+    });
+  })();
+
   // ----- Titre mot à mot -----
   document.querySelectorAll('[data-split]').forEach(function (el) {
     var i = 0;
