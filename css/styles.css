@@ -782,7 +782,20 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .tb-rate { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .tb-rate b { color: #fff; font-weight: 600; }
 .tb-rate .stars { color: #e3c77a; letter-spacing: 1px; font-size: 14px; }
-@media (max-width: 760px) { .tb-l { display: flex; padding-block: 6px 0; } .tb-txt { display: none; } }
+/* Bandeau réduit à une ligne sur téléphone et tablette : note Google et agences. L'appel est dans la barre du bas, MyLotier dans le menu. */
+.nav-my { display: none; }
+@media (max-width: 900px) {
+  .topbar .container { flex-wrap: nowrap; min-height: 40px; gap: 12px; }
+  .tb-l { display: flex; padding: 0; }
+  .topbar .tb-txt, .topbar .tb-my { display: none; }
+  .tb-r { width: auto; flex-wrap: nowrap; }
+  .tb-rate { font-size: 13px; gap: 5px; }
+  .tb-rate .stars { font-size: 13px; letter-spacing: 0; }
+  .topbar .tb-btn { padding-block: 10px; font-size: 13px; white-space: nowrap; }
+  .nav-my { display: block; }
+}
+@media (max-width: 760px) { .topbar .tb-tel { display: none; } }
+}
 
 /* Tableaux d'honoraires */
 .table-wrap { overflow-x: auto; margin: 16px 0 28px; border-radius: 18px; }
