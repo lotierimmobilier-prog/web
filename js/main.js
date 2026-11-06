@@ -436,3 +436,40 @@
     });
   }
 })();
+
+/* Bandeau cookies : le choix est mémorisé localement (aucun traceur n'est actif tant que ce site n'en utilise pas). */
+(function () {
+  var KEY = 'lotier-cookies-v1', box = null;
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function save(v) { try { localStorage.setItem(KEY, JSON.stringify({ choix: v, date: new Date().toISOString() })); } catch (e) {} }
+  var chat = document.getElementById('chat');
+  var prefix = chat ? chat.getAttribute('data-prefix') || '' : '';
+  function close() { if (box) { box.remove(); box = null; } }
+  function open() {
+    if (box) return;
+    box = document.createElement('div');
+    box.className = 'cookie-banner';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-labelledby', 'ck-title');
+    box.innerHTML =
+      '<img class="ck-logo" src="' + prefix + 'assets/lotier-logo.png" alt="" width="110" height="37">' +
+      '<h2 id="ck-title">Les cookies de LOTIER</h2>' +
+      '<p>Comme pour tout bien immobilier, on a besoin de vous faire signer quelque chose. Nos cookies servent à mémoriser vos préférences, rien de plus, promis (pas de clause abusive dans nos CGV). Aujourd’hui, ce site n’en dépose aucun d’audience ni de publicité : on vous demande quand même, par politesse. <a href="' + prefix + 'lotier-rgpd/#cookies">Registre RGPD</a></p>' +
+      '<div class="ck-actions"><button type="button" class="btn btn-primary" data-ck="ok">Ok pour moi</button>' +
+      '<button type="button" class="btn btn-ghost" data-ck="non">Refuser</button>' +
+      '<button type="button" class="btn btn-ghost" data-ck="perso">Je choisis</button></div>' +
+      '<div class="ck-choix" hidden><label><input type="checkbox" checked disabled> Essentiels : mémoriser vos préférences (toujours actifs)</label>' +
+      '<label><input type="checkbox" id="ck-stats"> Mesure d’audience (aucune n’est active aujourd’hui)</label>' +
+      '<button type="button" class="btn btn-primary" data-ck="valider">Valider mon choix</button></div>';
+    document.body.appendChild(box);
+    box.addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-ck]'); if (!b) return;
+      var a = b.getAttribute('data-ck');
+      if (a === 'perso') { box.querySelector('.ck-choix').hidden = false; b.hidden = true; return; }
+      save(a === 'ok' ? 'tout' : a === 'non' ? 'essentiels' : (box.querySelector('#ck-stats').checked ? 'tout' : 'essentiels'));
+      close();
+    });
+  }
+  document.addEventListener('click', function (ev) { if (ev.target.closest('[data-cookie-open]')) open(); });
+  if (!read()) setTimeout(open, 900);
+})();

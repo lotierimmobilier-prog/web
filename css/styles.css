@@ -765,3 +765,18 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .my-card a:not(.btn) { color: var(--gold-t); font-weight: 600; text-underline-offset: 3px; }
 .soon-badge { justify-self: start; padding: 6px 12px; border-radius: 999px; background: #f5f0e4; color: var(--gold-t); font-size: 13px; font-weight: 600; }
 @media (max-width: 860px) { .my-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Bandeau cookies */
+.cookie-banner{position:fixed;left:16px;bottom:16px;z-index:90;width:min(440px,calc(100vw - 32px));background:#fff;color:var(--ink,#1c1c1c);border:1px solid rgba(0,0,0,.1);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:20px;animation:ckin .4s cubic-bezier(.22,1,.36,1)}
+.cookie-banner .ck-logo{display:block;height:auto;margin-bottom:12px}
+.cookie-banner h2{font-size:18px;line-height:1.3;margin:0 0 8px;font-weight:600}
+.cookie-banner p{font-size:14px;line-height:21px;margin:0 0 16px}
+.cookie-banner a{color:#867244;text-decoration:underline}
+.ck-actions{display:flex;flex-wrap:wrap;gap:8px}
+.ck-actions .btn,.ck-choix .btn{flex:1 1 auto;min-height:40px;padding:8px 14px;font-size:14px}
+.ck-choix{display:grid;gap:8px;margin-top:12px;font-size:14px}
+.ck-choix label{display:flex;gap:8px;align-items:flex-start}
+.ck-choix[hidden]{display:none}
+@keyframes ckin{from{opacity:0;transform:translateY(10px)}}
+@media (prefers-reduced-motion:reduce){.cookie-banner{animation:none}}
+@media (max-width:640px){.cookie-banner{left:8px;right:8px;bottom:8px;width:auto;padding:16px}}
