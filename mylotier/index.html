@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyLotier, espace client | LOTIER Immobilier</title>
-  <meta name="description" content="MyLotier, l&#x27;espace client de LOTIER Immobilier : retrouvez vos documents, suivez votre dossier et contactez votre conseiller.">
+  <meta name="description" content="MyLotier, l&#x27;espace client de LOTIER Immobilier : connexion à SPIRIT (gestion et syndic) et nouvelle plateforme bientôt disponible.">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://lotier-immobilier.com/mylotier/">
@@ -12,7 +12,7 @@
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="LOTIER Immobilier">
   <meta property="og:title" content="MyLotier, espace client | LOTIER Immobilier">
-  <meta property="og:description" content="MyLotier, l&#x27;espace client de LOTIER Immobilier : retrouvez vos documents, suivez votre dossier et contactez votre conseiller.">
+  <meta property="og:description" content="MyLotier, l&#x27;espace client de LOTIER Immobilier : connexion à SPIRIT (gestion et syndic) et nouvelle plateforme bientôt disponible.">
   <meta property="og:url" content="https://lotier-immobilier.com/mylotier/">
   <meta property="og:image" content="https://lotier-immobilier.com/assets/og-lotier.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -110,14 +110,32 @@
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../index.html">Accueil</a><span aria-hidden="true">/</span><span aria-current="page">MyLotier</span></nav>
         <img class="my-logo" src="../assets/mylotier-logo.svg" alt="MyLotier, espace client" width="330" height="96">
         <h1 class="display page-title">Votre espace client <em class="gold-text">MyLotier.</em></h1>
-        <p class="lead">Un accès personnel pour suivre votre dossier avec LOTIER Immobilier.</p>
-        <div class="hero-actions"><a class="btn btn-gold" href="../index.html#contact">Demander mes accès</a><a class="btn btn-ghost" href="tel:+33467112831"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>04 67 11 28 31</a></div>
+        <p class="lead">Notre nouvelle plateforme arrive bientôt. En attendant, connectez-vous à SPIRIT pour accéder à votre espace de gestion ou de syndic.</p>
       </div>
     </section>
 
-    <section class="section container" aria-labelledby="t-my">
-      <div class="section-head" data-r><div class="stack-3"><span class="label">Pour nos clients</span><h2 class="title" id="t-my">Ce que vous retrouvez <em class="gold-text">dans MyLotier.</em></h2></div></div>
-      <div class="cards cards-2" data-stagger><article class="glass quote"><h3 class="heading">Vos documents au même endroit</h3><p class="muted">Retrouvez les documents liés à votre dossier de vente, de location ou de copropriété, sans les chercher dans vos e-mails.</p></article><article class="glass quote"><h3 class="heading">Le suivi de votre dossier</h3><p class="muted">Consultez l&#x27;avancement de votre projet et les prochaines étapes, à tout moment.</p></article><article class="glass quote"><h3 class="heading">Un lien direct avec votre conseiller</h3><p class="muted">Une question&nbsp;? Votre conseiller LOTIER reste joignable, par téléphone ou par e-mail.</p></article><article class="glass quote"><h3 class="heading">Un accès sécurisé</h3><p class="muted">Vos accès sont personnels. Si vous les avez perdus, contactez l&#x27;agence : nous vous les renvoyons.</p></article></div>
+    <section class="section container my-grid" aria-label="Connexion et nouvelle plateforme">
+      <article class="glass my-card my-login" data-r>
+        <h2 class="heading">Connexion à SPIRIT</h2>
+        <p class="muted">Accès gestion et syndic. Vous avez reçu vos identifiants de l'agence.</p>
+        <form class="my-form" action="https://extranet2.ics.fr/login_externe.php" method="post" target="_blank" rel="noopener">
+          <input type="hidden" name="groupe" value="lotier">
+          <div class="field"><label for="my-login">Identifiant</label><input id="my-login" name="login" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required></div>
+          <div class="field"><label for="my-mdp">Mot de passe</label><input id="my-mdp" name="mdp" type="password" autocomplete="current-password" required></div>
+          <button class="btn btn-gold btn-lg" type="submit">Se connecter</button>
+        </form>
+        <p class="small"><a href="https://extranet2.ics.fr/V5/connexion-lotier-mdp-1.html" target="_blank" rel="noopener">Mot de passe oublié&nbsp;?</a></p>
+        <p class="small muted">Première connexion&nbsp;? Cliquez sur « Mot de passe oublié » pour activer votre compte.</p>
+        <p class="small muted">Vos identifiants sont envoyés directement à SPIRIT (ICS) : ils ne passent pas par ce site. La connexion s'ouvre dans un nouvel onglet.</p>
+      </article>
+      <article class="glass my-card my-soon" data-r>
+        <span class="soon-badge">Bientôt disponible</span>
+        <h2 class="heading">La nouvelle plateforme MyLotier</h2>
+        <p class="muted">Nous préparons une nouvelle plateforme pour retrouver vos documents, les actualités de votre copropriété ou de votre bien et la gestion de votre compte, au même endroit.</p>
+        <p class="muted">Jusqu'à son ouverture, SPIRIT reste votre accès habituel.</p>
+        <h3 class="heading help">Besoin d'aide&nbsp;?</h3>
+        <p class="muted">Un conseiller vous répond au <a href="tel:+33467112831">04 67 11 28 31</a> ou à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>.</p>
+      </article>
     </section>
 
 
