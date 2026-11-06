@@ -493,7 +493,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .sim-gap b { color: var(--gold-t); font-weight: 600; }
 @media (max-width: 640px) { .bar-row { grid-template-columns: 1fr auto; } .bar-row .track-bar { grid-column: 1 / -1; order: 3; } }
 
-.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .step { padding: 26px; display: grid; gap: 10px; align-content: start; }
 .step h3 { font-weight: 600; font-size: 20px; letter-spacing: -0.025em; }
 .step p { color: var(--mut); font-size: 15px; }
