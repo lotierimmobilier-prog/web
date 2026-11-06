@@ -754,3 +754,14 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 @media (max-width: 700px) { .hero:not(.hero-tight)::before { opacity: 0.2; } }
 
 .gold-text, .gold-text .w { font-family: var(--serif); font-weight: 400; letter-spacing: -0.015em; }
+
+/* ---------- Page MyLotier : connexion à SPIRIT et nouvelle plateforme ---------- */
+.my-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; padding-top: clamp(40px, 6vw, 72px); }
+.my-card { padding: clamp(22px, 3vw, 36px); display: grid; gap: 14px; }
+.my-card .heading { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.15; }
+.my-card .help { font-size: 18px; margin-top: 8px; }
+.my-form { display: grid; gap: 14px; margin-top: 6px; }
+.my-form .btn { justify-self: start; }
+.my-card a:not(.btn) { color: var(--gold-t); font-weight: 600; text-underline-offset: 3px; }
+.soon-badge { justify-self: start; padding: 6px 12px; border-radius: 999px; background: #f5f0e4; color: var(--gold-t); font-size: 13px; font-weight: 600; }
+@media (max-width: 860px) { .my-grid { grid-template-columns: minmax(0, 1fr); } }
