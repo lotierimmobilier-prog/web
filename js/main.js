@@ -13,17 +13,137 @@
   if (navToggle && nav) {
     navToggle.addEventListener('click', function () {
       var open = nav.classList.toggle('open');
+      root.classList.toggle('nav-open', open);
       navToggle.setAttribute('aria-expanded', String(open));
       navToggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
     });
     nav.addEventListener('click', function (e) {
       if (e.target.closest('a')) {
         nav.classList.remove('open');
+        root.classList.remove('nav-open');
         navToggle.setAttribute('aria-expanded', 'false');
         navToggle.setAttribute('aria-label', 'Ouvrir le menu');
       }
     });
   }
+
+
+  // ----- Fenêtre « Nos agences » -----
+  var dlg = document.getElementById('agences-dialog');
+  if (dlg) {
+    document.querySelectorAll('[data-open-agences]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+      });
+    });
+    dlg.addEventListener('click', function (e) {
+      if (e.target === dlg || e.target.closest('[data-close-agences]')) { if (dlg.close) dlg.close(); else dlg.removeAttribute('open'); }
+    });
+  }
+
+  // ----- Cloche des nouveautés -----
+  var bell = document.querySelector('[data-bell]');
+  var panel = document.getElementById('news-panel');
+  if (bell && panel) {
+    var badge = bell.querySelector('[data-bell-badge]');
+    var ids = [].map.call(panel.querySelectorAll('[data-news-id]'), function (a) { return a.getAttribute('data-news-id'); });
+    var KEY = 'lotier-news-seen';
+    function seen() { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { return []; } }
+    function markSeen() { try { localStorage.setItem(KEY, JSON.stringify(ids)); } catch (e) {} }
+    function refresh() {
+      var s = seen(), n = ids.filter(function (i) { return s.indexOf(i) < 0; }).length;
+      badge.textContent = n; badge.hidden = n === 0;
+      bell.setAttribute('aria-label', n ? 'Nouveautés, ' + n + ' à découvrir' : 'Nouveautés');
+      if (navToggle) navToggle.classList.toggle('has-news', n > 0);
+    }
+    function setOpen(o) {
+      panel.hidden = !o; bell.setAttribute('aria-expanded', String(o));
+      if (o) { markSeen(); refresh(); }
+    }
+    refresh();
+    bell.addEventListener('click', function (e) { e.stopPropagation(); var o = panel.hidden; setOpen(o); if (!o) refresh(); });
+    panel.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.addEventListener('click', function () { if (!panel.hidden) { setOpen(false); refresh(); } });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) { setOpen(false); refresh(); bell.focus(); } });
+  }
+
+
+  // ----- Assistant de chat (portée isolée) -----
+  (function () {
+  var chat = document.getElementById('chat');
+  if (chat) {
+    var fab = chat.querySelector('[data-chat-open]'), cp = document.getElementById('chat-panel');
+    var log = document.getElementById('chat-log'), chips = document.getElementById('chat-chips');
+    var form = document.getElementById('chat-form'), input = document.getElementById('chat-input');
+    var P = chat.getAttribute('data-prefix') || '', EP = chat.getAttribute('data-endpoint') || '';
+    var TEL = chat.getAttribute('data-phone'), TELL = chat.getAttribute('data-phone-label');
+    var history = [], started = false;
+    var L = {
+      est: ['Estimer mon bien', P + 'index.html#estimer'], rdv: ['Prendre rendez-vous', P + 'index.html#contact'],
+      hon: ['Nos honoraires', P + 'nos-honoraires/'], blog: ['Les conseils du blog', P + 'blog/index.html'],
+      join: ['Devenir agent', P + 'rejoindre/'], cmp: ['Comparatif réseaux et agences', P + 'rejoindre/comparatif/'],
+      my: ['Espace client MyLotier', P + 'mylotier/'], faq: ['Questions fréquentes', P + 'index.html#conseils'],
+      ann: ['Voir les annonces', P + 'index.html#annonces']
+    };
+    var KB = [
+      { k: ['estim', 'valeur', 'prix de mon', 'combien vaut'], t: 'Pour estimer votre bien, indiquez son adresse et ses caractéristiques dans le formulaire d\'estimation : un conseiller vous recontacte pour affiner avec une visite.', l: ['est', 'blog'] },
+      { k: ['rendez', 'rdv', 'rencontr', 'visite'], t: 'Pour convenir d\'un rendez-vous, appelez-nous ou passez par la section contact : un conseiller vous répond.', l: ['rdv'], tel: 1 },
+      { k: ['honorair', 'frais', 'tarif', 'commission', 'combien coute', 'coût', 'cout'], t: 'Notre barème est détaillé sur la page des honoraires. La gestion locative démarre à 39,99 € par mois. Pour un devis précis, un conseiller vous répond.', l: ['hon'], tel: 1 },
+      { k: ['louer', 'location', 'locataire', 'bailleur', 'gestion locative'], t: 'Nous trouvons le locataire, rédigeons le bail et suivons votre bien, avec une gestion locative à partir de 39,99 € par mois.', l: ['rdv', 'blog'] },
+      { k: ['vendre', 'vente', 'mandat'], t: 'Estimation, mandat, visites, signature : un conseiller vous accompagne jusqu\'à l\'acte. Commencez par une estimation.', l: ['est', 'blog'] },
+      { k: ['acheter', 'achat', 'annonce', 'bien a vendre', 'maison', 'appartement'], t: 'Retrouvez nos biens dans la section annonces, ou dites-nous ce que vous cherchez et un conseiller vous rappelle.', l: ['ann', 'rdv'] },
+      { k: ['syndic', 'copro'], t: 'Nous gérons des copropriétés (assemblées générales, charges, travaux). Parlez-en à un conseiller pour une proposition adaptée.', l: ['rdv', 'blog'] },
+      { k: ['agence', 'adresse', 'bureau', 'ou etes', 'où êtes', 'trouver'], t: 'Notre siège est au 40 rue Française, 34500 Béziers, et nous avons aussi des agences à Montpellier et Nîmes.', agences: 1 },
+      { k: ['horaire', 'ouvert', 'ferme', 'fermé'], t: 'Les horaires sont à confirmer avec l\'agence : le plus simple est de nous appeler.', tel: 1 },
+      { k: ['recrut', 'rejoindre', 'devenir agent', 'mandataire', 'emploi', 'travailler'], t: 'Vous souhaitez devenir agent immobilier indépendant avec LOTIER ? Tout est expliqué sur la page dédiée, avec un simulateur de commission.', l: ['join', 'cmp'] },
+      { k: ['espace client', 'mylotier', 'my lotier', 'connexion', 'mon espace', 'identifiant'], t: 'MyLotier est l\'espace client de LOTIER. Si vous avez perdu vos accès, contactez l\'agence.', l: ['my'], tel: 1 },
+      { k: ['contact', 'joindre', 'telephone', 'téléphone', 'appeler', 'mail'], t: 'Vous pouvez nous joindre par téléphone ou par e-mail à contact@lotier-immobilier.com.', tel: 1 },
+      { k: ['bonjour', 'salut', 'bonsoir', 'hello'], t: 'Bonjour ! Dites-moi ce que vous cherchez : estimation, vente, location, syndic ou espace client.', l: ['est', 'faq'] },
+      { k: ['merci'], t: 'Avec plaisir ! N\'hésitez pas si vous avez d\'autres questions.', l: [] }
+    ];
+    var START = [['Estimer mon bien', 'estimer'], ['Vendre', 'vendre'], ['Louer', 'location'], ['Nos agences', 'agence'], ['Parler à un conseiller', 'conseiller']];
+    function norm(x) { return x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+    function msg(who, text, extra) {
+      var d = document.createElement('div'); d.className = 'cm cm-' + who;
+      var b = document.createElement('div'); b.className = 'cm-b'; b.textContent = text; d.appendChild(b);
+      if (extra) { var r = document.createElement('div'); r.className = 'cm-l';
+        (extra.l || []).forEach(function (k) { var a = document.createElement('a'); a.href = L[k][1]; a.textContent = L[k][0]; r.appendChild(a); });
+        if (extra.agences) { var bt = document.createElement('button'); bt.type = 'button'; bt.textContent = 'Voir les adresses'; bt.addEventListener('click', function () { var dg = document.getElementById('agences-dialog'); if (dg && dg.showModal) { setChat(false); dg.showModal(); } }); r.appendChild(bt); }
+        if (extra.tel) { var a2 = document.createElement('a'); a2.href = 'tel:' + TEL; a2.textContent = 'Appeler le ' + TELL; r.appendChild(a2); }
+        if (r.childNodes.length) d.appendChild(r); }
+      log.appendChild(d); log.scrollTop = log.scrollHeight; return d;
+    }
+    function local(q) {
+      var n = norm(q);
+      if (/conseiller|humain|parler a/.test(n)) return { t: 'Bien sûr : un conseiller peut vous répondre par téléphone.', tel: 1, l: ['rdv'] };
+      for (var i = 0; i < KB.length; i++) for (var j = 0; j < KB[i].k.length; j++) if (n.indexOf(norm(KB[i].k[j])) > -1) return KB[i];
+      return { t: 'Je n\'ai pas la réponse précise à cette question. Un conseiller peut vous aider directement.', tel: 1, l: ['faq', 'rdv'] };
+    }
+    function reply(q) {
+      history.push({ role: 'user', content: q });
+      var typing = msg('bot', '…');
+      function show(ans) { typing.remove(); if (typeof ans === 'string') { msg('bot', ans); history.push({ role: 'assistant', content: ans }); } else { msg('bot', ans.t, ans); history.push({ role: 'assistant', content: ans.t }); } }
+      if (EP) {
+        fetch(EP, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: q, history: history.slice(-10) }) })
+          .then(function (r) { return r.json(); }).then(function (j) { if (j && j.reply) show(j.reply); else show(local(q)); })
+          .catch(function () { show(local(q)); });
+      } else { setTimeout(function () { show(local(q)); }, 450); }
+    }
+    function ask(q) { q = (q || '').trim(); if (!q) return; msg('user', q); chips.hidden = true; reply(q); }
+    function setChat(o) {
+      cp.hidden = !o; fab.setAttribute('aria-expanded', String(o)); chat.classList.toggle('open', o);
+      if (o) {
+        if (!started) { started = true; msg('bot', 'Bonjour, je suis l\'assistant virtuel de LOTIER, disponible 7j/7. Un conseiller reprend la main dès que vous le souhaitez.');
+          START.forEach(function (s) { var b = document.createElement('button'); b.type = 'button'; b.textContent = s[0]; b.addEventListener('click', function () { ask(s[0]); }); chips.appendChild(b); }); }
+        setTimeout(function () { input.focus(); }, 50);
+      } else { fab.focus(); }
+    }
+    fab.addEventListener('click', function () { setChat(cp.hidden); });
+    chat.querySelector('[data-chat-close]').addEventListener('click', function () { setChat(false); });
+    form.addEventListener('submit', function (e) { e.preventDefault(); var v = input.value; input.value = ''; ask(v); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !cp.hidden) setChat(false); });
+  }
+  })();
 
   // ----- Titre mot à mot -----
   document.querySelectorAll('[data-split]').forEach(function (el) {
