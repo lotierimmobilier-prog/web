@@ -1,6 +1,17 @@
 // LOTIER Immobilier : interactions et animations de la page d'accueil (direction « Isométrique »).
 // Aucune dépendance. Les animations respectent « réduire les animations » du système.
 
+/* Une page ouverte par un clic sur un lien démarre en haut (sauf lien avec ancre, retour ou rechargement). */
+(function () {
+  try {
+    var nav = performance.getEntriesByType('navigation')[0];
+    if ((!nav || nav.type === 'navigate') && !location.hash) {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      window.addEventListener('load', function () { if (!location.hash && window.scrollY > 0) window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); });
+    }
+  } catch (e) { /* navigateur ancien : comportement par défaut */ }
+})();
+
 (function () {
   var MAIL = 'contact@lotier-immobilier.com';
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
