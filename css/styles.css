@@ -707,3 +707,26 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 @keyframes flotte { from { transform: translateY(-7px); } to { transform: translateY(7px); } }
 @media (prefers-reduced-motion: reduce) { .cl { animation: none; transform: translate3d(30vw, 0, 0); } .cl svg { animation: none; } }
 @media (max-width: 700px) { .cl-near { display: none; } }
+
+/* ---------- Bandeau de recrutement ---------- */
+.rband { padding-block: clamp(32px, 5vw, 64px); }
+.rband-box { position: relative; display: grid; grid-template-columns: minmax(240px, 0.8fr) 1.6fr; border-radius: 26px; overflow: hidden; color: #fff; background: #867244 repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 22px); box-shadow: 0 30px 60px -30px rgba(70, 56, 28, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.16); }
+.rband-photo { position: relative; min-height: 260px; }
+.rband-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 30% 40%; }
+.rband-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(134, 114, 68, 0) 55%, #867244); }
+.rband-sticker { position: absolute; z-index: 2; left: 18px; bottom: 18px; display: grid; gap: 2px; padding: 12px 16px; border-radius: 16px; background: rgba(255, 255, 255, 0.94); color: #0f2744; box-shadow: 0 12px 28px -10px rgba(0, 0, 0, 0.4); transform: rotate(-3deg); animation: sticker 6s ease-in-out infinite; }
+.rband-sticker b { font-size: 26px; line-height: 1; letter-spacing: -0.03em; color: #867244; }
+.rband-sticker i { font-style: normal; font-size: 12px; font-weight: 600; }
+@keyframes sticker { 50% { transform: rotate(2deg) translateY(-4px); } }
+.rband-copy { position: relative; padding: clamp(24px, 3.4vw, 44px) clamp(24px, 3.4vw, 48px) clamp(24px, 3.4vw, 44px) clamp(8px, 1.5vw, 20px); display: grid; gap: 12px; align-content: center; }
+.rband-kicker { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #efe6d0; }
+.rband-copy h2 { margin: 0; font-size: clamp(26px, 3.2vw, 40px); line-height: 1.1; letter-spacing: -0.035em; font-weight: 700; text-wrap: balance; }
+.rband-copy h2 em { font-style: normal; color: #f4e7c2; }
+.rband-sub { margin: 0; max-width: 52ch; font-size: 16px; line-height: 1.55; color: #f6f0e0; }
+.rband-act { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 8px; }
+.btn-white { background: #fff; color: var(--navy); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2); }
+.btn-white:hover { background: #f7f1e3; }
+.rband-link { color: #fff; font-weight: 600; text-underline-offset: 4px; }
+.rband-link:hover { color: #f4e7c2; }
+@media (max-width: 860px) { .rband-box { grid-template-columns: 1fr; } .rband-photo { min-height: 200px; } .rband-photo::after { background: linear-gradient(180deg, rgba(134, 114, 68, 0) 55%, #867244); } .rband-copy { padding: 8px 22px 26px; } .rband-act .btn { width: 100%; justify-content: center; } }
+@media (prefers-reduced-motion: reduce) { .rband-sticker { animation: none; } }
