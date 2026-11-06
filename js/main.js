@@ -7,7 +7,9 @@
     var nav = performance.getEntriesByType('navigation')[0];
     if ((!nav || nav.type === 'navigate') && !location.hash) {
       window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-      window.addEventListener('load', function () { if (!location.hash && window.scrollY > 0) window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); });
+      var touched = false;
+      ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (t) { window.addEventListener(t, function () { touched = true; }, { once: true, passive: true }); });
+      window.addEventListener('load', function () { if (!touched && !location.hash && window.scrollY > 0) window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); });
     }
   } catch (e) { /* navigateur ancien : comportement par défaut */ }
 })();
