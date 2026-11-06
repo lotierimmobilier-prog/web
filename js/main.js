@@ -219,8 +219,8 @@
   }, { threshold: 0.4 });
   document.querySelectorAll('[data-count]').forEach(function (e) { cio.observe(e); });
 
-  // ----- Boutons magnétiques, cartes inclinables -----
-  if (!reduce) {
+  // ----- Boutons magnétiques et cartes inclinables : retirés (effet de démonstration) -----
+  if (false) {
     document.querySelectorAll('.mag').forEach(function (b) {
       b.addEventListener('pointermove', function (e) {
         var r = b.getBoundingClientRect();
