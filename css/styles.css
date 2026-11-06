@@ -125,7 +125,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 @media (max-width: 1180px) {
   .nav-toggle { display: flex; }
   .site-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: rgba(238, 243, 249, 0.98); border-bottom: 1px solid var(--line); flex-direction: column; align-items: stretch; gap: 0; padding: 8px var(--gutter) 22px; }
-  .site-nav.open { display: flex; }
+  .site-nav.open { display: flex; max-height: calc(100vh - 230px); max-height: calc(100dvh - 230px); overflow-y: auto; overscroll-behavior: contain; }
   .site-nav a:not(.btn) { padding: 15px 0; border-bottom: 1px solid var(--line); font-size: 18px; }
   .site-nav .btn { margin: 18px 0 0; }
 }
@@ -690,3 +690,5 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 
 .footer, .footer * { font-synthesis: none; }
 .footer .f-brand strong, .footer address strong { font-weight: 400; }
+
+.nav-open .chat { display: none; }

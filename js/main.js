@@ -13,12 +13,14 @@
   if (navToggle && nav) {
     navToggle.addEventListener('click', function () {
       var open = nav.classList.toggle('open');
+      root.classList.toggle('nav-open', open);
       navToggle.setAttribute('aria-expanded', String(open));
       navToggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
     });
     nav.addEventListener('click', function (e) {
       if (e.target.closest('a')) {
         nav.classList.remove('open');
+        root.classList.remove('nav-open');
         navToggle.setAttribute('aria-expanded', 'false');
         navToggle.setAttribute('aria-label', 'Ouvrir le menu');
       }
