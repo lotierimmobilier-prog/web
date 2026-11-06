@@ -88,8 +88,8 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .btn svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .btn-navy { background: var(--navy); color: #fff; }
 .btn-navy:hover { background: var(--navy-deep); }
-.btn-gold, .btn-primary { background: #ae986a; color: var(--navy); box-shadow: 0 10px 24px rgba(174, 152, 106, 0.38); }
-.btn-gold:hover, .btn-primary:hover { background: #bba87b; }
+.btn-gold, .btn-primary { background: #867244; color: #fff; box-shadow: 0 10px 24px rgba(134, 114, 68, 0.35); }
+.btn-gold:hover, .btn-primary:hover { background: #6f5d37; color: #fff; }
 .btn-ghost { background: rgba(255, 255, 255, 0.5); color: var(--navy); border-color: rgba(15, 39, 68, 0.28); }
 .btn-ghost:hover { background: #fff; border-color: var(--navy); }
 .btn-sm { padding: 11px 18px; font-size: 15px; }
@@ -116,7 +116,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .site-nav { display: flex; align-items: center; gap: 4px clamp(14px, 1.6vw, 28px); }
 .site-nav a { text-decoration: none; padding: 10px 0; font-weight: 600; font-size: 15px; color: var(--mut); transition: color 0.2s; }
 .site-nav a:not(.btn):hover { color: var(--navy); }
-.site-nav .btn { margin-left: 8px; color: var(--navy); }
+.site-nav .btn { margin-left: 8px; color: #fff; }
 .btn-header { padding: 15px 34px; min-width: 230px; font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
 .btn-header svg { transition: transform 0.3s var(--ease); }
 .btn-header:hover svg { transform: translateX(4px); }
@@ -329,7 +329,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   .mbar { display: grid; grid-template-columns: 1fr 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; box-shadow: 0 -8px 24px rgba(15, 39, 68, 0.2); }
   .mbar a { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 18px 8px; font-weight: 800; text-decoration: none; }
   .mbar .a1 { background: var(--navy); color: #fff; }
-  .mbar .a2 { background: #ae986a; color: var(--navy); }
+  .mbar .a2 { background: #867244; color: #fff; }
   .mbar svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 }
 
