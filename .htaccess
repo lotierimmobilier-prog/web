@@ -77,7 +77,7 @@ DirectoryIndex index.html index.php
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
   # Ressources annoncées aux agents (RFC 8288)
-  Header always set Link "</llms.txt>; rel=\"describedby\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\"" "expr=%{REQUEST_URI} == '/' || %{REQUEST_URI} == '/index.html'"
+  Header always set Link '</llms.txt>; rel="describedby"; type="text/plain", </sitemap.xml>; rel="sitemap"; type="application/xml", </.well-known/mcp/server-card.json>; rel="mcp-server-card"; type="application/json"' "expr=%{REQUEST_URI} == '/' || %{REQUEST_URI} == '/index.html'"
   # Les versions Markdown ne doivent pas concurrencer les pages HTML dans les moteurs
   <FilesMatch "\.md$">
     Header set X-Robots-Tag "noindex"
