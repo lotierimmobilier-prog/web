@@ -16,6 +16,6 @@ Site vitrine statique (HTML, CSS, JavaScript), sans étape de compilation. Direc
 
 Les pages sont générées par les scripts de `scripts/generateur/` (voir `LISEZ-MOI.md` : `python3 scripts/generateur/build_all.py`). Modifier le script, puis régénérer, plutôt que les fichiers HTML.
 
-Mise en ligne : copier le contenu du dossier à la racine de l'hébergement (OVH).
+Mise en ligne : copier le contenu du dossier à la racine de l'hébergement (Hostinger).
 
 À compléter avant publication : photos et annonces réelles, avis, articles, adresses de Montpellier et de Nîmes, horaires, pages légales. Les champs concernés sont écrits entre crochets dans `index.html`. Le domaine `lotier-immobilier.com` (canonical, sitemap, JSON-LD, `llms.txt`) est à confirmer.
