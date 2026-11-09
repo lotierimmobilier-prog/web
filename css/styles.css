@@ -957,3 +957,9 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .ann-more { display: grid; gap: 40px; padding-top: 8px; }
 .ann-more-grp > h2 { margin: 0 0 18px; font-size: clamp(1.25rem, 2.4vw, 1.6rem); }
 .ann-more-grid { grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); }
+
+/* Fiche annonce : bouton d'appel de l'agent : le nom sur une ligne, le numéro dessous (jamais coupé en deux) */
+.ann-call { padding: 12px 14px; gap: 10px; line-height: 1.2; justify-content: center; }
+.ann-call-txt { display: grid; gap: 2px; text-align: left; min-width: 0; }
+.ann-call-txt > span { white-space: nowrap; }
+.ann-call-txt strong { font-size: 1.15em; letter-spacing: .01em; white-space: nowrap; font-variant-numeric: tabular-nums; }

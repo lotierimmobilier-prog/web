@@ -220,7 +220,7 @@ def detail_page(a, tous=()):
     ref = f'<p class="ann-ref muted small">Réf. {e(a["reference"])}</p>' if a.get("reference") else ""
     if ag.get("nom"):
         prenom = _nom(ag["nom"]).split(" ")[0]
-        appel = f'<a class="btn btn-gold btn-lg btn-block mag" href="tel:{tel[1]}">{PH}Appeler {e(prenom)} : {tel[0]}</a>' if tel else ""
+        appel = f'<a class="btn btn-gold btn-lg btn-block mag ann-call" href="tel:{tel[1]}">{PH}<span class="ann-call-txt"><span>Appeler {e(prenom)}</span><strong>{tel[0]}</strong></span></a>' if tel else ""
         mail = f'<a class="ann-mail" href="mailto:{e(ag["email"])}">{e(ag["email"])}</a>' if ag.get("email") else ""
         agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{e(_initiales(ag["nom"]))}</span><div><strong>{e(_nom(ag["nom"]))}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'
