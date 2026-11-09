@@ -161,7 +161,7 @@ page = f'''<!doctype html>
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v={C.V_CSS}">
   <script type="application/ld+json">
 {jsonld_s}
   </script>
@@ -375,7 +375,7 @@ page = f'''<!doctype html>
   </main>
 
 {FOOTER}
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v={C.V_JS}"></script>
 </body>
 </html>
 '''
