@@ -8,6 +8,48 @@ Source : https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-
 
  VENTE 1 / 4
 
+## Les autres biens de Nicolas
+
+ VENTE
+
+ 210 000 €
+
+### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
+
+ Nîmes · 75,04 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 351 900 €
+
+### Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement
+
+ Nîmes · 84,48 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 280 000 €
+
+### Nîmes proche gare – Belle résidence neuve – appartement type
+
+ Nîmes · 73,6 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 234 900 €
+
+### Garons dans résidence neuve fin 2024 appartement type 3 avec
+
+ Garons · 67,87 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
+
 ## Biens à proximité
 
  VENTE

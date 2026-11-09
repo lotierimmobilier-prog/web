@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-ca
 
 **38 500 €** · Capendu · 120 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemencea
 
 **735 € par mois** · Béziers · 100 m²
 
- LOCATION 1 / 6
+ LOCATION 1 / 10
 
 ---
 

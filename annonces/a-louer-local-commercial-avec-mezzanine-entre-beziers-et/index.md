@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-en
 
 **210 € par mois** · Béziers · 20 m²
 
- LOCATION 1 / 6
+ LOCATION 1 / 7
 
 ---
 

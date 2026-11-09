@@ -8,7 +8,7 @@ Source : https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/
 
  VENTE 1 / 4
 
-## Biens à proximité
+## Les autres biens de Elodie
 
  VENTE
 
@@ -22,6 +22,38 @@ Source : https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/
 
  VENTE
 
+ 122 000 €
+
+### Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
+
+ Saint-Christol-lez-Alès · 136,39 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 45 000 €
+
+### À vendre fond de commerce – centre ville de Nîmes – environ
+
+ Nîmes · 48,96 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 320 000 €
+
+### Clarensac dans la vaunage entre Nîmes et Montpellier maison
+
+ Clarensac · 127 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
  57 000 €
 
 ### Saint Ambroix à proximité d’Alès local commercial + appartem
@@ -32,13 +64,23 @@ Source : https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/
 
  VENTE
 
- 122 000 €
+ 243 000 €
 
-### Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
- Saint-Christol-lez-Alès · 136,39 m²
+ Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 230 000 €
+
+### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
+
+ Caveirac · 45,92 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

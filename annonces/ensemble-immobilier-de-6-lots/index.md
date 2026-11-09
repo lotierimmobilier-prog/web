@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/
 
 **399 900 €** · Capendu · 400 m² · 7 chambres · 4 salles d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

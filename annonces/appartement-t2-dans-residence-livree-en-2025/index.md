@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/appartement-t2-dans-residence-livree-en-20
 
 **190 000 €** · Montpellier · 42,89 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 11
 
 ---
 

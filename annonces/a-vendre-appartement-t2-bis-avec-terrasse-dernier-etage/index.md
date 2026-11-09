@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-
 
 **55 000 €** · Béziers · 48,34 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 9
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-
 
 **1 145 000 €** · Villedubert · 320 m² · 4 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

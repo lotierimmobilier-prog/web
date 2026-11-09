@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-c
 
 **145 000 €** · Capendu · 115,8 m² · 3 chambres · 2 salles d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 11
 
 ---
 
