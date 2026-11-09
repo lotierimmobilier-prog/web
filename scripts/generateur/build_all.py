@@ -8,4 +8,6 @@ ORDER = ["build_site", "build_pages", "build_misc", "build_rejoindre", "build_co
 for name in ORDER:
     print("→", name)
     subprocess.run([sys.executable, os.path.join(HERE, name + ".py")], cwd=HERE, check=True)
+print("→ audit SEO (data/seo-report.json)")
+subprocess.run([sys.executable, os.path.join(HERE, "..", "seo_audit.py")], check=True)
 print("Terminé.")
