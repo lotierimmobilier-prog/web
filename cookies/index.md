@@ -10,11 +10,15 @@ Page à valider par l'agence avant publication : les champs entre crochets sont 
 
 ## Ce que le site enregistre
 
-Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.
+Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. La mesure d'audience est faite sans cookie (voir ci-dessous). Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.
 
-## Si des outils de mesure ou de contenu externe sont ajoutés
+## Mesure d'audience
 
-[À COMPLÉTER] : liste des éventuels traceurs (statistiques, cartes, vidéos, réseaux sociaux), leur finalité, leur durée de conservation et le bandeau de recueil du consentement à mettre en place avant leur activation.
+Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Vous pouvez refuser cette mesure à tout moment avec le bouton « Modifier mon choix » ci-dessous. Lieu d'hébergement des statistiques : [À COMPLÉTER].
+
+## Si d'autres outils de contenu externe sont ajoutés
+
+Cartes, vidéos ou réseaux sociaux ne sont pas utilisés à ce jour. S'ils l'étaient, votre consentement serait demandé avant tout dépôt.
 
 ## Gérer vos choix
 

@@ -95,7 +95,7 @@ Les champs signalés comme obligatoires sont nécessaires au traitement de votre
 | Syndic : convocations, procès-verbaux, appels de fonds, sinistres | Exécution du contrat de syndic |
 | Comptabilité, obligations fiscales, lutte contre le blanchiment et le financement du terrorisme | Obligation légale |
 | Communications commerciales, newsletters, propositions de biens | Votre consentement, retirable à tout moment |
-| Sécurité du site, amélioration du service | Intérêt légitime |
+| Sécurité du site, amélioration du service, statistiques de fréquentation (sans cookie) | Intérêt légitime |
 | Gestion des litiges et recouvrement | Intérêt légitime (défense de nos droits) |
 
 ## Destinataires
@@ -109,6 +109,8 @@ Vos données sont traitées par les collaborateurs habilités de l'agence, dans 
 - les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;
 
 - notre hébergeur (OVH) et nos prestataires de maintenance informatique ;
+
+- notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;
 
 - un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;
 
@@ -181,7 +183,7 @@ Nous vous invitons à nous contacter en premier lieu. En l'absence de réponse o
 
 ## Cookies
 
-Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose ni cookie publicitaire, ni cookie de mesure d'audience, ni cookie de réseau social. La police de caractères est hébergée sur le site : aucune donnée n'est transmise à un service tiers pour l'afficher.
+Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose ni cookie publicitaire, ni cookie de réseau social. La mesure d'audience (Umami) fonctionne sans cookie. La police de caractères est hébergée sur le site : aucune donnée n'est transmise à un service tiers pour l'afficher.
 
 Si de tels cookies étaient ajoutés, vous en seriez informé et votre consentement serait demandé avant tout dépôt, avec un refus aussi simple que l'acceptation et une durée de validité de 13 mois au maximum. Vous pouvez aussi configurer votre navigateur pour refuser ou supprimer les cookies. Le détail figure sur la page [Cookies et traceurs](https://lotier.immo/cookies/) ; voir aussi les conseils de la [CNIL](https://www.cnil.fr/fr/cookies-et-traceurs-comment-les-maitriser).
 
