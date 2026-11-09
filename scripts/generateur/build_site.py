@@ -239,7 +239,7 @@ page = f'''<!doctype html>
             <p class="hero-call">Une question ? Appelez-nous <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
           </div>
           <div class="iso">
-            <div id="iso-svg"></div>
+            <div id="iso-svg" class="iso-photo" data-photo="1"><img src="assets/immeuble-soir.jpg" width="1100" height="768" alt="Immeuble contemporain au crépuscule : chaque étage est un service de l'agence" fetchpriority="high"></div>
             <div class="elev" role="group" aria-label="Choisir un étage">
               <button type="button" data-k="4" aria-pressed="false"><b>5</b>Estimation</button>
               <button type="button" data-k="3" aria-pressed="false"><b>4</b>Syndic</button>
