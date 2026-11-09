@@ -403,7 +403,7 @@ page = f'''<!doctype html>
           <div class="glass"><dt>MONTPELLIER · SUR RENDEZ-VOUS</dt><dd>LOTIER Immobilier<br>469 rue Favre de Saint-Castor<br>34080 Montpellier</dd></div>
           <div class="glass"><dt>NÎMES · SUR RENDEZ-VOUS</dt><dd>LOTIER Immobilier<br>3 rue Bosquet<br>30230 Rodilhan</dd></div>
           <div class="glass"><dt>CONTACT</dt><dd><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a><br><a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></dd></div>
-          <div class="glass"><dt>HORAIRES</dt><dd>[HORAIRES À CONFIRMER]<br>Fermé le samedi, le dimanche et les jours fériés</dd></div>
+          <div class="glass"><dt>HORAIRES</dt><dd>Fermé le samedi, le dimanche et les jours fériés</dd></div>
         </dl>
       </div>
     </section>
