@@ -1054,3 +1054,28 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .ann-lightbox::backdrop { background: #081221; }
 .ann-lightbox img { position: relative; z-index: 1; opacity: 1; filter: none; mix-blend-mode: normal; transform: none; background: #081221; }
 .ann-lightbox .ann-nav, .ann-lightbox .ann-close, .ann-lightbox .ann-count { z-index: 2; }
+
+/* ---- Nos annonces : espace réduit sous le titre, filtres en carte ---- */
+.page-hero.ann-list-hero { padding-block: clamp(20px, 3vw, 36px) 0; }
+.page-hero.ann-list-hero .container { gap: 10px; }
+.page-hero.ann-list-hero .lead { margin-bottom: 0; }
+.section.ann-list { padding-top: clamp(14px, 2vw, 24px); }
+.ann-filtres { display: grid; gap: 16px; padding: 18px 20px; margin: 0 0 20px; background: #fff; border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 1px 2px rgba(15, 39, 68, .04); }
+.ann-filtres .chip-links { margin: 0; }
+.ann-champs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 14px; }
+@media (max-width: 900px) { .ann-champs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .ann-champs { grid-template-columns: minmax(0, 1fr); } }
+.ann-champs label { display: grid; gap: 4px; min-width: 0; }
+.ann-champs label > span { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--mut); }
+.ann-champs select { width: 100%; min-height: 44px; padding: 9px 12px; border-radius: 12px; border: 1px solid rgba(15, 39, 68, .2); background: #fff; font: inherit; color: var(--fg); }
+.ann-champs select:disabled { background: #f4f2ec; color: var(--mut); cursor: not-allowed; }
+.ann-champs select:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 1px; }
+.ann-filtres-pied { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.ann-filtres-pied p { margin: 0; }
+.ann-reset { background: none; border: 0; padding: 0; cursor: pointer; font: inherit; }
+@media (max-width: 520px) { .ann-filtres { padding: 14px; border-radius: 16px; } }
+
+/* Petit cadenas du pied de page : accès équipe à Collab (e-mail + mot de passe) */
+.f-lock { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; margin-left: 8px; vertical-align: middle; border-radius: 999px; color: var(--mut); opacity: .55; transition: opacity .2s, color .2s, background .2s; }
+.f-lock:hover, .f-lock:focus-visible { opacity: 1; color: var(--navy); background: rgba(15, 39, 68, .07); }
+.f-lock svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }

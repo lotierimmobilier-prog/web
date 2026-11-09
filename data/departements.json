@@ -1,0 +1,11 @@
+{
+  "_note": "Département de chaque commune où LOTIER a des annonces. Une commune absente de cette liste reste visible sur Nos annonces, mais sans département (à compléter ici quand une nouvelle commune apparaît).",
+  "departements": {"11": "Aude", "30": "Gard", "34": "Hérault"},
+  "communes": {
+    "Béziers": "34", "Villeneuve-lès-Béziers": "34", "Maureilhan": "34", "Montpellier": "34",
+    "Capendu": "11", "Carcassonne": "11", "Villedubert": "11", "Conques-sur-Orbiel": "11", "Limoux": "11", "Narbonne": "11",
+    "Pezens": "11", "Trèbes": "11", "Douzens": "11", "Comigne": "11", "Rieux-Minervois": "11", "Villemoustaussou": "11", "Floure": "11", "Barbaira": "11",
+    "Nîmes": "30", "Caveirac": "30", "Clarensac": "30", "Alès": "30", "Meynes": "30", "Saint-Christol-lez-Alès": "30",
+    "Calvisson": "30", "Langlade": "30", "Aubais": "30", "Uzès": "30", "Saint-Ambroix": "30", "Garons": "30"
+  }
+}

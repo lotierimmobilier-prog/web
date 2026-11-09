@@ -6,10 +6,6 @@ Source : https://lotier.immo/nos-annonces/
 
 64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
- Ville
-
-82 annonces
-
  LOCATION
 
  650 € par mois
@@ -830,7 +826,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
-Aucune annonce ne correspond à ce filtre.
+Aucune annonce ne correspond à ces critères.
 
 Prix en euros. Les honoraires, le DPE et les informations légales figurent sur chaque fiche.
 

@@ -655,27 +655,89 @@
   });
 })();
 
-/* Page Nos annonces : filtres par type et par ville (le HTML contient déjà toutes les annonces). */
+/* Page Nos annonces : filtres (vente/location, type de bien, département, ville, budget) et tri. Le HTML contient déjà toutes les annonces ;
+   l'état se lit et s'écrit dans l'adresse (?offre=vente&bien=maison&dep=34&ville=Béziers&min=100000&max=300000&tri=prix-asc) pour partager une recherche. */
 (function () {
   var root = document.querySelector('[data-annonces]');
   if (!root) return;
-  var cards = root.querySelectorAll('[data-ann-grid] .card'), city = root.querySelector('[data-ann-city]');
-  var count = root.querySelector('[data-ann-count]'), empty = root.querySelector('[data-ann-empty]'), type = '';
-  function apply() {
-    var n = 0;
-    cards.forEach(function (c) {
-      var ok = (!type || c.getAttribute('data-ann-type') === type) && (!city.value || c.getAttribute('data-ann-ville') === city.value);
-      c.hidden = !ok; if (ok) n++;
+  var grid = root.querySelector('[data-ann-grid]'), cards = [].slice.call(grid.querySelectorAll('.card'));
+  var el = function (k) { return root.querySelector('[data-ann-' + k + ']'); };
+  var bien = el('bien'), dep = el('dep'), city = el('city'), pmin = el('pmin'), pmax = el('pmax'), sort = el('sort');
+  var count = el('count'), empty = el('empty'), resets = [].slice.call(root.querySelectorAll('[data-ann-reset]'));
+  var offre = '', allCities = [].slice.call(city.options).slice(1).map(function (o) { return { v: o.value, dep: o.getAttribute('data-dep') || '' }; });
+  cards.forEach(function (c, i) { c.setAttribute('data-ann-i', i); });
+  var BUDGETS = {
+    vente: [50000, 75000, 100000, 150000, 200000, 250000, 300000, 400000, 500000, 750000, 1000000],
+    location: [300, 400, 500, 600, 700, 800, 1000, 1200, 1500, 2000]
+  };
+  var eur = function (n) { return n.toLocaleString('fr-FR').replace(/ | /g, ' ') + ' €'; };
+  function fillBudget(keepMin, keepMax) {
+    var list = BUDGETS[offre];
+    [[pmin, 'Aucun minimum', keepMin], [pmax, 'Aucun maximum', keepMax]].forEach(function (x) {
+      var sel = x[0]; sel.innerHTML = '';
+      if (!list) { sel.add(new Option('Choisir vente ou location', '')); sel.disabled = true; return; }
+      sel.disabled = false; sel.add(new Option(x[1], ''));
+      list.forEach(function (n) { sel.add(new Option(eur(n) + (offre === 'location' ? '/mois' : ''), String(n))); });
+      if (x[2] && list.indexOf(+x[2]) > -1) sel.value = x[2];
     });
-    count.textContent = n + (n > 1 ? ' annonces' : ' annonce'); empty.hidden = n > 0;
+  }
+  function fillCities() {
+    var keep = city.value; city.innerHTML = ''; city.add(new Option('Toutes les villes', ''));
+    allCities.forEach(function (c) { if (!dep.value || c.dep === dep.value) { var o = new Option(c.v, c.v); o.setAttribute('data-dep', c.dep); city.add(o); } });
+    city.value = [].some.call(city.options, function (o) { return o.value === keep; }) ? keep : '';
+  }
+  function ok(c) {
+    var p = +c.getAttribute('data-ann-prix') || 0, lo = +pmin.value || 0, hi = +pmax.value || 0;
+    if (offre && c.getAttribute('data-ann-type') !== offre) return false;
+    if (bien.value && c.getAttribute('data-ann-bien') !== bien.value) return false;
+    if (dep.value && c.getAttribute('data-ann-dep') !== dep.value) return false;
+    if (city.value && c.getAttribute('data-ann-ville') !== city.value) return false;
+    if (lo && p < lo) return false;
+    if (hi && (!p || p > hi)) return false;
+    return true;
+  }
+  function order() {
+    var t = sort.value, k = t.split('-')[0] === 'surf' ? 'data-ann-surf' : 'data-ann-prix', d = t.indexOf('desc') > -1 ? -1 : 1;
+    var list = cards.slice().sort(function (a, b) {
+      if (!t) return a.getAttribute('data-ann-i') - b.getAttribute('data-ann-i');
+      var x = +a.getAttribute(k), y = +b.getAttribute(k);
+      if (!x && !y) return 0; if (!x) return 1; if (!y) return -1;   // sans valeur : toujours en dernier
+      return (x - y) * d;
+    });
+    list.forEach(function (c) { grid.appendChild(c); });
+  }
+  function write() {
+    var q = new URLSearchParams();
+    [['offre', offre], ['bien', bien.value], ['dep', dep.value], ['ville', city.value], ['min', pmin.value], ['max', pmax.value], ['tri', sort.value]].forEach(function (x) { if (x[1]) q.set(x[0], x[1]); });
+    try { history.replaceState(null, '', location.pathname + (q.toString() ? '?' + q : '')); } catch (e) { /* adresse non modifiable : sans importance */ }
+  }
+  function apply() {
+    var n = 0, actif = !!(offre || bien.value || dep.value || city.value || pmin.value || pmax.value);
+    order();
+    cards.forEach(function (c) { var v = ok(c); c.hidden = !v; if (v) n++; });
+    count.textContent = n + (n > 1 ? ' annonces' : ' annonce') + (actif ? ' sur ' + cards.length : '');
+    empty.hidden = n > 0;
+    resets[0].hidden = !actif; write();
+  }
+  function setOffre(v) {
+    offre = v;
+    root.querySelectorAll('[data-ann-type-btn]').forEach(function (x) { var on = x.getAttribute('data-ann-type-btn') === v; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
   }
   root.addEventListener('click', function (ev) {
-    var b = ev.target.closest('[data-ann-type-btn]'); if (!b) return;
-    type = b.getAttribute('data-ann-type-btn');
-    root.querySelectorAll('[data-ann-type-btn]').forEach(function (x) { var on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
-    apply();
+    var b = ev.target.closest('[data-ann-type-btn]');
+    if (b) { setOffre(b.getAttribute('data-ann-type-btn')); fillBudget('', ''); apply(); return; }
+    if (ev.target.closest('[data-ann-reset]')) {
+      setOffre(''); bien.value = dep.value = pmin.value = pmax.value = sort.value = ''; fillCities(); fillBudget('', ''); apply();
+    }
   });
-  city.addEventListener('change', apply);
+  dep.addEventListener('change', function () { fillCities(); apply(); });
+  [bien, city, pmin, pmax, sort].forEach(function (s) { s.addEventListener('change', apply); });
+  // état initial depuis l'adresse
+  var q = new URLSearchParams(location.search), g = function (k) { return q.get(k) || ''; };
+  setOffre(/^(vente|location)$/.test(g('offre')) ? g('offre') : '');
+  bien.value = g('bien'); dep.value = g('dep'); fillCities(); city.value = g('ville'); if (city.value !== g('ville')) city.value = '';
+  fillBudget(g('min'), g('max')); sort.value = g('tri'); if (sort.value !== g('tri')) sort.value = '';
+  apply();
 })();
 
 /* Fiche d'annonce : galerie de photos (flèches, clavier, balayage au doigt, miniatures, plein écran). */
