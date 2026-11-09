@@ -853,3 +853,37 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .office-card p { margin: 0; }
 .office-card a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; }
 .office-card svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Page Nos annonces : filtres */
+.ann-filters { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: end; justify-content: space-between; margin: 0 0 12px; }
+.ann-filters .chip-links { margin-top: 0; }
+.chip-link.is-on { background: var(--navy); color: #fff; border-color: var(--navy); }
+.ann-city { display: grid; gap: 4px; }
+.ann-city select { min-width: 220px; padding: 10px 14px; border-radius: 14px; border: 1px solid rgba(15, 39, 68, 0.2); background: rgba(255, 255, 255, 0.9); font: inherit; }
+.badge.xtra { top: auto; bottom: 14px; background: rgba(15, 39, 68, 0.82); }
+[data-ann-grid] .card[hidden] { display: none; }
+
+/* Fiche d'annonce */
+.ann-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 28px; align-items: start; }
+.ann-left { display: grid; gap: 20px; min-width: 0; }
+.ann-side { position: sticky; top: 110px; }
+.ann-box { padding: 24px; display: grid; gap: 14px; }
+.ann-facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; color: var(--muted, #5a6b82); }
+.ann-gallery { display: grid; gap: 10px; }
+.ann-main { position: relative; border-radius: 24px; overflow: hidden; background: #e9edf3; aspect-ratio: 4 / 3; }
+.ann-main img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ann-thumbs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.ann-thumb { flex: 0 0 96px; padding: 0; border: 2px solid transparent; border-radius: 12px; overflow: hidden; background: none; cursor: pointer; opacity: 0.75; }
+.ann-thumb img { width: 100%; height: 72px; object-fit: cover; display: block; }
+.ann-thumb.is-on, .ann-thumb:hover { border-color: var(--gold, #867244); opacity: 1; }
+.ann-desc, .ann-bloc { padding: 24px; }
+.ann-desc h2, .ann-bloc h2 { font-size: 22px; margin: 0 0 12px; }
+.ann-desc p { margin: 0 0 12px; }
+.ann-desc ul { margin: 0 0 12px; padding-left: 20px; }
+.ann-bloc dl { margin: 0; display: grid; gap: 0; }
+.ann-bloc dl > div { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-bottom: 1px solid rgba(15, 39, 68, 0.1); }
+.ann-bloc dl > div:last-child { border-bottom: 0; }
+.ann-bloc dt { color: var(--muted, #5a6b82); }
+.ann-bloc dd { margin: 0; font-weight: 600; text-align: right; }
+.ann-title { font-size: clamp(30px, 4.4vw, 52px); }
+@media (max-width: 900px) { .ann-layout { grid-template-columns: 1fr; } .ann-side { position: static; } }

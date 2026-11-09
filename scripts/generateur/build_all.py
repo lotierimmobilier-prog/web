@@ -4,7 +4,7 @@ Usage : python3 scripts/generateur/build_all.py   (nécessite Python 3 et Pillow
 import os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ORDER = ["build_site", "build_pages", "build_misc", "build_rejoindre", "build_comparatif",
-         "build_mylotier", "build_agents", "build_services", "build_about", "build_markdown"]
+         "build_mylotier", "build_agents", "build_services", "build_about", "build_annonces", "build_markdown"]
 for name in ORDER:
     print("→", name)
     subprocess.run([sys.executable, os.path.join(HERE, name + ".py")], cwd=HERE, check=True)
