@@ -159,7 +159,47 @@ def galerie(photos, title, loc, p2):
             f'          <div class="ann-main" data-gal-stage tabindex="0" aria-roledescription="carrousel" aria-label="Photos du bien ({n})"><img src="{p2}{photos[0]}" alt="{e(title)}" width="1000" height="750" data-ann-main fetchpriority="high"><span class="badge{" loc" if loc else ""}">{"LOCATION" if loc else "VENTE"}</span>{fleches}{compteur}{zoom}</div>\n'
             f'          <div class="ann-thumbs">{thumbs}</div>\n          {boite}\n        </div>')
 
-def detail_page(a):
+
+# ---------- Biens de l'agent et biens proches (bas de fiche) ----------
+import unicodedata as _ud
+_PROX = json.load(open(f"{ROOT}/data/proximite.json", encoding="utf-8"))["zones"]
+def _cle_ville(v): return _re.sub(r"[^a-z0-9]+", "-", _ud.normalize("NFD", (v or "").lower()).encode("ascii", "ignore").decode()).strip("-")
+_ZONE_DE = {_cle_ville(c): z for z in _PROX for c in z["communes"]}
+_ZONES = {z["id"]: z for z in _PROX}
+def _agent_cle(a):
+    ag = a.get("agent") or {}
+    return (ag.get("email") or "").strip().lower() or _nom(ag.get("nom") or "").strip().lower()
+def _eloignement(a, b):
+    """0 = même commune, 1 = même secteur, 2+ = secteurs voisins (plus petit = plus proche) ; None = trop loin."""
+    ka, kb = _cle_ville(a["ville"]), _cle_ville(b["ville"])
+    if ka == kb: return 0
+    za, zb = _ZONE_DE.get(ka), _ZONE_DE.get(kb)
+    if not za or not zb: return None
+    if za["id"] == zb["id"]: return 1
+    return 2 + za["proches"].index(zb["id"]) if zb["id"] in za["proches"] else None
+def suggestions(a, tous, n_agent=4, n_proches=3):
+    """(autres biens de l'agent, biens proches) : uniquement des fiches qui existent, sans doublon ni la fiche elle-même."""
+    ok = [b for b in tous if b["id"] != a["id"] and b.get("description_html") is not None]
+    cle = _agent_cle(a)
+    agent = [b for b in ok if cle and _agent_cle(b) == cle]
+    agent.sort(key=lambda b: (_eloignement(a, b) if _eloignement(a, b) is not None else 99, b["type"] != a["type"], b["id"]))
+    agent = agent[:n_agent]
+    vus = {b["id"] for b in agent}
+    proches = [(d, b) for b in ok if b["id"] not in vus for d in [_eloignement(a, b)] if d is not None]
+    proches.sort(key=lambda t: (t[0], t[1]["type"] != a["type"], t[1]["id"]))
+    return agent, [b for _, b in proches[:n_proches]]
+def suggestions_bloc(a, tous, p2):
+    agent, proches = suggestions(a, tous)
+    def liste(titre, items, id_):
+        if not items: return ""
+        return (f'<div class="ann-more-grp"><h2 class="heading" id="{id_}">{titre}</h2>'
+                f'<div class="cards ann-more-grid" aria-labelledby="{id_}">{"".join(annonce_card(b, p2) for b in items)}\n      </div></div>')
+    ag = a.get("agent") or {}
+    prenom = _nom(ag["nom"]).split(" ")[0] if ag.get("nom") else ""
+    html = liste(f"Les autres biens de {e(prenom)}" if prenom else "Les autres biens de votre conseiller", agent, "ann-agent-biens") + liste("Biens à proximité", proches, "ann-proches")
+    return f'<section class="section container ann-more" aria-label="Autres biens">{html}</section>' if html else ""
+
+def detail_page(a, tous=()):
     p2 = "../../"
     title = _nice_title(a); price = _price(a)
     photos = a.get("photos") or ([a["photo"]] if a.get("photo") else [])
@@ -218,7 +258,8 @@ def detail_page(a):
         </aside>
       </div>
       <p style="margin-top:28px"><a class="text-link" href="{p2}nos-annonces/">← Toutes les annonces</a></p>
-    </section>'''
+    </section>
+    {suggestions_bloc(a, tous, p2)}'''
 
     url = f"{SITE}/annonces/{a['id']}/"
     d = _clip(_plain(desc), 165) if desc else f"{title} \u00e0 {a['ville']} : annonce LOTIER Immobilier. Photos, caract\u00e9ristiques et contact."
@@ -237,5 +278,5 @@ def detail_page(a):
 import shutil
 _detail = [a for a in ann if a.get("description_html") is not None]
 shutil.rmtree(f"{ROOT}/annonces", ignore_errors=True)
-for a in _detail: detail_page(a)
+for a in _detail: detail_page(a, ann)
 print(f"{len(_detail)} fiches d\u00e9taill\u00e9es g\u00e9n\u00e9r\u00e9es")

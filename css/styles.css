@@ -947,3 +947,8 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 @media (min-height: 820px) { .ann-side { top: 110px; } }
 @media (max-height: 819px) { .ann-side { position: static; } }
 @media (max-width: 900px) { .ann-layout { grid-template-columns: minmax(0, 1fr); } .ann-side { position: static; } }
+
+/* Fiche annonce : biens de l'agent et biens proches */
+.ann-more { display: grid; gap: 40px; padding-top: 8px; }
+.ann-more-grp > h2 { margin: 0 0 18px; font-size: clamp(1.25rem, 2.4vw, 1.6rem); }
+.ann-more-grid { grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); }

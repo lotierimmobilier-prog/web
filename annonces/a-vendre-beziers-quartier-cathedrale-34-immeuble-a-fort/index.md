@@ -10,6 +10,38 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-im
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+## Biens à proximité
+
+ VENTE
+
+ 135 000 €
+
+### À vendre appartement aux beaux volumes immeuble bourgeoi
+
+ Béziers · 100,17 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 55 000 €
+
+### À vendre appartement T2 bis avec terrasse dernier étage,
+
+ Béziers · 48,34 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 124 000 €
+
+### À vendre appartement T3 avec balcon et box résidence ama
+
+ Béziers · 61,65 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
+
 ---
 
 LOTIER Immobilier (SARL LOTIER), 40 rue Française, 1er étage, 34500 Béziers. Téléphone : 04 67 11 28 31. E-mail : contact@lotier-immobilier.com.
