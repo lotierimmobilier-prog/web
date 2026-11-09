@@ -21,6 +21,10 @@ DirectoryIndex index.html
   RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
   RewriteRule ^index\.html$ / [L,R=301]
 
+  # Dossiers et fichiers de travail du dépôt : jamais servis au public (le site est déployé depuis GitHub)
+  RewriteRule ^(v2|audit-lotier|mise-en-ligne|scripts|\.claude|\.git|node_modules)(/|$) - [R=404,L]
+  RewriteRule ^(README\.md|CLAUDE\.md|\.gitignore)$ - [R=404,L]
+
   # Anciennes adresses du site WordPress : redirections permanentes vers les nouvelles pages
   # (liste établie à partir du plan du site de l'ancien site ; à tester après la mise en ligne)
   RewriteRule ^gestion-2/?$ /nos-honoraires/ [NE,L,R=301]
