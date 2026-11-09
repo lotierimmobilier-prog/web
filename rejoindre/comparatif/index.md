@@ -1,4 +1,4 @@
-# Réseau immobilier, agence classique ou LOTIER : comparatif et FAQ | LOTIER Immobilier
+# Réseau, agence classique ou LOTIER : le comparatif | LOTIER
 
 > Comparatif entre réseaux de mandataires, agence classique et modèle hybride LOTIER : commission de 75 %, redevance, quotas, accompagnement, avec FAQ.
 

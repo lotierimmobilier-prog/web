@@ -5,7 +5,7 @@
 
 CITIES = [
  dict(key="beziers", slug="agence-immobiliere-beziers", name="Béziers", dept="Hérault", cp="34500",
-  title="Agence immobilière à Béziers : vente, location, syndic | LOTIER Immobilier",
+  title="Agence immobilière Béziers : vente, location, syndic | LOTIER",
   desc="Agence immobilière indépendante à Béziers : vente, location, gestion locative et syndic de copropriété. Siège rue Française. Estimez votre bien avec un conseiller.",
   h1="Agence immobilière à Béziers",
   lead="Vendre, acheter, louer ou confier la gestion d'un bien à Béziers : l'agence LOTIER Immobilier a son siège rue Française et accompagne propriétaires, acquéreurs, locataires et copropriétaires.",
@@ -30,7 +30,7 @@ CITIES = [
   article="vivre-a-beziers", nearby=["Valras-Plage", "Sérignan", "Cap d'Agde", "Narbonne", "Montpellier"]),
 
  dict(key="montpellier", slug="agence-immobiliere-montpellier", name="Montpellier", dept="Hérault", cp="34000",
-  title="Agence immobilière à Montpellier : vente, location, syndic | LOTIER Immobilier",
+  title="Agence immobilière Montpellier : vente, location, syndic | LOTIER",
   desc="LOTIER Immobilier, agence immobilière indépendante à Montpellier : vente, location, gestion locative et syndic de copropriété. Estimez votre bien avec un conseiller.",
   h1="Agence immobilière à Montpellier",
   lead="Une agence indépendante, à Montpellier comme à Béziers : vente, location, gestion locative et syndic de copropriété, avec un conseiller qui connaît votre dossier.",
@@ -55,7 +55,7 @@ CITIES = [
   article="vivre-a-montpellier", nearby=["Castelnau-le-Lez", "Lattes", "Pérols", "Juvignac", "Nîmes"]),
 
  dict(key="nimes", slug="agence-immobiliere-nimes", name="Nîmes", dept="Gard", cp="30000",
-  title="Agence immobilière à Nîmes : vente, location, syndic | LOTIER Immobilier",
+  title="Agence immobilière Nîmes : vente, location, syndic | LOTIER",
   desc="Agence immobilière à Nîmes : vente, location, gestion locative et syndic de copropriété avec LOTIER Immobilier. Estimation de votre bien par un conseiller.",
   h1="Agence immobilière à Nîmes",
   lead="À Nîmes et dans l'agglomération, LOTIER Immobilier vous accompagne pour vendre, acheter, louer ou faire gérer un bien, avec son agence de Nîmes, dans le Gard.",
@@ -80,7 +80,7 @@ CITIES = [
   article="vivre-a-nimes", nearby=["Bouillargues", "Caissargues", "Saint-Gilles", "Uzès", "Avignon"]),
 
  dict(key="carcassonne", slug="agence-immobiliere-carcassonne", name="Carcassonne", dept="Aude", cp="11000",
-  title="Agence immobilière à Carcassonne : vente, location | LOTIER Immobilier",
+  title="Agence immobilière Carcassonne : vente, location | LOTIER",
   desc="LOTIER Immobilier vous accompagne à Carcassonne et dans l'Aude : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
   h1="Agence immobilière à Carcassonne",
   lead="À Carcassonne et sur le couloir de l'Aude, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller de proximité.",
@@ -105,7 +105,7 @@ CITIES = [
   article="vivre-a-carcassonne", nearby=["Trèbes", "Limoux", "Castelnaudary", "Narbonne", "Béziers"]),
 
  dict(key="narbonne", slug="agence-immobiliere-narbonne", name="Narbonne", dept="Aude", cp="11100",
-  title="Agence immobilière à Narbonne : vente, location, syndic | LOTIER Immobilier",
+  title="Agence immobilière Narbonne : vente, location, syndic | LOTIER",
   desc="LOTIER Immobilier vous accompagne à Narbonne et dans l'Aude : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
   h1="Agence immobilière à Narbonne",
   lead="À Narbonne et sur le littoral audois, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller de proximité.",
@@ -130,7 +130,7 @@ CITIES = [
   article=None, nearby=["Gruissan", "Bages", "Sigean", "Port-la-Nouvelle", "Béziers"]),
 
  dict(key="avignon", slug="agence-immobiliere-avignon", name="Avignon", dept="Vaucluse", cp="84000",
-  title="Agence immobilière à Avignon : vente, location, syndic | LOTIER Immobilier",
+  title="Agence immobilière Avignon : vente, location, syndic | LOTIER",
   desc="LOTIER Immobilier vous accompagne à Avignon et dans la vallée du Rhône : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
   h1="Agence immobilière à Avignon",
   lead="À Avignon et dans la vallée du Rhône, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller qui connaît votre dossier.",
@@ -155,7 +155,7 @@ CITIES = [
   article=None, nearby=["Villeneuve-lès-Avignon", "Le Pontet", "Sorgues", "Les Angles", "Nîmes"]),
 
  dict(key="agde", slug="agence-immobiliere-agde", name="Agde", dept="Hérault", cp="34300",
-  title="Agence immobilière à Agde et au Cap d'Agde : vente, location | LOTIER Immobilier",
+  title="Agence immobilière Agde, Cap d'Agde : vente, location | LOTIER",
   desc="LOTIER Immobilier vous accompagne à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
   h1="Agence immobilière à Agde",
   lead="À Agde, au Grau d'Agde et au Cap d'Agde, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller de proximité.",

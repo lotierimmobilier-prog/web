@@ -1,2 +1,4 @@
 release/
 mise-en-ligne/*.zip
+__pycache__/
+*.pyc

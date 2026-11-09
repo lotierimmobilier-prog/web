@@ -79,7 +79,7 @@ body += section("Nos métiers", "Vente, location, syndic", f'''<div class="trio"
         <article class="glass"><span class="ico">{I_KEY2}</span><h3>Location</h3><p>Mise en location et gestion locative.</p><a class="text-link" href="{prefix}location/">Découvrir la location</a></article>
         <article class="glass"><span class="ico">{I_BLD2}</span><h3>Syndic</h3><p>La gestion claire de votre copropriété.</p><a class="text-link" href="{prefix}syndic/">Découvrir le syndic</a></article>
       </div>''', "t-met")
-write("notre-service", "Notre service client : transparence et accompagnement | LOTIER Immobilier", "Le service client LOTIER Immobilier : transparence des honoraires, professionnalisme, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.", body, "agence", crumb="Notre service")
+write("notre-service", "Notre service client : transparence et accompagnement | LOTIER", "Le service client LOTIER Immobilier : transparence des honoraires, professionnalisme, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.", body, "agence", crumb="Notre service")
 
 # ---------- Vente ----------
 body = hero("Vente", 'Vendre votre bien, <em class="gold-text">sereinement.</em>', "Un conseiller vous accompagne de l'estimation à la signature de l'acte, avec un barème d'honoraires connu dès le premier échange.")
@@ -97,7 +97,7 @@ body += section("Votre projet", "Une vente sur mesure", cards([
     ("Des outils modernes", "Estimation en ligne, annonce diffusée sur les grands portails, échanges à distance quand vous le souhaitez."),
 ]), "t-sm")
 body += closing("Un projet de vente ?", "Un conseiller vous répond sans engagement.", "Estimer mon bien", ESTIM)
-write("vente", "Vendre son bien à Béziers, Montpellier, Nîmes | LOTIER Immobilier", "Vendre votre bien avec LOTIER Immobilier : estimation, mandat, visites, offre et signature, avec des honoraires de vente publiés et un conseiller dédié.", body, "vendre", crumb="Vente", service="Vente immobilière")
+write("vente", "Vendre son bien à Béziers, Montpellier, Nîmes | LOTIER", "Vendre votre bien avec LOTIER Immobilier : estimation, mandat, visites, offre et signature, avec des honoraires de vente publiés et un conseiller dédié.", body, "vendre", crumb="Vente", service="Vente immobilière")
 
 # ---------- Location ----------
 body = hero("Location", 'Louer et gérer, <em class="gold-text">l\'esprit tranquille.</em>', "Nous trouvons le locataire, rédigeons le bail et suivons votre bien. Vous savez ce que cela coûte avant de nous confier quoi que ce soit.")
@@ -114,7 +114,7 @@ body += section("Locataires", "Vous cherchez un logement ?", cards([
     ("Un interlocuteur", "Une question sur votre bail ou votre logement : vous savez qui appeler."),
 ]), "t-loc")
 body += closing("Un bien à louer ou à gérer ?", "Parlons de votre projet, sans engagement.", "Confier mon bien", CONTACT)
-write("location", "Gestion locative à Béziers, Montpellier, Nîmes | LOTIER Immobilier", "Location et gestion locative avec LOTIER Immobilier : mise en location, état des lieux, gestion à partir de 39,99 € TTC par mois, tarifs publiés.", body, "bailleur", crumb="Location et gestion locative", service="Location et gestion locative")
+write("location", "Gestion locative à Béziers, Montpellier, Nîmes | LOTIER", "Location et gestion locative avec LOTIER Immobilier : mise en location, état des lieux, gestion à partir de 39,99 € TTC par mois, tarifs publiés.", body, "bailleur", crumb="Location et gestion locative", service="Location et gestion locative")
 
 # ---------- Syndic ----------
 body = hero("Syndic", 'Votre copropriété, <em class="gold-text">en toute clarté.</em>', "Assemblées, charges, travaux : une gestion transparente et un interlocuteur qui répond, pour les copropriétaires comme pour le conseil syndical.")
@@ -126,5 +126,5 @@ body += section("Notre mission", "Ce que fait votre syndic", cards([
 body += section("Au quotidien", "Un suivi que vous pouvez consulter", f'''<p class="lead-sm">Les copropriétaires retrouvent leurs documents dans l'espace client : <a class="text-link" href="{prefix}mylotier/">accéder à MyLotier</a>. Pour toute question, un gestionnaire identifié vous répond.</p>''', "t-suivi")
 body += section("Transparence", "Des honoraires connus d'avance", f'''<p class="lead-sm">Nos honoraires de syndic sont annuels, toutes taxes comprises (TVA à 20 %), dégressifs selon le nombre de lots et répartis selon les millièmes. <a class="text-link" href="{prefix}nos-honoraires/#syndic">Voir le barème de syndic</a>.</p>''', "t-hon")
 body += closing("Une question sur votre copropriété ?", "L'équipe syndic de LOTIER Immobilier vous répond.", "Contacter le syndic", CONTACT)
-write("syndic", "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER Immobilier", "Syndic de copropriété LOTIER Immobilier : assemblées, charges, travaux, espace client MyLotier et honoraires annuels publiés.", body, "syndic", crumb="Syndic de copropriété", service="Syndic de copropriété")
+write("syndic", "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER", "Syndic de copropriété LOTIER Immobilier : assemblées, charges, travaux, espace client MyLotier et honoraires annuels publiés.", body, "syndic", crumb="Syndic de copropriété", service="Syndic de copropriété")
 print("services générés")

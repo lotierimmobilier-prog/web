@@ -1,4 +1,4 @@
-# Assemblée générale de copropriété : bien se préparer | Blog LOTIER Immobilier
+# Assemblée générale de copropriété : bien se préparer | LOTIER
 
 > Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.
 

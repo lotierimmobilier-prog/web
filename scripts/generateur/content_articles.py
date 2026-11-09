@@ -34,7 +34,7 @@ ARTICLES = [
    ("Les photos et les visites", ["Les photos sont la vitrine du bien : faites-les en plein jour, une fois le home staging terminé. Pour les visites, aérez, allumez les lumières et laissez les visiteurs circuler librement. Un conseiller peut vous indiquer, pièce par pièce, ce qui vaut la peine d'être fait avant de commencer."])],
   retenir=["Désencombrer et nettoyer valent mieux qu'une rénovation coûteuse.", "Une ambiance neutre et lumineuse aide à se projeter.", "Les photos se font une fois le bien préparé."]),
 
- dict(slug="mandat-exclusif-ou-simple", cat="Vendre", photo="cles",
+ dict(slug="mandat-exclusif-ou-simple", seo_title="Mandat exclusif ou simple : que choisir pour vendre ?", cat="Vendre", photo="cles",
   alt="Photo d'illustration : remise de clés d'un logement", cta="contact",
   title="Mandat exclusif ou mandat simple : que choisir pour vendre ?",
   desc="Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.",
@@ -45,7 +45,7 @@ ARTICLES = [
    ("Ce qu'il faut vérifier avant de signer", [["la durée du mandat et les conditions pour y mettre fin ;", "le montant des honoraires et la personne qui les paie ;", "le prix de vente affiché et la marge de négociation éventuelle ;", "les actions de commercialisation prévues et la fréquence des comptes rendus."], "Le mandat est un contrat écrit et encadré par la loi : prenez le temps de le relire et posez toutes vos questions avant de signer."])],
   retenir=["Mandat simple : liberté, mais une mobilisation souvent moins forte.", "Mandat exclusif : un interlocuteur unique et un suivi plus poussé.", "Relisez la durée, les honoraires et les conditions de fin du mandat."]),
 
- dict(slug="fixer-le-bon-prix-estimation", cat="Vendre", photo="villa",
+ dict(slug="fixer-le-bon-prix-estimation", seo_title="Fixer le bon prix : l'estimation sérieuse change tout", cat="Vendre", photo="villa",
   alt="Photo d'illustration : villa contemporaine avec piscine", cta="estimation",
   title="Fixer le bon prix : pourquoi une estimation sérieuse change tout",
   desc="Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.",
@@ -56,7 +56,7 @@ ARTICLES = [
    ("La visite fait la différence", ["Un avis de valeur par téléphone donne une fourchette. La visite permet d'affiner : état réel, qualité de l'entretien, atouts qui ne se voient pas sur plan. Un bon prix de départ attire plus de visites au début de la commercialisation, là où l'intérêt est le plus fort."])],
   retenir=["Une estimation sérieuse s'appuie sur des ventes réelles et récentes.", "Un prix trop élevé ralentit la vente et affaiblit la position du vendeur.", "La visite par un conseiller affine la fourchette de prix."]),
 
- dict(slug="compromis-de-vente-points-de-vigilance", cat="Acheter", photo="agent",
+ dict(slug="compromis-de-vente-points-de-vigilance", seo_title="Compromis de vente : que vérifier avant de signer ?", cat="Acheter", photo="agent",
   alt="Photo d'illustration : un conseiller remet les clés à un couple", cta="contact",
   title="Compromis de vente : ce qu'il faut vérifier avant de signer",
   desc="Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.",
@@ -204,7 +204,7 @@ ARTICLES = [
    ("Se loger à Béziers", ["On y trouve des appartements dans le centre, des maisons de ville et des maisons avec jardin plus en périphérie. La proximité de l'autoroute et de la gare facilite les déplacements. Avant d'acheter, visitez le quartier à différents moments de la journée, et renseignez-vous sur le stationnement, les commerces et les écoles. L'agence LOTIER a son siège à Béziers, rue Française : un conseiller peut vous guider."])],
   retenir=["Une ville patrimoniale, entre l'Orb, la cathédrale et le canal du Midi.", "La mer est à portée de voiture : Valras-Plage, Sérignan, Cap d'Agde.", "L'agence LOTIER est installée à Béziers."]),
 
- dict(slug="vivre-a-montpellier", cat="Villes", photo="montpellier", city="montpellier",
+ dict(slug="vivre-a-montpellier", seo_title="Vivre à Montpellier : du centre aux nouveaux quartiers", cat="Villes", photo="montpellier", city="montpellier",
   alt="La place de la Comédie à Montpellier le soir", cta="estimation",
   title="Vivre à Montpellier : du centre historique aux nouveaux quartiers",
   desc="Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.",
@@ -226,7 +226,7 @@ ARTICLES = [
    ("Se loger à Nîmes", ["Le marché propose appartements de caractère en centre-ville, maisons avec jardin en périphérie et programmes plus récents. Pour un achat comme pour une location, comparez plusieurs secteurs selon vos besoins : proximité du centre, école, accès aux axes routiers, stationnement. Un conseiller peut vous présenter les biens et vous orienter."])],
   retenir=["Une ville riche en patrimoine, du centre ancien aux jardins de la Fontaine.", "Des secteurs très variés : Écusson, quartiers résidentiels, communes voisines.", "L'agence LOTIER dispose d'une agence à Nîmes."]),
 
- dict(slug="vivre-a-carcassonne", cat="Villes", photo="carcassonne", city="carcassonne",
+ dict(slug="vivre-a-carcassonne", seo_title="Vivre à Carcassonne : la Cité, la Bastide, le canal", cat="Villes", photo="carcassonne", city="carcassonne",
   alt="La Cité médiévale de Carcassonne", cta="estimation",
   title="Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi",
   desc="Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.",

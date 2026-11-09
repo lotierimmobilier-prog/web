@@ -1,4 +1,4 @@
-# Devenir agent immobilier indépendant : 75 % de commission | LOTIER Immobilier
+# Agent immobilier indépendant : 75 % de commission | LOTIER
 
 > Rejoignez LOTIER Immobilier comme agent commercial indépendant : 75 % de commission HT, aucune redevance de marque, aucun quota, formation ALUR et mentor dédié.
 

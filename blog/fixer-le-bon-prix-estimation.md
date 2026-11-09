@@ -1,4 +1,4 @@
-# Fixer le bon prix : pourquoi une estimation sérieuse change tout | Blog LOTIER Immobilier
+# Fixer le bon prix : l'estimation sérieuse change tout | LOTIER
 
 > Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
 

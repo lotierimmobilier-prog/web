@@ -1,4 +1,4 @@
-# Constituer un dossier de location solide | Blog LOTIER Immobilier
+# Constituer un dossier de location solide | LOTIER
 
 > Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.
 

@@ -206,7 +206,7 @@ ld = [
     breadcrumb_ld([("Accueil", SITE + "/"), ("Devenir agent", url)]),
 ]
 os.makedirs(f"{ROOT}/{folder}", exist_ok=True)
-page = shell(prefix, "Devenir agent immobilier indépendant : 75 % de commission | LOTIER Immobilier",
+page = shell(prefix, "Agent immobilier indépendant : 75 % de commission | LOTIER",
              "Rejoignez LOTIER Immobilier comme agent commercial indépendant : 75 % de commission HT, aucune redevance de marque, aucun quota, formation ALUR et mentor dédié.",
              f"{folder}/", body, ld, "assets/photos/agent.jpg", cta=CTA)
 page = page.replace("<title>", "<title>", 1)

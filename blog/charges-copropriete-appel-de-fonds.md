@@ -1,4 +1,4 @@
-# Charges de copropriété : lire un appel de fonds | Blog LOTIER Immobilier
+# Charges de copropriété : lire un appel de fonds | LOTIER
 
 > Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.
 

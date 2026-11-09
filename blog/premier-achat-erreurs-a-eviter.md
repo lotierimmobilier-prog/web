@@ -1,4 +1,4 @@
-# Premier achat immobilier : 6 erreurs à éviter | Blog LOTIER Immobilier
+# Premier achat immobilier : 6 erreurs à éviter | LOTIER
 
 > Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
 

@@ -1,4 +1,4 @@
-# Mandat exclusif ou mandat simple : que choisir pour vendre ? | Blog LOTIER Immobilier
+# Mandat exclusif ou simple : que choisir pour vendre ? | LOTIER
 
 > Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.
 

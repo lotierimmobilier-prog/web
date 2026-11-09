@@ -1,4 +1,4 @@
-# Agence immobilière à Béziers : vente, location, syndic | LOTIER Immobilier
+# Agence immobilière Béziers : vente, location, syndic | LOTIER
 
 > Agence immobilière indépendante à Béziers : vente, location, gestion locative et syndic de copropriété. Siège rue Française. Estimez votre bien avec un conseiller.
 

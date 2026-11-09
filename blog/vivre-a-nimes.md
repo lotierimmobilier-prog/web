@@ -1,4 +1,4 @@
-# Vivre à Nîmes : Arènes, Écusson et art de vivre gardois | Blog LOTIER Immobilier
+# Vivre à Nîmes : Arènes, Écusson et art de vivre gardois | LOTIER
 
 > Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.
 
