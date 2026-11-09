@@ -638,6 +638,11 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 .chat-head strong { display: block; font-size: 17px; }
 .chat-head span { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: #c4d2e6; }
 .chat-head .chat-dot { box-shadow: none; }
+.chat-head > div { flex: 1; min-width: 0; }
+.chat-head .chat-ava { width: 40px; height: 40px; border-radius: 50%; overflow: hidden; flex: none; background: rgba(255, 255, 255, 0.18); display: block; }
+.chat-head .chat-ava[hidden] { display: none; }
+.chat-ava img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cm-b a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 .chat-x { width: 38px; height: 38px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.3); background: transparent; color: #fff; cursor: pointer; display: grid; place-items: center; }
 .chat-x svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 .chat-log { overflow: auto; padding: 16px; display: grid; gap: 10px; align-content: start; background: #f6f9fd; }

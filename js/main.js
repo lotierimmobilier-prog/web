@@ -116,9 +116,56 @@
     ];
     var START = [['Estimer mon bien', 'estimer'], ['Vendre', 'vendre'], ['Louer', 'location'], ['Nos agences', 'agence'], ['Parler à un conseiller', 'conseiller']];
     function norm(x) { return x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+    /* Texte d'Auguste -> noeuds DOM : adresses web et numéros de téléphone deviennent des liens (jamais de HTML injecté). */
+    var LIEN = /((?:https?:\/\/|www\.)[^\s<>()]*[^\s<>().,;:!?]|0[1-9](?:[ .]?\d{2}){4})/g;
+    function fill(el, text) {
+      var s = String(text == null ? '' : text), last = 0, m;
+      LIEN.lastIndex = 0;
+      while ((m = LIEN.exec(s)) !== null) {
+        if (m.index > last) el.appendChild(document.createTextNode(s.slice(last, m.index)));
+        var t = m[0], a = document.createElement('a');
+        if (/^0/.test(t)) { a.href = 'tel:+33' + t.replace(/[^0-9]/g, '').slice(1); }
+        else { a.href = /^www\./i.test(t) ? 'https://' + t : t; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+        a.textContent = t; el.appendChild(a); last = m.index + t.length;
+      }
+      if (last < s.length) el.appendChild(document.createTextNode(s.slice(last)));
+    }
+    /* Auguste, l'assistant de Collab : /session ouvre une conversation (jeton, accueil, image), /message répond.
+       Sans réponse de Collab (hors ligne, désactivé, trop de messages), les réponses locales ci-dessous prennent le relais. */
+    var API = EP.replace(/\/+$/, ''), ORIGIN = '';
+    try { ORIGIN = new URL(API).origin; } catch (e) { API = ''; }
+    var token = null, offline = !API, opening = null;
+    function setAvatar(u) {
+      var box = chat.querySelector('[data-chat-avatar]');
+      if (!box || !u) return;
+      try {
+        var x = new URL(u, ORIGIN + '/');
+        if (!/^https?:$/.test(x.protocol)) return;
+        var im = document.createElement('img'); im.src = x.href; im.alt = ''; im.width = 40; im.height = 40;
+        box.textContent = ''; box.appendChild(im); box.hidden = false;
+      } catch (e) { /* image d'Auguste indisponible : l'en-tête reste sans image */ }
+    }
+    function openSession() {
+      if (token) return Promise.resolve({ token: token });
+      if (offline) return Promise.resolve(null);
+      if (opening) return opening;
+      opening = fetch(API + '/session', { method: 'POST' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d && d.enabled && d.token) { token = d.token; if (d.avatar) setAvatar(d.avatar); return d; }
+          offline = true; return null;
+        })
+        .catch(function () { offline = true; return null; })
+        .then(function (d) { opening = null; return d; });
+      return opening;
+    }
+    function envoyer(q) {
+      return fetch(API + '/message', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token: token, message: q.slice(0, 1500) }) })
+        .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { status: r.status, j: j || {} }; }); });
+    }
     function msg(who, text, extra) {
       var d = document.createElement('div'); d.className = 'cm cm-' + who;
-      var b = document.createElement('div'); b.className = 'cm-b'; b.textContent = text; d.appendChild(b);
+      var b = document.createElement('div'); b.className = 'cm-b'; if (who === 'bot') fill(b, text); else b.textContent = text; d.appendChild(b);
       if (extra) { var r = document.createElement('div'); r.className = 'cm-l';
         (extra.l || []).forEach(function (k) { var a = document.createElement('a'); a.href = L[k][1]; a.textContent = L[k][0]; r.appendChild(a); });
         if (extra.agences) { var bt = document.createElement('button'); bt.type = 'button'; bt.textContent = 'Voir les adresses'; bt.addEventListener('click', function () { var dg = document.getElementById('agences-dialog'); if (dg && dg.showModal) { setChat(false); dg.showModal(); } }); r.appendChild(bt); }
@@ -136,18 +183,32 @@
       history.push({ role: 'user', content: q });
       var typing = msg('bot', '…');
       function show(ans) { typing.remove(); if (typeof ans === 'string') { msg('bot', ans); history.push({ role: 'assistant', content: ans }); } else { msg('bot', ans.t, ans); history.push({ role: 'assistant', content: ans.t }); } }
-      if (EP) {
-        fetch(EP, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: q, history: history.slice(-10) }) })
-          .then(function (r) { return r.json(); }).then(function (j) { if (j && j.reply) show(j.reply); else show(local(q)); })
-          .catch(function () { show(local(q)); });
+      if (API) {
+        openSession().then(function (d) {
+          if (!d) return show(local(q));
+          return envoyer(q).then(function (x) {
+            if (x.j.reply) return show(x.j.reply);
+            if (x.status === 404) { token = null; return openSession().then(function (d2) { return d2 ? envoyer(q).then(function (y) { show(y.j.reply || local(q)); }) : show(local(q)); }); }
+            if (x.status === 429 && x.j.error) return show(x.j.error);
+            show(local(q));
+          });
+        }).catch(function () { show(local(q)); });
       } else { setTimeout(function () { show(local(q)); }, 450); }
     }
     function ask(q) { q = (q || '').trim(); if (!q) return; msg('user', q); chips.hidden = true; reply(q); }
     function setChat(o) {
       cp.hidden = !o; fab.setAttribute('aria-expanded', String(o)); chat.classList.toggle('open', o);
       if (o) {
-        if (!started) { started = true; msg('bot', 'Bonjour, je suis l\'assistant virtuel de LOTIER, disponible 7j/7. Un conseiller reprend la main dès que vous le souhaitez.');
-          START.forEach(function (s) { var b = document.createElement('button'); b.type = 'button'; b.textContent = s[0]; b.addEventListener('click', function () { ask(s[0]); }); chips.appendChild(b); }); }
+        if (!started) {
+          started = true;
+          var ACCUEIL = 'Bonjour, je suis Auguste, l\'assistant de LOTIER Immobilier, disponible 7j/7. Un conseiller reprend la main dès que vous le souhaitez.';
+          var accueilFait = false;
+          var accueil = function (t) { if (accueilFait) return; accueilFait = true; msg('bot', t || ACCUEIL); };
+          /* l'accueil vient de Collab (réglage de l'agence) ; au bout de 3 s sans réponse, le texte local s'affiche */
+          var attente = setTimeout(function () { accueil(); }, 3000);
+          openSession().then(function (d) { clearTimeout(attente); accueil(d && d.welcome); });
+          START.forEach(function (s) { var b = document.createElement('button'); b.type = 'button'; b.textContent = s[0]; b.addEventListener('click', function () { ask(s[0]); }); chips.appendChild(b); });
+        }
         setTimeout(function () { input.focus(); }, 50);
       } else { fab.focus(); }
     }
