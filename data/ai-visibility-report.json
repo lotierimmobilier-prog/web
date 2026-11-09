@@ -1,0 +1,834 @@
+{
+ "version": 1,
+ "site": "https://lotier.immo",
+ "score": 100,
+ "score_max": 100,
+ "controles": [
+  {
+   "libelle": "Les robots de recherche et de consultation IA sont autorisés",
+   "reussi": true,
+   "points": 20
+  },
+  {
+   "libelle": "Content-Signal déclaré dans robots.txt",
+   "reussi": true,
+   "points": 8
+  },
+  {
+   "libelle": "llms.txt présent, avec titre et résumé",
+   "reussi": true,
+   "points": 12
+  },
+  {
+   "libelle": "Liens de llms.txt valides",
+   "reussi": true,
+   "points": 5
+  },
+  {
+   "libelle": "Version Markdown de toutes les pages indexables",
+   "reussi": true,
+   "points": 15
+  },
+  {
+   "libelle": "Données structurées sur toutes les pages",
+   "reussi": true,
+   "points": 15
+  },
+  {
+   "libelle": "Fiche d'entreprise (RealEstateAgent) sur l'accueil",
+   "reussi": true,
+   "points": 8
+  },
+  {
+   "libelle": "Carte de serveur MCP publiée",
+   "reussi": true,
+   "points": 5
+  },
+  {
+   "libelle": "Outils WebMCP déclarés",
+   "reussi": true,
+   "points": 4
+  },
+  {
+   "libelle": "Sitemap déclaré dans robots.txt",
+   "reussi": true,
+   "points": 4
+  },
+  {
+   "libelle": "Pages importantes avec FAQ balisée",
+   "reussi": true,
+   "points": 4
+  }
+ ],
+ "robots_ia": [
+  {
+   "robot": "OAI-SearchBot",
+   "editeur": "OpenAI",
+   "role": "recherche",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "ChatGPT-User",
+   "editeur": "OpenAI",
+   "role": "consultation à la demande",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "GPTBot",
+   "editeur": "OpenAI",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "Claude-SearchBot",
+   "editeur": "Anthropic",
+   "role": "recherche",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "Claude-User",
+   "editeur": "Anthropic",
+   "role": "consultation à la demande",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "ClaudeBot",
+   "editeur": "Anthropic",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "PerplexityBot",
+   "editeur": "Perplexity",
+   "role": "recherche",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "Perplexity-User",
+   "editeur": "Perplexity",
+   "role": "consultation à la demande",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "Google-Extended",
+   "editeur": "Google",
+   "role": "entraînement Gemini (n'affecte pas la recherche Google)",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "Applebot-Extended",
+   "editeur": "Apple",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle explicite"
+  },
+  {
+   "robot": "CCBot",
+   "editeur": "Common Crawl",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle générale (*)"
+  },
+  {
+   "robot": "Bytespider",
+   "editeur": "ByteDance",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle générale (*)"
+  },
+  {
+   "robot": "Meta-ExternalAgent",
+   "editeur": "Meta",
+   "role": "entraînement",
+   "autorise": true,
+   "regle": "règle générale (*)"
+  }
+ ],
+ "entrainement_autorise_pour": [
+  "GPTBot",
+  "ClaudeBot",
+  "Google-Extended",
+  "Applebot-Extended",
+  "CCBot",
+  "Bytespider",
+  "Meta-ExternalAgent"
+ ],
+ "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
+ "llms_txt": {
+  "present": true,
+  "liens": 38,
+  "liens_invalides": []
+ },
+ "couverture": {
+  "pages_indexables": 38,
+  "markdown": 1.0,
+  "donnees_structurees": 1.0
+ },
+ "pages": [
+  {
+   "url": "https://lotier.immo/a-propos/",
+   "type": "autre",
+   "balisage": [
+    "AboutPage",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-agde.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-avignon.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-beziers.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-carcassonne.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-montpellier.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-narbonne.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/agence-immobiliere-nimes.html",
+   "type": "ville",
+   "balisage": [
+    "AdministrativeArea",
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/depot-de-garantie-location.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/dossier-de-location-solide.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/dpe-classes-a-g-comprendre.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/fixer-le-bon-prix-estimation.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/frais-de-notaire-comprendre.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/home-staging-mieux-vendre.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/",
+   "type": "autre",
+   "balisage": [
+    "Blog",
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/mandat-exclusif-ou-simple.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/meuble-ou-vide-choisir-location.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/visiter-un-appartement-checklist.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/vivre-a-beziers.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/vivre-a-carcassonne.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/vivre-a-montpellier.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/vivre-a-nimes.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/contact/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ContactPage",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/",
+   "type": "accueil",
+   "balisage": [
+    "Answer",
+    "City",
+    "ContactPoint",
+    "FAQPage",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "RealEstateAgent",
+    "Service",
+    "WebSite"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/location/",
+   "type": "service",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "Service"
+   ],
+   "markdown": true,
+   "problemes": [
+    "pas de FAQ balisée (FAQPage)"
+   ]
+  },
+  {
+   "url": "https://lotier.immo/notre-service/",
+   "type": "service",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": [
+    "pas de FAQ balisée (FAQPage)"
+   ]
+  },
+  {
+   "url": "https://lotier.immo/plan-du-site.html",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/rejoindre/comparatif/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/rejoindre/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/syndic/",
+   "type": "service",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "Service"
+   ],
+   "markdown": true,
+   "problemes": [
+    "pas de FAQ balisée (FAQPage)"
+   ]
+  },
+  {
+   "url": "https://lotier.immo/vente/",
+   "type": "service",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "Service"
+   ],
+   "markdown": true,
+   "problemes": [
+    "pas de FAQ balisée (FAQPage)"
+   ]
+  }
+ ]
+}

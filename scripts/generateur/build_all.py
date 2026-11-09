@@ -10,4 +10,6 @@ for name in ORDER:
     subprocess.run([sys.executable, os.path.join(HERE, name + ".py")], cwd=HERE, check=True)
 print("→ audit SEO (data/seo-report.json)")
 subprocess.run([sys.executable, os.path.join(HERE, "..", "seo_audit.py")], check=True)
+print("→ audit visibilité IA (data/ai-visibility-report.json)")
+subprocess.run([sys.executable, os.path.join(HERE, "..", "ai_visibility_audit.py")], check=True)
 print("Terminé.")
