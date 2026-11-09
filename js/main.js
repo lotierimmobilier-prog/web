@@ -616,3 +616,15 @@
   });
   city.addEventListener('change', apply);
 })();
+
+/* Fiche d'annonce : changer la photo principale en touchant une miniature. */
+(function () {
+  var g = document.querySelector('[data-ann-gallery]');
+  if (!g) return;
+  var main = g.querySelector('[data-ann-main]');
+  g.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-ann-photo]'); if (!b || !main) return;
+    main.src = b.getAttribute('data-ann-photo');
+    g.querySelectorAll('.ann-thumb').forEach(function (x) { x.classList.toggle('is-on', x === b); });
+  });
+})();
