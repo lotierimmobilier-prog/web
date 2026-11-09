@@ -88,7 +88,7 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
 
@@ -98,7 +98,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -108,7 +108,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
 
  399 900 €
 
@@ -118,7 +118,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 
@@ -130,7 +130,7 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
 
  45 000 €
 
@@ -140,7 +140,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)
 
  85 000 €
 
@@ -150,7 +150,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
 
  38 500 €
 

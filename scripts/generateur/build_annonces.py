@@ -240,7 +240,7 @@ def detail_page(a, tous=()):
     ref = f'<p class="ann-ref muted small">Réf. {e(a["reference"])}</p>' if a.get("reference") else ""
     rappel_attrs = (f'data-contact-open="rappel" data-ref="{e(a.get("reference") or "")}" data-titre="{e(title)}" '
                     f'data-url="{SITE}/annonces/{a["id"]}/" data-agent="{e(ag.get("email") or "")}" '
-                    f'data-agent-prenom="{e(_nom(ag["nom"]).split(" ")[0]) if ag.get("nom") else ""}"')
+                    f'data-agent-prenom="{e(_nom(ag["nom"]).split(" ")[0]) if ag.get("nom") else ""}"{attr_tel_agent(ag)}')
     if ag.get("nom"):
         prenom = _nom(ag["nom"]).split(" ")[0]
         appel = f'<a class="btn btn-gold btn-lg btn-block mag ann-call" href="tel:{tel[1]}">{PH}<span class="ann-call-txt"><span>Appeler {e(prenom)}</span><strong>{tel[0]}</strong></span></a>' if tel else ""
