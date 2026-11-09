@@ -648,6 +648,7 @@ dialog.agences::backdrop { background: rgba(10, 28, 51, 0.55); backdrop-filter: 
 .chat-fab:hover { transform: translateY(-2px); }
 .chat-fab:focus-visible, .chat-x:focus-visible, .chat-form button:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 2px; }
 .chat-fab-ico { position: relative; width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--gold-hi)); color: var(--navy); display: grid; place-items: center; }
+.chat-fab-ico img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
 .chat-fab-ico svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
 .chat-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #2fb36a; box-shadow: 0 0 0 2px #fff; }
 .chat-fab-ico .chat-dot { position: absolute; top: 0; right: 0; }
