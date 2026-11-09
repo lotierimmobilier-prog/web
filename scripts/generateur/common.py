@@ -40,6 +40,7 @@ SOCIAL_SHOW_EMPTY = True
 # Vide = l'assistant répond depuis les informations du site (mode local, sans serveur).
 # Auguste, l'assistant de Collab (chatbot public : /session ouvre une conversation, /message répond). Vide = réponses locales seulement.
 CHAT_ENDPOINT = "https://collab.lotier-immobilier.com/api/public/chatbot"
+COLLAB_LOGIN = "https://collab.lotier-immobilier.com/login"   # page de connexion (e-mail + mot de passe) de Collab, pour l'équipe
 # Bureaux affichés dans la fenêtre « Nos agences » (adresse vide = « à compléter », comme sur la section Contact)
 OFFICES = [
     {"city": "Béziers", "tag": "Siège", "addr": "40 rue Française, 1er étage", "zip": "34500"},
@@ -347,6 +348,7 @@ def footer(prefix, home=False, cta=None):
       <div class="footer-bottom">
         <p class="footer-line">SARL LOTIER, SIRET 452 117 294 00044. Carte professionnelle CPI3401 2016 000 014 824. Garantie financière : SOCAF, n° 105 708 080.</p>
         <p class="footer-line">© 2026 LOTIER Immobilier. Photos d'illustration : <a href="https://www.pexels.com/">Pexels</a>.
+        <a class="f-lock" href="{COLLAB_LOGIN}" target="_blank" rel="noopener noreferrer nofollow" title="Accès équipe LOTIER" aria-label="Accès équipe LOTIER : connexion à Collab avec e-mail et mot de passe (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></a>
         <a class="to-top" href="#top" aria-label="Retour en haut"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a></p>
       </div>
     </div>
@@ -476,6 +478,23 @@ def _price(a):
     n = f"{a['prix']:,.0f}".replace(",", "\u202f")
     return f"{n}\u00a0\u20ac" + ("\u00a0par mois" if a["type"] == "location" else "")
 
+# ---- Filtres de « Nos annonces » : catégorie de bien et département ----
+_DEPS = json.load(open(f"{ROOT}/data/departements.json", encoding="utf-8"))
+DEPARTEMENTS = _DEPS["departements"]
+def departement(a):
+    """Code du département (« 34 ») de la commune de l'annonce, ou \"\" si la commune n'est pas dans data/departements.json."""
+    return _DEPS["communes"].get(a.get("ville") or "", "")
+_BIENS = (("appartement", "Appartement"), ("maison", "Maison"), ("terrain", "Terrain"), ("immeuble", "Immeuble"), ("commerce", "Local, bureaux, commerce"), ("parking", "Parking, box"), ("autre", "Autre"))
+BIENS_LIBELLES = dict(_BIENS)
+def categorie_bien(a):
+    """Catégorie de bien (clé de _BIENS) : lue dans la fiche (« Type de bien »), à défaut déduite du titre."""
+    brut = next((l[1] for b in a.get("blocs", []) for l in b["lignes"] if l[0] == "Type de bien"), "") or ""
+    t = (brut + " " + (a.get("titre") or "")).lower()
+    for cle, mots in (("parking", ("parking", "box", "garage")), ("terrain", ("terrain",)), ("immeuble", ("immeuble",)),
+                      ("commerce", ("local", "boutique", "bureau", "commerc", "fonds")), ("maison", ("maison", "villa")), ("appartement", ("appartement", "studio", "t1", "t2", "t3", "t4", "t5"))):
+        if any(m in t for m in mots): return cle
+    return "autre"
+
 def annonce_card(a, prefix):
     loc = a["type"] == "location"
     badge = '<span class="badge loc">LOCATION</span>' if loc else '<span class="badge">VENTE</span>'
@@ -486,7 +505,7 @@ def annonce_card(a, prefix):
     if a.get("chambres"): bits.append(f"{a['chambres']} ch.")
     photo = (f'<img src="{prefix}{a["photo"]}" alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
     return f'''
-          <article class="card" data-tilt data-ann-type="{a['type']}" data-ann-ville="{e(a['ville'])}">
+          <article class="card" data-tilt data-ann-type="{a['type']}" data-ann-ville="{e(a['ville'])}" data-ann-dep="{departement(a)}" data-ann-bien="{categorie_bien(a)}" data-ann-prix="{int(a['prix']) if a.get('prix') else ''}" data-ann-surf="{int(a['surface']) if a.get('surface') else ''}">
             <div class="ph">{photo}{badge}</div>
             <div class="card-body">
               <span class="price">{_price(a)}</span>

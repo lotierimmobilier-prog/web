@@ -9,10 +9,15 @@ prefix = "../"
 ann = load_annonces()
 os.makedirs(f"{ROOT}/nos-annonces", exist_ok=True)
 nb_v = sum(1 for a in ann if a["type"] == "vente"); nb_l = len(ann) - nb_v
+import collections as _co
 villes = sorted({a["ville"] for a in ann if a["ville"]})
 cards = "".join(annonce_card(a, prefix) for a in ann) if ann else '<p class="muted">Aucune annonce publiée pour le moment. <a class="text-link" href="../contact/">Contactez-nous</a> pour connaître nos biens à venir.</p>'
-opts = '<option value="">Toutes les villes</option>' + "".join(f'<option value="{e(v)}">{e(v)}</option>' for v in villes)
-body = f'''    <section class="page-hero">
+nb_biens = _co.Counter(categorie_bien(a) for a in ann)
+nb_deps = _co.Counter(departement(a) for a in ann)
+opts_ville = "".join(f'<option value="{e(v)}" data-dep="{e(departement(next(x for x in ann if x["ville"] == v)))}">{e(v)}</option>' for v in villes)
+opts_bien = "".join(f'<option value="{k}">{e(lib)} ({nb_biens[k]})</option>' for k, lib in BIENS_LIBELLES.items() if nb_biens.get(k))
+opts_dep = "".join(f'<option value="{c}">{e(nom)} ({c}) · {nb_deps[c]}</option>' for c, nom in DEPARTEMENTS.items() if nb_deps.get(c))
+body = f'''    <section class="page-hero ann-list-hero">
       <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../index.html">Accueil</a><span aria-hidden="true">/</span><span aria-current="page">Nos annonces</span></nav>
@@ -20,19 +25,26 @@ body = f'''    <section class="page-hero">
         <p class="lead">{nb_v} biens à vendre et {nb_l} à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.</p>
       </div>
     </section>
-    <section class="section container" aria-label="Annonces" data-annonces>
-      <div class="ann-filters">
-        <div class="chip-links" role="group" aria-label="Type d'annonce">
+    <section class="section container ann-list" aria-label="Annonces" data-annonces>
+      <form class="ann-filtres" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
+        <div class="chip-links" role="group" aria-label="Vente ou location">
           <button type="button" class="chip-link is-on" data-ann-type-btn="" aria-pressed="true">Toutes ({len(ann)})</button>
           <button type="button" class="chip-link" data-ann-type-btn="vente" aria-pressed="false">À vendre ({nb_v})</button>
           <button type="button" class="chip-link" data-ann-type-btn="location" aria-pressed="false">À louer ({nb_l})</button>
         </div>
-        <label class="ann-city"><span class="small muted">Ville</span><select data-ann-city>{opts}</select></label>
-      </div>
-      <p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p>
+        <div class="ann-champs">
+          <label><span>Type de bien</span><select data-ann-bien><option value="">Tous les biens</option>{opts_bien}</select></label>
+          <label><span>Département</span><select data-ann-dep><option value="">Tous les départements</option>{opts_dep}</select></label>
+          <label><span>Ville</span><select data-ann-city><option value="">Toutes les villes</option>{opts_ville}</select></label>
+          <label><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Trier par</span><select data-ann-sort><option value="">Sélection LOTIER</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
+        </div>
+        <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
+      </form>
       <div class="cards" data-ann-grid>{cards}
       </div>
-      <p class="muted small" data-ann-empty hidden>Aucune annonce ne correspond à ce filtre.</p>
+      <p class="muted" data-ann-empty hidden>Aucune annonce ne correspond à ces critères. <button type="button" class="text-link ann-reset" data-ann-reset>Réinitialiser les filtres</button></p>
       <p class="muted small" style="margin-top:24px">Prix en euros. Les honoraires, le DPE et les informations légales figurent sur chaque fiche.</p>
     </section>
     <section class="section container">
