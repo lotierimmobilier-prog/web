@@ -796,3 +796,21 @@
   });
   show(0, true);
 })();
+
+
+/* Avis Google par widget tiers : le script n'est chargé qu'après un clic (aucun traceur tiers au chargement de la page). */
+(function () {
+  var box = document.querySelector('[data-avis-widget]');
+  if (!box) return;
+  var btn = box.querySelector('[data-avis-load]');
+  btn.addEventListener('click', function () {
+    var type = box.getAttribute('data-type'), id = box.getAttribute('data-id');
+    if (!/^[A-Za-z0-9_-]{6,64}$/.test(id)) return;
+    var s = document.createElement('script'), zone = document.createElement('div');
+    if (type === 'trustindex') { s.src = 'https://cdn.trustindex.io/loader.js?' + id; zone.className = 'avis-zone'; }
+    else if (type === 'elfsight') { s.src = 'https://static.elfsight.com/platform/platform.js'; zone.className = 'elfsight-app-' + id; zone.setAttribute('data-elfsight-app-lazy', ''); }
+    else return;
+    s.async = true; s.defer = true;
+    box.innerHTML = ''; box.classList.add('is-loaded'); box.appendChild(zone); zone.appendChild(s);
+  });
+})();
