@@ -1,4 +1,4 @@
-# Vivre à Béziers : centre ancien, canal et art de vivre | Blog LOTIER Immobilier
+# Vivre à Béziers : centre ancien, canal et art de vivre | LOTIER
 
 > Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
 

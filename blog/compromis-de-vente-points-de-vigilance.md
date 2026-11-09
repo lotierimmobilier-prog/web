@@ -1,4 +1,4 @@
-# Compromis de vente : ce qu'il faut vérifier avant de signer | Blog LOTIER Immobilier
+# Compromis de vente : que vérifier avant de signer ? | LOTIER
 
 > Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.
 

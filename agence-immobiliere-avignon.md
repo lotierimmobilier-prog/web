@@ -1,4 +1,4 @@
-# Agence immobilière à Avignon : vente, location, syndic | LOTIER Immobilier
+# Agence immobilière Avignon : vente, location, syndic | LOTIER
 
 > LOTIER Immobilier vous accompagne à Avignon et dans la vallée du Rhône : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.
 

@@ -1,4 +1,4 @@
-# Visiter un appartement : la check-list de l'acheteur | Blog LOTIER Immobilier
+# Visiter un appartement : la check-list de l'acheteur | LOTIER
 
 > Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
 

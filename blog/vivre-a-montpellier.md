@@ -1,4 +1,4 @@
-# Vivre à Montpellier : du centre historique aux nouveaux quartiers | Blog LOTIER Immobilier
+# Vivre à Montpellier : du centre aux nouveaux quartiers | LOTIER
 
 > Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.
 

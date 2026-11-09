@@ -1,4 +1,4 @@
-# Agence immobilière à Montpellier : vente, location, syndic | LOTIER Immobilier
+# Agence immobilière Montpellier : vente, location, syndic | LOTIER
 
 > LOTIER Immobilier, agence immobilière indépendante à Montpellier : vente, location, gestion locative et syndic de copropriété. Estimez votre bien avec un conseiller.
 

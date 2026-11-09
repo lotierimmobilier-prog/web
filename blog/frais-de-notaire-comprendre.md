@@ -1,4 +1,4 @@
-# Frais de notaire : à quoi correspondent-ils vraiment ? | Blog LOTIER Immobilier
+# Frais de notaire : à quoi correspondent-ils vraiment ? | LOTIER
 
 > Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.
 

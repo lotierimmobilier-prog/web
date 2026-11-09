@@ -1,4 +1,4 @@
-# Loyers impayés : les bons réflexes du propriétaire | Blog LOTIER Immobilier
+# Loyers impayés : les bons réflexes du propriétaire | LOTIER
 
 > Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.
 

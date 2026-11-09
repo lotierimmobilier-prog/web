@@ -1,4 +1,4 @@
-# Louer son bien : meublé ou vide ? | Blog LOTIER Immobilier
+# Louer son bien : meublé ou vide ? | LOTIER
 
 > Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
 

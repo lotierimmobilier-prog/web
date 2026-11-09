@@ -1,4 +1,4 @@
-# Home staging : 8 gestes simples pour mieux vendre | Blog LOTIER Immobilier
+# Home staging : 8 gestes simples pour mieux vendre | LOTIER
 
 > Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
 

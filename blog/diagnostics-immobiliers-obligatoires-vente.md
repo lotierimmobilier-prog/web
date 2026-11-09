@@ -1,4 +1,4 @@
-# Les diagnostics immobiliers obligatoires pour vendre | Blog LOTIER Immobilier
+# Les diagnostics immobiliers obligatoires pour vendre | LOTIER
 
 > DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.
 

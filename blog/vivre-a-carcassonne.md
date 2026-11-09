@@ -1,4 +1,4 @@
-# Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi | Blog LOTIER Immobilier
+# Vivre à Carcassonne : la Cité, la Bastide, le canal | LOTIER
 
 > Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.
 

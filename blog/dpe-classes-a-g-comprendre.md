@@ -1,4 +1,4 @@
-# DPE : comprendre les classes A à G | Blog LOTIER Immobilier
+# DPE : comprendre les classes A à G | LOTIER
 
 > Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.
 

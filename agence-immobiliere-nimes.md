@@ -1,4 +1,4 @@
-# Agence immobilière à Nîmes : vente, location, syndic | LOTIER Immobilier
+# Agence immobilière Nîmes : vente, location, syndic | LOTIER
 
 > Agence immobilière à Nîmes : vente, location, gestion locative et syndic de copropriété avec LOTIER Immobilier. Estimation de votre bien par un conseiller.
 

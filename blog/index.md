@@ -1,4 +1,4 @@
-# Blog immobilier : conseils pour vendre, acheter, louer | LOTIER Immobilier
+# Blog immobilier : conseils pour vendre, acheter, louer | LOTIER
 
 > 20 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
 

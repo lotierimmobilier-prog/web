@@ -139,7 +139,7 @@ ld = [
     breadcrumb_ld([("Accueil", SITE + "/"), ("Devenir agent", SITE + "/rejoindre/"), ("Comparatif", url)]),
 ]
 os.makedirs(f"{ROOT}/{folder}", exist_ok=True)
-page = shell(prefix, "Réseau immobilier, agence classique ou LOTIER : comparatif et FAQ | LOTIER Immobilier",
+page = shell(prefix, "Réseau, agence classique ou LOTIER : le comparatif | LOTIER",
              "Comparatif entre réseaux de mandataires, agence classique et modèle hybride LOTIER : commission de 75 %, redevance, quotas, accompagnement, avec FAQ.",
              f"{folder}/", body, ld, "assets/photos/agent.jpg", cta=CTA)
 open(f"{ROOT}/{folder}/index.html", "w", encoding="utf-8").write(page)

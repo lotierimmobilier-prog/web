@@ -1,4 +1,4 @@
-# LOTIER Immobilier | Agence immobilière à Béziers, Montpellier et Nîmes
+# Agence immobilière Béziers, Montpellier, Nîmes | LOTIER
 
 > Agence immobilière indépendante : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Estimez votre bien et parlez à un conseiller.
 

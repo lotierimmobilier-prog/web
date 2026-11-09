@@ -5,12 +5,11 @@
   "pages_auditees": 45,
   "pages_indexables": 38,
   "erreurs": 0,
-  "avertissements": 38,
-  "pages_sans_probleme": 12,
+  "avertissements": 7,
+  "pages_sans_probleme": 38,
   "problemes_par_type": {
    "description-courte": 1,
-   "description-longue": 6,
-   "title-long": 31
+   "description-longue": 6
   }
  },
  "fichiers": {
@@ -68,7 +67,7 @@
    "url": "https://lotier.immo/agence-immobiliere-agde.html",
    "fichier": "agence-immobiliere-agde.html",
    "indexable": true,
-   "titre": "Agence immobilière à Agde et au Cap d'Agde : vente, location | LOTIER Immobilier",
+   "titre": "Agence immobilière Agde, Cap d'Agde : vente, location | LOTIER",
    "description": "LOTIER Immobilier vous accompagne à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
    "mots": 707,
    "h1": "Agence immobilière à Agde",
@@ -77,11 +76,6 @@
    "liens": 79,
    "markdown": true,
    "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 80 caractères (65 conseillés au maximum)."
-    },
     {
      "niveau": "avertissement",
      "code": "description-longue",
@@ -93,7 +87,7 @@
    "url": "https://lotier.immo/agence-immobiliere-avignon.html",
    "fichier": "agence-immobiliere-avignon.html",
    "indexable": true,
-   "titre": "Agence immobilière à Avignon : vente, location, syndic | LOTIER Immobilier",
+   "titre": "Agence immobilière Avignon : vente, location, syndic | LOTIER",
    "description": "LOTIER Immobilier vous accompagne à Avignon et dans la vallée du Rhône : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
    "mots": 682,
    "h1": "Agence immobilière à Avignon",
@@ -102,11 +96,6 @@
    "liens": 79,
    "markdown": true,
    "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 74 caractères (65 conseillés au maximum)."
-    },
     {
      "niveau": "avertissement",
      "code": "description-longue",
@@ -118,7 +107,7 @@
    "url": "https://lotier.immo/agence-immobiliere-beziers.html",
    "fichier": "agence-immobiliere-beziers.html",
    "indexable": true,
-   "titre": "Agence immobilière à Béziers : vente, location, syndic | LOTIER Immobilier",
+   "titre": "Agence immobilière Béziers : vente, location, syndic | LOTIER",
    "description": "Agence immobilière indépendante à Béziers : vente, location, gestion locative et syndic de copropriété. Siège rue Française. Estimez votre bien avec un conseiller.",
    "mots": 703,
    "h1": "Agence immobilière à Béziers",
@@ -126,19 +115,13 @@
    "images": 7,
    "liens": 79,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 74 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-carcassonne.html",
    "fichier": "agence-immobiliere-carcassonne.html",
    "indexable": true,
-   "titre": "Agence immobilière à Carcassonne : vente, location | LOTIER Immobilier",
+   "titre": "Agence immobilière Carcassonne : vente, location | LOTIER",
    "description": "LOTIER Immobilier vous accompagne à Carcassonne et dans l'Aude : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
    "mots": 638,
    "h1": "Agence immobilière à Carcassonne",
@@ -146,19 +129,13 @@
    "images": 7,
    "liens": 79,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 70 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-montpellier.html",
    "fichier": "agence-immobiliere-montpellier.html",
    "indexable": true,
-   "titre": "Agence immobilière à Montpellier : vente, location, syndic | LOTIER Immobilier",
+   "titre": "Agence immobilière Montpellier : vente, location, syndic | LOTIER",
    "description": "LOTIER Immobilier, agence immobilière indépendante à Montpellier : vente, location, gestion locative et syndic de copropriété. Estimez votre bien avec un conseiller.",
    "mots": 667,
    "h1": "Agence immobilière à Montpellier",
@@ -166,19 +143,13 @@
    "images": 7,
    "liens": 79,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 78 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-narbonne.html",
    "fichier": "agence-immobiliere-narbonne.html",
    "indexable": true,
-   "titre": "Agence immobilière à Narbonne : vente, location, syndic | LOTIER Immobilier",
+   "titre": "Agence immobilière Narbonne : vente, location, syndic | LOTIER",
    "description": "LOTIER Immobilier vous accompagne à Narbonne et dans l'Aude : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
    "mots": 687,
    "h1": "Agence immobilière à Narbonne",
@@ -186,19 +157,13 @@
    "images": 7,
    "liens": 79,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 75 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-nimes.html",
    "fichier": "agence-immobiliere-nimes.html",
    "indexable": true,
-   "titre": "Agence immobilière à Nîmes : vente, location, syndic | LOTIER Immobilier",
+   "titre": "Agence immobilière Nîmes : vente, location, syndic | LOTIER",
    "description": "Agence immobilière à Nîmes : vente, location, gestion locative et syndic de copropriété avec LOTIER Immobilier. Estimation de votre bien par un conseiller.",
    "mots": 655,
    "h1": "Agence immobilière à Nîmes",
@@ -206,19 +171,13 @@
    "images": 7,
    "liens": 79,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 72 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html",
    "fichier": "blog/assemblee-generale-copropriete-preparer.html",
    "indexable": true,
-   "titre": "Assemblée générale de copropriété : bien se préparer | Blog LOTIER Immobilier",
+   "titre": "Assemblée générale de copropriété : bien se préparer | LOTIER",
    "description": "Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.",
    "mots": 995,
    "h1": "Assemblée générale de copropriété : bien se préparer",
@@ -226,19 +185,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 77 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html",
    "fichier": "blog/charges-copropriete-appel-de-fonds.html",
    "indexable": true,
-   "titre": "Charges de copropriété : lire un appel de fonds | Blog LOTIER Immobilier",
+   "titre": "Charges de copropriété : lire un appel de fonds | LOTIER",
    "description": "Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.",
    "mots": 970,
    "h1": "Charges de copropriété : lire un appel de fonds",
@@ -246,19 +199,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 72 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html",
    "fichier": "blog/compromis-de-vente-points-de-vigilance.html",
    "indexable": true,
-   "titre": "Compromis de vente : ce qu'il faut vérifier avant de signer | Blog LOTIER Immobilier",
+   "titre": "Compromis de vente : que vérifier avant de signer ? | LOTIER",
    "description": "Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.",
    "mots": 1089,
    "h1": "Compromis de vente : ce qu'il faut vérifier avant de signer",
@@ -266,19 +213,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 84 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/depot-de-garantie-location.html",
    "fichier": "blog/depot-de-garantie-location.html",
    "indexable": true,
-   "titre": "Dépôt de garantie : montant, restitution, retenues | Blog LOTIER Immobilier",
+   "titre": "Dépôt de garantie : montant, restitution, retenues | LOTIER",
    "description": "Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.",
    "mots": 983,
    "h1": "Dépôt de garantie : montant, restitution, retenues",
@@ -286,19 +227,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 75 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html",
    "fichier": "blog/diagnostics-immobiliers-obligatoires-vente.html",
    "indexable": true,
-   "titre": "Les diagnostics immobiliers obligatoires pour vendre | Blog LOTIER Immobilier",
+   "titre": "Les diagnostics immobiliers obligatoires pour vendre | LOTIER",
    "description": "DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.",
    "mots": 1305,
    "h1": "Les diagnostics immobiliers obligatoires pour vendre",
@@ -306,19 +241,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 77 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/dossier-de-location-solide.html",
    "fichier": "blog/dossier-de-location-solide.html",
    "indexable": true,
-   "titre": "Constituer un dossier de location solide | Blog LOTIER Immobilier",
+   "titre": "Constituer un dossier de location solide | LOTIER",
    "description": "Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.",
    "mots": 947,
    "h1": "Constituer un dossier de location solide",
@@ -332,7 +261,7 @@
    "url": "https://lotier.immo/blog/dpe-classes-a-g-comprendre.html",
    "fichier": "blog/dpe-classes-a-g-comprendre.html",
    "indexable": true,
-   "titre": "DPE : comprendre les classes A à G | Blog LOTIER Immobilier",
+   "titre": "DPE : comprendre les classes A à G | LOTIER",
    "description": "Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.",
    "mots": 1000,
    "h1": "DPE : comprendre les classes A à G",
@@ -346,7 +275,7 @@
    "url": "https://lotier.immo/blog/fixer-le-bon-prix-estimation.html",
    "fichier": "blog/fixer-le-bon-prix-estimation.html",
    "indexable": true,
-   "titre": "Fixer le bon prix : pourquoi une estimation sérieuse change tout | Blog LOTIER Immobilier",
+   "titre": "Fixer le bon prix : l'estimation sérieuse change tout | LOTIER",
    "description": "Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.",
    "mots": 1055,
    "h1": "Fixer le bon prix : pourquoi une estimation sérieuse change tout",
@@ -354,19 +283,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 89 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/frais-de-notaire-comprendre.html",
    "fichier": "blog/frais-de-notaire-comprendre.html",
    "indexable": true,
-   "titre": "Frais de notaire : à quoi correspondent-ils vraiment ? | Blog LOTIER Immobilier",
+   "titre": "Frais de notaire : à quoi correspondent-ils vraiment ? | LOTIER",
    "description": "Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.",
    "mots": 1031,
    "h1": "Frais de notaire : à quoi correspondent-ils vraiment ?",
@@ -374,19 +297,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 79 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/home-staging-mieux-vendre.html",
    "fichier": "blog/home-staging-mieux-vendre.html",
    "indexable": true,
-   "titre": "Home staging : 8 gestes simples pour mieux vendre | Blog LOTIER Immobilier",
+   "titre": "Home staging : 8 gestes simples pour mieux vendre | LOTIER",
    "description": "Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.",
    "mots": 1068,
    "h1": "Home staging : 8 gestes simples pour mieux vendre",
@@ -394,19 +311,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 74 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/",
    "fichier": "blog/index.html",
    "indexable": true,
-   "titre": "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER Immobilier",
+   "titre": "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER",
    "description": "20 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.",
    "mots": 821,
    "h1": "Conseils et actualités de l'immobilier.",
@@ -414,19 +325,13 @@
    "images": 23,
    "liens": 102,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 74 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html",
    "fichier": "blog/loyers-impayes-reflexes-proprietaire.html",
    "indexable": true,
-   "titre": "Loyers impayés : les bons réflexes du propriétaire | Blog LOTIER Immobilier",
+   "titre": "Loyers impayés : les bons réflexes du propriétaire | LOTIER",
    "description": "Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.",
    "mots": 1022,
    "h1": "Loyers impayés : les bons réflexes du propriétaire",
@@ -434,19 +339,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 75 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/mandat-exclusif-ou-simple.html",
    "fichier": "blog/mandat-exclusif-ou-simple.html",
    "indexable": true,
-   "titre": "Mandat exclusif ou mandat simple : que choisir pour vendre ? | Blog LOTIER Immobilier",
+   "titre": "Mandat exclusif ou simple : que choisir pour vendre ? | LOTIER",
    "description": "Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.",
    "mots": 1020,
    "h1": "Mandat exclusif ou mandat simple : que choisir pour vendre ?",
@@ -454,19 +353,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 85 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/meuble-ou-vide-choisir-location.html",
    "fichier": "blog/meuble-ou-vide-choisir-location.html",
    "indexable": true,
-   "titre": "Louer son bien : meublé ou vide ? | Blog LOTIER Immobilier",
+   "titre": "Louer son bien : meublé ou vide ? | LOTIER",
    "description": "Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.",
    "mots": 1008,
    "h1": "Louer son bien : meublé ou vide ?",
@@ -480,7 +373,7 @@
    "url": "https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html",
    "fichier": "blog/premier-achat-erreurs-a-eviter.html",
    "indexable": true,
-   "titre": "Premier achat immobilier : 6 erreurs à éviter | Blog LOTIER Immobilier",
+   "titre": "Premier achat immobilier : 6 erreurs à éviter | LOTIER",
    "description": "Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.",
    "mots": 1028,
    "h1": "Premier achat immobilier : 6 erreurs à éviter",
@@ -488,19 +381,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 70 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html",
    "fichier": "blog/travaux-en-copropriete-qui-decide.html",
    "indexable": true,
-   "titre": "Travaux en copropriété : qui décide, qui paie ? | Blog LOTIER Immobilier",
+   "titre": "Travaux en copropriété : qui décide, qui paie ? | LOTIER",
    "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.",
    "mots": 1012,
    "h1": "Travaux en copropriété : qui décide, qui paie ?",
@@ -509,11 +396,6 @@
    "liens": 72,
    "markdown": true,
    "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 72 caractères (65 conseillés au maximum)."
-    },
     {
      "niveau": "avertissement",
      "code": "description-longue",
@@ -525,7 +407,7 @@
    "url": "https://lotier.immo/blog/visiter-un-appartement-checklist.html",
    "fichier": "blog/visiter-un-appartement-checklist.html",
    "indexable": true,
-   "titre": "Visiter un appartement : la check-list de l'acheteur | Blog LOTIER Immobilier",
+   "titre": "Visiter un appartement : la check-list de l'acheteur | LOTIER",
    "description": "Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.",
    "mots": 970,
    "h1": "Visiter un appartement : la check-list de l'acheteur",
@@ -533,19 +415,13 @@
    "images": 7,
    "liens": 72,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 77 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-beziers.html",
    "fichier": "blog/vivre-a-beziers.html",
    "indexable": true,
-   "titre": "Vivre à Béziers : centre ancien, canal et art de vivre | Blog LOTIER Immobilier",
+   "titre": "Vivre à Béziers : centre ancien, canal et art de vivre | LOTIER",
    "description": "Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.",
    "mots": 1009,
    "h1": "Vivre à Béziers : centre ancien, canal et art de vivre",
@@ -553,19 +429,13 @@
    "images": 7,
    "liens": 73,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 79 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-carcassonne.html",
    "fichier": "blog/vivre-a-carcassonne.html",
    "indexable": true,
-   "titre": "Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi | Blog LOTIER Immobilier",
+   "titre": "Vivre à Carcassonne : la Cité, la Bastide, le canal | LOTIER",
    "description": "Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.",
    "mots": 994,
    "h1": "Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi",
@@ -573,19 +443,13 @@
    "images": 7,
    "liens": 73,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 86 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-montpellier.html",
    "fichier": "blog/vivre-a-montpellier.html",
    "indexable": true,
-   "titre": "Vivre à Montpellier : du centre historique aux nouveaux quartiers | Blog LOTIER Immobilier",
+   "titre": "Vivre à Montpellier : du centre aux nouveaux quartiers | LOTIER",
    "description": "Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.",
    "mots": 983,
    "h1": "Vivre à Montpellier : du centre historique aux nouveaux quartiers",
@@ -593,19 +457,13 @@
    "images": 7,
    "liens": 73,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 90 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-nimes.html",
    "fichier": "blog/vivre-a-nimes.html",
    "indexable": true,
-   "titre": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois | Blog LOTIER Immobilier",
+   "titre": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois | LOTIER",
    "description": "Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.",
    "mots": 978,
    "h1": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois",
@@ -613,13 +471,7 @@
    "images": 7,
    "liens": 73,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 80 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/contact/",
@@ -653,7 +505,7 @@
    "url": "https://lotier.immo/",
    "fichier": "index.html",
    "indexable": true,
-   "titre": "LOTIER Immobilier | Agence immobilière à Béziers, Montpellier et Nîmes",
+   "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Estimez votre bien et parlez à un conseiller.",
    "mots": 1182,
    "h1": "Votre bien, notre métier.",
@@ -662,11 +514,6 @@
    "liens": 111,
    "markdown": true,
    "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 70 caractères (65 conseillés au maximum)."
-    },
     {
      "niveau": "avertissement",
      "code": "description-longue",
@@ -678,7 +525,7 @@
    "url": "https://lotier.immo/location/",
    "fichier": "location/index.html",
    "indexable": true,
-   "titre": "Gestion locative à Béziers, Montpellier, Nîmes | LOTIER Immobilier",
+   "titre": "Gestion locative à Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Location et gestion locative avec LOTIER Immobilier : mise en location, état des lieux, gestion à partir de 39,99 € TTC par mois, tarifs publiés.",
    "mots": 221,
    "h1": "Louer et gérer, l'esprit tranquille.",
@@ -686,13 +533,7 @@
    "images": 2,
    "liens": 63,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 66 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/lotier-rgpd/",
@@ -768,7 +609,7 @@
    "url": "https://lotier.immo/notre-service/",
    "fichier": "notre-service/index.html",
    "indexable": true,
-   "titre": "Notre service client : transparence et accompagnement | LOTIER Immobilier",
+   "titre": "Notre service client : transparence et accompagnement | LOTIER",
    "description": "Le service client LOTIER Immobilier : transparence des honoraires, professionnalisme, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.",
    "mots": 346,
    "h1": "Un service client avant tout.",
@@ -777,11 +618,6 @@
    "liens": 64,
    "markdown": true,
    "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 73 caractères (65 conseillés au maximum)."
-    },
     {
      "niveau": "avertissement",
      "code": "description-longue",
@@ -807,7 +643,7 @@
    "url": "https://lotier.immo/rejoindre/comparatif/",
    "fichier": "rejoindre/comparatif/index.html",
    "indexable": true,
-   "titre": "Réseau immobilier, agence classique ou LOTIER : comparatif et FAQ | LOTIER Immobilier",
+   "titre": "Réseau, agence classique ou LOTIER : le comparatif | LOTIER",
    "description": "Comparatif entre réseaux de mandataires, agence classique et modèle hybride LOTIER : commission de 75 %, redevance, quotas, accompagnement, avec FAQ.",
    "mots": 1406,
    "h1": "Réseau, agence classique ou LOTIER : quel modèle choisir ?",
@@ -815,19 +651,13 @@
    "images": 2,
    "liens": 64,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 85 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/rejoindre/",
    "fichier": "rejoindre/index.html",
    "indexable": true,
-   "titre": "Devenir agent immobilier indépendant : 75 % de commission | LOTIER Immobilier",
+   "titre": "Agent immobilier indépendant : 75 % de commission | LOTIER",
    "description": "Rejoignez LOTIER Immobilier comme agent commercial indépendant : 75 % de commission HT, aucune redevance de marque, aucun quota, formation ALUR et mentor dédié.",
    "mots": 970,
    "h1": "Gagnez 75 %. Ne perdez pas de temps !",
@@ -835,19 +665,13 @@
    "images": 2,
    "liens": 67,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 77 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/syndic/",
    "fichier": "syndic/index.html",
    "indexable": true,
-   "titre": "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER Immobilier",
+   "titre": "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Syndic de copropriété LOTIER Immobilier : assemblées, charges, travaux, espace client MyLotier et honoraires annuels publiés.",
    "mots": 155,
    "h1": "Votre copropriété, en toute clarté.",
@@ -855,19 +679,13 @@
    "images": 2,
    "liens": 64,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 71 caractères (65 conseillés au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/vente/",
    "fichier": "vente/index.html",
    "indexable": true,
-   "titre": "Vendre son bien à Béziers, Montpellier, Nîmes | LOTIER Immobilier",
+   "titre": "Vendre son bien à Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Vendre votre bien avec LOTIER Immobilier : estimation, mandat, visites, offre et signature, avec des honoraires de vente publiés et un conseiller dédié.",
    "mots": 241,
    "h1": "Vendre votre bien, sereinement.",

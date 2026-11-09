@@ -1,4 +1,4 @@
-# Dépôt de garantie : montant, restitution, retenues | Blog LOTIER Immobilier
+# Dépôt de garantie : montant, restitution, retenues | LOTIER
 
 > Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
 

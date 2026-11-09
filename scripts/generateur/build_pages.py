@@ -85,7 +85,7 @@ def article_page(a):
     if faqs:
         ld.append({"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq", "inLanguage": "fr-FR",
                    "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": an}} for q, an in faqs]})
-    title = f"{a['title']} | Blog LOTIER Immobilier"
+    title = f"{a.get('seo_title', a['title'])} | LOTIER"
     return shell(prefix, title, a["desc"], path, body, ld, f"assets/photos/{a['photo']}.jpg", og_type="article", banner=True, kind=KIND_BY_CAT[a["cat"]])
 
 def blog_index_page():
@@ -117,7 +117,7 @@ def blog_index_page():
          "blogPost": [{"@type": "BlogPosting", "headline": a["title"], "url": f"{SITE}/blog/{a['slug']}.html", "datePublished": a["date"].isoformat()} for a in ARTICLES_BY_DATE]},
         breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/index.html")]),
     ]
-    return shell(prefix, "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER Immobilier",
+    return shell(prefix, "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER",
                  f"{len(ARTICLES)} guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.",
                  "blog/index.html", body, ld, f"assets/photos/{first['photo']}.jpg", banner=True)
 
