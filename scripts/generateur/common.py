@@ -184,7 +184,7 @@ def contact_dialog(prefix):
       <label class="rappel-ok"><input type="checkbox" name="consentement"><span>{CONTACT_CONSENTEMENT}<a class="text-link" href="{prefix}lotier-rgpd/">notre politique de protection des données</a>).</span></label>
       <p class="rappel-err" role="alert" hidden></p>
       <div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg" data-rappel-envoi>Envoyer</button>
-        <a class="btn btn-ghost btn-lg" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></div>
+        <a class="btn btn-ghost btn-lg" href="tel:{PHONE_TEL}" data-rappel-appel>{PHONE_DISPLAY}</a></div>
     </form>
     <div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p data-rappel-merci></p>
       <button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>
@@ -561,6 +561,17 @@ def categorie_bien(a):
         if any(m in t for m in mots): return cle
     return "autre"
 
+def tel_agent(t):
+    """« 0651450663 » -> (« 06 51 45 06 63 », « +33651450663 »), ou None (numéro de l'agent d'une annonce)."""
+    d = re.sub(r"\D", "", t or "")
+    if d.startswith("33") and len(d) == 11: d = "0" + d[2:]
+    if len(d) != 10 or not d.startswith("0"): return None
+    return " ".join(d[i:i + 2] for i in range(0, 10, 2)), "+33" + d[1:]
+
+def attr_tel_agent(ag):
+    t = tel_agent((ag or {}).get("telephone"))
+    return f' data-agent-tel="{t[0]}" data-agent-tel-href="{t[1]}"' if t else ""
+
 def annonce_card(a, prefix):
     loc = a["type"] == "location"
     badge = '<span class="badge loc">LOCATION</span>' if loc else '<span class="badge">VENTE</span>'
@@ -570,13 +581,19 @@ def annonce_card(a, prefix):
     if a.get("surface"): bits.append(f"{a['surface']:g}".replace(".", ",") + " m\u00b2")
     if a.get("chambres"): bits.append(f"{a['chambres']} ch.")
     photo = (f'<img src="{prefix}{a["photo"]}" alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
+    lien = (prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'
+    ag = a.get("agent") or {}
+    prenom = " ".join("-".join(w.capitalize() for w in part.split("-")) for part in (ag.get("nom") or "").strip().split()).split(" ")[0]
+    rappel = (f'data-contact-open="rappel" data-ref="{e(a.get("reference") or "")}" data-titre="{e(title)}" '
+              f'data-url="{SITE}/annonces/{a["id"]}/" data-agent="{e(ag.get("email") or "")}" data-agent-prenom="{e(prenom)}"{attr_tel_agent(ag)}')
+    texte_lien = "Voir l'annonce" if a.get('description_html') is not None else "Nous contacter"
     return f'''
           <article class="card" data-tilt data-ann-type="{a['type']}" data-ann-ville="{e(a['ville'])}" data-ann-dep="{departement(a)}" data-ann-bien="{categorie_bien(a)}" data-ann-prix="{int(a['prix']) if a.get('prix') else ''}" data-ann-surf="{int(a['surface']) if a.get('surface') else ''}">
-            <div class="ph">{photo}{badge}</div>
+            <div class="ph"><a class="ph-link" href="{lien}" tabindex="-1" aria-label="{e(texte_lien)} : {e(title)}">{photo}{badge}</a></div>
             <div class="card-body">
               <span class="price">{_price(a)}</span>
               <h3 class="heading">{e(title)}</h3>
               <span class="muted small">{e(a['ville'])}{(' · ' + ' · '.join(bits)) if bits else ''}</span>
             </div>
-            <div class="card-actions"><a class="btn btn-navy btn-sm" href="{(prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'}">{"Voir l'annonce" if a.get('description_html') is not None else "Nous contacter"}</a><a class="text-link" href="{prefix}contact/">Être rappelé</a></div>
+            <div class="card-actions"><a class="btn btn-navy btn-sm" href="{lien}">{texte_lien}</a><a class="text-link" href="{prefix}contact/" {rappel}>Être rappelé</a></div>
           </article>'''

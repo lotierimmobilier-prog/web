@@ -897,6 +897,13 @@
       url: o.getAttribute('data-url') || '', agent: o.getAttribute('data-agent') || ''
     };
     var contact = mode === 'contact';
+    // Le bouton d'appel de la fenêtre porte le numéro de l'agent de l'annonce ; à défaut, celui de l'agence.
+    var appel = q('[data-rappel-appel]');
+    if (appel) {
+      var tAg = !contact && o.getAttribute('data-agent-tel'), hAg = o.getAttribute('data-agent-tel-href');
+      appel.textContent = tAg || TEL;
+      appel.setAttribute('href', 'tel:' + (tAg && hAg ? hAg : (dlg.getAttribute('data-phone') || '')));
+    }
     q('[data-rappel-titre]').textContent = contact ? 'Écrire à l’agence' : 'Être rappelé' + (prenom ? ' par ' + prenom : '');
     q('[data-rappel-intro]').textContent = contact
       ? 'Écrivez-nous : un conseiller vous répond rapidement.'

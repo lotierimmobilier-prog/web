@@ -10,7 +10,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
 ## Les autres biens de Elodie
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
 
  45 000 €
 
@@ -20,7 +20,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
 
  365 000 €
 
@@ -30,7 +30,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
 
  395 000 €
 
@@ -40,7 +40,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)
 
  320 000 €
 
@@ -52,7 +52,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
 ## Biens à proximité
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
 
  261 000 €
 
@@ -62,7 +62,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
 
  210 000 €
 
@@ -72,7 +72,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
 
  351 900 €
 

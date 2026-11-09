@@ -12,7 +12,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
 ## Les autres biens de Barbara
 
- LOCATION
+ [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
 
  450 € par mois
 
@@ -22,7 +22,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- LOCATION
+ [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
 
  660 € par mois
 
@@ -32,7 +32,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
 
@@ -42,7 +42,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -54,7 +54,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
 ## Biens à proximité
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
 
  399 900 €
 
@@ -64,7 +64,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 
@@ -74,7 +74,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
 
  45 000 €
 
