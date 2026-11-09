@@ -93,7 +93,7 @@ legal_page("mentions-legales", "Mentions légales", "Qui édite ce site, quelles
         <h2>Données personnelles</h2>
         <p>La SARL LOTIER est responsable du traitement des données personnelles collectées sur ce site. Les finalités, les durées de conservation et vos droits (accès, rectification, effacement, opposition, limitation, portabilité) sont détaillés dans notre <a class="text-link" href="../lotier-rgpd/">politique de confidentialité (RGPD)</a>. Pour exercer vos droits, écrivez à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>. Vous pouvez aussi saisir la CNIL (<a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>) si vous estimez que vos droits ne sont pas respectés.</p>
         <h2>Cookies</h2>
-        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page <a class="text-link" href="../cookies/">Cookies et traceurs</a>.</p>
+        <p>Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page <a class="text-link" href="../cookies/">Cookies et traceurs</a>.</p>
         <h2>Messagerie</h2>
         <p>Pour toute remarque sur le fonctionnement du site, écrivez à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>. Les messages transmis par internet peuvent être interceptés : leur confidentialité ne peut être garantie jusqu'à leur réception.</p>''',
   "Mentions légales de LOTIER Immobilier : éditeur, carte professionnelle, assurance, garantie financière, médiateur de la consommation et hébergement.", note=NOTE_REPRISE)
@@ -155,7 +155,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
             <tr><td>Syndic : convocations, procès-verbaux, appels de fonds, sinistres</td><td>Exécution du contrat de syndic</td></tr>
             <tr><td>Comptabilité, obligations fiscales, lutte contre le blanchiment et le financement du terrorisme</td><td>Obligation légale</td></tr>
             <tr><td>Communications commerciales, newsletters, propositions de biens</td><td>Votre consentement, retirable à tout moment</td></tr>
-            <tr><td>Sécurité du site, amélioration du service</td><td>Intérêt légitime</td></tr>
+            <tr><td>Sécurité du site, amélioration du service, statistiques de fréquentation (sans cookie)</td><td>Intérêt légitime</td></tr>
             <tr><td>Gestion des litiges et recouvrement</td><td>Intérêt légitime (défense de nos droits)</td></tr>
           </tbody>
         </table>
@@ -166,6 +166,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
           <li>les notaires, diagnostiqueurs, géomètres et autres professionnels intervenant dans votre dossier ;</li>
           <li>les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;</li>
           <li>notre hébergeur (OVH) et nos prestataires de maintenance informatique ;</li>
+          <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;</li>
           <li>un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;</li>
           <li>les autorités administratives ou judiciaires, sur demande légale.</li>
         </ul>
@@ -213,7 +214,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
         <h2 id="reclamation">Réclamation auprès de la CNIL</h2>
         <p>Nous vous invitons à nous contacter en premier lieu. En l'absence de réponse ou si elle ne vous satisfait pas, vous pouvez saisir la Commission nationale de l'informatique et des libertés (CNIL), autorité de contrôle française : 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, téléphone 01 53 73 22 22, <a class="text-link" href="https://www.cnil.fr/fr/plaintes" rel="noopener">cnil.fr/fr/plaintes</a>.</p>
         <h2 id="cookies">Cookies</h2>
-        <p>Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose ni cookie publicitaire, ni cookie de mesure d'audience, ni cookie de réseau social. La police de caractères est hébergée sur le site : aucune donnée n'est transmise à un service tiers pour l'afficher.</p>
+        <p>Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose ni cookie publicitaire, ni cookie de réseau social. La mesure d'audience (Umami) fonctionne sans cookie. La police de caractères est hébergée sur le site : aucune donnée n'est transmise à un service tiers pour l'afficher.</p>
         <p>Si de tels cookies étaient ajoutés, vous en seriez informé et votre consentement serait demandé avant tout dépôt, avec un refus aussi simple que l'acceptation et une durée de validité de 13 mois au maximum. Vous pouvez aussi configurer votre navigateur pour refuser ou supprimer les cookies. Le détail figure sur la page <a class="text-link" href="../cookies/">Cookies et traceurs</a> ; voir aussi les conseils de la <a class="text-link" href="https://www.cnil.fr/fr/cookies-et-traceurs-comment-les-maitriser" rel="noopener">CNIL</a>.</p>
         <p>Dernière mise à jour : novembre 2026. Cette politique peut évoluer ; la version en ligne fait foi.</p>''',
   "Politique de confidentialité de LOTIER Immobilier : données traitées, finalités, durées de conservation, droits RGPD, cookies et réclamation.", note="")
@@ -265,9 +266,11 @@ legal_page("nos-honoraires", "Nos honoraires", "Le barème des honoraires de l'a
 # ---------- Cookies et traceurs ----------
 legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votre appareil, et comment le gérer.", "Cookies et traceurs", f'''
         <h2>Ce que le site enregistre</h2>
-        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.</p>
-        <h2>Si des outils de mesure ou de contenu externe sont ajoutés</h2>
-        <p>{PH_TXT} : liste des éventuels traceurs (statistiques, cartes, vidéos, réseaux sociaux), leur finalité, leur durée de conservation et le bandeau de recueil du consentement à mettre en place avant leur activation.</p>
+        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. La mesure d'audience est faite sans cookie (voir ci-dessous). Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.</p>
+        <h2>Mesure d'audience</h2>
+        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Lieu d'hébergement des statistiques : {PH_TXT}.</p>
+        <h2>Si d'autres outils de contenu externe sont ajoutés</h2>
+        <p>Cartes, vidéos ou réseaux sociaux ne sont pas utilisés à ce jour. S'ils l'étaient, votre consentement serait demandé avant tout dépôt.</p>
         <h2>Gérer vos choix</h2>
         <p>Votre choix du bandeau cookies est mémorisé sur votre appareil. <button type="button" class="btn btn-ghost" data-cookie-open>Modifier mon choix</button></p>
         <p>Vous pouvez à tout moment supprimer les données enregistrées par ce site depuis les réglages de votre navigateur (rubrique « Confidentialité » ou « Cookies et données de sites »).</p>

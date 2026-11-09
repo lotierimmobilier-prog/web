@@ -120,7 +120,7 @@ La SARL LOTIER est responsable du traitement des données personnelles collecté
 
 ## Cookies
 
-Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page [Cookies et traceurs](https://lotier.immo/cookies/).
+Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page [Cookies et traceurs](https://lotier.immo/cookies/).
 
 ## Messagerie
 
