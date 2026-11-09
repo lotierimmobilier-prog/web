@@ -2,217 +2,217 @@
 <!-- À compléter à chaque nouvelle page : annonces, articles, villes. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lotier-immobilier.com/</loc>
+    <loc>https://lotier.immo/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-beziers.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-beziers.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-montpellier.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-montpellier.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-nimes.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-nimes.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-carcassonne.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-carcassonne.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-narbonne.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-narbonne.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-avignon.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-avignon.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/agence-immobiliere-agde.html</loc>
+    <loc>https://lotier.immo/agence-immobiliere-agde.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/index.html</loc>
+    <loc>https://lotier.immo/blog/index.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/rejoindre/</loc>
+    <loc>https://lotier.immo/rejoindre/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/rejoindre/comparatif/</loc>
+    <loc>https://lotier.immo/rejoindre/comparatif/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/notre-service/</loc>
+    <loc>https://lotier.immo/notre-service/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/vente/</loc>
+    <loc>https://lotier.immo/vente/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/location/</loc>
+    <loc>https://lotier.immo/location/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/syndic/</loc>
+    <loc>https://lotier.immo/syndic/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/plan-du-site.html</loc>
+    <loc>https://lotier.immo/plan-du-site.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/home-staging-mieux-vendre.html</loc>
+    <loc>https://lotier.immo/blog/home-staging-mieux-vendre.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/dossier-de-location-solide.html</loc>
+    <loc>https://lotier.immo/blog/dossier-de-location-solide.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/visiter-un-appartement-checklist.html</loc>
+    <loc>https://lotier.immo/blog/visiter-un-appartement-checklist.html</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/premier-achat-erreurs-a-eviter.html</loc>
+    <loc>https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/fixer-le-bon-prix-estimation.html</loc>
+    <loc>https://lotier.immo/blog/fixer-le-bon-prix-estimation.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/assemblee-generale-copropriete-preparer.html</loc>
+    <loc>https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/depot-de-garantie-location.html</loc>
+    <loc>https://lotier.immo/blog/depot-de-garantie-location.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/frais-de-notaire-comprendre.html</loc>
+    <loc>https://lotier.immo/blog/frais-de-notaire-comprendre.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/vivre-a-carcassonne.html</loc>
+    <loc>https://lotier.immo/blog/vivre-a-carcassonne.html</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/charges-copropriete-appel-de-fonds.html</loc>
+    <loc>https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/vivre-a-montpellier.html</loc>
+    <loc>https://lotier.immo/blog/vivre-a-montpellier.html</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/loyers-impayes-reflexes-proprietaire.html</loc>
+    <loc>https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/vivre-a-nimes.html</loc>
+    <loc>https://lotier.immo/blog/vivre-a-nimes.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/travaux-en-copropriete-qui-decide.html</loc>
+    <loc>https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html</loc>
     <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/dpe-classes-a-g-comprendre.html</loc>
+    <loc>https://lotier.immo/blog/dpe-classes-a-g-comprendre.html</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/meuble-ou-vide-choisir-location.html</loc>
+    <loc>https://lotier.immo/blog/meuble-ou-vide-choisir-location.html</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/mandat-exclusif-ou-simple.html</loc>
+    <loc>https://lotier.immo/blog/mandat-exclusif-ou-simple.html</loc>
     <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/diagnostics-immobiliers-obligatoires-vente.html</loc>
+    <loc>https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html</loc>
     <lastmod>2026-01-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/compromis-de-vente-points-de-vigilance.html</loc>
+    <loc>https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lotier-immobilier.com/blog/vivre-a-beziers.html</loc>
+    <loc>https://lotier.immo/blog/vivre-a-beziers.html</loc>
     <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
