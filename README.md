@@ -14,7 +14,7 @@ Site vitrine statique (HTML, CSS, JavaScript), sans étape de compilation. Direc
 - `assets/photos/` : photos d'illustration libres de droits (voir `CREDITS.md`)
 - `robots.txt`, `sitemap.xml`, `llms.txt` : référencement et assistants IA
 
-Les pages de ville et de blog sont générées à partir de gabarits ; pour les modifier à la main, éditer directement les fichiers HTML.
+Les pages sont générées par les scripts de `scripts/generateur/` (voir `LISEZ-MOI.md` : `python3 scripts/generateur/build_all.py`). Modifier le script, puis régénérer, plutôt que les fichiers HTML.
 
 Mise en ligne : copier le contenu du dossier à la racine de l'hébergement (OVH).
 
