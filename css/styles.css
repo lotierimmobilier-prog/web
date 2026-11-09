@@ -1043,3 +1043,8 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 }
 @media (max-width: 420px) { .ann-keys-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ann-keys-grid li { grid-template-columns: 1fr; grid-template-areas: "i" "v" "l"; row-gap: 2px; } }
 .ann-prix-grid strong.long { font-size: 15px; line-height: 1.35; font-weight: 600; }
+
+/* Fiche d'annonce : la galerie remonte, sans grand vide sous le titre */
+.page-hero.ann-hero { padding-block: clamp(20px, 3vw, 36px) 0; }
+.page-hero.ann-hero .container { gap: 12px; }
+.section.ann-detail { padding-top: clamp(16px, 2.5vw, 28px); }
