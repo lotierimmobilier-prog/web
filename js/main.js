@@ -593,3 +593,38 @@
     }
   });
 })();
+
+/* Page Nos annonces : filtres par type et par ville (le HTML contient déjà toutes les annonces). */
+(function () {
+  var root = document.querySelector('[data-annonces]');
+  if (!root) return;
+  var cards = root.querySelectorAll('[data-ann-grid] .card'), city = root.querySelector('[data-ann-city]');
+  var count = root.querySelector('[data-ann-count]'), empty = root.querySelector('[data-ann-empty]'), type = '';
+  function apply() {
+    var n = 0;
+    cards.forEach(function (c) {
+      var ok = (!type || c.getAttribute('data-ann-type') === type) && (!city.value || c.getAttribute('data-ann-ville') === city.value);
+      c.hidden = !ok; if (ok) n++;
+    });
+    count.textContent = n + (n > 1 ? ' annonces' : ' annonce'); empty.hidden = n > 0;
+  }
+  root.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-ann-type-btn]'); if (!b) return;
+    type = b.getAttribute('data-ann-type-btn');
+    root.querySelectorAll('[data-ann-type-btn]').forEach(function (x) { var on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    apply();
+  });
+  city.addEventListener('change', apply);
+})();
+
+/* Fiche d'annonce : changer la photo principale en touchant une miniature. */
+(function () {
+  var g = document.querySelector('[data-ann-gallery]');
+  if (!g) return;
+  var main = g.querySelector('[data-ann-main]');
+  g.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-ann-photo]'); if (!b || !main) return;
+    main.src = b.getAttribute('data-ann-photo');
+    g.querySelectorAll('.ann-thumb').forEach(function (x) { x.classList.toggle('is-on', x === b); });
+  });
+})();

@@ -253,7 +253,7 @@ def header(prefix, home=False, cta=None):
         <a href="{prefix}vente/">Vente</a>
         <a href="{prefix}location/">Location</a>
         <a href="{prefix}syndic/">Syndic</a>
-        <a href="{a("#annonces")}">Annonces</a>
+        <a href="{prefix}nos-annonces/">Annonces</a>
         <a href="{a("#villes")}">Villes</a>
         <a href="{a("#conseils")}">Conseils</a>
         <a href="{blog_index(prefix)}">Blog</a>
@@ -322,7 +322,7 @@ def footer(prefix, home=False, cta=None):
           <a href="{prefix}nos-agents/">Nos agents</a>
           <button type="button" class="foot-link" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">Trouver une agence</button>
           <a href="{a("#estimer")}">Estimer mon bien</a>
-          <a href="{a("#annonces")}">Nos annonces</a>
+          <a href="{prefix}nos-annonces/">Nos annonces</a>
           <a href="{blog_index(prefix)}">Actualités et conseils</a>
           <a href="{a("#conseils")}">Questions fréquentes</a>
           <a href="{prefix}rejoindre/">Devenir agent</a>
@@ -437,4 +437,48 @@ def card_article(prefix, a, cls="blog-card"):
               <h3><a href="{art_url(prefix, a)}">{e(a["title"])}</a></h3>
               <p>{e(a["desc"])}</p>
             </div>
+          </article>'''
+
+
+# ---------- Annonces (importées par scripts/scrape_annonces.py) ----------
+def load_annonces():
+    p = f"{ROOT}/data/annonces.json"
+    if not os.path.exists(p): return []
+    return json.load(open(p, encoding="utf-8")).get("annonces", [])
+
+def _nice_title(a):
+    t = a["titre"].strip()
+    letters = [c for c in t if c.isalpha()]
+    if letters and sum(c.isupper() for c in letters) / len(letters) > 0.6:  # titres en capitales : on adoucit
+        t = t.lower().capitalize()
+        for w in sorted({a["ville"], "Béziers", "Narbonne", "Nîmes", "Montpellier", "Carcassonne", "Capendu", "Limoux", "Agde"}, key=len, reverse=True):
+            if w: t = re.sub(re.escape(w.lower()), w, t, flags=re.I)
+        t = re.sub(r"\b(boulevard|rue|avenue|place|chemin|route|impasse|all\u00e9e|quai|cours)( (?:de la |de l'|du |des |de |d')?)([a-z\u00e0-\u00ff])", lambda m: m.group(1) + m.group(2) + m.group(3).upper(), t)
+        t = re.sub(r"(\bde |\bdu |\bd')(gen\u00e8ve|libert\u00e9)", lambda m: m.group(1) + m.group(2).capitalize(), t)
+        t = re.sub(r"\bt(\d)\b", lambda m: "T" + m.group(1), t)
+    return t
+
+def _price(a):
+    if a.get("prix") is None or (a["type"] == "vente" and a["prix"] < 1000): return "Prix sur demande"  # prix de vente invraisemblable : on n'affiche pas
+    n = f"{a['prix']:,.0f}".replace(",", "\u202f")
+    return f"{n}\u00a0\u20ac" + ("\u00a0par mois" if a["type"] == "location" else "")
+
+def annonce_card(a, prefix):
+    loc = a["type"] == "location"
+    badge = '<span class="badge loc">LOCATION</span>' if loc else '<span class="badge">VENTE</span>'
+    extra = " ".join(f'<span class="badge xtra">{e(b)}</span>' for b in a.get("badges", []) if b)
+    title = _nice_title(a)
+    bits = []
+    if a.get("surface"): bits.append(f"{a['surface']:g}".replace(".", ",") + " m\u00b2")
+    if a.get("chambres"): bits.append(f"{a['chambres']} ch.")
+    photo = (f'<img src="{prefix}{a["photo"]}" alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
+    return f'''
+          <article class="card" data-tilt data-ann-type="{a['type']}" data-ann-ville="{e(a['ville'])}">
+            <div class="ph">{photo}{badge}</div>
+            <div class="card-body">
+              <span class="price">{_price(a)}</span>
+              <h3 class="heading">{e(title)}</h3>
+              <span class="muted small">{e(a['ville'])}{(' · ' + ' · '.join(bits)) if bits else ''}</span>
+            </div>
+            <div class="card-actions"><a class="btn btn-navy btn-sm" href="{(prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'}">{"Voir l'annonce" if a.get('description_html') is not None else "Nous contacter"}</a><a class="text-link" href="{prefix}contact/">Être rappelé</a></div>
           </article>'''

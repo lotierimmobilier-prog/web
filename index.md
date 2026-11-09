@@ -48,45 +48,85 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  VENTE
 
- [PRIX] €
+ 261 000 €
 
-### [TYPE DE BIEN] · [VILLE]
+### Investissement Nîmes Murs commerciaux + studio loué 111
 
- [SURFACE] m² · [PIÈCES] pièces
+ Nîmes · 111,36 m²
 
- Voir le bienÊtre rappelé
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 174 000 €
+
+### À vendre maison de village d’environ 190 m2 avec extérieur
+
+ Villeneuve-lès-Béziers · 191 m² · 4 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ Prix sur demande
+
+### Local commercial boulevard de Genève
+
+ Béziers · 77 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 76 000 €
+
+### À vendre appartement T3 lumineux secteur gare / maréchal
+
+ Béziers · 53 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 164 300 €
+
+### ALES maison des années 60 de 90 m2 avec jardin et parking 4
+
+ Alès · 89 m² · 4 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
- [LOYER] € par mois
+ 650 € par mois
 
-### [TYPE DE BIEN] · [VILLE]
+### Maison de village rénovée avec climatisation louée meublée
 
- [SURFACE] m² · [PIÈCES] pièces
+ Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
- Voir le bienÊtre rappelé
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ LOCATION
 
- [PRIX] €
+ 465 € par mois
 
-### [TYPE DE BIEN] · [VILLE]
+### Studio Spacieux au Centre de Limoux
 
- [SURFACE] m² · [PIÈCES] pièces
+ Limoux · 68 m²
 
- Voir le bienÊtre rappelé
+ [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/)[Être rappelé](https://lotier.immo/contact/)
 
- VENTE
+ LOCATION
 
- [PRIX] €
+ 210 € par mois
 
-### [TYPE DE BIEN] · [VILLE]
+### À louer local commercial avec mezzanine entre Béziers et
 
- [SURFACE] m² · [PIÈCES] pièces
+ Béziers · 20 m²
 
- Voir le bienÊtre rappelé
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
 
- Voir toutes les annonces
+ [Voir toutes les annonces ](https://lotier.immo/nos-annonces/)
 
 ## Combien vaut votre bien ?
 
