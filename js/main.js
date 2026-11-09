@@ -143,8 +143,11 @@
         if (!/^https?:$/.test(x.protocol)) return;
         var im = document.createElement('img'); im.src = x.href; im.alt = ''; im.width = 40; im.height = 40;
         box.textContent = ''; box.appendChild(im); box.hidden = false;
+        var fi = chat.querySelector('.chat-fab-ico img'); if (fi) { fi.src = x.href; }   // même image sur le bouton
       } catch (e) { /* image d'Auguste indisponible : l'en-tête reste sans image */ }
     }
+    // L'icône d'Auguste est celle choisie dans Collab (réglage du chatbot) : on la lit au chargement ; sans réponse, le « L » du logo reste.
+    if (API) fetch(API + '/avatar').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (d && d.logoUrl) setAvatar(d.logoUrl); }).catch(function () { /* Collab injoignable : le « L » reste */ });
     function openSession() {
       if (token) return Promise.resolve({ token: token });
       if (offline) return Promise.resolve(null);
