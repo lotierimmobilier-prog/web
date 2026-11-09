@@ -706,6 +706,7 @@
     var b = ev.target.closest('[data-gal-prev]'); if (b) { show(i - 1); return; }
     b = ev.target.closest('[data-gal-next]'); if (b) { show(i + 1); return; }
     b = ev.target.closest('.ann-thumb'); if (b) { show(+b.getAttribute('data-gal-i')); return; }
+    b = ev.target.closest('[data-gal-goto]'); if (b) { show(+b.getAttribute('data-gal-goto'), true); openBox(); return; }
     if (ev.target.closest('[data-gal-close]')) { if (box.close) box.close(); else box.removeAttribute('open'); return; }
     if (ev.target.closest('[data-gal-open]') || ev.target === main) { openBox(); return; }
     if (box && ev.target === box) { if (box.close) box.close(); else box.removeAttribute('open'); }

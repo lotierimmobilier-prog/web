@@ -2,6 +2,7 @@
 """Page « Nos annonces » : toutes les annonces de data/annonces.json, avec filtres (vente/location, ville)."""
 import os, json
 from common import *
+import fiche_ui as F
 from common import _nice_title, _price
 prefix = "../"
 
@@ -115,7 +116,7 @@ def _echelle(kind, lettre, valeur, unite):
         lignes += f'<li class="dpe-row l-{L.lower()}{" is-on" if on else ""}"><span class="dpe-pt">{val}</span><span class="dpe-bar">{L}</span></li>'
     return f'<ol class="dpe-scale {kind}" aria-hidden="true">{lignes}</ol>'
 
-def energie_bloc(a):
+def energie_bloc(a, titre=True):
     en = a.get("energie") or {}
     dpe, ges = en.get("dpe"), en.get("ges")
     if not dpe and not ges: return ""
@@ -136,7 +137,8 @@ def energie_bloc(a):
     if en.get("prix_energies"):
         note += f"<p>Prix moyens des énergies indexés au {e(en['prix_energies'])} (abonnement compris).</p>"
     note += '<p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : <a class="text-link" href="https://www.georisques.gouv.fr" target="_blank" rel="noopener noreferrer">www.georisques.gouv.fr</a>.</p>'
-    return (f'<div class="glass ann-bloc ann-diag"><h2>Diagnostic énergétique du bien</h2><p class="sr-only">{e(" ; ".join(resume))}.</p>'
+    tt = '<h2>Diagnostic énergétique du bien</h2>' if titre else ''
+    return (f'<div class="ann-diag-in">{tt}<p class="sr-only">{e(" ; ".join(resume))}.</p>'
             f'<div class="dpe-grid">{parts}</div><div class="ann-note">{note}</div></div>')
 
 def mentions_bloc(mentions, p2):
@@ -152,11 +154,15 @@ def galerie(photos, title, loc, p2):
     fleches = (f'<button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente">{LEFT}</button>'
                f'<button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante">{ARROW}</button>') if n > 1 else ""
     compteur = f'<span class="ann-count" data-gal-count aria-live="polite">1 / {n}</span>' if n > 1 else ""
-    zoom = '<button type="button" class="ann-zoom" data-gal-open aria-label="Agrandir la photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>'
+    zoom = (f'<button type="button" class="ann-zoom" data-gal-open aria-label="Agrandir la photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><span class="ann-zoom-txt">Voir les {n} photos</span></button>' if n > 1 else
+            '<button type="button" class="ann-zoom" data-gal-open aria-label="Agrandir la photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>')
+    tuiles = F.vignettes(photos, title, p2)
     boite = (f'<dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer">{CLOSE}</button>'
              f'<img alt="" data-gal-big>{fleches}{compteur.replace("data-gal-count", "data-gal-count2")}</dialog>')
-    return (f'<div class="ann-gallery" data-gal data-ann-gallery="">\n'
+    return (f'<div class="ann-gallery{" has-tiles" if tuiles else ""}" data-gal data-ann-gallery="">\n'
+            f'          <div class="ann-mosaic">\n'
             f'          <div class="ann-main" data-gal-stage tabindex="0" aria-roledescription="carrousel" aria-label="Photos du bien ({n})"><img src="{p2}{photos[0]}" alt="{e(title)}" width="1000" height="750" data-ann-main fetchpriority="high"><span class="badge{" loc" if loc else ""}">{"LOCATION" if loc else "VENTE"}</span>{fleches}{compteur}{zoom}</div>\n'
+            f'          {tuiles}\n          </div>\n'
             f'          <div class="ann-thumbs">{thumbs}</div>\n          {boite}\n        </div>')
 
 
@@ -210,13 +216,15 @@ def detail_page(a, tous=()):
     if a.get("chambres"): facts.append(f"{a['chambres']} chambre" + ("s" if a["chambres"] > 1 else ""))
     if a.get("sdb"): facts.append(f"{a['sdb']} salle" + ("s" if a["sdb"] > 1 else "") + " d'eau/bain")
     facts_html = "".join(f"<li>{e(f)}</li>" for f in facts)
-    blocs = "".join('<div class="glass ann-bloc"><h2>' + e(b["titre"]) + "</h2><dl>" + "".join(f"<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>" for k, v in b["lignes"]) + "</dl></div>" for b in a.get("blocs", []))
+    vals = F.valeurs(a.get("blocs"))
     desc, mentions = _separe_mentions(a.get("description_html") or "")
-    diag = energie_bloc(a)
+    diag = F.bilan_energie(a, energie_bloc(a, titre=False))
     legal = mentions_bloc(mentions, p2)
     ag = a.get("agent") or {}
     tel = _tel(ag.get("telephone"))
-    notes = "".join(f"<li>{e(_eur(m))}</li>" for m in (a.get("mentions_prix") or []))
+    notes_l = [_eur(m) for m in (a.get("mentions_prix") or [])]
+    notes = "".join(f"<li>{e(m)}</li>" for m in notes_l)
+    cles = F.cles_bloc(a, vals); atouts = F.atouts_bloc(vals); carac = F.caracteristiques_bloc(a.get("blocs")); prix_det = F.prix_bloc(a, vals, price, notes_l)
     ref = f'<p class="ann-ref muted small">Réf. {e(a["reference"])}</p>' if a.get("reference") else ""
     if ag.get("nom"):
         prenom = _nom(ag["nom"]).split(" ")[0]
@@ -240,9 +248,13 @@ def detail_page(a, tous=()):
       <div class="ann-layout">
         <div class="ann-left">
           {gallery}
-          <div class="glass ann-desc"><h2>Description</h2>{desc if desc else '<p class="muted">Contactez-nous pour recevoir la description complète de ce bien.</p>'}</div>
-          {blocs}
+          {cles}
+          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2>{desc if desc else '<p class="muted">Contactez-nous pour recevoir la description complète de ce bien.</p>'}</section>
+          {atouts}
+          {carac}
+          {prix_det}
           {diag}
+          {F.partenaire_bloc()}
           {legal}
         </div>
         <aside class="ann-side">
