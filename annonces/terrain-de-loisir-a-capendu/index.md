@@ -8,6 +8,11 @@ Source : https://lotier.immo/annonces/terrain-de-loisir-a-capendu/
 
  VENTE
 
+## Informations clés
+
+- **1457 m²**Surface
+- **1457 m²**Terrain
+
 ## Description
 
 Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
@@ -15,6 +20,8 @@ Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est s
 – Annonce rédigée et publiée par un Agent Mandataire –
 
 ## Caractéristiques
+
+### Caractéristiques
 
 **Type de bien**
 Terrain
@@ -25,26 +32,21 @@ Terrain
 **Terrain**
 1457 m²
 
-## Équipements et confort
+### Équipements et confort
 
 **Ascenseur**
 Non
 
-## Informations financières
+## Détail du prix
 
-**Prix FAI**
-25 000 €
+- Prix **25 000 €***Frais d'agence inclus*
+- Honoraires à la charge de **Vendeur**
 
-**Charge honoraires**
-Vendeur
+ Lien partenaire
 
-## Situation
+## Un nouveau logement, de nouveaux abonnements ?
 
-**Ville**
-Capendu
-
-**Pays**
-France
+Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie, internet ou l’assurance habitation, avec notre partenaire Papernest. Service gratuit, sans engagement de votre part envers LOTIER Immobilier. [Comparer les offres (nouvelle fenêtre, site partenaire Papernest) ](https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7&y=1bd41d4a-598b-4237-a49f-03d0eaaaaaaa&destination=intro-call-or-app__generic&user.campaign=app_link)
 
 ## Mentions légales
 
