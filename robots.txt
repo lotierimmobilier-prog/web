@@ -33,4 +33,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://lotier-immobilier.com/sitemap.xml
+Sitemap: https://lotier.immo/sitemap.xml

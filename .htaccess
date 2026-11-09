@@ -13,13 +13,17 @@ DirectoryIndex index.html
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   # Ancien site de recrutement : le sous-domaine renvoie vers la page /rejoindre/ (si le sous-domaine pointe vers ce dossier)
   RewriteCond %{HTTP_HOST} ^rejoindre\.lotier-immobilier\.com$ [NC]
-  RewriteRule ^ https://lotier-immobilier.com/rejoindre/ [L,R=301]
+  RewriteRule ^ https://lotier.immo/rejoindre/ [L,R=301]
   # Adresse sans « www » (à adapter si le domaine canonique est avec www)
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
   # /index.html -> /
   RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
   RewriteRule ^index\.html$ / [L,R=301]
+
+  # Dossiers et fichiers de travail du dépôt : jamais servis au public (le site est déployé depuis GitHub)
+  RewriteRule ^(v2|audit-lotier|mise-en-ligne|scripts|\.claude|\.git|node_modules)(/|$) - [R=404,L]
+  RewriteRule ^(README\.md|CLAUDE\.md|\.gitignore)$ - [R=404,L]
 
   # Anciennes adresses du site WordPress : redirections permanentes vers les nouvelles pages
   # (liste établie à partir du plan du site de l'ancien site ; à tester après la mise en ligne)
