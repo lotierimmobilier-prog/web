@@ -425,10 +425,10 @@
       b.addEventListener('pointerenter', function () { pmanual(+b.dataset.k); });
       b.addEventListener('click', function () { pmanual(+b.dataset.k); });
     });
-    var phit = function (e) { var r = isoBox.getBoundingClientRect(), k = pctl ? pctl.floorAt((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height) : -1; if (k >= 0) pmanual(k); };
+    var phit = function (e) { var r = isoBox.querySelector('.pstage').getBoundingClientRect(), k = pctl ? pctl.floorAt((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height) : -1; if (k >= 0) pmanual(k); };
     isoBox.addEventListener('pointermove', phit); isoBox.addEventListener('click', phit);
     pset(2);
-    photoInit(isoBox, function (ctl) {
+    photoInit(isoBox.querySelector('.pstage'), function (ctl) {
       pctl = ctl; pset(pcur);
       if (!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
         var seq = [2, 3, 4, 0, 1], n = 0, tm = setInterval(function () { if (pstop) { clearInterval(tm); return; } n = (n + 1) % 5; pset(seq[n]); }, 4200);

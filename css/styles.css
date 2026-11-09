@@ -161,10 +161,12 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .fl:focus-visible .lf { stroke: #0f2744; stroke-width: 2; }
 .lit { animation: litw 3.5s ease-in-out infinite alternate; }
 @keyframes litw { from { opacity: 0.55; } to { opacity: 1; } }
-.iso-photo { position: relative; line-height: 0; border-radius: 0; cursor: pointer;
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent), linear-gradient(to bottom, transparent, #000 5%, #000 95%, transparent); -webkit-mask-composite: source-in;
-  mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent), linear-gradient(to bottom, transparent, #000 5%, #000 95%, transparent); mask-composite: intersect; }
-.iso-photo img { display: block; width: 100%; height: auto; }
+.iso-photo { position: relative; line-height: 0; cursor: pointer; aspect-ratio: 1; width: 86%; max-width: 600px; margin-right: auto; }
+.hero:has(.iso-photo)::before { display: none; }
+.iso-photo::after { content: ""; position: absolute; inset: 0; background: url(../assets/croix-occitane-contour.svg) center / contain no-repeat; pointer-events: none; }
+.iso-photo .pcross { position: absolute; inset: 0; overflow: hidden; -webkit-mask: url(../assets/croix-occitane.svg) center / contain no-repeat; mask: url(../assets/croix-occitane.svg) center / contain no-repeat; }
+.iso-photo .pstage { position: absolute; top: 0; height: 100%; aspect-ratio: 1100 / 768; left: -27%; }
+.iso-photo img { display: block; width: 100%; height: 100%; }
 .iso-photo .pw { position: absolute; opacity: 0; transition: opacity 1.1s ease; pointer-events: none; }
 .iso-photo .pw canvas { display: block; width: 100%; height: 100%; }
 .iso-photo .pw.on { opacity: 1; } .iso-photo .pw.amb { opacity: 0.55; }
@@ -175,6 +177,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .elev button[aria-pressed="true"] { background: var(--navy); color: #fff; transform: translateX(-8px); }
 .elev button[aria-pressed="true"] b { background: #ffd98a; color: var(--navy); }
 @media (max-width: 900px) {
+  .iso-photo { width: min(100%, 460px); margin-inline: auto; }
   .hero-grid { grid-template-columns: 1fr; }
   .elev { position: static; transform: none; display: flex; flex-wrap: wrap; margin-top: 8px; }
   .elev button[aria-pressed="true"] { transform: none; }
