@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
 
 **660 € par mois** · Capendu · 66 m²
 
- LOCATION
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ LOCATION 1 / 4
 
 ---
 

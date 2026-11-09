@@ -12,8 +12,6 @@ Source : https://lotier.immo/annonces/terrain-de-loisir-a-capendu/
 
 Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
 
-Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-
 – Annonce rédigée et publiée par un Agent Mandataire –
 
 ## Caractéristiques
@@ -48,6 +46,12 @@ Capendu
 **Pays**
 France
 
+## Mentions légales
+
+- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
  25 000 €
 
 - 1457 m²

@@ -6,18 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-im
 
 **357 000 €** · Béziers · 185 m² · 5 chambres · 4 salles d'eau/bain
 
- VENTE
-
- 357 000 €
-
-- 185 m²
-- 5 chambres
-- 4 salles d'eau/bain
-
- [Être rappelé ](https://lotier.immo/contact/)
- [04 67 11 28 31](tel:+33467112831)
-
-Annonce proposée par LOTIER Immobilier.
+ VENTE 1 / 3
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 

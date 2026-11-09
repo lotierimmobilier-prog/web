@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/
 
 **110 000 €** · Floure · 3000 m²
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

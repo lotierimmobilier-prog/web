@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitati
 
 **22 000 €** · Barbaira · 1400 m²
 
- VENTE
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ VENTE 1 / 4
 
 ---
 

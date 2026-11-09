@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-
 
 **249 900 €** · Nîmes · 64,1 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ VENTE 1 / 4
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-resi
 
 **490 € par mois** · Béziers · 35,86 m² · 1 chambre · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 6
 
 ---
 

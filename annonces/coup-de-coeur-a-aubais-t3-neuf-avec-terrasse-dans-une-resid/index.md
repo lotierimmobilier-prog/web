@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terras
 
 **299 000 €** · Aubais · 69 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ VENTE 1 / 4
 
 ---
 

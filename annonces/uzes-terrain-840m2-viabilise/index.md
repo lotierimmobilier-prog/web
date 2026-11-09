@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/
 
 **214 000 €** · Uzès · 840 m²
 
- VENTE
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ VENTE 1 / 4
 
 ---
 

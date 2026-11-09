@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
 **415 € par mois** · Nîmes · 14,99 m² · 1 salle d'eau/bain
 
- LOCATION
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ LOCATION 1 / 4
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-bal
 
 **70 000 €** · Béziers · 33 m² · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

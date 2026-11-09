@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-
 
 **54 000 €** · Capendu · 27,4 m² · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

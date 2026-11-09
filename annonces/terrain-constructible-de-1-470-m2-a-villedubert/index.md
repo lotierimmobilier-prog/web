@@ -6,9 +6,7 @@ Source : https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villed
 
 **111 000 €** · Villedubert · 1470 m²
 
- VENTE
-
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ VENTE 1 / 4
 
 ---
 

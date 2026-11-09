@@ -6,16 +6,7 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
 **760 € par mois** · Capendu · 180 m²
 
- LOCATION
-
- 760 € par mois
-
-- 180 m²
-
- [Être rappelé ](https://lotier.immo/contact/)
- [04 67 11 28 31](tel:+33467112831)
-
-Annonce proposée par LOTIER Immobilier.
+ LOCATION 1 / 3
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 

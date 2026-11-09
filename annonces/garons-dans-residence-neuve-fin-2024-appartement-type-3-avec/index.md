@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appar
 
 **234 900 €** · Garons · 67,87 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 5
 
 ---
 

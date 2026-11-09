@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-ap
 
 **280 000 €** · Nîmes · 73,6 m² · 3 chambres
 
- VENTE
+ VENTE 1 / 6
 
 ---
 
