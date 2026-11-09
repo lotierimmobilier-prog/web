@@ -15,6 +15,8 @@ python3 scripts/generateur/build_all.py
 
 `../seo_audit.py` : audit SEO, lancé en dernier par `build_all.py`, écrit `data/seo-report.json` (lu par Collab).
 
+`../ai_visibility_audit.py` : audit « visibilité dans les IA » (robots IA, llms.txt, Markdown, données structurées), écrit `data/ai-visibility-report.json` ; option `--live` pour contrôler le site en ligne.
+
 Fichiers écrits à la main (non générés) : `robots.txt`, `.well-known/`, `mcp/`, `css/`, `js/`, `data/`, `assets/`.
 Le dossier `scripts/` n'est pas servi au public (404 via `.htaccess`).
 Après régénération, relire `git diff` : un lancement sans modification de contenu ne doit rien changer.
