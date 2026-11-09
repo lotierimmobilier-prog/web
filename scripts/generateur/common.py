@@ -17,6 +17,17 @@ for _a in ARTICLES:
         ART_FAQ[_a["slug"]] = list(ART_FAQ.get(_a["slug"], [])) + _ex["faq"]
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+def _empreinte(rel):
+    """Empreinte courte du contenu d'un fichier statique : change à chaque modification du fichier. Elle est ajoutée à l'adresse
+    de la feuille de style et du script (?v=…) : le serveur les garde un mois en cache, sans elle un navigateur qui a déjà visité
+    le site continue d'afficher l'ancienne mise en page avec les nouvelles pages (bug constaté le 2026-11-09 sur les fiches)."""
+    import hashlib
+    with open(os.path.join(ROOT, rel), "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:10]
+V_CSS = _empreinte("css/styles.css")
+V_JS = _empreinte("js/main.js")
+
 SITE = "https://lotier.immo"
 # Adresses des réseaux sociaux : renseigner les URLs complètes (les liens n'apparaissent que si elles sont remplies)
 # Adresse du portail client MyLotier (laisser vide tant qu'elle n'est pas connue : le bouton renvoie alors vers le contact)
@@ -379,7 +390,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
   <link rel="manifest" href="{prefix}site.webmanifest">
   <link rel="apple-touch-icon" href="{prefix}assets/favicon.png">
   <link rel="preload" href="{prefix}assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{prefix}css/styles.css">
+  <link rel="stylesheet" href="{prefix}css/styles.css?v={V_CSS}">
 {ld}</head>
 <body id="top">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -392,7 +403,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
 
 {footer(prefix, home, cta)}
 {chat_widget(prefix)}
-  <script src="{prefix}js/main.js"></script>
+  <script src="{prefix}js/main.js?v={V_JS}"></script>
 </body>
 </html>
 '''
