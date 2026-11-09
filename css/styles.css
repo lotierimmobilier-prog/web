@@ -173,7 +173,10 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .go .iso-photo::after, .go .iso-photo .pcross { animation: croix-in 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
 .go .iso-photo .pstage { animation: croix-in-c 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
 @media (prefers-reduced-motion: reduce) { .go .iso-photo::after, .go .iso-photo .pcross, .go .iso-photo .pstage { animation: none; } }
-.iso-photo img { display: block; width: 100%; height: 100%; }
+.iso-photo img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; transition: opacity 1.4s ease; }
+.iso-photo:not(.jour) .img-jour, .iso-photo.jour .img-nuit { opacity: 0; }
+.iso-photo.jour .pcross { background: linear-gradient(to bottom, #e9e9e9 0%, #e9e9e9 45%, #6a7774 100%); }
+.iso-photo.jour .pw.on { opacity: 0.55; } .iso-photo.jour .pw.amb { opacity: 0.28; }
 .iso-photo .pw { position: absolute; opacity: 0; transition: opacity 1.1s ease; pointer-events: none; }
 .iso-photo .pw canvas { display: block; width: 100%; height: 100%; }
 .iso-photo .pw.on { opacity: 1; } .iso-photo .pw.amb { opacity: 0.55; }
