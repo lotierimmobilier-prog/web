@@ -853,3 +853,12 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .office-card p { margin: 0; }
 .office-card a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; }
 .office-card svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Page Nos annonces : filtres */
+.ann-filters { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: end; justify-content: space-between; margin: 0 0 12px; }
+.ann-filters .chip-links { margin-top: 0; }
+.chip-link.is-on { background: var(--navy); color: #fff; border-color: var(--navy); }
+.ann-city { display: grid; gap: 4px; }
+.ann-city select { min-width: 220px; padding: 10px 14px; border-radius: 14px; border: 1px solid rgba(15, 39, 68, 0.2); background: rgba(255, 255, 255, 0.9); font: inherit; }
+.badge.xtra { top: auto; bottom: 14px; background: rgba(15, 39, 68, 0.82); }
+[data-ann-grid] .card[hidden] { display: none; }

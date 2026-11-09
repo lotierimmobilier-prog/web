@@ -111,10 +111,10 @@ def card(photo, alt, loc):
             <div class="card-actions"><a class="btn btn-navy btn-sm" href="#contact">Voir le bien</a><a class="text-link" href="#contact">Être rappelé</a></div>
           </article>'''
 
-cards = (card("immeuble", "Photo d'illustration : immeuble moderne avec balcons", False)
-         + card("salon2", "Photo d'illustration : séjour lumineux", True)
-         + card("village", "Photo d'illustration : village de pierre aux toits de tuiles", False)
-         + card("villa", "Photo d'illustration : villa contemporaine avec piscine", False))
+_ann = C.load_annonces()
+_vente = [a for a in _ann if a["type"] == "vente"][:5]; _loc = [a for a in _ann if a["type"] == "location"][:3]
+cards = "".join(C.annonce_card(a, "") for a in (_vente + _loc)) if _ann else (card("immeuble", "Photo d'illustration : immeuble moderne avec balcons", False)
+         + card("salon2", "Photo d'illustration : séjour lumineux", True))
 
 jsonld = {
     "@context": "https://schema.org",
@@ -265,7 +265,7 @@ page = f'''<!doctype html>
         <div class="track" tabindex="0" aria-label="Liste des annonces">{cards}
         </div>
       </div>
-      <div class="section-cta"><a class="btn btn-navy btn-lg mag" href="#annonces">Voir toutes les annonces {ARROW}</a></div>
+      <div class="section-cta"><a class="btn btn-navy btn-lg mag" href="nos-annonces/">Voir toutes les annonces {ARROW}</a></div>
     </section>
 
     <section class="estim" aria-labelledby="t-estim">

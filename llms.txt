@@ -21,6 +21,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Conseils immo](https://lotier.immo/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.
 - [Blog](https://lotier.immo/blog/index.html): 20 guides pratiques.
 - [À propos](https://lotier.immo/a-propos/): qui nous sommes, métiers, informations légales.
+- [Nos annonces](https://lotier.immo/nos-annonces/): biens à vendre et à louer.
 - [Contact](https://lotier.immo/contact/): téléphone, e-mail et adresses des agences.
 - [Honoraires](https://lotier.immo/nos-honoraires/): barème de vente, de location, de gestion et de syndic.
 - [Notre service](https://lotier.immo/notre-service/): transparence, personnalisation, proximité.

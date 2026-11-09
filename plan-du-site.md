@@ -10,7 +10,7 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
 - [Page d'accueil](https://lotier.immo/index.html)
 
-- [Annonces](https://lotier.immo/index.html#annonces)
+- [Annonces](https://lotier.immo/nos-annonces/)
 
 - [Vente, location, syndic](https://lotier.immo/index.html#metiers)
 
