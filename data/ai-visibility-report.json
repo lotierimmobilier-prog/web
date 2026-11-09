@@ -165,11 +165,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 38,
+  "liens": 39,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 38,
+  "pages_indexables": 120,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -348,6 +348,1220 @@
     "Question",
     "RealEstateAgent",
     "Service",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/appartement-t2-dans-residence-livree-en-2025/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/immeuble-de-rapport/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/terrain-de-loisir-a-capendu/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
     "WebPage"
    ],
    "markdown": true,
@@ -750,6 +1964,18 @@
    "problemes": [
     "pas de FAQ balisée (FAQPage)"
    ]
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "ItemList",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/notre-service/",
