@@ -425,6 +425,8 @@ DirectoryIndex index.html index.php
   RewriteRule ^vendre-votre-bien-immobilier-pourquoi-lentretien-fait-toute-la-difference/?$ /blog/home-staging-mieux-vendre.html [NE,L,R=301]
   RewriteRule ^(il-achete-letage-entier|2-immeubles-tres-rentable|pourquoi-recevez-vous-cet-email-en-tant-que-locataire|category/blog|category/non-classe)/?$ /blog/ [NE,L,R=301]
   # Anciennes fiches de biens et filtres de recherche : retour vers la section Annonces
+  RewriteCond %{DOCUMENT_ROOT}/annonces/$1/index.html -f
+  RewriteRule ^propriete/([a-z0-9-]+)/?$ /annonces/$1/ [NE,L,R=301]
   RewriteRule ^(propriete|iwp_[a-z_]+)/ /nos-annonces/ [NE,L,R=301]
   # Anciens comptes auteurs, brouillons : retour vers l'accueil
   RewriteRule ^(author/.*|brouillon-auto(-2)?/?)$ / [L,R=301]

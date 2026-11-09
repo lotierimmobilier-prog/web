@@ -886,4 +886,4 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .ann-bloc dt { color: var(--muted, #5a6b82); }
 .ann-bloc dd { margin: 0; font-weight: 600; text-align: right; }
 .ann-title { font-size: clamp(30px, 4.4vw, 52px); }
-@media (max-width: 900px) { .ann-layout { grid-template-columns: 1fr; } .ann-side { position: static; order: -1; } }
+@media (max-width: 900px) { .ann-layout { grid-template-columns: 1fr; } .ann-side { position: static; } }

@@ -4,11 +4,11 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-68 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+63 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
  Ville
 
-87 annonces
+82 annonces
 
  LOCATION
 
@@ -18,7 +18,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -28,7 +28,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Limoux · 68 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/studio-spacieux-au-centre-de-limoux-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -38,7 +38,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 20 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -48,7 +48,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Narbonne · 38,2 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -58,7 +58,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 44,06 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -68,7 +68,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 111,36 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -78,7 +78,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 14,99 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -88,7 +88,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Villeneuve-lès-Béziers · 191 m² · 4 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -98,7 +98,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Carcassonne · 106,58 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -108,7 +108,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 77 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -118,7 +118,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 53 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -128,7 +128,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Alès · 89 m² · 4 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -138,7 +138,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 84 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -148,7 +148,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -158,7 +158,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 65,17 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -168,7 +168,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 57,12 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -178,7 +178,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 33,4 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -188,7 +188,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Clarensac · 127 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -198,7 +198,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 185 m² · 5 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -208,7 +208,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 185 m² · 5 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -218,7 +218,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 54,9 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -228,7 +228,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Limoux · 68 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
+ [Nous contacter](https://lotier.immo/contact/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -238,7 +238,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 115,8 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -248,7 +248,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 27,4 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -258,7 +258,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Saint-Christol-lez-Alès · 136,39 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -268,7 +268,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Montpellier · 70,26 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/montpellier-estanove-appartement-2-chambres-ideal-etud/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -278,7 +278,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 140 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -288,7 +288,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 155,21 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -298,7 +298,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Pezens · 81 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -308,7 +308,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Trèbes · 105 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -318,7 +318,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Montpellier · 52 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -328,7 +328,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Montpellier · 42,89 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/appartement-t2-dans-residence-livree-en-2025/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-dans-residence-livree-en-2025/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -338,7 +338,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Douzens · 8741 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -348,7 +348,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 32,75 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -358,7 +358,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Caveirac · 45,92 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -368,17 +368,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Caveirac · 45,78 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
-
- VENTE
-
- 360 000 €
-
-### L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d
-
- Caveirac · 80,34 m² · 3 ch.
-
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -388,7 +378,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Calvisson · 84,55 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -398,7 +388,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Langlade · 90 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -408,7 +398,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 83,85 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -418,7 +408,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Aubais · 69 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -428,7 +418,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 122 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -438,7 +428,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Comigne · 127 m² · 5 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-avec-jardin-et-piscine-a-comigne/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -448,7 +438,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 136,63 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -458,7 +448,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Montpellier · 41,07 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -468,7 +458,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Montpellier · 90,64 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -478,7 +468,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Carcassonne · 50 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -488,17 +478,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 48,34 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
-
- VENTE
-
- 164 300 €
-
-### ALES maison des années 60 de 90 m2 avec jardin et parking 4
-
- Alès · 89 m² · 4 ch.
-
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -508,17 +488,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 61,65 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
-
- VENTE
-
- 250 000 €
-
-### Nîmes Costières appartement type 3 avec terrasse et garage
-
- Nîmes · 84 m² · 2 ch.
-
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -528,7 +498,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 100,17 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -538,7 +508,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 76,07 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-beziers-appartement-de-cour-privative/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -548,7 +518,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 120 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -558,17 +528,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 116 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
-
- VENTE
-
- 243 000 €
-
-### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
-
- Meynes · 87,16 m² · 2 ch.
-
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -578,7 +538,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Rieux-Minervois · 112,37 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -588,7 +548,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 35,86 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-appartement-t2-avec-vue-canal-residence-amarine/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -598,7 +558,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 120 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -608,7 +568,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 75,04 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -618,7 +578,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Carcassonne · 240 m² · 5 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -628,7 +588,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 400 m² · 7 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -638,7 +598,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Uzès · 840 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -648,17 +608,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Saint-Ambroix · 68 m² · 1 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/saint-ambroix-a-proximite-dales-local-commercial-appartem/)[Être rappelé](https://lotier.immo/contact/)
-
- VENTE
-
- 320 000 €
-
-### Clarensac dans la vaunage entre Nîmes et Montpellier maison
-
- Clarensac · 127 m² · 3 ch.
-
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -668,7 +618,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Villedubert · 320 m² · 4 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -678,7 +628,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Villedubert · 1470 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/terrain-constructible-de-1-470-m2-a-villedubert/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -688,7 +638,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Maureilhan · 89 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -698,7 +648,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Villemoustaussou · 67 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -708,7 +658,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 33 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -718,7 +668,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Floure · 3000 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -728,7 +678,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Carcassonne · 166 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -738,7 +688,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 73,6 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -748,7 +698,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 84,48 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -758,7 +708,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 64,1 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -768,7 +718,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Garons · 67,87 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -778,7 +728,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 98 m² · 2 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -788,7 +738,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 66 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -798,7 +748,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 100 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -808,7 +758,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Barbaira · 1400 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -818,7 +768,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Béziers · 120 m² · 4 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -828,7 +778,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Clarensac · 80 m² · 3 ch.
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
 
  LOCATION
 
@@ -838,7 +788,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 180 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -848,7 +798,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 134 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -858,7 +808,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Carcassonne · 170 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -868,7 +818,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Capendu · 1457 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 
@@ -878,11 +828,11 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 48,96 m²
 
- [Voir l'annonce](https://www.lotier-immobilier.com/propriete/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
 Aucune annonce ne correspond à ce filtre.
 
-Les fiches détaillées (photos, diagnostics, honoraires) s'ouvrent sur notre ancien site. Prix en euros ; les honoraires et le DPE figurent sur chaque fiche.
+Prix en euros. Les honoraires, le DPE et les informations légales figurent sur chaque fiche.
 
 ## Vous ne trouvez pas votre bien ?
 

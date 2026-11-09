@@ -480,5 +480,5 @@ def annonce_card(a, prefix):
               <h3 class="heading">{e(title)}</h3>
               <span class="muted small">{e(a['ville'])}{(' · ' + ' · '.join(bits)) if bits else ''}</span>
             </div>
-            <div class="card-actions"><a class="btn btn-navy btn-sm" href="{(prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else e(a['url'])}">Voir l'annonce</a><a class="text-link" href="{prefix}contact/">Être rappelé</a></div>
+            <div class="card-actions"><a class="btn btn-navy btn-sm" href="{(prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'}">{"Voir l'annonce" if a.get('description_html') is not None else "Nous contacter"}</a><a class="text-link" href="{prefix}contact/">Être rappelé</a></div>
           </article>'''

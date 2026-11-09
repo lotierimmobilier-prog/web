@@ -2,6 +2,7 @@
 """Page « Nos annonces » : toutes les annonces de data/annonces.json, avec filtres (vente/location, ville)."""
 import os, json
 from common import *
+from common import _nice_title, _price
 prefix = "../"
 
 ann = load_annonces()
@@ -41,7 +42,7 @@ body = f'''    <section class="page-hero">
     </section>'''
 ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "@id": f"{SITE}/nos-annonces/#page", "url": f"{SITE}/nos-annonces/", "name": "Nos annonces immobilières",
        "inLanguage": "fr-FR", "isPartOf": {"@id": SITE + "/#website"}, "about": {"@id": SITE + "/#agence"},
-       "mainEntity": {"@type": "ItemList", "numberOfItems": len(ann), "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": a["titre"], "url": a["url"]} for i, a in enumerate(ann)]}},
+       "mainEntity": {"@type": "ItemList", "numberOfItems": len(ann), "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": a["titre"], "url": (f"{SITE}/annonces/{a['id']}/" if a.get("description_html") is not None else f"{SITE}/nos-annonces/")} for i, a in enumerate(ann)]}},
       breadcrumb_ld([("Accueil", SITE + "/"), ("Nos annonces", f"{SITE}/nos-annonces/")])]
 open(f"{ROOT}/nos-annonces/index.html", "w", encoding="utf-8").write(shell(prefix, "Nos annonces immobilières : vente et location | LOTIER",
      "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
@@ -82,7 +83,7 @@ def detail_page(a):
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{p2}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{p2}nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><span aria-current="page">{e(a['ville'])}</span></nav>
         <h1 class="display page-title ann-title">{e(title)}</h1>
-        <p class="lead">{e(a['ville'])}{(' \u00b7 ' + ' \u00b7 '.join(facts)) if facts else ''}</p>
+        <p class="lead"><strong>{price}</strong> \u00b7 {e(a['ville'])}{(' \u00b7 ' + ' \u00b7 '.join(facts)) if facts else ''}</p>
       </div>
     </section>
     <section class="section container ann-detail">
@@ -98,7 +99,7 @@ def detail_page(a):
             <ul class="ann-facts">{facts_html}</ul>
             <a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/">Être rappelé {ARROW}</a>
             <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>
-            <p class="muted small">Référence : {e(a['id'][:40])}. Annonce proposée par LOTIER Immobilier.</p>
+            <p class="muted small">Annonce proposée par LOTIER Immobilier.</p>
           </div>
         </aside>
       </div>
