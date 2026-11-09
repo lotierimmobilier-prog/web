@@ -8,7 +8,7 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
 
  LOCATION 1 / 4
 
-## Biens à proximité
+## Les autres biens de Barbara
 
  LOCATION
 
@@ -39,6 +39,48 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

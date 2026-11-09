@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartemen
 
 **635 € par mois** · Béziers · 54,9 m² · 2 chambres · 1 salle d'eau/bain
 
- LOCATION 1 / 6
+ LOCATION 1 / 7
 
 ---
 

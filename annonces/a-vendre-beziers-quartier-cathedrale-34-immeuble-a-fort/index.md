@@ -10,7 +10,7 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-im
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-## Biens à proximité
+## Les autres biens de Laetitia
 
  VENTE
 
@@ -41,6 +41,48 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-im
  Béziers · 61,65 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 149 800 €
+
+### À vendre appartement T3 lumineux avec terrasse, box en sou
+
+ Béziers · 83,85 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
+ 76 000 €
+
+### À vendre appartement T3 lumineux secteur gare / maréchal
+
+ Béziers · 53 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 209 000 €
+
+### A vendre, beziers (34) quartier de la crouzette maison T7
+
+ Béziers · 120 m² · 4 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 129 600 €
+
+### À vendre beziers -appartement de cour privative
+
+ Béziers · 76,07 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

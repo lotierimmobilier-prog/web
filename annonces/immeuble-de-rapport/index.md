@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/immeuble-de-rapport/
 
 **230 000 €** · Carcassonne · 166 m²
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

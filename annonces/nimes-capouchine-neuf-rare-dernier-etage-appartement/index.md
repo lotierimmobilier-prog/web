@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-a
 
 **351 900 €** · Nîmes · 84,48 m² · 3 chambres
 
- VENTE 1 / 6
+ VENTE 1 / 7
 
 ---
 

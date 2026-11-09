@@ -8,6 +8,48 @@ Source : https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terras
 
  VENTE 1 / 4
 
+## Les autres biens de Frédérique
+
+ VENTE
+
+ 230 000 €
+
+### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
+
+ Caveirac · 45,92 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 220 000 €
+
+### Caveirac T2 neuf avec patio privatif et frais de notaire r
+
+ Caveirac · 45,78 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 309 000 €
+
+### Coup de coeur à Calvisson : Villa T4 de 2016 avec jardin, gar
+
+ Calvisson · 84,55 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
 ## Biens à proximité
 
  VENTE
@@ -32,13 +74,13 @@ Source : https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terras
 
  VENTE
 
- 230 000 €
+ 320 000 €
 
-### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
+### Clarensac dans la vaunage entre Nîmes et Montpellier maison
 
- Caveirac · 45,92 m² · 1 ch.
+ Clarensac · 127 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

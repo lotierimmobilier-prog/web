@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave
 
 **155 000 €** · Montpellier · 52 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 8
 
 ---
 

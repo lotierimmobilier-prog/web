@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/
 
 **170 000 €** · Carcassonne · 170 m²
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

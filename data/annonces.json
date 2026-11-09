@@ -266,13 +266,42 @@
      ]
     }
    ],
+   "reference": "21_MALST130000398",
+   "agent": {
+    "nom": "Jonathan GASSER",
+    "email": "jonathan.gasser@lotier-immobilier.com",
+    "telephone": "0652559916",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 218,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    },
+    "depenses_min": 850,
+    "depenses_max": 1190,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/studio-spacieux-au-centre-de-limoux-2-1.jpg",
     "assets/annonces/studio-spacieux-au-centre-de-limoux-2-2.jpg",
     "assets/annonces/studio-spacieux-au-centre-de-limoux-2-3.jpg",
     "assets/annonces/studio-spacieux-au-centre-de-limoux-2-4.jpg",
     "assets/annonces/studio-spacieux-au-centre-de-limoux-2-5.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-6.jpg"
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-6.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-7.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-8.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-9.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2-10.jpg"
    ]
   },
   {
@@ -352,13 +381,27 @@
      ]
     }
    ],
+   "reference": "15_DLLCO170001039",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [
+    "Charges comprises, dont 5 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-1.jpg",
     "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-2.jpg",
     "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-3.jpg",
     "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-4.jpg",
     "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-5.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-6.jpg"
+    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-6.jpg",
+    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-7.jpg"
    ]
   },
   {
@@ -491,13 +534,42 @@
      ]
     }
    ],
+   "reference": "2_BBLAP30001038",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 176,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 590,
+    "depenses_max": 860,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 70 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-1.jpg",
     "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-2.jpg",
     "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-3.jpg",
     "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-4.jpg",
     "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-5.jpg",
-    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-6.jpg"
+    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-6.jpg",
+    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-7.jpg",
+    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-8.jpg",
+    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-9.jpg",
+    "assets/annonces/appartement-t1-narbonne-centre-historique-382-m2-10.jpg"
    ]
   },
   {
@@ -632,13 +704,44 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000626",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 273,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 9,
+     "classe": "B"
+    },
+    "depenses_min": 980,
+    "depenses_max": 1360,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-1.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-2.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-3.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-4.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-5.jpg",
-    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-6.jpg"
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-6.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-7.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-8.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-9.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-10.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-11.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-12.jpg"
    ]
   },
   {
@@ -727,13 +830,25 @@
      ]
     }
    ],
+   "reference": "18_GFVAU200001019",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-1.jpg",
     "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-2.jpg",
     "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-3.jpg",
     "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-4.jpg",
     "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-5.jpg",
-    "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-6.jpg"
+    "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-6.jpg",
+    "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-7.jpg",
+    "assets/annonces/investissement-nimes-murs-commerciaux-studio-loue-111-8.jpg"
    ]
   },
   {
@@ -847,6 +962,31 @@
      ]
     }
    ],
+   "reference": "12_274",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 216,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 6,
+     "classe": "A"
+    },
+    "depenses_min": 340,
+    "depenses_max": 500,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 15 € de forfait de charges",
+    "Location meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac-1.jpg",
     "assets/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac-2.jpg",
@@ -959,13 +1099,38 @@
      ]
     }
    ],
+   "reference": "15_DLVMA170001012",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 111,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-1.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-2.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-3.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-4.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-5.jpg",
-    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-6.jpg"
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-6.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-7.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-8.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-9.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-10.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-11.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-12.jpg"
    ]
   },
   {
@@ -1102,13 +1267,44 @@
      ]
     }
    ],
+   "reference": "2_BBLAP30000958",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 199,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 41,
+     "classe": "D"
+    },
+    "depenses_min": 1940,
+    "depenses_max": 2670,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 80 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-1.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-3.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-4.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-5.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-6.jpg"
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-6.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-7.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-8.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-9.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-10.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-11.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-12.jpg"
    ]
   },
   {
@@ -1186,13 +1382,29 @@
      ]
     }
    ],
+   "reference": "15_DLLCO170000913",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/local-commercial-boulevard-de-geneve-1.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-2.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-3.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-4.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-5.jpg",
-    "assets/annonces/local-commercial-boulevard-de-geneve-6.jpg"
+    "assets/annonces/local-commercial-boulevard-de-geneve-6.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-7.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-8.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-9.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-10.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-11.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-12.jpg"
    ]
   },
   {
@@ -1311,13 +1523,41 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000896",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 184,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    },
+    "depenses_min": 990,
+    "depenses_max": 1370,
+    "prix_energies": "01/01/2000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-1.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-2.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-3.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-4.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-5.jpg",
-    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-6.jpg"
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-6.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-7.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-8.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-9.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-10.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-11.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-12.jpg"
    ]
   },
   {
@@ -1431,13 +1671,40 @@
      ]
     }
    ],
+   "reference": "12_RFVMA70000869",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 193,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 42,
+     "classe": "D"
+    },
+    "depenses_min": 1587,
+    "depenses_max": 2147,
+    "prix_energies": "00/00/0000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-1.jpg",
     "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-2.jpg",
     "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-3.jpg",
     "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-4.jpg",
     "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-5.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-6.jpg"
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-6.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-7.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-8.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-9.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-10.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2-11.jpg"
    ]
   },
   {
@@ -1588,13 +1855,38 @@
      ]
     }
    ],
+   "reference": "18_RFVAP70000862",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 118,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 4,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-1.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-2.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-3.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-4.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-5.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-6.jpg"
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-6.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-7.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-8.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-9.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-10.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-11.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2-12.jpg"
    ]
   },
   {
@@ -1708,13 +2000,41 @@
      ]
     }
    ],
+   "reference": "17_521",
+   "agent": {
+    "nom": "CELINE AUBIN",
+    "email": "celine.aubin@lotier-immobilier.com",
+    "telephone": "0616293531",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 103,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 750,
+    "depenses_max": 1070,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-1.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-2.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-3.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-4.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-5.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-6.jpg"
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-6.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-7.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-8.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-9.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-10.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-11.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2-12.jpg"
    ]
   },
   {
@@ -1832,13 +2152,39 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000831",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 178,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-1.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-2.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-3.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-4.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-5.jpg",
-    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-6.jpg"
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-6.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-7.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-8.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-9.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2-10.jpg"
    ]
   },
   {
@@ -1952,13 +2298,39 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000830",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 178,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-1.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-3.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-4.jpg",
     "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-5.jpg",
-    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-6.jpg"
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-6.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-7.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-8.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-9.jpg",
+    "assets/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-10.jpg"
    ]
   },
   {
@@ -2080,6 +2452,31 @@
      ]
     }
    ],
+   "reference": "2_BBLAP30000805",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 259,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 8,
+     "classe": "B"
+    },
+    "depenses_min": 720,
+    "depenses_max": 1020,
+    "prix_energies": "01/01/2024"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/appartement-t2-meuble-a-capendu-1.jpg",
     "assets/annonces/appartement-t2-meuble-a-capendu-2.jpg",
@@ -2214,13 +2611,41 @@
      ]
     }
    ],
+   "reference": "12_RFVMA70000739",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 94,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 14,
+     "classe": "C"
+    },
+    "depenses_min": 990,
+    "depenses_max": 1400,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-1.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-2.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-3.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-4.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-5.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-6.jpg"
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-6.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-7.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-8.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-9.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-10.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-11.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2-12.jpg"
    ]
   },
   {
@@ -2320,13 +2745,26 @@
      ]
     }
    ],
+   "reference": "15_DLVIM170000631",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-1.jpg",
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-2.jpg",
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-3.jpg",
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-4.jpg",
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-5.jpg",
-    "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-6.jpg"
+    "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-6.jpg",
+    "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-7.jpg",
+    "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-8.jpg",
+    "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2-9.jpg"
    ]
   },
   {
@@ -2434,6 +2872,25 @@
      ]
     }
    ],
+   "reference": "15_DLVAU170000630",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 220,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 35,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-1.jpg",
     "assets/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2.jpg",
@@ -2559,28 +3016,40 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000568",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 288,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 9,
+     "classe": "B"
+    },
+    "depenses_min": 1230,
+    "depenses_max": 1710,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-1.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-2.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-3.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-4.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-5.jpg",
-    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-6.jpg"
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-6.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-7.jpg"
    ]
-  },
-  {
-   "id": "studio-spacieux-au-centre-de-limoux",
-   "url": "https://www.lotier-immobilier.com/propriete/studio-spacieux-au-centre-de-limoux/",
-   "titre": "Studio Spacieux au Centre de Limoux",
-   "ville": "Limoux",
-   "type": "location",
-   "prix": 465.0,
-   "surface": 68.0,
-   "chambres": null,
-   "sdb": 1,
-   "badges": [],
-   "photo": "assets/annonces/studio-spacieux-au-centre-de-limoux.jpg",
-   "description_html": null
   },
   {
    "id": "bel-appartement-de-115m2-avec-terrasse-a-capendu",
@@ -2702,13 +3171,40 @@
      ]
     }
    ],
+   "reference": "2_BBVAP30001011",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 173,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 1240,
+    "depenses_max": 1730,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-1.jpg",
     "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-2.jpg",
     "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-3.jpg",
     "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-4.jpg",
     "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-5.jpg",
-    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-6.jpg"
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-6.jpg",
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-7.jpg",
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-8.jpg",
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-9.jpg",
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-10.jpg",
+    "assets/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu-11.jpg"
    ]
   },
   {
@@ -2823,13 +3319,37 @@
      ]
     }
    ],
+   "reference": "2_BBVST30001010",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 225,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 8,
+     "classe": "B"
+    },
+    "depenses_min": 650,
+    "depenses_max": 900,
+    "prix_energies": "01/01/2026"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-1.jpg",
     "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-2.jpg",
     "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-3.jpg",
     "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-4.jpg",
     "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-5.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-6.jpg"
+    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-6.jpg",
+    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-7.jpg",
+    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-8.jpg"
    ]
   },
   {
@@ -2946,13 +3466,27 @@
      ]
     }
    ],
+   "reference": "12_626",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-1.jpg",
     "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-2.jpg",
     "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-3.jpg",
     "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-4.jpg",
     "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-5.jpg",
-    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-6.jpg"
+    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-6.jpg",
+    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-7.jpg",
+    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-8.jpg",
+    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-9.jpg",
+    "assets/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m-10.jpg"
    ]
   },
   {
@@ -3066,6 +3600,19 @@
      ]
     }
    ],
+   "reference": "12_271",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [
+    "Charges comprises, dont 150 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud-1.jpg",
     "assets/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud-2.jpg",
@@ -3166,13 +3713,41 @@
      ]
     }
    ],
+   "reference": "2_BBVMA30001003",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 153,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 1930,
+    "depenses_max": 2680,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-1.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-2.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-3.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-4.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-5.jpg",
-    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-6.jpg"
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-6.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-7.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-8.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-9.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-10.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-11.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-12.jpg"
    ]
   },
   {
@@ -3269,6 +3844,28 @@
      ]
     }
    ],
+   "reference": "12_625",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 600,
+     "classe": "G"
+    },
+    "ges": {
+     "valeur": 20,
+     "classe": "C"
+    },
+    "depenses_min": 3780,
+    "depenses_max": 5120,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-a-vendre-fond-de-commerce-restaurant-1.jpg",
     "assets/annonces/nimes-a-vendre-fond-de-commerce-restaurant-2.jpg",
@@ -3382,13 +3979,40 @@
      ]
     }
    ],
+   "reference": "2_BBV30000994",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 193,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    },
+    "depenses_min": 1160,
+    "depenses_max": 1610,
+    "prix_energies": "01/01/2022"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-1.jpg",
     "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-2.jpg",
     "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-3.jpg",
     "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-4.jpg",
     "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-5.jpg",
-    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-6.jpg"
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-6.jpg",
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-7.jpg",
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-8.jpg",
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-9.jpg",
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-10.jpg",
+    "assets/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle-11.jpg"
    ]
   },
   {
@@ -3506,13 +4130,41 @@
      ]
     }
    ],
+   "reference": "2_BBV30000987",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 99,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 1000,
+    "depenses_max": 1400,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-1.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-2.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-3.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-4.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-5.jpg",
-    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-6.jpg"
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-6.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-7.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-8.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-9.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-10.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-11.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-12.jpg"
    ]
   },
   {
@@ -3639,13 +4291,34 @@
      ]
     }
    ],
+   "reference": "12_622",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 315,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 10,
+     "classe": "B"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-1.jpg",
     "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-2.jpg",
     "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-3.jpg",
     "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-4.jpg",
     "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-5.jpg",
-    "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-6.jpg"
+    "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-6.jpg",
+    "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-7.jpg",
+    "assets/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati-8.jpg"
    ]
   },
   {
@@ -3776,13 +4449,37 @@
      ]
     }
    ],
+   "reference": "12_615",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 49,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/appartement-t2-dans-residence-livree-en-2025-1.jpg",
     "assets/annonces/appartement-t2-dans-residence-livree-en-2025-2.jpg",
     "assets/annonces/appartement-t2-dans-residence-livree-en-2025-3.jpg",
     "assets/annonces/appartement-t2-dans-residence-livree-en-2025-4.jpg",
     "assets/annonces/appartement-t2-dans-residence-livree-en-2025-5.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-6.jpg"
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-6.jpg",
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-7.jpg",
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-8.jpg",
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-9.jpg",
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-10.jpg",
+    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-11.jpg"
    ]
   },
   {
@@ -3852,6 +4549,16 @@
      ]
     }
    ],
+   "reference": "2_BBVTE30000967",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens-1.jpg",
     "assets/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens-2.jpg",
@@ -3979,13 +4686,39 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000959",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 327,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 10,
+     "classe": "B"
+    },
+    "depenses_min": 680,
+    "depenses_max": 970,
+    "prix_energies": "01/01/1948"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-1.jpg",
     "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-2.jpg",
     "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-3.jpg",
     "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-4.jpg",
     "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-5.jpg",
-    "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-6.jpg"
+    "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-6.jpg",
+    "assets/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique-7.jpg"
    ]
   },
   {
@@ -4092,6 +4825,25 @@
      ]
     }
    ],
+   "reference": "18_CEORE140000950",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 30,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 39,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire-1.jpg",
     "assets/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire-2.jpg",
@@ -4210,12 +4962,176 @@
      ]
     }
    ],
+   "reference": "18_CEORE140000948",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 30,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 39,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r-1.jpg",
     "assets/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r-2.jpg",
     "assets/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r-3.jpg",
     "assets/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r-4.jpg",
     "assets/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r-5.jpg"
+   ]
+  },
+  {
+   "id": "lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d",
+   "url": "https://www.lotier-immobilier.com/propriete/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/",
+   "titre": "L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d",
+   "ville": "Caveirac",
+   "type": "vente",
+   "prix": 360000.0,
+   "surface": 80.34,
+   "chambres": 3,
+   "sdb": 1,
+   "badges": [
+    "Coup de coeur"
+   ],
+   "photo": "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d.jpg",
+   "description_html": "<p>T4 NEUF AVEC JARDIN PRIVATIF DE 93 M2 FRAIS DE NOTAIRE RÉDUITS</p><p>Au coeur du très prisé quartier des Ramias à Caveirac, découvrez ce superbe appartement T4 neuf de 80,34 m2 situé au sein de la résidence intimiste « L’Écrin des Ramias », un programme confidentiel de seulement 6 logements.</p><p>Bénéficiez de tous les avantages du neuf, notamment des frais de notaire réduits, représentant une économie significative par rapport à l’acquisition d’un bien ancien.</p><p>L’appartement offre une belle pièce de vie de 31,47 m2 baignée de lumière, ouverte sur un vaste jardin privatif de 93 m2, véritable espace de détente à l’abri des regards. Un parvis privatif de 10,79 m2 vient compléter les espaces extérieurs.</p><p>L’espace nuit se compose de trois chambres confortables, d’une salle de bains contemporaine et d’un WC indépendant. Deux places de stationnement privatives sont incluses.</p><p>Les prestations ont été sélectionnées avec soin pour garantir confort et pérennité :</p><p>Carrelage grand format 60 x 60 cm</p><p>Sol aspect parquet dans les chambres</p><p>Menuiseries aluminium anthracite</p><p>Volets roulants électriques</p><p>Pompe à chaleur</p><p>Salle de bains équipée de matériaux haut de gamme</p><p>Finitions soignées et décoration contemporaine</p><p>Située dans un environnement privilégié, entre pinède et nature, la résidence profite du calme résidentiel de Caveirac tout en restant à proximité immédiate des commerces, écoles et des accès vers Nîmes.</p><p>Un bien rare sur le secteur, idéal pour une famille ou pour toute personne recherchant un cadre de vie paisible, des prestations de qualité et les avantages d’un logement neuf.</p><p>Économisez jusqu’à plusieurs milliers d’euros grâce aux frais de notaire réduits (environ 2 à 3 % dans le neuf contre 7 à 8 % dans l’ancien).</p><p>Contactez-moi pour plus d’informations ou pour organiser une découverte du programme.</p><p>Cette annonce vous est proposée par GALLUCCI CONSULTING &amp; PERFORMANCE – SARL – NoRSAC: 100 710 235, Enregistré à Greffe du tribunal de commerce de AJACCIO</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Appartement"
+      ],
+      [
+       "Surface habitable",
+       "80.34 m²"
+      ],
+      [
+       "Pièces",
+       "4"
+      ],
+      [
+       "Chambres",
+       "3"
+      ],
+      [
+       "Salles de bain",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Étage",
+       "0"
+      ],
+      [
+       "Année de construction",
+       "2026"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel"
+      ],
+      [
+       "Cuisine",
+       "Américaine"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ],
+      [
+       "Parking",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "360 000 €"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "6"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Caveirac"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "18_CEORE140000947",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 30,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 40,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
+   "photos": [
+    "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d-1.jpg",
+    "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d-2.jpg",
+    "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d-3.jpg",
+    "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d-4.jpg",
+    "assets/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d-5.jpg"
    ]
   },
   {
@@ -4339,13 +5255,37 @@
      ]
     }
    ],
+   "reference": "18_596",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 49,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-1.jpg",
     "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-2.jpg",
     "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-3.jpg",
     "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-4.jpg",
     "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-5.jpg",
-    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-6.jpg"
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-6.jpg",
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-7.jpg",
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-8.jpg",
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-9.jpg",
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-10.jpg",
+    "assets/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar-11.jpg"
    ]
   },
   {
@@ -4466,13 +5406,38 @@
      ]
     }
    ],
+   "reference": "18_597",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 10,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 2,
+     "classe": "A"
+    },
+    "depenses_min": 700,
+    "depenses_max": 1200,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-1.jpg",
     "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-2.jpg",
     "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-3.jpg",
     "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-4.jpg",
     "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-5.jpg",
-    "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-6.jpg"
+    "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-6.jpg",
+    "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-7.jpg",
+    "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-8.jpg",
+    "assets/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage-9.jpg"
    ]
   },
   {
@@ -4611,13 +5576,29 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000932",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-1.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-2.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-3.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-4.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-5.jpg",
-    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-6.jpg"
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-6.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-7.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-8.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-9.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-10.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-11.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-12.jpg"
    ]
   },
   {
@@ -4750,6 +5731,16 @@
      ]
     }
    ],
+   "reference": "18_598",
+   "agent": {
+    "nom": "Frédérique GALLUCCI",
+    "email": "frederique.gallucci@lotier-immobilier.com",
+    "telephone": "0637647701",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid-1.jpg",
     "assets/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid-2.jpg",
@@ -4888,13 +5879,41 @@
      ]
     }
    ],
+   "reference": "2_BBV30000919",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 121,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 4,
+     "classe": "A"
+    },
+    "depenses_min": 1230,
+    "depenses_max": 1720,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-1.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-2.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-3.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-4.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-5.jpg",
-    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-6.jpg"
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-6.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-7.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-8.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-9.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-10.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-11.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-12.jpg"
    ]
   },
   {
@@ -5012,13 +6031,41 @@
      ]
     }
    ],
+   "reference": "2_BBV30000907",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 96,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 1160,
+    "depenses_max": 1610,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-1.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-2.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-3.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-4.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-5.jpg",
-    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-6.jpg"
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-6.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-7.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-8.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-9.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-10.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-11.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-12.jpg"
    ]
   },
   {
@@ -5140,13 +6187,41 @@
      ]
     }
    ],
+   "reference": "2_BBVMA30000906",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 139,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 29,
+     "classe": "C"
+    },
+    "depenses_min": 1760,
+    "depenses_max": 2420,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-1.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-2.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-3.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-4.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-5.jpg",
-    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-6.jpg"
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-6.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-7.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-8.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-9.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-10.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-11.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-12.jpg"
    ]
   },
   {
@@ -5301,13 +6376,36 @@
      ]
     }
    ],
+   "reference": "12_617",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 193,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 6,
+     "classe": "B"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-1.jpg",
     "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-2.jpg",
     "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-3.jpg",
     "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-4.jpg",
     "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-5.jpg",
-    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-6.jpg"
+    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-6.jpg",
+    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-7.jpg",
+    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-8.jpg",
+    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-9.jpg",
+    "assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-10.jpg"
    ]
   },
   {
@@ -5450,13 +6548,38 @@
      ]
     }
    ],
+   "reference": "12_587",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 196,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 42,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-1.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-2.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-3.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-4.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-5.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-6.jpg"
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-6.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-7.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-8.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-9.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-10.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-11.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-12.jpg"
    ]
   },
   {
@@ -5559,6 +6682,28 @@
      ]
     }
    ],
+   "reference": "2_MAVAP130000883",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 191,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 780,
+    "depenses_max": 1100,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r-1.jpg",
     "assets/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r-2.jpg",
@@ -5687,13 +6832,35 @@
      ]
     }
    ],
+   "reference": "15_DLVDU170000876",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 234,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-1.jpg",
     "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-2.jpg",
     "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-3.jpg",
     "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-4.jpg",
     "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-5.jpg",
-    "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-6.jpg"
+    "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-6.jpg",
+    "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-7.jpg",
+    "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-8.jpg",
+    "assets/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage-9.jpg"
    ]
   },
   {
@@ -5824,6 +6991,28 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000867",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 109,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 4,
+     "classe": "A"
+    },
+    "depenses_min": 740,
+    "depenses_max": 1040,
+    "prix_energies": "00/00/0000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama-1.jpg",
     "assets/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama-2.jpg",
@@ -5955,13 +7144,41 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000846",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 133,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 4,
+     "classe": "A"
+    },
+    "depenses_min": 1050,
+    "depenses_max": 1470,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-1.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-2.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-3.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-4.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-5.jpg",
-    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-6.jpg"
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-6.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-7.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-8.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-9.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-10.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-11.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-12.jpg"
    ]
   },
   {
@@ -6084,13 +7301,39 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000844",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 157,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 6,
+     "classe": "B"
+    },
+    "depenses_min": 1140,
+    "depenses_max": 1580,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-1.jpg",
     "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-2.jpg",
     "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-3.jpg",
     "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-4.jpg",
     "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-5.jpg",
-    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-6.jpg"
+    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-6.jpg",
+    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-7.jpg",
+    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-8.jpg",
+    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-9.jpg",
+    "assets/annonces/a-vendre-beziers-appartement-de-cour-privative-10.jpg"
    ]
   },
   {
@@ -6178,13 +7421,24 @@
      ]
     }
    ],
+   "reference": "2_BBVCO30000842",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-1.jpg",
     "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-2.jpg",
     "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-3.jpg",
     "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-4.jpg",
     "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-5.jpg",
-    "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-6.jpg"
+    "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-6.jpg",
+    "assets/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu-7.jpg"
    ]
   },
   {
@@ -6316,13 +7570,41 @@
      ]
     }
    ],
+   "reference": "12_589",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 190,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 42,
+     "classe": "D"
+    },
+    "depenses_min": 1980,
+    "depenses_max": 2720,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-1.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-2.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-3.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-4.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-5.jpg",
-    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-6.jpg"
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-6.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-7.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-8.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-9.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-10.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-11.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-12.jpg"
    ]
   },
   {
@@ -6428,13 +7710,41 @@
      ]
     }
    ],
+   "reference": "2_BBV30000827",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 250,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 8,
+     "classe": "B"
+    },
+    "depenses_min": 1700,
+    "depenses_max": 2350,
+    "prix_energies": "01/01/2000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-1.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-2.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-3.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-4.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-5.jpg",
-    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-6.jpg"
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-6.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-7.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-8.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-9.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-10.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-11.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-12.jpg"
    ]
   },
   {
@@ -6566,6 +7876,28 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000823",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 183,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    }
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 50 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine-1.jpg",
     "assets/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine-2.jpg",
@@ -6684,13 +8016,29 @@
      ]
     }
    ],
+   "reference": "2_BBV30000797",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-1.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-2.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-3.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-4.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-5.jpg",
-    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-6.jpg"
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-6.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-7.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-8.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-9.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-10.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-11.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-12.jpg"
    ]
   },
   {
@@ -6793,13 +8141,37 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000793",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 194,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 6,
+     "classe": "B"
+    },
+    "depenses_min": 900,
+    "depenses_max": 1260,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-1.jpg",
     "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-2.jpg",
     "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-3.jpg",
     "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-4.jpg",
     "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-5.jpg",
-    "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-6.jpg"
+    "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-6.jpg",
+    "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-7.jpg",
+    "assets/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour-8.jpg"
    ]
   },
   {
@@ -6923,13 +8295,41 @@
      ]
     }
    ],
+   "reference": "2_BBVMA30000789",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 119,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 24,
+     "classe": "C"
+    },
+    "depenses_min": 2590,
+    "depenses_max": 3570,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-1.jpg",
     "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-2.jpg",
     "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-3.jpg",
     "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-4.jpg",
     "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-5.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-6.jpg"
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-6.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-7.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-8.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-9.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-10.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-11.jpg",
+    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-12.jpg"
    ]
   },
   {
@@ -7035,13 +8435,29 @@
      ]
     }
    ],
+   "reference": "2_BBV30000787",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/ensemble-immobilier-de-6-lots-1.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-2.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-3.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-4.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-5.jpg",
-    "assets/annonces/ensemble-immobilier-de-6-lots-6.jpg"
+    "assets/annonces/ensemble-immobilier-de-6-lots-6.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-7.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-8.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-9.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-10.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-11.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-12.jpg"
    ]
   },
   {
@@ -7111,6 +8527,16 @@
      ]
     }
    ],
+   "reference": "12_518",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/uzes-terrain-840m2-viabilise-1.jpg",
     "assets/annonces/uzes-terrain-840m2-viabilise-2.jpg",
@@ -7230,13 +8656,36 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000759",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 414,
+     "classe": "F"
+    },
+    "ges": {
+     "valeur": 13,
+     "classe": "C"
+    },
+    "depenses_min": 1070,
+    "depenses_max": 1500,
+    "prix_energies": "01/01/2023"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-1.jpg",
     "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-2.jpg",
     "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-3.jpg",
     "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-4.jpg",
     "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-5.jpg",
-    "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-6.jpg"
+    "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-6.jpg",
+    "assets/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem-7.jpg"
    ]
   },
   {
@@ -7372,13 +8821,41 @@
      ]
     }
    ],
+   "reference": "2_BBVVI30000726",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 100,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 12,
+     "classe": "C"
+    },
+    "depenses_min": 3120,
+    "depenses_max": 4300,
+    "prix_energies": "01/01/2024"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-1.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-2.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-3.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-4.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-5.jpg",
-    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-6.jpg"
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-6.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-7.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-8.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-9.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-10.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-11.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-12.jpg"
    ]
   },
   {
@@ -7452,6 +8929,16 @@
      ]
     }
    ],
+   "reference": "2_BBVTE30000725",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/terrain-constructible-de-1-470-m2-a-villedubert-1.jpg",
     "assets/annonces/terrain-constructible-de-1-470-m2-a-villedubert-2.jpg",
@@ -7562,13 +9049,41 @@
      ]
     }
    ],
+   "reference": "15_DLVMA170000721",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 218,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    },
+    "depenses_min": 1660,
+    "depenses_max": 2280,
+    "prix_energies": "01/01/2000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-1.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-2.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-3.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-4.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-5.jpg",
-    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-6.jpg"
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-6.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-7.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-8.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-9.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-10.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-11.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-12.jpg"
    ]
   },
   {
@@ -7683,13 +9198,40 @@
      ]
     }
    ],
+   "reference": "2_BBV30000707",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 181,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 920,
+    "depenses_max": 1290,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-1.jpg",
     "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-2.jpg",
     "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-3.jpg",
     "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-4.jpg",
     "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-5.jpg",
-    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-6.jpg"
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-6.jpg",
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-7.jpg",
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-8.jpg",
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-9.jpg",
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-10.jpg",
+    "assets/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee-11.jpg"
    ]
   },
   {
@@ -7807,13 +9349,38 @@
      ]
     }
    ],
+   "reference": "15_DLVAP170000704",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 134,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 4,
+     "classe": "A"
+    },
+    "depenses_min": 890,
+    "depenses_max": 1240,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-1.jpg",
     "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-2.jpg",
     "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-3.jpg",
     "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-4.jpg",
     "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-5.jpg",
-    "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-6.jpg"
+    "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-6.jpg",
+    "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-7.jpg",
+    "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-8.jpg",
+    "assets/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a-9.jpg"
    ]
   },
   {
@@ -7883,13 +9450,27 @@
      ]
     }
    ],
+   "reference": "2_BBVTE30000685",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/terrain-constructible-de-3000m2-a-floure-1.jpg",
     "assets/annonces/terrain-constructible-de-3000m2-a-floure-2.jpg",
     "assets/annonces/terrain-constructible-de-3000m2-a-floure-3.jpg",
     "assets/annonces/terrain-constructible-de-3000m2-a-floure-4.jpg",
     "assets/annonces/terrain-constructible-de-3000m2-a-floure-5.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-6.jpg"
+    "assets/annonces/terrain-constructible-de-3000m2-a-floure-6.jpg",
+    "assets/annonces/terrain-constructible-de-3000m2-a-floure-7.jpg",
+    "assets/annonces/terrain-constructible-de-3000m2-a-floure-8.jpg",
+    "assets/annonces/terrain-constructible-de-3000m2-a-floure-9.jpg",
+    "assets/annonces/terrain-constructible-de-3000m2-a-floure-10.jpg"
    ]
   },
   {
@@ -7975,13 +9556,41 @@
      ]
     }
    ],
+   "reference": "2_MAV130000581",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 169,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 620,
+    "depenses_max": 880,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/immeuble-de-rapport-1.jpg",
     "assets/annonces/immeuble-de-rapport-2.jpg",
     "assets/annonces/immeuble-de-rapport-3.jpg",
     "assets/annonces/immeuble-de-rapport-4.jpg",
     "assets/annonces/immeuble-de-rapport-5.jpg",
-    "assets/annonces/immeuble-de-rapport-6.jpg"
+    "assets/annonces/immeuble-de-rapport-6.jpg",
+    "assets/annonces/immeuble-de-rapport-7.jpg",
+    "assets/annonces/immeuble-de-rapport-8.jpg",
+    "assets/annonces/immeuble-de-rapport-9.jpg",
+    "assets/annonces/immeuble-de-rapport-10.jpg",
+    "assets/annonces/immeuble-de-rapport-11.jpg",
+    "assets/annonces/immeuble-de-rapport-12.jpg"
    ]
   },
   {
@@ -8084,13 +9693,33 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000561",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 50,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-1.jpg",
     "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-2.jpg",
     "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-3.jpg",
     "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-4.jpg",
     "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-5.jpg",
-    "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-6.jpg"
+    "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-6.jpg",
+    "assets/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type-7.jpg"
    ]
   },
   {
@@ -8201,13 +9830,33 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000560",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 50,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-1.jpg",
     "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-2.jpg",
     "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-3.jpg",
     "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-4.jpg",
     "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-5.jpg",
-    "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-6.jpg"
+    "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-6.jpg",
+    "assets/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement-7.jpg"
    ]
   },
   {
@@ -8322,6 +9971,25 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000555",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 50,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit-1.jpg",
     "assets/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit-2.jpg",
@@ -8449,6 +10117,25 @@
      ]
     }
    ],
+   "reference": "6_RFVAP70000537",
+   "agent": {
+    "nom": "NICOLAS POPOVITCH",
+    "email": "nicolas.immobilier.company@gmail.com",
+    "telephone": "0672808663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 50,
+     "classe": "A"
+    },
+    "ges": {
+     "valeur": 1,
+     "classe": "A"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec-1.jpg",
     "assets/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec-2.jpg",
@@ -8576,13 +10263,41 @@
      ]
     }
    ],
+   "reference": "15_DLLAP170000503",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 145,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 31,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 75 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-1.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-2.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-3.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-4.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-5.jpg",
-    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-6.jpg"
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-6.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-7.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-8.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-9.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-10.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-11.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-12.jpg"
    ]
   },
   {
@@ -8660,6 +10375,19 @@
      ]
     }
    ],
+   "reference": "2_BBLCO30000383",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [
+    "Hors charges, montant des charges non communiqué",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/local-commercial-zone-commercial-capendu-1.jpg",
     "assets/annonces/local-commercial-zone-commercial-capendu-2.jpg",
@@ -8750,13 +10478,30 @@
      ]
     }
    ],
+   "reference": "15_DLLCO170000377",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [
+    "Charges comprises, dont 75 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-1.jpg",
     "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-2.jpg",
     "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-3.jpg",
     "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-4.jpg",
     "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-5.jpg",
-    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-6.jpg"
+    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-6.jpg",
+    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-7.jpg",
+    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-8.jpg",
+    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-9.jpg",
+    "assets/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil-10.jpg"
    ]
   },
   {
@@ -8826,6 +10571,16 @@
      ]
     }
    ],
+   "reference": "2_BBVTE30000371",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/terrain-de-loisir-a-proximite-des-habitations-1.jpg",
     "assets/annonces/terrain-de-loisir-a-proximite-des-habitations-2.jpg",
@@ -8936,13 +10691,38 @@
      ]
     }
    ],
+   "reference": "15_DLVMA170000347",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 226,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 7,
+     "classe": "B"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-1.jpg",
     "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-2.jpg",
     "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-3.jpg",
     "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-4.jpg",
     "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-5.jpg",
-    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-6.jpg"
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-6.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-7.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-8.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-9.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-10.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-11.jpg",
+    "assets/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7-12.jpg"
    ]
   },
   {
@@ -9046,13 +10826,41 @@
      ]
     }
    ],
+   "reference": "12_329",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 200,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 30,
+     "classe": "D"
+    },
+    "depenses_min": 1150,
+    "depenses_max": 1990,
+    "prix_energies": "01/01/2000"
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-1.jpg",
     "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-2.jpg",
     "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-3.jpg",
     "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-4.jpg",
     "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-5.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-6.jpg"
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-6.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-7.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-8.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-9.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-10.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-11.jpg",
+    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-12.jpg"
    ]
   },
   {
@@ -9126,6 +10934,19 @@
      ]
     }
    ],
+   "reference": "2_BBLCO30000256",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [
+    "Charges comprises, dont 50 € de charges récupérables",
+    "Location non meublée"
+   ],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba-1.jpg",
     "assets/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba-2.jpg",
@@ -9215,13 +11036,28 @@
      ]
     }
    ],
+   "reference": "2_BBV30000249",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-1.jpg",
     "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-2.jpg",
     "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-3.jpg",
     "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-4.jpg",
     "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-5.jpg",
-    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-6.jpg"
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-6.jpg",
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-7.jpg",
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-8.jpg",
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-9.jpg",
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-10.jpg",
+    "assets/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux-11.jpg"
    ]
   },
   {
@@ -9289,13 +11125,38 @@
      ]
     }
    ],
+   "reference": "2_MAVIM130000208",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 132,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 39,
+     "classe": "D"
+    }
+   },
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-1.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-2.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-3.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-4.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-5.jpg",
-    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-6.jpg"
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-6.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-7.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-8.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-9.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-10.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-11.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-12.jpg"
    ]
   },
   {
@@ -9365,6 +11226,16 @@
      ]
     }
    ],
+   "reference": "2_BBVTE30000159",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/terrain-de-loisir-a-capendu-1.jpg"
    ]
@@ -9434,6 +11305,16 @@
      ]
     }
    ],
+   "reference": "12_328",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "schema": 2,
    "photos": [
     "assets/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ-1.jpg",
     "assets/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ-2.jpg"

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-
 
 **500 € par mois** · Narbonne · 38,2 m² · 1 salle d'eau/bain
 
- LOCATION 1 / 6
+ LOCATION 1 / 10
 
 ---
 

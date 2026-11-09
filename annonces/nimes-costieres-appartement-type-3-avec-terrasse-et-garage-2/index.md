@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-te
 
 **250 000 €** · Nîmes · 84 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 12
 
 ---
 

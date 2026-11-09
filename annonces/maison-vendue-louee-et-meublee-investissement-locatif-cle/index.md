@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissem
 
 **89 000 €** · Pezens · 81 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 6
+ VENTE 1 / 11
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-d
 
 **210 000 €** · Nîmes · 75,04 m² · 2 chambres
 
- VENTE 1 / 6
+ VENTE 1 / 8
 
 ---
 

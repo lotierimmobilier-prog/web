@@ -54,16 +54,22 @@ France
  PRIX
  25 000 €
 
+Réf. 2_BBVTE30000159
+
 - 1457 m²
 
+ **Barbara Bouba**Votre contact LOTIER Immobilier
+ [Appeler Barbara : 06 51 45 06 63](tel:+33651450663)
+ [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
- [04 67 11 28 31](tel:+33467112831)
+
+Standard de l’agence : [04 67 11 28 31](tel:+33467112831)
 
 Annonce proposée par LOTIER Immobilier.
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-## Biens à proximité
+## Les autres biens de Barbara
 
  VENTE
 
@@ -94,6 +100,48 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 85 000 €
+
+### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
+
+ Capendu · 122 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 38 500 €
+
+### Maison de village à rénover avec grange Capendu (11)
+
+ Capendu · 120 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 
