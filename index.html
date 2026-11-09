@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#eef3f9">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://lotier.immo/">
+  <link rel="alternate" type="text/markdown" href="https://lotier.immo/index.md">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="LOTIER Immobilier">
@@ -36,7 +37,10 @@
       }
     },
     {
-      "@type": "RealEstateAgent",
+      "@type": [
+        "RealEstateAgent",
+        "LocalBusiness"
+      ],
       "sameAs": [
         "https://www.facebook.com/lotierimmobilier",
         "https://www.instagram.com/lotierimmobilier"
@@ -44,20 +48,78 @@
       "@id": "https://lotier.immo/#agence",
       "name": "LOTIER Immobilier",
       "legalName": "SARL LOTIER",
+      "alternateName": "LOTIER",
       "url": "https://lotier.immo/",
       "logo": "https://lotier.immo/assets/lotier-logo.png",
       "image": "https://lotier.immo/assets/og-lotier.jpg",
-      "description": "Agence immobilière indépendante à Béziers, Montpellier et Nîmes : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers.",
       "telephone": "+33467112831",
       "email": "contact@lotier-immobilier.com",
       "foundingDate": "2018",
+      "slogan": "Votre bien, notre métier.",
+      "vatID": "FR21452117294",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SIRET",
+          "value": "45211729400044"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "RCS",
+          "value": "Béziers 452 117 294"
+        }
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "40 rue Française, 1er étage",
         "postalCode": "34500",
         "addressLocality": "Béziers",
+        "addressRegion": "Occitanie",
         "addressCountry": "FR"
       },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+33467112831",
+          "email": "contact@lotier-immobilier.com",
+          "availableLanguage": [
+            "fr"
+          ],
+          "areaServed": "FR"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de LOTIER Immobilier",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vente immobilière",
+              "url": "https://lotier.immo/vente/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Location et gestion locative",
+              "url": "https://lotier.immo/location/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Syndic de copropriété",
+              "url": "https://lotier.immo/syndic/"
+            }
+          }
+        ]
+      },
+      "description": "Agence immobilière indépendante à Béziers, Montpellier et Nîmes : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers.",
       "areaServed": [
         {
           "@type": "City",
@@ -405,11 +467,11 @@
           <p>Un conseiller compare votre bien aux ventes récentes de votre quartier et vous explique le prix du marché.</p>
           <p class="alt-call">Ou appelez-nous : <a href="tel:+33467112831">04 67 11 28 31</a></p>
         </div>
-        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t">
+        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t" toolname="demander_estimation" tooldescription="Demander une estimation gratuite de son bien à LOTIER Immobilier : un conseiller rappelle pour affiner avec une visite.">
           <div class="ph"><img src="assets/photos/cles.jpg" alt="Photo d&#x27;illustration : remise de clés d&#x27;un logement" width="1100" height="733" loading="lazy" decoding="async"></div>
           <h3 id="est-t">Demandez votre estimation</h3>
-          <div class="field"><label for="est-adresse">Adresse du bien</label><input id="est-adresse" type="text" autocomplete="street-address" placeholder="Ex. 12 rue Française, Béziers"></div>
-          <div class="field"><label for="est-tel">Votre téléphone</label><input id="est-tel" type="tel" autocomplete="tel" placeholder="06 00 00 00 00"></div>
+          <div class="field"><label for="est-adresse">Adresse du bien</label><input id="est-adresse" name="adresse" toolparamdescription="Adresse du bien à estimer" type="text" autocomplete="street-address" placeholder="Ex. 12 rue Française, Béziers"></div>
+          <div class="field"><label for="est-tel">Votre téléphone</label><input id="est-tel" name="telephone" toolparamdescription="Téléphone pour être rappelé" type="tel" autocomplete="tel" placeholder="06 00 00 00 00"></div>
           <button type="submit" class="btn btn-navy btn-lg btn-block">Demander mon estimation</button>
         </form>
       </div>
@@ -596,6 +658,7 @@
         </div>
         <nav aria-label="Nos villes"><h2>Nos villes</h2><a href="agence-immobiliere-beziers.html">Immobilier à Béziers</a><a href="agence-immobiliere-montpellier.html">Immobilier à Montpellier</a><a href="agence-immobiliere-nimes.html">Immobilier à Nîmes</a><a href="agence-immobiliere-carcassonne.html">Immobilier à Carcassonne</a><a href="agence-immobiliere-narbonne.html">Immobilier à Narbonne</a><a href="agence-immobiliere-avignon.html">Immobilier à Avignon</a><a href="agence-immobiliere-agde.html">Immobilier à Agde</a></nav>
         <nav aria-label="Notre site"><h2>Notre site</h2>
+          <a href="a-propos/">À propos</a>
           <a href="notre-service/">Notre service</a>
           <a href="plan-du-site.html">Plan du site</a>
           <a href="mentions-legales/">Mentions légales</a>
@@ -605,7 +668,7 @@
           <a href="accessibilite/">Déclaration d'accessibilité</a>
         </nav>
         <nav aria-label="Infos utiles"><h2>Infos utiles</h2>
-          <a href="#contact">Nous contacter</a>
+          <a href="contact/">Nous contacter</a>
           <a href="nos-agents/">Nos agents</a>
           <button type="button" class="foot-link" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">Trouver une agence</button>
           <a href="#estimer">Estimer mon bien</a>

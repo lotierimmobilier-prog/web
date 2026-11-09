@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "name": "lotier-immo",
+  "title": "LOTIER Immobilier",
+  "version": "1.0.0",
+  "description": "Serveur MCP en lecture seule : contenu public du site lotier.immo (agence immobilière à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, syndic).",
+  "websiteUrl": "https://lotier.immo/",
+  "protocolVersion": "2025-06-18",
+  "endpoint": "https://lotier.immo/mcp/",
+  "transport": { "type": "streamable-http", "endpoint": "https://lotier.immo/mcp/" },
+  "serverInfo": { "name": "lotier-immo", "title": "LOTIER Immobilier", "version": "1.0.0" },
+  "capabilities": { "tools": { "listChanged": false } },
+  "authentication": { "required": false },
+  "tools": [
+    { "name": "get_agency_info", "description": "Coordonnées et présentation de LOTIER Immobilier." },
+    { "name": "list_pages", "description": "Liste les pages publiques du site." },
+    { "name": "search_site", "description": "Recherche dans les pages publiques du site." },
+    { "name": "get_page", "description": "Contenu d'une page en Markdown à partir de son chemin." }
+  ],
+  "contact": { "email": "contact@lotier-immobilier.com", "url": "https://lotier.immo/contact/" }
+}

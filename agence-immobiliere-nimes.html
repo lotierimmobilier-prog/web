@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://lotier.immo/agence-immobiliere-nimes.html">
+  <link rel="alternate" type="text/markdown" href="https://lotier.immo/agence-immobiliere-nimes.md">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="LOTIER Immobilier">
@@ -48,7 +49,10 @@
   </script>
   <script type="application/ld+json">
 {
-  "@type": "RealEstateAgent",
+  "@type": [
+    "RealEstateAgent",
+    "LocalBusiness"
+  ],
   "sameAs": [
     "https://www.facebook.com/lotierimmobilier",
     "https://www.instagram.com/lotierimmobilier"
@@ -56,18 +60,76 @@
   "@id": "https://lotier.immo/#agence",
   "name": "LOTIER Immobilier",
   "legalName": "SARL LOTIER",
+  "alternateName": "LOTIER",
   "url": "https://lotier.immo/",
   "logo": "https://lotier.immo/assets/lotier-logo.png",
   "image": "https://lotier.immo/assets/og-lotier.jpg",
   "telephone": "+33467112831",
   "email": "contact@lotier-immobilier.com",
   "foundingDate": "2018",
+  "slogan": "Votre bien, notre métier.",
+  "vatID": "FR21452117294",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "SIRET",
+      "value": "45211729400044"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "RCS",
+      "value": "Béziers 452 117 294"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "40 rue Française, 1er étage",
     "postalCode": "34500",
     "addressLocality": "Béziers",
+    "addressRegion": "Occitanie",
     "addressCountry": "FR"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+33467112831",
+      "email": "contact@lotier-immobilier.com",
+      "availableLanguage": [
+        "fr"
+      ],
+      "areaServed": "FR"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services de LOTIER Immobilier",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Vente immobilière",
+          "url": "https://lotier.immo/vente/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Location et gestion locative",
+          "url": "https://lotier.immo/location/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Syndic de copropriété",
+          "url": "https://lotier.immo/syndic/"
+        }
+      }
+    ]
   },
   "@context": "https://schema.org",
   "areaServed": [
@@ -346,6 +408,7 @@
         </div>
         <nav aria-label="Nos villes"><h2>Nos villes</h2><a href="agence-immobiliere-beziers.html">Immobilier à Béziers</a><a href="agence-immobiliere-montpellier.html">Immobilier à Montpellier</a><a href="agence-immobiliere-nimes.html">Immobilier à Nîmes</a><a href="agence-immobiliere-carcassonne.html">Immobilier à Carcassonne</a><a href="agence-immobiliere-narbonne.html">Immobilier à Narbonne</a><a href="agence-immobiliere-avignon.html">Immobilier à Avignon</a><a href="agence-immobiliere-agde.html">Immobilier à Agde</a></nav>
         <nav aria-label="Notre site"><h2>Notre site</h2>
+          <a href="a-propos/">À propos</a>
           <a href="notre-service/">Notre service</a>
           <a href="plan-du-site.html">Plan du site</a>
           <a href="mentions-legales/">Mentions légales</a>
@@ -355,7 +418,7 @@
           <a href="accessibilite/">Déclaration d'accessibilité</a>
         </nav>
         <nav aria-label="Infos utiles"><h2>Infos utiles</h2>
-          <a href="index.html#contact">Nous contacter</a>
+          <a href="contact/">Nous contacter</a>
           <a href="nos-agents/">Nos agents</a>
           <button type="button" class="foot-link" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">Trouver une agence</button>
           <a href="index.html#estimer">Estimer mon bien</a>

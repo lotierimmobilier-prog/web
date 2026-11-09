@@ -1,5 +1,6 @@
 # LOTIER Immobilier : le site est ouvert aux moteurs de recherche et aux assistants IA.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Robots d'indexation et de recherche des assistants IA
