@@ -1,4 +1,4 @@
-import json, html, os, sys
+import json, html, os, sys, re
 from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common as C
@@ -7,8 +7,21 @@ def avis_google_section():
     """Carrousel des avis Google (data/avis-google.json). Aucun avis dans le fichier = aucune section : jamais de faux avis ni de texte à remplir."""
     d = json.load(open(f"{C.ROOT}/data/avis-google.json", encoding="utf-8"))
     avis = [x for x in d.get("avis", []) if x.get("texte") and x.get("auteur")]
-    if not avis: return ""
     e = C.e
+    w = d.get("widget") or {}
+    if not avis:
+        if w.get("type") in ("trustindex", "elfsight") and re.fullmatch(r"[A-Za-z0-9_-]{6,64}", str(w.get("id", ""))):
+            # Widget d'un service tiers (mise à jour automatique) : rien n'est chargé avant le clic du visiteur.
+            lien = d.get("lien") or "#avis"
+            return f'''    <section class="section container" id="avis" aria-labelledby="t-avis">
+      <div class="section-head" data-r><div class="stack-3"><span class="label">Avis clients</span><h2 class="title" id="t-avis">Ils nous ont fait confiance</h2></div></div>
+      <div class="avis-widget glass" data-avis-widget data-type="{w["type"]}" data-id="{e(str(w["id"]))}">
+        <p class="muted">Les avis Google de nos clients sont affichés par un service externe, qui peut déposer ses propres cookies. Ils ne se chargent qu'avec votre accord.</p>
+        <button type="button" class="btn btn-navy btn-lg" data-avis-load>Afficher les avis Google</button>
+        <a class="text-link" href="{e(lien)}" target="_blank" rel="noopener noreferrer">Voir la fiche Google de LOTIER</a>
+      </div>
+    </section>'''
+        return ""
     cartes = ""
     for x in avis:
         n = max(1, min(5, int(x.get("note") or 5)))

@@ -1087,3 +1087,4 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .avis-card blockquote { margin: 0; font-size: 17px; font-weight: 500; line-height: 1.5; letter-spacing: -0.01em; }
 .avis-note { margin: 4px 0 0; font-size: 14px; }
 .avis-track { align-items: stretch; } .avis-card { align-self: stretch; }
+.avis-widget { padding: 24px; display: grid; gap: 14px; justify-items: start; } .avis-widget.is-loaded { display: block; padding: 8px; }

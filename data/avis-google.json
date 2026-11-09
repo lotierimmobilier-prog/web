@@ -2,5 +2,7 @@
   "_note": "Avis Google de LOTIER Immobilier, affichés en carrousel sur l'accueil. Ne mettre ici que de VRAIS avis, recopiés tels quels (auteur, note, date, texte) ; tant que la liste « avis » est vide, la section n'est pas affichée (aucun faux avis, aucun texte à remplir sur le site).",
   "lien": "https://www.google.com/maps/place//@43.3439672,3.2138686,17z/data=!3m1!4b1!4m3!3m2!1s0x12b10f96e79720fd:0xb469d67164930413!12e1",
   "note": 4.7,
-  "avis": []
+  "avis": [],
+  "_widget": "Avis automatiques via un service tiers : {\"type\":\"trustindex\",\"id\":\"<identifiant après loader.js?>\"} ou {\"type\":\"elfsight\",\"id\":\"<identifiant de l'app Elfsight>\"}. Chargé SEULEMENT après un clic du visiteur (aucun script tiers au chargement de la page). Des avis saisis dans « avis » ont priorité sur le widget.",
+  "widget": null
 }
