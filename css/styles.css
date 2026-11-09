@@ -163,13 +163,13 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 @keyframes litw { from { opacity: 0.55; } to { opacity: 1; } }
 .iso-photo { position: relative; line-height: 0; cursor: pointer; aspect-ratio: 1; width: 86%; max-width: 600px; margin-right: auto; }
 .hero:has(.iso-photo)::before { display: none; }
-.iso-photo { --tilt: -12deg; }
+.iso-photo { --tilt: 12deg; }
 .iso-photo::after { content: ""; position: absolute; inset: 0; background: url(../assets/croix-occitane-contour.svg) center / contain no-repeat; pointer-events: none; transform: rotate(var(--tilt)); }
 .iso-photo .pcross { position: absolute; inset: 0; overflow: hidden; -webkit-mask: url(../assets/croix-occitane.svg) center / contain no-repeat; mask: url(../assets/croix-occitane.svg) center / contain no-repeat; }
-.iso-photo .pstage { position: absolute; top: -11%; height: 122%; aspect-ratio: 1100 / 768; left: -45.3%; transform-origin: 54.5% 50%; transform: rotate(calc(var(--tilt) * -1)); }
-.iso-photo .pcross { transform: rotate(var(--tilt)); }
-@keyframes croix-in { from { transform: rotate(calc(var(--tilt) - 40deg)) scale(0.82); opacity: 0; } to { transform: rotate(var(--tilt)); opacity: 1; } }
-@keyframes croix-in-c { from { transform: rotate(calc((var(--tilt) - 40deg) * -1)); } to { transform: rotate(calc(var(--tilt) * -1)); } }
+.iso-photo .pstage { position: absolute; top: 1.2%; height: 86%; aspect-ratio: 1100 / 768; left: -17.5%; transform-origin: 54.8% 56.7%; transform: rotate(calc(var(--tilt) * -1)); -webkit-mask-image: linear-gradient(to bottom, #000 90%, transparent); mask-image: linear-gradient(to bottom, #000 90%, transparent); }
+.iso-photo .pcross { transform: rotate(var(--tilt)); background: linear-gradient(to bottom, #7482b1 0%, #7482b1 45%, #2a3447 100%); }
+@keyframes croix-in { from { transform: rotate(calc(var(--tilt) + 40deg)) scale(0.82); opacity: 0; } to { transform: rotate(var(--tilt)); opacity: 1; } }
+@keyframes croix-in-c { from { transform: rotate(calc((var(--tilt) + 40deg) * -1)); } to { transform: rotate(calc(var(--tilt) * -1)); } }
 .go .iso-photo::after, .go .iso-photo .pcross { animation: croix-in 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
 .go .iso-photo .pstage { animation: croix-in-c 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
 @media (prefers-reduced-motion: reduce) { .go .iso-photo::after, .go .iso-photo .pcross, .go .iso-photo .pstage { animation: none; } }
