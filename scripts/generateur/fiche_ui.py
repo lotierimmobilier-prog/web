@@ -2,7 +2,7 @@
 """Blocs de présentation d'une fiche d'annonce (style « portail » : mosaïque, infos-clés, atouts, détail du prix, bilan énergie, partenaire).
 Fonctions pures : elles reçoivent les données d'une annonce et rendent du HTML ; aucune écriture de fichier."""
 import re as _re
-from common import e
+from common import e, COLLAB_RAPPEL
 
 NB = " "
 PAPERNEST = ("https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7"
@@ -149,3 +149,36 @@ def vignettes(photos, title, p2, max_n=2):
         out += (f'<button type="button" class="ann-tile" data-gal-goto="{k}" aria-label="Voir la photo {k + 1} sur {n}">'
                 f'<img src="{p2}{photos[k]}" alt="" width="480" height="360" loading="lazy" decoding="async">{plus}</button>')
     return f'<div class="ann-tiles">{out}</div>'
+
+
+# ---------- « Être rappelé » : fenêtre de demande, envoyée à Collab (tâche chez l'agent de l'annonce) ----------
+RAPPEL_CONSENTEMENT = ("J’accepte que LOTIER Immobilier utilise ces informations pour me rappeler au sujet de ce bien. "
+                       "Elles sont conservées 3 ans au plus ; vous pouvez y accéder, les corriger ou les faire supprimer (voir")
+
+def rappel_bloc(a, agent_prenom, p2, url):
+    """La fenêtre (dialog) du formulaire. Sans JavaScript, le bouton qui l'ouvre mène à la page Contact."""
+    ag = a.get("agent") or {}
+    cible = f" {e(agent_prenom)}" if agent_prenom else " un conseiller"
+    donnees = (f'data-endpoint="{e(COLLAB_RAPPEL)}" data-ref="{e(a.get("reference") or "")}" data-titre="{e(a.get("titre") or "")}" '
+               f'data-url="{e(url)}" data-agent="{e(ag.get("email") or "")}" data-agent-prenom="{e(agent_prenom or "")}"')
+    return (f'<dialog class="rappel" id="rappel" aria-labelledby="rappel-t" {donnees}>'
+            f'<form class="rappel-form" method="dialog" novalidate>'
+            f'<button type="button" class="rappel-x" data-rappel-close aria-label="Fermer">{_ico(chr(77)+"6 6l12 12M18 6 6 18")}</button>'
+            f'<h2 id="rappel-t">Être rappelé{(" par " + e(agent_prenom)) if agent_prenom else ""}</h2>'
+            f'<p class="muted">Laissez vos coordonnées : {cible.strip()} vous rappelle rapidement au sujet de ce bien.</p>'
+            f'<div class="rappel-grid">'
+            f'<label>Prénom<input name="prenom" autocomplete="given-name" required maxlength="60"></label>'
+            f'<label>Nom<input name="nom" autocomplete="family-name" required maxlength="80"></label>'
+            f'<label>Téléphone<input name="telephone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="30" placeholder="06 12 34 56 78"></label>'
+            f'<label>E-mail <span class="muted">(facultatif)</span><input name="email" type="email" autocomplete="email" maxlength="160"></label>'
+            f'</div>'
+            f'<label class="rappel-msg">Message <span class="muted">(facultatif)</span><textarea name="message" rows="3" maxlength="1500" placeholder="Vos disponibilités, une question sur le bien…"></textarea></label>'
+            f'<div class="rappel-piege" aria-hidden="true"><label>Ne pas remplir<input name="site" tabindex="-1" autocomplete="off"></label></div>'
+            f'<label class="rappel-ok"><input type="checkbox" name="consentement" required><span>{RAPPEL_CONSENTEMENT} <a class="text-link" href="{p2}lotier-rgpd/">notre politique de protection des données</a>).</span></label>'
+            f'<p class="rappel-err" role="alert" hidden></p>'
+            f'<div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg">Je souhaite être rappelé</button>'
+            f'<a class="btn btn-ghost btn-lg" href="tel:{{PHONE}}">Ou appelez-nous</a></div>'
+            f'</form>'
+            f'<div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p>{cible.strip().capitalize() if False else "Votre conseiller"} vous rappelle rapidement.</p>'
+            f'<button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>'
+            f'</dialog>')

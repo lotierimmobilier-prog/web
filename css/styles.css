@@ -1079,3 +1079,11 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .f-lock { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; margin-left: 8px; vertical-align: middle; border-radius: 999px; color: var(--mut); opacity: .55; transition: opacity .2s, color .2s, background .2s; }
 .f-lock:hover, .f-lock:focus-visible { opacity: 1; color: var(--navy); background: rgba(15, 39, 68, .07); }
 .f-lock svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Avis Google en carrousel */
+.avis-track > * { flex: 0 0 clamp(270px, 30vw, 390px); }
+.avis-card { align-content: start; }
+.avis-card .stars { color: #e5a50a; letter-spacing: 2px; font-size: 18px; }
+.avis-card blockquote { margin: 0; font-size: 17px; font-weight: 500; line-height: 1.5; letter-spacing: -0.01em; }
+.avis-note { margin: 4px 0 0; font-size: 14px; }
+.avis-track { align-items: stretch; } .avis-card { align-self: stretch; }
