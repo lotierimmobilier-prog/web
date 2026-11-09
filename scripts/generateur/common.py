@@ -127,6 +127,70 @@ def blog_index(prefix): return f"{prefix}blog/index.html"
 # ---------- En-tête, pied de page, coque de page ----------
 LOGO_FN = lambda prefix: f'<img src="{prefix}assets/lotier-logo.png" alt="LOTIER Immobilier" width="165" height="56">'
 
+# ---------- Avis Google : note de la barre du haut + fenêtre « lire / laisser un avis » ----------
+def _avis_cfg():
+    try:
+        d = json.load(open(f"{ROOT}/data/avis-google.json", encoding="utf-8"))
+    except (OSError, ValueError):
+        d = {}
+    lien = d.get("lien") or ""
+    # Lien direct « laisser un avis » s'il est fourni (Google Business Profile → « Demander des avis ») ; à défaut, la fiche Google
+    # de l'agence, d'où l'on choisit « Rédiger un avis » (l'identifiant de fiche est lu dans l'adresse Maps ; rien n'est inventé).
+    m = re.search(r"0x[0-9a-f]+:0x([0-9a-f]+)", lien)
+    fiche = f"https://www.google.com/maps?cid={int(m.group(1), 16)}" if m else lien
+    note = f'{d["note"]:g}'.replace(".", ",") if d.get("note") else "4,7"
+    return {"lire": lien or fiche, "ecrire": d.get("lien_avis") or fiche, "direct": bool(d.get("lien_avis")), "note": note}
+
+AVIS = _avis_cfg()
+
+def avis_dialog():
+    n = AVIS["note"]
+    aide = "" if AVIS["direct"] else '<p class="small muted">Sur la fiche Google, choisissez « Rédiger un avis ».</p>'
+    return (f'''  <dialog class="rappel" id="avis-dlg" aria-labelledby="avis-t">
+    <div class="rappel-fait avis-pop">
+      <button type="button" class="rappel-x" data-avis-close aria-label="Fermer">{CLOSE}</button>
+      <span class="stars avis-pop-stars" role="img" aria-label="Note Google : {n} sur 5">★★★★★</span>
+      <h2 id="avis-t">{n}/5 sur Google</h2>
+      <p class="muted">Découvrez ce que nos clients disent de LOTIER Immobilier, ou partagez votre propre expérience : votre avis aide les prochains propriétaires, acquéreurs et locataires.</p>
+      <div class="rappel-act">
+        <a class="btn btn-gold btn-lg" href="{e(AVIS['ecrire'])}" target="_blank" rel="noopener noreferrer">Laisser un avis</a>
+        <a class="btn btn-ghost btn-lg" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer">Lire les avis</a>
+      </div>
+      {aide}
+      <p class="small muted">Les liens s’ouvrent sur Google, dans un nouvel onglet.</p>
+    </div>
+  </dialog>
+''')
+
+CONTACT_CONSENTEMENT = ("J’accepte que LOTIER Immobilier utilise ces informations pour me recontacter au sujet de ma demande. "
+                        "Elles sont conservées 3 ans au plus et réservées à nos conseillers (voir ")
+
+def contact_dialog(prefix):
+    """Fenêtre unique de contact (« Être rappelé » sur une fiche, « Écrire à l'agence » partout) : le JavaScript l'adapte au bouton qui l'ouvre.
+    Sans JavaScript, chaque bouton reste un lien ordinaire vers la page Contact."""
+    return (f'''  <dialog class="rappel" id="contact-dlg" aria-labelledby="rappel-t" data-endpoint="{e(COLLAB_RAPPEL)}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
+    <form class="rappel-form" novalidate>
+      <button type="button" class="rappel-x" data-rappel-close aria-label="Fermer">{CLOSE}</button>
+      <h2 id="rappel-t" data-rappel-titre>Être rappelé</h2>
+      <p class="muted" data-rappel-intro></p>
+      <div class="rappel-grid">
+        <label>Prénom<input name="prenom" autocomplete="given-name" required maxlength="60"></label>
+        <label>Nom<input name="nom" autocomplete="family-name" required maxlength="80"></label>
+        <label><span>Téléphone <span class="muted" data-opt-tel></span></span><input name="telephone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" placeholder="06 12 34 56 78"></label>
+        <label><span>E-mail <span class="muted" data-opt-mail>(facultatif)</span></span><input name="email" type="email" autocomplete="email" maxlength="160"></label>
+      </div>
+      <label class="rappel-msg"><span>Message <span class="muted" data-opt-msg>(facultatif)</span></span><textarea name="message" rows="4" maxlength="1500"></textarea></label>
+      <div class="rappel-piege" aria-hidden="true"><label>Ne pas remplir<input name="site" tabindex="-1" autocomplete="off"></label></div>
+      <label class="rappel-ok"><input type="checkbox" name="consentement"><span>{CONTACT_CONSENTEMENT}<a class="text-link" href="{prefix}lotier-rgpd/">notre politique de protection des données</a>).</span></label>
+      <p class="rappel-err" role="alert" hidden></p>
+      <div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg" data-rappel-envoi>Envoyer</button>
+        <a class="btn btn-ghost btn-lg" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></div>
+    </form>
+    <div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p data-rappel-merci></p>
+      <button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>
+  </dialog>
+''')
+
 def chat_widget(prefix):
     return f'''  <div class="chat" id="chat" data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
     <button type="button" class="chat-fab" data-chat-open aria-haspopup="dialog" aria-controls="chat-panel" aria-expanded="false">
@@ -252,7 +316,7 @@ def header(prefix, home=False, cta=None):
     cta_label, cta_href = cta[:2] if cta else ("Estimer mon bien", a("#estimer"))
     return f'''  <div class="topbar">
     <div class="container">
-      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><span class="tb-rate" role="img" aria-label="Note Google : 4,7 sur 5"><span class="stars" aria-hidden="true">★★★★★</span> <b>4,7/5</b> sur Google</span></span>
+      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="Note Google : {AVIS['note']} sur 5. Voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> sur Google</a></span>
       <div class="tb-r">
         <a class="tb-tel" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>
         <button type="button" class="tb-btn" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">{PIN}Nos agences</button>
@@ -407,7 +471,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
 
 {footer(prefix, home, cta)}
 {chat_widget(prefix)}
-  <script src="{prefix}js/main.js?v={V_JS}"></script>
+{contact_dialog(prefix)}{avis_dialog()}  <script src="{prefix}js/main.js?v={V_JS}"></script>
 </body>
 </html>
 '''

@@ -238,16 +238,19 @@ def detail_page(a, tous=()):
     notes = "".join(f"<li>{e(m)}</li>" for m in notes_l)
     cles = F.cles_bloc(a, vals); atouts = F.atouts_bloc(vals); carac = F.caracteristiques_bloc(a.get("blocs")); prix_det = F.prix_bloc(a, vals, price, notes_l)
     ref = f'<p class="ann-ref muted small">Réf. {e(a["reference"])}</p>' if a.get("reference") else ""
+    rappel_attrs = (f'data-contact-open="rappel" data-ref="{e(a.get("reference") or "")}" data-titre="{e(title)}" '
+                    f'data-url="{SITE}/annonces/{a["id"]}/" data-agent="{e(ag.get("email") or "")}" '
+                    f'data-agent-prenom="{e(_nom(ag["nom"]).split(" ")[0]) if ag.get("nom") else ""}"')
     if ag.get("nom"):
         prenom = _nom(ag["nom"]).split(" ")[0]
         appel = f'<a class="btn btn-gold btn-lg btn-block mag ann-call" href="tel:{tel[1]}">{PH}<span class="ann-call-txt"><span>Appeler {e(prenom)}</span><strong>{tel[0]}</strong></span></a>' if tel else ""
         mail = f'<a class="ann-mail" href="mailto:{e(ag["email"])}">{e(ag["email"])}</a>' if ag.get("email") else ""
         agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{e(_initiales(ag["nom"]))}</span><div><strong>{e(_nom(ag["nom"]))}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'
-                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/">Être rappelé {ARROW}</a>\n'
+                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <p class="muted small">Standard de l’agence : <a class="text-link" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>')
     else:
-        agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/">Être rappelé {ARROW}</a>\n'
+        agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')
     body = f'''    <section class="page-hero ann-hero">
       <div class="container">
@@ -266,6 +269,7 @@ def detail_page(a, tous=()):
           {carac}
           {prix_det}
           {diag}
+          {F.simulation_bloc(a)}
           {F.partenaire_bloc()}
           {legal}
         </div>

@@ -1,0 +1,10 @@
+{
+  "_note": "Paramètres par défaut de la simulation « Estimer mon financement » des fiches de vente. À mettre à jour quand les taux changent. Les formules sont celles de la boîte à outils de Collab (src/lib/outils-financiers.ts).",
+  "taux_credit": 3.31,
+  "taux_assurance": 0.3,
+  "duree_ans": 20,
+  "apport_pct": 20,
+  "droit_departemental": 0.045,
+  "debours": 1200,
+  "date_maj": "09/11/2026"
+}

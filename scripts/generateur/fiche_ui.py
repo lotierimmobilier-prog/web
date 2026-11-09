@@ -2,7 +2,9 @@
 """Blocs de présentation d'une fiche d'annonce (style « portail » : mosaïque, infos-clés, atouts, détail du prix, bilan énergie, partenaire).
 Fonctions pures : elles reçoivent les données d'une annonce et rendent du HTML ; aucune écriture de fichier."""
 import re as _re
-from common import e, COLLAB_RAPPEL
+from common import e
+import json as _json, os as _os
+from common import ROOT as _ROOT
 
 NB = " "
 PAPERNEST = ("https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7"
@@ -151,34 +153,41 @@ def vignettes(photos, title, p2, max_n=2):
     return f'<div class="ann-tiles">{out}</div>'
 
 
-# ---------- « Être rappelé » : fenêtre de demande, envoyée à Collab (tâche chez l'agent de l'annonce) ----------
-RAPPEL_CONSENTEMENT = ("J’accepte que LOTIER Immobilier utilise ces informations pour me rappeler au sujet de ce bien. "
-                       "Elles sont conservées 3 ans au plus ; vous pouvez y accéder, les corriger ou les faire supprimer (voir")
+# ---------- Simulation : frais de notaire + crédit (mêmes formules que la boîte à outils de Collab) ----------
+def _fin():
+    try: return _json.load(open(_os.path.join(_ROOT, "data", "financement.json"), encoding="utf-8"))
+    except (OSError, ValueError): return {}
 
-def rappel_bloc(a, agent_prenom, p2, url):
-    """La fenêtre (dialog) du formulaire. Sans JavaScript, le bouton qui l'ouvre mène à la page Contact."""
-    ag = a.get("agent") or {}
-    cible = f" {e(agent_prenom)}" if agent_prenom else " un conseiller"
-    donnees = (f'data-endpoint="{e(COLLAB_RAPPEL)}" data-ref="{e(a.get("reference") or "")}" data-titre="{e(a.get("titre") or "")}" '
-               f'data-url="{e(url)}" data-agent="{e(ag.get("email") or "")}" data-agent-prenom="{e(agent_prenom or "")}"')
-    return (f'<dialog class="rappel" id="rappel" aria-labelledby="rappel-t" {donnees}>'
-            f'<form class="rappel-form" method="dialog" novalidate>'
-            f'<button type="button" class="rappel-x" data-rappel-close aria-label="Fermer">{_ico(chr(77)+"6 6l12 12M18 6 6 18")}</button>'
-            f'<h2 id="rappel-t">Être rappelé{(" par " + e(agent_prenom)) if agent_prenom else ""}</h2>'
-            f'<p class="muted">Laissez vos coordonnées : {cible.strip()} vous rappelle rapidement au sujet de ce bien.</p>'
-            f'<div class="rappel-grid">'
-            f'<label>Prénom<input name="prenom" autocomplete="given-name" required maxlength="60"></label>'
-            f'<label>Nom<input name="nom" autocomplete="family-name" required maxlength="80"></label>'
-            f'<label>Téléphone<input name="telephone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="30" placeholder="06 12 34 56 78"></label>'
-            f'<label>E-mail <span class="muted">(facultatif)</span><input name="email" type="email" autocomplete="email" maxlength="160"></label>'
+def _fr(x, d=2):
+    s = f"{x:.{d}f}".rstrip("0").rstrip(".") if d else f"{x:.0f}"
+    return s.replace(".", ",")
+
+def simulation_bloc(a):
+    """Bloc « Estimer mon financement » d'une fiche de VENTE : frais de notaire et crédit, calculés dans la page (aucun envoi de données)."""
+    prix = a.get("prix") or 0
+    if a.get("type") != "vente" or prix < 1000: return ""
+    f = _fin()
+    apport = int(round(prix * (f.get("apport_pct", 20) / 100) / 1000.0) * 1000)
+    dep = f.get("droit_departemental", 0.045)
+    return (f'<section class="ann-card ann-sim" id="simulation" aria-labelledby="ann-h-sim" data-sim data-prix="{int(prix)}" data-debours="{int(f.get("debours", 1200))}">'
+            f'<h2 id="ann-h-sim">Estimer mon financement</h2>'
+            f'<p class="muted">Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.</p>'
+            f'<div class="sim-champs">'
+            f'<label>Apport personnel (€)<input type="text" inputmode="numeric" data-sim-apport value="{apport}" autocomplete="off"></label>'
+            f'<label><span>Durée du crédit : <output data-sim-duree-out>{int(f.get("duree_ans", 20))}</output> ans</span><input type="range" min="7" max="30" step="1" value="{int(f.get("duree_ans", 20))}" data-sim-duree></label>'
+            f'<label>Taux du crédit (% par an)<input type="text" inputmode="decimal" data-sim-taux value="{_fr(f.get("taux_credit", 3.31))}" autocomplete="off"></label>'
+            f'<label>Assurance emprunteur (% par an)<input type="text" inputmode="decimal" data-sim-assur value="{_fr(f.get("taux_assurance", 0.30))}" autocomplete="off"></label>'
+            f'<label>Type de bien<select data-sim-neuf><option value="0">Ancien</option><option value="1">Neuf</option></select></label>'
+            f'<label>Droit départemental<select data-sim-dep><option value="0.045"{" selected" if abs(dep - 0.045) < 1e-9 else ""}>4,5 %</option><option value="0.05"{" selected" if abs(dep - 0.05) < 1e-9 else ""}>5 %</option></select></label>'
             f'</div>'
-            f'<label class="rappel-msg">Message <span class="muted">(facultatif)</span><textarea name="message" rows="3" maxlength="1500" placeholder="Vos disponibilités, une question sur le bien…"></textarea></label>'
-            f'<div class="rappel-piege" aria-hidden="true"><label>Ne pas remplir<input name="site" tabindex="-1" autocomplete="off"></label></div>'
-            f'<label class="rappel-ok"><input type="checkbox" name="consentement" required><span>{RAPPEL_CONSENTEMENT} <a class="text-link" href="{p2}lotier-rgpd/">notre politique de protection des données</a>).</span></label>'
-            f'<p class="rappel-err" role="alert" hidden></p>'
-            f'<div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg">Je souhaite être rappelé</button>'
-            f'<a class="btn btn-ghost btn-lg" href="tel:{{PHONE}}">Ou appelez-nous</a></div>'
-            f'</form>'
-            f'<div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p>{cible.strip().capitalize() if False else "Votre conseiller"} vous rappelle rapidement.</p>'
-            f'<button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>'
-            f'</dialog>')
+            f'<div class="sim-res" aria-live="polite">'
+            f'<div class="sim-col"><span class="sim-tag">Frais de notaire estimés</span><strong class="sim-big" data-sim-notaire>—</strong><span class="muted small" data-sim-notaire-pct></span>'
+            f'<ul class="sim-liste"><li><span>Émoluments du notaire (TTC)</span><b data-sim-emol>—</b></li><li><span>Droits et taxes (État, département, commune)</span><b data-sim-droits>—</b></li><li><span>Sécurité immobilière et débours</span><b data-sim-autres>—</b></li></ul></div>'
+            f'<div class="sim-col"><span class="sim-tag">Votre crédit</span><strong class="sim-big" data-sim-mens>—</strong><span class="muted small">par mois, assurance comprise</span>'
+            f'<ul class="sim-liste"><li><span>Montant emprunté</span><b data-sim-emprunt>—</b></li><li><span>Intérêts</span><b data-sim-interets>—</b></li><li><span>Assurance</span><b data-sim-assurtot>—</b></li><li><span>Coût total du crédit</span><b data-sim-cout>—</b></li></ul></div>'
+            f'</div>'
+            f'<p class="sim-budget" data-sim-budget></p>'
+            f'<p class="sim-mentions small muted">Estimation indicative et non contractuelle, calculée avec des paramètres par défaut ({_fr(f.get("taux_credit", 3.31))} % sur {int(f.get("duree_ans", 20))} ans, valeurs du {e(f.get("date_maj", ""))}) : elle ne constitue ni une offre de prêt ni un conseil en financement. '
+            f'Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. '
+            f'Pour une offre personnalisée, contactez votre banque ou un courtier.</p>'
+            f'</section>')

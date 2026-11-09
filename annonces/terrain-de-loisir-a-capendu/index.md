@@ -42,6 +42,21 @@ Non
 - Prix **25 000 €***Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
+## Estimer mon financement
+
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€)Durée du crédit : 20 ans Taux du crédit (% par an)Assurance emprunteur (% par an)Type de bien Droit départemental Frais de notaire estimés **—**
+
+- Émoluments du notaire (TTC) **—**
+- Droits et taxes (État, département, commune) **—**
+- Sécurité immobilière et débours **—**
+ Votre crédit **—**par mois, assurance comprise
+
+- Montant emprunté **—**
+- Intérêts **—**
+- Assurance **—**
+- Coût total du crédit **—**
+
+Estimation indicative et non contractuelle, calculée avec des paramètres par défaut (3,31 % sur 20 ans, valeurs du 09/11/2026) : elle ne constitue ni une offre de prêt ni un conseil en financement. Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Pour une offre personnalisée, contactez votre banque ou un courtier.
  Lien partenaire
 
 ## Un nouveau logement, de nouveaux abonnements ?

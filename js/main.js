@@ -805,3 +805,196 @@
     box.innerHTML = ''; box.classList.add('is-loaded'); box.appendChild(zone); zone.appendChild(s);
   });
 })();
+
+// ----- Formulaire de contact : « Être rappelé » (fiche d'annonce) et « Écrire à l'agence » -----
+// Envoie la demande à Collab (tâche chez l'agent de l'annonce, ou chez le dirigeant pour « Écrire à l'agence »).
+// Sans JavaScript, chaque bouton reste un lien ordinaire vers la page Contact.
+(function () {
+  var dlg = document.getElementById('contact-dlg');
+  var ouvreurs = document.querySelectorAll('[data-contact-open]');
+  if (!dlg || !ouvreurs.length || typeof dlg.showModal !== 'function') return;
+  var form = dlg.querySelector('form'), fait = dlg.querySelector('.rappel-fait'), err = dlg.querySelector('.rappel-err');
+  var envoi = dlg.querySelector('[data-rappel-envoi]'), EP = dlg.getAttribute('data-endpoint');
+  var TEL = dlg.getAttribute('data-phone-label') || '';
+  var ctx = null, cle = null, enCours = false;
+  var q = function (s) { return dlg.querySelector(s); };
+  var uuid = function () {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    return 'k' + Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+  };
+
+  function configurer(o) {
+    var mode = o.getAttribute('data-contact-open') === 'contact' ? 'contact' : 'rappel';
+    var prenom = o.getAttribute('data-agent-prenom') || '';
+    ctx = {
+      type: mode, ref: o.getAttribute('data-ref') || '', titre: (o.getAttribute('data-titre') || '').replace(/[\s,;:.]+$/, ''),
+      url: o.getAttribute('data-url') || '', agent: o.getAttribute('data-agent') || ''
+    };
+    var contact = mode === 'contact';
+    q('[data-rappel-titre]').textContent = contact ? 'Écrire à l’agence' : 'Être rappelé' + (prenom ? ' par ' + prenom : '');
+    q('[data-rappel-intro]').textContent = contact
+      ? 'Écrivez-nous : un conseiller vous répond rapidement.'
+      : (prenom ? prenom : 'Un conseiller') + ' vous rappelle rapidement' + (ctx.titre ? ' au sujet de « ' + ctx.titre + ' ».' : '.');
+    q('[data-opt-tel]').textContent = contact ? '(ou e-mail)' : '';
+    q('[data-opt-mail]').textContent = contact ? '(ou téléphone)' : '(facultatif)';
+    q('[data-opt-msg]').textContent = contact ? '' : '(facultatif)';
+    form.elements.message.placeholder = contact ? 'Votre question ou votre projet…' : 'Vos disponibilités, une question sur le bien…';
+    form.elements.telephone.required = !contact;
+    envoi.textContent = contact ? 'Envoyer mon message' : 'Je souhaite être rappelé';
+    q('[data-rappel-merci]').textContent = contact ? 'Nous vous répondons rapidement.' : (prenom ? prenom : 'Votre conseiller') + ' vous rappelle rapidement.';
+  }
+
+  function ouvrir(o) {
+    configurer(o);
+    cle = uuid();
+    form.hidden = false; fait.hidden = true; err.hidden = true;
+    marquer({});
+    dlg.showModal();
+    var p = form.elements.prenom; if (p && !p.value) p.focus(); else form.elements.telephone.focus();
+  }
+  function fermer() { if (dlg.open) dlg.close(); }
+
+  function marquer(champs) {
+    ['prenom', 'nom', 'telephone', 'email', 'message', 'consentement'].forEach(function (n) {
+      var c = form.elements[n]; if (!c) return;
+      if (champs[n]) c.setAttribute('aria-invalid', 'true'); else c.removeAttribute('aria-invalid');
+    });
+  }
+  function montrer(msg, champs) {
+    err.textContent = msg; err.hidden = false; marquer(champs || {});
+    var premier = ['prenom', 'nom', 'telephone', 'email', 'message', 'consentement'].filter(function (n) { return champs && champs[n]; })[0];
+    if (premier && form.elements[premier]) form.elements[premier].focus();
+  }
+
+  // Mêmes règles que Collab (qui reste juge) : ici, seulement pour éviter un aller-retour inutile.
+  function verifier() {
+    var f = form.elements, c = {}, contact = ctx.type === 'contact';
+    var tel = f.telephone.value.replace(/[^\d+]/g, ''), mail = f.email.value.trim();
+    if (f.prenom.value.trim().length < 2) c.prenom = 'Indiquez votre prénom.';
+    if (f.nom.value.trim().length < 2) c.nom = 'Indiquez votre nom.';
+    if (contact) {
+      if (f.message.value.trim().length < 5) c.message = 'Écrivez votre message.';
+      if (!tel && !mail) c.email = 'Indiquez une adresse e-mail ou un téléphone pour que nous puissions vous répondre.';
+    } else if (tel.replace(/\D/g, '').length < 9) c.telephone = 'Indiquez un numéro de téléphone valide (ex. 06 12 34 56 78).';
+    if (mail && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) c.email = 'Cette adresse e-mail ne semble pas valide.';
+    if (!f.consentement.checked) c.consentement = 'Cochez la case pour accepter d’être recontacté(e).';
+    return c;
+  }
+  var repli = ' Vous pouvez aussi nous appeler au ' + TEL + '.';
+
+  function envoyer(e) {
+    e.preventDefault();
+    if (enCours) return;
+    var c = verifier();
+    if (Object.keys(c).length) { montrer(Object.keys(c).map(function (k) { return c[k]; }).join(' '), c); return; }
+    var f = form.elements;
+    var corps = {
+      type: ctx.type, prenom: f.prenom.value.trim(), nom: f.nom.value.trim(), telephone: f.telephone.value.trim(),
+      email: f.email.value.trim(), message: f.message.value.trim(), consentement: true, site: f.site.value,
+      annonce_reference: ctx.ref, annonce_titre: ctx.titre, annonce_url: ctx.url, agent_email: ctx.agent
+    };
+    enCours = true; envoi.disabled = true; err.hidden = true; marquer({});
+    var texteBouton = envoi.textContent; envoi.textContent = 'Envoi…';
+    var fin = function () { enCours = false; envoi.disabled = false; envoi.textContent = texteBouton; };
+    var ctrl = window.AbortController ? new AbortController() : null;
+    var minuteur = setTimeout(function () { if (ctrl) ctrl.abort(); }, 15000);
+    fetch(EP, {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': cle },
+      body: JSON.stringify(corps), signal: ctrl ? ctrl.signal : undefined, credentials: 'omit', redirect: 'error'
+    }).then(function (r) {
+      clearTimeout(minuteur);
+      if (r.status === 201 || r.status === 200) {
+        fin(); form.reset(); form.hidden = true; fait.hidden = false; var b = fait.querySelector('button'); if (b) b.focus(); return;
+      }
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        fin();
+        if (r.status === 422 && j && j.champs) montrer(Object.keys(j.champs).map(function (k) { return j.champs[k]; }).join(' '), j.champs);
+        else if (r.status === 429) montrer('Vous avez envoyé beaucoup de demandes d’affilée. Réessayez dans quelques minutes.' + repli);
+        else montrer('Votre demande n’a pas pu être envoyée.' + repli);
+      });
+    }).catch(function () {
+      clearTimeout(minuteur); fin();
+      montrer('Votre demande n’a pas pu être envoyée (connexion impossible).' + repli);
+    });
+  }
+
+  ouvreurs.forEach(function (o) { o.addEventListener('click', function (e) { e.preventDefault(); ouvrir(o); }); });
+  form.addEventListener('submit', envoyer);
+  form.addEventListener('input', function (e) { if (e.target.removeAttribute) e.target.removeAttribute('aria-invalid'); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-rappel-close]')) fermer(); });
+})();
+
+// ----- Note Google de la barre du haut : fenêtre « lire les avis / laisser un avis » -----
+// Sans JavaScript, la note reste un lien vers la fiche Google (nouvel onglet).
+(function () {
+  var dlg = document.getElementById('avis-dlg');
+  var ouvreurs = document.querySelectorAll('[data-avis-open]');
+  if (!dlg || !ouvreurs.length || typeof dlg.showModal !== 'function') return;
+  ouvreurs.forEach(function (o) { o.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); }); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-avis-close]')) dlg.close(); });
+})();
+
+// ----- Fiche de vente : « Estimer mon financement » (frais de notaire + crédit) -----
+// Mêmes formules que la boîte à outils de Collab (src/lib/outils-financiers.ts). Tout se calcule dans le navigateur : rien n'est envoyé.
+(function () {
+  var box = document.querySelector('[data-sim]');
+  if (!box) return;
+  var q = function (s) { return box.querySelector(s); };
+  var TRANCHES = [[6500, 0.0387], [17000, 0.01596], [60000, 0.01064], [Infinity, 0.00799]];
+  var TAXE_COMMUNALE = 0.012, FRAIS_ASSIETTE = 0.0237, TPF_NEUF = 0.00715, CSI = 0.001, TVA = 0.2;
+  var arr = function (n) { return Math.round(n * 100) / 100; };
+  function emoluments(assiette) {
+    var reste = assiette, bas = 0, tot = 0;
+    for (var i = 0; i < TRANCHES.length; i++) {
+      if (reste <= 0) break;
+      var part = Math.min(reste, TRANCHES[i][0] - bas);
+      tot += part * TRANCHES[i][1]; reste -= part; bas = TRANCHES[i][0];
+    }
+    return arr(tot);
+  }
+  function fraisNotaire(prix, neuf, dep, debours) {
+    var emHT = emoluments(prix), emTTC = arr(emHT + arr(emHT * TVA));
+    var droits = neuf ? arr(prix * TPF_NEUF) : arr(prix * (dep + TAXE_COMMUNALE + dep * FRAIS_ASSIETTE));
+    var csi = arr(prix * CSI);
+    return { emTTC: emTTC, droits: droits, autres: arr(csi + debours), total: arr(emTTC + droits + csi + debours) };
+  }
+  function mensualite(C, taux, ans) {
+    var n = Math.round(ans * 12); if (!(C > 0) || !n) return 0;
+    var i = (taux > 0 ? taux : 0) / 100 / 12;
+    return i === 0 ? C / n : (C * i) / (1 - Math.pow(1 + i, -n));
+  }
+  function cout(C, taux, ans, assur) {
+    var n = Math.round(ans * 12); if (!(C > 0) || !n) return null;
+    var m = mensualite(C, taux, ans), am = arr((C * ((assur > 0 ? assur : 0) / 100)) / 12);
+    var interets = arr(m * n - C), at = arr(am * n);
+    return { mens: arr(m + am), interets: interets, assurance: at, cout: arr(interets + at) };
+  }
+  var nombre = function (s) { var v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.')); return isFinite(v) && v > 0 ? v : 0; };
+  var eur = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+  var pct = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
+  var set = function (sel, v) { var el = q(sel); if (el) el.textContent = v; };
+  var prix = +box.getAttribute('data-prix'), debours = +box.getAttribute('data-debours') || 1200;
+
+  function calc() {
+    var duree = +q('[data-sim-duree]').value;
+    set('[data-sim-duree-out]', duree);
+    var apport = Math.min(nombre(q('[data-sim-apport]').value), prix * 1.2);
+    var taux = nombre(q('[data-sim-taux]').value), assur = nombre(q('[data-sim-assur]').value);
+    var fr = fraisNotaire(prix, q('[data-sim-neuf]').value === '1', +q('[data-sim-dep]').value, debours);
+    set('[data-sim-notaire]', eur.format(fr.total));
+    set('[data-sim-notaire-pct]', 'soit environ ' + pct.format(fr.total / prix * 100) + ' % du prix');
+    set('[data-sim-emol]', eur.format(fr.emTTC)); set('[data-sim-droits]', eur.format(fr.droits)); set('[data-sim-autres]', eur.format(fr.autres));
+    var emprunt = Math.max(0, arr(prix + fr.total - apport)), c = cout(emprunt, taux, duree, assur);
+    set('[data-sim-emprunt]', eur.format(emprunt));
+    if (c) {
+      set('[data-sim-mens]', eur.format(c.mens)); set('[data-sim-interets]', eur.format(c.interets));
+      set('[data-sim-assurtot]', eur.format(c.assurance)); set('[data-sim-cout]', eur.format(c.cout));
+    } else {
+      set('[data-sim-mens]', '—'); set('[data-sim-interets]', '—'); set('[data-sim-assurtot]', '—'); set('[data-sim-cout]', '—');
+    }
+    set('[data-sim-budget]', 'Budget total : ' + eur.format(prix + fr.total) + ' (prix ' + eur.format(prix) + ' + frais de notaire ' + eur.format(fr.total) + ')' + (c ? '' : ' — avec cet apport, aucun crédit n’est nécessaire.'));
+  }
+  box.addEventListener('input', calc);
+  box.addEventListener('change', calc);
+  calc();
+})();
