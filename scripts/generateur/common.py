@@ -27,7 +27,8 @@ SOCIAL = {"Facebook": "https://www.facebook.com/lotierimmobilier", "X": "", "Lin
 SOCIAL_SHOW_EMPTY = True
 # Assistant de chat : adresse d'un service qui répond en JSON {"reply": "..."} à un POST {"message": "...", "history": [...]}.
 # Vide = l'assistant répond depuis les informations du site (mode local, sans serveur).
-CHAT_ENDPOINT = ""
+# Auguste, l'assistant de Collab (chatbot public : /session ouvre une conversation, /message répond). Vide = réponses locales seulement.
+CHAT_ENDPOINT = "https://collab.lotier-immobilier.com/api/public/chatbot"
 # Bureaux affichés dans la fenêtre « Nos agences » (adresse vide = « à compléter », comme sur la section Contact)
 OFFICES = [
     {"city": "Béziers", "tag": "Siège", "addr": "40 rue Française, 1er étage", "zip": "34500"},
@@ -116,11 +117,12 @@ def chat_widget(prefix):
     return f'''  <div class="chat" id="chat" data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
     <button type="button" class="chat-fab" data-chat-open aria-haspopup="dialog" aria-controls="chat-panel" aria-expanded="false">
       <span class="chat-fab-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><i class="chat-dot" aria-hidden="true"></i></span>
-      <span class="chat-fab-txt"><strong>Assistant LOTIER</strong><small>Disponible 7j/7</small></span>
+      <span class="chat-fab-txt"><strong>Auguste</strong><small>Assistant LOTIER, 7j/7</small></span>
     </button>
-    <section class="chat-panel" id="chat-panel" role="dialog" aria-label="Assistant LOTIER" hidden>
+    <section class="chat-panel" id="chat-panel" role="dialog" aria-label="Auguste, assistant LOTIER" hidden>
       <header class="chat-head">
-        <div><strong>Assistant LOTIER</strong><span><i class="chat-dot" aria-hidden="true"></i>Disponible 7j/7</span></div>
+        <span class="chat-ava" data-chat-avatar aria-hidden="true" hidden></span>
+        <div><strong>Auguste</strong><span><i class="chat-dot" aria-hidden="true"></i>Assistant LOTIER, disponible 7j/7</span></div>
         <button type="button" class="chat-x" data-chat-close aria-label="Fermer le chat">{CLOSE}</button>
       </header>
       <div class="chat-log" id="chat-log" role="log" aria-live="polite"></div>
@@ -130,7 +132,7 @@ def chat_widget(prefix):
         <input id="chat-input" type="text" placeholder="Posez votre question" maxlength="400">
         <button type="submit" aria-label="Envoyer">{ARROW}</button>
       </form>
-      <p class="chat-foot">Assistant automatique. Pour un conseil personnalisé : <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
+      <p class="chat-foot">Auguste est un assistant automatique ; vos messages sont transmis à LOTIER Immobilier pour vous répondre (<a href="{prefix}lotier-rgpd/">données personnelles</a>). Un conseil personnalisé : <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
     </section>
   </div>
 '''
