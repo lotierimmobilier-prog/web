@@ -79,7 +79,7 @@
    "robot": "GPTBot",
    "editeur": "OpenAI",
    "role": "entraînement",
-   "autorise": true,
+   "autorise": false,
    "regle": "règle explicite"
   },
   {
@@ -100,7 +100,7 @@
    "robot": "ClaudeBot",
    "editeur": "Anthropic",
    "role": "entraînement",
-   "autorise": true,
+   "autorise": false,
    "regle": "règle explicite"
   },
   {
@@ -121,47 +121,39 @@
    "robot": "Google-Extended",
    "editeur": "Google",
    "role": "entraînement Gemini (n'affecte pas la recherche Google)",
-   "autorise": true,
+   "autorise": false,
    "regle": "règle explicite"
   },
   {
    "robot": "Applebot-Extended",
    "editeur": "Apple",
    "role": "entraînement",
-   "autorise": true,
+   "autorise": false,
    "regle": "règle explicite"
   },
   {
    "robot": "CCBot",
    "editeur": "Common Crawl",
    "role": "entraînement",
-   "autorise": true,
-   "regle": "règle générale (*)"
+   "autorise": false,
+   "regle": "règle explicite"
   },
   {
    "robot": "Bytespider",
    "editeur": "ByteDance",
    "role": "entraînement",
-   "autorise": true,
-   "regle": "règle générale (*)"
+   "autorise": false,
+   "regle": "règle explicite"
   },
   {
    "robot": "Meta-ExternalAgent",
    "editeur": "Meta",
    "role": "entraînement",
-   "autorise": true,
-   "regle": "règle générale (*)"
+   "autorise": false,
+   "regle": "règle explicite"
   }
  ],
- "entrainement_autorise_pour": [
-  "GPTBot",
-  "ClaudeBot",
-  "Google-Extended",
-  "Applebot-Extended",
-  "CCBot",
-  "Bytespider",
-  "Meta-ExternalAgent"
- ],
+ "entrainement_autorise_pour": [],
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
