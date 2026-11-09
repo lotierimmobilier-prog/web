@@ -378,8 +378,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
   <link rel="apple-touch-icon" href="{prefix}assets/favicon.png">
   <link rel="preload" href="{prefix}assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{prefix}css/styles.css">
-{ld}  <script defer src="https://cloud.umami.is/script.js" data-website-id="b7d7a94e-20ba-4db7-b476-349fb21557f6"></script>
-</head>
+{ld}</head>
 <body id="top">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
 

@@ -455,7 +455,16 @@
   var KEY = 'lotier-cookies-v1', box = null;
   function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function saved() { try { var r = read(); return r ? JSON.parse(r).choix : null; } catch (e) { return null; } }
-  function save(v) { try { localStorage.setItem(KEY, JSON.stringify({ choix: v, date: new Date().toISOString() })); } catch (e) {} }
+  function save(v) {
+    try { localStorage.setItem(KEY, JSON.stringify({ choix: v, date: new Date().toISOString() })); } catch (e) {}
+    try { if (v === 'essentiels') localStorage.setItem('umami.disabled', '1'); else localStorage.removeItem('umami.disabled'); } catch (e) {}
+  }
+  /* Mesure d'audience Umami (sans cookie) : active par défaut, désactivée si le visiteur l'a refusée. */
+  (function () {
+    if (saved() === 'essentiels') { try { localStorage.setItem('umami.disabled', '1'); } catch (e) {} return; }
+    var s = document.createElement('script'); s.defer = true; s.src = 'https://cloud.umami.is/script.js';
+    s.setAttribute('data-website-id', 'b7d7a94e-20ba-4db7-b476-349fb21557f6'); document.head.appendChild(s);
+  })();
   var chat = document.getElementById('chat');
   var prefix = chat ? chat.getAttribute('data-prefix') || '' : '';
   function close() { if (box) { box.remove(); box = null; } }
@@ -468,15 +477,15 @@
     box.innerHTML =
       '<img class="ck-logo" src="' + prefix + 'assets/lotier-logo.png" alt="" width="110" height="37">' +
       '<h2 id="ck-title">Les cookies de LOTIER</h2>' +
-      '<p>Comme pour tout bien immobilier, on a besoin de vous faire signer quelque chose. Nos cookies servent à mémoriser vos préférences, rien de plus, promis (pas de clause abusive dans nos CGV). Aujourd’hui, ce site n’en dépose aucun d’audience ni de publicité : on vous demande quand même, par politesse. <a href="' + prefix + 'lotier-rgpd/#cookies">Registre RGPD</a></p>' +
+      '<p>Comme pour tout bien immobilier, on a besoin de vous faire signer quelque chose. Nos cookies servent à mémoriser vos préférences, rien de plus, promis (pas de clause abusive dans nos CGV). Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée sans cookie (pages vues, provenance) : vous pouvez le refuser ci-dessous. <a href="' + prefix + 'lotier-rgpd/#cookies">Registre RGPD</a></p>' +
       '<div class="ck-actions"><button type="button" class="btn btn-primary" data-ck="ok">Ok pour moi</button>' +
       '<button type="button" class="btn btn-ghost" data-ck="non">Refuser</button>' +
       '<button type="button" class="btn btn-ghost" data-ck="perso">Je choisis</button></div>' +
       '<div class="ck-choix" hidden><label><input type="checkbox" checked disabled> Essentiels : mémoriser vos préférences (toujours actifs)</label>' +
-      '<label><input type="checkbox" id="ck-stats"> Mesure d’audience (aucune n’est active aujourd’hui)</label>' +
+      '<label><input type="checkbox" id="ck-stats" checked> Mesure d’audience sans cookie (décochez pour la refuser)</label>' +
       '<button type="button" class="btn btn-primary" data-ck="valider">Valider mon choix</button></div>';
     document.body.appendChild(box);
-    if (saved() === 'tout') box.querySelector('#ck-stats').checked = true;
+    if (saved() === 'essentiels') box.querySelector('#ck-stats').checked = false;
     box.addEventListener('click', function (ev) {
       var b = ev.target.closest('[data-ck]'); if (!b) return;
       var a = b.getAttribute('data-ck');

@@ -268,7 +268,7 @@ legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votr
         <h2>Ce que le site enregistre</h2>
         <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. La mesure d'audience est faite sans cookie (voir ci-dessous). Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.</p>
         <h2>Mesure d'audience</h2>
-        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Lieu d'hébergement des statistiques : {PH_TXT}.</p>
+        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Vous pouvez refuser cette mesure à tout moment avec le bouton « Modifier mon choix » ci-dessous. Lieu d'hébergement des statistiques : {PH_TXT}.</p>
         <h2>Si d'autres outils de contenu externe sont ajoutés</h2>
         <p>Cartes, vidéos ou réseaux sociaux ne sont pas utilisés à ce jour. S'ils l'étaient, votre consentement serait demandé avant tout dépôt.</p>
         <h2>Gérer vos choix</h2>

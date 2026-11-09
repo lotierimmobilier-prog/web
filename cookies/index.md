@@ -14,7 +14,7 @@ Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. La mesure 
 
 ## Mesure d'audience
 
-Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Lieu d'hébergement des statistiques : [À COMPLÉTER].
+Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Vous pouvez refuser cette mesure à tout moment avec le bouton « Modifier mon choix » ci-dessous. Lieu d'hébergement des statistiques : [À COMPLÉTER].
 
 ## Si d'autres outils de contenu externe sont ajoutés
 
