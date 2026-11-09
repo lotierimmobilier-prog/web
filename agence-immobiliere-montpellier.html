@@ -349,11 +349,12 @@
           <p>Un conseiller compare votre bien aux ventes récentes de son secteur et vous explique le prix du marché.</p>
           <p class="alt-call">Ou appelez-nous : <a href="tel:+33467112831">04 67 11 28 31</a></p>
         </div>
-        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t">
+        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t" action="https://collab.lotier-immobilier.com/estimer" method="get">
           <div class="ph"><img src="assets/photos/cles.jpg" alt="Photo d&#x27;illustration : remise de clés d&#x27;un logement" width="1100" height="733" loading="lazy" decoding="async"></div>
           <h3 id="est-t">Demandez votre estimation</h3>
-          <div class="field"><label for="est-adresse">Adresse du bien</label><input id="est-adresse" type="text" autocomplete="street-address" placeholder="Ex. 12 rue Française, Montpellier"></div>
-          <div class="field"><label for="est-tel">Votre téléphone</label><input id="est-tel" type="tel" autocomplete="tel" placeholder="06 00 00 00 00"></div>
+          <input type="hidden" name="mode" value="vente">
+          <div class="field"><label for="est-adresse">Adresse du bien</label><input id="est-adresse" name="adresse" type="text" autocomplete="street-address" placeholder="Ex. 12 rue Française, Montpellier"></div>
+          <div class="field"><label for="est-tel">Votre téléphone</label><input id="est-tel" name="telephone" type="tel" autocomplete="tel" placeholder="06 00 00 00 00"></div>
           <button type="submit" class="btn btn-navy btn-lg btn-block">Demander mon estimation</button>
         </form>
       </div>
@@ -467,6 +468,6 @@
     </section>
   </div>
 
-  <script src="js/main.js?v=b96c91a487"></script>
+  <script src="js/main.js?v=9a2146e712"></script>
 </body>
 </html>
