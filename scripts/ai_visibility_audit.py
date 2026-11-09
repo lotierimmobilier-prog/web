@@ -38,13 +38,24 @@ def parse_robots(txt):
             if cur is not None and k in ("allow", "disallow"): cur["rules"].append((k, v))
     return groups
 
-def allowed(groups, bot):
-    """Le robot peut-il lire la racine du site ? (groupe précis, sinon groupe « * »)."""
+def _matches(pattern, path):
+    """Motif robots.txt (RFC 9309) : « * » = suite de caractères, « $ » = fin de l'adresse."""
+    rx = re.escape(pattern).replace(r"\*", ".*")
+    if rx.endswith(r"\$"): rx = rx[:-2] + "$"
+    return re.match(rx, path) is not None
+
+def allowed(groups, bot, paths=("/", "/blog/index.html")):
+    """Le robot peut-il lire le site ? (groupe précis, sinon groupe « * » ; règle la plus longue gagne, « Allow » en cas d'égalité)."""
     g = next((x for x in groups if bot.lower() in x["agents"]), None) or next((x for x in groups if "*" in x["agents"]), None)
     if g is None: return True, "aucune règle (autorisé par défaut)"
     verdict = True
-    for k, v in g["rules"]:
-        if v == "/" : verdict = (k == "allow")
+    for path in paths:
+        best, ok = -1, True  # sans règle applicable : autorisé
+        for k, v in g["rules"]:
+            if v and _matches(v, path):
+                n = len(v)
+                if n > best or (n == best and k == "allow"): best, ok = n, (k == "allow")
+        verdict = verdict and ok
     explicit = any(bot.lower() in x["agents"] for x in groups)
     return verdict, ("règle explicite" if explicit else "règle générale (*)")
 
