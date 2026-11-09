@@ -209,7 +209,8 @@ page = f'''<!doctype html>
     </section>
 
     <div class="container">
-      <form class="glass search" id="recherche" aria-label="Rechercher un bien" onsubmit="return false">
+      <form class="glass search" id="recherche" aria-label="Rechercher un bien" action="nos-annonces/" method="get">
+        <input type="hidden" name="offre" id="offre" value="vente">
         <div class="search-tabs">
           <button type="button" data-mode="vente" aria-pressed="true">Acheter</button>
           <button type="button" data-mode="location" aria-pressed="false">Louer</button>
@@ -217,15 +218,15 @@ page = f'''<!doctype html>
         <div class="search-fields">
           <div class="field">
             <label for="ville">Ville</label>
-            <select id="ville"><option>Toutes les villes</option>{"".join(f"<option>{c}</option>" for c in CITIES)}</select>
+            <select id="ville" name="ville"><option value="">Toutes les villes</option>{"".join(f"<option>{c}</option>" for c in CITIES)}</select>
           </div>
           <div class="field">
             <label for="type">Type de bien</label>
-            <select id="type"><option>Tous les biens</option><option>Appartement</option><option>Maison</option><option>Immeuble</option></select>
+            <select id="type" name="bien"><option value="">Tous les biens</option><option value="appartement">Appartement</option><option value="maison">Maison</option><option value="immeuble">Immeuble</option><option value="terrain">Terrain</option><option value="commerce">Local, bureaux, commerce</option><option value="parking">Parking, box</option></select>
           </div>
           <div class="field">
             <label for="budget">Budget maximum</label>
-            <input id="budget" type="text" placeholder="Ex. 250 000 €">
+            <input id="budget" name="max" type="text" inputmode="numeric" autocomplete="off" placeholder="Ex. 250 000 €">
           </div>
           <button type="submit" class="btn btn-navy" id="search-submit">Rechercher</button>
         </div>

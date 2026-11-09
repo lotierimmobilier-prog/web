@@ -428,15 +428,21 @@
   var tabs = document.querySelectorAll('[data-mode]');
   var budgetLabel = document.querySelector('label[for="budget"]');
   var budgetInput = document.getElementById('budget');
+  var offreInput = document.getElementById('offre');
   function setMode(key) {
     if (!budgetLabel || !budgetInput) return;
     tabs.forEach(function (t) { t.setAttribute('aria-pressed', String(t.getAttribute('data-mode') === key)); });
     budgetLabel.textContent = modes[key].label;
     budgetInput.placeholder = modes[key].hint;
+    if (offreInput) offreInput.value = key;
   }
   tabs.forEach(function (t) { t.addEventListener('click', function () { setMode(t.getAttribute('data-mode')); }); });
-  var sub = document.getElementById('search-submit');
-  if (sub) sub.addEventListener('click', function () { var an = document.getElementById('annonces'); if (an) an.scrollIntoView(); });
+  // « Rechercher » ouvre Nos annonces avec les critères (?offre=&ville=&bien=&max=) ; les champs vides ne sont pas envoyés.
+  var rech = document.getElementById('recherche');
+  if (rech) rech.addEventListener('submit', function () {
+    [].forEach.call(rech.querySelectorAll('select[name], input[name]:not([type=hidden])'), function (f) { if (!String(f.value).trim()) f.disabled = true; });
+    var m = budgetInput && budgetInput.value.replace(/\D/g, ''); if (m) budgetInput.value = m;
+  });
   setMode('vente');
 
   // ----- Carrousel d'annonces -----
@@ -678,7 +684,8 @@
       if (!list) { sel.add(new Option('Choisir vente ou location', '')); sel.disabled = true; return; }
       sel.disabled = false; sel.add(new Option(x[1], ''));
       list.forEach(function (n) { sel.add(new Option(eur(n) + (offre === 'location' ? '/mois' : ''), String(n))); });
-      if (x[2] && list.indexOf(+x[2]) > -1) sel.value = x[2];
+      if (x[2] && +x[2] > 0 && list.indexOf(+x[2]) < 0) sel.add(new Option(eur(+x[2]) + (offre === 'location' ? '/mois' : ''), String(+x[2])));   // montant saisi sur l'accueil
+      if (x[2]) sel.value = x[2];
     });
   }
   function fillCities() {
@@ -735,8 +742,11 @@
   // état initial depuis l'adresse
   var q = new URLSearchParams(location.search), g = function (k) { return q.get(k) || ''; };
   setOffre(/^(vente|location)$/.test(g('offre')) ? g('offre') : '');
-  bien.value = g('bien'); dep.value = g('dep'); fillCities(); city.value = g('ville'); if (city.value !== g('ville')) city.value = '';
-  fillBudget(g('min'), g('max')); sort.value = g('tri'); if (sort.value !== g('tri')) sort.value = '';
+  bien.value = g('bien'); dep.value = g('dep'); fillCities();
+  if (g('ville') && ![].some.call(city.options, function (o) { return o.value === g('ville'); })) city.add(new Option(g('ville') + ' (aucune annonce)', g('ville')));   // ville cherchée sans annonce : on le dit, on n'affiche pas tout
+  city.value = g('ville'); if (city.value !== g('ville')) city.value = '';
+  var num = function (k) { return g(k).replace(/\D/g, ''); };
+  fillBudget(num('min'), num('max')); sort.value = g('tri'); if (sort.value !== g('tri')) sort.value = '';
   apply();
 })();
 
