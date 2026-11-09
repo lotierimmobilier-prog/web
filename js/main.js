@@ -412,16 +412,7 @@
   requestAnimationFrame(function () { requestAnimationFrame(function () { root.classList.add('go'); }); });
 
   // ----- Estimation : prépare un e-mail à l'agence -----
-  var est = document.getElementById('estimer');
-  if (est) {
-    est.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var adresse = document.getElementById('est-adresse').value.trim();
-      var tel = document.getElementById('est-tel').value.trim();
-      var body = 'Bonjour,\n\nJe souhaite faire estimer mon bien.\n\nAdresse : ' + adresse + '\nTéléphone : ' + tel + '\n\nMerci de me rappeler.';
-      window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent('Demande d\'estimation') + '&body=' + encodeURIComponent(body);
-    });
-  }
+  // « Demander mon estimation » : le formulaire s'envoie (GET) vers l'estimation en ligne de Collab, adresse et téléphone déjà remplis.
 
   // ----- Recherche : onglets Acheter / Louer -----
   var modes = { vente: { label: 'Budget maximum', hint: 'Ex. 250 000 €' }, location: { label: 'Loyer maximum', hint: 'Ex. 750 € par mois' } };

@@ -41,6 +41,7 @@ SOCIAL_SHOW_EMPTY = True
 # Auguste, l'assistant de Collab (chatbot public : /session ouvre une conversation, /message répond). Vide = réponses locales seulement.
 CHAT_ENDPOINT = "https://collab.lotier-immobilier.com/api/public/chatbot"
 COLLAB_RAPPEL = "https://collab.lotier-immobilier.com/api/public/v1/demandes-rappel"   # « Être rappelé » : crée une tâche chez l'agent de l'annonce
+COLLAB_ESTIMER = "https://collab.lotier-immobilier.com/estimer"   # estimation en ligne publique de Collab (ECM) ; reçoit ?adresse=&telephone=&mode=
 COLLAB_LOGIN = "https://collab.lotier-immobilier.com/login"   # page de connexion (e-mail + mot de passe) de Collab, pour l'équipe
 # Bureaux affichés dans la fenêtre « Nos agences » (adresse vide = « à compléter », comme sur la section Contact)
 OFFICES = [
