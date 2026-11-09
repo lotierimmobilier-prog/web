@@ -356,8 +356,10 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 }
 
 /* ================= Pages secondaires : blog et villes ================= */
-.page-hero { position: relative; overflow: hidden; isolation: isolate; padding-block: clamp(36px, 5vw, 72px) clamp(36px, 5vw, 64px); background: #fff; }
-.page-hero .container { position: relative; z-index: 2; display: grid; gap: 18px; }
+.page-hero { position: relative; overflow: hidden; isolation: isolate; padding-block: clamp(20px, 3vw, 40px) clamp(10px, 1.6vw, 20px); background: #fff; }
+/* Le contenu qui suit un bandeau de page se serre contre lui (demande de Jerome, 09/11 : « réduis les espaces »). */
+.page-hero + .section, .page-hero + section.container { padding-top: clamp(14px, 2.2vw, 28px); }
+.page-hero .container { position: relative; z-index: 2; display: grid; gap: 14px; }
 .page-title { font-size: clamp(32px, 4.8vw, 64px); max-width: 22ch; }
 .breadcrumb { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 14px; color: var(--mut); }
 .breadcrumb a { text-decoration: none; font-weight: 600; }
