@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres
 
 **399 000 €** · Langlade · 90 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 9
 
 ---
 

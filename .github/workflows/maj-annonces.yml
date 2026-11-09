@@ -1,0 +1,93 @@
+# Mise à jour automatique des annonces de lotier.immo : chaque nuit à 02h00 (heure de Paris).
+#
+# Elle relit les annonces publiées sur lotier-immobilier.com (WPImmo), recopie les photos, régénère le site et,
+# s'il y a du nouveau, le publie sur `main` — Hostinger redéploie alors tout seul (déploiement Git).
+# Aucune annonce n'est jamais publiée à la main ici : tout vient de WPImmo, puis de Collab quand la source changera.
+#
+# Garde-fous (scripts/controle_maj.py) : si le résultat ressemble à une panne de WordPress (beaucoup moins d'annonces,
+# de fiches ou de photos qu'avant), la mise à jour est REFUSÉE, rien n'est publié et le travail apparaît en échec
+# dans l'onglet Actions (GitHub prévient par e-mail). Sans changement réel des annonces, aucun commit.
+#
+# GitHub ne planifie qu'en UTC : on déclenche à 00:00 et 01:00 UTC et on ne garde que l'exécution qui tombe à 02h
+# à Paris (01:00 UTC en hiver, 00:00 UTC en été). Lancement à la main possible : onglet Actions → « Mise à jour des annonces ».
+# Activée le 2026-11-09 (Actions réactivées sur le dépôt par Jerome).
+name: Mise à jour des annonces
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maj-annonces
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    name: Relire WPImmo et publier
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Heure de Paris
+        id: heure
+        run: |
+          h=$(TZ=Europe/Paris date +%H)
+          echo "Il est ${h}h à Paris."
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$h" != "02" ]; then
+            echo "Pas 02h à Paris : cette exécution est laissée à son jumeau."
+            echo "go=non" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=oui" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Récupérer le site
+        if: steps.heure.outputs.go == 'oui'
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Python 3.12 et Pillow
+        if: steps.heure.outputs.go == 'oui'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer Pillow
+        if: steps.heure.outputs.go == 'oui'
+        run: pip install pillow
+
+      - name: Relire les annonces
+        if: steps.heure.outputs.go == 'oui'
+        run: |
+          cp data/annonces.json "$RUNNER_TEMP/annonces-avant.json"
+          python3 scripts/scrape_annonces.py
+
+      - name: Contrôler le résultat
+        if: steps.heure.outputs.go == 'oui'
+        run: python3 scripts/controle_maj.py "$RUNNER_TEMP/annonces-avant.json" "$RUNNER_TEMP/message.txt"
+
+      - name: Régénérer le site
+        if: steps.heure.outputs.go == 'oui'
+        run: python3 scripts/generateur/build_all.py
+
+      - name: Publier s'il y a du nouveau
+        if: steps.heure.outputs.go == 'oui'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Rien à publier."
+            exit 0
+          fi
+          git config user.name "lotier-immo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if [ -f "$RUNNER_TEMP/message.txt" ]; then
+            git commit -q -F "$RUNNER_TEMP/message.txt"
+          else
+            git commit -q -m "Annonces : mise à jour automatique"
+          fi
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,13 @@
+{
+  "_note": "Secteurs géographiques servant à proposer des biens proches sur chaque fiche. « proches » : secteurs voisins, du plus au moins proche. Une commune absente de la liste n'est comparée qu'à elle-même.",
+  "zones": [
+    {"id": "biterrois", "nom": "Biterrois", "communes": ["Béziers", "Villeneuve-lès-Béziers", "Maureilhan"], "proches": ["narbonnais", "minervois"]},
+    {"id": "narbonnais", "nom": "Narbonnais", "communes": ["Narbonne"], "proches": ["biterrois", "minervois", "carcassonnais"]},
+    {"id": "minervois", "nom": "Minervois", "communes": ["Rieux-Minervois", "Pezens", "Douzens", "Barbaira"], "proches": ["carcassonnais", "narbonnais", "biterrois"]},
+    {"id": "carcassonnais", "nom": "Carcassonnais", "communes": ["Carcassonne", "Capendu", "Trèbes", "Villemoustaussou", "Villedubert", "Conques-sur-Orbiel", "Comigne", "Floure"], "proches": ["minervois", "limouxin", "narbonnais"]},
+    {"id": "limouxin", "nom": "Limouxin", "communes": ["Limoux"], "proches": ["carcassonnais", "minervois"]},
+    {"id": "montpellierain", "nom": "Montpelliérain", "communes": ["Montpellier"], "proches": ["nimois", "biterrois"]},
+    {"id": "nimois", "nom": "Nîmois", "communes": ["Nîmes", "Clarensac", "Caveirac", "Calvisson", "Langlade", "Aubais", "Garons", "Meynes"], "proches": ["montpellierain", "uzege"]},
+    {"id": "uzege", "nom": "Uzège et Alésien", "communes": ["Uzès", "Alès", "Saint-Christol-lez-Alès", "Saint-Ambroix"], "proches": ["nimois"]}
+  ]
+}

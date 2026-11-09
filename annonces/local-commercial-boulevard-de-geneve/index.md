@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/
 
 **Prix sur demande** · Béziers · 77 m²
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

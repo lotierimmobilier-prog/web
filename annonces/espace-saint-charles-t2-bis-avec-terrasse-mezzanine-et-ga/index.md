@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-
 
 **241 000 €** · Montpellier · 41,07 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 10
 
 ---
 

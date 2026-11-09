@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-a
 
 **395 000 €** · Nîmes · 116 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

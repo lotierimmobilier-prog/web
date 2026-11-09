@@ -6,18 +6,83 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
 **760 € par mois** · Capendu · 180 m²
 
- LOCATION
-
- 760 € par mois
-
-- 180 m²
-
- [Être rappelé ](https://lotier.immo/contact/)
- [04 67 11 28 31](tel:+33467112831)
-
-Annonce proposée par LOTIER Immobilier.
+ LOCATION 1 / 3
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Les autres biens de Barbara
+
+ LOCATION
+
+ 450 € par mois
+
+### Appartement T2 meublé à Capendu
+
+ Capendu · 33,4 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ LOCATION
+
+ 660 € par mois
+
+### Local Commercial Zone Commercial Capendu
+
+ Capendu · 66 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

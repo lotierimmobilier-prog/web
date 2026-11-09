@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-
 
 **394 € par mois** · Béziers · 32,75 m² · 1 chambre · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 7
 
 ---
 

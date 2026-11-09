@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin
 
 **80 000 €** · Carcassonne · 50 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 5
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terr
 
 **149 800 €** · Béziers · 83,85 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

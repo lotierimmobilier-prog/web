@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-priva
 
 **129 600 €** · Béziers · 76,07 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 10
 
 ---
 

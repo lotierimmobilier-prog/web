@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/
 
 **450 € par mois** · Capendu · 33,4 m² · 1 chambre · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 6
 
 ---
 

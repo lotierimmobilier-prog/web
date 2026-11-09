@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87
 
 **243 000 €** · Meynes · 87,16 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

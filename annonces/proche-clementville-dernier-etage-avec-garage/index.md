@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-gar
 
 **284 000 €** · Montpellier · 90,64 m² · 3 chambres · 2 salles d'eau/bain
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

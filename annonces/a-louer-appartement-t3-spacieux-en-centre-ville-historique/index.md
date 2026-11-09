@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-
 
 **504 € par mois** · Béziers · 57,12 m² · 2 chambres · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 10
 
 ---
 

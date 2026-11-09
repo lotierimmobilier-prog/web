@@ -4,7 +4,7 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-63 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
  Ville
 
@@ -220,16 +220,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
 
- LOCATION
-
- 465 € par mois
-
-### Studio Spacieux au Centre de Limoux
-
- Limoux · 68 m²
-
- [Nous contacter](https://lotier.immo/contact/)[Être rappelé](https://lotier.immo/contact/)
-
  VENTE
 
  145 000 €
@@ -369,6 +359,16 @@ Source : https://lotier.immo/nos-annonces/
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 360 000 €
+
+### L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d
+
+ Caveirac · 80,34 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/)[Être rappelé](https://lotier.immo/contact/)
 
  VENTE
 

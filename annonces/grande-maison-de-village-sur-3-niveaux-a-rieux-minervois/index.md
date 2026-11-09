@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-r
 
 **75 000 €** · Rieux-Minervois · 112,37 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 12
 
 ---
 

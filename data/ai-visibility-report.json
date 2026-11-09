@@ -169,7 +169,7 @@
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 120,
+  "pages_indexables": 121,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -1075,6 +1075,21 @@
   },
   {
    "url": "https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",

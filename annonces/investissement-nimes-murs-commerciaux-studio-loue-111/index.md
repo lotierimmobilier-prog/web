@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-stud
 
 **261 000 €** · Nîmes · 111,36 m²
 
- VENTE
+ VENTE 1 / 8
 
 ---
 

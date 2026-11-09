@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisati
 
 **650 € par mois** · Conques-sur-Orbiel · 81,5 m² · 2 chambres · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 6
 
 ---
 

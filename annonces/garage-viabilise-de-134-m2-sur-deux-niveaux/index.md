@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveau
 
 **45 000 €** · Capendu · 134 m²
 
- VENTE
+ VENTE 1 / 11
 
 ---
 

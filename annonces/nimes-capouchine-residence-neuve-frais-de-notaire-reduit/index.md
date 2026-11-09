@@ -6,9 +6,81 @@ Source : https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-
 
 **249 900 €** · Nîmes · 64,1 m² · 2 chambres · 1 salle d'eau/bain
 
+ VENTE 1 / 4
+
+## Les autres biens de Nicolas
+
  VENTE
 
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ 210 000 €
+
+### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
+
+ Nîmes · 75,04 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 351 900 €
+
+### Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement
+
+ Nîmes · 84,48 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 280 000 €
+
+### Nîmes proche gare – Belle résidence neuve – appartement type
+
+ Nîmes · 73,6 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 234 900 €
+
+### Garons dans résidence neuve fin 2024 appartement type 3 avec
+
+ Garons · 67,87 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ VENTE
+
+ 45 000 €
+
+### À vendre fond de commerce – centre ville de Nîmes – environ
+
+ Nîmes · 48,96 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 365 000 €
+
+### Nimes – à vendre fond de commerce restaurant
+
+ Nîmes · 155,21 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-comm
 
 **57 000 €** · Saint-Ambroix · 68 m² · 1 chambre · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 7
 
 ---
 

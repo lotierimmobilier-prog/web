@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-car
 
 **750 € par mois** · Carcassonne · 106,58 m² · 3 chambres · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 12
 
 ---
 
