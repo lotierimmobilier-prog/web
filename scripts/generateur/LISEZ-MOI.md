@@ -13,6 +13,8 @@ python3 scripts/generateur/build_all.py
 - `build_markdown.py` : jumeaux `.md` de chaque page (servis aux agents avec `Accept: text/markdown`). À lancer en dernier.
 - `content_*.py`, `extra*.py` : textes des articles, villes et FAQ.
 
+`../seo_audit.py` : audit SEO, lancé en dernier par `build_all.py`, écrit `data/seo-report.json` (lu par Collab).
+
 Fichiers écrits à la main (non générés) : `robots.txt`, `.well-known/`, `mcp/`, `css/`, `js/`, `data/`, `assets/`.
 Le dossier `scripts/` n'est pas servi au public (404 via `.htaccess`).
 Après régénération, relire `git diff` : un lancement sans modification de contenu ne doit rien changer.
