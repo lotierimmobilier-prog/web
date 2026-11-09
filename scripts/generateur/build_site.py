@@ -3,6 +3,37 @@ from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common as C
 
+def avis_google_section():
+    """Carrousel des avis Google (data/avis-google.json). Aucun avis dans le fichier = aucune section : jamais de faux avis ni de texte à remplir."""
+    d = json.load(open(f"{C.ROOT}/data/avis-google.json", encoding="utf-8"))
+    avis = [x for x in d.get("avis", []) if x.get("texte") and x.get("auteur")]
+    if not avis: return ""
+    e = C.e
+    cartes = ""
+    for x in avis:
+        n = max(1, min(5, int(x.get("note") or 5)))
+        txt = x["texte"].strip()
+        txt = txt if len(txt) <= 380 else txt[:379].rsplit(" ", 1)[0].rstrip(" ,;:.-") + "\u2026"
+        cartes += (f'<figure class="glass quote avis-card"><span class="stars" role="img" aria-label="Note : {n} sur 5">{"★" * n}{"☆" * (5 - n)}</span>'
+                   f'<blockquote>{e(txt)}</blockquote><figcaption class="small muted"><strong>{e(x["auteur"])}</strong>{(" · " + e(x["date"])) if x.get("date") else ""} · Avis Google</figcaption></figure>')
+    note = f'{d["note"]:g}'.replace(".", ",") if d.get("note") else ""
+    entete = f'<p class="avis-note muted">{note} sur 5 sur Google</p>' if note else ""
+    lien = d.get("lien") or "#avis"
+    return f'''    <section class="section container" id="avis" aria-labelledby="t-avis">
+      <div data-carousel>
+        <div class="section-head" data-r>
+          <div class="stack-3"><span class="label">Avis clients</span><h2 class="title" id="t-avis">Ils nous ont fait confiance</h2>{entete}</div>
+          <div class="carousel-btns">
+            <button type="button" data-dir="-1" aria-label="Avis précédents">{C.LEFT}</button>
+            <button type="button" data-dir="1" aria-label="Avis suivants">{C.ARROW}</button>
+          </div>
+        </div>
+        <div class="track avis-track" tabindex="0" aria-label="Avis Google de nos clients">{cartes}</div>
+      </div>
+      <div class="section-cta"><a class="btn btn-ghost btn-lg mag" href="{e(lien)}" target="_blank" rel="noopener noreferrer">Voir tous les avis sur Google {C.ARROW}</a></div>
+    </section>'''
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SITE = "https://lotier.immo"
 PHONE_DISPLAY = "04 67 11 28 31"
@@ -322,17 +353,7 @@ page = f'''<!doctype html>
 
     {VILLES}
 
-    <section class="section container" id="avis" aria-labelledby="t-avis">
-      <div class="section-head" data-r>
-        <div class="stack-3"><span class="label">Avis clients</span><h2 class="title" id="t-avis">Ils nous ont fait confiance</h2></div>
-        <a class="text-link" href="#avis">Voir tous les avis</a>
-      </div>
-      <div class="cards" data-stagger>
-        <figure class="glass quote"><blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote><figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption></figure>
-        <figure class="glass quote"><blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote><figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption></figure>
-        <figure class="glass quote"><blockquote>[AVIS CLIENT RÉEL À INSÉRER]</blockquote><figcaption class="small muted">[PRÉNOM] · [MÉTIER : VENTE, LOCATION OU SYNDIC] · [DATE]</figcaption></figure>
-      </div>
-    </section>
+    {avis_google_section()}
 
     {C.partners_strip("")}
 
