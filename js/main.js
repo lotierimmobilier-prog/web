@@ -414,6 +414,12 @@
     var pbtns = document.querySelectorAll('.elev button');
     var pt = document.getElementById('floor-t'), pp = document.getElementById('floor-p'), pa = document.getElementById('floor-a');
     var pctl = null, pcur = 2, pstop = false;
+    // Jour de 8 h à 18 h, nuit ensuite (heure du visiteur) ; ?heure=14 permet d'essayer une heure.
+    var pjour = function () {
+      var q = /[?&]heure=(\d{1,2})/.exec(location.search), h = q ? +q[1] : new Date().getHours();
+      isoBox.classList.toggle('jour', h >= 8 && h < 18);
+    };
+    pjour(); setInterval(pjour, 60000);
     var pset = function (k) {
       pcur = k; var f = FLOORS[k];
       pt.textContent = 'Étage ' + (k + 1) + ' · ' + f.t; pp.textContent = f.p; pa.textContent = f.a; pa.setAttribute('href', f.h);
