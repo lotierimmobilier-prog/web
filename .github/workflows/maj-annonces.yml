@@ -10,6 +10,7 @@
 #
 # GitHub ne planifie qu'en UTC : on déclenche à 00:00 et 01:00 UTC et on ne garde que l'exécution qui tombe à 02h
 # à Paris (01:00 UTC en hiver, 00:00 UTC en été). Lancement à la main possible : onglet Actions → « Mise à jour des annonces ».
+# Activée le 2026-11-09 (Actions réactivées sur le dépôt par Jerome).
 name: Mise à jour des annonces
 
 on:
