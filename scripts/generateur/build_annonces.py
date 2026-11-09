@@ -269,6 +269,7 @@ def detail_page(a, tous=()):
           {carac}
           {prix_det}
           {diag}
+          {F.simulation_bloc(a)}
           {F.partenaire_bloc()}
           {legal}
         </div>

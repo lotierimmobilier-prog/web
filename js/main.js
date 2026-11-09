@@ -933,3 +933,68 @@
   ouvreurs.forEach(function (o) { o.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); }); });
   dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-avis-close]')) dlg.close(); });
 })();
+
+// ----- Fiche de vente : « Estimer mon financement » (frais de notaire + crédit) -----
+// Mêmes formules que la boîte à outils de Collab (src/lib/outils-financiers.ts). Tout se calcule dans le navigateur : rien n'est envoyé.
+(function () {
+  var box = document.querySelector('[data-sim]');
+  if (!box) return;
+  var q = function (s) { return box.querySelector(s); };
+  var TRANCHES = [[6500, 0.0387], [17000, 0.01596], [60000, 0.01064], [Infinity, 0.00799]];
+  var TAXE_COMMUNALE = 0.012, FRAIS_ASSIETTE = 0.0237, TPF_NEUF = 0.00715, CSI = 0.001, TVA = 0.2;
+  var arr = function (n) { return Math.round(n * 100) / 100; };
+  function emoluments(assiette) {
+    var reste = assiette, bas = 0, tot = 0;
+    for (var i = 0; i < TRANCHES.length; i++) {
+      if (reste <= 0) break;
+      var part = Math.min(reste, TRANCHES[i][0] - bas);
+      tot += part * TRANCHES[i][1]; reste -= part; bas = TRANCHES[i][0];
+    }
+    return arr(tot);
+  }
+  function fraisNotaire(prix, neuf, dep, debours) {
+    var emHT = emoluments(prix), emTTC = arr(emHT + arr(emHT * TVA));
+    var droits = neuf ? arr(prix * TPF_NEUF) : arr(prix * (dep + TAXE_COMMUNALE + dep * FRAIS_ASSIETTE));
+    var csi = arr(prix * CSI);
+    return { emTTC: emTTC, droits: droits, autres: arr(csi + debours), total: arr(emTTC + droits + csi + debours) };
+  }
+  function mensualite(C, taux, ans) {
+    var n = Math.round(ans * 12); if (!(C > 0) || !n) return 0;
+    var i = (taux > 0 ? taux : 0) / 100 / 12;
+    return i === 0 ? C / n : (C * i) / (1 - Math.pow(1 + i, -n));
+  }
+  function cout(C, taux, ans, assur) {
+    var n = Math.round(ans * 12); if (!(C > 0) || !n) return null;
+    var m = mensualite(C, taux, ans), am = arr((C * ((assur > 0 ? assur : 0) / 100)) / 12);
+    var interets = arr(m * n - C), at = arr(am * n);
+    return { mens: arr(m + am), interets: interets, assurance: at, cout: arr(interets + at) };
+  }
+  var nombre = function (s) { var v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.')); return isFinite(v) && v > 0 ? v : 0; };
+  var eur = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+  var pct = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
+  var set = function (sel, v) { var el = q(sel); if (el) el.textContent = v; };
+  var prix = +box.getAttribute('data-prix'), debours = +box.getAttribute('data-debours') || 1200;
+
+  function calc() {
+    var duree = +q('[data-sim-duree]').value;
+    set('[data-sim-duree-out]', duree);
+    var apport = Math.min(nombre(q('[data-sim-apport]').value), prix * 1.2);
+    var taux = nombre(q('[data-sim-taux]').value), assur = nombre(q('[data-sim-assur]').value);
+    var fr = fraisNotaire(prix, q('[data-sim-neuf]').value === '1', +q('[data-sim-dep]').value, debours);
+    set('[data-sim-notaire]', eur.format(fr.total));
+    set('[data-sim-notaire-pct]', 'soit environ ' + pct.format(fr.total / prix * 100) + ' % du prix');
+    set('[data-sim-emol]', eur.format(fr.emTTC)); set('[data-sim-droits]', eur.format(fr.droits)); set('[data-sim-autres]', eur.format(fr.autres));
+    var emprunt = Math.max(0, arr(prix + fr.total - apport)), c = cout(emprunt, taux, duree, assur);
+    set('[data-sim-emprunt]', eur.format(emprunt));
+    if (c) {
+      set('[data-sim-mens]', eur.format(c.mens)); set('[data-sim-interets]', eur.format(c.interets));
+      set('[data-sim-assurtot]', eur.format(c.assurance)); set('[data-sim-cout]', eur.format(c.cout));
+    } else {
+      set('[data-sim-mens]', '—'); set('[data-sim-interets]', '—'); set('[data-sim-assurtot]', '—'); set('[data-sim-cout]', '—');
+    }
+    set('[data-sim-budget]', 'Budget total : ' + eur.format(prix + fr.total) + ' (prix ' + eur.format(prix) + ' + frais de notaire ' + eur.format(fr.total) + ')' + (c ? '' : ' — avec cet apport, aucun crédit n’est nécessaire.'));
+  }
+  box.addEventListener('input', calc);
+  box.addEventListener('change', calc);
+  calc();
+})();
