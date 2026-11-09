@@ -163,6 +163,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 @keyframes litw { from { opacity: 0.55; } to { opacity: 1; } }
 .iso-photo { position: relative; line-height: 0; cursor: pointer; aspect-ratio: 1; width: 86%; max-width: 600px; margin-right: auto; }
 .hero:has(.iso-photo)::before { display: none; }
+@media (min-width: 901px) { .hero:has(.iso-photo) .iso { align-self: start; margin-top: -8px; } }
 .iso-photo { --tilt: 12deg; }
 .iso-photo::after { content: ""; position: absolute; inset: 0; background: url(../assets/croix-occitane-contour.svg) center / contain no-repeat; pointer-events: none; transform: rotate(var(--tilt)); }
 .iso-photo .pcross { position: absolute; inset: 0; overflow: hidden; -webkit-mask: url(../assets/croix-occitane.svg) center / contain no-repeat; mask: url(../assets/croix-occitane.svg) center / contain no-repeat; }
