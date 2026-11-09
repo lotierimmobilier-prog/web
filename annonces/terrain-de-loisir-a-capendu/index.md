@@ -59,7 +59,7 @@ Réf. 2_BBVTE30000159
 - 1457 m²
 
  **Barbara Bouba**Votre contact LOTIER Immobilier
- [Appeler Barbara : 06 51 45 06 63](tel:+33651450663)
+ [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
  [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
 

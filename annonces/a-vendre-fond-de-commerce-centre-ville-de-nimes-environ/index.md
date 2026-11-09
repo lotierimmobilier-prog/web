@@ -16,7 +16,7 @@ Réf. 12_328
 - 48,96 m²
 
  **Elodie Chardot**Votre contact LOTIER Immobilier
- [Appeler Elodie : 06 73 03 51 96](tel:+33673035196)
+ [Appeler Elodie **06 73 03 51 96** ](tel:+33673035196)
  [elodie.chardot@lotier-immobilier.com](mailto:elodie.chardot@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
 
