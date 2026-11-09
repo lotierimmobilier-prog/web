@@ -41,6 +41,7 @@ class P(HTMLParser):
             if s.in_ld: s.in_ld = False
             else: s.skip = max(0, s.skip - 1)
         elif tag in ("style", "svg"): s.skip = max(0, s.skip - 1)
+        elif tag == "main": s.in_main = False
     def handle_data(s, d):
         if s.in_title: s.title += d
         if s.in_ld and s.ld: s.ld[-1] += d; return
@@ -60,7 +61,8 @@ def target_exists(base_rel, href):
     return os.path.exists(full)
 
 def main():
-    sm = open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8").read()
+    sitemap_path = os.path.join(ROOT, "sitemap.xml")
+    sm = open(sitemap_path, encoding="utf-8").read() if os.path.exists(sitemap_path) else ""
     in_sitemap = set(re.findall(r"<loc>([^<]+)</loc>", sm))
     pages = []; seen_titles = {}; seen_desc = {}
     files = sorted(glob.glob(os.path.join(ROOT, "**/*.html"), recursive=True))
@@ -105,7 +107,8 @@ def main():
                 for pg in pages:
                     if pg["url"] in urls: pg["problemes"].append({"niveau": "avertissement", "code": code, "message": f"{label} identique sur {len(urls)} pages."})
     idx = [p for p in pages if p["indexable"]]
-    err = sum(1 for p in pages for i in p["problemes"] if i["niveau"] == "erreur")
+    site_errors = [] if sm else [{"niveau": "erreur", "code": "sitemap-absent", "message": "sitemap.xml introuvable."}]
+    err = len(site_errors) + sum(1 for p in pages for i in p["problemes"] if i["niveau"] == "erreur")
     warn = sum(1 for p in pages for i in p["problemes"] if i["niveau"] == "avertissement")
     codes = {}
     for p in pages:
@@ -119,7 +122,7 @@ def main():
     report = {"version": 1, "site": SITE,
               "resume": {"pages_auditees": len(pages), "pages_indexables": len(idx), "erreurs": err, "avertissements": warn,
                          "pages_sans_probleme": sum(1 for p in pages if not p["problemes"]), "problemes_par_type": dict(sorted(codes.items()))},
-              "fichiers": sitewide, "pages": pages}
+              "fichiers": sitewide, "problemes_site": site_errors, "pages": pages}
     out = os.path.join(ROOT, "data", "seo-report.json")
     with open(out, "w", encoding="utf-8") as fh:
         json.dump(report, fh, ensure_ascii=False, indent=1); fh.write("\n")
