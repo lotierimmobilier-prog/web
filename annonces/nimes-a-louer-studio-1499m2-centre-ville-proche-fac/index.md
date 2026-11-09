@@ -6,9 +6,39 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
 **415 € par mois** · Nîmes · 14,99 m² · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 4
 
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+## Biens à proximité
+
+ VENTE
+
+ 45 000 €
+
+### À vendre fond de commerce – centre ville de Nîmes – environ
+
+ Nîmes · 48,96 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 365 000 €
+
+### Nimes – à vendre fond de commerce restaurant
+
+ Nîmes · 155,21 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

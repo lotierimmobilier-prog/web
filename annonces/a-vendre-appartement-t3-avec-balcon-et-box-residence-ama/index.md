@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box
 
 **124 000 €** · Béziers · 61,65 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

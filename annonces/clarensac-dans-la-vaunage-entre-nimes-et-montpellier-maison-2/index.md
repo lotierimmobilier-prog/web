@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-m
 
 **320 000 €** · Clarensac · 127 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

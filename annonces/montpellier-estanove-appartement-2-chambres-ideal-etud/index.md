@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambre
 
 **850 € par mois** · Montpellier · 70,26 m² · 2 chambres
 
- LOCATION
+ LOCATION 1 / 6
 
 ---
 

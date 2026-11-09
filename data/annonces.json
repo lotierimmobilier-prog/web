@@ -124,7 +124,32 @@
     "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-4.jpg",
     "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-5.jpg",
     "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-6.jpg"
-   ]
+   ],
+   "reference": "2_BBLMA30000533",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 112,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 760,
+    "depenses_max": 1080,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "schema": 2
   },
   {
    "id": "studio-spacieux-au-centre-de-limoux-2",

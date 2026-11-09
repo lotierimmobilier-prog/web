@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzet
 
 **209 000 €** · Béziers · 120 m² · 4 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

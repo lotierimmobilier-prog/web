@@ -12,8 +12,6 @@ Source : https://lotier.immo/annonces/terrain-de-loisir-a-capendu/
 
 Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
 
-Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-
 – Annonce rédigée et publiée par un Agent Mandataire –
 
 ## Caractéristiques
@@ -48,6 +46,12 @@ Capendu
 **Pays**
 France
 
+## Mentions légales
+
+- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
  25 000 €
 
 - 1457 m²
@@ -58,6 +62,38 @@ France
 Annonce proposée par LOTIER Immobilier.
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Biens à proximité
+
+ VENTE
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

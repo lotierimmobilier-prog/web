@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant
 
 **365 000 €** · Nîmes · 155,21 m²
 
- VENTE
+ VENTE 1 / 5
 
 ---
 

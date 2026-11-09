@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-tr
 
 **60 000 €** · Capendu · 120 m² · 2 salles d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

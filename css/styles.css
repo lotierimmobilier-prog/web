@@ -891,4 +891,69 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .ann-bloc dt { color: var(--muted, #5a6b82); }
 .ann-bloc dd { margin: 0; font-weight: 600; text-align: right; }
 .ann-title { font-size: clamp(30px, 4.4vw, 52px); }
-@media (max-width: 900px) { .ann-layout { grid-template-columns: 1fr; } .ann-side { position: static; } }
+/* Fiche d'annonce : galerie navigable, agent, diagnostics, mentions légales */
+.ann-main { cursor: zoom-in; }
+.ann-main:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 3px; }
+.ann-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 46px; height: 46px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, 0.92); color: var(--navy); display: grid; place-items: center; cursor: pointer; box-shadow: 0 6px 18px rgba(10, 28, 51, 0.28); }
+.ann-nav:hover { background: #fff; }
+.ann-nav:focus-visible, .ann-zoom:focus-visible, .ann-close:focus-visible, .ann-thumb:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 2px; }
+.ann-nav svg, .ann-zoom svg, .ann-close svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ann-nav.prev { left: 12px; }
+.ann-nav.next { right: 12px; }
+.ann-count { position: absolute; left: 14px; bottom: 14px; padding: 5px 12px; border-radius: 999px; background: rgba(10, 28, 51, 0.74); color: #fff; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ann-zoom { position: absolute; right: 12px; bottom: 12px; width: 42px; height: 42px; border-radius: 12px; border: 0; background: rgba(255, 255, 255, 0.92); color: var(--navy); display: grid; place-items: center; cursor: pointer; }
+.ann-thumbs { scroll-snap-type: x proximity; }
+.ann-thumb { scroll-snap-align: center; }
+.ann-lightbox { border: 0; padding: 0; margin: 0; width: 100vw; max-width: 100vw; height: 100vh; height: 100dvh; max-height: 100dvh; background: rgba(8, 18, 33, 0.96); color: #fff; }
+.ann-lightbox[open] { display: grid; place-items: center; }
+.ann-lightbox::backdrop { background: rgba(8, 18, 33, 0.96); }
+.ann-lightbox img { max-width: min(96vw, 1400px); max-height: 86vh; max-height: 86dvh; width: auto; height: auto; object-fit: contain; }
+.ann-lightbox .ann-count { left: 50%; transform: translateX(-50%); bottom: 18px; }
+.ann-lightbox .ann-nav.prev { left: 16px; }
+.ann-lightbox .ann-nav.next { right: 16px; }
+.ann-close { position: absolute; top: 14px; right: 14px; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, 0.4); background: rgba(255, 255, 255, 0.12); color: #fff; display: grid; place-items: center; cursor: pointer; }
+.ann-label { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; color: var(--gold-t); }
+.ann-notes { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14px; color: var(--mut); }
+.ann-layout > * { min-width: 0; }
+.ann-box .btn { white-space: normal; text-align: center; justify-content: center; }
+.ann-ref { margin: 0; }
+.ann-agent { display: flex; align-items: center; gap: 12px; padding-top: 14px; border-top: 1px solid var(--line); }
+.ann-agent > div { display: grid; min-width: 0; }
+.ann-agent strong { font-size: 17px; overflow-wrap: anywhere; }
+.ann-ava { flex: none; width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--gold-hi)); color: var(--navy); font-weight: 700; display: grid; place-items: center; }
+.ann-mail { overflow-wrap: anywhere; color: var(--navy); font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
+.ann-diag .dpe-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; margin: 4px 0 14px; }
+.dpe { margin: 0; }
+.dpe figcaption { font-weight: 600; margin-bottom: 8px; }
+.dpe-legend { font-size: 12px; color: var(--mut); margin: 3px 0; }
+.dpe-scale { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.dpe-row { display: grid; grid-template-columns: 124px minmax(0, 1fr); align-items: center; gap: 8px; }
+.dpe-pt { text-align: right; font-size: 12px; color: var(--navy); line-height: 1.2; }
+.dpe-val b { font-size: 22px; font-weight: 700; display: block; }
+.dpe-bar { display: block; padding: 4px 10px; border-radius: 4px 14px 14px 4px; font-weight: 700; color: #fff; }
+.is-on .dpe-bar { font-size: 22px; padding: 7px 12px; box-shadow: 0 0 0 3px var(--navy); }
+.dpe-e .l-a .dpe-bar { width: 36%; background: #319834; }
+.dpe-e .l-b .dpe-bar { width: 46%; background: #33cc31; }
+.dpe-e .l-c .dpe-bar { width: 56%; background: #cbfc34; color: #1b2a1b; }
+.dpe-e .l-d .dpe-bar { width: 66%; background: #fbfe06; color: #3a3a00; }
+.dpe-e .l-e .dpe-bar { width: 76%; background: #fbcc05; color: #3a2b00; }
+.dpe-e .l-f .dpe-bar { width: 88%; background: #fc9935; }
+.dpe-e .l-g .dpe-bar { width: 100%; background: #fc0205; }
+.dpe-g .l-a .dpe-bar { width: 36%; background: #9ad3ee; color: #0f2744; }
+.dpe-g .l-b .dpe-bar { width: 46%; background: #86b6dc; color: #0f2744; }
+.dpe-g .l-c .dpe-bar { width: 56%; background: #7b9cc6; }
+.dpe-g .l-d .dpe-bar { width: 66%; background: #5d7aa3; }
+.dpe-g .l-e .dpe-bar { width: 76%; background: #4c5384; }
+.dpe-g .l-f .dpe-bar { width: 88%; background: #3e3a69; }
+.dpe-g .l-g .dpe-bar { width: 100%; background: #2f1f4a; }
+.ann-note p { margin: 0 0 8px; font-size: 14px; color: var(--mut); }
+.ann-legal ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; color: var(--mut); }
+@media (max-width: 520px) { .dpe-row { grid-template-columns: 96px minmax(0, 1fr); } .ann-nav { width: 40px; height: 40px; } }
+@media (min-height: 820px) { .ann-side { top: 110px; } }
+@media (max-height: 819px) { .ann-side { position: static; } }
+@media (max-width: 900px) { .ann-layout { grid-template-columns: minmax(0, 1fr); } .ann-side { position: static; } }
+
+/* Fiche annonce : biens de l'agent et biens proches */
+.ann-more { display: grid; gap: 40px; padding-top: 8px; }
+.ann-more-grp > h2 { margin: 0 0 18px; font-size: clamp(1.25rem, 2.4vw, 1.6rem); }
+.ann-more-grid { grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); }

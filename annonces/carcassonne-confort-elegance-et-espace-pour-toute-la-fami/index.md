@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pou
 
 **330 000 €** · Carcassonne · 240 m² · 5 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

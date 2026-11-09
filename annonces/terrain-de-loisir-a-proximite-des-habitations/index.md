@@ -6,9 +6,39 @@ Source : https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitati
 
 **22 000 €** · Barbaira · 1400 m²
 
+ VENTE 1 / 4
+
+## Biens à proximité
+
  VENTE
 
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+ 75 000 €
+
+### Grande maison de village sur 3 niveaux à Rieux-Minervois
+
+ Rieux-Minervois · 112,37 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 89 000 €
+
+### Maison vendue louée et meublée Investissement locatif clé
+
+ Pezens · 81 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
+
+ VENTE
+
+ 5 000 €
+
+### Terrain agricole de plus de 8000m2 à Douzens
+
+ Douzens · 8741 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

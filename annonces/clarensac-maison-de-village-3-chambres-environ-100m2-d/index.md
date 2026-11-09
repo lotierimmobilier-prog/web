@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-env
 
 **149 000 €** · Clarensac · 80 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

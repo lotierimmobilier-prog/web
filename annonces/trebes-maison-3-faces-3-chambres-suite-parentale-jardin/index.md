@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-par
 
 **207 000 €** · Trèbes · 105 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

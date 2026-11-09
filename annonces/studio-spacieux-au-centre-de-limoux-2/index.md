@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/
 
 **465 € par mois** · Limoux · 68 m² · 1 salle d'eau/bain
 
- LOCATION
+ LOCATION 1 / 6
 
 ---
 

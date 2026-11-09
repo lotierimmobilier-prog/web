@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-imm
 
 **135 000 €** · Béziers · 100,17 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE
+ VENTE 1 / 6
 
 ---
 

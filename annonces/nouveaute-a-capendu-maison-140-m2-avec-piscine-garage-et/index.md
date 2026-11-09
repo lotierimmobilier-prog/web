@@ -6,7 +6,7 @@ Source : https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-pis
 
 **224 000 €** · Capendu · 140 m² · 3 chambres
 
- VENTE
+ VENTE 1 / 6
 
 ---
 
