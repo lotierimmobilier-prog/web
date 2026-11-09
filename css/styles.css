@@ -842,3 +842,14 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .stats-join .stat strong { font-size: clamp(36px, 3.8vw, 52px); display: flex; align-items: baseline; gap: 4px; white-space: nowrap; }
 .stats-join .stat strong small { font-size: 0.5em; font-weight: 600; color: #867244; letter-spacing: 0; }
 .stats-join .stat > span { line-height: 1.45; }
+
+/* Pages À propos et Contact */
+.plain-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-width: 70ch; line-height: 1.55; }
+.plain-list li { padding-left: 18px; position: relative; }
+.plain-list li::before { content: ""; position: absolute; left: 0; top: 0.7em; width: 6px; height: 6px; border-radius: 50%; background: #867244; }
+.office-card { padding: 24px; display: grid; gap: 8px; align-content: start; }
+.office-card h3 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+.office-card address { font-style: normal; line-height: 1.55; }
+.office-card p { margin: 0; }
+.office-card a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; }
+.office-card svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }

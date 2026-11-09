@@ -536,3 +536,51 @@
   if (window.fetch) fetch(wrap.getAttribute('data-src'), { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function (d) { if (d && Array.isArray(d.secteurs) && Array.isArray(d.agents)) render(d); }).catch(function () { /* HTML de secours conservé */ });
 })();
+
+/* WebMCP : expose quelques actions du site aux agents du navigateur (navigator.modelContext).
+   Aucune donnée n'est envoyée : les outils lisent les coordonnées publiques, ouvrent une page
+   ou préparent le formulaire d'estimation (c'est la personne qui valide l'envoi). */
+(function () {
+  var mc = navigator.modelContext;
+  if (!mc || typeof mc.registerTool !== 'function') return;
+  var ORIGIN = 'https://lotier.immo';
+  var PAGES = { accueil: '/', vente: '/vente/', location: '/location/', syndic: '/syndic/', honoraires: '/nos-honoraires/', 'notre-service': '/notre-service/', 'a-propos': '/a-propos/', contact: '/contact/', blog: '/blog/', agents: '/nos-agents/', rejoindre: '/rejoindre/', 'espace-client': '/mylotier/' };
+  function out(t) { return { content: [{ type: 'text', text: t }] }; }
+  function reg(tool) { try { mc.registerTool(tool); } catch (e) { /* outil déjà déclaré ou API indisponible */ } }
+
+  reg({
+    name: 'get_agency_contact',
+    description: 'Coordonnées de LOTIER Immobilier : téléphone, e-mail, agences (Béziers, Montpellier, Nîmes, Carcassonne).',
+    inputSchema: { type: 'object', properties: {} },
+    annotations: { readOnlyHint: true },
+    execute: function () {
+      return out('LOTIER Immobilier, agence immobilière indépendante. Téléphone : 04 67 11 28 31. E-mail : contact@lotier-immobilier.com. Agences : Béziers (siège), Montpellier, Nîmes, Carcassonne. Détails : ' + ORIGIN + '/contact/');
+    }
+  });
+
+  reg({
+    name: 'open_page',
+    description: 'Ouvre une page du site LOTIER Immobilier : accueil, vente, location, syndic, honoraires, notre-service, a-propos, contact, blog, agents, rejoindre, espace-client.',
+    inputSchema: { type: 'object', properties: { page: { type: 'string', enum: Object.keys(PAGES), description: 'Page à ouvrir.' } }, required: ['page'] },
+    execute: function (args) {
+      var p = PAGES[args && args.page];
+      if (!p) return out('Page inconnue. Pages disponibles : ' + Object.keys(PAGES).join(', ') + '.');
+      window.location.href = ORIGIN + p;
+      return out('Ouverture de ' + ORIGIN + p);
+    }
+  });
+
+  reg({
+    name: 'prepare_estimation_request',
+    description: "Prépare la demande d'estimation gratuite : ouvre le formulaire d'estimation avec l'adresse du bien. La personne vérifie puis valide elle-même l'envoi.",
+    inputSchema: { type: 'object', properties: { address: { type: 'string', description: 'Adresse du bien à estimer.' } }, required: ['address'] },
+    execute: function (args) {
+      var adr = document.getElementById('est-adresse');
+      if (!adr) { window.location.href = ORIGIN + '/#estimer'; return out("Ouverture du formulaire d'estimation : " + ORIGIN + '/#estimer'); }
+      adr.value = String((args && args.address) || '').slice(0, 200);
+      var f = document.getElementById('estimer'); if (f && f.scrollIntoView) f.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      adr.focus();
+      return out("Adresse saisie dans le formulaire d'estimation. La personne doit ajouter son téléphone et valider.");
+    }
+  });
+})();
