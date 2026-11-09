@@ -923,3 +923,13 @@
   form.addEventListener('input', function (e) { if (e.target.removeAttribute) e.target.removeAttribute('aria-invalid'); });
   dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-rappel-close]')) fermer(); });
 })();
+
+// ----- Note Google de la barre du haut : fenêtre « lire les avis / laisser un avis » -----
+// Sans JavaScript, la note reste un lien vers la fiche Google (nouvel onglet).
+(function () {
+  var dlg = document.getElementById('avis-dlg');
+  var ouvreurs = document.querySelectorAll('[data-avis-open]');
+  if (!dlg || !ouvreurs.length || typeof dlg.showModal !== 'function') return;
+  ouvreurs.forEach(function (o) { o.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); }); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-avis-close]')) dlg.close(); });
+})();

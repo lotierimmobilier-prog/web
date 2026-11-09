@@ -21,7 +21,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.css?v=3ec887322d">
+  <link rel="stylesheet" href="../../css/styles.css?v=27be6b2567">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -99,7 +99,7 @@
 
   <div class="topbar">
     <div class="container">
-      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><span class="tb-rate" role="img" aria-label="Note Google : 4,7 sur 5"><span class="stars" aria-hidden="true">★★★★★</span> <b>4,7/5</b> sur Google</span></span>
+      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="https://www.google.com/maps/place//@43.3439672,3.2138686,17z/data=!3m1!4b1!4m3!3m2!1s0x12b10f96e79720fd:0xb469d67164930413!12e1" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="Note Google : 4,7 sur 5. Voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>4,7/5</b> sur Google</a></span>
       <div class="tb-r">
         <a class="tb-tel" href="tel:+33467112831"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>04 67 11 28 31</a>
         <button type="button" class="tb-btn" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>Nos agences</button>
@@ -351,6 +351,20 @@
     <div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p data-rappel-merci></p>
       <button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>
   </dialog>
-  <script src="../../js/main.js?v=ce663f6e40"></script>
+  <dialog class="rappel" id="avis-dlg" aria-labelledby="avis-t">
+    <div class="rappel-fait avis-pop">
+      <button type="button" class="rappel-x" data-avis-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <span class="stars avis-pop-stars" role="img" aria-label="Note Google : 4,7 sur 5">★★★★★</span>
+      <h2 id="avis-t">4,7/5 sur Google</h2>
+      <p class="muted">Découvrez ce que nos clients disent de LOTIER Immobilier, ou partagez votre propre expérience : votre avis aide les prochains propriétaires, acquéreurs et locataires.</p>
+      <div class="rappel-act">
+        <a class="btn btn-gold btn-lg" href="https://www.google.com/maps?cid=13000157581888652307" target="_blank" rel="noopener noreferrer">Laisser un avis</a>
+        <a class="btn btn-ghost btn-lg" href="https://www.google.com/maps/place//@43.3439672,3.2138686,17z/data=!3m1!4b1!4m3!3m2!1s0x12b10f96e79720fd:0xb469d67164930413!12e1" target="_blank" rel="noopener noreferrer">Lire les avis</a>
+      </div>
+      <p class="small muted">Sur la fiche Google, choisissez « Rédiger un avis ».</p>
+      <p class="small muted">Les liens s’ouvrent sur Google, dans un nouvel onglet.</p>
+    </div>
+  </dialog>
+  <script src="../../js/main.js?v=e77dbec530"></script>
 </body>
 </html>
