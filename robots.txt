@@ -1,16 +1,15 @@
-# LOTIER Immobilier : le site est ouvert aux moteurs de recherche et aux assistants IA.
+# LOTIER Immobilier : le site est ouvert aux moteurs de recherche et aux assistants IA qui répondent à une question
+# (recherche, consultation à la demande), mais PAS aux robots qui collectent les pages pour entraîner des modèles.
+# Décision de Jerome, 2026-11-09 : cohérent avec la déclaration « ai-train=no » ci-dessous.
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
-# Robots d'indexation et de recherche des assistants IA
+# Robots de recherche et de consultation à la demande des assistants IA : autorisés
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
 Allow: /
 
 User-agent: PerplexityBot
@@ -19,19 +18,33 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-User-agent: ClaudeBot
-Allow: /
-
 User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: Claude-User
 Allow: /
 
+# Robots de collecte pour l'ENTRAÎNEMENT de modèles : refusés
+# (Google-Extended n'a aucun effet sur la recherche Google ; Applebot-Extended n'a aucun effet sur Applebot.)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
 User-agent: Google-Extended
-Allow: /
+Disallow: /
 
 User-agent: Applebot-Extended
-Allow: /
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
 
 Sitemap: https://lotier.immo/sitemap.xml
