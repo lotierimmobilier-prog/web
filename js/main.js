@@ -373,8 +373,68 @@
     return s + '</svg>';
   }
 
+  // ----- Immeuble en photo (accueil) : la lumière de chaque fenêtre vient de la photo elle-même -----
+  var PHOTO = { w: 1100, h: 768, wins: [[4,662,128,793,365],[4,804,306,889,465],[3,320,178,495,381],[3,496,104,661,315],[2,316,356,495,563],[2,492,294,661,501],[2,662,311,793,545],[1,312,538,493,741],[1,490,481,661,691],[1,662,501,793,730],[1,806,476,891,630],[0,490,682,661,768],[0,808,641,891,768]] };
+  function photoInit(box, onReady) {
+    var reduceM = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var lit = new Image();
+    lit.onload = function () {
+      var els = [], PAD = 18;
+      PHOTO.wins.forEach(function (r, idx) {
+        var x0 = Math.max(0, r[1] - PAD), y0 = Math.max(0, r[2] - PAD), x1 = Math.min(PHOTO.w, r[3] + PAD), y1 = Math.min(PHOTO.h, r[4] + PAD), w = x1 - x0, h = y1 - y0;
+        var cv = document.createElement('canvas'); cv.width = w; cv.height = h; var c = cv.getContext('2d');
+        c.drawImage(lit, x0, y0, w, h, 0, 0, w, h);
+        c.globalCompositeOperation = 'destination-out';
+        PHOTO.wins.forEach(function (o, j) { if (j !== idx) c.fillRect(o[1] - x0 - 1, o[2] - y0 - 1, o[3] - o[1] + 2, o[4] - o[2] + 2); });
+        var el = document.createElement('span'); el.className = 'pw'; el.setAttribute('aria-hidden', 'true');
+        el.style.cssText = 'left:' + (x0 / PHOTO.w * 100) + '%;top:' + (y0 / PHOTO.h * 100) + '%;width:' + (w / PHOTO.w * 100) + '%;height:' + (h / PHOTO.h * 100) + '%';
+        el.appendChild(cv); box.appendChild(el); els.push({ el: el, k: r[0], r: r, amb: false });
+      });
+      els.slice().sort(function () { return Math.random() - 0.5; }).slice(0, 3).forEach(function (w) { w.amb = true; w.el.classList.add('amb'); });
+      onReady({
+        show: function (k) {
+          var n = 0;
+          els.forEach(function (w) {
+            if (w.k === k) { var d = reduceM ? 0 : 130 * n++; setTimeout(function () { w.el.classList.remove('amb'); w.el.classList.add('on'); }, d); }
+            else { w.el.classList.remove('on'); w.el.classList.toggle('amb', w.amb); }
+          });
+        },
+        floorAt: function (fx, fy) {
+          var x = fx * PHOTO.w, y = fy * PHOTO.h, best = -1;
+          els.forEach(function (w) { if (x >= w.r[1] && x <= w.r[3] && y >= w.r[2] && y <= w.r[4]) best = w.k; });
+          return best;
+        }
+      });
+    };
+    lit.src = 'assets/immeuble-soir-fenetres.png';
+  }
+
   var isoBox = document.getElementById('iso-svg');
-  if (isoBox) {
+  if (isoBox && isoBox.dataset.photo) {
+    var pbtns = document.querySelectorAll('.elev button');
+    var pt = document.getElementById('floor-t'), pp = document.getElementById('floor-p'), pa = document.getElementById('floor-a');
+    var pctl = null, pcur = 2, pstop = false;
+    var pset = function (k) {
+      pcur = k; var f = FLOORS[k];
+      pt.textContent = 'Étage ' + (k + 1) + ' · ' + f.t; pp.textContent = f.p; pa.textContent = f.a; pa.setAttribute('href', f.h);
+      pbtns.forEach(function (b) { b.setAttribute('aria-pressed', String(+b.dataset.k === k)); });
+      if (pctl) pctl.show(k);
+    };
+    var pmanual = function (k) { pstop = true; pset(k); };
+    pbtns.forEach(function (b) {
+      b.addEventListener('pointerenter', function () { pmanual(+b.dataset.k); });
+      b.addEventListener('click', function () { pmanual(+b.dataset.k); });
+    });
+    var phit = function (e) { var r = isoBox.querySelector('.pstage').getBoundingClientRect(), k = pctl ? pctl.floorAt((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height) : -1; if (k >= 0) pmanual(k); };
+    isoBox.addEventListener('pointermove', phit); isoBox.addEventListener('click', phit);
+    pset(2);
+    photoInit(isoBox.querySelector('.pstage'), function (ctl) {
+      pctl = ctl; pset(pcur);
+      if (!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+        var seq = [2, 3, 4, 0, 1], n = 0, tm = setInterval(function () { if (pstop) { clearInterval(tm); return; } n = (n + 1) % 5; pset(seq[n]); }, 4200);
+      }
+    });
+  } else if (isoBox) {
     if (isoBox.dataset.floors === 'parcours') { FLOORS = SETS.parcours; ARIA = 'Immeuble en trois dimensions : chaque étage est une étape pour devenir agent LOTIER'; }
     isoBox.innerHTML = isoSvg();
     var fls = isoBox.querySelectorAll('.fl');

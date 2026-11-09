@@ -161,12 +161,30 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .fl:focus-visible .lf { stroke: #0f2744; stroke-width: 2; }
 .lit { animation: litw 3.5s ease-in-out infinite alternate; }
 @keyframes litw { from { opacity: 0.55; } to { opacity: 1; } }
+.iso-photo { position: relative; line-height: 0; cursor: pointer; aspect-ratio: 1; width: 86%; max-width: 600px; margin-right: auto; }
+.hero:has(.iso-photo)::before { display: none; }
+.iso-photo { --tilt: 12deg; }
+.iso-photo::after { content: ""; position: absolute; inset: 0; background: url(../assets/croix-occitane-contour.svg) center / contain no-repeat; pointer-events: none; transform: rotate(var(--tilt)); }
+.iso-photo .pcross { position: absolute; inset: 0; overflow: hidden; -webkit-mask: url(../assets/croix-occitane.svg) center / contain no-repeat; mask: url(../assets/croix-occitane.svg) center / contain no-repeat; }
+.iso-photo .pstage { position: absolute; top: 10.2%; height: 70%; aspect-ratio: 1100 / 768; left: -5%; transform-origin: 54.8% 56.9%; transform: rotate(calc(var(--tilt) * -1)); -webkit-mask-image: linear-gradient(to bottom, #000 86%, transparent), linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); -webkit-mask-composite: source-in; mask-image: linear-gradient(to bottom, #000 86%, transparent), linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); mask-composite: intersect; }
+.iso-photo .pcross { transform: rotate(var(--tilt)); background: linear-gradient(to bottom, #7482b1 0%, #7482b1 45%, #2a3447 100%); }
+@keyframes croix-in { from { transform: rotate(calc(var(--tilt) + 40deg)) scale(0.82); opacity: 0; } to { transform: rotate(var(--tilt)); opacity: 1; } }
+@keyframes croix-in-c { from { transform: rotate(calc((var(--tilt) + 40deg) * -1)); } to { transform: rotate(calc(var(--tilt) * -1)); } }
+.go .iso-photo::after, .go .iso-photo .pcross { animation: croix-in 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
+.go .iso-photo .pstage { animation: croix-in-c 1.1s cubic-bezier(0.3, 1.3, 0.5, 1) both; }
+@media (prefers-reduced-motion: reduce) { .go .iso-photo::after, .go .iso-photo .pcross, .go .iso-photo .pstage { animation: none; } }
+.iso-photo img { display: block; width: 100%; height: 100%; }
+.iso-photo .pw { position: absolute; opacity: 0; transition: opacity 1.1s ease; pointer-events: none; }
+.iso-photo .pw canvas { display: block; width: 100%; height: 100%; }
+.iso-photo .pw.on { opacity: 1; } .iso-photo .pw.amb { opacity: 0.55; }
+@media (prefers-reduced-motion: reduce) { .iso-photo .pw { transition: none; } }
 .elev { position: absolute; right: 0; top: 50%; transform: translateY(-50%); display: grid; gap: 8px; z-index: 3; }
 .elev button { display: flex; align-items: center; gap: 10px; padding: 9px 14px; border-radius: 999px; border: 1px solid rgba(15, 39, 68, 0.15); background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(8px); color: var(--navy); font: 600 13px var(--font); cursor: pointer; transition: transform 0.3s, background 0.3s, color 0.3s; }
 .elev button b { width: 22px; height: 22px; border-radius: 50%; background: rgba(15, 39, 68, 0.1); display: grid; place-items: center; font-size: 12px; }
 .elev button[aria-pressed="true"] { background: var(--navy); color: #fff; transform: translateX(-8px); }
 .elev button[aria-pressed="true"] b { background: #ffd98a; color: var(--navy); }
 @media (max-width: 900px) {
+  .iso-photo { width: min(100%, 460px); margin-inline: auto; }
   .hero-grid { grid-template-columns: 1fr; }
   .elev { position: static; transform: none; display: flex; flex-wrap: wrap; margin-top: 8px; }
   .elev button[aria-pressed="true"] { transform: none; }
