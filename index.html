@@ -504,9 +504,10 @@
           <p>Un conseiller compare votre bien aux ventes récentes de votre quartier et vous explique le prix du marché.</p>
           <p class="alt-call">Ou appelez-nous : <a href="tel:+33467112831">04 67 11 28 31</a></p>
         </div>
-        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t" toolname="demander_estimation" tooldescription="Demander une estimation gratuite de son bien à LOTIER Immobilier : un conseiller rappelle pour affiner avec une visite.">
+        <form class="estim-card" id="estimer" data-r aria-labelledby="est-t" action="https://collab.lotier-immobilier.com/estimer" method="get" toolname="demander_estimation" tooldescription="Demander une estimation gratuite de son bien à LOTIER Immobilier : un conseiller rappelle pour affiner avec une visite.">
           <div class="ph"><img src="assets/photos/cles.jpg" alt="Photo d&#x27;illustration : remise de clés d&#x27;un logement" width="1100" height="733" loading="lazy" decoding="async"></div>
           <h3 id="est-t">Demandez votre estimation</h3>
+          <input type="hidden" name="mode" value="vente">
           <div class="field"><label for="est-adresse">Adresse du bien</label><input id="est-adresse" name="adresse" toolparamdescription="Adresse du bien à estimer" type="text" autocomplete="street-address" placeholder="Ex. 12 rue Française, Béziers"></div>
           <div class="field"><label for="est-tel">Votre téléphone</label><input id="est-tel" name="telephone" toolparamdescription="Téléphone pour être rappelé" type="tel" autocomplete="tel" placeholder="06 00 00 00 00"></div>
           <button type="submit" class="btn btn-navy btn-lg btn-block">Demander mon estimation</button>
@@ -754,6 +755,6 @@
     </section>
   </div>
 
-  <script src="js/main.js?v=b0c0befc5b"></script>
+  <script src="js/main.js?v=daae6fdd8a"></script>
 </body>
 </html>
