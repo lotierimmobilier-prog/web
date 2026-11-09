@@ -805,3 +805,121 @@
     box.innerHTML = ''; box.classList.add('is-loaded'); box.appendChild(zone); zone.appendChild(s);
   });
 })();
+
+// ----- Formulaire de contact : « Être rappelé » (fiche d'annonce) et « Écrire à l'agence » -----
+// Envoie la demande à Collab (tâche chez l'agent de l'annonce, ou chez le dirigeant pour « Écrire à l'agence »).
+// Sans JavaScript, chaque bouton reste un lien ordinaire vers la page Contact.
+(function () {
+  var dlg = document.getElementById('contact-dlg');
+  var ouvreurs = document.querySelectorAll('[data-contact-open]');
+  if (!dlg || !ouvreurs.length || typeof dlg.showModal !== 'function') return;
+  var form = dlg.querySelector('form'), fait = dlg.querySelector('.rappel-fait'), err = dlg.querySelector('.rappel-err');
+  var envoi = dlg.querySelector('[data-rappel-envoi]'), EP = dlg.getAttribute('data-endpoint');
+  var TEL = dlg.getAttribute('data-phone-label') || '';
+  var ctx = null, cle = null, enCours = false;
+  var q = function (s) { return dlg.querySelector(s); };
+  var uuid = function () {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    return 'k' + Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+  };
+
+  function configurer(o) {
+    var mode = o.getAttribute('data-contact-open') === 'contact' ? 'contact' : 'rappel';
+    var prenom = o.getAttribute('data-agent-prenom') || '';
+    ctx = {
+      type: mode, ref: o.getAttribute('data-ref') || '', titre: (o.getAttribute('data-titre') || '').replace(/[\s,;:.]+$/, ''),
+      url: o.getAttribute('data-url') || '', agent: o.getAttribute('data-agent') || ''
+    };
+    var contact = mode === 'contact';
+    q('[data-rappel-titre]').textContent = contact ? 'Écrire à l’agence' : 'Être rappelé' + (prenom ? ' par ' + prenom : '');
+    q('[data-rappel-intro]').textContent = contact
+      ? 'Écrivez-nous : un conseiller vous répond rapidement.'
+      : (prenom ? prenom : 'Un conseiller') + ' vous rappelle rapidement' + (ctx.titre ? ' au sujet de « ' + ctx.titre + ' ».' : '.');
+    q('[data-opt-tel]').textContent = contact ? '(ou e-mail)' : '';
+    q('[data-opt-mail]').textContent = contact ? '(ou téléphone)' : '(facultatif)';
+    q('[data-opt-msg]').textContent = contact ? '' : '(facultatif)';
+    form.elements.message.placeholder = contact ? 'Votre question ou votre projet…' : 'Vos disponibilités, une question sur le bien…';
+    form.elements.telephone.required = !contact;
+    envoi.textContent = contact ? 'Envoyer mon message' : 'Je souhaite être rappelé';
+    q('[data-rappel-merci]').textContent = contact ? 'Nous vous répondons rapidement.' : (prenom ? prenom : 'Votre conseiller') + ' vous rappelle rapidement.';
+  }
+
+  function ouvrir(o) {
+    configurer(o);
+    cle = uuid();
+    form.hidden = false; fait.hidden = true; err.hidden = true;
+    marquer({});
+    dlg.showModal();
+    var p = form.elements.prenom; if (p && !p.value) p.focus(); else form.elements.telephone.focus();
+  }
+  function fermer() { if (dlg.open) dlg.close(); }
+
+  function marquer(champs) {
+    ['prenom', 'nom', 'telephone', 'email', 'message', 'consentement'].forEach(function (n) {
+      var c = form.elements[n]; if (!c) return;
+      if (champs[n]) c.setAttribute('aria-invalid', 'true'); else c.removeAttribute('aria-invalid');
+    });
+  }
+  function montrer(msg, champs) {
+    err.textContent = msg; err.hidden = false; marquer(champs || {});
+    var premier = ['prenom', 'nom', 'telephone', 'email', 'message', 'consentement'].filter(function (n) { return champs && champs[n]; })[0];
+    if (premier && form.elements[premier]) form.elements[premier].focus();
+  }
+
+  // Mêmes règles que Collab (qui reste juge) : ici, seulement pour éviter un aller-retour inutile.
+  function verifier() {
+    var f = form.elements, c = {}, contact = ctx.type === 'contact';
+    var tel = f.telephone.value.replace(/[^\d+]/g, ''), mail = f.email.value.trim();
+    if (f.prenom.value.trim().length < 2) c.prenom = 'Indiquez votre prénom.';
+    if (f.nom.value.trim().length < 2) c.nom = 'Indiquez votre nom.';
+    if (contact) {
+      if (f.message.value.trim().length < 5) c.message = 'Écrivez votre message.';
+      if (!tel && !mail) c.email = 'Indiquez une adresse e-mail ou un téléphone pour que nous puissions vous répondre.';
+    } else if (tel.replace(/\D/g, '').length < 9) c.telephone = 'Indiquez un numéro de téléphone valide (ex. 06 12 34 56 78).';
+    if (mail && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) c.email = 'Cette adresse e-mail ne semble pas valide.';
+    if (!f.consentement.checked) c.consentement = 'Cochez la case pour accepter d’être recontacté(e).';
+    return c;
+  }
+  var repli = ' Vous pouvez aussi nous appeler au ' + TEL + '.';
+
+  function envoyer(e) {
+    e.preventDefault();
+    if (enCours) return;
+    var c = verifier();
+    if (Object.keys(c).length) { montrer(Object.keys(c).map(function (k) { return c[k]; }).join(' '), c); return; }
+    var f = form.elements;
+    var corps = {
+      type: ctx.type, prenom: f.prenom.value.trim(), nom: f.nom.value.trim(), telephone: f.telephone.value.trim(),
+      email: f.email.value.trim(), message: f.message.value.trim(), consentement: true, site: f.site.value,
+      annonce_reference: ctx.ref, annonce_titre: ctx.titre, annonce_url: ctx.url, agent_email: ctx.agent
+    };
+    enCours = true; envoi.disabled = true; err.hidden = true; marquer({});
+    var texteBouton = envoi.textContent; envoi.textContent = 'Envoi…';
+    var fin = function () { enCours = false; envoi.disabled = false; envoi.textContent = texteBouton; };
+    var ctrl = window.AbortController ? new AbortController() : null;
+    var minuteur = setTimeout(function () { if (ctrl) ctrl.abort(); }, 15000);
+    fetch(EP, {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': cle },
+      body: JSON.stringify(corps), signal: ctrl ? ctrl.signal : undefined, credentials: 'omit', redirect: 'error'
+    }).then(function (r) {
+      clearTimeout(minuteur);
+      if (r.status === 201 || r.status === 200) {
+        fin(); form.reset(); form.hidden = true; fait.hidden = false; var b = fait.querySelector('button'); if (b) b.focus(); return;
+      }
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        fin();
+        if (r.status === 422 && j && j.champs) montrer(Object.keys(j.champs).map(function (k) { return j.champs[k]; }).join(' '), j.champs);
+        else if (r.status === 429) montrer('Vous avez envoyé beaucoup de demandes d’affilée. Réessayez dans quelques minutes.' + repli);
+        else montrer('Votre demande n’a pas pu être envoyée.' + repli);
+      });
+    }).catch(function () {
+      clearTimeout(minuteur); fin();
+      montrer('Votre demande n’a pas pu être envoyée (connexion impossible).' + repli);
+    });
+  }
+
+  ouvreurs.forEach(function (o) { o.addEventListener('click', function (e) { e.preventDefault(); ouvrir(o); }); });
+  form.addEventListener('submit', envoyer);
+  form.addEventListener('input', function (e) { if (e.target.removeAttribute) e.target.removeAttribute('aria-invalid'); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg || e.target.closest('[data-rappel-close]')) fermer(); });
+})();

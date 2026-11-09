@@ -123,7 +123,7 @@ VILLES = f'''<section class="section container" id="villes" aria-labelledby="t-v
       </div>
     </section>'''
 HEADER = C.header("", True)
-FOOTER = C.footer("", True) + "\n" + C.chat_widget("")
+FOOTER = C.footer("", True) + "\n" + C.chat_widget("") + C.contact_dialog("")
 
 PH = svg('<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>')
 ARROW = svg('<path d="M4 12h16M14 6l6 6-6 6"/>')
@@ -394,7 +394,7 @@ page = f'''<!doctype html>
           <p class="lead">Vente, location ou syndic : appelez-nous ou écrivez-nous, un conseiller vous répond.</p>
           <a class="big-phone gold-text" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>
           <div class="acts">
-            <a class="btn btn-gold btn-lg mag" href="mailto:contact@lotier-immobilier.com">Écrire à l'agence</a>
+            <a class="btn btn-gold btn-lg mag" href="mailto:contact@lotier-immobilier.com" data-contact-open="contact" data-url="https://lotier.immo/">Écrire à l'agence</a>
             <a class="btn btn-ghost btn-lg mag" href="#estimer">Estimer mon bien</a>
           </div>
         </div>

@@ -127,6 +127,35 @@ def blog_index(prefix): return f"{prefix}blog/index.html"
 # ---------- En-tête, pied de page, coque de page ----------
 LOGO_FN = lambda prefix: f'<img src="{prefix}assets/lotier-logo.png" alt="LOTIER Immobilier" width="165" height="56">'
 
+CONTACT_CONSENTEMENT = ("J’accepte que LOTIER Immobilier utilise ces informations pour me recontacter au sujet de ma demande. "
+                        "Elles sont conservées 3 ans au plus et réservées à nos conseillers (voir ")
+
+def contact_dialog(prefix):
+    """Fenêtre unique de contact (« Être rappelé » sur une fiche, « Écrire à l'agence » partout) : le JavaScript l'adapte au bouton qui l'ouvre.
+    Sans JavaScript, chaque bouton reste un lien ordinaire vers la page Contact."""
+    return (f'''  <dialog class="rappel" id="contact-dlg" aria-labelledby="rappel-t" data-endpoint="{e(COLLAB_RAPPEL)}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
+    <form class="rappel-form" novalidate>
+      <button type="button" class="rappel-x" data-rappel-close aria-label="Fermer">{CLOSE}</button>
+      <h2 id="rappel-t" data-rappel-titre>Être rappelé</h2>
+      <p class="muted" data-rappel-intro></p>
+      <div class="rappel-grid">
+        <label>Prénom<input name="prenom" autocomplete="given-name" required maxlength="60"></label>
+        <label>Nom<input name="nom" autocomplete="family-name" required maxlength="80"></label>
+        <label><span>Téléphone <span class="muted" data-opt-tel></span></span><input name="telephone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" placeholder="06 12 34 56 78"></label>
+        <label><span>E-mail <span class="muted" data-opt-mail>(facultatif)</span></span><input name="email" type="email" autocomplete="email" maxlength="160"></label>
+      </div>
+      <label class="rappel-msg"><span>Message <span class="muted" data-opt-msg>(facultatif)</span></span><textarea name="message" rows="4" maxlength="1500"></textarea></label>
+      <div class="rappel-piege" aria-hidden="true"><label>Ne pas remplir<input name="site" tabindex="-1" autocomplete="off"></label></div>
+      <label class="rappel-ok"><input type="checkbox" name="consentement"><span>{CONTACT_CONSENTEMENT}<a class="text-link" href="{prefix}lotier-rgpd/">notre politique de protection des données</a>).</span></label>
+      <p class="rappel-err" role="alert" hidden></p>
+      <div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg" data-rappel-envoi>Envoyer</button>
+        <a class="btn btn-ghost btn-lg" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></div>
+    </form>
+    <div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p data-rappel-merci></p>
+      <button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>
+  </dialog>
+''')
+
 def chat_widget(prefix):
     return f'''  <div class="chat" id="chat" data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
     <button type="button" class="chat-fab" data-chat-open aria-haspopup="dialog" aria-controls="chat-panel" aria-expanded="false">
@@ -407,7 +436,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
 
 {footer(prefix, home, cta)}
 {chat_widget(prefix)}
-  <script src="{prefix}js/main.js?v={V_JS}"></script>
+{contact_dialog(prefix)}  <script src="{prefix}js/main.js?v={V_JS}"></script>
 </body>
 </html>
 '''

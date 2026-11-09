@@ -20,7 +20,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="apple-touch-icon" href="/assets/favicon.png">
   <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/css/styles.css?v=d39d7b6cbf">
+  <link rel="stylesheet" href="/css/styles.css?v=3ec887322d">
 </head>
 <body id="top">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -162,6 +162,27 @@
     </section>
   </div>
 
-  <script src="/js/main.js?v=9a2146e712"></script>
+  <dialog class="rappel" id="contact-dlg" aria-labelledby="rappel-t" data-endpoint="https://collab.lotier-immobilier.com/api/public/v1/demandes-rappel" data-phone="+33467112831" data-phone-label="04 67 11 28 31">
+    <form class="rappel-form" novalidate>
+      <button type="button" class="rappel-x" data-rappel-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <h2 id="rappel-t" data-rappel-titre>Être rappelé</h2>
+      <p class="muted" data-rappel-intro></p>
+      <div class="rappel-grid">
+        <label>Prénom<input name="prenom" autocomplete="given-name" required maxlength="60"></label>
+        <label>Nom<input name="nom" autocomplete="family-name" required maxlength="80"></label>
+        <label><span>Téléphone <span class="muted" data-opt-tel></span></span><input name="telephone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" placeholder="06 12 34 56 78"></label>
+        <label><span>E-mail <span class="muted" data-opt-mail>(facultatif)</span></span><input name="email" type="email" autocomplete="email" maxlength="160"></label>
+      </div>
+      <label class="rappel-msg"><span>Message <span class="muted" data-opt-msg>(facultatif)</span></span><textarea name="message" rows="4" maxlength="1500"></textarea></label>
+      <div class="rappel-piege" aria-hidden="true"><label>Ne pas remplir<input name="site" tabindex="-1" autocomplete="off"></label></div>
+      <label class="rappel-ok"><input type="checkbox" name="consentement"><span>J’accepte que LOTIER Immobilier utilise ces informations pour me recontacter au sujet de ma demande. Elles sont conservées 3 ans au plus et réservées à nos conseillers (voir <a class="text-link" href="/lotier-rgpd/">notre politique de protection des données</a>).</span></label>
+      <p class="rappel-err" role="alert" hidden></p>
+      <div class="rappel-act"><button type="submit" class="btn btn-gold btn-lg" data-rappel-envoi>Envoyer</button>
+        <a class="btn btn-ghost btn-lg" href="tel:+33467112831">04 67 11 28 31</a></div>
+    </form>
+    <div class="rappel-fait" hidden><h2>Merci, votre demande est bien reçue.</h2><p data-rappel-merci></p>
+      <button type="button" class="btn btn-navy btn-lg" data-rappel-close>Fermer</button></div>
+  </dialog>
+  <script src="/js/main.js?v=ce663f6e40"></script>
 </body>
 </html>

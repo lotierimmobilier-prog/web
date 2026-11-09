@@ -4,5 +4,8 @@
   "note": 4.7,
   "avis": [],
   "_widget": "Avis automatiques via un service tiers : {\"type\":\"trustindex\",\"id\":\"<identifiant après loader.js?>\"} ou {\"type\":\"elfsight\",\"id\":\"<identifiant de l'app Elfsight>\"}. Chargé SEULEMENT après un clic du visiteur (aucun script tiers au chargement de la page). Des avis saisis dans « avis » ont priorité sur le widget.",
-  "widget": null
+  "widget": {
+    "type": "trustindex",
+    "id": "bb2048785c6636698946327cb64"
+  }
 }
