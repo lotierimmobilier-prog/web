@@ -1189,4 +1189,6 @@ a.tb-rate { padding-block: 8px; }
 .home-hero .lead { color: rgba(255, 255, 255, .92); }
 .home-hero .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, .55); background: rgba(255, 255, 255, .12); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .home-hero .hero-call, .home-hero .hero-call a { color: rgba(255, 255, 255, .9); }
+/* La recherche ne chevauche plus le bandeau photo : elle se place dessous, sur fond clair. */
+.home-hero + .container .search { margin-top: 28px; background: #fff; }
 @media (max-width: 700px) { .home-hero { min-height: clamp(460px, calc(100svh - 150px), 700px); } .home-hero .hh-shade { background: linear-gradient(0deg, rgba(6, 16, 32, .85), rgba(6, 16, 32, .45) 60%, rgba(6, 16, 32, .25)); } }
