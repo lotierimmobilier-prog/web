@@ -1189,6 +1189,32 @@ a.tb-rate { padding-block: 8px; }
 .home-hero .lead { color: rgba(255, 255, 255, .92); }
 .home-hero .btn-ghost { color: #fff; border-color: rgba(255, 255, 255, .55); background: rgba(255, 255, 255, .12); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .home-hero .hero-call, .home-hero .hero-call a { color: rgba(255, 255, 255, .9); }
+/* Bouton « Rejouer l'animation » */
+.home-hero { scroll-margin-top: 96px; }
+.hh-replay { font: 600 14px var(--font); color: #fff; background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .5); border-radius: 999px; padding: 9px 16px; cursor: pointer; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.hh-replay:hover { background: rgba(255, 255, 255, .26); }
+.hh-replay:focus-visible { outline: 3px solid #d8c48a; outline-offset: 2px; }
+.hh-replay[hidden] { display: none; }
 /* La recherche ne chevauche plus le bandeau photo : elle se place dessous, sur fond clair. */
 .home-hero + .container .search { margin-top: 28px; background: #fff; }
 @media (max-width: 700px) { .home-hero { min-height: clamp(460px, calc(100svh - 150px), 700px); } .home-hero .hh-shade { background: linear-gradient(0deg, rgba(6, 16, 32, .85), rgba(6, 16, 32, .45) 60%, rgba(6, 16, 32, .25)); } }
+
+/* Adaptation du bandeau d'accueil aux formats d'écran */
+@media (min-width: 1500px) {
+  .home-hero .hh-inner { max-width: 1560px; }
+  .home-hero .hh-copy { max-width: 780px; }
+  .home-hero h1 { font-size: clamp(4rem, 4.6vw, 6.4rem); }
+  .home-hero .lead { font-size: 1.3rem; }
+}
+@media (max-width: 600px) {
+  .home-hero h1 { font-size: clamp(2.6rem, 13vw, 3.6rem); line-height: 1.02; }
+  .home-hero .label { font-size: 13px; letter-spacing: .06em; }
+  .home-hero .lead { font-size: 1.05rem; }
+}
+@media (max-height: 520px) and (orientation: landscape) {
+  .site-header { position: static; }
+  .home-hero { min-height: max(320px, 100svh); }
+  .home-hero .hh-inner { padding-block: 24px; }
+  .home-hero h1 { font-size: clamp(2rem, 6vw, 3rem); }
+  .home-hero .lead { font-size: .95rem; }
+}

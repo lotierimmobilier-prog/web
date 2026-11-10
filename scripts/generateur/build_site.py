@@ -232,6 +232,7 @@ page = f'''<!doctype html>
             <a class="btn btn-ghost btn-lg mag" href="nos-annonces/">Voir nos annonces</a>
           </div>
           <p class="hero-call">Une question ? Appelez-nous <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
+          <button type="button" class="hh-replay" data-replay-intro hidden>&#9654;&#xFE0E; Rejouer l'animation</button>
         </div>
       </div>
     </section>
