@@ -21,7 +21,9 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/styles.css?v=1f68390149">
+  <link rel="stylesheet" href="css/styles.css?v=bfd01c95a8">
+  <script>(function(){try{var d=document.documentElement;if(!sessionStorage.getItem('lotier-intro')&&!location.hash&&!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){d.classList.add('has-intro');setTimeout(function(){if(!window.__lotierIntro)d.classList.remove('has-intro')},4000)}}catch(e){}})()</script>
+  <link rel="stylesheet" href="css/intro.css?v=dd80448ce8">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -218,7 +220,7 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quels documents préparer avant de vendre mon bien ?",
+          "name": "Quels documents préparer avant de vendre mon bien&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Rassemblez votre titre de propriété, votre dernière taxe foncière et les diagnostics techniques obligatoires, dont le DPE. Pour un appartement, ajoutez le règlement de copropriété, les derniers procès-verbaux d'assemblée générale et le relevé de charges. Un conseiller LOTIER vous remet la liste exacte selon votre bien."
@@ -226,7 +228,7 @@
         },
         {
           "@type": "Question",
-          "name": "Comment est estimé le prix de mon bien ?",
+          "name": "Comment est estimé le prix de mon bien&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Un conseiller compare votre bien aux ventes récentes de votre quartier, puis tient compte de la surface, de l'état, de l'étage, des extérieurs et des charges. La visite permet d'affiner : elle donne un prix réaliste, ni trop haut, ni trop bas."
@@ -234,7 +236,7 @@
         },
         {
           "@type": "Question",
-          "name": "Comment préparer mon achat avant les visites ?",
+          "name": "Comment préparer mon achat avant les visites&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Faites chiffrer votre budget avec votre banque ou un courtier (apport, mensualité, frais de notaire), puis listez les critères indispensables et ceux qui peuvent attendre. Vous visiterez moins, mais mieux, et vous pourrez faire une offre rapidement."
@@ -242,7 +244,7 @@
         },
         {
           "@type": "Question",
-          "name": "Que comprend la gestion locative ?",
+          "name": "Que comprend la gestion locative&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Recherche et sélection du locataire, rédaction du bail, état des lieux, encaissement des loyers, quittances et suivi du logement au quotidien. Notre offre démarre à 39,99 € par mois."
@@ -250,7 +252,7 @@
         },
         {
           "@type": "Question",
-          "name": "Le DPE a-t-il un impact sur la location de mon bien ?",
+          "name": "Le DPE a-t-il un impact sur la location de mon bien&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Oui. Le diagnostic de performance énergétique est obligatoire pour louer, et sa classe peut limiter la mise en location. Les règles évoluent : demandez à un conseiller de vérifier la situation de votre bien."
@@ -258,7 +260,7 @@
         },
         {
           "@type": "Question",
-          "name": "Comment réussir mon état des lieux d'entrée ?",
+          "name": "Comment réussir mon état des lieux d'entrée&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Notez par écrit tout ce que vous constatez (murs, sols, équipements, compteurs), prenez des photos datées et gardez un exemplaire signé. Cela évite les litiges à la sortie."
@@ -266,7 +268,7 @@
         },
         {
           "@type": "Question",
-          "name": "À quoi sert le syndic de copropriété ?",
+          "name": "À quoi sert le syndic de copropriété&nbsp;?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Le syndic applique les décisions de l'assemblée générale, gère le budget et les charges, fait entretenir l'immeuble et suit les contrats et les travaux. Il convoque aussi l'assemblée générale chaque année."
@@ -329,37 +331,19 @@
 
   <main id="contenu">
 
-    <section class="hero">
-      <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
-      <span class="cloud" style="top:12%;width:120px" aria-hidden="true"></span>
-      <span class="cloud" style="top:34%;width:90px;animation-duration:62s;animation-delay:-22s" aria-hidden="true"></span>
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <span class="label">Agence indépendante · Béziers · Montpellier · Nîmes · Carcassonne</span>
-            <h1 class="display" data-split>Votre bien, <em class="gold-text">notre métier.</em></h1>
-            <p class="lead">Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Touchez ou survolez l'immeuble : chaque étage est un service de l'agence.</p>
-            <div class="glass floor-panel" aria-live="polite">
-              <h2 id="floor-t"></h2>
-              <p id="floor-p"></p>
-              <a class="text-link" id="floor-a" href="#estimer">Estimer mon bien</a>
-            </div>
-            <div class="acts">
-              <a class="btn btn-gold btn-lg mag" href="#estimer">Estimer mon bien <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
-              <a class="btn btn-ghost btn-lg mag" href="#annonces">Voir nos annonces</a>
-            </div>
-            <p class="hero-call">Une question&nbsp;? Appelez-nous <a href="tel:+33467112831">04 67 11 28 31</a></p>
+    <section class="home-hero" id="accueil-hero" aria-labelledby="titre-accueil">
+      <div class="hh-photo"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></div>
+      <div class="hh-shade" aria-hidden="true"></div>
+      <div class="container hh-inner">
+        <div class="hh-copy">
+          <span class="label">Agence indépendante · Béziers · Montpellier · Nîmes · Carcassonne</span>
+          <h1 class="display" id="titre-accueil">Votre bien, <em class="gold-text">notre métier.</em></h1>
+          <p class="lead">Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers.</p>
+          <div class="acts">
+            <a class="btn btn-gold btn-lg mag" href="#estimer">Estimer mon bien <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost btn-lg mag" href="nos-annonces/">Voir nos annonces</a>
           </div>
-          <div class="iso">
-            <div id="iso-svg" class="iso-photo" data-photo="1"><div class="pcross"><div class="pstage"><img class="img-nuit" src="assets/immeuble-soir.jpg" width="1100" height="768" alt="Immeuble contemporain vu dans une croix occitane : chaque étage est un service de l'agence" fetchpriority="high"><img class="img-jour" src="assets/immeuble-jour.jpg" width="1100" height="768" alt="" aria-hidden="true"></div></div></div>
-            <div class="elev" role="group" aria-label="Choisir un étage">
-              <button type="button" data-k="4" aria-pressed="false"><b>5</b>Estimation</button>
-              <button type="button" data-k="3" aria-pressed="false"><b>4</b>Syndic</button>
-              <button type="button" data-k="2" aria-pressed="true"><b>3</b>Vente</button>
-              <button type="button" data-k="1" aria-pressed="false"><b>2</b>Location</button>
-              <button type="button" data-k="0" aria-pressed="false"><b>1</b>Conseil</button>
-            </div>
-          </div>
+          <p class="hero-call">Une question&nbsp;? Appelez-nous <a href="tel:+33467112831">04 67 11 28 31</a></p>
         </div>
       </div>
     </section>
@@ -787,5 +771,7 @@
   </dialog>
 
   <script src="js/main.js?v=6d4bd77cd9"></script>
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/intro.js?v=c376008f9e" defer></script>
 </body>
 </html>

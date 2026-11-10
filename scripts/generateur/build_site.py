@@ -206,6 +206,8 @@ page = f'''<!doctype html>
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css?v={C.V_CSS}">
+  <script>(function(){{try{{var d=document.documentElement;if(!sessionStorage.getItem('lotier-intro')&&!location.hash&&!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){{d.classList.add('has-intro');setTimeout(function(){{if(!window.__lotierIntro)d.classList.remove('has-intro')}},4000)}}}}catch(e){{}}}})()</script>
+  <link rel="stylesheet" href="css/intro.css?v={C.V_INTRO_CSS}">
   <script type="application/ld+json">
 {jsonld_s}
   </script>
@@ -217,37 +219,19 @@ page = f'''<!doctype html>
 
   <main id="contenu">
 
-    <section class="hero">
-      <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
-      <span class="cloud" style="top:12%;width:120px" aria-hidden="true"></span>
-      <span class="cloud" style="top:34%;width:90px;animation-duration:62s;animation-delay:-22s" aria-hidden="true"></span>
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <span class="label">Agence indépendante · Béziers · Montpellier · Nîmes · Carcassonne</span>
-            <h1 class="display" data-split>Votre bien, <em class="gold-text">notre métier.</em></h1>
-            <p class="lead">Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Touchez ou survolez l'immeuble : chaque étage est un service de l'agence.</p>
-            <div class="glass floor-panel" aria-live="polite">
-              <h2 id="floor-t"></h2>
-              <p id="floor-p"></p>
-              <a class="text-link" id="floor-a" href="#estimer">Estimer mon bien</a>
-            </div>
-            <div class="acts">
-              <a class="btn btn-gold btn-lg mag" href="#estimer">Estimer mon bien {ARROW}</a>
-              <a class="btn btn-ghost btn-lg mag" href="#annonces">Voir nos annonces</a>
-            </div>
-            <p class="hero-call">Une question ? Appelez-nous <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
+    <section class="home-hero" id="accueil-hero" aria-labelledby="titre-accueil">
+      <div class="hh-photo"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></div>
+      <div class="hh-shade" aria-hidden="true"></div>
+      <div class="container hh-inner">
+        <div class="hh-copy">
+          <span class="label">Agence indépendante · Béziers · Montpellier · Nîmes · Carcassonne</span>
+          <h1 class="display" id="titre-accueil">Votre bien, <em class="gold-text">notre métier.</em></h1>
+          <p class="lead">Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers.</p>
+          <div class="acts">
+            <a class="btn btn-gold btn-lg mag" href="#estimer">Estimer mon bien {ARROW}</a>
+            <a class="btn btn-ghost btn-lg mag" href="nos-annonces/">Voir nos annonces</a>
           </div>
-          <div class="iso">
-            <div id="iso-svg" class="iso-photo" data-photo="1"><div class="pcross"><div class="pstage"><img class="img-nuit" src="assets/immeuble-soir.jpg" width="1100" height="768" alt="Immeuble contemporain vu dans une croix occitane : chaque étage est un service de l'agence" fetchpriority="high"><img class="img-jour" src="assets/immeuble-jour.jpg" width="1100" height="768" alt="" aria-hidden="true"></div></div></div>
-            <div class="elev" role="group" aria-label="Choisir un étage">
-              <button type="button" data-k="4" aria-pressed="false"><b>5</b>Estimation</button>
-              <button type="button" data-k="3" aria-pressed="false"><b>4</b>Syndic</button>
-              <button type="button" data-k="2" aria-pressed="true"><b>3</b>Vente</button>
-              <button type="button" data-k="1" aria-pressed="false"><b>2</b>Location</button>
-              <button type="button" data-k="0" aria-pressed="false"><b>1</b>Conseil</button>
-            </div>
-          </div>
+          <p class="hero-call">Une question ? Appelez-nous <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>
         </div>
       </div>
     </section>
@@ -411,6 +395,8 @@ page = f'''<!doctype html>
 
 {FOOTER}
   <script src="js/main.js?v={C.V_JS}"></script>
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/intro.js?v={C.V_INTRO_JS}" defer></script>
 </body>
 </html>
 '''
