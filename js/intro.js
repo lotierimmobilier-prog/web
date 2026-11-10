@@ -15,7 +15,7 @@
   var el = document.createElement('div');
   el.id = 'intro'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', 'Animation d\'introduction de LOTIER Immobilier');
   el.innerHTML =
-    '<div class="li-phs"></div><div class="li-edge"></div>' +
+    '<div class="li-phs"></div><svg class="li-edge" aria-hidden="true"><circle class="li-edgec" cx="0" cy="0" r="0" fill="none" stroke="#ae986a"/></svg>' +
     '<div class="li-badge"><svg viewBox="0 0 800 800" aria-hidden="true">' +
     '<circle class="li-ring" cx="400" cy="400" r="294" fill="none" stroke="#AE986A" stroke-width="12" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 400 400)"/>' +
     '<g transform="translate(115.2 285.4) scale(0.3336)"><defs><clipPath id="li-gc"><rect x="176" y="96" width="301" height="481"/></clipPath>' +
@@ -27,7 +27,7 @@
     '<button type="button" class="li-skip">Passer l\'intro ›</button><div class="li-bar"><i></i></div>';
   hero.appendChild(el);
   var $ = function (s) { return el.querySelector(s); };
-  var phsBox = $('.li-phs'), edge = $('.li-edge'), badge = $('.li-badge'), cross = $('.li-cross'), skipBtn = $('.li-skip');
+  var phsBox = $('.li-phs'), edge = $('.li-edge'), edgeC = $('.li-edgec'), badge = $('.li-badge'), cross = $('.li-cross'), skipBtn = $('.li-skip');
   var photos = CITIES.map(function (c, i) {
     var d = document.createElement('div'); d.className = 'li-ph'; d.style.zIndex = i + 1;
     var im = new Image(); im.alt = ''; im.decoding = 'async'; im.src = BASE + c[0] + '.jpg'; d.appendChild(im); phsBox.appendChild(d); return d;
@@ -38,11 +38,12 @@
   function metrics() {
     var W = el.clientWidth, H = el.clientHeight, D = Math.min(W * 0.86, H * 0.82);
     R = Math.hypot(W, H) / 2 * 1.04;
+    edgeC.setAttribute('cx', W / 2); edgeC.setAttribute('cy', H / 2); edgeC.setAttribute('stroke-width', Math.max(6, W * 0.007));
     badge.style.cssText = 'width:' + D + 'px;height:' + D + 'px;margin-left:' + (-D / 2) + 'px;margin-top:' + (-D / 2) + 'px';
     return D * (300 / 800);
   }
   function setClip(i, r) { photos[i].style.clipPath = 'circle(' + r + 'px at 50% 50%)'; }
-  function setEdge(r, o) { var s = Math.max(r, 1); edge.style.width = edge.style.height = (2 * s) + 'px'; edge.style.marginLeft = edge.style.marginTop = (-s) + 'px'; edge.style.opacity = o; }
+  function setEdge(r, o) { edgeC.setAttribute('r', Math.max(r, 0)); edge.style.opacity = o; }   /* cercle SVG : aucun recalcul de mise en page (pas de décalage visuel) */
   function setMask() { var v = mo.v + '%'; cross.style.webkitMaskSize = v; cross.style.maskSize = v; }
   function flash(o, d) { gsap.fromTo($('.li-flash'), { opacity: o }, { opacity: 0, duration: d, ease: 'power2.out', overwrite: 'auto' }); }
   function shake(a) { gsap.fromTo(el, { x: a, y: -a / 2 }, { x: 0, y: 0, duration: .35, ease: 'elastic.out(1,.25)', overwrite: 'auto' }); }
