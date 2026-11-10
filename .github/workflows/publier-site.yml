@@ -1,0 +1,89 @@
+# Publier le site depuis Collab : le bouton « Publier » de Collab (écran « Publier sur le site » → « Mise en ligne du site »)
+# déclenche ce workflow. Il relit l'instantané des contenus figé par ce clic, régénère le site, le CONTRÔLE et, s'il y a
+# du nouveau, le publie sur `main` — Hostinger redéploie alors tout seul (déploiement Git).
+#
+# Garde-fous (scripts/controle_publication.py) : si le résultat est incohérent (page essentielle absente, page sans titre,
+# lien interne cassé, perte de plus de 10 % des pages, contenus au mauvais format), la publication est REFUSÉE : rien n'est
+# publié, le site en ligne ne bouge pas, Collab affiche l'échec et l'étape fautive. Sans changement réel, aucun commit.
+#
+# Le même verrou (`concurrency: maj-annonces`) que la mise à jour de nuit des annonces : jamais deux écritures sur `main`
+# en même temps. GitHub ne garde qu'UNE exécution en attente par verrou : une publication plus récente remplace celle qui
+# attend (elle apparaît alors « annulée » dans Collab ; la plus récente porte les contenus à jour).
+# Le titre de l'exécution (`run-name`) est un CONTRAT avec Collab : « Publier le site — Collab n°N » (src/lib/site-publication.ts).
+# Collab le déclenche avec un jeton limité à ce dépôt (droit « Actions »). Aucun secret n'est lu ici.
+name: Publier le site
+run-name: Publier le site — Collab n°${{ inputs.numero }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      numero:
+        description: "Numéro de la publication dans Collab"
+        required: true
+        type: string
+      empreinte:
+        description: "Empreinte de l'instantané annoncée par Collab"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maj-annonces
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    name: Régénérer, contrôler et publier
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Vérifier les paramètres
+        env:
+          NUMERO: ${{ inputs.numero }}
+          EMPREINTE: ${{ inputs.empreinte }}
+        run: |
+          case "$NUMERO" in ''|*[!0-9]*) echo "Numéro de publication invalide."; exit 1;; esac
+          case "$EMPREINTE" in ''|*[!0-9a-f]*) echo "Empreinte invalide."; exit 1;; esac
+
+      - name: Récupérer le site
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Python 3.12 et Pillow
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer Pillow
+        run: pip install pillow
+
+      - name: Récupérer les contenus de Collab
+        env:
+          NUMERO: ${{ inputs.numero }}
+          EMPREINTE: ${{ inputs.empreinte }}
+        run: python3 scripts/recuperer_contenu.py --numero "$NUMERO" --empreinte "$EMPREINTE"
+
+      - name: Régénérer le site
+        run: python3 scripts/generateur/build_all.py
+
+      - name: Contrôler le résultat
+        run: python3 scripts/controle_publication.py "$RUNNER_TEMP/message.txt"
+
+      - name: Publier s'il y a du nouveau
+        env:
+          NUMERO: ${{ inputs.numero }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Rien à publier : le site est déjà à jour."
+            exit 0
+          fi
+          git config user.name "lotier-immo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          { head -n 1 "$RUNNER_TEMP/message.txt"; echo "(publication n°$NUMERO de Collab)"; tail -n +2 "$RUNNER_TEMP/message.txt"; } > "$RUNNER_TEMP/message-final.txt"
+          git commit -q -F "$RUNNER_TEMP/message-final.txt"
+          git pull --rebase origin main
+          git push origin HEAD:main
