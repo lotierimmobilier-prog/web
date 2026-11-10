@@ -78,9 +78,9 @@ mentions_facts = "".join([
         ("Coût", "Procédure gratuite pour le consommateur"),
         ("Cadre", "Règlement amiable des litiges entre le professionnel et le consommateur, selon les articles L611-1 à L641-1 et R612-1 à R616-2 du Code de la consommation, sous conditions de recevabilité de la saisine. Le médiateur est neutre, indépendant et impartial ; la procédure de saisine est expliquée sur son site.")]),
     fact("Hébergement du site", [
-        ("Hébergeur", "OVH SAS"),
-        ("Adresse", "2 rue Kellermann, 59100 Roubaix, France"),
-        ("Site internet", '<a href="https://www.ovhcloud.com/fr/" rel="noopener">www.ovhcloud.com</a>')]),
+        ("Hébergeur", "Hostinger International Ltd"),
+        ("Adresse", "61 Lordou Vironos Street, 6023 Larnaca, Chypre"),
+        ("Site internet", '<a href="https://www.hostinger.fr/" rel="noopener">www.hostinger.fr</a>')]),
 ])
 legal_page("mentions-legales", "Mentions légales", "Qui édite ce site, quelles sont nos garanties et comment nous joindre.", "Mentions légales", f'''
         <div class="fact-grid">{mentions_facts}</div>
@@ -165,7 +165,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
           <li>nos prestataires de logiciels de gestion immobilière (ICS, logiciel Spirit) et de comptabilité de syndic (CEGIMM) ;</li>
           <li>les notaires, diagnostiqueurs, géomètres et autres professionnels intervenant dans votre dossier ;</li>
           <li>les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;</li>
-          <li>notre hébergeur (OVH) et nos prestataires de maintenance informatique ;</li>
+          <li>notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;</li>
           <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;</li>
           <li>un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;</li>
           <li>les autorités administratives ou judiciaires, sur demande légale.</li>
@@ -372,7 +372,7 @@ html404 = html404.replace('href="/index.html#estimer"', 'href="/index.html#estim
 open(f"{ROOT}/404.html", "w", encoding="utf-8").write(html404)
 
 # ---------- Fichiers techniques ----------
-open(f"{ROOT}/.htaccess", "w", encoding="utf-8").write('''# LOTIER Immobilier : configuration Apache (hébergement mutualisé OVH).
+open(f"{ROOT}/.htaccess", "w", encoding="utf-8").write('''# LOTIER Immobilier : configuration Apache (hébergement Hostinger).
 # Chaque bloc est protégé : s'il n'est pas disponible sur l'offre d'hébergement, il est ignoré.
 
 ErrorDocument 404 /404.html
