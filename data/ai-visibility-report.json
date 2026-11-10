@@ -361,21 +361,6 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "ListItem",
-    "Offer",
-    "Place",
-    "PostalAddress",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
    "url": "https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/",
    "type": "autre",
    "balisage": [
@@ -691,7 +676,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/",
+   "url": "https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -781,7 +766,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/",
+   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -871,7 +856,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/",
+   "url": "https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -1170,6 +1155,21 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/maison-de-village-avec-terrasse/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/",
    "type": "autre",
    "balisage": [
@@ -1335,7 +1335,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/",
+   "url": "https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -1455,7 +1455,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/",
+   "url": "https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",

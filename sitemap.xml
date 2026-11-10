@@ -68,13 +68,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lotier.immo/annonces/maison-de-village-avec-terrasse/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/</loc>
+    <loc>https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -134,19 +140,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/</loc>
+    <loc>https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/</loc>
+    <loc>https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/</loc>
+    <loc>https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -170,7 +176,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/</loc>
+    <loc>https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -381,12 +387,6 @@
   </url>
   <url>
     <loc>https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

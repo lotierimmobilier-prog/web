@@ -40,7 +40,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)
+ [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
 
  320 000 €
 
@@ -48,7 +48,7 @@ Source : https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-p
 
  Clarensac · 127 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
 
 ## Biens à proximité
 

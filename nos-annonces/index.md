@@ -6,6 +6,16 @@ Source : https://lotier.immo/nos-annonces/
 
 64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
+ [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
+
+ 750 € par mois
+
+### Maison de village avec terrasse
+
+ Capendu · 95 m² · 4 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
+
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)
 
  650 € par mois
@@ -16,7 +26,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/)
+ [LOCATION ](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)
 
  465 € par mois
 
@@ -24,7 +34,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Limoux · 68 m²
 
- [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
 
  [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
 
@@ -116,7 +126,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/)
+ [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
 
  164 300 €
 
@@ -124,9 +134,9 @@ Source : https://lotier.immo/nos-annonces/
 
  Alès · 89 m² · 4 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/)
+ [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)
 
  250 000 €
 
@@ -134,9 +144,9 @@ Source : https://lotier.immo/nos-annonces/
 
  Nîmes · 84 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/)
+ [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
 
  243 000 €
 
@@ -144,7 +154,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
  [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)
 
@@ -176,7 +186,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)
+ [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
 
  320 000 €
 
@@ -184,7 +194,7 @@ Source : https://lotier.immo/nos-annonces/
 
  Clarensac · 127 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
 
  [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)
 
@@ -535,16 +545,6 @@ Source : https://lotier.immo/nos-annonces/
  Rieux-Minervois · 112,37 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/)
-
- 490 € par mois
-
-### À louer appartement T2 avec vue canal résidence amarine,
-
- Béziers · 35,86 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-avec-vue-canal-residence-amarine/)[Être rappelé](https://lotier.immo/contact/)
 
  [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
 
