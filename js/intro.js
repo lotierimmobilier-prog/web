@@ -3,12 +3,13 @@
    Utilise GSAP (js/gsap.min.js, hébergé sur le site). */
 (function () {
   var root = document.documentElement;
-  if (!root.classList.contains('has-intro')) return;
-  window.__lotierIntro = true;
+  var running = false;
   function done() { try { sessionStorage.setItem('lotier-intro', '1'); } catch (e) {} root.classList.remove('has-intro'); root.classList.add('intro-done'); }
   var hero = document.getElementById('accueil-hero');
   if (!hero) { root.classList.remove('has-intro'); return; }
-  if (!window.gsap) { done(); return; }
+  function run() {
+  if (running) return; running = true;
+  if (!window.gsap) { running = false; done(); return; }
   var CITIES = [['bez-pont', 'BÉZIERS', 'Cathédrale · Pont-Vieux'], ['montpellier', 'MONTPELLIER', 'Place de la Comédie'], ['carcassonne', 'CARCASSONNE', 'La Cité'], ['nimes', 'NÎMES', 'Les Arènes']];
   var BASE = 'assets/intro/';
   var el = document.createElement('div');
@@ -48,7 +49,7 @@
   function finish(fast) {
     if (finished) return; finished = true;
     if (tl) tl.pause();
-    gsap.to(el, { opacity: 0, duration: fast ? .35 : .7, ease: 'power1.inOut', onComplete: function () { el.remove(); done(); window.dispatchEvent(new Event('lotier-intro-end')); } });
+    gsap.to(el, { opacity: 0, duration: fast ? .35 : .7, ease: 'power1.inOut', onComplete: function () { el.remove(); done(); running = false; window.dispatchEvent(new Event('lotier-intro-end')); } });
     done();
   }
   skipBtn.addEventListener('click', function () { finish(true); });
@@ -100,5 +101,19 @@
     .add(function () { flash(.7, .45); shake(10); }, t3 + 1.45);
   tl.to('.li-bar i', { scaleX: 1, duration: tl.duration(), ease: 'none' }, 0);
   var rt, lw = el.clientWidth;
-  window.addEventListener('resize', function () { if (el.clientWidth === lw) return; lw = el.clientWidth; clearTimeout(rt); rt = setTimeout(function () { r0 = metrics(); }, 200); });
+  window.addEventListener('resize', function () { if (!el.isConnected || el.clientWidth === lw) return; lw = el.clientWidth; clearTimeout(rt); rt = setTimeout(function () { r0 = metrics(); }, 200); });
+  }
+  /* Bouton « Rejouer l'animation » (affiché seulement quand le script fonctionne et si le visiteur n'a pas demandé de réduire les animations). */
+  var btn = document.querySelector('[data-replay-intro]');
+  var reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (btn && window.gsap && !reduced) {
+    btn.hidden = false;
+    btn.addEventListener('click', function () {
+      if (running) return;
+      root.classList.remove('intro-done'); root.classList.add('has-intro');
+      hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      run();
+    });
+  }
+  if (root.classList.contains('has-intro')) { window.__lotierIntro = true; run(); }
 })();
