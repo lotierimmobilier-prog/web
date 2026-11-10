@@ -8,14 +8,10 @@ Agence indépendante · Béziers · Montpellier · Nîmes · Carcassonne
 
 # Votre bien, *notre métier.*
 
-Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Touchez ou survolez l'immeuble : chaque étage est un service de l'agence.
-
-##
+Vente, location et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers.
 
  Estimer mon bien
-
- Estimer mon bien
- Voir nos annonces
+ [Voir nos annonces](https://lotier.immo/nos-annonces/)
 
 Une question ? Appelez-nous [04 67 11 28 31](tel:+33467112831)
 

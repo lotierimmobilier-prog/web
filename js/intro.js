@@ -5,7 +5,9 @@
   var root = document.documentElement;
   if (!root.classList.contains('has-intro')) return;
   window.__lotierIntro = true;
-  function done() { try { sessionStorage.setItem('lotier-intro', '1'); } catch (e) {} root.classList.remove('has-intro'); }
+  function done() { try { sessionStorage.setItem('lotier-intro', '1'); } catch (e) {} root.classList.remove('has-intro'); root.classList.add('intro-done'); }
+  var hero = document.getElementById('accueil-hero');
+  if (!hero) { root.classList.remove('has-intro'); return; }
   if (!window.gsap) { done(); return; }
   var CITIES = [['bez-pont', 'BÉZIERS', 'Cathédrale · Pont-Vieux'], ['montpellier', 'MONTPELLIER', 'Place de la Comédie'], ['carcassonne', 'CARCASSONNE', 'La Cité'], ['nimes', 'NÎMES', 'Les Arènes']];
   var BASE = 'assets/intro/';
@@ -22,7 +24,7 @@
     '<div class="li-city" aria-hidden="true"><em></em><b></b></div><div class="li-count" aria-hidden="true"></div>' +
     '<div class="li-cross"></div><div class="li-flash"></div>' +
     '<button type="button" class="li-skip">Passer l\'intro ›</button><div class="li-bar"><i></i></div>';
-  document.body.appendChild(el);
+  hero.appendChild(el);
   var $ = function (s) { return el.querySelector(s); };
   var phsBox = $('.li-phs'), edge = $('.li-edge'), badge = $('.li-badge'), cross = $('.li-cross'), skipBtn = $('.li-skip');
   var photos = CITIES.map(function (c, i) {
@@ -33,7 +35,7 @@
   skipBtn.focus();
   var R = 0, tl = null, mo = { v: 6 }, finished = false;
   function metrics() {
-    var W = el.clientWidth, H = el.clientHeight, D = Math.min(W, H) * (W < 700 ? 0.86 : 0.7);
+    var W = el.clientWidth, H = el.clientHeight, D = Math.min(W * 0.86, H * 0.82);
     R = Math.hypot(W, H) / 2 * 1.04;
     badge.style.cssText = 'width:' + D + 'px;height:' + D + 'px;margin-left:' + (-D / 2) + 'px;margin-top:' + (-D / 2) + 'px';
     return D * (300 / 800);
