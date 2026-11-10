@@ -235,6 +235,14 @@ def city_page(c):
 
 # ---------- Écriture des fichiers ----------
 os.makedirs(f"{ROOT}/blog", exist_ok=True)
+# Un article qui n'est plus dans la liste (dépublié dans Collab) disparaît du site : sa page et sa version Markdown sont supprimées,
+# pas seulement retirées de l'index, du plan du site et de llms.txt.
+_slugs = {a["slug"] for a in ARTICLES}
+for _f in os.listdir(f"{ROOT}/blog"):
+    _nom, _ext = os.path.splitext(_f)
+    if _ext in (".html", ".md") and _nom != "index" and _nom not in _slugs:
+        os.remove(f"{ROOT}/blog/{_f}")
+        print("article retiré :", _f)
 for a in ARTICLES:
     open(f"{ROOT}/blog/{a['slug']}.html", "w", encoding="utf-8").write(article_page(a))
 open(f"{ROOT}/blog/index.html", "w", encoding="utf-8").write(blog_index_page())
