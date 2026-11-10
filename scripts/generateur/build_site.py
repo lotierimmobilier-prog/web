@@ -206,6 +206,8 @@ page = f'''<!doctype html>
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css?v={C.V_CSS}">
+  <script>(function(){{try{{var d=document.documentElement;if(!sessionStorage.getItem('lotier-intro')&&!location.hash&&!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){{d.classList.add('has-intro');setTimeout(function(){{if(!window.__lotierIntro)d.classList.remove('has-intro')}},4000)}}}}catch(e){{}}}})()</script>
+  <link rel="stylesheet" href="css/intro.css?v={C.V_INTRO_CSS}">
   <script type="application/ld+json">
 {jsonld_s}
   </script>
@@ -411,6 +413,8 @@ page = f'''<!doctype html>
 
 {FOOTER}
   <script src="js/main.js?v={C.V_JS}"></script>
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/intro.js?v={C.V_INTRO_JS}" defer></script>
 </body>
 </html>
 '''
