@@ -20,3 +20,14 @@ python3 scripts/generateur/build_all.py
 Fichiers écrits à la main (non générés) : `robots.txt`, `.well-known/`, `mcp/`, `css/`, `js/`, `data/`, `assets/`.
 Le dossier `scripts/` n'est pas servi au public (404 via `.htaccess`).
 Après régénération, relire `git diff` : un lancement sans modification de contenu ne doit rien changer.
+
+## Publication depuis Collab (étape S0, 09/11/2026)
+
+Le bouton « Publier » de Collab fige les contenus du site et lance le workflow `.github/workflows/publier-site.yml` :
+1. `scripts/recuperer_contenu.py` lit l'instantané (lecture publique de Collab) et l'écrit dans `data/contenu.json` (absent tant que Collab n'a rien publié : le générateur garde alors tous ses textes) ;
+2. `scripts/generateur/build_all.py` régénère le site ;
+3. `scripts/controle_publication.py` le contrôle (pages essentielles, titres, liens internes, perte de pages, format des contenus) — s'il refuse, **rien n'est publié** ;
+4. s'il y a du nouveau, commit sur `main` (Hostinger redéploie) ; sinon aucun commit.
+
+La mise à jour de nuit des annonces (`maj-annonces.yml`) reprend les mêmes étapes et partage le même verrou : jamais deux écritures sur `main` en même temps.
+Le titre de l'exécution (« Publier le site — Collab n°N ») est un contrat avec Collab (`src/lib/site-publication.ts`) : ne pas le modifier sans modifier Collab.

@@ -94,13 +94,13 @@ Règlement amiable des litiges entre le professionnel et le consommateur, selon 
 ## Hébergement du site
 
 **Hébergeur**
-OVH SAS
+Hostinger International Ltd
 
 **Adresse**
-2 rue Kellermann, 59100 Roubaix, France
+61 Lordou Vironos Street, 6023 Larnaca, Chypre
 
 **Site internet**
-[www.ovhcloud.com](https://www.ovhcloud.com/fr/)
+[www.hostinger.fr](https://www.hostinger.fr/)
 
 ## Propriété intellectuelle et droits d'auteur
 

@@ -30,6 +30,16 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
+ [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
+
+ 750 € par mois
+
+### Maison de village avec terrasse
+
+ Capendu · 95 m² · 4 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
+
  [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
@@ -40,6 +50,8 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
+## Biens à proximité
+
  [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
@@ -49,8 +61,6 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
  Capendu · 27,4 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
 
  [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
 
@@ -71,16 +81,6 @@ Source : https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/
  Capendu · 120 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
-
- 45 000 €
-
-### Garage viabilisé de 134 m2 sur deux niveaux
-
- Capendu · 134 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

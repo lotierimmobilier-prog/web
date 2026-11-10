@@ -1,4 +1,4 @@
-# LOTIER Immobilier : configuration Apache (hébergement mutualisé OVH).
+# LOTIER Immobilier : configuration Apache (hébergement Hostinger).
 # Chaque bloc est protégé : s'il n'est pas disponible sur l'offre d'hébergement, il est ignoré.
 
 ErrorDocument 404 /404.html

@@ -108,7 +108,7 @@ Vos données sont traitées par les collaborateurs habilités de l'agence, dans 
 
 - les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;
 
-- notre hébergeur (OVH) et nos prestataires de maintenance informatique ;
+- notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;
 
 - notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;
 

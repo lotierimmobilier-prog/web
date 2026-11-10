@@ -10,6 +10,8 @@
 #
 # GitHub ne planifie qu'en UTC : on déclenche à 00:00 et 01:00 UTC et on ne garde que l'exécution qui tombe à 02h
 # à Paris (01:00 UTC en hiver, 00:00 UTC en été). Lancement à la main possible : onglet Actions → « Mise à jour des annonces ».
+# Elle reprend aussi les contenus que Collab a figés au dernier « Publier » (data/contenu.json ; s'il est injoignable, le
+# fichier actuel est conservé) et passe les mêmes contrôles que « Publier le site » (scripts/controle_publication.py).
 # Activée le 2026-11-09 (Actions réactivées sur le dépôt par Jerome).
 name: Mise à jour des annonces
 
@@ -70,9 +72,17 @@ jobs:
         if: steps.heure.outputs.go == 'oui'
         run: python3 scripts/controle_maj.py "$RUNNER_TEMP/annonces-avant.json" "$RUNNER_TEMP/message.txt"
 
+      - name: Récupérer les contenus de Collab
+        if: steps.heure.outputs.go == 'oui'
+        run: python3 scripts/recuperer_contenu.py --souple
+
       - name: Régénérer le site
         if: steps.heure.outputs.go == 'oui'
         run: python3 scripts/generateur/build_all.py
+
+      - name: Contrôler le site régénéré
+        if: steps.heure.outputs.go == 'oui'
+        run: python3 scripts/controle_publication.py
 
       - name: Publier s'il y a du nouveau
         if: steps.heure.outputs.go == 'oui'
