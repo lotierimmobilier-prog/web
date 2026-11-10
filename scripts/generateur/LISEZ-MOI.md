@@ -31,3 +31,14 @@ Le bouton « Publier » de Collab fige les contenus du site et lance le workflow
 
 La mise à jour de nuit des annonces (`maj-annonces.yml`) reprend les mêmes étapes et partage le même verrou : jamais deux écritures sur `main` en même temps.
 Le titre de l'exécution (« Publier le site — Collab n°N ») est un contrat avec Collab (`src/lib/site-publication.ts`) : ne pas le modifier sans modifier Collab.
+
+## Le blog est géré depuis Collab (étape « Blog », 10/11/2026)
+
+`contenu.py` lit `data/contenu.json` (écrit par `scripts/recuperer_contenu.py`). Quand Collab « gère » les articles (`gere: ["articles"]`),
+**Collab fait foi** : les articles viennent de lui (titre, textes, FAQ, photo, date…), un article absent de Collab n'est pas publié et sa page
+(`blog/<adresse>.html` et `.md`) est supprimée. Tant que Collab ne gère pas le blog, le générateur garde les textes de `content_articles.py`
+et `extra*.py` (repli). Un article invalide (catégorie, photo ou ville inconnue, section vide…) **arrête la génération** : rien n'est publié.
+
+Vérifier qu'un changement de générateur n'altère pas le site : `python3 scripts/exporter_articles.py /tmp/articles.json`, puis écrire
+`data/contenu.json` avec ces articles (`{"contenu": {"schema": 1, "gere": ["articles"], "articles": [...], "pages": [], "reglages": {}, "medias": []}}`),
+relancer `build_all.py` : `git status` ne doit montrer AUCUN fichier du site modifié. (`LOTIER_CONTENU_STATIQUE=1` ignore `data/contenu.json`.)

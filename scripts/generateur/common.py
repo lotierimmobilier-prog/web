@@ -10,6 +10,7 @@ from extra2 import EXTRA2
 from extra3 import EXTRA3
 from extra4 import EXTRA4
 EXTRA = {**EXTRA1, **EXTRA2, **EXTRA3, **EXTRA4}
+import contenu as CONTENU_COLLAB
 for _a in ARTICLES:
     _ex = EXTRA.get(_a["slug"])
     if _ex:
@@ -103,6 +104,17 @@ _start, _end = datetime.date(2025, 11, 12), datetime.date(2026, 11, 2)
 _days = random.sample(range((_end - _start).days + 1), len(ARTICLES))
 for a, off in zip(ARTICLES, _days):
     a["date"] = _start + datetime.timedelta(days=off)
+
+# ---------- Articles venus de Collab (data/contenu.json) : si Collab gère le blog, il fait foi ----------
+# Les textes écrits dans le code ci-dessus restent le REPLI tant que Collab ne gère pas le blog. Quand il le gère, un article
+# absent de Collab n'est pas publié (article dépublié) : on remplace la liste, FAQ comprise. Date, photo et texte viennent de Collab.
+_COLLAB_ARTICLES = CONTENU_COLLAB.articles(
+    {os.path.splitext(f)[0] for f in os.listdir(os.path.join(ROOT, "assets", "photos")) if f.endswith(".jpg")},
+    {c["key"] for c in CITIES})
+if _COLLAB_ARTICLES is not None:
+    ARTICLES[:] = [{k: v for k, v in a.items() if k != "faq"} for a in _COLLAB_ARTICLES]
+    ART_FAQ.clear()
+    ART_FAQ.update({a["slug"]: a["faq"] for a in _COLLAB_ARTICLES if a["faq"]})
 
 def _text_of(a):
     parts = [a["intro"]]
