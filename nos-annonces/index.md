@@ -4,7 +4,7 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+63 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
 
@@ -315,16 +315,6 @@ Source : https://lotier.immo/nos-annonces/
  Montpellier · 52 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-t2-dans-residence-livree-en-2025/)
-
- 190 000 €
-
-### Appartement T2 dans résidence livrée en 2025
-
- Montpellier · 42,89 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-dans-residence-livree-en-2025/)[Être rappelé](https://lotier.immo/contact/)
 
  [VENTE ](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)
 

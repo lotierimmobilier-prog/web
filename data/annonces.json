@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10",
+ "maj": "2026-11-11",
  "source": "https://www.lotier-immobilier.com/nos-biens/",
  "annonces": [
   {
@@ -129,6 +129,20 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/maison-de-village-avec-terrasse-1.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-2.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-3.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-4.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-5.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-6.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-7.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-8.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-9.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-10.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-11.jpg",
+    "assets/annonces/maison-de-village-avec-terrasse-12.jpg"
+   ],
    "reference": "2_BBLMA30000998",
    "agent": {
     "nom": "BARBARA BOUBA",
@@ -153,21 +167,7 @@
     "Charges comprises, dont 20 € de charges récupérables",
     "Location non meublée"
    ],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/maison-de-village-avec-terrasse-1.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-2.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-3.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-4.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-5.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-6.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-7.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-8.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-9.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-10.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-11.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-12.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "maison-de-village-renovee-avec-climatisation-louee-meublee",
@@ -433,6 +433,18 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-1.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-2.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-3.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-4.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-5.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-6.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-7.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-8.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-9.jpg",
+    "assets/annonces/studio-spacieux-au-centre-de-limoux-10.jpg"
+   ],
    "reference": "21_MALST130000398",
    "agent": {
     "nom": "Jonathan GASSER",
@@ -457,19 +469,7 @@
     "Charges comprises, dont 20 € de charges récupérables",
     "Location non meublée"
    ],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-1.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-2.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-3.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-4.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-5.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-6.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-7.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-8.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-9.jpg",
-    "assets/annonces/studio-spacieux-au-centre-de-limoux-10.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "a-louer-local-commercial-avec-mezzanine-entre-beziers-et",
@@ -1838,6 +1838,19 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-1.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-3.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-4.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-5.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-6.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-7.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-8.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-9.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-10.jpg",
+    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-11.jpg"
+   ],
    "reference": "12_RFVMA70000869",
    "agent": {
     "nom": "Elodie CHARDOT",
@@ -1859,20 +1872,7 @@
     "prix_energies": "00/00/0000"
    },
    "mentions_prix": [],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-1.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-2.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-3.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-4.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-5.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-6.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-7.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-8.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-9.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-10.jpg",
-    "assets/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4-11.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "nimes-costieres-appartement-type-3-avec-terrasse-et-garage",
@@ -2022,6 +2022,20 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-1.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-3.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-4.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-5.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-6.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-7.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-8.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-9.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-10.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-11.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-12.jpg"
+   ],
    "reference": "18_RFVAP70000862",
    "agent": {
     "nom": "Frédérique GALLUCCI",
@@ -2040,21 +2054,7 @@
     }
    },
    "mentions_prix": [],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-1.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-2.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-3.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-4.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-5.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-6.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-7.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-8.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-9.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-10.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-11.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-12.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "baisse-de-prix-meynes-maison-de-village-8716m2-2-ch",
@@ -2167,6 +2167,20 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-1.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-3.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-4.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-5.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-6.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-7.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-8.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-9.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-10.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-11.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-12.jpg"
+   ],
    "reference": "17_521",
    "agent": {
     "nom": "CELINE AUBIN",
@@ -2188,21 +2202,7 @@
     "prix_energies": "01/01/2021"
    },
    "mentions_prix": [],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-1.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-3.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-4.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-5.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-6.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-7.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-8.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-9.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-10.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-11.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-12.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "a-louer-appartement-t3-spacieux-en-centre-ville-historique-2",
@@ -2778,6 +2778,20 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-1.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-3.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-4.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-5.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-6.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-7.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-8.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-9.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-10.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-11.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-12.jpg"
+   ],
    "reference": "12_RFVMA70000739",
    "agent": {
     "nom": "Elodie CHARDOT",
@@ -2799,21 +2813,7 @@
     "prix_energies": "01/01/2023"
    },
    "mentions_prix": [],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-1.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-2.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-3.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-4.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-5.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-6.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-7.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-8.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-9.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-10.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-11.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-12.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2",
@@ -4483,167 +4483,6 @@
     "ges": {
      "valeur": 10,
      "classe": "B"
-    }
-   },
-   "mentions_prix": [],
-   "schema": 2
-  },
-  {
-   "id": "appartement-t2-dans-residence-livree-en-2025",
-   "url": "https://www.lotier-immobilier.com/propriete/appartement-t2-dans-residence-livree-en-2025/",
-   "titre": "Appartement T2 dans résidence livrée en 2025",
-   "ville": "Montpellier",
-   "type": "vente",
-   "prix": 190000.0,
-   "surface": 42.89,
-   "chambres": 1,
-   "sdb": 1,
-   "badges": [],
-   "photo": "assets/annonces/appartement-t2-dans-residence-livree-en-2025.jpg",
-   "description_html": "<p>Situé à un étage élevé, cet appartement deux pièces offre un beau séjour ouvert sur une terrasse, idéal pour profiter de moments en extérieur. La chambre bénéficie également d’un accès direct à la terrasse, apportant lumière et air frais. L’appartement dispose d’une salle de douche et d’un WC indépendant.</p><p>Une place de stationnement privée en sous-sol est incluse, au sein d’une résidence sécurisée.</p><p>Idéalement situé dans le secteur La Restanque / Près d’Arène, à proximité immédiate des commerces, des transports en commun (tramway et bus) et de l’autoroute. Les plages sont également accessibles rapidement.</p><p>Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite.</p><p>Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "42.89 m²"
-      ],
-      [
-       "Pièces",
-       "2"
-      ],
-      [
-       "Chambres",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Étage",
-       "4 / 5"
-      ],
-      [
-       "Année de construction",
-       "2025"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique radiateur"
-      ],
-      [
-       "Exposition",
-       "Est"
-      ],
-      [
-       "Ascenseur",
-       "Oui"
-      ],
-      [
-       "Ascenseur",
-       "Oui"
-      ],
-      [
-       "Parking",
-       "Oui"
-      ],
-      [
-       "Terrasse",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "190 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "30"
-      ],
-      [
-       "Charges annuelles",
-       "102 €/an"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Montpellier"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "photos": [
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-1.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-2.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-3.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-4.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-5.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-6.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-7.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-8.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-9.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-10.jpg",
-    "assets/annonces/appartement-t2-dans-residence-livree-en-2025-11.jpg"
-   ],
-   "reference": "12_615",
-   "agent": {
-    "nom": "Elodie CHARDOT",
-    "email": "elodie.chardot@lotier-immobilier.com",
-    "telephone": "0673035196",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 49,
-     "classe": "A"
-    },
-    "ges": {
-     "valeur": 1,
-     "classe": "A"
     }
    },
    "mentions_prix": [],
