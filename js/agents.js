@@ -72,8 +72,8 @@
   }
   function apply() {
     field.classList.toggle('f', filt !== 'all');
-    var au = sec.querySelector('.ag-aurore');   // l'aurore met en lumière la couleur du secteur choisi
-    if (au) { au.classList.toggle('f', filt !== 'all'); au.querySelectorAll('.au[data-s]').forEach(function (n) { n.classList.toggle('is-on', n.dataset.s === filt); }); }
+    var carte = sec.querySelector('.ag-carte');   // les villes du secteur choisi s'allument sur la carte
+    if (carte) { carte.classList.toggle('f', filt !== 'all'); carte.querySelectorAll('.cp-v').forEach(function (n) { n.classList.toggle('is-on', n.dataset.s === filt); }); }
     var on = GEO ? zoom() : [];
     field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('on', filt === 'all' || b.dataset.s.split(' ').indexOf(filt) > -1); b.classList.toggle('sel', b.dataset.id === sel); });
     var liste = sec.querySelector('.ag-list');   // la liste du bas suit le secteur choisi

@@ -101,9 +101,28 @@ def bubble_data(a):
             "url": f'{prefix}nos-agents/{a["slug"]}/'}
 
 secteurs_utiles = [s for s in CFG["secteurs"] if any(s["id"] in a["secteurs"] for a in AGENTS)]
-# Fond « aurore » de la zone des bulles : nappes de lumière très pâles aux couleurs des secteurs, qui dérivent lentement
-_au = "".join(f'<i class="au au-{k}" data-s="{x["id"]}" style="background:{x["couleur"]}"></i>' for k, x in enumerate(secteurs_utiles[:4]))
-aurore = f'<div class="ag-aurore" aria-hidden="true">{_au}<i class="au au-4" style="background:#e8c36a"></i></div>'
+# Fond de la zone des bulles : lumière beige très transparente + carte de l'Occitanie et ses villes phares (contours dans data/occitanie-carte.json)
+import math
+_VILLES = [("Béziers", 3.2158, 43.3440, "beziers", (14, -10, "start")), ("Montpellier", 3.8767, 43.6108, "montpellier", (16, 6, "start")),
+           ("Nîmes", 4.3601, 43.8367, "nimes", (16, 6, "start")), ("Carcassonne", 2.3491, 43.2130, "carcassonne", (-14, 6, "end")),
+           ("Narbonne", 3.0050, 43.1839, "carcassonne", (-14, 20, "end"))]
+def _carte():
+    try: g = json.load(open(f"{ROOT}/data/occitanie-carte.json", encoding="utf-8"))
+    except (OSError, ValueError): return ""
+    lon0, lon1, lat0, lat1 = -0.35, 4.87, 42.30, 45.07
+    k = 1000 / ((lon1 - lon0) * math.cos(math.radians(43.7)))
+    X = lambda lo: (lo - lon0) * math.cos(math.radians(43.7)) * k
+    Y = lambda la: (lat1 - la) * k
+    H = round(Y(lat0))
+    path = lambda rings: "".join("M" + "L".join(f"{X(a):.0f} {Y(b):.0f}" for a, b in r) + "Z" for r in rings)
+    deps = "".join(f'<path class="cp-dep" d="{path(r)}"/>' for r in g["departements"].values())
+    villes = ""
+    for nom, lo, la, sid, (dx, dy, anc) in _VILLES:
+        col = SECT.get(sid, {}).get("couleur", "#867244"); x, y = X(lo), Y(la)
+        villes += (f'<g class="cp-v" data-s="{sid}" style="--vc:{col}"><circle class="cp-halo" cx="{x:.0f}" cy="{y:.0f}" r="9"/><circle class="cp-dot" cx="{x:.0f}" cy="{y:.0f}" r="6"/>'
+                   f'<text x="{x + dx:.0f}" y="{y + dy:.0f}" text-anchor="{anc}">{nom}</text></g>')
+    return (f'<svg class="ag-carte" viewBox="0 0 1000 {H}" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path class="cp-reg" d="{path(g["region"])}"/>{deps}{villes}</svg>')
+aurore = '<div class="ag-aurore" aria-hidden="true"><i class="au au-0"></i><i class="au au-1"></i><i class="au au-2"></i></div>' + _carte()
 chips = '<button type="button" class="chip-link is-on" data-sect="all" aria-pressed="true">Tous</button>' + "".join(
     f'<button type="button" class="chip-link" data-sect="{s["id"]}" aria-pressed="false"><i style="background:{s["couleur"]}"></i>{e(s["nom"])}</button>' for s in secteurs_utiles) + \
     '<button type="button" class="chip-link ag-mix" data-mix>&#8635; Mélanger</button>'
