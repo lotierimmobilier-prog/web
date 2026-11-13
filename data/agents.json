@@ -14,6 +14,8 @@
    "nom": "Bouba",
    "fonction": "Agent Commercial - Secteur Carcassonne - Narbonne (11)",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
+   "service": "",
    "secteurs": [
     "carcassonne"
    ],
@@ -45,6 +47,8 @@
    "nom": "Aubin",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
+   "service": "",
    "secteurs": [
     "nimes"
    ],
@@ -72,6 +76,8 @@
    "nom": "Chardot",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
+   "service": "",
    "secteurs": [
     "nimes",
     "montpellier"
@@ -101,6 +107,8 @@
    "nom": "Gallucci",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
+   "service": "",
    "secteurs": [
     "nimes"
    ],
@@ -132,6 +140,8 @@
    "nom": "Dias",
    "fonction": "Agent Commercial - Secteur Béziers (34) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
+   "service": "",
    "secteurs": [
     "beziers"
    ],
@@ -154,5 +164,6 @@
    "rsac_ville": "Argenteuil",
    "accord": null
   }
- ]
+ ],
+ "equipe": []
 }

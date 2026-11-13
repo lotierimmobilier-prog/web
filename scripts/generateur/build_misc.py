@@ -316,7 +316,7 @@ def plan_page():
           {li("vente/", "Vendre avec LOTIER")}
           {li("location/", "Location et gestion locative")}
           {li("syndic/", "Syndic de copropriété")}
-          {li("nos-agents/", "Nos agents par secteur")}
+          {li("nos-agents/", "Nos agents par secteur")}{(chr(10) + "          " + li("equipe/", "L’équipe de l’agence")) if EQUIPE else ""}
           {li("index.html#estimer", "Estimer mon bien")}
           {li("index.html#contact", "Contact et agences")}
           {li("mylotier/", "MyLotier, espace client")}

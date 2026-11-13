@@ -74,6 +74,38 @@ def https(u):
 
 ORTHO = {"Nimes": "Nîmes", "Beziers": "Béziers", "Sete": "Sète", "Ales": "Alès", "Uzes": "Uzès", "Lezignan": "Lézignan", "Trebes": "Trèbes"}
 
+def role_de(a, gerant):
+    """Intitulé affiché. Agent commercial indépendant (statut Collab « independant ») ou gérant ; pour les autres profils
+    (associé, gestionnaire, alternant…), l'intitulé de poste saisi dans Collab : champ « poste », sinon le début de « fonction »."""
+    if gerant: return "Gérant"
+    if (a.get("statut") or "independant") == "independant": return "Agent commercial indépendant"
+    poste = (a.get("poste") or (a.get("fonction") or "").split(" - ")[0]).strip()
+    return poste[:1].upper() + poste[1:] if poste else "Collaborateur LOTIER Immobilier"
+
+
+SERVICES = ("direction", "gestion", "syndic", "administratif")
+
+def service_de(a, role):
+    """Service d'un membre de l'équipe (page « L'équipe ») : champ « service » de Collab, sinon déduit du statut et de l'intitulé."""
+    s = (a.get("service") or "").strip().lower()
+    if s in SERVICES: return s
+    t = norm(f"{role} {a.get('fonction') or ''}")
+    if role == "Gérant" or (a.get("statut") or "") == "associe" or re.search(r"gerant|associe|direct", t): return "direction"
+    if re.search(r"syndic|copropriete", t): return "syndic"
+    if re.search(r"gestion|locati", t): return "gestion"
+    return "administratif"
+
+
+def commercial(x):
+    """Agent commercial indépendant : il va sur « Nos agents ». Tous les autres profils vont sur « L'équipe »."""
+    return x["statut"] == "independant" and x["role"] != "Gérant"
+
+
+def publiable(a):
+    """Collab décide : un profil que l'administrateur n'a pas validé, ou marqué « ne pas afficher », n'est pas publié."""
+    return a.get("validation_admin") is not False and a.get("afficher_sur_site") is not False and a.get("accord_publication") is not False
+
+
 def mini_site_ok(u):
     """Le mini-site Collab de l'agent n'est lié que s'il répond : une page en erreur ne doit pas être proposée aux visiteurs."""
     u = https(u)
@@ -137,7 +169,7 @@ def main():
     PHOTOS.mkdir(parents=True, exist_ok=True)
     out, gardees = [], set()
     for a in brut:
-        if a["id"] in cfg.get("masquer", []): continue
+        if a["id"] in cfg.get("masquer", []) or not publiable(a): continue
         prenom = cfg["corrections_prenom"].get(a["prenom"], a["prenom"])
         ids, gerant = secteurs_de(a, cfg, noms)
         slug = re.sub(r"[^a-z0-9]+", "-", norm(f"{prenom} {a['nom']}")).strip("-")
@@ -151,7 +183,7 @@ def main():
                 print(f"::warning::Photo de {prenom} non récupérée ({e})")
                 if dest.exists(): photo = f"assets/agents/{slug}.jpg"; gardees.add(dest.name)
         out.append({"id": a["id"], "slug": slug, "prenom": prenom, "nom": titre(a["nom"]), "fonction": (a.get("fonction") or "").strip(),
-                    "role": "Gérant" if gerant else "Agent commercial indépendant", "secteurs": ids,
+                    "role": role_de(a, gerant), "statut": a.get("statut") or "independant", "service": a.get("service") or "", "secteurs": ids,
                     "communes": [ORTHO.get(c.strip(), c.strip()) for c in (a.get("communes_couvertes") or "").split(",") if c.strip()],
                     "email": (a.get("email_pro") or "").strip(), "telephone": tel(a.get("telephone_pro")),
                     "mini_site": mini_site_ok(a.get("url_mini_site")), "photo": photo, "bio": bio_utile(a.get("bio_courte")),
@@ -166,16 +198,18 @@ def main():
         if ph: gardees.add(Path(ph).name)
         slug = re.sub(r"[^a-z0-9]+", "-", norm(f"{x['prenom']} {x['nom']}")).strip("-")
         out.append({"id": x.get("id") or "ajout_" + slug, "slug": slug, "prenom": x["prenom"], "nom": x["nom"], "fonction": x.get("fonction", ""),
-                    "role": "Gérant" if gerant else "Agent commercial indépendant", "secteurs": x.get("secteurs") or ids, "communes": x.get("communes", []),
+                    "role": role_de(x, gerant), "statut": x.get("statut") or "independant", "service": x.get("service") or "", "secteurs": x.get("secteurs") or ids, "communes": x.get("communes", []),
                     "email": x.get("email", ""), "telephone": tel(x.get("telephone")), "mini_site": x.get("mini_site", ""), "photo": ph, "bio": x.get("bio"),
                     **profil({"id": x.get("id") or "ajout_" + slug, **x}, cfg)})
     ordre = cfg.get("ordre") or []
     out.sort(key=lambda x: (ordre.index(x["id"]) if x["id"] in ordre else 999, norm(x["prenom"])))
     for f in PHOTOS.glob("*.jpg"):
         if f.name not in gardees: f.unlink()
-    nouveau = {"source": BASE + "/agents", "secteurs": [s["id"] for s in cfg["secteurs"]], "agents": out}
+    agents = [x for x in out if commercial(x)]
+    equipe = [{**x, "service": service_de(x, x["role"])} for x in out if not commercial(x)]
+    nouveau = {"source": BASE + "/agents", "secteurs": [s["id"] for s in cfg["secteurs"]], "agents": agents, "equipe": equipe}
     SORTIE.write_text(json.dumps(nouveau, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"{len(out)} agent(s) écrits dans {SORTIE.name}")
+    print(f"{len(agents)} agent(s) et {len(equipe)} membre(s) de l'équipe écrits dans {SORTIE.name}")
 
 
 main()

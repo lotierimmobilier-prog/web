@@ -11,10 +11,14 @@ CFG = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8"))
 AGENTS = DATA["agents"]
 SECT = {s["id"]: s for s in CFG["secteurs"]}
 CAT = CFG.get("specialites_catalogue", {})
-MANQUE_LEGAL = [f'{a["prenom"]} {a["nom"]}' for a in AGENTS if not a.get("rsac") or a.get("accord") is False]
-INDEXABLE = bool(CFG.get("indexable")) and bool(AGENTS) and not MANQUE_LEGAL
+def independant(a): return a.get("statut", "independant") == "independant" and a.get("role") != "Gérant"
+# Le RSAC ne concerne que les agents commerciaux indépendants ; un salarié, un associé ou un alternant n'en a pas.
+MANQUE_LEGAL = [f'{a["prenom"]} {a["nom"]}' for a in AGENTS if independant(a) and not a.get("rsac")]
+# La page « Nos agents » est ouverte aux moteurs dès que le réglage « indexable » est activé. Une fiche sans RSAC reste, elle seule,
+# masquée des moteurs (noindex) et hors du sitemap : un agent ajouté dans Collab sans son RSAC ne fait pas disparaître les autres de Google.
+INDEXABLE = bool(CFG.get("indexable")) and bool(AGENTS)
 if CFG.get("indexable") and MANQUE_LEGAL:
-    print("ATTENTION : pages agents laissées en noindex, mentions légales ou accord manquants pour :", ", ".join(MANQUE_LEGAL))
+    print("ATTENTION : fiches laissées en noindex, RSAC manquant pour :", ", ".join(MANQUE_LEGAL))
 ROBOTS_OK = "index, follow, max-image-preview:large, max-snippet:-1"
 ROBOTS = ROBOTS_OK if INDEXABLE else "noindex, follow"
 
@@ -243,12 +247,15 @@ def fiche(a):
     </section>
 ''' if (texte_fiche or spe or comm) else "") + f'''    {('<section class="section container"><p class="muted small ag-legal">' + e(legal) + '</p></section>') if legal else ""}
     <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
+    if not ann and not independant(a):     # un gestionnaire, un associé ou un alternant n'a pas d'annonces : pas de rubrique vide
+        import re as _re2
+        body = _re2.sub(r'    <section class="section container" aria-labelledby="ag-ann">.*?</section>\n', "", body, count=1, flags=_re2.S)
     secteurs_txt = ", ".join(a["communes"][:4])
-    titre = f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER'.replace("  ", " ")
-    desc = (bio[:150].rsplit(" ", 1)[0] + "…") if len(bio) > 160 else (bio or f'{nom}, {a["role"].lower()} LOTIER Immobilier. Secteur : {secteurs_txt}. Coordonnées et annonces.')
-    if len(desc) < 70: desc = f'{nom}, {a["role"].lower()} LOTIER Immobilier : {desc} Secteur : {secteurs_txt}.'
+    titre = (f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER' if independant(a) else f'{nom}, {a["role"][:1].lower() + a["role"][1:]} | LOTIER').replace("  ", " ")
+    desc = (bio[:150].rsplit(" ", 1)[0] + "…") if len(bio) > 160 else (bio or f'{nom}, {a["role"].lower()} LOTIER Immobilier.' + (f' Secteur : {secteurs_txt}.' if secteurs_txt else '') + ' Coordonnées' + (' et annonces.' if ann else ' et présentation.'))
+    if len(desc) < 70: desc = f'{nom}, {a["role"].lower()} LOTIER Immobilier : {desc}' + (f' Secteur : {secteurs_txt}.' if secteurs_txt else ' Agence immobilière à Béziers, Montpellier, Nîmes et Carcassonne.')
     sameas = [u for u in (a.get("reseaux") or {}).values()] + ([a["google"]] if a.get("google") else [])
-    person = {"@context": "https://schema.org", "@type": "RealEstateAgent", "@id": f'{SITE}/nos-agents/{a["slug"]}/#agent', "name": nom, "jobTitle": a["role"], "url": f'{SITE}/nos-agents/{a["slug"]}/',
+    person = {"@context": "https://schema.org", "@type": "RealEstateAgent" if independant(a) or a.get("role") == "Gérant" else "Person", "@id": f'{SITE}/nos-agents/{a["slug"]}/#agent', "name": nom, "jobTitle": a["role"], "url": f'{SITE}/nos-agents/{a["slug"]}/',
               "worksFor": {"@id": SITE + "/#agence"}, "parentOrganization": {"@id": SITE + "/#agence"}, "areaServed": [{"@type": "City", "name": c} for c in a["communes"]],
               "knowsAbout": [CAT[s] for s in specialites] + mots_cles, "inLanguage": "fr-FR"}
     if a.get("telephone"): person["telephone"] = tel_intl(a["telephone"])
@@ -258,10 +265,50 @@ def fiche(a):
     if sameas: person["sameAs"] = sameas
     node_page = {"@context": "https://schema.org", "@type": "ProfilePage", "@id": f'{SITE}/nos-agents/{a["slug"]}/#page', "url": f'{SITE}/nos-agents/{a["slug"]}/', "name": titre, "mainEntity": {"@id": person["@id"]}, "isPartOf": {"@id": SITE + "/#website"}, "inLanguage": "fr-FR"}
     html = shell(p2, titre, desc, f'nos-agents/{a["slug"]}/', body, [person, node_page, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos agents", SITE + "/nos-agents/"), (nom, f'{SITE}/nos-agents/{a["slug"]}/')])],
-                 a["photo"] if a.get("photo") else "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
+                 a["photo"] if a.get("photo") else "assets/og-lotier.jpg", robots=ROBOTS if a.get("rsac") or not independant(a) else "noindex, follow", kind="agence")
     if a.get("mots_cles"):
         html = html.replace('<meta name="robots"', f'<meta name="keywords" content="{e(", ".join(a["mots_cles"]))}">\n  <meta name="robots"', 1)
     ecrire(f'{ROOT}/nos-agents/{a["slug"]}/index.html', avec_script(html, f'{p2}js/agents.js?v={V_AGENTS_JS}') if False else html)
 
 for a in AGENTS: fiche(a)
 print(f"agents : page liste + {len(AGENTS)} fiches ({'indexables' if INDEXABLE else 'noindex'})")
+
+# ---------- page « L'équipe » : direction, gestion, syndic, accueil (hors agents commerciaux, qui ont leur page) ----------
+_SERVICES = [("direction", "Direction"), ("gestion", "Gestion locative"), ("syndic", "Syndic de copropriété"), ("administratif", "Accueil et administratif")]
+
+def carte_equipe(m):
+    contact = ""
+    if m.get("telephone"): contact += f'<a href="tel:{tel_intl(m["telephone"])}">{e(m["telephone"])}</a>'
+    if m.get("email"): contact += f'<a href="mailto:{e(m["email"])}">{e(m["email"])}</a>'
+    bio = clean_bio(m)
+    return (f'''<li class="glass eq-card">{portrait(m).replace("{p}", "../")}<div><h3>{e(m["prenom"])} {e(m["nom"])}</h3><p class="small muted">{e(m["role"])}</p>'''
+            + (f'<p class="small">{e(bio)}</p>' if bio else "") + (f'<p class="small eq-contact">{contact}</p>' if contact else "") + "</div></li>")
+
+shutil.rmtree(f"{ROOT}/equipe", ignore_errors=True)
+if EQUIPE:
+    blocs = ""
+    for cle, titre_s in _SERVICES:
+        membres = [m for m in EQUIPE if m.get("service") == cle]
+        if membres:
+            blocs += (f'''    <section class="section container" aria-labelledby="eq-{cle}"><div class="section-head"><div class="stack-3"><h2 class="title" id="eq-{cle}">{e(titre_s)}</h2></div></div>
+      <ul class="eq-list">{"".join(carte_equipe(m) for m in membres)}</ul>
+    </section>
+''')
+    corps = f'''    <section class="page-hero">
+      <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../index.html">Accueil</a><span aria-hidden="true">/</span><span aria-current="page">L’équipe</span></nav>
+        <h1 class="display page-title">L’équipe <em class="gold-text">de l’agence.</em></h1>
+        <p class="lead">Direction, gestion locative, syndic de copropriété, accueil : celles et ceux qui suivent vos dossiers au quotidien chez LOTIER Immobilier.</p>
+      </div>
+    </section>
+{blocs}    <section class="section container"><div class="glass ag-join"><div><strong>Vous cherchez un conseiller pour vendre ou acheter ?</strong><span class="muted"> Nos agents commerciaux sont présentés par secteur.</span></div><a class="btn btn-gold" href="../nos-agents/">Voir nos agents {ARROW}</a></div></section>'''
+    ld_eq = [breadcrumb_ld([("Accueil", SITE + "/"), ("L’équipe", SITE + "/equipe/")]),
+             {"@context": "https://schema.org", "@type": "AboutPage", "@id": SITE + "/equipe/#page", "url": SITE + "/equipe/", "name": "L’équipe de LOTIER Immobilier", "inLanguage": "fr-FR",
+              "about": {"@id": SITE + "/#agence"},
+              "mentions": [{"@type": "Person", "name": f'{m["prenom"]} {m["nom"]}', "jobTitle": m["role"], "worksFor": {"@id": SITE + "/#agence"}} for m in EQUIPE]}]
+    ecrire(f"{ROOT}/equipe/index.html", shell("../", "L’équipe de l’agence : direction, gestion, syndic | LOTIER",
+           "L’équipe de LOTIER Immobilier : direction, gestion locative, syndic de copropriété et accueil. Les personnes qui suivent vos dossiers au quotidien.",
+           "equipe/", corps, ld_eq, "assets/og-lotier.jpg", kind="agence"))
+    print(f"page équipe générée ({len(EQUIPE)} membres)")
+
