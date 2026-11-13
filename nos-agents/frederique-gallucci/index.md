@@ -110,6 +110,8 @@ Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secte
 
  [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
 
+Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Ajaccio sous le n° 100710235. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
+
 ## Un projet de vente, de location ou d'estimation ?
 
 Frédérique vous répond directement. [Estimer mon bien ](https://lotier.immo/index.html#estimer)[06 37 64 77 01](tel:+33637647701)
