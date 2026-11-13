@@ -1,31 +1,151 @@
 {
-  "_aide": "Ajouter un agent dans la liste « agents » : la page /nos-agents/ lit ce fichier à chaque visite. Champs : nom, role (facultatif), secteurs (identifiants de la liste « secteurs »), communes (texte libre), email, telephone, site (adresse du mini-site, http ou https), photo (facultatif, ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier). Un agent peut couvrir plusieurs secteurs. Un secteur se crée dans la liste « secteurs » (id, nom, dept). La page reste masquée des moteurs de recherche tant qu'elle n'est pas rendue indexable.",
-  "secteurs": [
-    {
-      "id": "beziers-agde",
-      "nom": "Béziers et Agde",
-      "dept": "Hérault"
-    },
-    {
-      "id": "montpellier",
-      "nom": "Montpellier",
-      "dept": "Hérault"
-    },
-    {
-      "id": "nimes",
-      "nom": "Nîmes",
-      "dept": "Gard"
-    },
-    {
-      "id": "carcassonne-narbonne",
-      "nom": "Carcassonne et Narbonne",
-      "dept": "Aude"
-    },
-    {
-      "id": "avignon",
-      "nom": "Avignon",
-      "dept": "Vaucluse"
-    }
-  ],
-  "agents": []
+ "source": "https://collab.lotier-immobilier.com/api/public/v1/agents",
+ "secteurs": [
+  "beziers",
+  "carcassonne",
+  "montpellier",
+  "nimes"
+ ],
+ "agents": [
+  {
+   "id": "agt_d36faf151fc8",
+   "slug": "barbara-bouba",
+   "prenom": "Barbara",
+   "nom": "Bouba",
+   "fonction": "Agent Commercial - Secteur Carcassonne - Narbonne (11)",
+   "role": "Agent commercial indépendant",
+   "secteurs": [
+    "carcassonne"
+   ],
+   "communes": [
+    "Narbonne",
+    "Lézignan",
+    "Capendu",
+    "Trèbes",
+    "Carcassonne"
+   ],
+   "email": "barbara.bouba@lotier-immobilier.com",
+   "telephone": "06 51 45 06 63",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/barbara.bouba",
+   "photo": "assets/agents/barbara-bouba.jpg",
+   "bio": "Barbara BOUBA est votre agent immobilier LOTIER Immobilier, spécialisée en vente immobilière et gestion locative à Carcassonne, Capendu, Trèbes, Narbonne et dans l'ensemble de l'Aude. Grâce à sa parfaite connaissance du marché local, elle accompagne vendeurs, acquéreurs, propriétaires et…",
+   "presentation": null,
+   "reseaux": {},
+   "specialites": [],
+   "google": null,
+   "mots_cles": [],
+   "rsac": null
+  },
+  {
+   "id": "agt_8b5b94ce6fb3",
+   "slug": "celine-aubin",
+   "prenom": "Céline",
+   "nom": "Aubin",
+   "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
+   "role": "Agent commercial indépendant",
+   "secteurs": [
+    "nimes"
+   ],
+   "communes": [
+    "Meynes"
+   ],
+   "email": "celine.aubin@lotier-immobilier.com",
+   "telephone": "06 16 29 35 31",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/celine.aubin",
+   "photo": "assets/agents/celine-aubin.jpg",
+   "bio": null,
+   "presentation": null,
+   "reseaux": {},
+   "specialites": [],
+   "google": null,
+   "mots_cles": [],
+   "rsac": null
+  },
+  {
+   "id": "agt_1c816c97f1fb",
+   "slug": "elodie-chardot",
+   "prenom": "Élodie",
+   "nom": "Chardot",
+   "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
+   "role": "Agent commercial indépendant",
+   "secteurs": [
+    "nimes",
+    "montpellier"
+   ],
+   "communes": [
+    "Montpellier",
+    "Nîmes",
+    "Clarensac",
+    "Alès",
+    "Castelnau-le-Lez"
+   ],
+   "email": "elodie.chardot@lotier-immobilier.com",
+   "telephone": "06 73 03 51 96",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/elodie.chardot",
+   "photo": "assets/agents/elodie-chardot.jpg",
+   "bio": null,
+   "presentation": null,
+   "reseaux": {},
+   "specialites": [],
+   "google": null,
+   "mots_cles": [],
+   "rsac": null
+  },
+  {
+   "id": "agt_fe8bf6e5e6da",
+   "slug": "frederique-gallucci",
+   "prenom": "Frédérique",
+   "nom": "Gallucci",
+   "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
+   "role": "Agent commercial indépendant",
+   "secteurs": [
+    "nimes"
+   ],
+   "communes": [
+    "Caveirac",
+    "Nîmes",
+    "Aubais",
+    "Beaucaire",
+    "Calvisson"
+   ],
+   "email": "frederique.gallucci@lotier-immobilier.com",
+   "telephone": "06 37 64 77 01",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/frederique.gallucci",
+   "photo": "assets/agents/frederique-gallucci.jpg",
+   "bio": null,
+   "presentation": null,
+   "reseaux": {},
+   "specialites": [],
+   "google": null,
+   "mots_cles": [],
+   "rsac": null
+  },
+  {
+   "id": "agt_4041115b3d3c",
+   "slug": "laetitia-dias",
+   "prenom": "Laëtitia",
+   "nom": "Dias",
+   "fonction": "Agent Commercial - Secteur Béziers (34) et alentours",
+   "role": "Agent commercial indépendant",
+   "secteurs": [
+    "beziers"
+   ],
+   "communes": [
+    "Béziers",
+    "Maureilhan",
+    "Villeneuve-lès-Béziers"
+   ],
+   "email": "laetitia.dias@lotier-immobilier.com",
+   "telephone": "06 09 76 63 24",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/laetitia.dias",
+   "photo": "assets/agents/laetitia-dias.jpg",
+   "bio": null,
+   "presentation": null,
+   "reseaux": {},
+   "specialites": [],
+   "google": null,
+   "mots_cles": [],
+   "rsac": null
+  }
+ ]
 }

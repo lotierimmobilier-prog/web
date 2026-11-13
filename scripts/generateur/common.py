@@ -30,6 +30,7 @@ V_CSS = _empreinte("css/styles.css")
 V_JS = _empreinte("js/main.js")
 V_INTRO_CSS = _empreinte("css/intro.css")
 V_INTRO_JS = _empreinte("js/intro.js")
+V_AGENTS_JS = _empreinte("js/agents.js")
 
 SITE = "https://lotier.immo"
 # Adresses des réseaux sociaux : renseigner les URLs complètes (les liens n'apparaissent que si elles sont remplies)
@@ -60,6 +61,7 @@ MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août
 def fr_date(d): return f"{d.day}{'er' if d.day == 1 else ''} {MOIS[d.month - 1]} {d.year}"
 
 PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>'
+USERS = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 19c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><circle cx="17" cy="9" r="2.4"/><path d="M16.5 13.7c2.6.2 4.5 2 4.5 4.8"/></svg>'
 BELL = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15z"/><path d="M10 21a2 2 0 0 0 4 0"/></svg>'
 CLOSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>'
 
@@ -330,9 +332,9 @@ def header(prefix, home=False, cta=None):
     cta_label, cta_href = cta[:2] if cta else ("Estimer mon bien", a("#estimer"))
     return f'''  <div class="topbar">
     <div class="container">
-      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="Note Google : {AVIS['note']} sur 5. Voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> sur Google</a></span>
+      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="Note Google : {AVIS['note']} sur 5. Voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> <span class="tb-g">sur Google</span></a></span>
       <div class="tb-r">
-        <a class="tb-tel" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>
+        <a class="tb-btn tb-agents" href="{prefix}nos-agents/">{USERS}Nos agents</a>
         <button type="button" class="tb-btn" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">{PIN}Nos agences</button>
         <a class="tb-my" href="{prefix}mylotier/">Espace client MyLotier</a>
       </div>
