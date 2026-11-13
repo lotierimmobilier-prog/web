@@ -181,10 +181,10 @@ En quatre étapes : candidature, dossier de carte professionnelle, kit et semain
 
 Parlez-nous de votre parcours : un membre de l'équipe vous rappelle pour présenter l'agence et répondre à vos questions.
 
- [Postuler par e-mail](mailto:recrutement@lotier-immobilier.com?subject=Candidature%20agent%20commercial%20ind%C3%A9pendant)
+ [Postuler par e-mail](mailto:contact@lotier-immobilier.com?subject=Candidature%20agent%20commercial%20ind%C3%A9pendant)
  [04 67 11 28 31](tel:+33467112831)
 
-recrutement@lotier-immobilier.com
+contact@lotier-immobilier.com
 40 rue Française, 1er étage, 34500 Béziers
  Nos partenaires ANGC ESPI Banque Dupuy, de Parseval La Boîte Immo Assurances Chevalier Bien'ici Le Figaro Zelok Leboncoin Mila Allianz Urbanis FMA
 

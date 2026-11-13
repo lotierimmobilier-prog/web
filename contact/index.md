@@ -20,7 +20,7 @@ Pour toute question ou demande.[contact@lotier-immobilier.com](mailto:contact@lo
 
 ### Devenir agent
 
-Candidature au réseau.[recrutement@lotier-immobilier.com](mailto:recrutement@lotier-immobilier.com)
+Candidature au réseau.[contact@lotier-immobilier.com](mailto:contact@lotier-immobilier.com)
 
  Nos agences
 

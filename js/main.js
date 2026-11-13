@@ -574,7 +574,7 @@
       e.preventDefault();
       var g = function (id) { return document.getElementById(id).value.trim(); };
       var body = 'Bonjour,\n\nJe souhaite rejoindre LOTIER Immobilier comme agent commercial indépendant.\n\nNom : ' + g('ap-nom') + '\nTéléphone : ' + g('ap-tel') + '\nE-mail : ' + g('ap-mail') + '\nVille : ' + g('ap-ville') + '\nSituation : ' + g('ap-situation') + '\n\nMessage :\n' + g('ap-msg') + '\n\nMerci de me recontacter.';
-      window.location.href = 'mailto:recrutement@lotier-immobilier.com?subject=' + encodeURIComponent('Candidature agent commercial indépendant') + '&body=' + encodeURIComponent(body);
+      window.location.href = 'mailto:contact@lotier-immobilier.com?subject=' + encodeURIComponent('Candidature agent commercial indépendant') + '&body=' + encodeURIComponent(body);
     });
   }
 })();
