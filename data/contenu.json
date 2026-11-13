@@ -1,0 +1,2540 @@
+{
+  "contenu": {
+    "articles": [
+      {
+        "categorie": "Syndic",
+        "cta": "syndic",
+        "date": "2026-07-03",
+        "description": "Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.",
+        "faq": [
+          {
+            "question": "Que faire si on ne peut pas assister à l'assemblée ?",
+            "reponse": "Remplissez le pouvoir joint à la convocation et confiez-le à la personne de votre choix. Vous pouvez préciser vos consignes de vote pour chaque résolution."
+          },
+          {
+            "question": "Peut-on contester une décision d'assemblée ?",
+            "reponse": "Oui, dans un délai court de deux mois à compter de la notification du procès-verbal, pour les copropriétaires opposants ou absents. Prenez conseil avant d'agir."
+          },
+          {
+            "question": "Combien de pouvoirs peut-on détenir ?",
+            "reponse": "Un mandataire ne peut généralement détenir qu'un nombre limité de pouvoirs, sauf exceptions prévues par la loi. Le syndic vous renseigne sur les règles applicables."
+          },
+          {
+            "question": "L'assemblée peut-elle se tenir à distance ?",
+            "reponse": "Oui, dans les conditions prévues par la loi et le règlement : visioconférence ou vote par correspondance. Le syndic précise les modalités dans la convocation."
+          },
+          {
+            "question": "Qui préside l'assemblée générale ?",
+            "reponse": "Le président de séance est élu par les copropriétaires présents ou représentés au début de la réunion. Il dirige les débats et veille au bon déroulement des votes, avec l'aide du secrétaire et du ou des scrutateurs."
+          }
+        ],
+        "intro": "L'assemblée générale est le moment où les copropriétaires décident de la vie de l'immeuble : budget, travaux, contrats. Y participer, c'est peser sur des décisions qui touchent directement vos charges et votre cadre de vie.",
+        "photo": "syndic",
+        "photoAlt": "Photo d'illustration : façade d'immeuble en noir et blanc",
+        "retenir": [
+          "Lisez la convocation et les documents joints avant l'assemblée.",
+          "Pas disponible ? Donnez un pouvoir pour ne pas perdre votre voix.",
+          "Gardez les procès-verbaux : ils servent lors d'une vente."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "La convocation est envoyée par le syndic, en général au moins vingt-et-un jours avant la date de l'assemblée. Elle comprend l'ordre du jour et les documents nécessaires pour voter : comptes de l'exercice, budget prévisionnel, devis éventuels. Lisez-les à l'avance : c'est ce qui permet de voter en connaissance de cause.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La convocation"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Vous pouvez assister à l'assemblée, ou vous faire représenter par un mandataire grâce à un pouvoir. Les votes prennent en compte les tantièmes de chaque lot. Selon la nature de la décision, une majorité simple ou renforcée est nécessaire. Le syndic ou le conseil syndical peuvent vous expliquer ces règles avant la réunion.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Y participer, ou donner pouvoir"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le procès-verbal retrace les décisions prises. Il est notifié aux copropriétaires, et un copropriétaire opposant ou absent peut contester une décision dans un délai de deux mois à compter de cette notification. Conservez le procès-verbal : il sera utile en cas de vente, car l'acheteur vous le demandera.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Après l'assemblée"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "L'assemblée commence par la constitution d'un bureau : un président de séance, un scrutateur et un secrétaire (souvent le syndic) sont désignés. Puis les résolutions sont examinées dans l'ordre de l'ordre du jour : approbation des comptes, budget prévisionnel, travaux, désignation du syndic, du conseil syndical, contrats d'entretien. Pour chaque résolution, les copropriétaires débattent puis votent. Les résultats sont consignés au procès-verbal, que le syndic notifie ensuite à tous.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le déroulement d'une assemblée"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les décisions se prennent à différentes majorités, selon leur importance. Certaines nécessitent la majorité des voix des copropriétaires présents ou représentés, d'autres la majorité de tous les copropriétaires du syndicat, d'autres encore des majorités renforcées. Les voix sont proportionnelles aux tantièmes du lot. Pour les décisions les plus lourdes (travaux importants, modification du règlement), les règles sont plus strictes. Le syndic indique la majorité requise pour chaque résolution.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comprendre les votes"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le conseil syndical est composé de copropriétaires élus. Il assiste et contrôle le syndic, donne son avis sur les devis et prépare parfois les décisions importantes. Participer au conseil syndical, c'est suivre de plus près la vie de l'immeuble. Même sans en être membre, vous pouvez lui transmettre vos remarques avant l'assemblée et proposer des sujets à l'ordre du jour dans les délais prévus.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le rôle du conseil syndical"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "les comptes de l'exercice écoulé et leurs annexes ;",
+                  "le budget prévisionnel de l'année suivante ;",
+                  "les devis présentés pour les travaux et leur comparaison ;",
+                  "les contrats à renouveler (entretien, ascenseur, chauffage, assurance) ;",
+                  "le rapport du conseil syndical, s'il existe ;",
+                  "les projets de résolutions et leur motivation."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les documents à lire avant de voter"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le syndic exécute les décisions votées : lancement des travaux, signature des contrats, appels de fonds. Gardez le procès-verbal et suivez l'avancement. N'hésitez pas à interroger le syndic ou le conseil syndical si une décision tarde à être appliquée : ils sont tenus de rendre compte. Une copropriété bien suivie, c'est aussi un immeuble qui garde sa valeur.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Après l'assemblée : suivi et exécution"
+          }
+        ],
+        "slug": "assemblee-generale-copropriete-preparer",
+        "titre": "Assemblée générale de copropriété : bien se préparer",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Syndic",
+        "cta": "syndic",
+        "date": "2026-04-21",
+        "description": "Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.",
+        "faq": [
+          {
+            "question": "Les charges de copropriété peuvent-elles être récupérées sur le locataire ?",
+            "reponse": "Une partie, oui : les charges récupérables listées par décret (entretien courant, eau, ascenseur…). Les charges de gestion de l'immeuble et les gros travaux restent à la charge du propriétaire."
+          },
+          {
+            "question": "Peut-on consulter les justificatifs de charges ?",
+            "reponse": "Oui. Les copropriétaires peuvent consulter les pièces justificatives avant l'assemblée générale qui approuve les comptes. Le syndic vous indique les modalités."
+          },
+          {
+            "question": "Comment savoir si mes charges sont normales ?",
+            "reponse": "Comparez-les avec celles de copropriétés similaires (taille, équipements, chauffage), demandez le détail au syndic et consultez les comptes présentés en assemblée."
+          },
+          {
+            "question": "Le vendeur doit-il fournir un état des charges ?",
+            "reponse": "Oui, les documents relatifs à la copropriété, dont les charges et les derniers procès-verbaux, doivent être communiqués à l'acquéreur avant la signature."
+          }
+        ],
+        "intro": "Chaque trimestre, le syndic envoie un appel de fonds. Derrière un montant unique se cachent plusieurs postes. Les comprendre aide à anticiper son budget et à poser les bonnes questions.",
+        "photo": "immeuble",
+        "photoAlt": "Photo d'illustration : immeuble moderne avec balcons",
+        "retenir": [
+          "Un appel de fonds regroupe provisions, travaux et fonds de travaux.",
+          "La répartition dépend des tantièmes et du règlement de copropriété.",
+          "En cas de doute, demandez le détail au syndic."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Le budget prévisionnel est voté en assemblée générale. Les copropriétaires versent des provisions, en général chaque trimestre, pour couvrir les dépenses courantes : entretien, ascenseur, assurance, eau commune, chauffage collectif, honoraires du syndic.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les provisions du budget"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les charges courantes reviennent chaque année. Les travaux exceptionnels (ravalement, toiture, ascenseur) font l'objet d'un vote spécifique et d'appels de fonds dédiés. La répartition se fait selon les tantièmes et les clés de répartition prévues au règlement de copropriété.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Charges courantes et travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Une cotisation annuelle alimente un fonds de travaux, destiné à financer les gros travaux futurs. Elle est obligatoire dans la plupart des copropriétés, et représente au moins 5 % du budget prévisionnel. Ces sommes restent liées au lot : elles ne sont pas restituées au vendeur lors d'une vente.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le fonds de travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Une fois les comptes approuvés par l'assemblée, le syndic compare les provisions versées et les dépenses réelles. Selon le résultat, vous recevez un complément à payer ou un avoir. En cas de doute, demandez le détail au syndic ou au conseil syndical : vous avez le droit de consulter les pièces justificatives.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La régularisation annuelle"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Dans une copropriété, les charges se divisent en deux grandes familles. Les charges générales servent à l'administration et à la conservation de l'immeuble : honoraires du syndic, assurance, entretien courant des parties communes, jardin. Les charges spéciales correspondent à des services et équipements collectifs dont l'usage varie selon les lots : ascenseur, chauffage collectif, eau chaude. Chaque copropriétaire paie sa quote-part en fonction de l'utilité que lui procure le service.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Charges générales et charges spéciales"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les tantièmes expriment la quote-part de chaque lot dans les parties communes. Ils sont indiqués dans le règlement de copropriété et déterminent la répartition des charges et les voix en assemblée. Un lot plus grand ou mieux situé aura généralement plus de tantièmes. Pour les charges d'ascenseur ou de chauffage, des tantièmes spéciaux peuvent s'appliquer. Si vous constatez une erreur de répartition, signalez-la au syndic.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les tantièmes, comment ça marche ?"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "multipliez votre quote-part mensuelle par douze pour estimer votre budget annuel de charges ;",
+                  "ajoutez la cotisation au fonds de travaux et la taxe foncière ;",
+                  "demandez à votre syndic l'historique des charges des deux ou trois dernières années ;",
+                  "gardez une marge pour les travaux exceptionnels votés en assemblée ;",
+                  "si vous achetez, demandez le montant des charges au vendeur avant de faire une offre."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Anticiper son budget"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Une partie des charges peut être récupérée sur le locataire (entretien courant, eau, ascenseur, chauffage collectif), tandis que d'autres restent à la charge du propriétaire (honoraires du syndic, gros travaux). Le bailleur doit fournir un décompte annuel détaillé et une régularisation. Pour bien suivre ces montants, conservez les décomptes du syndic et distinguez clairement les charges récupérables des charges non récupérables.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Charges et locataires"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un copropriétaire qui ne paie pas ses charges fragilise toute la copropriété. Le syndic dispose de procédures pour les recouvrer : relance, mise en demeure, éventuelle action en justice. Si vous rencontrez des difficultés de paiement, contactez rapidement le syndic pour en parler : un échéancier peut parfois être envisagé. Plus l'échange est précoce, plus il est facile de trouver une solution.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Que faire en cas d'impayé de charges"
+          }
+        ],
+        "slug": "charges-copropriete-appel-de-fonds",
+        "titre": "Charges de copropriété : lire un appel de fonds",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Acheter",
+        "cta": "contact",
+        "date": "2026-01-01",
+        "description": "Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.",
+        "faq": [
+          {
+            "question": "Quelle différence entre compromis et promesse unilatérale de vente ?",
+            "reponse": "Dans le compromis, vendeur et acheteur s'engagent réciproquement. Dans la promesse unilatérale, le vendeur s'engage à vendre et l'acheteur dispose d'une option qu'il peut lever ou non."
+          },
+          {
+            "question": "Que se passe-t-il si le prêt est refusé ?",
+            "reponse": "Si la condition suspensive de prêt est prévue et que la banque refuse dans le délai, l'acheteur peut renoncer sans pénalité et récupère son dépôt. Gardez les justificatifs des refus."
+          },
+          {
+            "question": "Qui rédige le compromis ?",
+            "reponse": "Il peut être rédigé par l'agence ou par le notaire. Dans les deux cas, vous pouvez poser vos questions et demander des précisions avant de signer."
+          },
+          {
+            "question": "Peut-on se rétracter après les dix jours ?",
+            "reponse": "Après le délai de rétractation, l'acheteur est engagé. Il peut renoncer sans pénalité seulement si une condition suspensive prévue au compromis n'est pas réalisée, comme le refus de prêt dans les délais."
+          }
+        ],
+        "intro": "Le compromis de vente, ou promesse de vente, engage vendeur et acheteur. C'est le moment où tout se joue : une fois signé, les conditions sont fixées. Prenez le temps de le lire et de poser vos questions.",
+        "photo": "cles",
+        "photoAlt": "Photo d'illustration : remise de clés d'un logement",
+        "retenir": [
+          "Lisez le compromis en entier et faites préciser chaque point flou.",
+          "La condition suspensive de prêt protège l'acheteur : surveillez les délais.",
+          "Le délai de rétractation de dix jours ne se renégocie pas."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "l'identité des parties, la description précise du bien et des annexes (lots, parkings, caves) ;",
+                  "le prix, la répartition éventuelle entre le bien et le mobilier, et les honoraires ;",
+                  "les diagnostics et, pour une copropriété, le règlement, les procès-verbaux d'assemblée et les charges ;",
+                  "la date limite de signature de l'acte authentique."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les éléments à contrôler"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Ce sont des événements dont dépend la vente. La plus courante est l'obtention du prêt : si la banque refuse dans le délai prévu, l'acheteur peut renoncer sans perdre son dépôt. D'autres existent selon les cas, comme l'obtention d'un permis ou l'absence de servitude non déclarée. Vérifiez leur durée et leurs modalités.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les conditions suspensives"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un dépôt de garantie, souvent de l'ordre de 5 à 10 % du prix, est généralement versé au moment de la signature. L'acquéreur d'un logement dispose ensuite d'un délai de rétractation de dix jours, qui court à compter du lendemain de la réception du compromis. Entre le compromis et l'acte authentique chez le notaire, il faut compter en général deux à trois mois.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Dépôt de garantie, rétractation et calendrier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Plusieurs documents peuvent précéder la vente. L'offre d'achat est une proposition de l'acheteur, qui devient engageante si le vendeur l'accepte. Le compromis de vente, appelé aussi promesse synallagmatique, engage les deux parties à conclure la vente aux conditions prévues. La promesse unilatérale engage le vendeur, tandis que l'acheteur dispose d'une option qu'il peut lever dans un délai donné. Dans tous les cas, il s'agit d'un avant-contrat : la vente est définitivement conclue par l'acte authentique signé chez le notaire.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Compromis, promesse unilatérale, offre d'achat : de quoi parle-t-on ?"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "la clause de prix et de répartition éventuelle entre le bien et le mobilier ;",
+                  "les conditions suspensives et leur durée ;",
+                  "la date prévue pour la signature de l'acte et les conséquences d'un retard ;",
+                  "la clause pénale, qui prévoit une indemnité si l'une des parties ne respecte pas son engagement ;",
+                  "les charges et taxes : qui paie quoi jusqu'à la remise des clés ;",
+                  "la date d'entrée en jouissance (remise des clés) et l'état dans lequel le bien doit être remis."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les clauses à lire avec attention"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Pour la majorité des acquéreurs, le compromis est signé avant que le prêt soit définitivement accordé. C'est le rôle de la condition suspensive : si le financement n'est pas obtenu dans le délai prévu, l'acheteur est libéré. Pour qu'elle joue, il faut déposer les demandes de prêt rapidement, auprès de plusieurs banques ou d'un courtier, et conserver les justificatifs. Une demande tardive ou incomplète peut fragiliser la protection. Si vous avez déjà un accord de principe, informez-en l'agence : cela rassure le vendeur.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le financement : un point central"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Après la signature, le délai de rétractation de dix jours s'ouvre pour l'acheteur d'un logement. Le notaire vérifie ensuite le dossier : titre de propriété, urbanisme, hypothèques, droits de préemption éventuels. Les banques émettent leur offre de prêt, que l'acquéreur doit respecter avant de signer. Compter environ deux à trois mois entre compromis et acte est courant, mais ce délai varie selon les dossiers. Restez joignable : le notaire peut vous demander des pièces complémentaires.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Entre compromis et acte : le calendrier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Quelques jours avant la signature de l'acte, effectuez une dernière visite du bien. Vérifiez qu'il est dans l'état convenu, que les équipements prévus sont toujours présents et que d'éventuels travaux promis ont été faits. C'est le moment de signaler une anomalie, avant d'avoir signé.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Avant d'aller chez le notaire : la visite de contrôle"
+          }
+        ],
+        "slug": "compromis-de-vente-points-de-vigilance",
+        "titre": "Compromis de vente : ce qu'il faut vérifier avant de signer",
+        "titreSeo": "Compromis de vente : que vérifier avant de signer ?",
+        "ville": null
+      },
+      {
+        "categorie": "Locataire",
+        "cta": "location",
+        "date": "2026-06-16",
+        "description": "Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.",
+        "faq": [
+          {
+            "question": "Que faire si le propriétaire ne rend pas le dépôt ?",
+            "reponse": "Rappelez-le par écrit, puis envoyez une mise en demeure en recommandé. Si le désaccord persiste, il est possible de saisir une commission de conciliation ou le juge."
+          },
+          {
+            "question": "Le dépôt de garantie rapporte-t-il des intérêts ?",
+            "reponse": "Non, il ne produit pas d'intérêts pour le locataire. Il est restitué, déduction faite des sommes justifiées."
+          },
+          {
+            "question": "Le propriétaire peut-il garder le dépôt de garantie pour repeindre ?",
+            "reponse": "Pas pour une simple usure normale. Une retenue n'est possible que pour des dégradations au-delà de l'usage normal et doit être justifiée."
+          },
+          {
+            "question": "Qui garde le dépôt de garantie en cas de vente du logement ?",
+            "reponse": "En cas de vente en cours de bail, le dépôt est transmis au nouveau propriétaire, qui devient responsable de sa restitution. Le locataire doit en être informé."
+          }
+        ],
+        "intro": "Le dépôt de garantie est versé par le locataire à l'entrée dans les lieux. Il sert à couvrir d'éventuels impayés ou dégradations. Le sujet est une source fréquente de désaccords : mieux vaut en connaître les règles.",
+        "photo": "terrasse",
+        "photoAlt": "Photo d'illustration : terrasse avec piscine au crépuscule",
+        "retenir": [
+          "Un mois de loyer pour du vide, deux pour du meublé.",
+          "Restitution dans un délai d'un mois ou de deux mois selon l'état des lieux.",
+          "Les retenues doivent être justifiées et ne couvrent pas l'usure normale."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Pour une location vide, le dépôt de garantie ne peut pas dépasser un mois de loyer hors charges. Pour une location meublée, il peut atteindre deux mois de loyer hors charges. Il n'est pas révisé pendant la durée du bail.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le montant"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le bailleur doit restituer le dépôt dans un délai d'un mois à compter de la remise des clés si l'état des lieux de sortie est conforme à celui d'entrée, et de deux mois dans le cas contraire. En cas de retard, la loi prévoit une majoration à la charge du bailleur.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La restitution"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le propriétaire peut retenir des sommes justifiées :",
+                "type": "texte"
+              },
+              {
+                "items": [
+                  "loyers ou charges impayés ;",
+                  "réparations liées à des dégradations qui dépassent l'usure normale ;",
+                  "régularisation de charges, selon les cas."
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Il doit fournir des justificatifs (devis, factures). L'usure normale liée à l'ancienneté, comme une peinture qui se patine, ne peut pas être facturée. Un bon état des lieux d'entrée et de sortie, avec des photos, évite la plupart des litiges.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les retenues autorisées"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le dépôt de garantie est une somme que le locataire verse au bailleur à la signature du bail. Il garantit l'exécution des obligations du locataire : paiement des loyers et des charges, remise en état du logement en cas de dégradations. Il ne se substitue pas au dernier loyer : le locataire ne peut pas décider de ne pas payer son dernier mois en demandant d'utiliser le dépôt. À la fin du bail, il est restitué, déduction faite des sommes dues.",
+                "type": "texte"
+              }
+            ],
+            "titre": "À quoi sert le dépôt de garantie"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un état des lieux d'entrée complet et un état des lieux de sortie précis sont les meilleures protections pour chacun. Ils décrivent pièce par pièce l'état des murs, des sols, des équipements, des menuiseries et des compteurs. Prenez des photos datées, notez les relevés de compteurs, signalez les défauts existants. Si l'état des lieux de sortie est conforme à celui d'entrée, le dépôt doit être rendu plus rapidement, ce qui évite les litiges.",
+                "type": "texte"
+              }
+            ],
+            "titre": "L'état des lieux : la clé du sujet"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "l'usure normale liée à l'ancienneté (peinture ternie, parquet légèrement marqué) ne peut pas être facturée au locataire ;",
+                  "les dégradations liées à un usage anormal (trous nombreux, taches importantes, équipements cassés) peuvent donner lieu à retenue ;",
+                  "les retenues doivent être justifiées par des devis, factures ou, à défaut, une évaluation raisonnable ;",
+                  "la vétusté est prise en compte, notamment pour les peintures et les revêtements."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Usure normale ou dégradation ?"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le bailleur peut conserver une partie du dépôt pour couvrir une régularisation de charges, lorsque le décompte définitif n'est pas encore connu, à condition d'être raisonnable et justifié. Il doit ensuite informer le locataire du solde et le lui restituer dès que possible. Un dialogue clair entre les deux parties est la meilleure façon d'éviter les tensions.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les charges et la régularisation"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Si le désaccord persiste, rappelez vos arguments par écrit, avec les documents (états des lieux, photos, devis). Vous pouvez ensuite saisir une commission départementale de conciliation, puis le juge si nécessaire. Une agence peut jouer un rôle de médiation et vous aider à constituer le dossier.",
+                "type": "texte"
+              }
+            ],
+            "titre": "En cas de désaccord"
+          }
+        ],
+        "slug": "depot-de-garantie-location",
+        "titre": "Dépôt de garantie : montant, restitution, retenues",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Vendre",
+        "cta": "estimation",
+        "date": "2026-01-16",
+        "description": "DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.",
+        "faq": [
+          {
+            "question": "Qui paie les diagnostics immobiliers lors d'une vente ?",
+            "reponse": "Le vendeur en supporte le coût. Le dossier doit être annexé à la promesse de vente ou, à défaut, à l'acte de vente."
+          },
+          {
+            "question": "Que se passe-t-il s'il manque un diagnostic ?",
+            "reponse": "L'absence ou l'irrégularité d'un diagnostic peut engager la responsabilité du vendeur et retarder, voire compromettre la vente. Mieux vaut vérifier la liste avec un conseiller avant la mise en vente."
+          },
+          {
+            "question": "Les diagnostics sont-ils obligatoires pour une vente entre particuliers ?",
+            "reponse": "Oui. Les obligations d'information qui pèsent sur le vendeur s'appliquent quel que soit le mode de vente, avec ou sans agence."
+          },
+          {
+            "question": "Quand faut-il refaire un diagnostic ?",
+            "reponse": "Quand sa durée de validité est dépassée à la date de signature de l'acte, ou lorsque la réglementation a changé et que l'ancien document n'est plus conforme. Un conseiller vous aide à contrôler les dates."
+          }
+        ],
+        "intro": "Avant de signer une promesse de vente, le vendeur doit remettre à l'acheteur un dossier de diagnostics techniques. Son contenu dépend de l'âge du bien, de sa nature et de sa localisation. Voici les principaux diagnostics et comment s'y préparer.",
+        "photo": "immeuble",
+        "photoAlt": "Photo d'illustration : immeuble moderne avec balcons",
+        "retenir": [
+          "Le contenu du dossier dépend de l'âge, de la nature et de la localisation du bien.",
+          "Chaque diagnostic a sa propre durée de validité : vérifiez les dates.",
+          "Les commander avant la mise en vente fait gagner du temps."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Tous les biens ne sont pas concernés par chaque diagnostic. Selon votre situation, le dossier peut comprendre :",
+                "type": "texte"
+              },
+              {
+                "items": [
+                  "le diagnostic de performance énergétique (DPE), qui classe le logement de A à G ;",
+                  "le diagnostic amiante, pour les bâtiments dont le permis de construire a été délivré avant juillet 1997 ;",
+                  "le constat de risque d'exposition au plomb, pour les logements construits avant 1949 ;",
+                  "les diagnostics électricité et gaz, lorsque l'installation a plus de quinze ans ;",
+                  "le diagnostic termites, dans les zones définies par arrêté préfectoral ;",
+                  "l'état des risques (naturels, miniers, technologiques) de la commune ;",
+                  "le diagnostic de l'assainissement non collectif, si le bien n'est pas raccordé au tout-à-l'égout ;",
+                  "le mesurage de la surface privative (loi Carrez) pour un lot de copropriété."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les diagnostics les plus courants"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les diagnostics sont réalisés par un professionnel certifié, indépendant du vendeur et de l'agence. La durée de validité varie : trois ans pour l'électricité et le gaz lors d'une vente, dix ans pour le DPE, et parfois sans limite lorsque le résultat est négatif, comme pour certains diagnostics amiante ou plomb. Un diagnostic valide peut être réutilisé : gardez-les dans un même dossier.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Qui les réalise et pendant combien de temps ils sont valables"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Commander les diagnostics dès le départ évite un blocage de dernière minute au moment du compromis. Ils rassurent aussi les acheteurs, qui peuvent chiffrer d'éventuels travaux. Le DPE en particulier pèse de plus en plus sur le prix et sur la visibilité d'une annonce.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Pourquoi les commander avant la mise en vente"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le diagnostic de performance énergétique est celui qui retient le plus l'attention des acheteurs. Il estime la consommation d'énergie du logement et son impact en émissions de gaz à effet de serre, en tenant compte de l'isolation, du chauffage, de la ventilation et de l'eau chaude. Le résultat prend la forme d'une étiquette de A à G, affichée dans l'annonce. Un classement défavorable n'empêche pas de vendre, mais il pèse sur la négociation, car l'acheteur chiffre déjà les travaux à venir.",
+                "type": "texte"
+              },
+              {
+                "texte": "Le DPE est établi sur l'ensemble du logement, et non pièce par pièce. Pour un appartement en copropriété, le diagnostiqueur peut s'appuyer sur des informations de l'immeuble (chauffage collectif, par exemple). Pensez donc à lui remettre les factures de chauffage, les documents de travaux d'isolation et les caractéristiques des fenêtres : plus il dispose d'éléments fiables, plus le résultat reflète la réalité du bien.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le DPE en détail"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le contenu du dossier change selon le type de bien. Une maison individuelle peut nécessiter un diagnostic d'assainissement non collectif, un diagnostic termites ou un état des risques plus détaillé, alors qu'un appartement en copropriété implique surtout le mesurage de la surface privative et des informations sur les parties communes. Dans un immeuble ancien, le syndic détient souvent des documents utiles, comme un dossier technique amiante pour les parties communes.",
+                "type": "texte"
+              },
+              {
+                "texte": "Si vous vendez un lot de copropriété, demandez ces documents à votre syndic le plus tôt possible : leur récupération prend parfois quelques jours, et ils sont indispensables à l'acheteur pour comprendre l'état de l'immeuble.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Maison ou appartement : des dossiers différents"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le coût dépend de la surface, de l'âge du bien, de la localisation et du nombre de diagnostics à réaliser. Plutôt que de choisir le moins cher, vérifiez que le professionnel est bien certifié pour chaque diagnostic, qu'il dispose d'une assurance de responsabilité et qu'il est indépendant du vendeur et de l'agence. Demandez plusieurs devis et comparez ce qu'ils incluent : un forfait regroupant tous les diagnostics est souvent plus avantageux que des interventions séparées.",
+                "type": "texte"
+              },
+              {
+                "texte": "Votre conseiller peut vous indiquer la liste exacte des diagnostics nécessaires pour votre bien et coordonner le rendez-vous avec le diagnostiqueur, afin que les documents soient prêts avant les premières visites.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Combien cela coûte et comment choisir le diagnostiqueur"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Avant la mise en vente : vérifier la liste des diagnostics, commander ceux qui manquent et rassembler les dates de validité ;",
+                  "Pendant les visites : tenir le dossier à disposition des acquéreurs sérieux, notamment le DPE, qui figure déjà dans l'annonce ;",
+                  "À la signature du compromis : annexer le dossier complet à la promesse de vente ;",
+                  "Avant l'acte : contrôler qu'aucun diagnostic n'est périmé et en refaire un si nécessaire."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Un calendrier type"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La première erreur est de commander les diagnostics au dernier moment, ce qui retarde la signature du compromis. La deuxième est d'utiliser un diagnostic dont la durée de validité est dépassée. La troisième est de ne pas lire les résultats : un diagnostic qui révèle de l'amiante, du plomb ou une installation électrique vétuste doit être anticipé, car il change la négociation et parfois le prix. En parler dès le début avec votre conseiller permet de choisir une stratégie : réaliser des travaux, ajuster le prix ou présenter clairement la situation à l'acheteur.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les erreurs à éviter"
+          }
+        ],
+        "slug": "diagnostics-immobiliers-obligatoires-vente",
+        "titre": "Les diagnostics immobiliers obligatoires pour vendre",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Locataire",
+        "cta": "location",
+        "date": "2026-10-17",
+        "description": "Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.",
+        "faq": [
+          {
+            "question": "Un garant est-il obligatoire ?",
+            "reponse": "Ce n'est pas une obligation légale, mais beaucoup de bailleurs en demandent un si les revenus sont insuffisants ou récents. Il s'engage par un acte de cautionnement."
+          },
+          {
+            "question": "Peut-on déposer un dossier numérique ?",
+            "reponse": "Oui. Il suffit de regrouper les pièces dans un fichier clair. Des services en ligne permettent de constituer un dossier numérique réutilisable pour plusieurs candidatures."
+          },
+          {
+            "question": "Combien de dossiers peut-on déposer ?",
+            "reponse": "Autant que vous le souhaitez, mais chaque candidature doit être sérieuse et actualisée. Préparez un dossier numérique unique que vous pourrez adapter."
+          },
+          {
+            "question": "Quels revenus faut-il pour louer ?",
+            "reponse": "Il n'y a pas de seuil légal. Beaucoup de bailleurs regardent le rapport entre le loyer et les revenus, et acceptent un dossier plus fragile si le garant est solide."
+          }
+        ],
+        "intro": "Dans les zones où la demande est forte, les dossiers de location sont examinés vite. Un dossier complet et soigné fait gagner du temps et inspire confiance.",
+        "photo": "salon2",
+        "photoAlt": "Photo d'illustration : séjour moderne avec grande baie vitrée",
+        "retenir": [
+          "Préparez un dossier complet, lisible et prêt à envoyer.",
+          "La liste des pièces exigibles est limitée par décret.",
+          "La réactivité compte autant que la qualité du dossier."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "pièce d'identité ;",
+                  "justificatif de domicile actuel ;",
+                  "justificatifs de revenus : derniers bulletins de salaire, contrat de travail, dernier avis d'imposition ;",
+                  "garant : ses pièces d'identité, justificatifs de revenus et de domicile, et acte de cautionnement."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les pièces habituelles"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La liste des documents exigibles est fixée par décret, et certaines pièces ne peuvent pas être réclamées, comme un relevé de compte bancaire, une photo d'identité ou un certificat médical. Si un document ne figure pas sur la liste, vous pouvez refuser de le fournir.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce qu'un bailleur ne peut pas demander"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Beaucoup de propriétaires regardent le rapport entre le loyer et les revenus, souvent autour d'un revenu égal à trois fois le loyer. Ce n'est pas une règle légale, mais un usage courant. Regroupez les pièces dans un seul fichier clair, lisible, nommé de façon cohérente. Un dossier numérique est pratique : il peut s'envoyer en quelques secondes dès que vous trouvez le bon logement.",
+                "type": "texte"
+              },
+              {
+                "texte": "Enfin, soyez réactif : répondez vite, visitez, et déposez votre dossier dès que le logement vous correspond.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Soigner la présentation"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un propriétaire veut surtout s'assurer de trois choses : que le locataire pourra payer son loyer, qu'il occupera le logement avec soin, et qu'il restera suffisamment longtemps. Votre dossier doit donc répondre clairement à ces questions : revenus stables, situation professionnelle claire, références si vous en avez, et éventuellement un garant. Une lettre de présentation courte, humaine et précise peut compléter le dossier.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce que le bailleur cherche à vérifier"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Salarié en contrat durable : contrat de travail, trois derniers bulletins de salaire, dernier avis d'imposition ;",
+                  "Salarié en période d'essai ou en CDD : contrat, bulletins, éventuel garant solide ;",
+                  "Indépendant : derniers bilans ou avis d'imposition, attestation de l'expert-comptable ;",
+                  "Étudiant : certificat de scolarité, justificatifs de ressources, garant (parents ou garantie publique) ;",
+                  "Retraité : justificatif de pension et avis d'imposition."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Selon votre situation"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le garant s'engage à payer à la place du locataire en cas de défaillance. Il doit fournir ses propres justificatifs, et signe un acte de cautionnement. Lorsque la personne n'a pas de garant, il existe des dispositifs publics ou privés qui peuvent le remplacer. Le bailleur peut aussi souscrire une assurance contre les loyers impayés, sous conditions. Renseignez-vous sur ces options avant de postuler.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le garant et les garanties alternatives"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Sur un marché tendu, un bon logement peut recevoir des dizaines de demandes en quelques heures. Gardez votre dossier numérique à jour, prêt à envoyer, et répondez rapidement aux annonces. Une visite programmée vite, un dossier complet déposé le jour même et une disponibilité claire pour la signature font souvent la différence. Si vous êtes accompagné par une agence, informez-la précisément de votre projet pour être prévenu rapidement des nouvelles offres.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Gagner en réactivité"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Envoyer un dossier incomplet, des documents illisibles ou périmés, ou des pièces qui n'ont pas à être demandées retarde la réponse. Évitez aussi de surévaluer votre budget : un loyer trop proche de vos revenus fragilise le dossier. Enfin, relisez tous les documents avant l'envoi : une faute de nom ou une date erronée suffit à créer un doute.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les erreurs courantes"
+          }
+        ],
+        "slug": "dossier-de-location-solide",
+        "titre": "Constituer un dossier de location solide",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Bailleur",
+        "cta": "estimation",
+        "date": "2026-02-07",
+        "description": "Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.",
+        "faq": [
+          {
+            "question": "Le DPE est-il opposable ?",
+            "reponse": "Depuis 2021, le DPE est opposable : une erreur peut engager la responsabilité du diagnostiqueur et ouvrir des recours à l'acheteur ou au locataire. Faites appel à un diagnostiqueur certifié et conservez le rapport."
+          },
+          {
+            "question": "Comment améliorer son DPE à moindre coût ?",
+            "reponse": "Isoler les combles, traiter les fuites d'air et régler ou remplacer le chauffage sont souvent les gestes les plus efficaces par euro dépensé. Un audit permet de hiérarchiser les travaux."
+          },
+          {
+            "question": "Le DPE est-il obligatoire dans l'annonce ?",
+            "reponse": "Oui, la classe énergétique doit figurer dans les annonces de vente et de location. Elle est un critère de choix pour de nombreux candidats."
+          },
+          {
+            "question": "Peut-on contester un DPE ?",
+            "reponse": "Oui, en cas d'erreur manifeste, vous pouvez demander une vérification au diagnostiqueur, voire faire réaliser un second diagnostic. Conservez les justificatifs sur l'état du logement."
+          }
+        ],
+        "intro": "Le diagnostic de performance énergétique (DPE) note un logement de A (très économe) à G (très énergivore). Il est obligatoire pour vendre ou louer, et son poids dans les décisions ne cesse de grandir.",
+        "photo": "gordes",
+        "photoAlt": "Photo d'illustration : village perché de Gordes",
+        "retenir": [
+          "Le DPE classe un logement de A à G et reste valable dix ans.",
+          "La classe énergétique pèse sur la vente et conditionne la location.",
+          "Isolation, ventilation et chauffage sont les leviers principaux."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Il évalue la consommation d'énergie du logement et ses émissions de gaz à effet de serre, à partir de l'isolation, du mode de chauffage, de la ventilation et de la production d'eau chaude. Il est réalisé par un diagnostiqueur certifié et reste valable dix ans, sauf évolution de la réglementation.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce que mesure le DPE"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Pour la location, la loi interdit progressivement la mise en location des logements les plus énergivores, selon un calendrier fixé par les textes. Pour la vente, un audit énergétique peut être exigé pour certains logements très énergivores, et la classe influe sur le prix et l'attractivité. Les règles évoluent régulièrement : faites vérifier votre situation par un conseiller avant toute décision.",
+                "type": "texte"
+              }
+            ],
+            "titre": "L'impact sur la vente et la location"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les leviers les plus efficaces sont souvent :",
+                "type": "texte"
+              },
+              {
+                "items": [
+                  "l'isolation des combles, des murs et des planchers ;",
+                  "le remplacement des fenêtres et la ventilation ;",
+                  "le changement du système de chauffage ;",
+                  "un meilleur pilotage (thermostat, programmation)."
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Des aides publiques existent pour financer une partie des travaux. Leurs conditions changent : renseignez-vous auprès d'un conseiller ou d'un service spécialisé avant de commencer.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Améliorer la classe d'un logement"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un DPE comprend une étiquette énergie (consommation d'énergie primaire par mètre carré et par an) et une étiquette climat (émissions de gaz à effet de serre). Il fournit aussi une estimation de la facture annuelle d'énergie, des recommandations de travaux et des informations sur le chauffage, l'eau chaude, l'isolation et la ventilation. Lisez-le en entier : les recommandations vous indiquent par où commencer pour améliorer le logement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Lire son DPE"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "On appelle passoires thermiques les logements les plus énergivores, classés F ou G. Ils sont concernés par des mesures progressives : gel des loyers, interdiction de mise en location selon un calendrier échelonné, obligation d'information renforcée lors d'une vente. Si votre bien est dans cette situation, ne paniquez pas : plusieurs solutions existent (travaux d'amélioration, vente en l'état avec un prix adapté, changement d'usage). Un conseiller vous aide à choisir en fonction de votre projet.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Passoire thermique : de quoi parle-t-on ?"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "isolation des combles et de la toiture, qui limite d'importantes déperditions ;",
+                  "isolation des murs par l'intérieur ou l'extérieur ;",
+                  "remplacement des fenêtres et traitement des fuites d'air ;",
+                  "installation d'une ventilation efficace ;",
+                  "remplacement de la chaudière ou du chauffage par un système plus performant ;",
+                  "amélioration de la production d'eau chaude."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les travaux qui font gagner des classes"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Selon votre situation (propriétaire occupant ou bailleur, niveau de revenus, type de travaux), des aides publiques, des primes d'énergie, des prêts aidés ou des dispositifs fiscaux peuvent s'appliquer. Ces mécanismes évoluent régulièrement : informez-vous auprès d'un conseiller en rénovation, d'un service public dédié ou de votre banque avant de signer un devis. Comparez plusieurs entreprises qualifiées et vérifiez leurs certifications.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Financer les travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un acheteur utilise le DPE pour négocier : il chiffre les travaux à réaliser et déduit leur coût du prix proposé. Un vendeur peut anticiper cette discussion en fournissant des devis, en réalisant des travaux simples ou en justifiant son prix. Pour un bailleur, le DPE influence la valeur locative et la durabilité de l'investissement. Dans tous les cas, mieux vaut regarder le DPE comme un outil de décision que comme une contrainte.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce que cela change dans la négociation"
+          }
+        ],
+        "slug": "dpe-classes-a-g-comprendre",
+        "titre": "DPE : comprendre les classes A à G",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Vendre",
+        "cta": "estimation",
+        "date": "2026-09-17",
+        "description": "Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.",
+        "faq": [
+          {
+            "question": "Peut-on estimer son bien soi-même ?",
+            "reponse": "On peut se faire une première idée avec les prix de biens comparables, mais seule une visite prend en compte l'état réel, la luminosité et le quartier. L'avis d'un conseiller reste la référence."
+          },
+          {
+            "question": "Quand faut-il baisser le prix d'un bien ?",
+            "reponse": "Si les visites sont rares après quelques semaines, c'est un signal : mieux vaut en parler avec votre conseiller et ajuster le prix plutôt que d'attendre."
+          },
+          {
+            "question": "L'estimation est-elle un engagement de vente ?",
+            "reponse": "Non. Une estimation ne vous engage à rien : elle vous donne une indication de valeur et une stratégie possible. L'engagement n'intervient qu'avec la signature d'un mandat."
+          },
+          {
+            "question": "Les prix des annonces voisines suffisent-ils pour fixer le prix ?",
+            "reponse": "Ils donnent une indication, mais ce sont des prix demandés, pas des prix de vente. Un conseiller s'appuie sur des ventes réellement conclues et sur les caractéristiques propres au bien."
+          }
+        ],
+        "intro": "Le prix est le premier critère de réussite d'une vente. Trop bas, vous laissez de l'argent sur la table. Trop haut, le bien reste affiché, perd en attractivité et finit souvent par se vendre moins bien. Une estimation sérieuse s'appuie sur des faits.",
+        "photo": "villa",
+        "photoAlt": "Photo d'illustration : villa contemporaine avec piscine",
+        "retenir": [
+          "Une estimation sérieuse s'appuie sur des ventes réelles et récentes.",
+          "Un prix trop élevé ralentit la vente et affaiblit la position du vendeur.",
+          "La visite par un conseiller affine la fourchette de prix."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "L'estimation repose d'abord sur la comparaison avec des biens similaires vendus récemment dans le même secteur. Le conseiller tient ensuite compte des caractéristiques propres au bien :",
+                "type": "texte"
+              },
+              {
+                "items": [
+                  "la surface, l'étage, l'exposition et la luminosité ;",
+                  "l'état général, les travaux faits ou à prévoir ;",
+                  "les extérieurs : balcon, terrasse, jardin, stationnement ;",
+                  "les charges, la taxe foncière et le diagnostic énergétique ;",
+                  "l'environnement : commerces, transports, écoles, nuisances."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Comment un conseiller estime un bien"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La première est de se baser sur le prix d'achat ou sur les annonces en cours : un prix affiché n'est pas un prix de vente. La deuxième est de surestimer l'impact de travaux personnels ou de la valeur sentimentale du bien. La troisième est de fixer un prix élevé « pour pouvoir négocier » : les acheteurs comparent, et un bien trop cher est souvent écarté sans visite.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les erreurs fréquentes"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un avis de valeur par téléphone donne une fourchette. La visite permet d'affiner : état réel, qualité de l'entretien, atouts qui ne se voient pas sur plan. Un bon prix de départ attire plus de visites au début de la commercialisation, là où l'intérêt est le plus fort.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La visite fait la différence"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Trois notions se confondent souvent. La valeur d'un bien est son estimation par un professionnel, sur la base du marché. Le prix de vente est celui auquel la vente se conclut réellement, après négociation. Le prix affiché dans l'annonce est celui que vous choisissez de communiquer. Pour bien vendre, ces trois prix doivent rester proches : un prix affiché très éloigné de la valeur éloigne les acheteurs sérieux, qui comparent.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Prix de marché, valeur et prix affiché"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "l'emplacement : rue, quartier, proximité des commerces, des transports, des écoles ;",
+                  "l'état général et les prestations : cuisine, salle de bains, chauffage, menuiseries ;",
+                  "la luminosité, l'orientation et la vue ;",
+                  "les extérieurs (balcon, terrasse, jardin) et le stationnement ;",
+                  "le diagnostic énergétique, de plus en plus déterminant ;",
+                  "pour un appartement, l'étage, la présence d'un ascenseur, l'état de l'immeuble et les charges ;",
+                  "la période de vente et la tension du marché local."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les critères qui font vraiment varier le prix"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un bien trop cher voit rapidement ses visites se raréfier. Les acheteurs sont nombreux à suivre les annonces, et un bien qui reste en ligne longtemps donne l'impression d'un problème. Le vendeur finit par baisser le prix, mais dans une position plus faible : les premières semaines, qui concentrent le plus d'intérêt, sont passées. Un prix cohérent dès le début attire davantage de visites, donne plus de poids à la négociation et peut aboutir à un meilleur résultat final.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Pourquoi un prix trop élevé coûte cher"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "un premier échange pour comprendre votre projet et votre calendrier ;",
+                  "une visite du bien, avec prise de photos et de mesures ;",
+                  "une analyse des ventes récentes de biens comparables dans le secteur ;",
+                  "une restitution : fourchette de prix, stratégie de commercialisation, points forts et points à améliorer ;",
+                  "un suivi : réajustement éventuel selon les retours des visiteurs."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Comment se déroule une estimation avec un conseiller"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Avant la visite, rassemblez les documents utiles : titre de propriété, taxe foncière, diagnostics déjà réalisés, factures de travaux, charges de copropriété et procès-verbaux d'assemblée générale. Plus le conseiller dispose d'informations précises, plus l'estimation est fiable. N'hésitez pas à lui signaler ce qui a été amélioré récemment (fenêtres, chaudière, isolation) : ces éléments valorisent le bien.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Préparer son bien avant l'estimation"
+          }
+        ],
+        "slug": "fixer-le-bon-prix-estimation",
+        "titre": "Fixer le bon prix : pourquoi une estimation sérieuse change tout",
+        "titreSeo": "Fixer le bon prix : l'estimation sérieuse change tout",
+        "ville": null
+      },
+      {
+        "categorie": "Acheter",
+        "cta": "contact",
+        "date": "2026-06-10",
+        "description": "Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.",
+        "faq": [
+          {
+            "question": "Peut-on négocier les frais de notaire ?",
+            "reponse": "La part principale correspond à des taxes qui ne se négocient pas. Seule une petite partie, liée aux émoluments, peut être concernée selon les cas : renseignez-vous auprès du notaire."
+          },
+          {
+            "question": "Qui choisit le notaire ?",
+            "reponse": "L'acheteur peut choisir son notaire, et le vendeur le sien. Ils peuvent aussi travailler avec un seul notaire. Dans tous les cas, les frais d'acquisition sont à la charge de l'acquéreur."
+          },
+          {
+            "question": "Les frais de notaire sont-ils les mêmes partout ?",
+            "reponse": "Les émoluments sont réglementés au niveau national, mais les droits de mutation varient selon les départements. Le total dépend donc du lieu et du type de bien."
+          },
+          {
+            "question": "Le notaire peut-il être choisi librement ?",
+            "reponse": "Oui, par les deux parties. Si chacun a son notaire, ils se partagent généralement la rémunération sans surcoût pour l'acquéreur."
+          }
+        ],
+        "intro": "Les « frais de notaire » ne vont pas tous au notaire. Ils se composent surtout de taxes reversées à l'État et aux collectivités. Bien les connaître permet de calculer un budget d'achat réaliste.",
+        "photo": "ruelle2",
+        "photoAlt": "Photo d'illustration : rue calme bordée de façades claires",
+        "retenir": [
+          "Les frais de notaire sont surtout des taxes, pas la rémunération du notaire.",
+          "Ils sont plus élevés dans l'ancien que dans le neuf.",
+          "À prévoir sur votre apport, en plus du prix d'achat."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "les droits et taxes (droits de mutation), qui représentent la plus grande part et sont reversés à l'État et aux collectivités ;",
+                  "les émoluments du notaire, dont le tarif est réglementé ;",
+                  "les débours, c'est-à-dire les frais avancés pour obtenir des documents (cadastre, état civil, urbanisme)."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "De quoi se composent-ils ?"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Dans l'ancien, ces frais sont de l'ordre de 7 à 8 % du prix. Dans le neuf, ils sont nettement plus faibles, de l'ordre de 2 à 3 %, car les droits de mutation sont réduits. Pour un bien à 200 000 €, l'écart peut donc dépasser 10 000 €. Le montant exact dépend du prix, de la nature du bien et du département : demandez un calcul précis au notaire.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ancien ou neuf : un écart important"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Ces frais ne peuvent généralement pas être inclus dans le prêt immobilier : ils sont à régler avec l'apport personnel. Lorsque vous fixez votre budget, additionnez le prix, les frais de notaire, les éventuels travaux, les frais de déménagement et les frais de dossier de la banque. Un conseiller ou un courtier vous aide à établir ce plan de financement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les intégrer dans votre budget"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le notaire est un officier public. Il authentifie la vente, vérifie la situation juridique du bien (titre de propriété, hypothèques, servitudes, urbanisme), purge les droits de préemption éventuels, procède au paiement du prix et à la publication de l'acte. Cette sécurité juridique est ce que paient, en partie, les émoluments. Le reste des frais ne lui revient pas : il le collecte pour le compte de l'État et des collectivités.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le rôle du notaire dans l'achat"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Pour un appartement ancien acheté 200 000 €, il faut prévoir un montant de l'ordre de 14 000 à 16 000 € de frais de notaire, selon le département et la nature du bien. Pour un bien neuf au même prix, ce montant est nettement plus faible. Ces chiffres sont des ordres de grandeur : demandez toujours au notaire une estimation précise, qui tient compte des taxes en vigueur dans votre département et des particularités du dossier (garage, mobilier, terrain).",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un exemple pour comprendre l'ordre de grandeur"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "les frais de dossier et de garantie du prêt (hypothèque, caution) ;",
+                  "l'assurance emprunteur, dont le coût dépend de votre profil et du contrat choisi ;",
+                  "les frais de courtage, si vous passez par un courtier ;",
+                  "les frais de déménagement et d'installation (raccordements, équipements) ;",
+                  "les travaux éventuels, à chiffrer par des devis avant l'achat ;",
+                  "la taxe foncière et les charges de copropriété, à ajouter à votre budget annuel."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les autres frais à prévoir"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Commencez par établir un budget global : prix d'achat, frais de notaire, frais de garantie, travaux, déménagement, marge de sécurité. Puis comparez-le à votre apport et à la mensualité que vous pouvez assumer. Un courtier ou un conseiller vous aide à simuler plusieurs scénarios. Gardez en tête que les banques regardent aussi votre taux d'endettement et votre épargne résiduelle : un apport qui couvre les frais de notaire rassure souvent l'établissement prêteur.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comment les anticiper dans votre plan de financement"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Certains dispositifs peuvent alléger le coût d'une acquisition : prêts aidés, aides locales, conditions particulières pour les primo-accédants ou pour certaines opérations dans le neuf. Leurs règles changent régulièrement et dépendent de votre situation. Renseignez-vous auprès de votre banque, d'un courtier ou d'un service d'information dédié avant de bâtir votre plan de financement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les aides et dispositifs possibles"
+          }
+        ],
+        "slug": "frais-de-notaire-comprendre",
+        "titre": "Frais de notaire : à quoi correspondent-ils vraiment ?",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Vendre",
+        "cta": "estimation",
+        "date": "2026-10-26",
+        "description": "Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.",
+        "faq": [
+          {
+            "question": "Faut-il refaire la peinture avant de vendre ?",
+            "reponse": "Pas systématiquement. Si les murs sont abîmés ou très marqués, une peinture claire et neutre est l'un des investissements les plus rentables. Sinon, nettoyer et réparer suffit souvent."
+          },
+          {
+            "question": "Faut-il vider complètement le logement ?",
+            "reponse": "Non. Un logement meublé et aéré se vend souvent mieux qu'un logement vide, qui paraît plus petit. L'objectif est de libérer les surfaces et de garder les meubles qui structurent les pièces."
+          },
+          {
+            "question": "Le home staging coûte-t-il cher ?",
+            "reponse": "Pas forcément. La plus grande part est du temps passé à trier et nettoyer. Quelques achats ciblés (éclairage, peinture, textiles) suffisent souvent, pour un budget bien inférieur à celui de travaux lourds."
+          },
+          {
+            "question": "Faut-il faire appel à un professionnel ?",
+            "reponse": "Ce n'est pas obligatoire. Un conseiller peut déjà vous donner des recommandations simples pièce par pièce. Pour un bien haut de gamme ou difficile à valoriser, un professionnel du home staging peut aider."
+          }
+        ],
+        "intro": "Un acheteur décide en quelques secondes, souvent dès la photo de l'annonce. Le home staging consiste à préparer un bien pour qu'on s'y projette facilement. Pas besoin de gros travaux : quelques gestes suffisent.",
+        "photo": "salon",
+        "photoAlt": "Photo d'illustration : salon lumineux avec canapé gris",
+        "retenir": [
+          "Désencombrer et nettoyer valent mieux qu'une rénovation coûteuse.",
+          "Une ambiance neutre et lumineuse aide à se projeter.",
+          "Les photos se font une fois le bien préparé."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Désencombrer : retirez ce qui n'est pas indispensable, surtout dans les entrées, les cuisines et les placards ;",
+                  "Dépersonnaliser : photos de famille et collections laissent la place à une ambiance neutre ;",
+                  "Nettoyer à fond : vitres, joints, sols, et traitez les odeurs (cuisine, animaux, tabac) ;",
+                  "Réparer les petits défauts : poignées, robinets qui fuient, trous aux murs, ampoules grillées."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Préparer le terrain"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Maximiser la lumière : ouvrez les rideaux, nettoyez les fenêtres, ajoutez des sources lumineuses chaudes ;",
+                  "Rafraîchir si besoin : une peinture claire et neutre transforme une pièce pour un coût limité ;",
+                  "Soigner les extérieurs : balcon, terrasse ou jardin rangés et fleuris donnent envie ;",
+                  "Mettre en scène : un canapé dégagé, une table dressée, un lit fait de façon simple."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Mettre en valeur"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les photos sont la vitrine du bien : faites-les en plein jour, une fois le home staging terminé. Pour les visites, aérez, allumez les lumières et laissez les visiteurs circuler librement. Un conseiller peut vous indiquer, pièce par pièce, ce qui vaut la peine d'être fait avant de commencer.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les photos et les visites"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Quand on visite un logement, on n'achète pas seulement des mètres carrés : on se projette dans une vie. Un espace encombré, des objets très personnels ou une ambiance sombre empêchent cette projection et attirent l'attention sur les défauts. À l'inverse, un logement propre, clair et rangé laisse imaginer ses propres meubles et ses propres habitudes. Le home staging ne cherche pas à tromper l'acheteur : il met le bien dans sa meilleure version, comme on prépare un dossier avant un entretien.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Pourquoi le home staging fonctionne"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "L'entrée : c'est la première impression. Dégagez le passage, rangez les chaussures et les manteaux, ajoutez une lumière accueillante ;",
+                  "Le séjour : réduisez le nombre de meubles pour agrandir l'espace, placez le canapé face à la lumière naturelle, retirez les câbles visibles ;",
+                  "La cuisine : plans de travail dégagés, électroménager propre, joints et robinetterie impeccables ;",
+                  "Les chambres : literie neutre et repassée, rangements légers, placards à moitié vides pour montrer leur capacité ;",
+                  "La salle de bains : serviettes assorties, produits rangés, joints refaits si besoin, absence d'odeurs ;",
+                  "Les extérieurs : balcon balayé, quelques plantes, jardin tondu et allées dégagées."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Pièce par pièce"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le home staging n'est pas une dépense lourde. Une grande partie du travail est du temps : trier, nettoyer, ranger. Pour le reste, quelques achats ciblés suffisent : ampoules plus lumineuses, peinture, un plaid ou des coussins, des plantes. Évitez les rénovations coûteuses que l'acheteur ne valorisera pas forcément : il préfère souvent refaire la cuisine ou la salle de bains à son goût. Un conseiller vous indique, selon le marché de votre quartier, ce qui vaut la peine d'être fait et ce qu'il vaut mieux laisser en l'état.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un budget maîtrisé"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les photos sont la vitrine du bien : elles décident si l'acheteur demandera une visite. Réalisez-les en journée, lumières allumées et volets ouverts, une fois le home staging terminé. Prenez chaque pièce depuis l'angle qui montre le plus de volume, sans objets personnels au premier plan. Si le bien a un atout particulier (vue, terrasse, hauteur sous plafond, cheminée), mettez-le en avant dès la première photo.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les photos de l'annonce"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le jour de la visite, aérez le logement, allumez les lumières, réglez la température et évitez les odeurs fortes (cuisine, tabac, animaux). Si possible, laissez les visiteurs circuler librement avec le conseiller : ils se sentiront plus à l'aise pour regarder, ouvrir les placards et poser des questions. Après chaque visite, notez les retours : ce sont des indications précieuses pour ajuster la présentation, voire le prix.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Préparer les visites"
+          }
+        ],
+        "slug": "home-staging-mieux-vendre",
+        "titre": "Home staging : 8 gestes simples pour mieux vendre",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Bailleur",
+        "cta": "location",
+        "date": "2026-04-13",
+        "description": "Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.",
+        "faq": [
+          {
+            "question": "Qu'est-ce qu'une garantie des loyers impayés ?",
+            "reponse": "C'est une assurance que le propriétaire peut souscrire pour être indemnisé en cas de loyers impayés, selon les conditions du contrat. Elle suppose en général un dossier locataire solide."
+          },
+          {
+            "question": "Faut-il un garant si le locataire a de bons revenus ?",
+            "reponse": "Pas obligatoirement. Mais un garant ou une assurance renforce la sécurité du bailleur, surtout si les revenus sont irréguliers ou récents."
+          },
+          {
+            "question": "Que faire si le locataire quitte le logement sans payer ?",
+            "reponse": "Conservez toutes les pièces (états des lieux, relevés, courriers), activez la caution ou l'assurance si elles existent et faites-vous accompagner pour recouvrer les sommes dues."
+          },
+          {
+            "question": "Peut-on changer les serrures en cas d'impayé ?",
+            "reponse": "Non. Le bailleur ne peut pas expulser lui-même un locataire ni lui interdire l'accès au logement : seule une procédure judiciaire peut y mettre fin."
+          }
+        ],
+        "intro": "Un loyer impayé n'est jamais agréable, mais il se traite mieux quand on agit vite et avec méthode. Voici les premiers réflexes, et pourquoi il vaut mieux s'y préparer avant même de louer.",
+        "photo": "syndic",
+        "photoAlt": "Photo d'illustration : façade d'immeuble en noir et blanc",
+        "retenir": [
+          "Réagissez au premier retard, par téléphone puis par écrit.",
+          "Prévenez la caution et l'assurance dans les délais prévus.",
+          "Un dossier solide au départ réduit le risque d'impayé."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "contactez le locataire par téléphone puis par écrit : un oubli, un souci bancaire ou une difficulté passagère se règlent souvent à l'amiable ;",
+                  "proposez, si la situation le justifie, un échéancier par écrit et signé ;",
+                  "conservez toutes les traces : relevés, messages, courriers."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Agir dès le premier retard"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Si le retard persiste, envoyez une lettre de mise en demeure en recommandé. Contactez rapidement la caution si le bail en prévoit une, et votre assureur si vous avez souscrit une garantie contre les loyers impayés. Les délais de déclaration sont courts : vérifiez votre contrat.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Formaliser la démarche"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La procédure pour récupérer les sommes ou le logement est encadrée : commandement de payer délivré par un commissaire de justice, puis recours devant le juge. Elle est longue et protectrice pour le locataire, notamment avec la trêve hivernale qui suspend les expulsions chaque hiver. Mieux vaut être accompagné par un professionnel.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Si la situation ne se règle pas"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Vérifiez le dossier du locataire avec soin, demandez un garant et envisagez une assurance loyers impayés. Une agence sélectionne les candidats, rédige le bail et assure le suivi : c'est aussi une manière de réduire le risque.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Prévenir plutôt que guérir"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un impayé a des causes très variables : oubli, changement de compte bancaire, retard de salaire, perte d'emploi, séparation, difficulté passagère ou, plus rarement, mauvaise foi. Avant toute démarche formelle, un échange direct permet souvent de comprendre la situation et de trouver une solution. Il est important de rester factuel et courtois : la relation locative dure en moyenne plusieurs années, et une solution amiable est presque toujours la plus rapide et la moins coûteuse.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comprendre pourquoi le loyer n'est plus payé"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les locataires en difficulté peuvent parfois bénéficier d'aides : allocations logement, dispositifs d'aide aux impayés de loyer, accompagnement par des services sociaux ou des associations. Orienter le locataire vers ces dispositifs, lorsqu'il est de bonne foi, peut débloquer une situation. Le propriétaire peut aussi être informé de l'existence de procédures de prévention des expulsions, qui associent plusieurs acteurs pour trouver une solution avant d'en arriver au tribunal.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les aides qui existent pour les locataires"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "une relance amiable, par téléphone puis par courrier simple ;",
+                  "une mise en demeure en lettre recommandée, qui fixe un délai de paiement ;",
+                  "l'information de la caution, si elle existe, dans les délais prévus ;",
+                  "le commandement de payer, délivré par un commissaire de justice, lorsque le bail contient une clause résolutoire ;",
+                  "la saisine du juge, qui peut accorder des délais ou constater la résiliation du bail ;",
+                  "l'expulsion, qui n'intervient qu'à l'issue d'une procédure longue et encadrée."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les étapes de la procédure"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Au-delà de la sélection du locataire, plusieurs outils protègent le propriétaire : le cautionnement, l'assurance contre les loyers impayés, la vérification systématique des justificatifs et la constitution d'un dossier complet. Le choix de l'assurance dépend du loyer, du profil du locataire et des exclusions du contrat. Comparez les garanties : certains contrats couvrent aussi les dégradations et les frais de procédure.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Protéger ses revenus locatifs"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Une agence en gestion locative assure le suivi mensuel des loyers, la relance en cas de retard, l'envoi des courriers, le dialogue avec les locataires et, si besoin, le lien avec les professionnels du droit. Cette organisation évite au propriétaire de se retrouver seul face à une situation délicate, et réduit la durée des impayés grâce à une réaction rapide.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le rôle d'une agence"
+          }
+        ],
+        "slug": "loyers-impayes-reflexes-proprietaire",
+        "titre": "Loyers impayés : les bons réflexes du propriétaire",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Vendre",
+        "cta": "contact",
+        "date": "2026-01-28",
+        "description": "Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.",
+        "faq": [
+          {
+            "question": "Peut-on arrêter un mandat avant son terme ?",
+            "reponse": "Les conditions de résiliation figurent dans le mandat. Elles dépendent de sa durée et de sa forme : relisez-les avant de signer et demandez des précisions."
+          },
+          {
+            "question": "Qui paie les honoraires de l'agence ?",
+            "reponse": "Cela dépend de ce qui est prévu au mandat : à la charge du vendeur ou de l'acquéreur. Le prix affiché doit préciser si les honoraires sont inclus."
+          },
+          {
+            "question": "Un mandat exclusif m'empêche-t-il de vendre moi-même ?",
+            "reponse": "Pendant la durée de l'exclusivité, le bien est confié à l'agence : les conditions précises, y compris les cas où vous trouveriez vous-même un acquéreur, figurent dans le mandat. Lisez-les attentivement avant de signer."
+          },
+          {
+            "question": "Combien de temps dure un mandat ?",
+            "reponse": "La durée est fixée par le mandat. Elle est généralement de quelques mois, avec des modalités de renouvellement ou de fin prévues par le contrat. Demandez-les par écrit."
+          }
+        ],
+        "intro": "Pour faire appel à une agence, il faut signer un mandat. Il en existe deux grandes formes : le mandat simple et le mandat exclusif. Le bon choix dépend de votre bien, de votre calendrier et du niveau d'accompagnement attendu.",
+        "photo": "agent",
+        "photoAlt": "Photo d'illustration : un conseiller remet les clés à un couple",
+        "retenir": [
+          "Mandat simple : liberté, mais une mobilisation souvent moins forte.",
+          "Mandat exclusif : un interlocuteur unique et un suivi plus poussé.",
+          "Relisez la durée, les honoraires et les conditions de fin du mandat."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Avec un mandat simple, vous pouvez confier votre bien à plusieurs agences et le vendre vous-même. Vous gardez de la liberté, mais l'effort commercial est souvent plus dispersé : chaque agence sait qu'elle n'est pas seule à travailler le dossier. Le bien peut aussi apparaître plusieurs fois sur les portails, parfois avec des prix différents.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le mandat simple"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Avec un mandat exclusif, une seule agence commercialise le bien pendant la durée prévue. En contrepartie de cet engagement, elle investit généralement davantage : photos soignées, communication ciblée, visites organisées, suivi régulier. Vous avez un seul interlocuteur et une vision claire de l'avancement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le mandat exclusif"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "la durée du mandat et les conditions pour y mettre fin ;",
+                  "le montant des honoraires et la personne qui les paie ;",
+                  "le prix de vente affiché et la marge de négociation éventuelle ;",
+                  "les actions de commercialisation prévues et la fréquence des comptes rendus."
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Le mandat est un contrat écrit et encadré par la loi : prenez le temps de le relire et posez toutes vos questions avant de signer.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce qu'il faut vérifier avant de signer"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Une fois le mandat signé, l'agence prépare le bien : visite de présentation, photos, rédaction de l'annonce, diffusion sur son site et sur les portails, communication auprès de ses acquéreurs en recherche. Elle organise ensuite les visites, qualifie les candidats (financement, projet, délais) et vous tient informé des retours. À réception d'une offre, elle vous aide à l'analyser : prix, conditions suspensives, calendrier, solidité du plan de financement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comment se passe la commercialisation avec un mandat"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "un mandat écrit, comportant les informations exigées par la loi (durée, prix, honoraires, description du bien) ;",
+                  "un prix de vente affiché et, selon les cas, une marge de négociation ;",
+                  "des honoraires dus seulement si la vente se conclut grâce à l'agence, dans les conditions du mandat ;",
+                  "un devoir d'information du professionnel envers le vendeur."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les points communs entre les deux mandats"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le mandat exclusif convient bien lorsque vous souhaitez un accompagnement complet et une communication maîtrisée : un seul prix, un seul discours, une seule annonce. Il est particulièrement adapté aux biens qui demandent une mise en valeur soignée (maison de caractère, bien atypique) ou lorsque vous avez peu de temps à consacrer aux visites. Il suppose de choisir une agence en laquelle vous avez confiance, et de définir ensemble des objectifs : prix, calendrier, nombre de visites attendues.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Dans quels cas choisir le mandat exclusif"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le mandat simple peut convenir si vous souhaitez garder la main : vous pouvez continuer à chercher un acquéreur vous-même, par exemple dans votre entourage, ou confier le bien à plusieurs professionnels. Il est parfois choisi pour tester le marché ou pour un bien facile à vendre. Gardez à l'esprit que la multiplication des intermédiaires peut brouiller le message : plusieurs annonces avec des photos et des prix différents donnent une impression de désordre.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Dans quels cas préférer le mandat simple"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Avant de signer, demandez à l'agence comment elle compte commercialiser votre bien : nombre de visites attendues, supports de diffusion, fréquence des comptes rendus, accompagnement jusqu'à l'acte. Interrogez-la aussi sur sa connaissance du quartier et sur des ventes récentes comparables. Une agence sérieuse vous répondra précisément et mettra ses engagements par écrit.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les questions à poser à l'agence"
+          }
+        ],
+        "slug": "mandat-exclusif-ou-simple",
+        "titre": "Mandat exclusif ou mandat simple : que choisir pour vendre ?",
+        "titreSeo": "Mandat exclusif ou simple : que choisir pour vendre ?",
+        "ville": null
+      },
+      {
+        "categorie": "Bailleur",
+        "cta": "location",
+        "date": "2026-02-06",
+        "description": "Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.",
+        "faq": [
+          {
+            "question": "Quel mobilier est obligatoire pour un meublé ?",
+            "reponse": "Un décret fixe la liste minimale : literie, occultation des fenêtres, plaques de cuisson, four ou micro-ondes, réfrigérateur, vaisselle, table et sièges, rangements, luminaires et matériel d'entretien."
+          },
+          {
+            "question": "Peut-on passer du vide au meublé ?",
+            "reponse": "Oui, à la fin d'un bail ou lors d'un changement de locataire, en équipant le logement du mobilier requis. Parlez-en à un conseiller et à un expert-comptable avant de vous lancer."
+          },
+          {
+            "question": "Peut-on louer meublé dans n'importe quelle copropriété ?",
+            "reponse": "En principe oui, mais le règlement de copropriété peut contenir des clauses particulières (location de courte durée, destination des lots). Vérifiez-le avant de vous lancer."
+          },
+          {
+            "question": "Le loyer d'un meublé peut-il être plus élevé ?",
+            "reponse": "Souvent, en raison du mobilier et de la souplesse offerte au locataire. Mais le loyer reste encadré dans certaines zones : renseignez-vous sur les règles applicables à votre ville."
+          }
+        ],
+        "intro": "Meublé ou vide ? Le choix change la durée du bail, le public visé, le dépôt de garantie et la fiscalité. Il n'y a pas de bonne réponse unique : tout dépend de votre bien et de vos objectifs.",
+        "photo": "cuisine",
+        "photoAlt": "Photo d'illustration : cuisine blanche avec îlot en marbre",
+        "retenir": [
+          "Meublé : bail plus court, dépôt plus élevé, mobilier obligatoire.",
+          "Vide : bail plus long, stabilité pour le propriétaire.",
+          "Consultez un expert-comptable pour la fiscalité."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Durée du bail : en général trois ans pour une location vide, un an pour une location meublée (neuf mois pour un étudiant) ;",
+                  "Dépôt de garantie : un mois de loyer hors charges pour du vide, deux mois pour du meublé ;",
+                  "Préavis du locataire : trois mois pour du vide, un mois pour du meublé, avec des exceptions possibles pour du vide ;",
+                  "Équipement : un logement meublé doit comprendre un mobilier minimum fixé par décret (literie, plaques de cuisson, réfrigérateur, etc.)."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les différences principales"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le meublé attire des locataires de passage : étudiants, jeunes actifs, mutations professionnelles. Il offre plus de rotation, donc plus d'occasions d'ajuster le loyer, mais aussi plus de remises en état. Le vide convient mieux à des locataires qui s'installent durablement : familles, couples, personnes qui apportent leurs meubles.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Qui loue quoi ?"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les deux formes ne sont pas imposées de la même façon, et le meublé peut permettre un loyer plus élevé. Mais l'investissement de départ (mobilier) et les frais de remplacement existent. Parlez-en à un expert-comptable avant de choisir, car la meilleure formule dépend de votre situation fiscale.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Fiscalité et rentabilité"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le bail meublé est conclu pour un an, renouvelable par tacite reconduction, ou pour neuf mois lorsqu'il s'adresse à un étudiant (sans reconduction obligatoire). Il doit comporter un inventaire du mobilier et un état des lieux. Le bailleur peut mettre fin au bail à son terme dans des conditions encadrées (reprise pour habiter, vente, motif légitime et sérieux), avec un préavis plus court que pour une location vide. Les loyers sont libres à la relocation sauf réglementation locale (encadrement des loyers).",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le bail meublé : ses règles"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le bail d'un logement vide est conclu pour une durée de trois ans lorsque le bailleur est une personne physique. Le locataire peut le quitter à tout moment avec un préavis. Le propriétaire, lui, ne peut donner congé qu'à l'échéance du bail et pour des motifs précis. Cette stabilité convient aux propriétaires qui souhaitent peu de rotation. Le loyer peut être révisé chaque année selon un indice de référence.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le bail vide : ses règles"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Meublé : budget mobilier et équipements, remplacement progressif en cas d'usure, linge de maison à la charge du locataire ;",
+                  "Vide : peu d'investissement initial, mais un renouvellement des peintures et des sols à prévoir entre deux locataires ;",
+                  "Dans les deux cas : travaux d'entretien, taxe foncière, charges non récupérables, assurance propriétaire non occupant."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Le coût de départ et l'entretien"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La location vide relève en général des revenus fonciers, tandis que la location meublée relève des bénéfices industriels et commerciaux, avec des régimes simplifiés ou réels. Selon votre situation, l'un des régimes peut s'avérer plus avantageux. Ces règles sont techniques et changent : faites-vous conseiller par un expert-comptable ou un conseiller fiscal pour comparer, avant de signer un bail.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Fiscalité : un choix à étudier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Posez-vous trois questions : quel type de locataire visez-vous, quelle durée de location souhaitez-vous, quel budget pouvez-vous investir au départ ? Un petit logement proche d'une université ou d'un centre d'affaires se prête bien au meublé. Un logement familial dans un quartier résidentiel convient souvent mieux au vide. Un conseiller local vous aide à analyser la demande dans votre quartier et à choisir la formule la plus adaptée.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comment décider"
+          }
+        ],
+        "slug": "meuble-ou-vide-choisir-location",
+        "titre": "Louer son bien : meublé ou vide ?",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Acheter",
+        "cta": "contact",
+        "date": "2026-09-22",
+        "description": "Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.",
+        "faq": [
+          {
+            "question": "Quel apport faut-il pour acheter ?",
+            "reponse": "Il n'y a pas de montant unique. Beaucoup de banques demandent au moins de quoi couvrir les frais de notaire. Un conseiller ou un courtier vous indique ce qui est réaliste selon votre profil."
+          },
+          {
+            "question": "Combien de biens faut-il visiter avant d'acheter ?",
+            "reponse": "Il n'y a pas de règle : visitez assez de biens pour comparer, mais préparez votre dossier à l'avance pour réagir vite sur celui qui vous correspond."
+          },
+          {
+            "question": "Faut-il acheter vite ou prendre son temps ?",
+            "reponse": "Il faut surtout être prêt : financement validé, critères clairs, dossier rassemblé. Ainsi, vous pouvez prendre le temps de comparer tout en agissant rapidement quand un bien vous correspond."
+          },
+          {
+            "question": "Peut-on acheter sans apport ?",
+            "reponse": "Certains profils peuvent y parvenir, mais les banques demandent souvent un apport pour couvrir au moins les frais. Un courtier ou un conseiller vous indique ce qui est réaliste dans votre situation."
+          }
+        ],
+        "intro": "Acheter son premier logement est une étape importante, et chaque erreur coûte cher. Voici les six pièges les plus fréquents, et comment les éviter.",
+        "photo": "village",
+        "photoAlt": "Photo d'illustration : village de pierre aux toits de tuiles",
+        "retenir": [
+          "Prévoyez une marge dans votre budget et dans vos mensualités.",
+          "Vérifiez les charges, les travaux et la copropriété avant toute offre.",
+          "Visitez à plusieurs moments de la journée."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Le prix du bien n'est qu'une partie de la dépense. Ajoutez les frais de notaire, les frais de dossier, l'assurance, le déménagement et un petit fonds pour les imprévus. Gardez une marge dans vos mensualités plutôt que de viser le maximum accordé par la banque.",
+                "type": "texte"
+              }
+            ],
+            "titre": "1. Fixer un budget sans marge"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Charges de copropriété, taxe foncière, assurance, chauffage : ces coûts réguliers pèsent sur le budget mensuel. Demandez les montants au vendeur avant de faire une offre.",
+                "type": "texte"
+              }
+            ],
+            "titre": "2. Oublier les charges et la taxe foncière"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un logement à rafraîchir se chiffre avec des devis, pas à l'œil. Pensez aussi au diagnostic énergétique : un mauvais classement implique souvent des travaux d'isolation ou de chauffage.",
+                "type": "texte"
+              }
+            ],
+            "titre": "3. Sous-estimer les travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Demandez les derniers procès-verbaux d'assemblée générale, le règlement et l'état des charges. Ils révèlent les travaux votés, les litiges éventuels et la santé financière de l'immeuble.",
+                "type": "texte"
+              }
+            ],
+            "titre": "4. Ne pas vérifier la copropriété"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Visitez plusieurs biens pour comparer, mais soyez prêt à agir quand un bien correspond : financement validé, pièces rassemblées, critères clairs.",
+                "type": "texte"
+              }
+            ],
+            "titre": "5. Se décider trop vite, ou trop tard"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Visitez à différentes heures : bruit, stationnement, commerces, transports. Un logement parfait dans un quartier qui ne vous convient pas reste un mauvais achat.",
+                "type": "texte"
+              }
+            ],
+            "titre": "6. Négliger l'environnement"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un premier achat réussi commence par des questions simples : pour combien de temps achète-t-on ? Veut-on y vivre, le louer plus tard, revendre ? Quel trajet quotidien accepte-t-on ? Quels critères sont indispensables (nombre de chambres, extérieur, stationnement) et lesquels sont secondaires ? En répondant à ces questions, vous évitez de visiter des biens qui ne correspondent pas à votre projet et vous gagnez du temps.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Avant de chercher : clarifier son projet"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Rencontrez votre banque ou un courtier avant de commencer les visites. Vous saurez le montant que vous pouvez emprunter, la mensualité que vous pouvez supporter, et vous pourrez faire une offre rapidement lorsque le bon bien se présente. Pensez à comparer plusieurs établissements : le taux, mais aussi les frais, l'assurance emprunteur et les conditions de remboursement anticipé. Un accord de principe vous donne de la crédibilité auprès des vendeurs.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Faire valider son financement tôt"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "l'appartement offre souvent un emplacement central et des charges partagées, mais des règles de copropriété à respecter ;",
+                  "la maison offre plus d'espace et de liberté, avec plus d'entretien et parfois plus de dépenses d'énergie ;",
+                  "le neuf offre des frais de notaire réduits, des normes récentes et moins de travaux, parfois avec des délais de livraison ;",
+                  "l'ancien offre du charme et des emplacements établis, avec des travaux à anticiper."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Maison ou appartement, neuf ou ancien"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un professionnel de l'immobilier vous aide à cibler votre recherche, à lire les diagnostics, à analyser les documents de copropriété, à estimer la valeur d'un bien et à négocier. Il vous évite aussi des erreurs de calendrier : délai de rétractation, conditions suspensives, dates d'offre de prêt. Posez-lui toutes vos questions, même celles qui vous semblent simples : un premier achat en suscite beaucoup, et c'est normal.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Se faire accompagner"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Anticipez l'assurance habitation, les contrats d'énergie et d'internet, le changement d'adresse et l'état des lieux de remise des clés. Faites le point sur les petits travaux à réaliser avant d'emménager, et conservez tous les documents liés à l'achat (acte, diagnostics, factures de travaux) : ils vous serviront lors d'une revente.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Après la signature : les premiers mois"
+          }
+        ],
+        "slug": "premier-achat-erreurs-a-eviter",
+        "titre": "Premier achat immobilier : 6 erreurs à éviter",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Syndic",
+        "cta": "syndic",
+        "date": "2026-02-14",
+        "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.",
+        "faq": [
+          {
+            "question": "Peut-on refuser de payer des travaux votés ?",
+            "reponse": "Une fois la décision votée, le paiement s'impose à tous les copropriétaires, sauf recours dans le délai de contestation. Il vaut mieux exprimer ses réserves lors de l'assemblée."
+          },
+          {
+            "question": "Qui choisit l'entreprise qui réalise les travaux ?",
+            "reponse": "L'assemblée générale vote sur un ou plusieurs devis, souvent préparés avec le conseil syndical. Le syndic met ensuite en œuvre le chantier et suit les entreprises."
+          },
+          {
+            "question": "Combien de temps faut-il pour lancer des travaux votés ?",
+            "reponse": "Cela dépend de leur ampleur : consultation des entreprises, autorisations éventuelles, planning des chantiers. Le syndic vous indique un calendrier prévisionnel après le vote."
+          },
+          {
+            "question": "Peut-on demander des travaux à l'ordre du jour ?",
+            "reponse": "Oui. Un copropriétaire peut demander l'inscription d'un sujet à l'ordre du jour, en adressant sa demande au syndic dans les délais prévus avant la convocation."
+          }
+        ],
+        "intro": "Ravalement, toiture, ascenseur, isolation : les travaux en copropriété sont souvent coûteux et se décident ensemble. Qui vote, comment s'organise le chantier, et comment se répartit la facture ?",
+        "photo": "toits",
+        "photoAlt": "Photo d'illustration : toits de tuiles d'une vieille ville du Sud",
+        "retenir": [
+          "Les travaux de parties communes se décident en assemblée générale.",
+          "Les urgences peuvent être engagées par le syndic sans vote préalable.",
+          "Un plan pluriannuel lisse les dépenses dans le temps."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Les parties communes (façade, toiture, escaliers, canalisations générales) sont gérées collectivement. Les parties privatives (l'intérieur de votre logement) relèvent de vous. Certains travaux privatifs qui touchent aux parties communes, comme une fenêtre en façade, demandent aussi l'accord de l'assemblée.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Parties communes et parties privatives"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "le syndic ou le conseil syndical identifie le besoin et demande des devis ;",
+                  "les devis sont présentés en assemblée générale, avec un ordre du jour précis ;",
+                  "le vote se fait avec une majorité qui dépend du type de travaux ;",
+                  "une fois la décision prise, le syndic organise le chantier et suit les entreprises."
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Les travaux urgents nécessaires à la sauvegarde de l'immeuble peuvent être engagés par le syndic sans attendre l'assemblée.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Comment une décision est prise"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La facture est répartie selon les tantièmes. Elle est financée par des appels de fonds échelonnés, par le fonds de travaux, et parfois par un prêt collectif. Des aides publiques existent pour la rénovation énergétique : leurs conditions évoluent, renseignez-vous avant le vote. Un plan pluriannuel de travaux aide à anticiper les dépenses sur plusieurs années plutôt que de les subir.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Qui paie, et comment ?"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "les travaux d'entretien courant, comme le nettoyage, les petites réparations, la maintenance des équipements ;",
+                  "les travaux de conservation et de sauvegarde de l'immeuble, comme la toiture, les façades ou les canalisations ;",
+                  "les travaux d'amélioration, comme l'isolation, l'installation d'un ascenseur ou la rénovation énergétique ;",
+                  "les travaux d'accessibilité et de sécurité, comme la mise aux normes de l'électricité ou des portes coupe-feu."
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Chaque catégorie suit ses propres règles de vote et de financement. Le syndic précise dans la convocation la majorité requise pour chaque résolution.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les grandes catégories de travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un bon projet de travaux commence par un diagnostic : audit énergétique, expertise technique, diagnostic de l'état de l'immeuble. Il permet de hiérarchiser les besoins et de chiffrer les interventions. Le conseil syndical et le syndic consultent ensuite plusieurs entreprises, comparent les devis et s'appuient parfois sur un maître d'œuvre ou un architecte pour suivre le chantier. Plus le dossier est précis, plus l'assemblée décide sereinement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Préparer un projet de travaux"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Les travaux se financent le plus souvent par des appels de fonds échelonnés, par le fonds de travaux constitué au fil des années et, selon les cas, par un prêt collectif contracté au nom du syndicat. Des aides publiques ou des primes peuvent soutenir certains travaux, notamment de rénovation énergétique. Leurs conditions évoluent : le syndic ou un conseiller spécialisé peut vous renseigner sur celles qui s'appliquent à votre immeuble avant le vote.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le financement : plusieurs leviers"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Après la décision, le syndic signe les contrats avec les entreprises, vérifie les assurances et suit l'avancement. Un conseil syndical actif joue un rôle essentiel : visite du chantier, contrôle des délais, remontée des difficultés. À la fin des travaux, la réception du chantier formalise l'achèvement et ouvre les garanties légales. Conservez les documents (devis, factures, procès-verbal de réception) : ils sont indispensables en cas de revente.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le suivi du chantier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Si vous souhaitez remplacer une fenêtre visible en façade, créer une ouverture, installer une climatisation en extérieur ou modifier un balcon, une autorisation de l'assemblée peut être nécessaire. Anticipez : une demande bien documentée, avec plans et devis, a plus de chances d'être acceptée. Pensez aussi aux travaux en cas de vente : un acheteur demandera la preuve de l'autorisation.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les travaux privatifs qui touchent aux parties communes"
+          }
+        ],
+        "slug": "travaux-en-copropriete-qui-decide",
+        "titre": "Travaux en copropriété : qui décide, qui paie ?",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Acheter",
+        "cta": "contact",
+        "date": "2026-10-02",
+        "description": "Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.",
+        "faq": [
+          {
+            "question": "Peut-on visiter plusieurs fois le même bien ?",
+            "reponse": "Oui, et c'est conseillé : une seconde visite, à une autre heure et si possible avec un proche ou un artisan, aide à confirmer ou à écarter un coup de cœur."
+          },
+          {
+            "question": "Que demander au vendeur pendant la visite ?",
+            "reponse": "Les charges, la taxe foncière, les diagnostics, les derniers procès-verbaux d'assemblée et la raison de la vente. Les réponses éclairent la décision et la négociation."
+          },
+          {
+            "question": "Combien de temps dure une visite ?",
+            "reponse": "Prévoyez au moins 30 à 45 minutes pour un appartement, en prenant le temps d'ouvrir les placards, de tester les fenêtres et de visiter les parties communes."
+          },
+          {
+            "question": "Peut-on faire visiter le bien à un artisan avant d'acheter ?",
+            "reponse": "Oui, avec l'accord du vendeur, c'est même recommandé si vous prévoyez des travaux. Un devis précis évite les mauvaises surprises sur le budget."
+          }
+        ],
+        "intro": "Une visite dure souvent moins d'une demi-heure, et elle compte pour un achat qui engage des années. Voici une check-list pour ne rien oublier.",
+        "photo": "immeuble",
+        "photoAlt": "Photo d'illustration : immeuble moderne avec balcons",
+        "retenir": [
+          "Observez l'humidité, les fenêtres, l'électricité et le chauffage.",
+          "L'état des parties communes reflète la gestion de la copropriété.",
+          "Posez les questions sur les charges, les travaux et le DPE."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Humidité : traces au plafond, murs qui cloquent, odeurs de renfermé ;",
+                  "Fenêtres : état des menuiseries, double vitrage, bruit extérieur une fois fermées ;",
+                  "Électricité et plomberie : tableau électrique, prises, pression de l'eau, état des canalisations ;",
+                  "Chauffage : type, âge de l'installation, mode de production d'eau chaude ;",
+                  "Luminosité et exposition : repassez à une autre heure si possible."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Dans l'appartement"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Entrée, escalier, ascenseur : l'entretien des parties communes en dit long sur la gestion ;",
+                  "Toiture, façade, caves : signes de vieillissement ou de travaux à venir ;",
+                  "Stationnement, local à vélos, accès : pensez à votre quotidien."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Dans l'immeuble"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Quel est le montant des charges et de la taxe foncière ?",
+                  "Des travaux ont-ils été votés en assemblée générale ?",
+                  "Depuis combien de temps le bien est-il à vendre, et pourquoi le vend-on ?",
+                  "Quels sont les diagnostics, notamment le classement énergétique ?"
+                ],
+                "type": "liste"
+              },
+              {
+                "texte": "Prenez des photos si le vendeur l'accepte, notez vos impressions à chaud et comparez avec vos autres visites. N'hésitez pas à revenir une seconde fois.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les questions à poser"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Avant de vous déplacer, lisez attentivement l'annonce : surface, étage, charges, diagnostic énergétique, taxe foncière. Repérez l'adresse sur une carte, regardez les commerces, les transports et les écoles. Préparez une liste de questions et un mètre ruban si vous avez des meubles précis à placer. Si possible, visitez à deux : un regard extérieur aide à garder la tête froide.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Préparer la visite"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "des traces d'humidité, des peintures qui cloquent ou des odeurs de moisi ;",
+                  "des fissures importantes dans les murs ou les plafonds ;",
+                  "un tableau électrique ancien ou des installations non conformes ;",
+                  "des fenêtres anciennes ou mal ajustées, sources de bruit et de pertes de chaleur ;",
+                  "des parties communes mal entretenues, signe possible d'une gestion fragile ;",
+                  "un bruit de voisinage ou de rue très présent, même fenêtres fermées."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les signaux d'alerte"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Certaines informations ne se voient pas en visite et doivent être demandées : les travaux votés ou à venir dans l'immeuble, les litiges en cours, le montant exact des charges, la date de remplacement de la chaudière ou de la toiture, le classement énergétique. Demandez à voir les procès-verbaux des dernières assemblées générales : ils reflètent la vie de la copropriété. Pour une maison, informez-vous sur les raccordements (assainissement, eau, gaz) et sur les risques naturels de la commune.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Ce que l'on ne voit pas à l'œil nu"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Juste après la visite, notez vos impressions à chaud : ce qui vous a plu, ce qui vous a gêné, les questions restées sans réponse. Une grille simple (emplacement, état, lumière, bruit, budget total, potentiel) permet de comparer objectivement plusieurs biens. Si un bien vous plaît, ne tardez pas à demander les documents manquants et à demander une seconde visite, de préférence à une autre heure de la journée.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Faire le point après chaque visite"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Calculez le coût global : prix, frais de notaire, travaux à prévoir, charges, taxe foncière. Comparez avec les ventes récentes de biens similaires dans le quartier. Votre conseiller vous aide à formuler une offre écrite, argumentée et adaptée au marché, avec des conditions suspensives claires.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Avant de faire une offre"
+          }
+        ],
+        "slug": "visiter-un-appartement-checklist",
+        "titre": "Visiter un appartement : la check-list de l'acheteur",
+        "titreSeo": null,
+        "ville": null
+      },
+      {
+        "categorie": "Villes",
+        "cta": "estimation",
+        "date": "2025-11-25",
+        "description": "Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.",
+        "faq": [
+          {
+            "question": "Où se trouve le siège de LOTIER Immobilier à Béziers ?",
+            "reponse": "Au 40 rue Française, 34500 Béziers. Vous pouvez nous joindre au 04 67 11 28 31."
+          },
+          {
+            "question": "Béziers convient-elle à une résidence secondaire ?",
+            "reponse": "La mer est toute proche (Valras-Plage, Sérignan, Cap d'Agde), le canal du Midi offre des promenades et le centre historique garde du caractère. Un conseiller vous aide à comparer les secteurs."
+          },
+          {
+            "question": "Le centre-ville de Béziers est-il agréable à vivre ?",
+            "reponse": "Il offre commerces, restaurants et promenades à pied, avec un cachet patrimonial. Certaines rues sont plus calmes que d'autres : visitez à différents moments de la journée."
+          },
+          {
+            "question": "Béziers est-elle bien desservie ?",
+            "reponse": "La ville dispose d'une gare et d'un accès à l'autoroute. Les déplacements vers Montpellier, Narbonne ou Toulouse sont courants, en train comme en voiture."
+          }
+        ],
+        "intro": "Béziers se visite de loin : la cathédrale Saint-Nazaire domine l'Orb, et le Pont Vieux enjambe la rivière depuis des siècles. C'est aussi une ville où l'on vit bien, entre patrimoine, canal du Midi et proximité du littoral.",
+        "photo": "bez-cath",
+        "photoAlt": "La cathédrale Saint-Nazaire dominant l'Orb à Béziers",
+        "retenir": [
+          "Une ville patrimoniale, entre l'Orb, la cathédrale et le canal du Midi.",
+          "La mer est à portée de voiture : Valras-Plage, Sérignan, Cap d'Agde.",
+          "L'agence LOTIER est installée à Béziers."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Le cœur historique s'organise autour de la cathédrale et des ruelles voisines. Les allées Paul Riquet, grande promenade arborée, rythment la vie du centre-ville avec ses cafés et ses commerces. Les Halles et le jardin du Plateau des Poètes complètent un cadre apprécié des habitants.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un centre ancien et des promenades"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Béziers est bordée par le canal du Midi, inscrit au patrimoine mondial, et ses célèbres écluses de Fonséranes. Les plages de Valras-Plage, de Sérignan et du Cap d'Agde sont toutes proches : un atout pour les familles comme pour les résidences secondaires.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le canal du Midi, les écluses et la mer"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "On y trouve des appartements dans le centre, des maisons de ville et des maisons avec jardin plus en périphérie. La proximité de l'autoroute et de la gare facilite les déplacements. Avant d'acheter, visitez le quartier à différents moments de la journée, et renseignez-vous sur le stationnement, les commerces et les écoles. L'agence LOTIER a son siège à Béziers, rue Française : un conseiller peut vous guider.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Se loger à Béziers"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Béziers dispose d'une gare, d'un accès à l'autoroute et de liaisons vers Montpellier, Narbonne et Toulouse. Le territoire se prête bien aux déplacements en voiture, mais aussi à la marche dans le centre-ville et au vélo le long du canal. La proximité de la mer, des vignobles et des villages de l'arrière-pays permet de varier les sorties : plage l'été, randonnées à l'automne, marchés toute l'année.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Se déplacer et rayonner depuis Béziers"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La ville est connue pour sa féria, qui anime le centre-ville au cœur de l'été, ainsi que pour ses arènes, ses théâtres et ses événements tout au long de l'année. Les Halles et les commerces du centre rythment le quotidien. Pour un propriétaire occupant comme pour un locataire, c'est un cadre de vie animé, avec des événements qui peuvent aussi influencer l'ambiance de certains quartiers : à prendre en compte dans le choix de son logement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Une vie culturelle et festive"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "en centre ancien : appartements de caractère, souvent avec de la hauteur sous plafond, parfois sans ascenseur ni stationnement ;",
+                  "autour des grandes allées : immeubles bourgeois et appartements familiaux, proches des commerces ;",
+                  "en périphérie : maisons avec jardin, pavillons, résidences récentes, avec plus d'espace et de stationnement ;",
+                  "près du canal : biens appréciés pour leur environnement, avec des promenades à pied ou à vélo."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Quel type de bien chercher ?"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un acheteur-occupant cherchera surtout le bon compromis entre budget, espace et quartier. Un investisseur regardera la demande locative, la proximité des transports et le type de locataires visés. Un acquéreur de résidence secondaire sera attentif à la distance de la mer et à la facilité d'entretien. Quelle que soit votre situation, comparer plusieurs quartiers et visiter à différentes heures est la meilleure façon d'éviter les erreurs.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Acheter pour habiter, louer ou investir"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Un conseiller qui connaît Béziers sait quelles rues ont évolué, quelles copropriétés sont bien gérées, quels secteurs sont recherchés et à quel prix se vendent les biens comparables. Le siège de LOTIER Immobilier se trouve rue Française, en plein centre : n'hésitez pas à passer nous voir ou à nous appeler pour échanger sur votre projet.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Faire appel à une agence locale"
+          }
+        ],
+        "slug": "vivre-a-beziers",
+        "titre": "Vivre à Béziers : centre ancien, canal et art de vivre",
+        "titreSeo": null,
+        "ville": "beziers"
+      },
+      {
+        "categorie": "Villes",
+        "cta": "estimation",
+        "date": "2026-05-03",
+        "description": "Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.",
+        "faq": [
+          {
+            "question": "LOTIER Immobilier intervient-elle à Carcassonne ?",
+            "reponse": "Oui, nos conseillers accompagnent les projets sur le couloir de l'Aude, dont Carcassonne."
+          },
+          {
+            "question": "Carcassonne convient-elle à une résidence secondaire ?",
+            "reponse": "Le patrimoine, le canal du Midi et les vignobles voisins attirent beaucoup de résidents secondaires. Comparez les secteurs selon votre usage : séjours courts, vacances ou future retraite."
+          },
+          {
+            "question": "Peut-on habiter dans la Cité de Carcassonne ?",
+            "reponse": "Oui, certains logements s'y trouvent, mais le site est protégé et très fréquenté. Il convient de bien s'informer sur les contraintes (stationnement, travaux, nuisances touristiques) avant d'acheter."
+          },
+          {
+            "question": "Carcassonne est-elle adaptée à un investissement locatif ?",
+            "reponse": "Cela dépend du bien et du secteur visé. Un conseiller peut vous aider à analyser la demande locative locale et à choisir un logement adapté."
+          },
+          {
+            "question": "Quand visiter Carcassonne pour y chercher un logement ?",
+            "reponse": "Idéalement hors période estivale, quand la ville retrouve son rythme habituel : vous jugerez mieux la circulation, le stationnement et l'ambiance des quartiers au quotidien."
+          }
+        ],
+        "intro": "Carcassonne, c'est d'abord sa Cité médiévale, inscrite au patrimoine mondial. C'est aussi une ville du quotidien, avec sa Bastide, son canal du Midi et un cadre de vie tourné vers l'Aude et le Minervois.",
+        "photo": "carcassonne",
+        "photoAlt": "La Cité médiévale de Carcassonne",
+        "retenir": [
+          "Une Cité médiévale et une Bastide aux ambiances très différentes.",
+          "Le canal du Midi et le lac de la Cavayère offrent un cadre de vie nature.",
+          "L'agence LOTIER accompagne les projets dans l'Aude."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "La Cité, fortifiée, domine la ville depuis sa colline. En contrebas, la Bastide Saint-Louis, ville basse au plan en damier, concentre commerces, marchés et vie administrative. Le Pont Vieux relie les deux rives de l'Aude.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Deux villes en une"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le canal du Midi traverse la ville et offre des promenades en bord d'eau. Le lac de la Cavayère, à proximité, permet de se promener, se baigner l'été et pratiquer des activités de plein air. Les vignobles du Minervois et du Cabardès sont tout proches.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un cadre de vie tourné vers l'eau et la nature"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "On y trouve des appartements en centre-ville, des maisons de ville dans la Bastide, des pavillons en périphérie et des maisons de village dans les communes voisines. Selon votre projet (résidence principale, investissement locatif, résidence secondaire), le choix du secteur change. L'agence LOTIER accompagne les projets dans l'Aude, sur le couloir de l'Aude : un conseiller peut vous présenter le marché.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Acheter ou louer à Carcassonne"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Pour les Carcassonnais, la Cité n'est pas qu'un monument : c'est un repère, une silhouette sur l'horizon, un lieu de promenade et d'événements. Y habiter permet de vivre dans un cadre exceptionnel, avec les contraintes d'un site protégé et très visité. La plupart des habitants vivent plutôt dans la ville basse ou en périphérie, où le quotidien est plus facile, tout en gardant la Cité comme toile de fond.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La Cité, un décor au quotidien"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La Bastide Saint-Louis, avec ses rues en damier, ses places et ses marchés, concentre commerces, services et vie sociale. On y trouve des maisons de ville, des appartements dans des immeubles anciens et des programmes plus récents. C'est un secteur apprécié par ceux qui veulent tout faire à pied. Les abords du canal du Midi, à proximité, ajoutent des promenades agréables.",
+                "type": "texte"
+              }
+            ],
+            "titre": "La Bastide, cœur de la vie quotidienne"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le canal du Midi traverse la ville et se prête à la marche, au vélo et à la navigation de plaisance. Le lac de la Cavayère, au nord de la ville, est un lieu de détente apprécié l'été. Les vignobles du Minervois et du Cabardès, les villages de l'arrière-pays et les massifs voisins offrent de nombreuses sorties. Ces atouts attirent aussi des acquéreurs de résidences secondaires et des retraités.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le canal du Midi et la nature"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "en ville basse : appartements et maisons de ville, proches des commerces et des services ;",
+                  "près de la Cité : biens de caractère, adaptés à ceux qui aiment le patrimoine, avec les contraintes du secteur ;",
+                  "en périphérie : pavillons avec jardin, stationnement facile, résidences récentes ;",
+                  "dans les communes proches : maisons de village, parfois avec terrain, pour plus de calme."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Quel bien chercher ?"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "LOTIER Immobilier accompagne les projets sur le couloir de l'Aude. Nos conseillers peuvent estimer votre bien, vous présenter des logements, organiser les visites et vous aider à comparer les secteurs. N'hésitez pas à nous appeler pour échanger sur votre projet : acheter, vendre, louer ou investir.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un accompagnement sur le couloir de l'Aude"
+          }
+        ],
+        "slug": "vivre-a-carcassonne",
+        "titre": "Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi",
+        "titreSeo": "Vivre à Carcassonne : la Cité, la Bastide, le canal",
+        "ville": "carcassonne"
+      },
+      {
+        "categorie": "Villes",
+        "cta": "estimation",
+        "date": "2026-04-18",
+        "description": "Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.",
+        "faq": [
+          {
+            "question": "Quel quartier choisir quand on est étudiant à Montpellier ?",
+            "reponse": "Les secteurs proches du centre et des lignes de tramway, comme Beaux-Arts, Boutonnet ou l'Écusson, sont très prisés. Comparez le loyer, le temps de trajet et le niveau de calme."
+          },
+          {
+            "question": "LOTIER Immobilier a-t-elle une agence à Montpellier ?",
+            "reponse": "Oui, l'agence dispose d'une adresse à Montpellier (à compléter sur le site). Vous pouvez la joindre au 04 67 11 28 31."
+          },
+          {
+            "question": "Montpellier est-elle une ville où il est facile de louer ?",
+            "reponse": "La demande est soutenue, notamment pour les petites surfaces. Pour les locataires, mieux vaut préparer son dossier à l'avance. Pour les propriétaires, un bien bien situé et bien entretenu trouve généralement preneur."
+          },
+          {
+            "question": "Faut-il privilégier le centre ou les communes voisines ?",
+            "reponse": "Cela dépend de votre budget, de vos besoins d'espace et de vos trajets. Le centre offre la vie de quartier, les communes voisines offrent plus d'espace et du stationnement."
+          }
+        ],
+        "intro": "Montpellier est une ville vivante, étudiante et en pleine évolution. Son centre historique côtoie des quartiers contemporains et un réseau de tramway qui irrigue l'agglomération.",
+        "photo": "montpellier",
+        "photoAlt": "La place de la Comédie à Montpellier le soir",
+        "retenir": [
+          "Un centre historique piéton et des quartiers contemporains très différents.",
+          "Le tramway est un critère majeur dans le choix d'un logement.",
+          "Un conseiller local aide à comparer les secteurs."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "L'Écusson, cœur ancien de la ville, concentre ruelles piétonnes, places, commerces et vie nocturne. La place de la Comédie en est le point de rendez-vous. On y trouve surtout des appartements dans des immeubles anciens, avec un charme certain mais aussi des contraintes : escaliers, stationnement difficile.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Le centre historique"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "Antigone : un quartier néoclassique dessiné par Ricardo Bofill, avec de grandes perspectives et un accès au fleuve ;",
+                  "Port Marianne : un quartier récent tourné vers le Lez, avec des programmes neufs et des commerces ;",
+                  "Les Arceaux et le Peyrou : des secteurs résidentiels et appréciés, au pied de l'aqueduc Saint-Clément ;",
+                  "Beaux-Arts et Boutonnet : des quartiers animés, proches du centre, très demandés des étudiants et des jeunes actifs."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Des quartiers très différents"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "La demande est soutenue, notamment pour les petites surfaces proches du tramway et des universités. Pour un investisseur, le profil des locataires (étudiants, actifs en début de carrière) influence le choix du quartier et du type de bien. Un conseiller local vous aide à comparer les secteurs, les charges et les perspectives.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Louer ou acheter à Montpellier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le réseau de tramway, qui dessert une grande partie de l'agglomération, est l'un des atouts de la ville. Habiter à proximité d'une station facilite l'accès au centre, aux universités, aux grands équipements et à la gare. Le vélo est aussi très présent, et le centre historique se parcourt à pied. Pour un étudiant ou un jeune actif, la facilité d'accès aux transports est souvent aussi décisive que la surface du logement.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Se déplacer à Montpellier"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Montpellier accueille de nombreux étudiants. Cela anime la ville, mais cela influence aussi le marché du logement : forte demande de petites surfaces, rotation des locataires à la rentrée, loyers sensibles à la proximité des campus et du centre. Si vous cherchez un logement, anticipez vos recherches avant l'été. Si vous investissez, tenez compte de ce rythme de rentrée dans votre stratégie de location.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Une ville universitaire"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "pour une vie piétonne et culturelle : l'Écusson, Boutonnet, Beaux-Arts ;",
+                  "pour un cadre résidentiel plus calme : les Arceaux, le Peyrou et leurs abords ;",
+                  "pour des bâtiments récents et des commerces à proximité : Port Marianne ;",
+                  "pour une ambiance singulière et des espaces ouverts : Antigone ;",
+                  "pour plus d'espace : les communes voisines de l'agglomération, bien reliées par le tramway ou la route."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Choisir son quartier selon son projet"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Dans l'ancien, vérifiez l'état de l'immeuble, la présence d'un ascenseur, le stationnement et les éventuels travaux à venir. Dans le neuf, renseignez-vous sur les garanties, le calendrier de livraison et les charges prévisionnelles. En location, soyez réactif, constituez un dossier complet et visitez rapidement : les bons logements partent vite. Dans tous les cas, comparez plusieurs quartiers avant de vous décider.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Acheter ou louer : les points d'attention"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "LOTIER Immobilier dispose d'une agence à Montpellier. Nos conseillers peuvent vous présenter les secteurs, estimer un bien, vous accompagner dans vos visites et assurer la gestion locative de votre logement. N'hésitez pas à nous contacter pour échanger sur votre projet.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un accompagnement de proximité"
+          }
+        ],
+        "slug": "vivre-a-montpellier",
+        "titre": "Vivre à Montpellier : du centre historique aux nouveaux quartiers",
+        "titreSeo": "Vivre à Montpellier : du centre aux nouveaux quartiers",
+        "ville": "montpellier"
+      },
+      {
+        "categorie": "Villes",
+        "cta": "estimation",
+        "date": "2026-03-29",
+        "description": "Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.",
+        "faq": [
+          {
+            "question": "LOTIER Immobilier est-elle présente à Nîmes ?",
+            "reponse": "Oui, l'agence dispose d'une adresse à Nîmes (à compléter sur le site) et accompagne les projets dans l'agglomération nîmoise. Vous pouvez la joindre au 04 67 11 28 31."
+          },
+          {
+            "question": "Quels types de biens trouve-t-on à Nîmes ?",
+            "reponse": "Des appartements dans des immeubles anciens du centre, des maisons de ville, des maisons avec jardin en périphérie et des programmes plus récents, selon les secteurs."
+          },
+          {
+            "question": "Quels sont les quartiers recherchés à Nîmes ?",
+            "reponse": "L'Écusson, les abords des jardins de la Fontaine et certains quartiers résidentiels sont très demandés. Le bon choix dépend de votre budget et de votre mode de vie."
+          },
+          {
+            "question": "Nîmes convient-elle pour investir ?",
+            "reponse": "Elle peut convenir selon la cible visée (étudiants, actifs, familles). Un conseiller vous aide à comparer les quartiers et à construire un projet adapté à votre situation."
+          }
+        ],
+        "intro": "Nîmes est une ville romaine par ses monuments, et méridionale par son art de vivre. Les Arènes, la Maison Carrée et les jardins de la Fontaine en font l'une des villes les plus riches en patrimoine du Languedoc.",
+        "photo": "nimes",
+        "photoAlt": "Les Arènes de Nîmes sous un ciel bleu",
+        "retenir": [
+          "Une ville riche en patrimoine, du centre ancien aux jardins de la Fontaine.",
+          "Des secteurs très variés : Écusson, quartiers résidentiels, communes voisines.",
+          "L'agence LOTIER dispose d'une agence à Nîmes."
+        ],
+        "sections": [
+          {
+            "blocs": [
+              {
+                "texte": "Les Arènes accueillent spectacles et férias. La Maison Carrée, l'un des temples romains les mieux conservés, fait face au Carré d'Art. Les jardins de la Fontaine et la Tour Magne offrent une grande promenade verte à deux pas du centre. Habiter près de ces lieux, c'est profiter d'un cadre rare.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un patrimoine au quotidien"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "l'Écusson, le centre historique, pour des appartements dans de beaux immeubles anciens ;",
+                  "les alentours des jardins de la Fontaine, appréciés pour leur calme et leur verdure ;",
+                  "les quartiers résidentiels plus éloignés du centre, avec maisons et stationnement plus faciles ;",
+                  "les communes voisines de l'agglomération, pour des maisons avec jardin et plus d'espace."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Les secteurs à connaître"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Le marché propose appartements de caractère en centre-ville, maisons avec jardin en périphérie et programmes plus récents. Pour un achat comme pour une location, comparez plusieurs secteurs selon vos besoins : proximité du centre, école, accès aux axes routiers, stationnement. Un conseiller peut vous présenter les biens et vous orienter.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Se loger à Nîmes"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Nîmes est une ville où l'on vit dehors : terrasses, places, marchés, soirées d'été. Les férias, la tauromachie et les événements des Arènes font partie de l'identité locale. La proximité des Cévennes, de la Camargue, du Pont du Gard et des plages offre de nombreux week-ends à moins d'une heure. Pour beaucoup d'habitants, c'est cette combinaison de vie urbaine et de nature à proximité qui fait la valeur de la ville.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un art de vivre gardois"
+          },
+          {
+            "blocs": [
+              {
+                "items": [
+                  "jeunes actifs et étudiants : petits appartements proches du centre, de la gare et des transports ;",
+                  "familles : maisons de ville, pavillons et maisons avec jardin dans les quartiers résidentiels et les communes voisines ;",
+                  "amateurs de caractère : appartements dans des immeubles anciens, avec cachet et hauteur sous plafond ;",
+                  "investisseurs : biens de taille moyenne en centre-ville ou proches des axes de transport, selon le public visé."
+                ],
+                "type": "liste"
+              }
+            ],
+            "titre": "Quel logement selon votre profil"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "En centre-ville, le stationnement et l'accessibilité sont des points essentiels à examiner. Dans les quartiers résidentiels, regardez la proximité des écoles, des commerces et des axes routiers. Pour une maison, vérifiez les raccordements, l'état de la toiture, l'orientation et les éventuels risques naturels de la commune. N'oubliez pas d'évaluer l'effet de l'été sur le logement : isolation, volets, exposition.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Les atouts à vérifier avant d'acheter"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "Comme partout, le marché nîmois varie selon les quartiers, les types de biens et le moment de l'année. Les prix et les délais de vente dépendent de l'état du bien, de l'emplacement, du DPE et des attentes des acquéreurs. Un conseiller local peut vous indiquer des références récentes de ventes comparables et vous aider à ajuster votre stratégie, que vous vendiez ou que vous achetiez.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un marché à regarder de près"
+          },
+          {
+            "blocs": [
+              {
+                "texte": "LOTIER Immobilier dispose d'une agence à Nîmes. Nos équipes peuvent vous accompagner pour une estimation, une vente, une recherche de bien, une mise en location ou la gestion d'une copropriété. Prenez contact avec nous pour échanger sur votre projet.",
+                "type": "texte"
+              }
+            ],
+            "titre": "Un conseiller à Nîmes"
+          }
+        ],
+        "slug": "vivre-a-nimes",
+        "titre": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois",
+        "titreSeo": null,
+        "ville": "nimes"
+      }
+    ],
+    "gere": [
+      "articles"
+    ],
+    "medias": [],
+    "pages": [],
+    "reglages": {},
+    "schema": 1
+  },
+  "empreinte": "5cc5384109b86a4f113e1facdd46278c1fc1482d8691faf1251e4ad345cd4fff"
+}

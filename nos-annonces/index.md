@@ -4,7 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+64 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+
+ [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
+
+ 650 € par mois
+
+### Maison de village rénovée avec climatisation louée meublée
+
+ Conques-sur-Orbiel · 81,5 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
 
  [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
 

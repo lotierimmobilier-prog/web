@@ -14,7 +14,17 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-24 à vendre · 7 à louer
+24 à vendre · 8 à louer
+
+ [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
+
+ 650 € par mois
+
+### Maison de village rénovée avec climatisation louée meublée
+
+ Conques-sur-Orbiel · 81,5 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
 
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
 
@@ -330,9 +340,9 @@ Carcassonne · Narbonne
 
 ## Faire connaissance avec Barbara
 
-- **31**biens en ligne
+- **32**biens en ligne
 - **24**à vendre
-- **7**à louer
+- **8**à louer
 - **13**communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
@@ -359,7 +369,7 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 
 ### Biens proposés
 
-- 13 maisons
+- 14 maisons
 - 6 appartements
 - 5 terrains
 - 3 locaux commerciaux

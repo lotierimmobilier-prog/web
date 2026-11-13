@@ -14,7 +14,7 @@ Chaque agent LOTIER connaît son secteur. Touchez un portrait pour le découvrir
 
 Agent commercial indépendant · Carcassonne · Narbonne
 
-Narbonne, Lézignan, Capendu, Trèbes, Carcassonne [Voir sa page et ses 31 annonces](https://lotier.immo/nos-agents/barbara-bouba/)[06 51 45 06 63](tel:+33651450663)
+Narbonne, Lézignan, Capendu, Trèbes, Carcassonne [Voir sa page et ses 32 annonces](https://lotier.immo/nos-agents/barbara-bouba/)[06 51 45 06 63](tel:+33651450663)
 
 [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
 -
