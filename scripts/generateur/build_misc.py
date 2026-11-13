@@ -84,18 +84,29 @@ mentions_facts = "".join([
 ])
 legal_page("mentions-legales", "Mentions légales", "Qui édite ce site, quelles sont nos garanties et comment nous joindre.", "Mentions légales", f'''
         <div class="fact-grid">{mentions_facts}</div>
+        <h2>Agents commerciaux</h2>
+        <p>Les conseillers présentés sur la page <a class="text-link" href="../nos-agents/">Nos agents</a> sont des agents commerciaux indépendants, immatriculés au registre spécial des agents commerciaux (RSAC). Ils exercent pour le compte de la SARL LOTIER, sous sa carte professionnelle. Le numéro RSAC de chaque agent figure sur sa page et sur les annonces qu'il présente.</p>
+        <h2>Honoraires</h2>
+        <p>Le barème de nos honoraires de vente, de location, de gestion locative et de syndic est publié, en euros toutes taxes comprises, sur la page <a class="text-link" href="../nos-honoraires/">Nos honoraires</a>. Il est identique à celui affiché en agence.</p>
+        <h2>Annonces</h2>
+        <p>Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et mises à jour chaque jour. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.</p>
         <h2>Propriété intellectuelle et droits d'auteur</h2>
         <p>Les textes, la mise en page, les illustrations et le logo du site sont la propriété de la SARL LOTIER, sauf mention contraire. Les informations présentes sur ce site peuvent être téléchargées, reproduites ou imprimées à condition de les utiliser à des fins personnelles et non commerciales, de ne pas les modifier et de reproduire sur chaque copie la mention des droits d'auteur (contact@lotier-immobilier.com). Toute autre utilisation est interdite sans autorisation écrite préalable de LOTIER.</p>
         <h2>Photographies</h2>
-        <p>Les photographies d'illustration proviennent de la bibliothèque Pexels et sont publiées sous la licence Pexels. Elles seront progressivement remplacées par les photos de l'agence.</p>
+        <p>Les photographies des annonces et les portraits des agents sont fournis par l'agence et ses agents ; ils ne peuvent pas être réutilisés sans autorisation. Les photographies d'illustration des villes et des articles proviennent de banques d'images sous licence libre, principalement Pexels.</p>
         <h2>Responsabilité</h2>
         <p>Les informations publiées sur ce site ont une valeur indicative et sont fournies en l'état. Les articles de blog donnent des repères généraux et ne remplacent pas un conseil personnalisé. Les annonces présentées peuvent évoluer ou être retirées sans préavis. LOTIER se réserve le droit de modifier ce site et les présentes mentions à tout moment. LOTIER Immobilier ne saurait être tenue responsable des dommages directs ou indirects résultant d'une information contenue sur ce site, ni du contenu des sites externes vers lesquels renvoient certains liens, qui ne sont pas sous son contrôle.</p>
         <h2>Données personnelles</h2>
         <p>La SARL LOTIER est responsable du traitement des données personnelles collectées sur ce site. Les finalités, les durées de conservation et vos droits (accès, rectification, effacement, opposition, limitation, portabilité) sont détaillés dans notre <a class="text-link" href="../lotier-rgpd/">politique de confidentialité (RGPD)</a>. Pour exercer vos droits, écrivez à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>. Vous pouvez aussi saisir la CNIL (<a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>) si vous estimez que vos droits ne sont pas respectés.</p>
         <h2>Cookies</h2>
-        <p>Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page <a class="text-link" href="../cookies/">Cookies et traceurs</a>.</p>
+        <p>Ce site ne dépose aucun cookie. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie, hébergé dans l'Union européenne, que vous pouvez refuser. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page <a class="text-link" href="../cookies/">Cookies et traceurs</a>.</p>
         <h2>Messagerie</h2>
-        <p>Pour toute remarque sur le fonctionnement du site, écrivez à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>. Les messages transmis par internet peuvent être interceptés : leur confidentialité ne peut être garantie jusqu'à leur réception.</p>''',
+        <p>Pour toute remarque sur le fonctionnement du site, écrivez à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>. Les messages transmis par internet peuvent être interceptés : leur confidentialité ne peut être garantie jusqu'à leur réception.</p>
+        <h2>Assistant en ligne</h2>
+        <p>Auguste, l'assistant du site, est un programme automatisé. Il répond aux premières questions sur nos services et vous met en relation avec un conseiller ; ses réponses sont indicatives et ne remplacent pas un conseil personnalisé.</p>
+        <h2>Accessibilité</h2>
+        <p>L'état d'accessibilité du site et les moyens de signaler une difficulté figurent dans notre <a class="text-link" href="../accessibilite/">déclaration d'accessibilité</a>.</p>
+        <p>Dernière mise à jour : novembre 2026.</p>''',
   "Mentions légales de LOTIER Immobilier : éditeur, carte professionnelle, assurance, garantie financière, médiateur de la consommation et hébergement.", note=NOTE_REPRISE)
 
 # ---------- Politique de confidentialité (RGPD) ----------
