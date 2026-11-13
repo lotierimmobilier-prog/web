@@ -9,42 +9,6 @@ Agent commercial indépendant · secteur Béziers
 Béziers
  [06 09 76 63 24](tel:+33609766324)[Écrire](mailto:laetitia.dias@lotier-immobilier.com)
 
- Présentation
-
-## Faire connaissance avec Laëtitia
-
-Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béziers. Communes couvertes : Béziers, Maureilhan, Villeneuve-lès-Béziers.
-
-Laëtitia présente actuellement 21 biens (13 à vendre et 8 à louer), à Béziers, Villeneuve-lès-Béziers et Maureilhan.
-
-Parmi ces biens : 13 appartements, 3 locaux commerciaux, 3 maisons et 2 immeubles. Les biens à vendre vont de 55 000 € à 357 000 €. Les loyers vont de 210 € à 735 € par mois.
-
-### Spécialités
-
-- Vente
-- Location
-- Appartements
-- Locaux commerciaux
-- Maisons et villas
-- Investissement locatif
-
-### Communes couvertes
-
-- Béziers
-- Maureilhan
-- Villeneuve-lès-Béziers
-
-### Biens proposés
-
-- Appartement à vendre à Béziers
-- Appartement à louer à Béziers
-- Local commercial à louer à Béziers
-- Immeuble à vendre à Béziers
-- Maison à vendre à Villeneuve-lès-Béziers
-- Local commercial à vendre à Béziers
-- Maison à vendre à Maureilhan
-- Maison à vendre à Béziers
-
  Annonces
 
 ## Les biens de Laëtitia
@@ -261,6 +225,42 @@ Parmi ces biens : 13 appartements, 3 locaux commerciaux, 3 maisons et 2 immeuble
  Béziers · 120 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
+
+ Présentation
+
+## Faire connaissance avec Laëtitia
+
+Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béziers. Communes couvertes : Béziers, Maureilhan, Villeneuve-lès-Béziers.
+
+Laëtitia présente actuellement 21 biens (13 à vendre et 8 à louer), à Béziers, Villeneuve-lès-Béziers et Maureilhan.
+
+Parmi ces biens : 13 appartements, 3 locaux commerciaux, 3 maisons et 2 immeubles. Les biens à vendre vont de 55 000 € à 357 000 €. Les loyers vont de 210 € à 735 € par mois.
+
+### Spécialités
+
+- Vente
+- Location
+- Appartements
+- Locaux commerciaux
+- Maisons et villas
+- Investissement locatif
+
+### Communes couvertes
+
+- Béziers
+- Maureilhan
+- Villeneuve-lès-Béziers
+
+### Biens proposés
+
+- Appartement à vendre à Béziers
+- Appartement à louer à Béziers
+- Local commercial à louer à Béziers
+- Immeuble à vendre à Béziers
+- Maison à vendre à Villeneuve-lès-Béziers
+- Local commercial à vendre à Béziers
+- Maison à vendre à Maureilhan
+- Maison à vendre à Béziers
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Argenteuil sous le n° 850128372. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

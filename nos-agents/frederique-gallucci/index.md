@@ -9,40 +9,6 @@ Agent commercial indépendant · secteur Nîmes
 Nîmes
  [06 37 64 77 01](tel:+33637647701)[Écrire](mailto:frederique.gallucci@lotier-immobilier.com)
 
- Présentation
-
-## Faire connaissance avec Frédérique
-
-Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Caveirac, Nîmes, Aubais, Beaucaire, Calvisson.
-
-Frédérique présente actuellement 8 biens à vendre, à Caveirac, Nîmes, Calvisson, Langlade et Aubais.
-
-Parmi ces biens : 5 appartements, 2 maisons et 1 local commercial. Les biens à vendre vont de 220 000 € à 399 000 €.
-
-### Spécialités
-
-- Vente
-- Appartements
-- Maisons et villas
-- Locaux commerciaux
-
-### Communes couvertes
-
-- Caveirac
-- Nîmes
-- Aubais
-- Beaucaire
-- Calvisson
-
-### Biens proposés
-
-- Appartement à vendre à Caveirac
-- Local commercial à vendre à Nîmes
-- Appartement à vendre à Nîmes
-- Maison à vendre à Calvisson
-- Maison à vendre à Langlade
-- Appartement à vendre à Aubais
-
  Annonces
 
 ## Les biens de Frédérique
@@ -129,6 +95,40 @@ Parmi ces biens : 5 appartements, 2 maisons et 1 local commercial. Les biens à 
  Aubais · 69 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
+
+ Présentation
+
+## Faire connaissance avec Frédérique
+
+Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Caveirac, Nîmes, Aubais, Beaucaire, Calvisson.
+
+Frédérique présente actuellement 8 biens à vendre, à Caveirac, Nîmes, Calvisson, Langlade et Aubais.
+
+Parmi ces biens : 5 appartements, 2 maisons et 1 local commercial. Les biens à vendre vont de 220 000 € à 399 000 €.
+
+### Spécialités
+
+- Vente
+- Appartements
+- Maisons et villas
+- Locaux commerciaux
+
+### Communes couvertes
+
+- Caveirac
+- Nîmes
+- Aubais
+- Beaucaire
+- Calvisson
+
+### Biens proposés
+
+- Appartement à vendre à Caveirac
+- Local commercial à vendre à Nîmes
+- Appartement à vendre à Nîmes
+- Maison à vendre à Calvisson
+- Maison à vendre à Langlade
+- Appartement à vendre à Aubais
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Ajaccio sous le n° 100710235. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

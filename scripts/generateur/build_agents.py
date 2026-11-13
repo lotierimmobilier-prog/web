@@ -221,15 +221,15 @@ def fiche(a):
         </div>
       </div>
     </section>
+''' + f'''    <section class="section container" aria-labelledby="ag-ann">
+      <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
+      {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
+    </section>
 ''' + (f'''    <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec {e(a["prenom"])}</h2></div></div>
       <div class="ag-cols"><div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}</div>
       <div class="glass ag-side">{('<h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul>') if spe else ""}<h3>Communes couvertes</h3><ul class="ag-comm">{comm}</ul>{('<h3>Biens proposés</h3><ul class="ag-comm ag-kw">' + mots + '</ul>') if mots else ""}</div></div>
     </section>
-''' if (texte_fiche or spe or comm) else "") + f'''    <section class="section container" aria-labelledby="ag-ann">
-      <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
-      {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
-    </section>
-    {('<section class="section container"><p class="muted small ag-legal">' + e(legal) + '</p></section>') if legal else ""}
+''' if (texte_fiche or spe or comm) else "") + f'''    {('<section class="section container"><p class="muted small ag-legal">' + e(legal) + '</p></section>') if legal else ""}
     <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
     secteurs_txt = ", ".join(a["communes"][:4])
     titre = f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER'.replace("  ", " ")
