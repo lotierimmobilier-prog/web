@@ -9,42 +9,6 @@ Agent commercial indépendant · secteur Nîmes et Montpellier
 Nîmes Montpellier
  [06 73 03 51 96](tel:+33673035196)[Écrire](mailto:elodie.chardot@lotier-immobilier.com)
 
- Présentation
-
-## Faire connaissance avec Élodie
-
-Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier. Communes couvertes : Nîmes, Montpellier.
-
-Élodie présente actuellement 14 biens (12 à vendre et 2 à louer), notamment à Nîmes, Montpellier, Clarensac, Marguerittes, Alès, Saint-Christol-lez-Alès.
-
-Parmi ces biens : 6 appartements, 4 maisons, 2 locaux commerciaux, 1 immeuble et 1 terrain. Les biens à vendre vont de 45 000 € à 395 000 €. Les loyers vont de 415 € à 850 € par mois.
-
-### Spécialités
-
-- Vente
-- Location
-- Appartements
-- Maisons et villas
-- Locaux commerciaux
-- Investissement locatif
-- Terrains
-
-### Communes couvertes
-
-- Nîmes
-- Montpellier
-
-### Biens proposés
-
-- Appartement à vendre à Montpellier
-- Maison à vendre à Clarensac
-- Local commercial à vendre à Nîmes
-- Immeuble à vendre à Marguerittes
-- Appartement à louer à Nîmes
-- Maison à vendre à Alès
-- Appartement à vendre à Saint-Christol-lez-Alès
-- Appartement à louer à Montpellier
-
  Annonces
 
 ## Les biens de Élodie
@@ -191,6 +155,42 @@ Parmi ces biens : 6 appartements, 4 maisons, 2 locaux commerciaux, 1 immeuble et
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ Présentation
+
+## Faire connaissance avec Élodie
+
+Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier. Communes couvertes : Nîmes, Montpellier.
+
+Élodie présente actuellement 14 biens (12 à vendre et 2 à louer), notamment à Nîmes, Montpellier, Clarensac, Marguerittes, Alès, Saint-Christol-lez-Alès.
+
+Parmi ces biens : 6 appartements, 4 maisons, 2 locaux commerciaux, 1 immeuble et 1 terrain. Les biens à vendre vont de 45 000 € à 395 000 €. Les loyers vont de 415 € à 850 € par mois.
+
+### Spécialités
+
+- Vente
+- Location
+- Appartements
+- Maisons et villas
+- Locaux commerciaux
+- Investissement locatif
+- Terrains
+
+### Communes couvertes
+
+- Nîmes
+- Montpellier
+
+### Biens proposés
+
+- Appartement à vendre à Montpellier
+- Maison à vendre à Clarensac
+- Local commercial à vendre à Nîmes
+- Immeuble à vendre à Marguerittes
+- Appartement à louer à Nîmes
+- Maison à vendre à Alès
+- Appartement à vendre à Saint-Christol-lez-Alès
+- Appartement à louer à Montpellier
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Nîmes sous le n° 882042278. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

@@ -9,6 +9,23 @@ Agent commercial indépendant · secteur Nîmes
 Nîmes
  [06 16 29 35 31](tel:+33616293531)[Écrire](mailto:celine.aubin@lotier-immobilier.com)
 
+ Annonces
+
+## Les biens de Céline
+ [Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+1 à vendre · 0 à louer
+
+ [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
+
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+
  Présentation
 
 ## Faire connaissance avec Céline
@@ -31,23 +48,6 @@ Il s'agit d'une maison. Le bien à vendre est proposé à 243 000 €.
 ### Biens proposés
 
 - Maison à vendre à Meynes
-
- Annonces
-
-## Les biens de Céline
- [Toutes les annonces](https://lotier.immo/nos-annonces/)
-
-1 à vendre · 0 à louer
-
- [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
-
- 243 000 €
-
-### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
-
- Meynes · 87,16 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC sous le n° 922798186. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 
