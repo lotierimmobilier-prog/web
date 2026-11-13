@@ -198,7 +198,7 @@ def filtres_annonces(ann):
     o_dep = "".join(f'<option value="{c}">{e(n)} ({c}) · {deps[c]}</option>' for c, n in DEPARTEMENTS.items() if deps.get(c))
     cache = lambda n: " hidden" if n < 2 else ""      # un seul département ou une seule ville : le choix n'a pas de sens
     mixte = "" if nv and nl else " hidden"
-    return f'''<form class="ann-filtres" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
+    return f'''<form class="ann-filtres ann-filtres-mini" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
         <div class="chip-links" role="group" aria-label="Vente ou location"{mixte}>
           <button type="button" class="chip-link is-on" data-ann-type-btn="" aria-pressed="true">Toutes ({len(ann)})</button>
           <button type="button" class="chip-link" data-ann-type-btn="vente" aria-pressed="false">À vendre ({nv})</button>
@@ -208,9 +208,9 @@ def filtres_annonces(ann):
           <label{cache(len(biens))}><span>Type de bien</span><select data-ann-bien><option value="">Tous les biens</option>{o_bien}</select></label>
           <label{cache(len(deps))}><span>Département</span><select data-ann-dep><option value="">Tous les départements</option>{o_dep}</select></label>
           <label{cache(len(villes))}><span>Ville</span><select data-ann-city><option value="">Toutes les villes</option>{o_ville}</select></label>
-          <label{mixte}><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
-          <label{mixte}><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
-          <label><span>Trier par</span><select data-ann-sort><option value="">Sélection LOTIER</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
+          <label hidden><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
+          <label hidden><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Trier par</span><select data-ann-sort><option value="">Trier</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
         </div>
         <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
       </form>'''

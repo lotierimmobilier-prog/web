@@ -21,7 +21,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.css?v=0ce0650de4">
+  <link rel="stylesheet" href="../../css/styles.css?v=b94234ab0b">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,7 +177,7 @@
     </section>
     <section class="section container ann-list" aria-labelledby="ag-ann" data-annonces>
       <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de Élodie</h2></div><a class="text-link" href="../../nos-annonces/">Toutes les annonces</a></div>
-      <form class="ann-filtres" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
+      <form class="ann-filtres ann-filtres-mini" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
         <div class="chip-links" role="group" aria-label="Vente ou location">
           <button type="button" class="chip-link is-on" data-ann-type-btn="" aria-pressed="true">Toutes (14)</button>
           <button type="button" class="chip-link" data-ann-type-btn="vente" aria-pressed="false">À vendre (12)</button>
@@ -187,9 +187,9 @@
           <label><span>Type de bien</span><select data-ann-bien><option value="">Tous les biens</option><option value="appartement">Appartement (5)</option><option value="maison">Maison (3)</option><option value="terrain">Terrain (1)</option><option value="immeuble">Immeuble (1)</option><option value="commerce">Local, bureaux, commerce (2)</option><option value="parking">Parking, box (2)</option></select></label>
           <label><span>Département</span><select data-ann-dep><option value="">Tous les départements</option><option value="30">Gard (30) · 9</option><option value="34">Hérault (34) · 4</option></select></label>
           <label><span>Ville</span><select data-ann-city><option value="">Toutes les villes</option><option value="Alès" data-dep="30">Alès</option><option value="Clarensac" data-dep="30">Clarensac</option><option value="Marguerittes" data-dep="">Marguerittes</option><option value="Montpellier" data-dep="34">Montpellier</option><option value="Nîmes" data-dep="30">Nîmes</option><option value="Saint-Christol-lez-Alès" data-dep="30">Saint-Christol-lez-Alès</option><option value="Uzès" data-dep="30">Uzès</option></select></label>
-          <label><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
-          <label><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
-          <label><span>Trier par</span><select data-ann-sort><option value="">Sélection LOTIER</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
+          <label hidden><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
+          <label hidden><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Trier par</span><select data-ann-sort><option value="">Trier</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
         </div>
         <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">14 annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
       </form><div class="cards" data-ann-grid>

@@ -1316,3 +1316,13 @@ a.tb-rate { padding-block: 8px; }
 .eq-card h3 { margin: 0 0 4px; font-size: 18px; } .eq-card p { margin: 6px 0 0; line-height: 1.6; }
 .eq-contact { display: flex; flex-wrap: wrap; gap: 4px 16px; } .eq-contact a { color: var(--navy); word-break: break-all; }
 section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } section[aria-labelledby^="eq-"] .title { font-size: clamp(24px, 2.8vw, 34px); } section[aria-labelledby^="eq-"] .section-head { margin-bottom: 16px; }
+
+/* Fiche agent : filtres discrets, sur une ligne, sans encadré */
+.ann-filtres-mini { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; padding: 0; margin: 0 0 18px; background: none; border: 0; border-radius: 0; box-shadow: none; }
+.ann-filtres-mini .chip-links { gap: 6px; } .ann-filtres-mini .chip-link { padding: 6px 12px; font-size: 13px; }
+.ann-filtres-mini .ann-champs { display: flex; flex-wrap: wrap; gap: 6px; }
+.ann-filtres-mini .ann-champs label > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.ann-filtres-mini .ann-champs select { width: auto; min-height: 0; padding: 6px 10px; border-radius: 999px; font-size: 13px; color: var(--mut); border-color: var(--line); background: transparent; }
+.ann-filtres-mini .ann-filtres-pied { margin-left: auto; gap: 6px 14px; } .ann-filtres-mini .ann-filtres-pied p { font-size: 13px; }
+.ann-filtres-mini [hidden] { display: none; }
+@media (max-width: 520px) { .ann-filtres-mini { padding: 0; } .ann-filtres-mini .ann-filtres-pied { margin-left: 0; } }
