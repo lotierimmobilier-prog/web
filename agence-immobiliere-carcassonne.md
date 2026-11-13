@@ -65,6 +65,72 @@ Promenades et résidences en bord d'eau, à deux pas du centre.
 
 Pavillons, maisons de village et vignobles du Minervois et du Cabardès.
 
+ Nos annonces
+
+## Biens à vendre et à louer *à Carcassonne et alentours.*
+
+ [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
+
+ 750 € par mois
+
+### Appartement T4 non meublé – centre ville Carcassonne
+
+ Carcassonne · 106,58 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
+
+ 80 000 €
+
+### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
+
+ Carcassonne · 50 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
+
+ 330 000 €
+
+### Carcassonne Confort, élégance et espace pour toute la fami
+
+ Carcassonne · 240 m² · 5 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
+
+ 230 000 €
+
+### Immeuble de rapport
+
+ Carcassonne · 166 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
+
+ 170 000 €
+
+### Immeuble avec 1 local commercial et 1 T4
+
+ Carcassonne · 170 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
+
+ [LOCATION ](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)
+
+ 465 € par mois
+
+### Studio Spacieux au Centre de Limoux
+
+ Limoux · 68 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
+
+[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+
  Questions fréquentes
 
 ## Vos questions sur *Carcassonne.*

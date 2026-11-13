@@ -53,6 +53,45 @@ Les honoraires de mise en location et d'état des lieux sont plafonnés par la l
 
 Une question sur votre bail ou votre logement : vous savez qui appeler.
 
+ Questions fréquentes
+
+## Vos questions, nos réponses
+
+**Question
+
+### Combien coûte la gestion locative chez LOTIER Immobilier ?
+**
+
+Deux formules, aux tarifs publiés : la gestion complète à 7 % HT par mois (soit 8,40 % TTC), qui comprend le contentieux et le suivi des travaux, ou la gestion locative à 39,99 € TTC par mois, pour la gestion administrative, quotidienne et financière et la révision du loyer.
+
+**Question
+
+### Quels sont les honoraires de mise en location ?
+**
+
+Ils sont plafonnés par la loi et exprimés par mètre carré de surface habitable : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone (autre zone, zone tendue, zone très tendue), plus 3,03 € TTC par m² pour l'état des lieux. Ces montants valent pour les baux signés à partir du 1er janvier 2026.
+
+**Question
+
+### Proposez-vous une assurance contre les loyers impayés ?
+**
+
+Oui, en option : 4 % du loyer charges comprises avec les Assurances Chevalier, ou 3,5 % TTC du loyer charges comprises avec Mila / Zelok. Elle est facultative.
+
+**Question
+
+### Quelle différence entre les deux formules de gestion ?
+**
+
+La gestion complète ajoute à la gestion courante le traitement des impayés (contentieux) et le suivi des travaux. La formule à 39,99 € TTC par mois couvre les quittances, l'encaissement des loyers, la révision du loyer et le suivi administratif et financier.
+
+**Question
+
+### Je cherche un logement à louer : comment préparer mon dossier ?
+**
+
+Pièce d'identité, justificatif de domicile, justificatifs de situation professionnelle et de ressources : nous vous indiquons les pièces à fournir dès la première visite. Les biens à louer sont visibles sur la page Nos annonces.
+
 ## Un bien à louer ou à gérer ?
 
 Parlons de votre projet, sans engagement.
