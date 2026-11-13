@@ -98,5 +98,7 @@
   "terrain": "Terrains",
   "neuf": "Immobilier neuf",
   "prestige": "Biens de prestige"
- }
+ },
+ "ajouts": [],
+ "ajouts_aide": "Agents qui ne sont pas (encore) dans la liste publique de Collab : {prenom, nom, fonction (ex. « Agent Commercial - Secteur Béziers »), email, telephone, communes [liste], secteurs [identifiants, facultatif], photo (ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier)}. À retirer dès qu'ils sont publiés dans Collab."
 }

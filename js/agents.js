@@ -6,7 +6,7 @@
   if (!sec || !node) return;
   var D; try { D = JSON.parse(node.textContent); } catch (e) { return; }
   var field = document.getElementById('ag-field'), info = document.getElementById('ag-info'), chips = sec.querySelector('.ag-chips');
-  var L = D.agents || [], filt = 'all', sel = null;
+  var L = D.agents || [], filt = 'all', sel = null, GEO = null;
   if (!L.length) return;
   sec.classList.add('ag-js');
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -39,9 +39,9 @@
   }
   function fit() { var n = L.length, narrow = field.clientWidth < 700; field.style.height = (narrow ? Math.max(440, Math.ceil(n / 2) * 250 + 60) : Math.max(460, Math.ceil(n / 3) * 270 + 120)) + 'px'; }
   function render() {
-    fit(); field.innerHTML = ''; var G = layout(), order = shuffle(L.slice());
+    fit(); field.innerHTML = ''; var G = layout(), order = shuffle(L.slice()); GEO = { d: G.d, pos: {} };
     order.forEach(function (a, i) {
-      var p = G.pts[i], b = el('button', 'bb');
+      var p = G.pts[i], b = el('button', 'bb'); GEO.pos[a.id] = p;
       b.type = 'button'; b.dataset.id = a.id; b.dataset.s = a.secteurs.join(' ');
       b.style.cssText = 'left:' + (p.x - G.d / 2) + 'px;top:' + (p.y - G.d / 2) + 'px;--d:' + G.d + 'px;--rc:' + col(a) + ';--z:' + (1 + i) + ';--dl:' + (reduce ? 0 : i * 0.09) + 's';
       b.setAttribute('aria-label', a.prenom + ' ' + a.nom + (nom(a) ? ', ' + nom(a) : ''));
@@ -51,10 +51,32 @@
     apply();
   }
   function by(id) { return L.filter(function (a) { return a.id === id; })[0]; }
+  /* Secteur choisi : ses agents viennent se placer au centre du cadre, agrandis ; les autres s'effacent en arrière-plan. */
+  function zoom() {
+    var W = field.clientWidth, H = field.clientHeight, d = GEO.d, narrow = W < 700;
+    var on = filt === 'all' ? [] : L.filter(function (a) { return a.secteurs.indexOf(filt) > -1; });
+    var k = on.length, cols = k ? Math.min(k, narrow ? 2 : 4) : 1, rows = k ? Math.ceil(k / cols) : 1;
+    var lab = d * 0.5, gap = 1.12;
+    var s = Math.min(1.9, (W * 0.88) / (cols * d * gap), (H * 0.9) / (rows * (d + lab) * gap)); s = Math.max(1, s);
+    var cell = d * s * gap, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = H / 2 - (rows * cellH) / 2 + (d * s) / 2;
+    var idx = {}; on.forEach(function (a, i) { idx[a.id] = i; });
+    field.querySelectorAll('.bb').forEach(function (b) {
+      var id = b.dataset.id, o = GEO.pos[id];
+      if (filt !== 'all' && id in idx) {
+        var i = idx[id], inRow = (i / cols | 0) === rows - 1 ? k - (rows - 1) * cols : cols;      /* dernière ligne centrée */
+        var cx = W / 2 - (inRow * cell) / 2 + cell / 2 + (i % cols) * cell, cy = y0 + (i / cols | 0) * cellH;
+        b.style.setProperty('--tx', (cx - o.x) + 'px'); b.style.setProperty('--ty', (cy - o.y) + 'px'); b.style.setProperty('--sc', s);
+        b.style.setProperty('--zz', 40 + i);
+      } else { b.style.setProperty('--tx', '0px'); b.style.setProperty('--ty', '0px'); b.style.setProperty('--sc', 1); b.style.removeProperty('--zz'); }
+    });
+    return on;
+  }
   function apply() {
     field.classList.toggle('f', filt !== 'all');
+    var on = GEO ? zoom() : [];
     field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('on', filt === 'all' || b.dataset.s.split(' ').indexOf(filt) > -1); b.classList.toggle('sel', b.dataset.id === sel); });
-    chips.querySelectorAll('[data-sect]').forEach(function (c) { var on = c.dataset.sect === filt; c.classList.toggle('is-on', on); c.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    chips.querySelectorAll('[data-sect]').forEach(function (c) { var on2 = c.dataset.sect === filt; c.classList.toggle('is-on', on2); c.setAttribute('aria-pressed', on2 ? 'true' : 'false'); });
+    if (filt !== 'all' && on.length === 1) { sel = on[0].id; show(on[0]); field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('sel', b.dataset.id === sel); }); }
   }
   chips.addEventListener('click', function (ev) {
     if (ev.target.closest('[data-mix]')) { render(); return; }
