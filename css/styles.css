@@ -1329,3 +1329,22 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 
 /* Fiche agent avec peu d'annonces : les cartes gardent leur taille de grille au lieu de s'étirer sur toute la largeur */
 .cards.ag-cards { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+
+/* Page « Nos agents » : fond aurore, très clair et très transparent (nappes aux couleurs des secteurs) */
+.ag-stage { background: #fffdf9; }
+.ag-stage .ag-field { z-index: 1; }
+.ag-aurore { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.ag-aurore .au { position: absolute; width: 58%; height: 72%; border-radius: 50%; filter: blur(64px); opacity: .17; mix-blend-mode: multiply; will-change: transform, opacity; transition: opacity .8s; }
+.au-0 { left: -10%; top: -14%; animation: au-a 15s ease-in-out infinite alternate; }
+.au-1 { left: 28%; top: 28%; animation: au-b 17s ease-in-out infinite alternate; }
+.au-2 { right: -10%; top: -16%; animation: au-c 16s ease-in-out infinite alternate; }
+.au-3 { left: 6%; bottom: -34%; animation: au-d 18s ease-in-out infinite alternate; }
+.au-4 { right: 10%; bottom: -28%; width: 42%; opacity: .2 !important; animation: au-a 14s ease-in-out infinite alternate-reverse; }
+.ag-aurore.f .au:not(.is-on):not(.au-4) { opacity: .05; }
+.ag-aurore.f .au.is-on { opacity: .3; }
+@keyframes au-a { to { transform: translate(18%, 22%) scale(1.15); } }
+@keyframes au-b { to { transform: translate(-26%, -14%) scale(.9); } }
+@keyframes au-c { to { transform: translate(-22%, 26%) scale(1.2); } }
+@keyframes au-d { to { transform: translate(28%, -18%) scale(1.1); } }
+@media (max-width: 700px) { .ag-aurore .au { filter: blur(44px); } }
+@media (prefers-reduced-motion: reduce) { .ag-aurore .au { animation: none; } }
