@@ -17,6 +17,7 @@ les associés, les gestionnaires, les alternants, et des agents sans annonce (pa
 | Champ | Type | Rôle |
 | --- | --- | --- |
 | `statut` | texte | `independant` (agent commercial), `associe`, `salarie`, `alternant`. Déjà présent pour les agents. |
+| `service` | texte | Pour les profils non commerciaux : `direction`, `gestion` (gestion locative), `syndic` ou `administratif`. Sert à ranger la personne sur la page « L'équipe ». |
 | `poste` | texte | Intitulé affiché sur le site pour les profils non commerciaux : « Gestionnaire locatif », « Associé », « Alternante en gestion »… |
 | `validation_admin` | booléen | Toujours `true` dans la réponse (les autres ne sont pas renvoyés). Le site ignore un profil où il vaut `false`. |
 | `afficher_sur_site` | booléen | `false` retire le profil du site sans le supprimer de Collab. |
@@ -29,10 +30,16 @@ voir `prompt-profil-agent.md`.
 
 ## Ce que fait le site (déjà en place)
 
-- Un profil `independant` s'affiche comme « Agent commercial indépendant », avec ses annonces et sa mention RSAC.
-- Les autres profils s'affichent avec leur `poste` (à défaut, le début du champ `fonction`), sans rubrique d'annonces ni mention RSAC.
-- Un profil sans annonce est publié normalement.
-- Un profil où `validation_admin` ou `afficher_sur_site` vaut `false` n'est pas publié.
+Le site ne mélange pas les deux populations :
+
+- **Page « Nos agents »** (`/nos-agents/`) : uniquement les profils `independant` (agents commerciaux), par secteur, avec une fiche
+  individuelle, leurs annonces et leur mention RSAC. Un agent sans annonce y figure normalement. Tant que son RSAC n'est pas renseigné,
+  sa fiche est affichée mais masquée des moteurs de recherche.
+- **Page « L'équipe »** (`/equipe/`) : tous les autres profils (associés, gérant, gestionnaires, assistants, alternants), rangés par
+  `service`, avec une carte (photo, nom, `poste`, coordonnées si elles sont transmises). Pas de fiche individuelle ni d'annonces.
+  La page et ses liens n'apparaissent que lorsqu'au moins un de ces profils est publié.
+- Un profil où `validation_admin`, `afficher_sur_site` ou `accord_publication` vaut `false` n'est pas publié.
+- Le téléphone et l'e-mail ne sont affichés que s'ils sont transmis : ne les envoyer que pour les personnes qui l'ont accepté.
 
 ## Règles
 

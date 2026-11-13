@@ -80,7 +80,7 @@ body += section("Votre demande", "Choisir le bon interlocuteur", f'''<ul class="
         <li><a class="text-link" href="{prefix}location/">Location et gestion locative</a> : confier ou louer un bien.</li>
         <li><a class="text-link" href="{prefix}syndic/">Syndic de copropriété</a> : une question sur votre immeuble.</li>
         <li><a class="text-link" href="{prefix}mylotier/">Espace client MyLotier</a> : accès à votre espace.</li>
-        <li><a class="text-link" href="{prefix}nos-agents/">Nos agents</a> : trouver le conseiller de votre secteur.</li>
+        <li><a class="text-link" href="{prefix}nos-agents/">Nos agents</a> : trouver le conseiller de votre secteur.</li>{(chr(10) + '        <li><a class="text-link" href="' + prefix + 'equipe/">L’équipe</a> : direction, gestion locative, syndic et accueil.</li>') if EQUIPE else ""}
       </ul>
       <p class="muted small" style="margin-top:16px">Informations légales : <a class="text-link" href="{prefix}mentions-legales/">mentions légales</a>, <a class="text-link" href="{prefix}lotier-rgpd/">politique de confidentialité</a>, <a class="text-link" href="{prefix}nos-honoraires/">honoraires</a>.</p>''', "t-demande")
 ld = [{"@context": "https://schema.org", "@type": "ContactPage", "@id": f"{SITE}/contact/#page", "url": f"{SITE}/contact/", "name": "Contacter LOTIER Immobilier",

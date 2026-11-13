@@ -157,6 +157,12 @@ def _avis_cfg():
     note = f'{d["note"]:g}'.replace(".", ",") if d.get("note") else "4,7"
     return {"lire": lien or fiche, "ecrire": d.get("lien_avis") or fiche, "direct": bool(d.get("lien_avis")), "note": note}
 
+def _equipe():
+    """Membres de l'équipe hors agents commerciaux (data/agents.json, issu de Collab). Liste vide = pas de page « L'équipe », pas de lien."""
+    try: return json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8")).get("equipe") or []
+    except (OSError, ValueError): return []
+EQUIPE = _equipe()
+
 AVIS = _avis_cfg()
 try:    # fiche Google de l'agence : reliée à l'entreprise dans les données structurées
     FICHE_GOOGLE = [u for u in [json.load(open(f"{ROOT}/data/avis-google.json", encoding="utf-8")).get("fiche_google")] if u]
@@ -419,7 +425,7 @@ def footer(prefix, home=False, cta=None):
         </nav>
         <nav aria-label="Infos utiles"><h2>Infos utiles</h2>
           <a href="{prefix}contact/">Nous contacter</a>
-          <a href="{prefix}nos-agents/">Nos agents</a>
+          <a href="{prefix}nos-agents/">Nos agents</a>{(chr(10) + '          <a href="' + prefix + 'equipe/">L’équipe</a>') if EQUIPE else ""}
           <button type="button" class="foot-link" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">Trouver une agence</button>
           <a href="{a("#estimer")}">Estimer mon bien</a>
           <a href="{prefix}nos-annonces/">Nos annonces</a>

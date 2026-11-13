@@ -276,7 +276,8 @@ urls += [(f"{SITE}/rejoindre/comparatif/", today, "0.8", "monthly")]
 _ag = json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8")).get("agents", []) if os.path.exists(f"{ROOT}/data/agents.json") else []
 _cfg_ag = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8")) if os.path.exists(f"{ROOT}/data/agents-config.json") else {}
 if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le sitemap qu'une fois ouverte aux moteurs
-    urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag]
+    urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag if a.get("rsac")]
+if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
 urls += [(f"{SITE}/annonces/{a['id']}/", today, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
@@ -295,8 +296,10 @@ for c in CITIES:
     ll += f"- [Agence immobilière à {c['name']}]({SITE}/{c['slug']}.html): vente, location, gestion locative et syndic à {c['name']}.\n"
 if _cfg_ag.get("indexable") and _ag:
     ll += f"\n## Nos agents\n\n- [Nos agents par secteur]({SITE}/nos-agents/): les conseillers LOTIER Immobilier, leur secteur et leurs annonces.\n"
-    for a in _ag:
+    for a in [x for x in _ag if x.get("rsac")]:
         ll += f"- [{a['prenom']} {a['nom']}]({SITE}/nos-agents/{a['slug']}/): {a.get('role') or 'agent commercial'}" + (f", secteur {', '.join(a['communes'][:4])}" if a.get("communes") else "") + ".\n"
+if EQUIPE:
+    ll += f"\n## L'équipe\n\n- [L'équipe de l'agence]({SITE}/equipe/): direction, gestion locative, syndic de copropriété et accueil.\n"
 ll += "\n## Articles du blog\n\n"
 for a in ARTICLES_BY_DATE:
     ll += f"- [{a['title']}]({SITE}/blog/{a['slug']}.html) ({a['cat']}, {a['date'].isoformat()}): {a['desc']}\n"
