@@ -1,0 +1,14 @@
+# Terrain de loisir à proximité des habitations
+
+> Terrain 1400 m² à vendre à Barbaira, 22 000 €. A VENDRE à BARBAIRA (11) – Terrain de loisir de 1400 m2 environ – Proche des habitations du village, terrain…
+
+Source : https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/
+
+**22 000 €** · Barbaira · 1400 m²
+
+ VENTE 1 / 4
+
+---
+
+LOTIER Immobilier (SARL LOTIER), 40 rue Française, 1er étage, 34500 Béziers. Téléphone : 04 67 11 28 31. E-mail : contact@lotier-immobilier.com.
+Pages utiles : [À propos](https://lotier.immo/a-propos/) · [Contact](https://lotier.immo/contact/) · [Honoraires](https://lotier.immo/nos-honoraires/) · [Mentions légales](https://lotier.immo/mentions-legales/) · [Plan du site](https://lotier.immo/plan-du-site.html)

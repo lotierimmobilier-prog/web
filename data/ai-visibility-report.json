@@ -354,7 +354,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -364,12 +366,15 @@
    "url": "https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -379,12 +384,15 @@
    "url": "https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -394,12 +402,15 @@
    "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -409,12 +420,15 @@
    "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -424,12 +438,15 @@
    "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -439,12 +456,15 @@
    "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -459,7 +479,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -474,7 +496,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -484,11 +508,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -499,11 +525,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -514,11 +542,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -529,11 +559,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -544,11 +576,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -560,10 +594,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -574,11 +610,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -594,7 +632,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -609,7 +649,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -624,6 +666,7 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -635,10 +678,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -650,10 +695,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -664,11 +711,13 @@
    "url": "https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -680,10 +729,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -694,11 +745,13 @@
    "url": "https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -709,12 +762,15 @@
    "url": "https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -724,12 +780,15 @@
    "url": "https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -739,12 +798,15 @@
    "url": "https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -755,10 +817,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -769,11 +833,13 @@
    "url": "https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -784,11 +850,13 @@
    "url": "https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -800,10 +868,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -814,11 +884,13 @@
    "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -829,11 +901,13 @@
    "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -845,10 +919,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -860,10 +936,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -874,11 +952,13 @@
    "url": "https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -890,10 +970,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -909,7 +991,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -919,11 +1003,13 @@
    "url": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -939,6 +1025,7 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -954,6 +1041,7 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -964,11 +1052,13 @@
    "url": "https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -980,10 +1070,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -999,7 +1091,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -1014,7 +1108,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -1029,6 +1125,7 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1040,10 +1137,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1054,11 +1153,13 @@
    "url": "https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1073,6 +1174,7 @@
     "ListItem",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1088,7 +1190,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1099,10 +1203,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1114,10 +1220,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1129,10 +1237,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1144,11 +1254,14 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1159,10 +1272,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1174,11 +1289,14 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1189,10 +1307,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1204,10 +1324,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1223,7 +1345,9 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "Residence",
     "WebPage"
    ],
    "markdown": true,
@@ -1233,11 +1357,13 @@
    "url": "https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1248,12 +1374,15 @@
    "url": "https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1263,12 +1392,15 @@
    "url": "https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1283,6 +1415,7 @@
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1293,11 +1426,13 @@
    "url": "https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1308,11 +1443,13 @@
    "url": "https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1323,11 +1460,13 @@
    "url": "https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1338,11 +1477,13 @@
    "url": "https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1353,11 +1494,13 @@
    "url": "https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1369,10 +1512,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1384,10 +1529,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1398,11 +1545,13 @@
    "url": "https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1414,10 +1563,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1428,11 +1579,13 @@
    "url": "https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1443,11 +1596,13 @@
    "url": "https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1458,12 +1613,15 @@
    "url": "https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/",
    "type": "autre",
    "balisage": [
+    "Apartment",
     "BreadcrumbList",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
+    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1474,10 +1632,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1489,10 +1649,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1504,10 +1666,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1519,10 +1683,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1534,10 +1700,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1549,10 +1717,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "House",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],
@@ -1564,10 +1734,12 @@
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
+    "LandForm",
     "ListItem",
     "Offer",
     "Place",
     "PostalAddress",
+    "QuantitativeValue",
     "RealEstateListing",
     "WebPage"
    ],

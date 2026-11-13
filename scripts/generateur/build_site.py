@@ -177,7 +177,7 @@ jsonld = {
 jsonld_s = json.dumps(jsonld, ensure_ascii=False, indent=2)
 
 TITLE = "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER"
-DESC = "Agence immobilière indépendante : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Estimez votre bien et parlez à un conseiller."
+DESC = "Agence immobilière indépendante à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, gestion locative et syndic de copropriété. Estimez votre bien."
 LOGO = '<img src="assets/lotier-logo.png" alt="LOTIER Immobilier" width="165" height="56">'
 
 TRUST = "".join(f"<li>{t}</li>" for t in ["Depuis 2018", "900+ lots gérés", "40+ copropriétés"])

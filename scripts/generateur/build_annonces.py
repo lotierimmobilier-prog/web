@@ -235,6 +235,47 @@ def suggestions_bloc(a, tous, p2):
     html = liste(f"Les autres biens de {e(prenom)}" if prenom else "Les autres biens de votre conseiller", agent, "ann-agent-biens") + liste("Biens à proximité", proches, "ann-proches")
     return f'<section class="section container ann-more" aria-label="Autres biens">{html}</section>' if html else ""
 
+# ---- Référencement d'une fiche : titre, description et entité « bien » construits à partir des données, pas du titre saisi ----
+_TYPES = {"Appartement": ("Appartement", "Apartment"), "Maison/villa": ("Maison", "House"), "Immeuble": ("Immeuble", "Residence"),
+          "Terrain": ("Terrain", "LandForm"), "Local": ("Local commercial", "Place"), "Boutique": ("Local commercial", "Place"),
+          "Bureaux": ("Bureaux", "Place"), "Parking/box": ("Parking", "Place")}
+_TITRES_VUS = {}
+
+def _seo_annonce(a, title, desc, vals, price):
+    """(description, titre, entité schema.org) : « Appartement 3 pièces 68 m² à louer à Béziers | LOTIER »."""
+    loc = a["type"] == "location"
+    nom, sch = _TYPES.get(vals.get("Type de bien") or "", (None, "Place"))
+    pieces = _re.search(r"\d+", vals.get("Pièces") or "")
+    pieces = int(pieces.group(0)) if pieces else None
+    surf = f"{round(a['surface'])}{NB}m²" if a.get("surface") else ""       # arrondi : le détail exact est dans la fiche
+    action = "à louer" if loc else "à vendre"
+    if nom:
+        tete = "Studio" if (nom == "Appartement" and pieces == 1) else nom + (f" {pieces} pièces" if pieces and pieces > 1 and nom in ("Appartement", "Maison") else "")
+        base = " ".join(x for x in (tete, surf, action, f"à {a['ville']}") if x)
+    else:
+        base = _clip(title, 52)
+    prix = _re.sub(r"\s+", " ", _plain(price)) if a.get("prix") and not (not loc and a["prix"] < 1000) else ""
+    faits, t = base, base            # deux biens de même libellé : le prix, puis la référence, les distinguent dans le titre
+    for suffixe in ("", f" – {prix}" if prix else "", f" (réf. {a['reference']})" if a.get("reference") else ""):
+        t = base + suffixe
+        if t not in _TITRES_VUS: break
+    _TITRES_VUS[t] = 1
+    if len(t) + 9 <= 65: t += " | LOTIER"      # la marque saute plutôt que de tronquer le libellé
+    # description : faits d'abord, puis le début du texte de l'annonce sans la ligne de titre en capitales
+    paras = [_plain(x) for x in _re.findall(r"<p>(.*?)</p>", desc or "", _re.S)] or ([_plain(desc)] if desc else [])
+    paras = [x for x in paras if x and not (x.upper() == x and len(x) < 140)]
+    extra = [f"{a['chambres']} chambre" + ("s" if a["chambres"] > 1 else "")] if a.get("chambres") else []
+    if prix: extra.append(prix)
+    d = _clip(faits + (", " + ", ".join(extra) if extra else "") + ". " + " ".join(paras), 160) if nom else (_clip(" ".join(paras), 160) if paras else "")
+    if len(d) < 80: d = _clip(f"{d} Annonce LOTIER Immobilier : photos, caractéristiques et contact.".strip(), 165)
+    bien = {"@type": sch, "name": faits, "address": {"@type": "PostalAddress", "addressLocality": a["ville"], "addressCountry": "FR"}}
+    if a.get("surface"): bien["floorSize"] = {"@type": "QuantitativeValue", "value": a["surface"], "unitCode": "MTK"}
+    if sch in ("Apartment", "House"):
+        if pieces: bien["numberOfRooms"] = pieces
+        if a.get("chambres"): bien["numberOfBedrooms"] = a["chambres"]
+        if a.get("sdb"): bien["numberOfBathroomsTotal"] = a["sdb"]
+    return d, t, bien
+
 def detail_page(a, tous=()):
     p2 = "../../"
     title = _nice_title(a); price = _price(a)
@@ -314,14 +355,15 @@ def detail_page(a, tous=()):
     {suggestions_bloc(a, tous, p2)}'''
 
     url = f"{SITE}/annonces/{a['id']}/"
-    d = _clip(_plain(desc), 165) if desc else f"{title} \u00e0 {a['ville']} : annonce LOTIER Immobilier. Photos, caract\u00e9ristiques et contact."
-    if len(d) < 80: d = _clip(f"{title} \u00e0 {a['ville']}. {d} Annonce LOTIER Immobilier : photos, caract\u00e9ristiques et contact.", 165)
-    t = _clip(title, 52) + " | LOTIER"
+    d, t, bien = _seo_annonce(a, title, desc, vals, price)
     offer = {"@type": "Offer", "priceCurrency": "EUR", "price": a["prix"], "availability": "https://schema.org/InStock", "seller": {"@id": SITE + "/#agence"}} if a.get("prix") and not (a["type"] == "vente" and a["prix"] < 1000) else None
     node = {"@context": "https://schema.org", "@type": ["RealEstateListing", "WebPage"], "@id": url + "#annonce", "url": url, "name": title, "description": d, "inLanguage": "fr-FR",
             "datePosted": None, "image": [f"{SITE}/{ph}" for ph in photos], "about": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": a["ville"], "addressCountry": "FR"}},
             "isPartOf": {"@id": SITE + "/#website"}}
-    if offer: node["offers"] = offer
+    if offer:
+        if loc: offer["priceSpecification"] = {"@type": "UnitPriceSpecification", "price": a["prix"], "priceCurrency": "EUR", "unitCode": "MON"}
+        node["offers"] = offer
+    if bien: node["mainEntity"] = bien
     node = {k: v for k, v in node.items() if v is not None}
     os.makedirs(f"{ROOT}/annonces/{a['id']}", exist_ok=True)
     open(f"{ROOT}/annonces/{a['id']}/index.html", "w", encoding="utf-8").write(shell(p2, t, d, f"annonces/{a['id']}/", body, [node, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos annonces", f"{SITE}/nos-annonces/"), (title, url)])],
@@ -329,6 +371,8 @@ def detail_page(a, tous=()):
 
 import shutil
 _detail = [a for a in ann if a.get("description_html") is not None]
-shutil.rmtree(f"{ROOT}/annonces", ignore_errors=True)
+_ids = {a["id"] for a in _detail}
+for _d in (os.listdir(f"{ROOT}/annonces") if os.path.isdir(f"{ROOT}/annonces") else []):   # seules les fiches disparues sont retirées
+    if _d not in _ids: shutil.rmtree(f"{ROOT}/annonces/{_d}", ignore_errors=True)            # (le reste du dossier porte aussi les versions Markdown)
 for a in _detail: detail_page(a, ann)
 print(f"{len(_detail)} fiches d\u00e9taill\u00e9es g\u00e9n\u00e9r\u00e9es")

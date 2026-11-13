@@ -1,6 +1,6 @@
 # Un service client *avant tout.*
 
-> Le service client LOTIER Immobilier : transparence des honoraires, professionnalisme, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.
+> Le service client LOTIER Immobilier : honoraires transparents, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.
 
 Source : https://lotier.immo/notre-service/
 

@@ -1,6 +1,6 @@
 # Agence immobilière Agde, Cap d'Agde : vente, location | LOTIER
 
-> LOTIER Immobilier vous accompagne à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.
+> Agence immobilière à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic avec LOTIER Immobilier. Estimation par un conseiller.
 
 Source : https://lotier.immo/agence-immobiliere-agde.html
 

@@ -1,6 +1,6 @@
 # Déclaration d'accessibilité
 
-> Déclaration d'accessibilité du site de LOTIER Immobilier.
+> Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus non accessibles et moyens de nous contacter.
 
 Source : https://lotier.immo/accessibilite/
 
