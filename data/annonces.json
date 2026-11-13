@@ -1,7 +1,120 @@
 {
- "maj": "2026-11-11",
+ "maj": "2026-11-13",
  "source": "https://www.lotier-immobilier.com/nos-biens/",
  "annonces": [
+  {
+   "id": "marguerittes-immeuble-avec-local-commercial-et-deux-appart",
+   "url": "https://www.lotier-immobilier.com/propriete/marguerittes-immeuble-avec-local-commercial-et-deux-appart/",
+   "titre": "MARGUERITTES – IMMEUBLE AVEC LOCAL COMMERCIAL ET DEUX APPART",
+   "ville": "Marguerittes",
+   "type": "vente",
+   "prix": 255000.0,
+   "surface": 142.0,
+   "chambres": null,
+   "sdb": null,
+   "badges": [
+    "Exclusivité"
+   ],
+   "photo": "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart.jpg",
+   "description_html": "<p>MARGUERITTES IMMEUBLE AVEC LOCAL COMMERCIAL ET DEUX APPARTEMENTS À RÉNOVER</p><p>À Marguerittes, dans le Gard, découvrez cet immeuble composé d’un local commercial et de deux logements, offrant un beau potentiel de valorisation dans le cadre d’un projet de rénovation.</p><p>Il se compose de :</p><p>Au rez-de-chaussée : un local commercial de 63 m2, actuellement loué et occupé par un salon de coiffure.</p><p>Au premier étage : un appartement P2 de 58 m2 avec balcon, nécessitant une rénovation lourde.</p><p>Au deuxième et dernier étage : un studio de 36 m2 avec balcon, avec travaux également.</p><p>Cet ensemble permet d’associer un local commercial déjà loué à un projet de rénovation résidentielle. Les deux logements offrent la possibilité de repenser leurs espaces et leurs prestations pour révéler tout leur potentiel.</p><p>Un bien à découvrir pour les investisseurs souhaitant valoriser un immeuble par les travaux.</p><p>Contactez-moi pour obtenir davantage de renseignements et organiser une visite, Elodie CHARDOT.</p><p>Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Immeuble"
+      ],
+      [
+       "Surface habitable",
+       "142 m²"
+      ],
+      [
+       "Nombre d'étages",
+       "2"
+      ],
+      [
+       "Année de construction",
+       "1949"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Balcon",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "255 000 €"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Marguerittes"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "12_646",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 100,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 823,
+    "depenses_max": 901,
+    "prix_energies": "01/01/2011"
+   },
+   "mentions_prix": [],
+   "schema": 2,
+   "photos": [
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-1.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-2.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-3.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-4.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-5.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-6.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-7.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-8.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-9.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-10.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-11.jpg"
+   ]
+  },
   {
    "id": "maison-de-village-avec-terrasse",
    "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-avec-terrasse/",
@@ -7619,7 +7732,7 @@
    "titre": "Grande maison de village sur 3 niveaux à Rieux-Minervois",
    "ville": "Rieux-Minervois",
    "type": "vente",
-   "prix": 75000.0,
+   "prix": 65000.0,
    "surface": 112.37,
    "chambres": 3,
    "sdb": 1,

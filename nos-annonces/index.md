@@ -4,7 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-63 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+64 biens à vendre et 18 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+
+ [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
+
+ 255 000 €
+
+### Marguerittes – immeuble avec local commercial et deux appart
+
+ Marguerittes · 142 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
 
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
 
@@ -528,7 +538,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
 
- 75 000 €
+ 65 000 €
 
 ### Grande maison de village sur 3 niveaux à Rieux-Minervois
 

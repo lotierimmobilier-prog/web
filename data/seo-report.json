@@ -2,11 +2,11 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 127,
-  "pages_indexables": 120,
+  "pages_auditees": 128,
+  "pages_indexables": 121,
   "erreurs": 0,
   "avertissements": 11,
-  "pages_sans_probleme": 116,
+  "pages_sans_probleme": 117,
   "problemes_par_type": {
    "description-courte": 1,
    "description-longue": 6,
@@ -20,7 +20,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 126
+  "pages_markdown": 127
  },
  "problemes_site": [],
  "pages": [
@@ -1011,6 +1011,20 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/",
+   "fichier": "annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/index.html",
+   "indexable": true,
+   "titre": "Marguerittes – immeuble avec local commercial et… | LOTIER",
+   "description": "MARGUERITTES IMMEUBLE AVEC LOCAL COMMERCIAL ET DEUX APPARTEMENTS À RÉNOVER À Marguerittes, dans le Gard, découvrez cet immeuble composé d’un local commercial et de…",
+   "mots": 788,
+   "h1": "Marguerittes – immeuble avec local commercial et deux appart",
+   "nb_h2": 18,
+   "images": 23,
+   "liens": 88,
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/",
    "fichier": "annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/index.html",
    "indexable": true,
@@ -1666,7 +1680,7 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante : vente, location, gestion locative et syndic de copropriété, de Nîmes à Carcassonne en passant par Montpellier et Béziers. Estimez votre bien et parlez à un conseiller.",
-   "mots": 1257,
+   "mots": 1250,
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
@@ -1756,11 +1770,11 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 1978,
+   "mots": 1998,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 9,
-   "images": 85,
-   "liens": 312,
+   "images": 86,
+   "liens": 315,
    "markdown": true,
    "problemes": []
   },

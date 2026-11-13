@@ -161,7 +161,7 @@
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 120,
+  "pages_indexables": 121,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -1201,6 +1201,21 @@
   },
   {
    "url": "https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Place",
+    "PostalAddress",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
