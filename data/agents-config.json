@@ -120,5 +120,14 @@
     "prestige": "Biens de prestige"
   },
   "ajouts": [],
-  "ajouts_aide": "Agents qui ne sont pas (encore) dans la liste publique de Collab : {prenom, nom, fonction (ex. « Agent Commercial - Secteur Béziers »), email, telephone, communes [liste], secteurs [identifiants, facultatif], photo (ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier)}. À retirer dès qu'ils sont publiés dans Collab."
+  "ajouts_aide": "Agents qui ne sont pas (encore) dans la liste publique de Collab : {prenom, nom, fonction (ex. « Agent Commercial - Secteur Béziers »), email, telephone, communes [liste], secteurs [identifiants, facultatif], photo (ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier)}. À retirer dès qu'ils sont publiés dans Collab.",
+  "profils_par_nom": {
+    "jonathan gasser": {
+      "rsac": "750022337"
+    },
+    "marie milla": {
+      "rsac": "944527126"
+    }
+  },
+  "profils_par_nom_aide": "Mentions d'un agent que Collab ne publie pas encore (identifiant inconnu) : clé « prénom nom » en minuscules sans accent. Appliquées dès qu'il apparaît dans la liste publique de Collab."
 }

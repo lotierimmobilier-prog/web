@@ -138,7 +138,9 @@ def mentions(a, p):
 def profil(a, cfg):
     """Champs de présentation : lus dans Collab s'il les fournit (presentation, reseaux, specialites, lien_google, mots_cles, rsac),
     sinon dans data/agents-config.json (profils). Rien n'est inventé : un champ absent reste vide."""
-    p = (cfg.get("profils") or {}).get(a["id"], {})
+    # Profil saisi dans data/agents-config.json : par identifiant Collab, sinon par « prénom nom » (profils_par_nom), pour un agent
+    # dont l'identifiant n'est pas encore connu parce que Collab ne le publie pas encore.
+    p = {**(cfg.get("profils_par_nom") or {}).get(norm(f"{a.get('prenom', '')} {a.get('nom', '')}"), {}), **(cfg.get("profils") or {}).get(a["id"], {})}
     def pick(*cles):
         for k in cles:
             if a.get(k): return a[k]
