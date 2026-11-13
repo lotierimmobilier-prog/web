@@ -14,7 +14,7 @@ Nîmes
 ## Les biens de Céline
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-1 à vendre · 0 à louer
+1 à vendre
 
  [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
 
