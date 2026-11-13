@@ -25,7 +25,7 @@
   }
   function layout() {
     var W = field.clientWidth, H = field.clientHeight, n = L.length, narrow = W < 700;
-    var d = Math.min(W * (narrow ? 0.36 : 0.19), H * (narrow ? 0.2 : 0.3), 160); d = Math.max(d, 96);   /* 160 px au plus : les portraits Collab font 256 px, au-delà ils pixellisent */
+    var d = Math.min(W * (narrow ? 0.36 : 0.19), H * (narrow ? 0.2 : 0.31), 160); d = Math.max(d, 96);   /* 160 px au plus : les portraits Collab font 256 px, au-delà ils pixellisent */
     var lab = d * 0.5, padX = d * 0.62, top = 20 + d * 0.52, bot = lab + d * 0.52 + 8, minD = d * 1.0, best = null, tries = 0;
     function hit(a, c) { var cx = Math.max(a.x - d * 0.7, Math.min(c.x, a.x + d * 0.7)), cy = Math.max(a.y + d * 0.5, Math.min(c.y, a.y + d * 0.5 + lab)); return Math.hypot(cx - c.x, cy - c.y) < d * 0.5 - 2; }
     function ok(p, x, y) { return Math.hypot(p.x - x, p.y - y) >= minD && !hit(p, { x: x, y: y }) && !hit({ x: x, y: y }, p); }
@@ -37,7 +37,8 @@
     if (!best) { best = []; var cols = narrow ? 2 : 3; for (var i = 0; i < n; i++) best.push({ x: padX + (i % cols) * (W - 2 * padX) / Math.max(1, cols - 1), y: top + Math.floor(i / cols) * (d + lab) }); }
     return { d: d, pts: best };
   }
-  function fit() { var n = L.length, narrow = field.clientWidth < 700; field.style.height = (narrow ? Math.max(440, Math.ceil(n / 2) * 250 + 60) : Math.max(440, Math.ceil(n / 3) * 230 + 100)) + 'px'; }
+  var baseH = 0;
+  function fit() { var n = L.length, narrow = field.clientWidth < 700; baseH = narrow ? Math.max(420, Math.ceil(n / 2) * 235 + 40) : Math.max(400, Math.ceil(n / 3) * 220 + 40); field.style.transition = 'none'; field.style.height = baseH + 'px'; }   /* cadre ajusté à son contenu : pas de grand vide en bas */
   function render() {
     fit(); field.innerHTML = ''; var G = layout(), order = shuffle(L.slice()); GEO = { d: G.d, pos: {} };
     order.forEach(function (a, i) {
@@ -52,11 +53,13 @@
   function by(id) { return L.filter(function (a) { return a.id === id; })[0]; }
   /* Secteur choisi : ses agents viennent se placer au centre du cadre, agrandis ; les autres s'effacent en arrière-plan. */
   function zoom() {
-    var W = field.clientWidth, H = field.clientHeight, d = GEO.d, narrow = W < 700;
+    var W = field.clientWidth, H = baseH || field.clientHeight, d = GEO.d, narrow = W < 700;
     var on = filt === 'all' ? [] : L.filter(function (a) { return a.secteurs.indexOf(filt) > -1; });
     var k = on.length, cols = k ? Math.min(k, narrow ? 2 : 4) : 1, rows = k ? Math.ceil(k / cols) : 1;
     var lab = d * 0.5, gap = 1.12;
     var s = Math.min(1.3, (W * 0.92) / (cols * d * 1.6), (H * 0.9) / (rows * (d + lab) * gap)); s = Math.max(1, s);
+    if (filt !== 'all' && k) { H = Math.round(Math.min(baseH, rows * (d + lab) * s * gap + 56)); }   /* le cadre se resserre autour du groupe */
+    field.style.transition = 'height .45s ease'; field.style.height = (filt !== 'all' && k ? H : baseH) + 'px';
     var cell = d * s * 1.6, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = Math.min(H / 2 - (rows * cellH) / 2, narrow ? 18 : 30) + (d * s) / 2;   /* groupe calé vers le haut du cadre, pas centré dans un cadre bien plus haut que lui */
     var idx = {}; on.forEach(function (a, i) { idx[a.id] = i; });
     field.querySelectorAll('.bb').forEach(function (b) {

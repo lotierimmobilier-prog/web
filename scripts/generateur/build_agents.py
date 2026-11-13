@@ -101,6 +101,7 @@ def bubble_data(a):
             "url": f'{prefix}nos-agents/{a["slug"]}/'}
 
 secteurs_utiles = [s for s in CFG["secteurs"] if any(s["id"] in a["secteurs"] for a in AGENTS)]
+aurore = ""      # fond de la zone des bulles : un simple dégradé beige très clair, défini en CSS
 chips = '<button type="button" class="chip-link is-on" data-sect="all" aria-pressed="true">Tous</button>' + "".join(
     f'<button type="button" class="chip-link" data-sect="{s["id"]}" aria-pressed="false"><i style="background:{s["couleur"]}"></i>{e(s["nom"])}</button>' for s in secteurs_utiles) + \
     '<button type="button" class="chip-link ag-mix" data-mix>&#8635; Mélanger</button>'
@@ -118,7 +119,7 @@ body = f'''    <section class="page-hero">
 
     <section class="section container" id="agents-liste" aria-label="Les agents LOTIER" data-agents>
       <div class="chip-links ag-chips" role="group" aria-label="Filtrer par secteur">{chips}</div>
-      <div class="ag-stage"><div class="ag-field" id="ag-field"></div></div>
+      <div class="ag-stage">{aurore}<div class="ag-field" id="ag-field"></div></div>
       <div class="glass ag-info" id="ag-info" aria-live="polite"></div>
       <h2 class="title ag-list-t" id="t-tous">Tous nos agents</h2>
       <ul class="ag-list" aria-labelledby="t-tous">{"".join(static_card(a) for a in AGENTS)}</ul>

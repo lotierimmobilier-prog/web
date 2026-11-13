@@ -1211,7 +1211,7 @@ a.tb-rate { padding-block: 8px; }
 .ag-chips .chip-link.is-on { background: var(--navy); color: #fff; }
 .ag-chips .ag-mix { margin-left: auto; background: var(--navy); color: #fff; }
 .ag-stage { position: relative; background: rgba(255, 255, 255, .6); border: 1px solid var(--line); border-radius: 24px; overflow: hidden; }
-.ag-field { position: relative; width: 100%; min-height: 460px; }
+.ag-field { position: relative; width: 100%; min-height: 280px; }
 .ag-list-t { margin: 44px 0 0; font-size: clamp(26px, 3vw, 36px); }
 .ag-scard-act { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; } .ag-scard-act .btn { padding: 10px 16px; font-size: 14px; }
 .ag-scard-liens { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; } .ag-scard-mail { color: var(--navy); word-break: break-all; }
@@ -1329,3 +1329,6 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 
 /* Fiche agent avec peu d'annonces : les cartes gardent leur taille de grille au lieu de s'étirer sur toute la largeur */
 .cards.ag-cards { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+
+/* Page « Nos agents » : fond uni, un dégradé beige très clair et très transparent */
+.ag-stage { background: linear-gradient(180deg, #fffefb 0%, #fbf6ea 100%); }
