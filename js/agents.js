@@ -57,7 +57,7 @@
     var k = on.length, cols = k ? Math.min(k, narrow ? 2 : 4) : 1, rows = k ? Math.ceil(k / cols) : 1;
     var lab = d * 0.5, gap = 1.12;
     var s = Math.min(1.3, (W * 0.92) / (cols * d * 1.6), (H * 0.9) / (rows * (d + lab) * gap)); s = Math.max(1, s);
-    var cell = d * s * 1.6, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = H / 2 - (rows * cellH) / 2 + (d * s) / 2;
+    var cell = d * s * 1.6, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = Math.min(H / 2 - (rows * cellH) / 2, narrow ? 18 : 30) + (d * s) / 2;   /* groupe calé vers le haut du cadre, pas centré dans un cadre bien plus haut que lui */
     var idx = {}; on.forEach(function (a, i) { idx[a.id] = i; });
     field.querySelectorAll('.bb').forEach(function (b) {
       var id = b.dataset.id, o = GEO.pos[id];
