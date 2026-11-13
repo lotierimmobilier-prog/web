@@ -102,13 +102,25 @@ Hostinger International Ltd
 **Site internet**
 [www.hostinger.fr](https://www.hostinger.fr/)
 
+## Agents commerciaux
+
+Les conseillers présentés sur la page [Nos agents](https://lotier.immo/nos-agents/) sont des agents commerciaux indépendants, immatriculés au registre spécial des agents commerciaux (RSAC). Ils exercent pour le compte de la SARL LOTIER, sous sa carte professionnelle. Le numéro RSAC de chaque agent figure sur sa page et sur les annonces qu'il présente.
+
+## Honoraires
+
+Le barème de nos honoraires de vente, de location, de gestion locative et de syndic est publié, en euros toutes taxes comprises, sur la page [Nos honoraires](https://lotier.immo/nos-honoraires/). Il est identique à celui affiché en agence.
+
+## Annonces
+
+Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et mises à jour chaque jour. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.
+
 ## Propriété intellectuelle et droits d'auteur
 
 Les textes, la mise en page, les illustrations et le logo du site sont la propriété de la SARL LOTIER, sauf mention contraire. Les informations présentes sur ce site peuvent être téléchargées, reproduites ou imprimées à condition de les utiliser à des fins personnelles et non commerciales, de ne pas les modifier et de reproduire sur chaque copie la mention des droits d'auteur (contact@lotier-immobilier.com). Toute autre utilisation est interdite sans autorisation écrite préalable de LOTIER.
 
 ## Photographies
 
-Les photographies d'illustration proviennent de la bibliothèque Pexels et sont publiées sous la licence Pexels. Elles seront progressivement remplacées par les photos de l'agence.
+Les photographies des annonces et les portraits des agents sont fournis par l'agence et ses agents ; ils ne peuvent pas être réutilisés sans autorisation. Les photographies d'illustration des villes et des articles proviennent de banques d'images sous licence libre, principalement Pexels.
 
 ## Responsabilité
 
@@ -120,11 +132,21 @@ La SARL LOTIER est responsable du traitement des données personnelles collecté
 
 ## Cookies
 
-Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page [Cookies et traceurs](https://lotier.immo/cookies/).
+Ce site ne dépose aucun cookie. Sa fréquentation est mesurée avec Umami, un outil de statistiques sans cookie, hébergé dans l'Union européenne, que vous pouvez refuser. Le détail de ce qui est enregistré dans votre navigateur et la façon de le gérer figurent sur la page [Cookies et traceurs](https://lotier.immo/cookies/).
 
 ## Messagerie
 
 Pour toute remarque sur le fonctionnement du site, écrivez à [contact@lotier-immobilier.com](mailto:contact@lotier-immobilier.com). Les messages transmis par internet peuvent être interceptés : leur confidentialité ne peut être garantie jusqu'à leur réception.
+
+## Assistant en ligne
+
+Auguste, l'assistant du site, est un programme automatisé. Il répond aux premières questions sur nos services et vous met en relation avec un conseiller ; ses réponses sont indicatives et ne remplacent pas un conseil personnalisé.
+
+## Accessibilité
+
+L'état d'accessibilité du site et les moyens de signaler une difficulté figurent dans notre [déclaration d'accessibilité](https://lotier.immo/accessibilite/).
+
+Dernière mise à jour : novembre 2026.
 
 ---
 

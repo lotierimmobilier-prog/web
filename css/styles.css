@@ -1326,3 +1326,6 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 .ann-filtres-mini .ann-filtres-pied { margin-left: auto; gap: 6px 14px; } .ann-filtres-mini .ann-filtres-pied p { font-size: 13px; }
 .ann-filtres-mini [hidden] { display: none; }
 @media (max-width: 520px) { .ann-filtres-mini { padding: 0; } .ann-filtres-mini .ann-filtres-pied { margin-left: 0; } }
+
+/* Fiche agent avec peu d'annonces : les cartes gardent leur taille de grille au lieu de s'étirer sur toute la largeur */
+.cards.ag-cards { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
