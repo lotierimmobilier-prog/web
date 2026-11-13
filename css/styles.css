@@ -590,6 +590,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 /* ---------- Nos agences (fenêtre) et cloche des nouveautés ---------- */
 .tb-btn { background: none; border: 0; padding: 8px 0; font: inherit; font-weight: 600; color: #fff; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.tb-btn { text-decoration: none; }
 .tb-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 .tb-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .tb-btn:focus-visible { outline: 2px solid var(--gold-hi); outline-offset: 3px; }
@@ -1218,3 +1219,6 @@ a.tb-rate { padding-block: 8px; }
   .home-hero h1 { font-size: clamp(2rem, 6vw, 3rem); }
   .home-hero .lead { font-size: .95rem; }
 }
+
+/* Petits téléphones : « Nos agents » et « Nos agences » tiennent sur la ligne (icônes masquées). */
+@media (max-width: 480px) { .tb-g { display: none; } .topbar .container { gap: 8px; } .topbar .tb-btn svg { display: none; } .tb-r { gap: 14px; } .topbar .tb-btn { font-size: 12.5px; } }
