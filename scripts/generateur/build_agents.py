@@ -1,64 +1,193 @@
 # -*- coding: utf-8 -*-
-import os, json
+"""Page /nos-agents/ (bulles par secteur) et une fiche par agent : /nos-agents/<nom>/ avec ses annonces.
+Données : data/agents.json (écrit par scripts/sync_agents.py depuis Collab) et data/agents-config.json (secteurs, réglages)."""
+import os, json, re, shutil, unicodedata
 from common import *
+from common import annonce_card
 prefix = "../"
-NOINDEX = "noindex, follow"
+
 DATA = json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8"))
-SECT = DATA["secteurs"]
+CFG = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8"))
 AGENTS = DATA["agents"]
-MAIL = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>'
-SITE_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>'
+SECT = {s["id"]: s for s in CFG["secteurs"]}
+CAT = CFG.get("specialites_catalogue", {})
+INDEXABLE = bool(CFG.get("indexable")) and bool(AGENTS)
+ROBOTS_OK = "index, follow, max-image-preview:large, max-snippet:-1"
+ROBOTS = ROBOTS_OK if INDEXABLE else "noindex, follow"
 
-def initials(n): return "".join(w[0] for w in n.split()[:2]).upper()
+def norm(s): return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn").lower()
+def tel_raw(t): return "".join(ch for ch in t if ch.isdigit() or ch == "+")
+def tel_intl(t):
+    d = tel_raw(t); return "+33" + d[1:] if d.startswith("0") else d
+def initials(a): return (a["prenom"][:1] + a["nom"][:1]).upper()
 
-def card(a):
-    tel = a.get("telephone", "")
-    tel_raw = "".join(ch for ch in tel if ch.isdigit() or ch == "+")
-    names = {s["id"]: s["nom"] for s in SECT}
-    tags = "".join(f'<span class="tag">{e(names[s])}</span>' for s in a["secteurs"] if s in names)
-    photo = f'<img class="agent-photo" src="{prefix}{e(a["photo"])}" alt="" width="72" height="72" loading="lazy">' if a.get("photo") else f'<span class="agent-photo agent-ini" aria-hidden="true">{e(initials(a["nom"]))}</span>'
-    rows = ""
-    if tel: rows += f'<a href="tel:{tel_raw}">{PH}{e(tel)}</a>'
-    if a.get("email"): rows += f'<a href="mailto:{e(a["email"])}">{MAIL}{e(a["email"])}</a>'
-    if a.get("site"): rows += f'<a href="{e(a["site"])}" target="_blank" rel="noopener">{SITE_ICO}Voir le mini-site</a>'
-    comm = f'<p class="small muted">{e(a["communes"])}</p>' if a.get("communes") else ""
-    role = f'<p class="small muted">{e(a["role"])}</p>' if a.get("role") else ""
-    return f'''<article class="glass agent-card">
-            <div class="agent-head">{photo}<div><h3>{e(a["nom"])}</h3>{role}</div></div>
-            <div class="tags">{tags}</div>{comm}
-            <div class="agent-links">{rows}</div>
-          </article>'''
+# ---------- icônes ----------
+MAIL = svg('<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/>')
+SITE_ICO = svg('<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/>')
+GOOGLE = svg('<path d="M20.5 12.2c0-.6-.1-1.2-.2-1.7H12v3.3h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.6-3.9 2.6-6.5z"/><path d="M12 21c2.4 0 4.5-.8 5.9-2.2L15 16.6c-.8.5-1.8.9-3 .9-2.3 0-4.3-1.6-5-3.7H4v2.3A9 9 0 0 0 12 21z"/><path d="M7 13.8a5.4 5.4 0 0 1 0-3.6V8H4a9 9 0 0 0 0 8z"/><path d="M12 6.6c1.3 0 2.5.5 3.4 1.3l2.6-2.6A9 9 0 0 0 4 8l3 2.3c.7-2.1 2.7-3.7 5-3.7z"/>')
+SPE_ICO = {
+    "vente": svg('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>'),
+    "location": svg('<circle cx="8" cy="12" r="3.5"/><path d="M11.5 12H21M18 12v3M15 12v2"/>'),
+    "gestion": svg('<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/>'),
+    "syndic": svg('<path d="M4 21V8l8-5 8 5v13"/><path d="M8 21v-5h3v5M13 21v-5h3v5M8 11h3M13 11h3"/>'),
+    "estimation": svg('<circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M9 10h4"/>'),
+    "investissement": svg('<path d="M4 19V5M4 19h16"/><path d="m7 15 4-4 3 3 5-6"/>'),
+    "maison": svg('<path d="M3 12l9-8 9 8"/><path d="M6 10.5V20h12v-9.5"/><rect x="10" y="14" width="4" height="6"/>'),
+    "appartement": svg('<rect x="6" y="3" width="12" height="18" rx="1"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/>'),
+    "commerce": svg('<path d="M4 9l1.5-5h13L20 9"/><path d="M4 9v11h16V9"/><path d="M4 9a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0A2.7 2.7 0 0 0 20 9"/>'),
+    "terrain": svg('<path d="M3 18l5-8 4 5 3-4 6 7z"/><path d="M3 21h18"/>'),
+    "neuf": svg('<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/>'),
+    "prestige": svg('<path d="M3 9l4 3 5-7 5 7 4-3-2 10H5z"/>'),
+}
+RES_ICO = {
+    "facebook": ("Facebook", svg('<path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5A.5.5 0 0 1 14 8z"/>')),
+    "instagram": ("Instagram", svg('<rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.6"/><path d="M16.8 7.2h.01"/>')),
+    "linkedin": ("LinkedIn", svg('<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 10v6M8 7.5v.01M12 16v-6M12 12.5a2.5 2.5 0 0 1 5 0V16"/>')),
+    "tiktok": ("TikTok", svg('<path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.4 2.4 2 3.9 4.5 4.1"/>')),
+    "youtube": ("YouTube", svg('<rect x="3" y="6" width="18" height="12" rx="4"/><path d="m10.5 9.5 4 2.5-4 2.5z"/>')),
+    "whatsapp": ("WhatsApp", svg('<path d="M4 20l1.2-4A8 8 0 1 1 8 18.8z"/><path d="M9 9c0 3 3 6 6 6l1-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/>')),
+}
 
-chips = '<button type="button" class="chip-link is-on" data-sect="all" aria-pressed="true">Tous les secteurs</button>' + "".join(
-    f'<button type="button" class="chip-link" data-sect="{s["id"]}" aria-pressed="false">{e(s["nom"])}</button>' for s in SECT)
+def clean_bio(a):
+    t = (a.get("presentation") or a.get("bio") or "").strip()
+    if t.endswith("…"):                          # texte tronqué par Collab : on coupe à la dernière phrase complète
+        t = t[:-1].rstrip()
+        k = max(t.rfind(". "), t.rfind("! "))
+        t = t[:k + 1] if k > 60 else t.rstrip(",;: ") + "…"
+    return t
 
-sections = ""
-for s in SECT:
-    ag = [a for a in AGENTS if s["id"] in a["secteurs"]]
-    inner = "".join(card(a) for a in ag) if ag else f'<p class="muted agent-empty">Aucun agent référencé sur ce secteur pour le moment. <a class="text-link" href="{prefix}index.html#contact">Contacter l\'agence</a>.</p>'
-    sections += f'''
-      <section class="agent-sect" data-sect="{s["id"]}" aria-labelledby="s-{s["id"]}">
-        <h2 class="heading" id="s-{s["id"]}">{e(s["nom"])} <span class="muted small">{e(s["dept"])}</span></h2>
-        <div class="agent-grid">{inner}</div>
-      </section>'''
+def sect_names(a): return [SECT[s]["nom"] for s in a["secteurs"] if s in SECT]
+def principal(a): return SECT.get(a["secteurs"][0]) if a["secteurs"] else None
+def couleur(a): return (principal(a) or {}).get("couleur", "#867244")
+
+def annonces_de(a):
+    """Annonces dont l'agent est celui-ci (adresse e-mail, sinon prénom et nom)."""
+    cle = norm(f"{a['prenom']} {a['nom']}")
+    res = []
+    for x in load_annonces():
+        ag = x.get("agent") or {}
+        if (ag.get("email") or "").lower() == a["email"].lower() or norm(ag.get("nom") or "") == cle:
+            res.append(x)
+    return res
+
+def portrait(a, cls="ag-ph", size=96):
+    if a.get("photo"):
+        return f'<span class="{cls}"><img src="{{p}}{e(a["photo"])}" alt="Portrait de {e(a["prenom"])} {e(a["nom"])}" width="{size}" height="{size}" loading="lazy"></span>'
+    return f'<span class="{cls} ag-ini" aria-hidden="true">{e(initials(a))}</span>'
+
+# ---------- page liste ----------
+def static_card(a):
+    sn = " · ".join(sect_names(a))
+    return f'''<li class="glass ag-scard">{portrait(a).replace("{p}", prefix)}<div><h3><a href="{prefix}nos-agents/{a["slug"]}/">{e(a["prenom"])} {e(a["nom"])}</a></h3><p class="small muted">{e(a["role"])}{(" · " + e(sn)) if sn else ""}</p><p class="small">{e(", ".join(a["communes"][:5]))}</p></div></li>'''
+
+def bubble_data(a):
+    return {"id": a["id"], "slug": a["slug"], "prenom": a["prenom"], "nom": a["nom"], "role": a["role"], "secteurs": a["secteurs"], "communes": a["communes"],
+            "tel": a["telephone"], "email": a["email"], "photo": (prefix + a["photo"]) if a.get("photo") else None, "nb": len(annonces_de(a)),
+            "url": f'{prefix}nos-agents/{a["slug"]}/'}
+
+secteurs_utiles = [s for s in CFG["secteurs"] if any(s["id"] in a["secteurs"] for a in AGENTS)]
+chips = '<button type="button" class="chip-link is-on" data-sect="all" aria-pressed="true">Tous</button>' + "".join(
+    f'<button type="button" class="chip-link" data-sect="{s["id"]}" aria-pressed="false"><i style="background:{s["couleur"]}"></i>{e(s["nom"])}</button>' for s in secteurs_utiles) + \
+    '<button type="button" class="chip-link ag-mix" data-mix>&#8635; Mélanger</button>'
+payload = {"secteurs": {s["id"]: {"nom": s["nom"], "couleur": s["couleur"]} for s in CFG["secteurs"]}, "agents": [bubble_data(a) for a in AGENTS]}
+data_js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
 
 body = f'''    <section class="page-hero">
       <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{prefix}index.html">Accueil</a><span aria-hidden="true">/</span><span aria-current="page">Nos agents</span></nav>
         <h1 class="display page-title">Nos agents, <em class="gold-text">près de chez vous.</em></h1>
-        <p class="lead">Chaque agent LOTIER connaît son secteur. Trouvez le vôtre, appelez-le ou écrivez-lui directement.</p>
+        <p class="lead">Chaque agent LOTIER connaît son secteur. Touchez un portrait pour le découvrir, voir ses annonces ou l'appeler directement.</p>
       </div>
     </section>
 
-    <section class="section container" id="agents-liste" aria-label="Liste des agents par secteur">
-      <div class="chip-links agents-filter" role="group" aria-label="Filtrer par secteur">{chips}</div>
-      <div class="agent-sects" data-src="{prefix}data/agents.json">{sections}</div>
-      <p class="muted small" style="margin-top:32px">Vous ne trouvez pas votre secteur ? <a class="text-link" href="{prefix}index.html#contact">Contactez l'agence</a>, nous vous orienterons vers le bon conseiller.</p>
+    <section class="section container" id="agents-liste" aria-label="Les agents LOTIER" data-agents>
+      <div class="chip-links ag-chips" role="group" aria-label="Filtrer par secteur">{chips}</div>
+      <div class="ag-stage"><div class="ag-field" id="ag-field"></div></div>
+      <div class="glass ag-info" id="ag-info" aria-live="polite"></div>
+      <ul class="ag-list" aria-label="Liste des agents">{"".join(static_card(a) for a in AGENTS)}</ul>
+      <p class="muted small" style="margin-top:28px">Vous ne trouvez pas votre secteur ? <a class="text-link" href="{prefix}contact/">Contactez l'agence</a>, nous vous orienterons vers le bon conseiller. Les agents LOTIER sont des agents commerciaux indépendants.</p>
+      <div class="glass ag-join"><div><strong>Envie de rejoindre l'équipe ?</strong><span class="muted"> Devenez agent immobilier indépendant avec LOTIER.</span></div><a class="btn btn-gold" href="{prefix}rejoindre/">Voir le parcours {ARROW}</a></div>
+      <script type="application/json" id="ag-data">{data_js}</script>
     </section>'''
-ld = [breadcrumb_ld([("Accueil", SITE + "/"), ("Nos agents", SITE + "/nos-agents/")])]
-robots = NOINDEX if not AGENTS else "index, follow, max-image-preview:large, max-snippet:-1"
-os.makedirs(f"{ROOT}/nos-agents", exist_ok=True)
-open(f"{ROOT}/nos-agents/index.html", "w", encoding="utf-8").write(
-    shell(prefix, "Nos agents par secteur | LOTIER Immobilier", "Les agents LOTIER Immobilier par secteur : coordonnées, e-mail, téléphone et mini-site de chaque conseiller.", "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=robots, kind="agence"))
-print("agents généré", len(AGENTS), "agents")
+ld = [breadcrumb_ld([("Accueil", SITE + "/"), ("Nos agents", SITE + "/nos-agents/")]),
+      {"@context": "https://schema.org", "@type": "ItemList", "name": "Les agents LOTIER Immobilier", "numberOfItems": len(AGENTS),
+       "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f'{a["prenom"]} {a["nom"]}', "url": f'{SITE}/nos-agents/{a["slug"]}/'} for i, a in enumerate(AGENTS)]}] if AGENTS else [breadcrumb_ld([("Accueil", SITE + "/"), ("Nos agents", SITE + "/nos-agents/")])]
+
+def ecrire(chemin, html):
+    os.makedirs(os.path.dirname(chemin), exist_ok=True)
+    open(chemin, "w", encoding="utf-8").write(html)
+
+def avec_script(html, src):
+    return html.replace("</body>", f'  <script src="{src}" defer></script>\n</body>', 1)
+
+shutil.rmtree(f"{ROOT}/nos-agents", ignore_errors=True)
+page = shell(prefix, "Nos agents par secteur | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
+             "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
+ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.js?v={V_AGENTS_JS}'))
+
+# ---------- fiche d'un agent ----------
+def fiche(a):
+    p2 = "../../"
+    nom = f'{a["prenom"]} {a["nom"]}'
+    sects = sect_names(a); pr = principal(a)
+    ann = annonces_de(a); nv = sum(1 for x in ann if x["type"] == "vente"); nl = len(ann) - nv
+    bio = clean_bio(a)
+    base = f'{nom} est {a["role"].lower()} LOTIER Immobilier' + (f', secteur {" et ".join(sects)}' if sects else "") + "."
+    texte_fiche = bio or (base + (" Communes couvertes : " + ", ".join(a["communes"]) + "." if a["communes"] else ""))
+    liens = ""
+    if a.get("telephone"): liens += f'<a class="btn btn-gold" href="tel:{tel_intl(a["telephone"])}">{PH}{e(a["telephone"])}</a>'
+    if a.get("email"): liens += f'<a class="btn btn-ghost" href="mailto:{e(a["email"])}">{MAIL}Écrire</a>'
+    if a.get("google"): liens += f'<a class="btn btn-ghost" href="{e(a["google"])}" target="_blank" rel="noopener">{GOOGLE}Avis Google</a>'
+    reseaux = "".join(f'<a class="ag-res" href="{e(u)}" target="_blank" rel="noopener me" aria-label="{RES_ICO[k][0]} de {e(nom)}" title="{RES_ICO[k][0]}">{RES_ICO[k][1]}</a>' for k, u in (a.get("reseaux") or {}).items() if k in RES_ICO)
+    spe = "".join(f'<li class="ag-spe">{SPE_ICO.get(s, "")}<span>{e(CAT[s])}</span></li>' for s in a.get("specialites", []) if s in CAT)
+    comm = "".join(f'<li>{e(c)}</li>' for c in a["communes"])
+    mots = "".join(f'<li>{e(m)}</li>' for m in a.get("mots_cles", []))
+    cartes = "".join(annonce_card(x, p2) for x in ann)
+    mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">{SITE_ICO}Son mini-site</a>' if a.get("mini_site") else ""
+    puces = " ".join(f'<span class="ag-pill" style="--rc:{SECT[s]["couleur"]}">{e(SECT[s]["nom"])}</span>' for s in a["secteurs"] if s in SECT)
+    body = f'''    <section class="page-hero ag-hero" style="--rc:{couleur(a)}">
+      <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
+      <div class="container ag-hero-grid">
+        {portrait(a, "ag-ph ag-ph-xl", 220).replace("{p}", p2)}
+        <div>
+          <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{p2}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{p2}nos-agents/">Nos agents</a><span aria-hidden="true">/</span><span aria-current="page">{e(nom)}</span></nav>
+          <h1 class="display page-title">{e(nom)}</h1>
+          <p class="lead">{e(a["role"])}{(" · secteur " + e(" et ".join(sects))) if sects else ""}</p>
+          <p>{puces}</p>
+          <div class="acts">{liens}</div>
+          {('<div class="ag-resx" aria-label="Réseaux sociaux">' + reseaux + '</div>') if reseaux else ""}
+        </div>
+      </div>
+    </section>
+''' + (f'''    <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec {e(a["prenom"])}</h2></div></div>
+      <div class="ag-cols"><div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}{mini}</div>
+      <div class="glass ag-side">{('<h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul>') if spe else ""}<h3>Communes couvertes</h3><ul class="ag-comm">{comm}</ul>{('<h3>Domaines</h3><ul class="ag-comm ag-kw">' + mots + '</ul>') if mots else ""}</div></div>
+    </section>
+''' if (texte_fiche or spe or comm) else "") + f'''    <section class="section container" aria-labelledby="ag-ann">
+      <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
+      {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
+    </section>
+    <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
+    secteurs_txt = ", ".join(a["communes"][:4])
+    titre = f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER'.replace("  ", " ")
+    desc = (bio[:150].rsplit(" ", 1)[0] + "…") if len(bio) > 160 else (bio or f'{nom}, {a["role"].lower()} LOTIER Immobilier. Secteur : {secteurs_txt}. Coordonnées et annonces.')
+    if len(desc) < 70: desc = f'{nom}, {a["role"].lower()} LOTIER Immobilier : {desc} Secteur : {secteurs_txt}.'
+    sameas = [u for u in (a.get("reseaux") or {}).values()] + ([a["google"]] if a.get("google") else [])
+    person = {"@context": "https://schema.org", "@type": "RealEstateAgent", "@id": f'{SITE}/nos-agents/{a["slug"]}/#agent', "name": nom, "jobTitle": a["role"], "url": f'{SITE}/nos-agents/{a["slug"]}/',
+              "worksFor": {"@id": SITE + "/#agence"}, "parentOrganization": {"@id": SITE + "/#agence"}, "areaServed": [{"@type": "City", "name": c} for c in a["communes"]],
+              "knowsAbout": [CAT[s] for s in a.get("specialites", []) if s in CAT] + a.get("mots_cles", []), "inLanguage": "fr-FR"}
+    if a.get("telephone"): person["telephone"] = tel_intl(a["telephone"])
+    if a.get("email"): person["email"] = a["email"]
+    if a.get("photo"): person["image"] = f'{SITE}/{a["photo"]}'
+    if bio: person["description"] = bio
+    if sameas: person["sameAs"] = sameas
+    node_page = {"@context": "https://schema.org", "@type": "ProfilePage", "@id": f'{SITE}/nos-agents/{a["slug"]}/#page', "url": f'{SITE}/nos-agents/{a["slug"]}/', "name": titre, "mainEntity": {"@id": person["@id"]}, "isPartOf": {"@id": SITE + "/#website"}, "inLanguage": "fr-FR"}
+    html = shell(p2, titre, desc, f'nos-agents/{a["slug"]}/', body, [person, node_page, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos agents", SITE + "/nos-agents/"), (nom, f'{SITE}/nos-agents/{a["slug"]}/')])],
+                 a["photo"] if a.get("photo") else "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
+    if a.get("mots_cles"):
+        html = html.replace('<meta name="robots"', f'<meta name="keywords" content="{e(", ".join(a["mots_cles"]))}">\n  <meta name="robots"', 1)
+    ecrire(f'{ROOT}/nos-agents/{a["slug"]}/index.html', avec_script(html, f'{p2}js/agents.js?v={V_AGENTS_JS}') if False else html)
+
+for a in AGENTS: fiche(a)
+print(f"agents : page liste + {len(AGENTS)} fiches ({'indexables' if INDEXABLE else 'noindex'})")

@@ -1,32 +1,49 @@
 # Nos agents, *près de chez vous.*
 
-> Les agents LOTIER Immobilier par secteur : coordonnées, e-mail, téléphone et mini-site de chaque conseiller.
+> Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.
 
 Source : https://lotier.immo/nos-agents/
 
-Chaque agent LOTIER connaît son secteur. Trouvez le vôtre, appelez-le ou écrivez-lui directement.
+Chaque agent LOTIER connaît son secteur. Touchez un portrait pour le découvrir, voir ses annonces ou l'appeler directement.
 
-## Béziers et Agde Hérault
+-
 
-Aucun agent référencé sur ce secteur pour le moment. [Contacter l'agence](https://lotier.immo/index.html#contact).
+### [Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)
 
-## Montpellier Hérault
+Agent commercial indépendant · Carcassonne · Narbonne
 
-Aucun agent référencé sur ce secteur pour le moment. [Contacter l'agence](https://lotier.immo/index.html#contact).
+Narbonne, Lézignan, Capendu, Trèbes, Carcassonne
+-
 
-## Nîmes Gard
+### [Céline Aubin](https://lotier.immo/nos-agents/celine-aubin/)
 
-Aucun agent référencé sur ce secteur pour le moment. [Contacter l'agence](https://lotier.immo/index.html#contact).
+Agent commercial indépendant · Nîmes
 
-## Carcassonne et Narbonne Aude
+Meynes
+-
 
-Aucun agent référencé sur ce secteur pour le moment. [Contacter l'agence](https://lotier.immo/index.html#contact).
+### [Élodie Chardot](https://lotier.immo/nos-agents/elodie-chardot/)
 
-## Avignon Vaucluse
+Agent commercial indépendant · Nîmes · Montpellier
 
-Aucun agent référencé sur ce secteur pour le moment. [Contacter l'agence](https://lotier.immo/index.html#contact).
+Montpellier, Nîmes, Clarensac, Alès, Castelnau-le-Lez
+-
 
-Vous ne trouvez pas votre secteur ? [Contactez l'agence](https://lotier.immo/index.html#contact), nous vous orienterons vers le bon conseiller.
+### [Frédérique Gallucci](https://lotier.immo/nos-agents/frederique-gallucci/)
+
+Agent commercial indépendant · Nîmes
+
+Caveirac, Nîmes, Aubais, Beaucaire, Calvisson
+-
+
+### [Laëtitia Dias](https://lotier.immo/nos-agents/laetitia-dias/)
+
+Agent commercial indépendant · Béziers
+
+Béziers, Maureilhan, Villeneuve-lès-Béziers
+
+Vous ne trouvez pas votre secteur ? [Contactez l'agence](https://lotier.immo/contact/), nous vous orienterons vers le bon conseiller. Les agents LOTIER sont des agents commerciaux indépendants.
+ **Envie de rejoindre l'équipe ?** Devenez agent immobilier indépendant avec LOTIER. [Voir le parcours ](https://lotier.immo/rejoindre/)
 
 ---
 

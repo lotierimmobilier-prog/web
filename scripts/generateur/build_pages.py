@@ -256,6 +256,10 @@ urls += [(f"{SITE}/{c['slug']}.html", today, "0.9", "monthly") for c in CITIES]
 urls += [(f"{SITE}/blog/index.html", max(a["date"] for a in ARTICLES).isoformat(), "0.8", "weekly")]
 urls += [(f"{SITE}/rejoindre/", today, "0.8", "monthly")]
 urls += [(f"{SITE}/rejoindre/comparatif/", today, "0.8", "monthly")]
+_ag = json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8")).get("agents", []) if os.path.exists(f"{ROOT}/data/agents.json") else []
+_cfg_ag = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8")) if os.path.exists(f"{ROOT}/data/agents-config.json") else {}
+if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le sitemap qu'une fois ouverte aux moteurs
+    urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag]
 urls += [(f"{SITE}/annonces/{a['id']}/", today, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]

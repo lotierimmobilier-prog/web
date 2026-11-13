@@ -76,6 +76,10 @@ jobs:
         if: steps.heure.outputs.go == 'oui'
         run: python3 scripts/recuperer_contenu.py --souple
 
+      - name: Relire les agents de Collab
+        if: steps.heure.outputs.go == 'oui'
+        run: python3 scripts/sync_agents.py --souple
+
       - name: Régénérer le site
         if: steps.heure.outputs.go == 'oui'
         run: python3 scripts/generateur/build_all.py

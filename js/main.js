@@ -627,53 +627,6 @@
   if (!read()) setTimeout(open, 900);
 })();
 
-/* Page des agents : la liste est lue dans data/agents.json (le HTML sert de secours sans JavaScript), avec filtre par secteur. */
-(function () {
-  var bar = document.querySelector('.agents-filter');
-  var wrap = document.querySelector('.agent-sects');
-  if (!bar || !wrap) return;
-  var prefix = (document.getElementById('chat') || {}).getAttribute ? document.getElementById('chat').getAttribute('data-prefix') || '' : '';
-  function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
-  function link(href, cls, label, blank) { var a = el('a', cls, label); a.href = href; if (blank) { a.target = '_blank'; a.rel = 'noopener'; } return a; }
-  function safeUrl(u) { try { var x = new URL(u, location.href); return /^https?:$/.test(x.protocol) ? x.href : null; } catch (e) { return null; } }
-  function initials(n) { return n.split(/\s+/).slice(0, 2).map(function (w) { return w.charAt(0); }).join('').toUpperCase(); }
-  function card(a, names) {
-    var c = el('article', 'glass agent-card'), head = el('div', 'agent-head'), h = el('div');
-    if (a.photo) { var im = el('img', 'agent-photo'); im.src = prefix + a.photo; im.alt = ''; im.width = 72; im.height = 72; im.loading = 'lazy'; head.appendChild(im); }
-    else head.appendChild(el('span', 'agent-photo agent-ini', initials(a.nom)));
-    h.appendChild(el('h3', null, a.nom)); if (a.role) h.appendChild(el('p', 'small muted', a.role));
-    head.appendChild(h); c.appendChild(head);
-    var tags = el('div', 'tags'); (a.secteurs || []).forEach(function (id) { if (names[id]) tags.appendChild(el('span', 'tag', names[id])); }); c.appendChild(tags);
-    if (a.communes) c.appendChild(el('p', 'small muted', a.communes));
-    var links = el('div', 'agent-links');
-    if (a.telephone) links.appendChild(link('tel:' + a.telephone.replace(/[^0-9+]/g, ''), '', a.telephone));
-    if (a.email) links.appendChild(link('mailto:' + a.email, '', a.email));
-    var site = a.site && safeUrl(a.site); if (site) links.appendChild(link(site, '', 'Voir le mini-site', true));
-    c.appendChild(links); return c;
-  }
-  function render(data) {
-    var names = {}; data.secteurs.forEach(function (s) { names[s.id] = s.nom; });
-    bar.textContent = '';
-    var all = el('button', 'chip-link is-on', 'Tous les secteurs'); all.type = 'button'; all.setAttribute('data-sect', 'all'); all.setAttribute('aria-pressed', 'true'); bar.appendChild(all);
-    wrap.textContent = '';
-    data.secteurs.forEach(function (s) {
-      var b = el('button', 'chip-link', s.nom); b.type = 'button'; b.setAttribute('data-sect', s.id); b.setAttribute('aria-pressed', 'false'); bar.appendChild(b);
-      var sec = el('section', 'agent-sect'); sec.setAttribute('data-sect', s.id);
-      var h2 = el('h2', 'heading', s.nom + ' '); h2.appendChild(el('span', 'muted small', s.dept || '')); sec.appendChild(h2);
-      var grid = el('div', 'agent-grid'), list = data.agents.filter(function (a) { return (a.secteurs || []).indexOf(s.id) > -1; });
-      if (list.length) list.forEach(function (a) { grid.appendChild(card(a, names)); });
-      else { var p = el('p', 'muted agent-empty', 'Aucun agent référencé sur ce secteur pour le moment. '); p.appendChild(link(prefix + 'index.html#contact', 'text-link', "Contacter l'agence")); p.appendChild(document.createTextNode('.')); grid.appendChild(p); }
-      sec.appendChild(grid); wrap.appendChild(sec);
-    });
-  }
-  function apply(id) {
-    wrap.querySelectorAll('.agent-sect').forEach(function (s) { s.hidden = id !== 'all' && s.getAttribute('data-sect') !== id; });
-    bar.querySelectorAll('[data-sect]').forEach(function (b) { var on = b.getAttribute('data-sect') === id; b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
-  }
-  bar.addEventListener('click', function (ev) { var b = ev.target.closest('[data-sect]'); if (b) apply(b.getAttribute('data-sect')); });
-  if (window.fetch) fetch(wrap.getAttribute('data-src'), { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-    .then(function (d) { if (d && Array.isArray(d.secteurs) && Array.isArray(d.agents)) render(d); }).catch(function () { /* HTML de secours conservé */ });
-})();
 
 /* WebMCP : expose quelques actions du site aux agents du navigateur (navigator.modelContext).
    Aucune donnée n'est envoyée : les outils lisent les coordonnées publiques, ouvrent une page

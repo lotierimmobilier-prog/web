@@ -30,6 +30,7 @@ V_CSS = _empreinte("css/styles.css")
 V_JS = _empreinte("js/main.js")
 V_INTRO_CSS = _empreinte("css/intro.css")
 V_INTRO_JS = _empreinte("js/intro.js")
+V_AGENTS_JS = _empreinte("js/agents.js")
 
 SITE = "https://lotier.immo"
 # Adresses des réseaux sociaux : renseigner les URLs complètes (les liens n'apparaissent que si elles sont remplies)
