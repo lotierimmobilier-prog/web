@@ -166,7 +166,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
           <li>les notaires, diagnostiqueurs, géomètres et autres professionnels intervenant dans votre dossier ;</li>
           <li>les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;</li>
           <li>notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;</li>
-          <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;</li>
+          <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site, hébergées dans l'Union européenne ;</li>
           <li>un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;</li>
           <li>les autorités administratives ou judiciaires, sur demande légale.</li>
         </ul>
@@ -279,7 +279,7 @@ legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votr
           </tbody>
         </table></div>
         <h2>Mesure d'audience</h2>
-        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil, pays) avec <b>Umami</b>, un service de statistiques qui fonctionne sans cookie et ne suit pas les visiteurs d'un site à l'autre. Ces statistiques sont anonymes et servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires.</p>
+        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil, pays) avec <b>Umami</b>, un service de statistiques qui fonctionne sans cookie et ne suit pas les visiteurs d'un site à l'autre. Ces statistiques sont anonymes et servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires. Elles sont hébergées dans l'Union européenne.</p>
         <p>La mesure est active par défaut. Vous pouvez la refuser à tout moment : cliquez sur « Refuser » dans le bandeau, ou sur le bouton « Modifier mon choix » ci-dessous. Le script de mesure n'est alors plus chargé.</p>
         <h2>Services appelés par le site</h2>
         <ul>

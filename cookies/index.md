@@ -23,7 +23,7 @@ Ces informations restent sur votre appareil (stockage local du navigateur). Elle
 
 ## Mesure d'audience
 
-Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil, pays) avec **Umami**, un service de statistiques qui fonctionne sans cookie et ne suit pas les visiteurs d'un site à l'autre. Ces statistiques sont anonymes et servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires.
+Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil, pays) avec **Umami**, un service de statistiques qui fonctionne sans cookie et ne suit pas les visiteurs d'un site à l'autre. Ces statistiques sont anonymes et servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires. Elles sont hébergées dans l'Union européenne.
 
 La mesure est active par défaut. Vous pouvez la refuser à tout moment : cliquez sur « Refuser » dans le bandeau, ou sur le bouton « Modifier mon choix » ci-dessous. Le script de mesure n'est alors plus chargé.
 

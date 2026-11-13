@@ -110,7 +110,7 @@ Vos données sont traitées par les collaborateurs habilités de l'agence, dans 
 
 - notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;
 
-- notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;
+- notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site, hébergées dans l'Union européenne ;
 
 - un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;
 
