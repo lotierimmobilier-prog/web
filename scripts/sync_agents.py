@@ -125,6 +125,19 @@ def main():
                     "email": (a.get("email_pro") or "").strip(), "telephone": tel(a.get("telephone_pro")),
                     "mini_site": a.get("url_mini_site") or "", "photo": photo, "bio": (a.get("bio_courte") or "").strip() or None,
                     **profil(a, cfg)})
+    # Agents absents de la liste publique de Collab (profil non publié) : saisis à la main dans data/agents-config.json, « ajouts ».
+    deja = {x["email"].lower() for x in out}
+    for x in cfg.get("ajouts") or []:
+        if x.get("email", "").lower() in deja or x.get("id") in cfg.get("masquer", []): continue
+        fake = {"fonction": x.get("fonction", ""), "secteurs": [], "communes_couvertes": ", ".join(x.get("communes", []))}
+        ids, gerant = secteurs_de(fake, cfg, {})
+        ph = x.get("photo") if x.get("photo") and (RACINE / x["photo"]).exists() else None
+        if ph: gardees.add(Path(ph).name)
+        slug = re.sub(r"[^a-z0-9]+", "-", norm(f"{x['prenom']} {x['nom']}")).strip("-")
+        out.append({"id": x.get("id") or "ajout_" + slug, "slug": slug, "prenom": x["prenom"], "nom": x["nom"], "fonction": x.get("fonction", ""),
+                    "role": "Gérant" if gerant else "Agent commercial indépendant", "secteurs": x.get("secteurs") or ids, "communes": x.get("communes", []),
+                    "email": x.get("email", ""), "telephone": tel(x.get("telephone")), "mini_site": x.get("mini_site", ""), "photo": ph, "bio": x.get("bio"),
+                    **profil({"id": x.get("id") or "ajout_" + slug, **x}, cfg)})
     ordre = cfg.get("ordre") or []
     out.sort(key=lambda x: (ordre.index(x["id"]) if x["id"] in ordre else 999, norm(x["prenom"])))
     for f in PHOTOS.glob("*.jpg"):
