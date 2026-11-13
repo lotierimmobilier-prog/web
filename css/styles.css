@@ -1262,3 +1262,13 @@ a.tb-rate { padding-block: 8px; }
 .ag-prose p { margin: 0 0 12px; }
 .prose .text-link { display: inline-flex; align-items: center; gap: 6px; } .prose .text-link svg { margin-right: 0; vertical-align: 0; }
 .ag-legal { max-width: 90ch; }
+/* Fiche agent : en-tête aéré */
+.ag-hero { padding-block: clamp(28px, 4vw, 56px) clamp(24px, 3.5vw, 44px); }
+.ag-hero-grid > div:last-child { display: grid; gap: clamp(14px, 1.6vw, 22px); justify-items: start; }
+.ag-hero-grid > div:last-child > * { margin: 0; }
+.ag-hero-grid .breadcrumb { margin-bottom: 4px; }
+.ag-hero-grid .page-title { line-height: 1.04; }
+.ag-hero-grid .lead { max-width: 60ch; }
+.ag-hero-grid .ag-pill { margin: 0 8px 0 0; }
+.ag-hero-grid .acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
+.ag-hero-grid .ag-resx { margin-top: 4px; }
