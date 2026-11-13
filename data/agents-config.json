@@ -1,6 +1,6 @@
 {
   "_aide": "Réglages de la page /nos-agents/. Les agents eux-mêmes viennent de Collab (data/agents.json est écrit par scripts/sync_agents.py, ne pas le modifier à la main). Ici : les secteurs affichés, les agents à ne pas afficher, les corrections d'orthographe, et l'ouverture aux moteurs de recherche.",
-  "indexable": false,
+  "indexable": true,
   "indexable_aide": "Mettre true quand chaque agent a donné son accord pour la publication (photo, téléphone, e-mail) et que le numéro RSAC de chacun est renseigné. Tant que c'est false, la page reste masquée de Google.",
   "secteurs": [
     {

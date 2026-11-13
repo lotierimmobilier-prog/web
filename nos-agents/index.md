@@ -26,7 +26,7 @@ Meynes
 
 Agent commercial indépendant · Nîmes · Montpellier
 
-Nimes, Montpellier
+Nîmes, Montpellier
 -
 
 ### [Frédérique Gallucci](https://lotier.immo/nos-agents/frederique-gallucci/)

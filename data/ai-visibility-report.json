@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 39,
+  "liens": 45,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 121,
+  "pages_indexables": 127,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2141,6 +2141,82 @@
     "ListItem",
     "Question",
     "Service"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/barbara-bouba/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "ProfilePage",
+    "RealEstateAgent"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/celine-aubin/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "ProfilePage",
+    "RealEstateAgent"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/elodie-chardot/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "ProfilePage",
+    "RealEstateAgent"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/frederique-gallucci/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "ProfilePage",
+    "RealEstateAgent"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ItemList",
+    "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-agents/laetitia-dias/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "City",
+    "ListItem",
+    "ProfilePage",
+    "RealEstateAgent"
    ],
    "markdown": true,
    "problemes": []

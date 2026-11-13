@@ -125,7 +125,7 @@ def avec_script(html, src):
     return html.replace("</body>", f'  <script src="{src}" defer></script>\n</body>', 1)
 
 shutil.rmtree(f"{ROOT}/nos-agents", ignore_errors=True)
-page = shell(prefix, "Nos agents par secteur | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
+page = shell(prefix, "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
              "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
 ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.js?v={V_AGENTS_JS}'))
 
