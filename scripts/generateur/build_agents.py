@@ -150,7 +150,7 @@ def fiche(a):
     mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">{SITE_ICO}Son mini-site</a>' if a.get("mini_site") else ""
     legal = ""
     if a.get("rsac"):
-        legal = (f'{a["role"]} de la SARL LOTIER Immobilier, immatriculé' + (f' au RSAC de {a["rsac_ville"]}' if a.get("rsac_ville") else " au RSAC") + f' sous le n° {a["rsac"]}. '
+        legal = (f'{a["role"]} de la SARL LOTIER Immobilier, immatriculé' + ((" au RSAC d’" if a["rsac_ville"][:1].lower() in "aeiouyhéèî" else " au RSAC de ") + a["rsac_ville"] if a.get("rsac_ville") else " au RSAC") + f' sous le n° {a["rsac"]}. '
                  'Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l\'Hérault. Garantie financière : SOCAF.')
     puces = " ".join(f'<span class="ag-pill" style="--rc:{SECT[s]["couleur"]}">{e(SECT[s]["nom"])}</span>' for s in a["secteurs"] if s in SECT)
     body = f'''    <section class="page-hero ag-hero" style="--rc:{couleur(a)}">

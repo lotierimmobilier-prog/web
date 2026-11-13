@@ -185,7 +185,7 @@ ARTICLES = [
  dict(slug="travaux-en-copropriete-qui-decide", cat="Syndic", photo="immeuble",
   alt="Photo d'illustration : immeuble moderne avec balcons", cta="syndic",
   title="Travaux en copropriété : qui décide, qui paie ?",
-  desc="Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.",
+  desc="Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comment se décident et se financent les travaux d'un immeuble.",
   intro="Ravalement, toiture, ascenseur, isolation : les travaux en copropriété sont souvent coûteux et se décident ensemble. Qui vote, comment s'organise le chantier, et comment se répartit la facture ?",
   sections=[
    ("Parties communes et parties privatives", ["Les parties communes (façade, toiture, escaliers, canalisations générales) sont gérées collectivement. Les parties privatives (l'intérieur de votre logement) relèvent de vous. Certains travaux privatifs qui touchent aux parties communes, comme une fenêtre en façade, demandent aussi l'accord de l'assemblée."]),

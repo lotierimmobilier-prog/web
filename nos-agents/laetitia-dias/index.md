@@ -238,6 +238,8 @@ Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béz
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
 
+Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Argenteuil sous le n° 850128372. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
+
 ## Un projet de vente, de location ou d'estimation ?
 
 Laëtitia vous répond directement. [Estimer mon bien ](https://lotier.immo/index.html#estimer)[06 09 76 63 24](tel:+33609766324)

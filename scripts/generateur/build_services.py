@@ -79,7 +79,7 @@ body += section("Nos métiers", "Vente, location, syndic", f'''<div class="trio"
         <article class="glass"><span class="ico">{I_KEY2}</span><h3>Location</h3><p>Mise en location et gestion locative.</p><a class="text-link" href="{prefix}location/">Découvrir la location</a></article>
         <article class="glass"><span class="ico">{I_BLD2}</span><h3>Syndic</h3><p>La gestion claire de votre copropriété.</p><a class="text-link" href="{prefix}syndic/">Découvrir le syndic</a></article>
       </div>''', "t-met")
-write("notre-service", "Notre service client : transparence et accompagnement | LOTIER", "Le service client LOTIER Immobilier : transparence des honoraires, professionnalisme, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.", body, "agence", crumb="Notre service")
+write("notre-service", "Notre service client : transparence et accompagnement | LOTIER", "Le service client LOTIER Immobilier : honoraires transparents, accompagnement personnalisé, assistant en ligne et proximité à Béziers, Montpellier, Nîmes et Carcassonne.", body, "agence", crumb="Notre service")
 
 # ---------- Vente ----------
 body = hero("Vente", 'Vendre votre bien, <em class="gold-text">sereinement.</em>', "Un conseiller vous accompagne de l'estimation à la signature de l'acte, avec un barème d'honoraires connu dès le premier échange.")

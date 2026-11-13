@@ -28,14 +28,14 @@
    "telephone": "06 51 45 06 63",
    "mini_site": "https://collab.lotier-immobilier.com/annonces/barbara.bouba",
    "photo": "assets/agents/barbara-bouba.jpg",
-   "bio": "Barbara BOUBA est votre agent immobilier LOTIER Immobilier, spécialisée en vente immobilière et gestion locative à Carcassonne, Capendu, Trèbes, Narbonne et dans l'ensemble de l'Aude. Grâce à sa parfaite connaissance du marché local, elle accompagne vendeurs, acquéreurs, propriétaires et…",
+   "bio": "blabalablab",
    "presentation": null,
    "reseaux": {},
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null,
-   "rsac_ville": null,
+   "rsac": "890009269",
+   "rsac_ville": "Carcassonne",
    "accord": null
   },
   {
@@ -61,7 +61,7 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null,
+   "rsac": "922798186",
    "rsac_ville": null,
    "accord": null
   },
@@ -77,11 +77,8 @@
     "montpellier"
    ],
    "communes": [
-    "Montpellier",
-    "Nîmes",
-    "Clarensac",
-    "Alès",
-    "Castelnau-le-Lez"
+    "Nimes",
+    "Montpellier"
    ],
    "email": "elodie.chardot@lotier-immobilier.com",
    "telephone": "06 73 03 51 96",
@@ -93,8 +90,8 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null,
-   "rsac_ville": null,
+   "rsac": "882042278",
+   "rsac_ville": "Nîmes",
    "accord": null
   },
   {
@@ -124,8 +121,8 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null,
-   "rsac_ville": null,
+   "rsac": "100710235",
+   "rsac_ville": "Ajaccio",
    "accord": null
   },
   {
@@ -153,8 +150,8 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null,
-   "rsac_ville": null,
+   "rsac": "850128372",
+   "rsac_ville": "Argenteuil",
    "accord": null
   }
  ]

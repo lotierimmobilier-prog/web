@@ -131,7 +131,7 @@ CITIES = [
 
  dict(key="avignon", slug="agence-immobiliere-avignon", name="Avignon", dept="Vaucluse", cp="84000",
   title="Agence immobilière Avignon : vente, location, syndic | LOTIER",
-  desc="LOTIER Immobilier vous accompagne à Avignon et dans la vallée du Rhône : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
+  desc="Agence immobilière à Avignon et dans la vallée du Rhône : vente, location, gestion locative et syndic avec LOTIER Immobilier. Estimation par un conseiller.",
   h1="Agence immobilière à Avignon",
   lead="À Avignon et dans la vallée du Rhône, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller qui connaît votre dossier.",
   photo="avignon", alt="Photo d'illustration : le pont Saint-Bénézet sur le Rhône à Avignon",
@@ -156,7 +156,7 @@ CITIES = [
 
  dict(key="agde", slug="agence-immobiliere-agde", name="Agde", dept="Hérault", cp="34300",
   title="Agence immobilière Agde, Cap d'Agde : vente, location | LOTIER",
-  desc="LOTIER Immobilier vous accompagne à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
+  desc="Agence immobilière à Agde, au Grau d'Agde et au Cap d'Agde : vente, location, gestion locative et syndic avec LOTIER Immobilier. Estimation par un conseiller.",
   h1="Agence immobilière à Agde",
   lead="À Agde, au Grau d'Agde et au Cap d'Agde, LOTIER Immobilier accompagne vos projets de vente, d'achat, de location et de gestion avec un conseiller de proximité.",
   photo="agde", alt="Photo d'illustration : le port d'Agde et ses bateaux", photo2="agde2", alt2="Photo d'illustration : une rue du centre historique d'Agde",

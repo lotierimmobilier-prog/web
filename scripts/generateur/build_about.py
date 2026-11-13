@@ -57,7 +57,7 @@ body += f'''    <section class="section container">
     </section>'''
 ld = [{"@context": "https://schema.org", "@type": "AboutPage", "@id": f"{SITE}/a-propos/#page", "url": f"{SITE}/a-propos/", "name": "À propos de LOTIER Immobilier",
        "inLanguage": "fr-FR", "about": {"@id": SITE + "/#agence"}, "isPartOf": {"@id": SITE + "/#website"}}]
-write("a-propos", "À propos de LOTIER Immobilier : agence indépendante depuis 2018", "LOTIER Immobilier, agence immobilière indépendante créée en 2018 à Béziers : vente, location, gestion locative et syndic de copropriété. Société, métiers, informations légales.", body, ld, "À propos")
+write("a-propos", "À propos de LOTIER Immobilier : agence indépendante depuis 2018", "LOTIER Immobilier, agence immobilière indépendante créée en 2018 à Béziers : vente, location, gestion locative et syndic. Société, métiers, informations légales.", body, ld, "À propos")
 
 # ---------- Contact ----------
 offices = ""

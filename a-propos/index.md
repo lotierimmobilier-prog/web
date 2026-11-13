@@ -1,6 +1,6 @@
 # LOTIER Immobilier, *une agence indépendante.*
 
-> LOTIER Immobilier, agence immobilière indépendante créée en 2018 à Béziers : vente, location, gestion locative et syndic de copropriété. Société, métiers, informations légales.
+> LOTIER Immobilier, agence immobilière indépendante créée en 2018 à Béziers : vente, location, gestion locative et syndic. Société, métiers, informations légales.
 
 Source : https://lotier.immo/a-propos/
 

@@ -26,7 +26,7 @@ Meynes
 
 Agent commercial indépendant · Nîmes · Montpellier
 
-Montpellier, Nîmes, Clarensac, Alès, Castelnau-le-Lez
+Nimes, Montpellier
 -
 
 ### [Frédérique Gallucci](https://lotier.immo/nos-agents/frederique-gallucci/)

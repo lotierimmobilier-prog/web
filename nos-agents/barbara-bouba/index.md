@@ -1,6 +1,6 @@
 # Barbara Bouba
 
-> Barbara BOUBA est votre agent immobilier LOTIER Immobilier, spécialisée en vente immobilière et gestion locative à Carcassonne, Capendu, Trèbes,…
+> Barbara Bouba, agent commercial indépendant LOTIER Immobilier : blabalablab Secteur : Narbonne, Lézignan, Capendu, Trèbes.
 
 Source : https://lotier.immo/nos-agents/barbara-bouba/
 
@@ -13,7 +13,7 @@ Carcassonne · Narbonne
 
 ## Faire connaissance avec Barbara
 
-Barbara BOUBA est votre agent immobilier LOTIER Immobilier, spécialisée en vente immobilière et gestion locative à Carcassonne, Capendu, Trèbes, Narbonne et dans l'ensemble de l'Aude.[Son mini-site](https://collab.lotier-immobilier.com/annonces/barbara.bouba)
+blabalablab[Son mini-site](https://collab.lotier-immobilier.com/annonces/barbara.bouba)
 
 ### Communes couvertes
 
@@ -339,6 +339,8 @@ Barbara BOUBA est votre agent immobilier LOTIER Immobilier, spécialisée en ven
  Capendu · 1457 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Carcassonne sous le n° 890009269. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 
 ## Un projet de vente, de location ou d'estimation ?
 

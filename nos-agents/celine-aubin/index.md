@@ -36,6 +36,8 @@ Céline Aubin est agent commercial indépendant LOTIER Immobilier, secteur Nîme
 
  [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
+Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC sous le n° 922798186. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
+
 ## Un projet de vente, de location ou d'estimation ?
 
 Céline vous répond directement. [Estimer mon bien ](https://lotier.immo/index.html#estimer)[06 16 29 35 31](tel:+33616293531)

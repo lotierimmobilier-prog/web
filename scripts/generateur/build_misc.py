@@ -288,7 +288,7 @@ legal_page("accessibilite", "Déclaration d'accessibilité", "Notre engagement p
         <p>Si vous ne parvenez pas à accéder à un contenu ou à un service, écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez le <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a> : nous vous fournirons l'information sous une autre forme.</p>
         <h2>Voies de recours</h2>
         <p>{PH_TXT} : coordonnées du Défenseur des droits, à indiquer si votre demande reste sans réponse satisfaisante.</p>''',
-  "Déclaration d'accessibilité du site de LOTIER Immobilier.")
+  "Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus non accessibles et moyens de nous contacter.")
 
 # ---------- Plan du site (HTML) ----------
 def plan_page():
