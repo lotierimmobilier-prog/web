@@ -91,6 +91,24 @@ def _nom(n):
     """« BARBARA BOUBA » -> « Barbara Bouba » (prénoms composés compris)."""
     return " ".join("-".join(w.capitalize() for w in part.split("-")) for part in (n or "").strip().split())
 
+def _fiche_agent(ag):
+    """Retrouve l'agent (data/agents.json, issu de Collab) d'une annonce : par e-mail, sinon par nom. Rend sa fiche (photo, page) ou None."""
+    try:
+        liste = json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8")).get("agents", [])
+    except Exception:
+        return None
+    mail = (ag.get("email") or "").lower().strip()
+    cle = " ".join(_unaccent((ag.get("nom") or "").lower()).split())
+    for a in liste:
+        if mail and a.get("email", "").lower() == mail: return a
+    for a in liste:
+        if cle and _unaccent(f'{a["prenom"]} {a["nom"]}'.lower()) == cle: return a
+    return None
+
+def _unaccent(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+
 def _initiales(n):
     return "".join(w[0] for w in (n or "").split()[:2]).upper() or "L"
 
@@ -242,13 +260,16 @@ def detail_page(a, tous=()):
                     f'data-url="{SITE}/annonces/{a["id"]}/" data-agent="{e(ag.get("email") or "")}" '
                     f'data-agent-prenom="{e(_nom(ag["nom"]).split(" ")[0]) if ag.get("nom") else ""}"{attr_tel_agent(ag)}')
     if ag.get("nom"):
-        prenom = _nom(ag["nom"]).split(" ")[0]
+        fiche = _fiche_agent(ag)
+        nom_aff = f'{fiche["prenom"]} {fiche["nom"]}' if fiche else _nom(ag["nom"])
+        prenom = nom_aff.split(" ")[0]
         appel = f'<a class="btn btn-gold btn-lg btn-block mag ann-call" href="tel:{tel[1]}">{PH}<span class="ann-call-txt"><span>Appeler {e(prenom)}</span><strong>{tel[0]}</strong></span></a>' if tel else ""
         mail = f'<a class="ann-mail" href="mailto:{e(ag["email"])}">{e(ag["email"])}</a>' if ag.get("email") else ""
-        agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{e(_initiales(ag["nom"]))}</span><div><strong>{e(_nom(ag["nom"]))}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
+        ava = (f'<img src="{p2}{e(fiche["photo"])}" alt="" width="96" height="96" loading="lazy">' if fiche and fiche.get("photo") else e(_initiales(nom_aff)))
+        nom_html = f'<a href="{p2}nos-agents/{fiche["slug"]}/">{e(nom_aff)}</a>' if fiche else e(nom_aff)
+        agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{ava}</span><div><strong>{nom_html}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'
-                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
-                 f'            <p class="muted small">Standard de l’agence : <a class="text-link" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>')
+                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>')
     else:
         agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')
