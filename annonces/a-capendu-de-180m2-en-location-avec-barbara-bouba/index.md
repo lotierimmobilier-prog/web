@@ -8,8 +8,6 @@ Source : https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbar
 
  LOCATION 1 / 3
 
-[← Toutes les annonces](https://lotier.immo/nos-annonces/)
-
 ## Les autres biens de Barbara
 
  [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
