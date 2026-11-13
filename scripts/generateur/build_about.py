@@ -72,7 +72,7 @@ body = hero("Contact", 'Nous <em class="gold-text">contacter.</em>', "Par télé
 body += section("Nous joindre", "Téléphone et e-mail", f'''<div class="trio" data-stagger>
         <article class="glass"><h3>Téléphone</h3><p class="muted">Un conseiller vous répond.</p><a class="text-link" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></article>
         <article class="glass"><h3>E-mail</h3><p class="muted">Pour toute question ou demande.</p><a class="text-link" href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></article>
-        <article class="glass"><h3>Devenir agent</h3><p class="muted">Candidature au réseau.</p><a class="text-link" href="mailto:recrutement@lotier-immobilier.com">recrutement@lotier-immobilier.com</a></article>
+        <article class="glass"><h3>Devenir agent</h3><p class="muted">Candidature au réseau.</p><a class="text-link" href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></article>
       </div>''', "t-joindre")
 body += section("Nos agences", "Où nous trouver", f'<div class="trio" data-stagger>{offices}</div>', "t-agences")
 body += section("Votre demande", "Choisir le bon interlocuteur", f'''<ul class="plain-list">

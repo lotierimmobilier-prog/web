@@ -255,7 +255,7 @@ Une agence indépendante n'a pas de redevance de marque à reverser à un franch
 ### Comment postuler ?
 **
 
-Utilisez le formulaire de candidature de la page « Devenir agent », écrivez à recrutement@lotier-immobilier.com ou appelez le 04 67 11 28 31. Un membre de l'équipe vous rappelle pour présenter l'agence et répondre à vos questions.
+Utilisez le formulaire de candidature de la page « Devenir agent », écrivez à contact@lotier-immobilier.com ou appelez le 04 67 11 28 31. Un membre de l'équipe vous rappelle pour présenter l'agence et répondre à vos questions.
 
 Une question sur votre situation ? Un membre de l'équipe vous rappelle.
  [Postuler maintenant](https://lotier.immo/rejoindre/#postuler)

@@ -34,7 +34,7 @@ FAQ_COMP = [
     ("Pourquoi choisir une agence indépendante plutôt qu'une franchise ?",
      "Une agence indépendante n'a pas de redevance de marque à reverser à un franchiseur ni de cahier des charges imposé : ce que vous gagnez vous revient davantage, et vous gardez la liberté de vous organiser. L'agence reste une structure à taille humaine, avec des interlocuteurs que vous connaissez."),
     ("Comment postuler ?",
-     "Utilisez le formulaire de candidature de la page « Devenir agent », écrivez à recrutement@lotier-immobilier.com ou appelez le 04 67 11 28 31. Un membre de l'équipe vous rappelle pour présenter l'agence et répondre à vos questions."),
+     "Utilisez le formulaire de candidature de la page « Devenir agent », écrivez à contact@lotier-immobilier.com ou appelez le 04 67 11 28 31. Un membre de l'équipe vous rappelle pour présenter l'agence et répondre à vos questions."),
 ]
 
 models = "".join(f'''<article class="glass model{' model-lotier' if lot else ''}">

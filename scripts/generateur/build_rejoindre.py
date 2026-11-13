@@ -6,7 +6,7 @@ from common import *
 prefix = "../"
 folder = "rejoindre"
 url = f"{SITE}/{folder}/"
-MAIL = "recrutement@lotier-immobilier.com"
+MAIL = "contact@lotier-immobilier.com"
 CTA = ("Postuler maintenant", "#postuler")
 
 FAQ_REJ = [
