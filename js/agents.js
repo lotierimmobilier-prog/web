@@ -14,7 +14,7 @@
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function col(a) { var s = D.secteurs[a.secteurs[0]]; return s ? s.couleur : '#867244'; }
   function nom(a) { var s = D.secteurs[a.secteurs[0]]; return s ? s.nom : ''; }
-  function ph(a) { return a.photo ? '<img src="' + esc(a.photo) + '" alt="Portrait de ' + esc(a.prenom + ' ' + a.nom) + '" width="256" height="256">' : '<b>' + esc(a.prenom.charAt(0) + a.nom.charAt(0)) + '</b>'; }
+  function ph(a, deco) { return a.photo ? '<img src="' + esc(a.photo) + '" alt="' + (deco ? '' : 'Portrait de ' + esc(a.prenom + ' ' + a.nom)) + '" width="256" height="256">' : '<b>' + esc(a.prenom.charAt(0) + a.nom.charAt(0)) + '</b>'; }
   function shuffle(x) { for (var i = x.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = x[i]; x[i] = x[j]; x[j] = t; } return x; }
   function show(a) {
     if (!a) { info.innerHTML = '<p class="muted" style="margin:0">Touchez un portrait pour découvrir l\'agent, ses annonces et ses coordonnées.</p>'; return; }
@@ -44,8 +44,7 @@
       var p = G.pts[i], b = el('button', 'bb'); GEO.pos[a.id] = p;
       b.type = 'button'; b.dataset.id = a.id; b.dataset.s = a.secteurs.join(' ');
       b.style.cssText = 'left:' + (p.x - G.d / 2) + 'px;top:' + (p.y - G.d / 2) + 'px;--d:' + G.d + 'px;--rc:' + col(a) + ';--z:' + (1 + i) + ';--dl:' + (reduce ? 0 : i * 0.09) + 's';
-      b.setAttribute('aria-label', a.prenom + ' ' + a.nom + (nom(a) ? ', ' + nom(a) : ''));
-      b.innerHTML = '<span class="disc">' + ph(a) + '</span>' + (nom(a) ? '<span class="role">' + esc(nom(a).split(' ')[0]) + '</span>' : '') + '<span class="nm"><b>' + esc(a.prenom + ' ' + a.nom) + '</b><i>' + esc(a.communes.slice(0, 3).join(', ')) + '</i></span>';
+            b.innerHTML = '<span class="disc">' + ph(a, true) + '</span>' + (nom(a) ? '<span class="role">' + esc(nom(a).split(' ')[0]) + '</span>' : '') + '<span class="nm"><b>' + esc(a.prenom + ' ' + a.nom) + '</b><i>' + esc(a.communes.slice(0, 3).join(', ')) + '</i></span>';
       field.appendChild(b);
     });
     apply();

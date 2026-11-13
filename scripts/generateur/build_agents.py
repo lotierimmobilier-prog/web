@@ -11,7 +11,10 @@ CFG = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8"))
 AGENTS = DATA["agents"]
 SECT = {s["id"]: s for s in CFG["secteurs"]}
 CAT = CFG.get("specialites_catalogue", {})
-INDEXABLE = bool(CFG.get("indexable")) and bool(AGENTS)
+MANQUE_LEGAL = [f'{a["prenom"]} {a["nom"]}' for a in AGENTS if not a.get("rsac") or a.get("accord") is False]
+INDEXABLE = bool(CFG.get("indexable")) and bool(AGENTS) and not MANQUE_LEGAL
+if CFG.get("indexable") and MANQUE_LEGAL:
+    print("ATTENTION : pages agents laissées en noindex, mentions légales ou accord manquants pour :", ", ".join(MANQUE_LEGAL))
 ROBOTS_OK = "index, follow, max-image-preview:large, max-snippet:-1"
 ROBOTS = ROBOTS_OK if INDEXABLE else "noindex, follow"
 
@@ -145,6 +148,10 @@ def fiche(a):
     mots = "".join(f'<li>{e(m)}</li>' for m in a.get("mots_cles", []))
     cartes = "".join(annonce_card(x, p2) for x in ann)
     mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">{SITE_ICO}Son mini-site</a>' if a.get("mini_site") else ""
+    legal = ""
+    if a.get("rsac"):
+        legal = (f'{a["role"]} de la SARL LOTIER Immobilier, immatriculé' + (f' au RSAC de {a["rsac_ville"]}' if a.get("rsac_ville") else " au RSAC") + f' sous le n° {a["rsac"]}. '
+                 'Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l\'Hérault. Garantie financière : SOCAF.')
     puces = " ".join(f'<span class="ag-pill" style="--rc:{SECT[s]["couleur"]}">{e(SECT[s]["nom"])}</span>' for s in a["secteurs"] if s in SECT)
     body = f'''    <section class="page-hero ag-hero" style="--rc:{couleur(a)}">
       <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
@@ -168,6 +175,7 @@ def fiche(a):
       <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
       {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
     </section>
+    {('<section class="section container"><p class="muted small ag-legal">' + e(legal) + '</p></section>') if legal else ""}
     <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
     secteurs_txt = ", ".join(a["communes"][:4])
     titre = f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER'.replace("  ", " ")

@@ -34,7 +34,9 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null
+   "rsac": null,
+   "rsac_ville": null,
+   "accord": null
   },
   {
    "id": "agt_8b5b94ce6fb3",
@@ -59,7 +61,9 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null
+   "rsac": null,
+   "rsac_ville": null,
+   "accord": null
   },
   {
    "id": "agt_1c816c97f1fb",
@@ -89,7 +93,9 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null
+   "rsac": null,
+   "rsac_ville": null,
+   "accord": null
   },
   {
    "id": "agt_fe8bf6e5e6da",
@@ -118,7 +124,9 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null
+   "rsac": null,
+   "rsac_ville": null,
+   "accord": null
   },
   {
    "id": "agt_4041115b3d3c",
@@ -145,7 +153,9 @@
    "specialites": [],
    "google": null,
    "mots_cles": [],
-   "rsac": null
+   "rsac": null,
+   "rsac_ville": null,
+   "accord": null
   }
  ]
 }

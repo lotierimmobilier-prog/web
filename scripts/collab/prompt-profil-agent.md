@@ -11,7 +11,8 @@
 | `reseaux` | objet | Adresses complètes en `https://` : `facebook`, `instagram`, `linkedin`, `tiktok`, `youtube`, `whatsapp`. Seuls les réseaux renseignés s'affichent. |
 | `lien_google` | adresse https | Page Google (fiche ou avis) de l'agent. |
 | `mots_cles` | liste de textes | Expressions pour le référencement, par exemple « agent immobilier Béziers », « estimation gratuite Béziers », « gestion locative Narbonne » (3 à 8 par agent). |
-| `rsac` | texte | Numéro d'immatriculation au registre des agents commerciaux (obligatoire pour afficher un agent commercial indépendant). |
+| `mentions_legales` | objet | Les informations de la page Collab **Personnel > Mon espace > Mes mentions légales** de chaque agent : `rsac` (numéro d'immatriculation au registre des agents commerciaux) et `rsac_ville` (greffe d'immatriculation). Le site les affiche en bas de la fiche. |
+| `accord_publication` | booléen | Vrai si l'agent a accepté la publication de sa photo, de son téléphone et de son e-mail. |
 
 Aussi : un champ `a_la_une` (booléen) et `ordre` (nombre) pour mettre un agent en avant et choisir l'ordre d'affichage ; `photo_url` en 600 × 600 px minimum, même cadrage pour tous (aujourd'hui 256 px maximum).
 
@@ -20,5 +21,5 @@ Dans la fiche d'un agent, un onglet « Page du site » avec ces champs, un aper�
 
 ## Règles
 - Lecture publique, sans donnée personnelle autre que celle que l'agent a acceptée de publier : prévoir une case « J'accepte la publication de ma photo, de mon téléphone et de mon e-mail sur le site ».
-- Un agent sans accord ou sans RSAC n'est pas exposé par l'API publique.
+- Un agent sans accord ou sans RSAC n'est pas exposé par l'API publique. Le site reste de toute façon masqué de Google (noindex) tant qu'un agent affiché n'a pas son RSAC et son accord.
 - Le texte rendu vient des agents : le site l'affiche sans HTML.
