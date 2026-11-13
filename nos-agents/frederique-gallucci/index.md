@@ -100,11 +100,13 @@ Nîmes
 
 ## Faire connaissance avec Frédérique
 
-Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Caveirac, Nîmes, Aubais, Beaucaire, Calvisson.
+- **8**biens en ligne
+- **8**à vendre
+- **5**communes
 
-Frédérique présente actuellement 8 biens à vendre, à Caveirac, Nîmes, Calvisson, Langlade et Aubais.
+Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secteur Nîmes.
 
-Parmi ces biens : 5 appartements, 2 maisons et 1 local commercial. Les biens à vendre vont de 220 000 € à 399 000 €.
+Ventes de 220 000 € à 399 000 €.
 
 ### Spécialités
 
@@ -123,12 +125,9 @@ Parmi ces biens : 5 appartements, 2 maisons et 1 local commercial. Les biens à 
 
 ### Biens proposés
 
-- Appartement à vendre à Caveirac
-- Local commercial à vendre à Nîmes
-- Appartement à vendre à Nîmes
-- Maison à vendre à Calvisson
-- Maison à vendre à Langlade
-- Appartement à vendre à Aubais
+- 5 appartements
+- 2 maisons
+- 1 local commercial
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Ajaccio sous le n° 100710235. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

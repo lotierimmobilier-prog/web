@@ -160,11 +160,14 @@ Nîmes Montpellier
 
 ## Faire connaissance avec Élodie
 
-Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier. Communes couvertes : Nîmes, Montpellier.
+- **14**biens en ligne
+- **12**à vendre
+- **2**à louer
+- **7**communes
 
-Élodie présente actuellement 14 biens (12 à vendre et 2 à louer), notamment à Nîmes, Montpellier, Clarensac, Marguerittes, Alès, Saint-Christol-lez-Alès.
+Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier.
 
-Parmi ces biens : 6 appartements, 4 maisons, 2 locaux commerciaux, 1 immeuble et 1 terrain. Les biens à vendre vont de 45 000 € à 395 000 €. Les loyers vont de 415 € à 850 € par mois.
+Ventes de 45 000 € à 395 000 € · loyers de 415 € à 850 € par mois.
 
 ### Spécialités
 
@@ -183,14 +186,11 @@ Parmi ces biens : 6 appartements, 4 maisons, 2 locaux commerciaux, 1 immeuble et
 
 ### Biens proposés
 
-- Appartement à vendre à Montpellier
-- Maison à vendre à Clarensac
-- Local commercial à vendre à Nîmes
-- Immeuble à vendre à Marguerittes
-- Appartement à louer à Nîmes
-- Maison à vendre à Alès
-- Appartement à vendre à Saint-Christol-lez-Alès
-- Appartement à louer à Montpellier
+- 6 appartements
+- 4 maisons
+- 2 locaux commerciaux
+- 1 immeuble
+- 1 terrain
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Nîmes sous le n° 882042278. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

@@ -158,7 +158,7 @@ def _a_ville(v): return ("au " + v[3:]) if v.startswith("Le ") else ("aux " + v[
 
 def activite(a, ann):
     """(paragraphes, codes de spécialités, mots-clés) déduits des annonces en ligne de l'agent."""
-    if not ann: return [], [], []
+    if not ann: return [], [], [], {}
     from collections import Counter
     nv = [x for x in ann if x["type"] == "vente"]; nl = [x for x in ann if x["type"] != "vente"]
     villes = [v for v, _ in Counter(x["ville"] for x in ann).most_common()]
@@ -178,7 +178,10 @@ def activite(a, ann):
     spe = (["vente"] if nv else []) + (["location"] if nl else []) + [_BIEN_SPE[c] for c, _ in cats.most_common() if c in _BIEN_SPE]
     combos = Counter((_cat(x), x["type"], x["ville"]) for x in ann if _cat(x) in _BIEN_NOM)
     mots = [f"{_BIEN_NOM[c][0].capitalize()} {'à vendre' if t == 'vente' else 'à louer'} {_a_ville(v)}" for (c, t, v), _ in combos.most_common(8)]
-    return [p1] + ([" ".join(p2)] if p2 else []), list(dict.fromkeys(spe)), mots
+    prix = (([f"Ventes de {_eur(pv[0])} à {_eur(pv[-1])}"] if len(pv) > 1 else [f"Vente à {_eur(pv[0])}"] if pv else [])
+            + ([f"loyers de {_eur(pl[0])} à {_eur(pl[-1])} par mois"] if len(pl) > 1 else [f"loyer de {_eur(pl[0])} par mois"] if pl else []))
+    chiffres = {"biens": len(ann), "vente": len(nv), "location": len(nl), "communes": len(villes), "types": types, "prix": " · ".join(prix)}
+    return [p1] + ([" ".join(p2)] if p2 else []), list(dict.fromkeys(spe)), mots, chiffres
 
 # ---------- fiche d'un agent ----------
 def fiche(a):
@@ -188,8 +191,15 @@ def fiche(a):
     ann = annonces_de(a); nv = sum(1 for x in ann if x["type"] == "vente"); nl = len(ann) - nv
     bio = clean_bio(a)
     base = f'{nom} est {a["role"].lower()} LOTIER Immobilier' + (f', secteur {" et ".join(sects)}' if sects else "") + "."
-    act_txt, act_spe, act_mots = activite(a, ann)
-    texte_fiche = "\n".join([bio or (base + (" Communes couvertes : " + ", ".join(a["communes"]) + "." if a["communes"] else ""))] + act_txt)
+    act_txt, act_spe, act_mots, ch = activite(a, ann)
+    texte_fiche = bio or base        # les chiffres, les communes et les types de biens sont dans les tuiles et les encadrés
+    tuiles = ""
+    if ch and ch["biens"] >= 3:      # avec un ou deux biens, des tuiles « 1 · 1 · 1 » n'apportent rien
+        t = [(ch["biens"], "bien" + ("s" if ch["biens"] > 1 else "") + " en ligne"), (ch["vente"], "à vendre"), (ch["location"], "à louer"), (ch["communes"], "commune" + ("s" if ch["communes"] > 1 else ""))]
+        tuiles = '<ul class="ag-stats">' + "".join(f'<li class="glass"><strong>{n}</strong><span>{e(l)}</span></li>' for n, l in t if n) + "</ul>"
+    if not tuiles: texte_fiche = "\n".join([texte_fiche] + ([" Communes couvertes : " + ", ".join(a["communes"]) + "."] if a["communes"] and not bio else []) + act_txt)
+    prix_l = f'<p class="ag-prix">{e(ch["prix"])}.</p>' if ch.get("prix") and tuiles else ""
+    types_l = "".join(f"<li>{e(x)}</li>" for x in ch.get("types", []))
     specialites = [x for x in (a.get("specialites") or act_spe) if x in CAT]      # saisies dans Collab, sinon déduites des annonces
     mots_cles = a.get("mots_cles") or act_mots
     liens = ""
@@ -226,8 +236,9 @@ def fiche(a):
       {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
     </section>
 ''' + (f'''    <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec {e(a["prenom"])}</h2></div></div>
-      <div class="ag-cols"><div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}</div>
-      <div class="glass ag-side">{('<h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul>') if spe else ""}<h3>Communes couvertes</h3><ul class="ag-comm">{comm}</ul>{('<h3>Biens proposés</h3><ul class="ag-comm ag-kw">' + mots + '</ul>') if mots else ""}</div></div>
+      {tuiles}
+      <div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}{prix_l}</div>
+      <div class="ag-trio">{('<div class="glass ag-side"><h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul></div>') if spe else ""}{('<div class="glass ag-side"><h3>Communes couvertes</h3><ul class="ag-comm">' + comm + '</ul></div>') if comm else ""}{('<div class="glass ag-side"><h3>Biens proposés</h3><ul class="ag-types">' + types_l + '</ul>' + (('<ul class="ag-comm ag-kw">' + mots + '</ul>') if a.get("mots_cles") else "") + '</div>') if types_l or a.get("mots_cles") else ""}</div>
     </section>
 ''' if (texte_fiche or spe or comm) else "") + f'''    {('<section class="section container"><p class="muted small ag-legal">' + e(legal) + '</p></section>') if legal else ""}
     <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
