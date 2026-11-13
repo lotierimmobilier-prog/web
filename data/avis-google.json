@@ -7,5 +7,7 @@
   "widget": {
     "type": "trustindex",
     "id": "bb2048785c6636698946327cb64"
-  }
+  },
+  "fiche_google": "https://www.google.com/search?kgmid=/g/11vb6hl028",
+  "_fiche_google": "Adresse stable de la fiche Google de l'agence (lien de partage https://share.google/suJsYIyaDfJaN7AQ9 fourni par Jérôme). Déclarée dans les données structurées (sameAs)."
 }

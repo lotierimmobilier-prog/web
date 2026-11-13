@@ -158,6 +158,10 @@ def _avis_cfg():
     return {"lire": lien or fiche, "ecrire": d.get("lien_avis") or fiche, "direct": bool(d.get("lien_avis")), "note": note}
 
 AVIS = _avis_cfg()
+try:    # fiche Google de l'agence : reliée à l'entreprise dans les données structurées
+    FICHE_GOOGLE = [u for u in [json.load(open(f"{ROOT}/data/avis-google.json", encoding="utf-8")).get("fiche_google")] if u]
+except (OSError, ValueError):
+    FICHE_GOOGLE = []
 
 def avis_dialog():
     n = AVIS["note"]
@@ -496,7 +500,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
     return head + sep + rest
 
 AGENCE_LD = {
-    "@type": ["RealEstateAgent", "LocalBusiness"], "sameAs": [u for u in SOCIAL.values() if u], "@id": SITE + "/#agence", "name": "LOTIER Immobilier", "legalName": "SARL LOTIER",
+    "@type": ["RealEstateAgent", "LocalBusiness"], "sameAs": [u for u in SOCIAL.values() if u] + FICHE_GOOGLE, "@id": SITE + "/#agence", "name": "LOTIER Immobilier", "legalName": "SARL LOTIER",
     "alternateName": "LOTIER", "url": SITE + "/", "logo": SITE + "/assets/lotier-logo.png", "image": SITE + "/assets/og-lotier.jpg",
     "telephone": PHONE_TEL, "email": "contact@lotier-immobilier.com", "foundingDate": "2018", "slogan": "Votre bien, notre métier.",
     "vatID": "FR21452117294",
