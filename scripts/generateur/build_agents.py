@@ -86,7 +86,7 @@ def static_card(a):
     liens = f'<a class="btn btn-gold" href="{url}">{page}</a>'
     if a.get("telephone"): liens += f'<a class="btn btn-ghost" href="tel:{tel_intl(a["telephone"])}">{e(a["telephone"])}</a>'
     mail = f'<a class="ag-scard-mail" href="mailto:{e(a["email"])}">{e(a["email"])}</a>' if a.get("email") else ""
-    mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">Son mini-site</a>' if a.get("mini_site") else ""
+    mini = ""   # le mini-site de l'agent est sa page sur ce site (celui de Collab répond de façon instable)
     return (f'''<li class="glass ag-scard" data-s="{" ".join(a["secteurs"])}" style="--rc:{couleur(a)}">{portrait(a).replace("{p}", prefix)}<div><h3><a href="{url}">{e(a["prenom"])} {e(a["nom"])}</a></h3>'''
             f'''<p class="small muted">{e(a["role"])}{(" · " + e(sn)) if sn else ""}</p><p class="small">{e(", ".join(a["communes"][:5]))}</p></div>'''
             f'''<div class="ag-scard-act">{liens}</div><p class="small ag-scard-liens">{mail}{mini}</p></li>''')
@@ -138,6 +138,48 @@ page = shell(prefix, "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTI
              "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
 ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.js?v={V_AGENTS_JS}'))
 
+# ---------- mini-site d'un agent : ce que ses annonces disent de son activité (rien n'est inventé, tout vient de data/annonces.json) ----------
+_BIEN_NOM = {"maison": ("maison", "maisons"), "appartement": ("appartement", "appartements"), "immeuble": ("immeuble", "immeubles"), "terrain": ("terrain", "terrains"),
+             "commerce": ("local commercial", "locaux commerciaux"), "parking": ("parking", "parkings")}
+_BIEN_SPE = {"maison": "maison", "appartement": "appartement", "commerce": "commerce", "terrain": "terrain", "immeuble": "investissement"}
+
+_TYPE_FICHE = {"Appartement": "appartement", "Maison/villa": "maison", "Immeuble": "immeuble", "Terrain": "terrain", "Local": "commerce", "Boutique": "commerce",
+               "Bureaux": "commerce", "Parking/box": "parking"}
+_UN = {"maison": "d'une maison", "appartement": "d'un appartement", "immeuble": "d'un immeuble", "terrain": "d'un terrain", "commerce": "d'un local commercial", "parking": "d'un parking"}
+
+def _cat(x):
+    """Catégorie du bien : le « Type de bien » de la fiche d'abord (un titre « maison avec garage » n'est pas un parking)."""
+    brut = next((l[1] for b in x.get("blocs") or [] for l in b["lignes"] if l[0] == "Type de bien"), "")
+    return _TYPE_FICHE.get(brut) or categorie_bien(x)
+
+def _eur(n): return f"{int(round(n)):,}".replace(",", " ") + " €"
+def _liste(xs): return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " et " + xs[-1]
+def _a_ville(v): return ("au " + v[3:]) if v.startswith("Le ") else ("aux " + v[4:]) if v.startswith("Les ") else "à " + v
+
+def activite(a, ann):
+    """(paragraphes, codes de spécialités, mots-clés) déduits des annonces en ligne de l'agent."""
+    if not ann: return [], [], []
+    from collections import Counter
+    nv = [x for x in ann if x["type"] == "vente"]; nl = [x for x in ann if x["type"] != "vente"]
+    villes = [v for v, _ in Counter(x["ville"] for x in ann).most_common()]
+    cats = Counter(_cat(x) for x in ann)
+    types = [f"{n} {_BIEN_NOM[c][1 if n > 1 else 0]}" for c, n in cats.most_common() if c in _BIEN_NOM]
+    parts = ([f"{len(nv)} à vendre"] if nv else []) + ([f"{len(nl)} à louer"] if nl else [])
+    p1 = ((f"{a['prenom']} présente actuellement {len(ann)} biens ({' et '.join(parts)})" if nv and nl else f"{a['prenom']} présente actuellement {len(ann)} biens {'à vendre' if nv else 'à louer'}") if len(ann) > 1 else f"{a['prenom']} présente actuellement un bien {'à vendre' if nv else 'à louer'}")
+    p1 += f" {_a_ville(villes[0])}" if len(villes) == 1 else (f", notamment à {', '.join(villes[:6])}" if len(villes) > 6 else f", à {_liste(villes)}")
+    p1 += "."
+    p2 = []
+    if types: p2.append(f"Parmi ces biens : {_liste(types)}." if len(ann) > 1 else f"Il s'agit {_UN[cats.most_common(1)[0][0]]}.")
+    pv = sorted(x["prix"] for x in nv if x.get("prix") and x["prix"] >= 1000); pl = sorted(x["prix"] for x in nl if x.get("prix"))
+    if len(pv) > 1: p2.append(f"Les biens à vendre vont de {_eur(pv[0])} à {_eur(pv[-1])}.")
+    elif pv: p2.append(f"Le bien à vendre est proposé à {_eur(pv[0])}.")
+    if len(pl) > 1: p2.append(f"Les loyers vont de {_eur(pl[0])} à {_eur(pl[-1])} par mois.")
+    elif pl: p2.append(f"Le bien à louer est proposé à {_eur(pl[0])} par mois.")
+    spe = (["vente"] if nv else []) + (["location"] if nl else []) + [_BIEN_SPE[c] for c, _ in cats.most_common() if c in _BIEN_SPE]
+    combos = Counter((_cat(x), x["type"], x["ville"]) for x in ann if _cat(x) in _BIEN_NOM)
+    mots = [f"{_BIEN_NOM[c][0].capitalize()} {'à vendre' if t == 'vente' else 'à louer'} {_a_ville(v)}" for (c, t, v), _ in combos.most_common(8)]
+    return [p1] + ([" ".join(p2)] if p2 else []), list(dict.fromkeys(spe)), mots
+
 # ---------- fiche d'un agent ----------
 def fiche(a):
     p2 = "../../"
@@ -146,15 +188,18 @@ def fiche(a):
     ann = annonces_de(a); nv = sum(1 for x in ann if x["type"] == "vente"); nl = len(ann) - nv
     bio = clean_bio(a)
     base = f'{nom} est {a["role"].lower()} LOTIER Immobilier' + (f', secteur {" et ".join(sects)}' if sects else "") + "."
-    texte_fiche = bio or (base + (" Communes couvertes : " + ", ".join(a["communes"]) + "." if a["communes"] else ""))
+    act_txt, act_spe, act_mots = activite(a, ann)
+    texte_fiche = "\n".join([bio or (base + (" Communes couvertes : " + ", ".join(a["communes"]) + "." if a["communes"] else ""))] + act_txt)
+    specialites = [x for x in (a.get("specialites") or act_spe) if x in CAT]      # saisies dans Collab, sinon déduites des annonces
+    mots_cles = a.get("mots_cles") or act_mots
     liens = ""
     if a.get("telephone"): liens += f'<a class="btn btn-gold" href="tel:{tel_intl(a["telephone"])}">{PH}{e(a["telephone"])}</a>'
     if a.get("email"): liens += f'<a class="btn btn-ghost" href="mailto:{e(a["email"])}">{MAIL}Écrire</a>'
     if a.get("google"): liens += f'<a class="btn btn-ghost" href="{e(a["google"])}" target="_blank" rel="noopener">{GOOGLE}Avis Google</a>'
     reseaux = "".join(f'<a class="ag-res" href="{e(u)}" target="_blank" rel="noopener me" aria-label="{RES_ICO[k][0]} de {e(nom)}" title="{RES_ICO[k][0]}">{RES_ICO[k][1]}</a>' for k, u in (a.get("reseaux") or {}).items() if k in RES_ICO)
-    spe = "".join(f'<li class="ag-spe">{SPE_ICO.get(s, "")}<span>{e(CAT[s])}</span></li>' for s in a.get("specialites", []) if s in CAT)
+    spe = "".join(f'<li class="ag-spe">{SPE_ICO.get(s, "")}<span>{e(CAT[s])}</span></li>' for s in specialites)
     comm = "".join(f'<li>{e(c)}</li>' for c in a["communes"])
-    mots = "".join(f'<li>{e(m)}</li>' for m in a.get("mots_cles", []))
+    mots = "".join(f'<li>{e(m)}</li>' for m in mots_cles)
     cartes = "".join(annonce_card(x, p2) for x in ann)
     mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">{SITE_ICO}Son mini-site</a>' if a.get("mini_site") else ""
     legal = ""
@@ -177,8 +222,8 @@ def fiche(a):
       </div>
     </section>
 ''' + (f'''    <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec {e(a["prenom"])}</h2></div></div>
-      <div class="ag-cols"><div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}{mini}</div>
-      <div class="glass ag-side">{('<h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul>') if spe else ""}<h3>Communes couvertes</h3><ul class="ag-comm">{comm}</ul>{('<h3>Domaines</h3><ul class="ag-comm ag-kw">' + mots + '</ul>') if mots else ""}</div></div>
+      <div class="ag-cols"><div class="prose ag-prose">{"".join(f"<p>{e(x)}</p>" for x in texte_fiche.split(chr(10)) if x.strip())}</div>
+      <div class="glass ag-side">{('<h3>Spécialités</h3><ul class="ag-spes">' + spe + '</ul>') if spe else ""}<h3>Communes couvertes</h3><ul class="ag-comm">{comm}</ul>{('<h3>Biens proposés</h3><ul class="ag-comm ag-kw">' + mots + '</ul>') if mots else ""}</div></div>
     </section>
 ''' if (texte_fiche or spe or comm) else "") + f'''    <section class="section container" aria-labelledby="ag-ann">
       <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
@@ -193,7 +238,7 @@ def fiche(a):
     sameas = [u for u in (a.get("reseaux") or {}).values()] + ([a["google"]] if a.get("google") else [])
     person = {"@context": "https://schema.org", "@type": "RealEstateAgent", "@id": f'{SITE}/nos-agents/{a["slug"]}/#agent', "name": nom, "jobTitle": a["role"], "url": f'{SITE}/nos-agents/{a["slug"]}/',
               "worksFor": {"@id": SITE + "/#agence"}, "parentOrganization": {"@id": SITE + "/#agence"}, "areaServed": [{"@type": "City", "name": c} for c in a["communes"]],
-              "knowsAbout": [CAT[s] for s in a.get("specialites", []) if s in CAT] + a.get("mots_cles", []), "inLanguage": "fr-FR"}
+              "knowsAbout": [CAT[s] for s in specialites] + mots_cles, "inLanguage": "fr-FR"}
     if a.get("telephone"): person["telephone"] = tel_intl(a["telephone"])
     if a.get("email"): person["email"] = a["email"]
     if a.get("photo"): person["image"] = f'{SITE}/{a["photo"]}'

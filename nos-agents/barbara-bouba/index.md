@@ -15,6 +15,20 @@ Carcassonne · Narbonne
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne. Communes couvertes : Narbonne, Lézignan, Capendu, Trèbes, Carcassonne.
 
+Barbara présente actuellement 31 biens (24 à vendre et 7 à louer), notamment à Capendu, Carcassonne, Villedubert, Conques-sur-Orbiel, Narbonne, Pezens.
+
+Parmi ces biens : 13 maisons, 6 appartements, 5 terrains, 3 locaux commerciaux, 3 immeubles et 1 parking. Les biens à vendre vont de 5 000 € à 1 145 000 €. Les loyers vont de 450 € à 760 € par mois.
+
+### Spécialités
+
+- Vente
+- Location
+- Maisons et villas
+- Appartements
+- Terrains
+- Locaux commerciaux
+- Investissement locatif
+
 ### Communes couvertes
 
 - Narbonne
@@ -22,6 +36,17 @@ Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carca
 - Capendu
 - Trèbes
 - Carcassonne
+
+### Biens proposés
+
+- Maison à vendre à Capendu
+- Appartement à vendre à Capendu
+- Immeuble à vendre à Carcassonne
+- Local commercial à louer à Capendu
+- Maison à louer à Capendu
+- Maison à louer à Conques-sur-Orbiel
+- Appartement à louer à Narbonne
+- Appartement à louer à Carcassonne
 
  Annonces
 

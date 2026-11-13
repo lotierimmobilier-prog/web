@@ -15,9 +15,22 @@ Nîmes
 
 Céline Aubin est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Meynes.
 
+Céline présente actuellement un bien à vendre à Meynes.
+
+Il s'agit d'une maison. Le bien à vendre est proposé à 243 000 €.
+
+### Spécialités
+
+- Vente
+- Maisons et villas
+
 ### Communes couvertes
 
 - Meynes
+
+### Biens proposés
+
+- Maison à vendre à Meynes
 
  Annonces
 

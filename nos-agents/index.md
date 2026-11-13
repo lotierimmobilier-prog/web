@@ -34,7 +34,7 @@ Agent commercial indépendant · Nîmes · Montpellier
 
 Nîmes, Montpellier [Voir sa page et ses 14 annonces](https://lotier.immo/nos-agents/elodie-chardot/)[06 73 03 51 96](tel:+33673035196)
 
-[elodie.chardot@lotier-immobilier.com](mailto:elodie.chardot@lotier-immobilier.com)[Son mini-site](https://collab.lotier-immobilier.com/annonces/elodie.chardot)
+[elodie.chardot@lotier-immobilier.com](mailto:elodie.chardot@lotier-immobilier.com)
 -
 
 ### [Frédérique Gallucci](https://lotier.immo/nos-agents/frederique-gallucci/)
@@ -43,7 +43,7 @@ Agent commercial indépendant · Nîmes
 
 Caveirac, Nîmes, Aubais, Beaucaire, Calvisson [Voir sa page et ses 8 annonces](https://lotier.immo/nos-agents/frederique-gallucci/)[06 37 64 77 01](tel:+33637647701)
 
-[frederique.gallucci@lotier-immobilier.com](mailto:frederique.gallucci@lotier-immobilier.com)[Son mini-site](https://collab.lotier-immobilier.com/annonces/frederique.gallucci)
+[frederique.gallucci@lotier-immobilier.com](mailto:frederique.gallucci@lotier-immobilier.com)
 -
 
 ### [Laëtitia Dias](https://lotier.immo/nos-agents/laetitia-dias/)
@@ -52,7 +52,7 @@ Agent commercial indépendant · Béziers
 
 Béziers, Maureilhan, Villeneuve-lès-Béziers [Voir sa page et ses 21 annonces](https://lotier.immo/nos-agents/laetitia-dias/)[06 09 76 63 24](tel:+33609766324)
 
-[laetitia.dias@lotier-immobilier.com](mailto:laetitia.dias@lotier-immobilier.com)[Son mini-site](https://collab.lotier-immobilier.com/annonces/laetitia.dias)
+[laetitia.dias@lotier-immobilier.com](mailto:laetitia.dias@lotier-immobilier.com)
 
 Vous ne trouvez pas votre secteur ? [Contactez l'agence](https://lotier.immo/contact/), nous vous orienterons vers le bon conseiller. Les agents LOTIER sont des agents commerciaux indépendants.
  **Envie de rejoindre l'équipe ?** Devenez agent immobilier indépendant avec LOTIER. [Voir le parcours ](https://lotier.immo/rejoindre/)

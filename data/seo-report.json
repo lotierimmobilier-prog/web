@@ -5,11 +5,9 @@
   "pages_auditees": 133,
   "pages_indexables": 127,
   "erreurs": 0,
-  "avertissements": 1,
-  "pages_sans_probleme": 132,
-  "problemes_par_type": {
-   "contenu-court": 1
-  }
+  "avertissements": 0,
+  "pages_sans_probleme": 133,
+  "problemes_par_type": {}
  },
  "fichiers": {
   "robots.txt": true,
@@ -1694,7 +1692,7 @@
    "indexable": true,
    "titre": "Barbara Bouba, agent immobilier à Narbonne | LOTIER",
    "description": "Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.",
-   "mots": 764,
+   "mots": 881,
    "h1": "Barbara Bouba",
    "nb_h2": 11,
    "images": 36,
@@ -1708,19 +1706,13 @@
    "indexable": true,
    "titre": "Céline Aubin, agent immobilier à Meynes | LOTIER",
    "description": "Céline Aubin, agent commercial indépendant LOTIER Immobilier. Secteur : Meynes. Coordonnées et annonces.",
-   "mots": 134,
+   "mots": 170,
    "h1": "Céline Aubin",
    "nb_h2": 11,
    "images": 6,
    "liens": 76,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "contenu-court",
-     "message": "Contenu court (134 mots)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/nos-agents/elodie-chardot/",
@@ -1728,11 +1720,11 @@
    "indexable": true,
    "titre": "Élodie Chardot, agent immobilier à Nîmes | LOTIER",
    "description": "Élodie Chardot, agent commercial indépendant LOTIER Immobilier. Secteur : Nîmes, Montpellier. Coordonnées et annonces.",
-   "mots": 427,
+   "mots": 540,
    "h1": "Élodie Chardot",
    "nb_h2": 11,
    "images": 19,
-   "liens": 116,
+   "liens": 115,
    "markdown": true,
    "problemes": []
   },
@@ -1742,11 +1734,11 @@
    "indexable": true,
    "titre": "Frédérique Gallucci, agent immobilier à Caveirac | LOTIER",
    "description": "Frédérique Gallucci, agent commercial indépendant LOTIER Immobilier. Secteur : Caveirac, Nîmes, Aubais, Beaucaire. Coordonnées et annonces.",
-   "mots": 314,
+   "mots": 388,
    "h1": "Frédérique Gallucci",
    "nb_h2": 11,
    "images": 13,
-   "liens": 98,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1756,11 +1748,11 @@
    "indexable": true,
    "titre": "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER",
    "description": "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
-   "mots": 219,
+   "mots": 210,
    "h1": "Nos agents, près de chez vous.",
    "nb_h2": 9,
    "images": 9,
-   "liens": 92,
+   "liens": 89,
    "markdown": true,
    "problemes": []
   },
@@ -1770,11 +1762,11 @@
    "indexable": true,
    "titre": "Laëtitia Dias, agent immobilier à Béziers | LOTIER",
    "description": "Laëtitia Dias, agent commercial indépendant LOTIER Immobilier. Secteur : Béziers, Maureilhan, Villeneuve-lès-Béziers. Coordonnées et annonces.",
-   "mots": 603,
+   "mots": 709,
    "h1": "Laëtitia Dias",
    "nb_h2": 11,
    "images": 26,
-   "liens": 137,
+   "liens": 136,
    "markdown": true,
    "problemes": []
   },
