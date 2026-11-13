@@ -274,8 +274,47 @@ HON_FAQ = [
 hon_faq = '<h2 id="questions">Questions fréquentes</h2><div class="faq faq-simple">' + "".join(f'<details><summary><h3>{e(q)}</h3></summary><div class="answer"><p>{e(a)}</p></div></details>' for q, a in HON_FAQ) + '</div>'
 hon_ld = {"@context": "https://schema.org", "@type": "FAQPage", "@id": SITE + "/nos-honoraires/#faq", "inLanguage": "fr-FR",
           "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in HON_FAQ]}
+# ---- Simulateur d'honoraires : mêmes montants que les tableaux ci-dessus (à tenir à jour ensemble) ----
+HON_BAREME = {
+    "vente": [{"max": 10000, "fixe": 3000}, {"max": 70000, "taux": 0.10, "min": 3000}, {"max": 100000, "taux": 0.08},
+              {"max": 150000, "taux": 0.07}, {"max": 200000, "taux": 0.06}, {"max": None, "taux": 0.05}],
+    "location": {"autre": 8.07, "tendue": 10.09, "tres": 12.10, "edl": 3.03},
+    "gestion": {"complete_ht": 0.07, "tva": 0.20, "simple": 39.99, "gli": {"Assurances Chevalier": 0.04, "Mila / Zelok": 0.035}},
+    "syndic": [{"max": 10, "forfait": 2000}, {"max": 50, "lot": 160}, {"max": 100, "lot": 150}, {"max": 200, "lot": 144}, {"max": None, "devis": True}],
+}
+_data = json.dumps(HON_BAREME, ensure_ascii=False).replace("</", "<\\/")
+hon_sim = f'''<form class="glass hon-sim" data-hon-sim hidden onsubmit="return false" aria-label="Simulateur d'honoraires">
+          <script type="application/json" data-hon-data>{_data}</script>
+          <h2 class="hs-t" id="calcul-honoraires">Calculez vos honoraires</h2>
+          <div class="chip-links" role="group" aria-label="Type d'honoraires">
+            <button type="button" class="chip-link is-on" data-hs-tab="vente" aria-pressed="true">Vente</button>
+            <button type="button" class="chip-link" data-hs-tab="location" aria-pressed="false">Mise en location</button>
+            <button type="button" class="chip-link" data-hs-tab="gestion" aria-pressed="false">Gestion locative</button>
+            <button type="button" class="chip-link" data-hs-tab="syndic" aria-pressed="false">Syndic</button>
+          </div>
+          <div class="hs-panel" data-hs-panel="vente">
+            <div class="sim-champs hs-champs"><label>Prix de vente (€)<input type="text" inputmode="numeric" autocomplete="off" data-hs-prix value="250 000"></label></div>
+            <div class="sim-res" data-hs-out="vente" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="location" hidden>
+            <div class="sim-champs hs-champs"><label>Surface habitable (m²)<input type="text" inputmode="decimal" autocomplete="off" data-hs-surf value="50"></label>
+              <label>Zone du logement<select data-hs-zone><option value="autre">Autre zone</option><option value="tendue">Zone tendue</option><option value="tres">Zone très tendue</option></select></label></div>
+            <div class="sim-res" data-hs-out="location" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="gestion" hidden>
+            <div class="sim-champs hs-champs"><label>Loyer mensuel, charges comprises (€)<input type="text" inputmode="numeric" autocomplete="off" data-hs-loyer value="700"></label></div>
+            <div class="sim-res" data-hs-out="gestion" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="syndic" hidden>
+            <div class="sim-champs hs-champs"><label>Nombre de lots principaux<input type="text" inputmode="numeric" autocomplete="off" data-hs-lots value="20"></label></div>
+            <div class="sim-res" data-hs-out="syndic" aria-live="polite"></div>
+          </div>
+          <p class="muted small hs-note">Calcul indicatif, établi à partir du barème ci-dessous : il ne remplace pas le mandat ou le contrat, qui fait foi. Pour la vente, le taux de la tranche s'applique au prix de vente.</p>
+        </form>'''
+
 legal_page("nos-honoraires", "Nos honoraires", "Le barème des honoraires de l'agence, tel qu'il est affiché en agence.", "Nos honoraires", f'''
         <p>Ni forfait au rabais, ni tarifs excessifs qui compliquent parfois l'obtention d'un prêt : nous avons établi un barème lisible, applicable à tous.</p>
+        {hon_sim}
         <h2 id="vente">Vente</h2>
         <p>Honoraires de négociation, toutes taxes comprises, à la charge du vendeur et inclus dans le prix affiché.</p>
         {hon_vente}

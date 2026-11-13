@@ -1332,3 +1332,12 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 
 /* Page « Nos agents » : fond uni, un dégradé beige très clair et très transparent */
 .ag-stage { background: linear-gradient(180deg, #fffefb 0%, #fbf6ea 100%); }
+
+/* Simulateur d'honoraires */
+.hon-sim { padding: clamp(18px, 2.4vw, 28px); margin: 22px 0 8px; display: grid; gap: 16px; }
+.hon-sim .hs-t { margin: 0; font-size: clamp(22px, 2.6vw, 30px); }
+.hon-sim .sim-champs.hs-champs { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 0; }
+.hon-sim .sim-res { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 16px; }
+.hon-sim .hs-note { margin: 0; }
+.hon-sim [hidden] { display: none; }
+.hon-sim .chip-link, .hon-sim input, .hon-sim select { font-family: inherit; }

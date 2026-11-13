@@ -21,7 +21,7 @@
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../assets/favicon.png">
   <link rel="preload" href="../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/styles.css?v=f9dd10893f">
+  <link rel="stylesheet" href="../css/styles.css?v=28b0345628">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -164,6 +164,34 @@
       <div class="prose">
 
         <p>Ni forfait au rabais, ni tarifs excessifs qui compliquent parfois l'obtention d'un prêt : nous avons établi un barème lisible, applicable à tous.</p>
+        <form class="glass hon-sim" data-hon-sim hidden onsubmit="return false" aria-label="Simulateur d'honoraires">
+          <script type="application/json" data-hon-data>{"vente": [{"max": 10000, "fixe": 3000}, {"max": 70000, "taux": 0.1, "min": 3000}, {"max": 100000, "taux": 0.08}, {"max": 150000, "taux": 0.07}, {"max": 200000, "taux": 0.06}, {"max": null, "taux": 0.05}], "location": {"autre": 8.07, "tendue": 10.09, "tres": 12.1, "edl": 3.03}, "gestion": {"complete_ht": 0.07, "tva": 0.2, "simple": 39.99, "gli": {"Assurances Chevalier": 0.04, "Mila / Zelok": 0.035}}, "syndic": [{"max": 10, "forfait": 2000}, {"max": 50, "lot": 160}, {"max": 100, "lot": 150}, {"max": 200, "lot": 144}, {"max": null, "devis": true}]}</script>
+          <h2 class="hs-t" id="calcul-honoraires">Calculez vos honoraires</h2>
+          <div class="chip-links" role="group" aria-label="Type d'honoraires">
+            <button type="button" class="chip-link is-on" data-hs-tab="vente" aria-pressed="true">Vente</button>
+            <button type="button" class="chip-link" data-hs-tab="location" aria-pressed="false">Mise en location</button>
+            <button type="button" class="chip-link" data-hs-tab="gestion" aria-pressed="false">Gestion locative</button>
+            <button type="button" class="chip-link" data-hs-tab="syndic" aria-pressed="false">Syndic</button>
+          </div>
+          <div class="hs-panel" data-hs-panel="vente">
+            <div class="sim-champs hs-champs"><label>Prix de vente (€)<input type="text" inputmode="numeric" autocomplete="off" data-hs-prix value="250 000"></label></div>
+            <div class="sim-res" data-hs-out="vente" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="location" hidden>
+            <div class="sim-champs hs-champs"><label>Surface habitable (m²)<input type="text" inputmode="decimal" autocomplete="off" data-hs-surf value="50"></label>
+              <label>Zone du logement<select data-hs-zone><option value="autre">Autre zone</option><option value="tendue">Zone tendue</option><option value="tres">Zone très tendue</option></select></label></div>
+            <div class="sim-res" data-hs-out="location" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="gestion" hidden>
+            <div class="sim-champs hs-champs"><label>Loyer mensuel, charges comprises (€)<input type="text" inputmode="numeric" autocomplete="off" data-hs-loyer value="700"></label></div>
+            <div class="sim-res" data-hs-out="gestion" aria-live="polite"></div>
+          </div>
+          <div class="hs-panel" data-hs-panel="syndic" hidden>
+            <div class="sim-champs hs-champs"><label>Nombre de lots principaux<input type="text" inputmode="numeric" autocomplete="off" data-hs-lots value="20"></label></div>
+            <div class="sim-res" data-hs-out="syndic" aria-live="polite"></div>
+          </div>
+          <p class="muted small hs-note">Calcul indicatif, établi à partir du barème ci-dessous : il ne remplace pas le mandat ou le contrat, qui fait foi. Pour la vente, le taux de la tranche s'applique au prix de vente.</p>
+        </form>
         <h2 id="vente">Vente</h2>
         <p>Honoraires de négociation, toutes taxes comprises, à la charge du vendeur et inclus dans le prix affiché.</p>
         <div class="table-wrap"><table class="legal-table hon-table "><thead><tr><th scope="col">Prix de vente</th><th scope="col" class="num">Honoraires (TTC)</th></tr></thead><tbody><tr><td>De 0 à 10 000 €</td><td class="num">3 000 €</td></tr><tr><td>De 10 001 à 70 000 €</td><td class="num">10 % (minimum 3 000 €)</td></tr><tr><td>De 70 001 à 100 000 €</td><td class="num">8 %</td></tr><tr><td>De 100 001 à 150 000 €</td><td class="num">7 %</td></tr><tr><td>De 150 001 à 200 000 €</td><td class="num">6 %</td></tr><tr><td>À partir de 200 001 €</td><td class="num">5 %</td></tr></tbody></table></div>
@@ -293,6 +321,6 @@
       <p class="small muted">Les liens s’ouvrent sur Google, dans un nouvel onglet.</p>
     </div>
   </dialog>
-  <script src="../js/main.js?v=94b2917895"></script>
+  <script src="../js/main.js?v=6ded3e8e4e"></script>
 </body>
 </html>
