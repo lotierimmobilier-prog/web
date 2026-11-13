@@ -72,6 +72,16 @@ def https(u):
     return u if re.match(r"^https://[^\s]+$", u) else ""
 
 
+def mentions(a, p):
+    """Mentions légales de l'agent (page Collab « Mes mentions légales »). Lues dans a["mentions_legales"] si Collab les expose
+    (rsac, rsac_ville) ; l'accord de publication dans a["accord_publication"] (vrai/faux). Sinon dans data/agents-config.json."""
+    m = a.get("mentions_legales") if isinstance(a.get("mentions_legales"), dict) else {}
+    rsac = (p.get("rsac") or m.get("rsac") or a.get("rsac") or "").strip()
+    ville = (p.get("rsac_ville") or m.get("rsac_ville") or m.get("greffe") or "").strip()
+    acc = a.get("accord_publication", p.get("accord_publication"))
+    return {"rsac": rsac or None, "rsac_ville": ville or None, "accord": acc if isinstance(acc, bool) else None}
+
+
 def profil(a, cfg):
     """Champs de présentation : lus dans Collab s'il les fournit (presentation, reseaux, specialites, lien_google, mots_cles, rsac),
     sinon dans data/agents-config.json (profils). Rien n'est inventé : un champ absent reste vide."""
@@ -87,7 +97,7 @@ def profil(a, cfg):
     spe = [x for x in (p.get("specialites") or pick("specialites") or []) if x in cat]
     mots = [m.strip() for m in (p.get("mots_cles") or pick("mots_cles") or []) if str(m).strip()]
     return {"presentation": pres or None, "reseaux": res, "specialites": spe, "google": https(p.get("google") or pick("lien_google", "google")) or None,
-            "mots_cles": mots, "rsac": (p.get("rsac") or pick("rsac") or "").strip() or None}
+            "mots_cles": mots, **mentions(a, p)}
 
 
 def main():
