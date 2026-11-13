@@ -13,7 +13,7 @@ Nîmes
 
 ## Faire connaissance avec Céline
 
-Céline Aubin est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Meynes.[Son mini-site](https://collab.lotier-immobilier.com/annonces/celine.aubin)
+Céline Aubin est agent commercial indépendant LOTIER Immobilier, secteur Nîmes. Communes couvertes : Meynes.
 
 ### Communes couvertes
 

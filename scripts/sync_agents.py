@@ -72,6 +72,27 @@ def https(u):
     return u if re.match(r"^https://[^\s]+$", u) else ""
 
 
+ORTHO = {"Nimes": "Nîmes", "Beziers": "Béziers", "Sete": "Sète", "Ales": "Alès", "Uzes": "Uzès", "Lezignan": "Lézignan", "Trebes": "Trèbes"}
+
+def mini_site_ok(u):
+    """Le mini-site Collab de l'agent n'est lié que s'il répond : une page en erreur ne doit pas être proposée aux visiteurs."""
+    u = https(u)
+    if not u: return ""
+    try:
+        req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (compatible; lotier-immo-sync)"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return u if r.status == 200 else ""
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def bio_utile(t):
+    """La bio courte de Collab n'est publiée que si c'est un vrai texte : un essai de saisie (« blabla », quelques lettres) est ignoré."""
+    t = (t or "").strip()
+    if len(t) < 40 or len(t.split()) < 6 or re.search(r"bla\s*bla|lorem ipsum|^test\b", t, re.I): return None
+    return t
+
+
 def mentions(a, p):
     """Mentions légales de l'agent (page Collab « Mes mentions légales »). Lues dans a["mentions_legales"] si Collab les expose
     (rsac, rsac_ville) ; l'accord de publication dans a["accord_publication"] (vrai/faux). Sinon dans data/agents-config.json."""
@@ -131,9 +152,9 @@ def main():
                 if dest.exists(): photo = f"assets/agents/{slug}.jpg"; gardees.add(dest.name)
         out.append({"id": a["id"], "slug": slug, "prenom": prenom, "nom": titre(a["nom"]), "fonction": (a.get("fonction") or "").strip(),
                     "role": "Gérant" if gerant else "Agent commercial indépendant", "secteurs": ids,
-                    "communes": [c.strip() for c in (a.get("communes_couvertes") or "").split(",") if c.strip()],
+                    "communes": [ORTHO.get(c.strip(), c.strip()) for c in (a.get("communes_couvertes") or "").split(",") if c.strip()],
                     "email": (a.get("email_pro") or "").strip(), "telephone": tel(a.get("telephone_pro")),
-                    "mini_site": a.get("url_mini_site") or "", "photo": photo, "bio": (a.get("bio_courte") or "").strip() or None,
+                    "mini_site": mini_site_ok(a.get("url_mini_site")), "photo": photo, "bio": bio_utile(a.get("bio_courte")),
                     **profil(a, cfg)})
     # Agents absents de la liste publique de Collab (profil non publié) : saisis à la main dans data/agents-config.json, « ajouts ».
     deja = {x["email"].lower() for x in out}

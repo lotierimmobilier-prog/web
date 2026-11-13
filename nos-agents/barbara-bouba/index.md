@@ -1,6 +1,6 @@
 # Barbara Bouba
 
-> Barbara Bouba, agent commercial indépendant LOTIER Immobilier : blabalablab Secteur : Narbonne, Lézignan, Capendu, Trèbes.
+> Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.
 
 Source : https://lotier.immo/nos-agents/barbara-bouba/
 
@@ -13,7 +13,7 @@ Carcassonne · Narbonne
 
 ## Faire connaissance avec Barbara
 
-blabalablab[Son mini-site](https://collab.lotier-immobilier.com/annonces/barbara.bouba)
+Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne. Communes couvertes : Narbonne, Lézignan, Capendu, Trèbes, Carcassonne.
 
 ### Communes couvertes
 

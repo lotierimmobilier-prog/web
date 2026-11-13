@@ -80,8 +80,16 @@ def portrait(a, cls="ag-ph", size=96):
 
 # ---------- page liste ----------
 def static_card(a):
-    sn = " · ".join(sect_names(a))
-    return f'''<li class="glass ag-scard">{portrait(a).replace("{p}", prefix)}<div><h3><a href="{prefix}nos-agents/{a["slug"]}/">{e(a["prenom"])} {e(a["nom"])}</a></h3><p class="small muted">{e(a["role"])}{(" · " + e(sn)) if sn else ""}</p><p class="small">{e(", ".join(a["communes"][:5]))}</p></div></li>'''
+    """Carte d'un agent dans la liste du bas : portrait, secteur, coordonnées, lien vers sa page (et son mini-site Collab s'il répond)."""
+    sn = " · ".join(sect_names(a)); nb = len(annonces_de(a)); url = f'{prefix}nos-agents/{a["slug"]}/'
+    page = "Voir sa page" + (f" et ses {nb} annonces" if nb > 1 else " et son annonce" if nb == 1 else "")
+    liens = f'<a class="btn btn-gold" href="{url}">{page}</a>'
+    if a.get("telephone"): liens += f'<a class="btn btn-ghost" href="tel:{tel_intl(a["telephone"])}">{e(a["telephone"])}</a>'
+    mail = f'<a class="ag-scard-mail" href="mailto:{e(a["email"])}">{e(a["email"])}</a>' if a.get("email") else ""
+    mini = f'<a class="text-link" href="{e(a["mini_site"])}" target="_blank" rel="noopener">Son mini-site</a>' if a.get("mini_site") else ""
+    return (f'''<li class="glass ag-scard" data-s="{" ".join(a["secteurs"])}" style="--rc:{couleur(a)}">{portrait(a).replace("{p}", prefix)}<div><h3><a href="{url}">{e(a["prenom"])} {e(a["nom"])}</a></h3>'''
+            f'''<p class="small muted">{e(a["role"])}{(" · " + e(sn)) if sn else ""}</p><p class="small">{e(", ".join(a["communes"][:5]))}</p></div>'''
+            f'''<div class="ag-scard-act">{liens}</div><p class="small ag-scard-liens">{mail}{mini}</p></li>''')
 
 def bubble_data(a):
     return {"id": a["id"], "slug": a["slug"], "prenom": a["prenom"], "nom": a["nom"], "role": a["role"], "secteurs": a["secteurs"], "communes": a["communes"],
@@ -108,7 +116,8 @@ body = f'''    <section class="page-hero">
       <div class="chip-links ag-chips" role="group" aria-label="Filtrer par secteur">{chips}</div>
       <div class="ag-stage"><div class="ag-field" id="ag-field"></div></div>
       <div class="glass ag-info" id="ag-info" aria-live="polite"></div>
-      <ul class="ag-list" aria-label="Liste des agents">{"".join(static_card(a) for a in AGENTS)}</ul>
+      <h2 class="title ag-list-t" id="t-tous">Tous nos agents</h2>
+      <ul class="ag-list" aria-labelledby="t-tous">{"".join(static_card(a) for a in AGENTS)}</ul>
       <p class="muted small" style="margin-top:28px">Vous ne trouvez pas votre secteur ? <a class="text-link" href="{prefix}contact/">Contactez l'agence</a>, nous vous orienterons vers le bon conseiller. Les agents LOTIER sont des agents commerciaux indépendants.</p>
       <div class="glass ag-join"><div><strong>Envie de rejoindre l'équipe ?</strong><span class="muted"> Devenez agent immobilier indépendant avec LOTIER.</span></div><a class="btn btn-gold" href="{prefix}rejoindre/">Voir le parcours {ARROW}</a></div>
       <script type="application/json" id="ag-data">{data_js}</script>
@@ -125,7 +134,7 @@ def avec_script(html, src):
     return html.replace("</body>", f'  <script src="{src}" defer></script>\n</body>', 1)
 
 shutil.rmtree(f"{ROOT}/nos-agents", ignore_errors=True)
-page = shell(prefix, "Nos agents par secteur | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
+page = shell(prefix, "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
              "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
 ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.js?v={V_AGENTS_JS}'))
 

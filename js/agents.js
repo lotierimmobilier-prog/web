@@ -25,7 +25,7 @@
   }
   function layout() {
     var W = field.clientWidth, H = field.clientHeight, n = L.length, narrow = W < 700;
-    var d = Math.min(W * (narrow ? 0.36 : 0.19), H * (narrow ? 0.2 : 0.3)); d = Math.max(d, 96);
+    var d = Math.min(W * (narrow ? 0.36 : 0.19), H * (narrow ? 0.2 : 0.3), 160); d = Math.max(d, 96);   /* 160 px au plus : les portraits Collab font 256 px, au-delà ils pixellisent */
     var lab = d * 0.5, padX = d * 0.62, top = 20 + d * 0.52, bot = lab + d * 0.52 + 8, minD = d * 1.0, best = null, tries = 0;
     function hit(a, c) { var cx = Math.max(a.x - d * 0.7, Math.min(c.x, a.x + d * 0.7)), cy = Math.max(a.y + d * 0.5, Math.min(c.y, a.y + d * 0.5 + lab)); return Math.hypot(cx - c.x, cy - c.y) < d * 0.5 - 2; }
     function ok(p, x, y) { return Math.hypot(p.x - x, p.y - y) >= minD && !hit(p, { x: x, y: y }) && !hit({ x: x, y: y }, p); }
@@ -37,7 +37,7 @@
     if (!best) { best = []; var cols = narrow ? 2 : 3; for (var i = 0; i < n; i++) best.push({ x: padX + (i % cols) * (W - 2 * padX) / Math.max(1, cols - 1), y: top + Math.floor(i / cols) * (d + lab) }); }
     return { d: d, pts: best };
   }
-  function fit() { var n = L.length, narrow = field.clientWidth < 700; field.style.height = (narrow ? Math.max(440, Math.ceil(n / 2) * 250 + 60) : Math.max(460, Math.ceil(n / 3) * 270 + 120)) + 'px'; }
+  function fit() { var n = L.length, narrow = field.clientWidth < 700; field.style.height = (narrow ? Math.max(440, Math.ceil(n / 2) * 250 + 60) : Math.max(440, Math.ceil(n / 3) * 230 + 100)) + 'px'; }
   function render() {
     fit(); field.innerHTML = ''; var G = layout(), order = shuffle(L.slice()); GEO = { d: G.d, pos: {} };
     order.forEach(function (a, i) {
@@ -56,8 +56,8 @@
     var on = filt === 'all' ? [] : L.filter(function (a) { return a.secteurs.indexOf(filt) > -1; });
     var k = on.length, cols = k ? Math.min(k, narrow ? 2 : 4) : 1, rows = k ? Math.ceil(k / cols) : 1;
     var lab = d * 0.5, gap = 1.12;
-    var s = Math.min(1.9, (W * 0.88) / (cols * d * gap), (H * 0.9) / (rows * (d + lab) * gap)); s = Math.max(1, s);
-    var cell = d * s * gap, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = H / 2 - (rows * cellH) / 2 + (d * s) / 2;
+    var s = Math.min(1.3, (W * 0.92) / (cols * d * 1.6), (H * 0.9) / (rows * (d + lab) * gap)); s = Math.max(1, s);
+    var cell = d * s * 1.6, cellH = (d + lab) * s * gap, x0 = W / 2 - (cols * cell) / 2 + cell / 2, y0 = H / 2 - (rows * cellH) / 2 + (d * s) / 2;
     var idx = {}; on.forEach(function (a, i) { idx[a.id] = i; });
     field.querySelectorAll('.bb').forEach(function (b) {
       var id = b.dataset.id, o = GEO.pos[id];
@@ -74,6 +74,8 @@
     field.classList.toggle('f', filt !== 'all');
     var on = GEO ? zoom() : [];
     field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('on', filt === 'all' || b.dataset.s.split(' ').indexOf(filt) > -1); b.classList.toggle('sel', b.dataset.id === sel); });
+    var liste = sec.querySelector('.ag-list');   // la liste du bas suit le secteur choisi
+    if (liste) { liste.classList.toggle('f', filt !== 'all'); liste.querySelectorAll('.ag-scard').forEach(function (c) { c.classList.toggle('on', (c.dataset.s || '').split(' ').indexOf(filt) > -1); }); }
     chips.querySelectorAll('[data-sect]').forEach(function (c) { var on2 = c.dataset.sect === filt; c.classList.toggle('is-on', on2); c.setAttribute('aria-pressed', on2 ? 'true' : 'false'); });
     if (filt !== 'all' && on.length === 1) { sel = on[0].id; show(on[0]); field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('sel', b.dataset.id === sel); }); }
   }
