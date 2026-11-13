@@ -14,8 +14,6 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-24 à vendre · 8 à louer
-
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
 
  650 € par mois
@@ -335,6 +333,8 @@ Carcassonne · Narbonne
  Capendu · 1457 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+Aucune annonce ne correspond à ces critères.
 
  Présentation
 

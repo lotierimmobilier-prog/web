@@ -14,8 +14,6 @@ Nîmes Montpellier
 ## Les biens de Élodie
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-12 à vendre · 2 à louer
-
  [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
 
  255 000 €
@@ -155,6 +153,8 @@ Nîmes Montpellier
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+Aucune annonce ne correspond à ces critères.
 
  Présentation
 

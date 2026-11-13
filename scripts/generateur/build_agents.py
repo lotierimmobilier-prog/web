@@ -187,6 +187,34 @@ def activite(a, ann):
     chiffres = {"biens": len(ann), "vente": len(nv), "location": len(nl), "communes": len(villes), "types": types, "prix": " · ".join(prix)}
     return [p1] + ([" ".join(p2)] if p2 else []), list(dict.fromkeys(spe)), mots, chiffres
 
+def filtres_annonces(ann):
+    """Mêmes filtres et tri que la page « Nos annonces » (même script js/main.js), limités aux biens de l'agent."""
+    from collections import Counter
+    nv = sum(1 for x in ann if x["type"] == "vente"); nl = len(ann) - nv
+    biens = Counter(categorie_bien(x) for x in ann); deps = Counter(departement(x) for x in ann)
+    villes = sorted({x["ville"] for x in ann if x["ville"]})
+    o_ville = "".join(f'<option value="{e(v)}" data-dep="{e(departement(next(x for x in ann if x["ville"] == v)))}">{e(v)}</option>' for v in villes)
+    o_bien = "".join(f'<option value="{k}">{e(lib)} ({biens[k]})</option>' for k, lib in BIENS_LIBELLES.items() if biens.get(k))
+    o_dep = "".join(f'<option value="{c}">{e(n)} ({c}) · {deps[c]}</option>' for c, n in DEPARTEMENTS.items() if deps.get(c))
+    cache = lambda n: " hidden" if n < 2 else ""      # un seul département ou une seule ville : le choix n'a pas de sens
+    mixte = "" if nv and nl else " hidden"
+    return f'''<form class="ann-filtres" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
+        <div class="chip-links" role="group" aria-label="Vente ou location"{mixte}>
+          <button type="button" class="chip-link is-on" data-ann-type-btn="" aria-pressed="true">Toutes ({len(ann)})</button>
+          <button type="button" class="chip-link" data-ann-type-btn="vente" aria-pressed="false">À vendre ({nv})</button>
+          <button type="button" class="chip-link" data-ann-type-btn="location" aria-pressed="false">À louer ({nl})</button>
+        </div>
+        <div class="ann-champs">
+          <label{cache(len(biens))}><span>Type de bien</span><select data-ann-bien><option value="">Tous les biens</option>{o_bien}</select></label>
+          <label{cache(len(deps))}><span>Département</span><select data-ann-dep><option value="">Tous les départements</option>{o_dep}</select></label>
+          <label{cache(len(villes))}><span>Ville</span><select data-ann-city><option value="">Toutes les villes</option>{o_ville}</select></label>
+          <label{mixte}><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
+          <label{mixte}><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Trier par</span><select data-ann-sort><option value="">Sélection LOTIER</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
+        </div>
+        <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
+      </form>'''
+
 # ---------- fiche d'un agent ----------
 def fiche(a):
     p2 = "../../"
@@ -236,9 +264,9 @@ def fiche(a):
         </div>
       </div>
     </section>
-''' + f'''    <section class="section container" aria-labelledby="ag-ann">
+''' + f'''    <section class="section container{" ann-list" if len(ann) >= 4 else ""}" aria-labelledby="ag-ann"{" data-annonces" if len(ann) >= 4 else ""}>
       <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de {e(a["prenom"])}</h2></div><a class="text-link" href="{p2}nos-annonces/">Toutes les annonces</a></div>
-      {('<p class="muted small" data-ann-count aria-live="polite">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards" data-ann-grid>' + cartes + '</div>') if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
+      {((filtres_annonces(ann) + '<div class="cards" data-ann-grid>' + cartes + '</div><p class="muted" data-ann-empty hidden>Aucune annonce ne correspond à ces critères. <button type="button" class="text-link ann-reset" data-ann-reset>Réinitialiser les filtres</button></p>') if len(ann) >= 4 else ('<p class="muted small">' + f"{nv} à vendre · {nl} à louer" + '</p><div class="cards">' + cartes + '</div>')) if ann else f'<p class="muted">{e(a["prenom"])} n\'a pas d\'annonce en ligne pour le moment. <a class="text-link" href="{p2}nos-annonces/">Voir toutes nos annonces</a> ou <a class="text-link" href="{p2}contact/">contactez l\'agence</a>.</p>'}
     </section>
 ''' + (f'''    <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec {e(a["prenom"])}</h2></div></div>
       {tuiles}
@@ -249,7 +277,7 @@ def fiche(a):
     <section class="section container"><div class="glass cta-box"><div><h2>Un projet de vente, de location ou d'estimation ?</h2><p>{e(a["prenom"])} vous répond directement.</p></div><div class="acts"><a class="btn btn-gold btn-lg mag" href="{p2}index.html#estimer">Estimer mon bien {ARROW}</a>{('<a class="btn btn-ghost btn-lg mag" href="tel:' + tel_intl(a["telephone"]) + '">' + PH + e(a["telephone"]) + '</a>') if a.get("telephone") else ""}</div></div></section>'''
     if not ann and not independant(a):     # un gestionnaire, un associé ou un alternant n'a pas d'annonces : pas de rubrique vide
         import re as _re2
-        body = _re2.sub(r'    <section class="section container" aria-labelledby="ag-ann">.*?</section>\n', "", body, count=1, flags=_re2.S)
+        body = _re2.sub(r'    <section class="section container[^"]*" aria-labelledby="ag-ann"[^>]*>.*?</section>\n', "", body, count=1, flags=_re2.S)
     secteurs_txt = ", ".join(a["communes"][:4])
     titre = (f'{nom}, agent immobilier {("à " + secteurs_txt.split(",")[0]) if a["communes"] else ""} | LOTIER' if independant(a) else f'{nom}, {a["role"][:1].lower() + a["role"][1:]} | LOTIER').replace("  ", " ")
     desc = (bio[:150].rsplit(" ", 1)[0] + "…") if len(bio) > 160 else (bio or f'{nom}, {a["role"].lower()} LOTIER Immobilier.' + (f' Secteur : {secteurs_txt}.' if secteurs_txt else '') + ' Coordonnées' + (' et annonces.' if ann else ' et présentation.'))

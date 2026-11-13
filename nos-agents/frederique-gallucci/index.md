@@ -14,8 +14,6 @@ Nîmes
 ## Les biens de Frédérique
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-8 à vendre · 0 à louer
-
  [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
 
  261 000 €
@@ -95,6 +93,8 @@ Nîmes
  Aubais · 69 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
+
+Aucune annonce ne correspond à ces critères.
 
  Présentation
 
