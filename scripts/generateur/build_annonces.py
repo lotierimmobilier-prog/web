@@ -269,8 +269,7 @@ def detail_page(a, tous=()):
         nom_html = f'<a href="{p2}nos-agents/{fiche["slug"]}/">{e(nom_aff)}</a>' if fiche else e(nom_aff)
         agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{ava}</span><div><strong>{nom_html}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'
-                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
-                 f'            <p class="muted small">Standard de l’agence : <a class="text-link" href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p>')
+                 f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>')
     else:
         agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')
