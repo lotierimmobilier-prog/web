@@ -299,14 +299,38 @@ legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votr
 # ---------- Déclaration d'accessibilité ----------
 legal_page("accessibilite", "Déclaration d'accessibilité", "Notre engagement pour un site utilisable par tous.", "Accessibilité", f'''
         <h2>Notre engagement</h2>
-        <p>LOTIER Immobilier s'efforce de rendre ce site accessible : navigation au clavier, contrastes de couleurs, textes alternatifs sur les images, respect du réglage « réduire les animations » de votre appareil.</p>
+        <p>LOTIER Immobilier veut un site utilisable par le plus grand nombre, quels que soient l'appareil, la façon de naviguer ou le handicap. Cette déclaration concerne le site <b>lotier.immo</b>.</p>
         <h2>État de conformité</h2>
-        <p>{PH_TXT} : le niveau de conformité au référentiel RGAA n'a pas encore été évalué par un audit. Aucune conformité n'est déclarée à ce jour.</p>
+        <p>Le site n'a pas encore fait l'objet d'un audit de conformité au référentiel général d'amélioration de l'accessibilité (RGAA). Aucun niveau de conformité n'est donc déclaré à ce jour.</p>
+        <p>En attendant cet audit, les pages sont contrôlées à chaque évolution avec un outil de tests automatisés. Ces contrôles ne détectent qu'une partie des défauts possibles et ne remplacent pas un audit.</p>
+        <h2>Ce qui est prévu pour faciliter la navigation</h2>
+        <ul>
+          <li>Navigation possible au clavier, avec un lien « Aller au contenu » en début de page et un repère visible sur l'élément actif ;</li>
+          <li>Titres et rubriques structurés, pour les lecteurs d'écran ;</li>
+          <li>Textes alternatifs sur les images qui portent une information ;</li>
+          <li>Contrastes de couleurs renforcés entre le texte et le fond ;</li>
+          <li>Respect du réglage « réduire les animations » de votre appareil : l'animation d'ouverture de l'accueil et les effets de mouvement sont alors désactivés ;</li>
+          <li>Mise en page qui s'adapte à la taille de l'écran et au grossissement du texte ;</li>
+          <li>Page « Nos agents » : la liste des agents est aussi proposée sous forme de liste simple, sous les portraits animés.</li>
+        </ul>
+        <h2>Contenus qui peuvent poser difficulté</h2>
+        <ul>
+          <li>Les avis Google, affichés par un service extérieur (Trustindex), dont nous ne maîtrisons pas l'accessibilité ;</li>
+          <li>L'estimation en ligne et l'espace client MyLotier, fournis par notre logiciel de gestion, qui n'ont pas été évalués ;</li>
+          <li>Les photos des annonces, dont le texte alternatif reprend le titre de l'annonce sans décrire chaque image ;</li>
+          <li>Les descriptions des annonces, saisies par nos agents, dont la rédaction peut varier.</li>
+        </ul>
         <h2>Signaler un défaut d'accessibilité</h2>
-        <p>Si vous ne parvenez pas à accéder à un contenu ou à un service, écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez le <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a> : nous vous fournirons l'information sous une autre forme.</p>
+        <p>Si vous ne parvenez pas à accéder à un contenu ou à un service, écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez le <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>. Nous vous fournirons l'information sous une autre forme et corrigerons le défaut signalé.</p>
         <h2>Voies de recours</h2>
-        <p>{PH_TXT} : coordonnées du Défenseur des droits, à indiquer si votre demande reste sans réponse satisfaisante.</p>''',
-  "Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus non accessibles et moyens de nous contacter.")
+        <p>Si vous avez signalé un défaut d'accessibilité qui vous empêche d'accéder à un contenu ou à un service et que vous n'avez pas obtenu de réponse satisfaisante, vous pouvez :</p>
+        <ul>
+          <li>écrire un message au <a class="text-link" href="https://formulaire.defenseurdesdroits.fr/" rel="noopener">Défenseur des droits</a> ;</li>
+          <li>contacter le <a class="text-link" href="https://www.defenseurdesdroits.fr/saisir/delegues" rel="noopener">délégué du Défenseur des droits dans votre région</a> ;</li>
+          <li>envoyer un courrier par la poste (gratuit, sans timbre) : Défenseur des droits, Libre réponse 71120, 75342 Paris CEDEX 07.</li>
+        </ul>
+        <p>Déclaration établie en novembre 2026.</p>''',
+  "Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus qui peuvent poser difficulté et moyens de nous contacter.", note="")
 
 # ---------- Plan du site (HTML) ----------
 def plan_page():
