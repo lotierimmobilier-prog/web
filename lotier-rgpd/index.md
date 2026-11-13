@@ -82,9 +82,15 @@ Cette politique couvre les données recueillies **en agence** (projets de vente,
 
 - **Projet :** type de bien recherché, localisation, budget, informations saisies librement dans vos messages ;
 
+- **Demande sur une annonce :** la référence du bien concerné et l'agent qui le présente, joints à votre demande de rappel ;
+
+- **Assistant en ligne :** les messages que vous écrivez à Auguste, l'assistant du site ;
+
 - **Navigation :** données techniques de connexion (adresse IP, type de navigateur) traitées par l'hébergeur pour assurer le fonctionnement et la sécurité du site.
 
-Les champs signalés comme obligatoires sont nécessaires au traitement de votre demande : sans eux, nous ne pouvons pas y donner suite. Le formulaire d'estimation prépare un e-mail adressé à l'agence : les informations partent depuis votre messagerie.
+Les champs signalés comme obligatoires sont nécessaires au traitement de votre demande : sans eux, nous ne pouvons pas y donner suite.
+
+Les formulaires de contact et de rappel, l'estimation en ligne et l'assistant Auguste transmettent vos informations à Collab, le logiciel de gestion de l'agence. Une demande de rappel faite depuis une annonce est adressée à l'agent qui présente ce bien. Le formulaire de candidature de la page « Rejoindre » prépare un e-mail : les informations partent depuis votre propre messagerie.
 
 ## Finalités et bases légales
 
@@ -94,7 +100,9 @@ Les champs signalés comme obligatoires sont nécessaires au traitement de votre
 | Gestion locative : baux, quittances, états des lieux, charges | Exécution du mandat de gestion |
 | Syndic : convocations, procès-verbaux, appels de fonds, sinistres | Exécution du contrat de syndic |
 | Comptabilité, obligations fiscales, lutte contre le blanchiment et le financement du terrorisme | Obligation légale |
+| Réponse à vos demandes de contact, de rappel et d'estimation, et aux questions posées à l'assistant en ligne | Mesures précontractuelles prises à votre demande |
 | Communications commerciales, newsletters, propositions de biens | Votre consentement, retirable à tout moment |
+| Présentation des agents et de l'équipe sur le site (photo, coordonnées professionnelles) | Consentement de la personne concernée |
 | Sécurité du site, amélioration du service, statistiques de fréquentation (sans cookie) | Intérêt légitime |
 | Gestion des litiges et recouvrement | Intérêt légitime (défense de nos droits) |
 
@@ -108,9 +116,15 @@ Vos données sont traitées par les collaborateurs habilités de l'agence, dans 
 
 - les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;
 
+- les agents commerciaux indépendants de l'agence, pour les demandes qui portent sur les biens qu'ils présentent ;
+
+- Collab, notre logiciel de gestion interne, qui reçoit les demandes envoyées depuis le site et les échanges avec l'assistant en ligne ;
+
 - notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;
 
 - notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site, hébergées dans l'Union européenne ;
+
+- Trustindex, le service qui affiche les avis Google, uniquement si vous choisissez de les afficher ;
 
 - un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;
 
@@ -183,7 +197,7 @@ Nous vous invitons à nous contacter en premier lieu. En l'absence de réponse o
 
 ## Cookies
 
-Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose ni cookie publicitaire, ni cookie de réseau social. La mesure d'audience (Umami) fonctionne sans cookie. La police de caractères est hébergée sur le site : aucune donnée n'est transmise à un service tiers pour l'afficher.
+Un cookie est un petit fichier enregistré sur votre appareil lors de la visite d'un site. À ce jour, ce site ne dépose aucun cookie : ni cookie publicitaire, ni cookie de réseau social, ni cookie de mesure d'audience. La mesure d'audience (Umami) fonctionne sans cookie et vous pouvez la refuser. Les polices de caractères sont hébergées sur le site : aucune donnée n'est transmise à un service tiers pour les afficher.
 
 Si de tels cookies étaient ajoutés, vous en seriez informé et votre consentement serait demandé avant tout dépôt, avec un refus aussi simple que l'acceptation et une durée de validité de 13 mois au maximum. Vous pouvez aussi configurer votre navigateur pour refuser ou supprimer les cookies. Le détail figure sur la page [Cookies et traceurs](https://lotier.immo/cookies/) ; voir aussi les conseils de la [CNIL](https://www.cnil.fr/fr/cookies-et-traceurs-comment-les-maitriser).
 
