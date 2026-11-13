@@ -14,6 +14,7 @@
    "nom": "Bouba",
    "fonction": "Agent Commercial - Secteur Carcassonne - Narbonne (11)",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
    "secteurs": [
     "carcassonne"
    ],
@@ -26,7 +27,7 @@
    ],
    "email": "barbara.bouba@lotier-immobilier.com",
    "telephone": "06 51 45 06 63",
-   "mini_site": "",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/barbara.bouba",
    "photo": "assets/agents/barbara-bouba.jpg",
    "bio": null,
    "presentation": null,
@@ -45,6 +46,7 @@
    "nom": "Aubin",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
    "secteurs": [
     "nimes"
    ],
@@ -53,7 +55,7 @@
    ],
    "email": "celine.aubin@lotier-immobilier.com",
    "telephone": "06 16 29 35 31",
-   "mini_site": "",
+   "mini_site": "https://collab.lotier-immobilier.com/annonces/celine.aubin",
    "photo": "assets/agents/celine-aubin.jpg",
    "bio": null,
    "presentation": null,
@@ -72,6 +74,7 @@
    "nom": "Chardot",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
    "secteurs": [
     "nimes",
     "montpellier"
@@ -101,6 +104,7 @@
    "nom": "Gallucci",
    "fonction": "Agent Commercial - Secteur Nimes (30) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
    "secteurs": [
     "nimes"
    ],
@@ -132,6 +136,7 @@
    "nom": "Dias",
    "fonction": "Agent Commercial - Secteur Béziers (34) et alentours",
    "role": "Agent commercial indépendant",
+   "statut": "independant",
    "secteurs": [
     "beziers"
    ],
