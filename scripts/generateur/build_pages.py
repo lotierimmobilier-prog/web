@@ -279,7 +279,7 @@ if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le si
     urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag if a.get("rsac")]
 if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
 urls += [(f"{SITE}/annonces/{a['id']}/", today, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
-urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic")]
+urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
 urls += [(f"{SITE}/blog/{a['slug']}.html", a["date"].isoformat(), "0.7", "monthly") for a in ARTICLES_BY_DATE]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<!-- À compléter à chaque nouvelle page : annonces, articles, villes. -->\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

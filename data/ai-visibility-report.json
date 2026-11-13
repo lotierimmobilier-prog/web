@@ -161,7 +161,7 @@
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 128,
+  "pages_indexables": 129,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2247,6 +2247,19 @@
     "CollectionPage",
     "ItemList",
     "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-honoraires/",
+   "type": "service",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
    ],
    "markdown": true,
    "problemes": []

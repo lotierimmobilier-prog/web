@@ -17,7 +17,7 @@ def hero(title, lead, crumb):
       </div>
     </section>'''
 
-def legal_page(folder, title, lead, crumb, blocks, desc, note="Page à valider par l'agence avant publication : les champs entre crochets sont à compléter. Ce texte ne remplace pas l'avis d'un professionnel du droit."):
+def legal_page(folder, title, lead, crumb, blocks, desc, note="Page à valider par l'agence avant publication : les champs entre crochets sont à compléter. Ce texte ne remplace pas l'avis d'un professionnel du droit.", robots=None, extra_ld=()):
     """Page légale servie à l'adresse /<folder>/ (dossier avec index.html), comme sur l'ancien site."""
     prefix = "../"
     legal_note = f'<p class="legal-note glass">{e(note)}</p>' if note else ""
@@ -39,7 +39,7 @@ def legal_page(folder, title, lead, crumb, blocks, desc, note="Page à valider p
     os.makedirs(f"{ROOT}/{folder}", exist_ok=True)
     open(f"{ROOT}/{folder}/index.html", "w", encoding="utf-8").write(
         shell(prefix, f"{title} | LOTIER Immobilier", desc, f"{folder}/", body,
-              [breadcrumb_ld([("Accueil", SITE + "/"), (crumb, f"{SITE}/{folder}/")])], "assets/og-lotier.jpg", robots=NOINDEX))
+              [breadcrumb_ld([("Accueil", SITE + "/"), (crumb, f"{SITE}/{folder}/")]), *extra_ld], "assets/og-lotier.jpg", robots=robots or NOINDEX))
 
 # ---------- Mentions légales (informations reprises de l'ancien site) ----------
 NOTE_REPRISE = ""
@@ -263,6 +263,17 @@ hon_gli = hon_table(["Assurance loyers impayés", "Tarif"], [("Assurances Cheval
 hon_syn = hon_table(["Taille de la copropriété", "Honoraires annuels (TTC)"], num=True, rows=[
     ("De 1 à 10 lots", "2 000 €"), ("De 11 à 50 lots", "160 € par lot"), ("De 51 à 100 lots", "150 € par lot"),
     ("De 101 à 200 lots", "144 € par lot"), ("Plus de 200 lots", "Sur devis")])
+HON_FAQ = [
+    ("Qui paie les honoraires de vente ?", "Ils sont à la charge du vendeur, toutes taxes comprises, et inclus dans le prix affiché du bien."),
+    ("Les honoraires de vente sont-ils dégressifs ?", "Oui. Le barème est de 10 % (minimum 3 000 €) jusqu'à 70 000 €, 8 % de 70 001 à 100 000 €, 7 % de 100 001 à 150 000 €, 6 % de 150 001 à 200 000 € et 5 % à partir de 200 001 €. Pour un bien à 10 000 € ou moins, les honoraires sont de 3 000 €."),
+    ("Combien coûte la mise en location d'un logement ?", "Les honoraires de mise en location sont exprimés par mètre carré de surface habitable : 8,07 € TTC hors zone tendue, 10,09 € TTC en zone tendue et 12,10 € TTC en zone très tendue. L'état des lieux d'entrée et de sortie coûte 3,03 € TTC par mètre carré, quelle que soit la zone. Ces montants valent pour les baux signés à partir du 1er janvier 2026."),
+    ("Combien coûte la gestion locative ?", "Deux formules : la gestion complète à 7 % HT par mois (soit 8,40 % TTC), qui comprend le contentieux et le suivi des travaux, ou la gestion locative à 39,99 € TTC par mois, pour la gestion administrative, quotidienne et financière et la révision du loyer."),
+    ("L'assurance loyers impayés est-elle obligatoire ?", "Non, elle est facultative : 4 % du loyer charges comprises avec les Assurances Chevalier, ou 3,5 % TTC du loyer charges comprises avec Mila / Zelok."),
+    ("Comment sont calculés les honoraires de syndic ?", "Ils sont annuels, toutes taxes comprises : 2 000 € pour une copropriété de 1 à 10 lots, puis 160 € par lot de 11 à 50 lots, 150 € par lot de 51 à 100 lots et 144 € par lot de 101 à 200 lots ; au-delà de 200 lots, sur devis. Ils sont répartis entre les copropriétaires selon leurs millièmes."),
+]
+hon_faq = '<h2 id="questions">Questions fréquentes</h2><div class="faq faq-simple">' + "".join(f'<details><summary><h3>{e(q)}</h3></summary><div class="answer"><p>{e(a)}</p></div></details>' for q, a in HON_FAQ) + '</div>'
+hon_ld = {"@context": "https://schema.org", "@type": "FAQPage", "@id": SITE + "/nos-honoraires/#faq", "inLanguage": "fr-FR",
+          "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in HON_FAQ]}
 legal_page("nos-honoraires", "Nos honoraires", "Le barème des honoraires de l'agence, tel qu'il est affiché en agence.", "Nos honoraires", f'''
         <p>Ni forfait au rabais, ni tarifs excessifs qui compliquent parfois l'obtention d'un prêt : nous avons établi un barème lisible, applicable à tous.</p>
         <h2 id="vente">Vente</h2>
@@ -279,8 +290,10 @@ legal_page("nos-honoraires", "Nos honoraires", "Le barème des honoraires de l'a
         <p>Honoraires annuels, toutes taxes comprises (TVA à 20 %).</p>
         {hon_syn}
         <p>Ces honoraires sont répartis entre les copropriétaires selon leurs millièmes. Ils s'appliquent par lot principal (un appartement, par exemple) et non aux lots accessoires (garage, parking, cave…), sauf si ces lots sont indépendants, par exemple lorsque leur propriétaire ne possède pas d'appartement.</p>
-        <p>Pour toute précision sur ce barème : <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou {PHONE_DISPLAY}.</p>''',
-  "Barème des honoraires de LOTIER Immobilier : vente, location, gestion locative, assurance loyers impayés et syndic.", note="")
+        <p>Pour toute précision sur ce barème : <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou {PHONE_DISPLAY}.</p>
+        {hon_faq}''',
+  "Barème des honoraires de LOTIER Immobilier : vente, location, gestion locative, assurance loyers impayés et syndic.", note="",
+  robots="index, follow, max-image-preview:large, max-snippet:-1", extra_ld=[hon_ld])
 
 # ---------- Cookies et traceurs ----------
 legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votre appareil, les services qu'il appelle, et comment gérer vos choix.", "Cookies et traceurs", f'''
