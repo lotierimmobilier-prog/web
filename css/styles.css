@@ -1222,7 +1222,7 @@ a.tb-rate { padding-block: 8px; }
 .ag-ph { display: block; width: 72px; height: 72px; border-radius: 50%; overflow: hidden; background: #f1ece0; flex: none; border: 3px solid var(--rc, #867244); }
 .ag-ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ag-ini { display: grid; place-items: center; color: #5c4a1f; font-weight: 600; font-size: 22px; }
-.ag-ph-xl { width: clamp(140px, 20vw, 220px); height: clamp(140px, 20vw, 220px); border-width: 6px; box-shadow: 0 14px 30px rgba(15, 39, 68, .25); }
+.ag-ph-xl { width: clamp(130px, 16vw, 180px); height: clamp(130px, 16vw, 180px); border-width: 6px; box-shadow: 0 14px 30px rgba(15, 39, 68, .25); }
 .ag-ph-xl.ag-ini { font-size: 56px; }
 .bb { position: absolute; width: var(--d); height: var(--d); border: 0; padding: 0; background: none; cursor: pointer; font: inherit; color: inherit; transition: transform .7s cubic-bezier(.2, .7, .2, 1), opacity .4s, filter .4s; z-index: var(--z, 1); animation: ag-pop .6s cubic-bezier(.2, .9, .3, 1.2) backwards; animation-delay: var(--dl, 0s); }
 @keyframes ag-pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: none; } }
