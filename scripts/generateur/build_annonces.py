@@ -270,6 +270,9 @@ def detail_page(a, tous=()):
         agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{ava}</span><div><strong>{nom_html}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>')
+        if fiche and fiche.get("rsac"):
+            agent += (f'\n            <p class="muted small ann-rsac">{e(fiche.get("role") or "Agent commercial")} · immatriculé'
+                      + (f' au RSAC de {e(fiche["rsac_ville"])}' if fiche.get("rsac_ville") else ' au RSAC') + f' n° {e(fiche["rsac"])}</p>')
     else:
         agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')
