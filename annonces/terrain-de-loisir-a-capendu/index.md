@@ -79,6 +79,8 @@ Réf. 2_BBVTE30000159
  [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
 
+Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
+
 Annonce proposée par LOTIER Immobilier.
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)

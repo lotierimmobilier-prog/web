@@ -313,7 +313,7 @@ def detail_page(a, tous=()):
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>')
         if fiche and fiche.get("rsac"):
             agent += (f'\n            <p class="muted small ann-rsac">{e(fiche.get("role") or "Agent commercial")} · immatriculé'
-                      + (f' au RSAC de {e(fiche["rsac_ville"])}' if fiche.get("rsac_ville") else ' au RSAC') + f' n° {e(fiche["rsac"])}</p>')
+                      + ((" au RSAC d’" if _unaccent(fiche["rsac_ville"])[:1].lower() in "aeiouyh" else " au RSAC de ") + e(fiche["rsac_ville"]) if fiche.get("rsac_ville") else ' au RSAC') + f' n° {e(fiche["rsac"])}</p>')
     else:
         agent = (f'<a class="btn btn-gold btn-lg btn-block mag" href="{p2}contact/" {rappel_attrs}>Être rappelé {ARROW}</a>\n'
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')

@@ -1,6 +1,6 @@
 # Élodie Chardot
 
-> Élodie Chardot, agent commercial indépendant LOTIER Immobilier. Secteur : Montpellier, Nîmes, Clarensac, Alès. Coordonnées et annonces.
+> Élodie Chardot, agent commercial indépendant LOTIER Immobilier. Secteur : Nimes, Montpellier. Coordonnées et annonces.
 
 Source : https://lotier.immo/nos-agents/elodie-chardot/
 
@@ -13,15 +13,12 @@ Nîmes Montpellier
 
 ## Faire connaissance avec Élodie
 
-Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier. Communes couvertes : Montpellier, Nîmes, Clarensac, Alès, Castelnau-le-Lez.[Son mini-site](https://collab.lotier-immobilier.com/annonces/elodie.chardot)
+Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier. Communes couvertes : Nimes, Montpellier.[Son mini-site](https://collab.lotier-immobilier.com/annonces/elodie.chardot)
 
 ### Communes couvertes
 
+- Nimes
 - Montpellier
-- Nîmes
-- Clarensac
-- Alès
-- Castelnau-le-Lez
 
  Annonces
 
@@ -169,6 +166,8 @@ Nîmes Montpellier
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Nîmes sous le n° 882042278. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 
 ## Un projet de vente, de location ou d'estimation ?
 

@@ -1,104 +1,120 @@
 {
- "_aide": "Réglages de la page /nos-agents/. Les agents eux-mêmes viennent de Collab (data/agents.json est écrit par scripts/sync_agents.py, ne pas le modifier à la main). Ici : les secteurs affichés, les agents à ne pas afficher, les corrections d'orthographe, et l'ouverture aux moteurs de recherche.",
- "indexable": false,
- "indexable_aide": "Mettre true quand chaque agent a donné son accord pour la publication (photo, téléphone, e-mail) et que le numéro RSAC de chacun est renseigné. Tant que c'est false, la page reste masquée de Google.",
- "secteurs": [
-  {
-   "id": "beziers",
-   "nom": "Béziers",
-   "dept": "Hérault",
-   "couleur": "#d4502a",
-   "mots_fonction": [
-    "beziers",
-    "agde"
-   ],
-   "communes": [
-    "Béziers",
-    "Agde",
-    "Villeneuve-lès-Béziers",
-    "Maureilhan",
-    "Sérignan",
-    "Valras-Plage"
-   ]
+  "_aide": "Réglages de la page /nos-agents/. Les agents eux-mêmes viennent de Collab (data/agents.json est écrit par scripts/sync_agents.py, ne pas le modifier à la main). Ici : les secteurs affichés, les agents à ne pas afficher, les corrections d'orthographe, et l'ouverture aux moteurs de recherche.",
+  "indexable": false,
+  "indexable_aide": "Mettre true quand chaque agent a donné son accord pour la publication (photo, téléphone, e-mail) et que le numéro RSAC de chacun est renseigné. Tant que c'est false, la page reste masquée de Google.",
+  "secteurs": [
+    {
+      "id": "beziers",
+      "nom": "Béziers",
+      "dept": "Hérault",
+      "couleur": "#d4502a",
+      "mots_fonction": [
+        "beziers",
+        "agde"
+      ],
+      "communes": [
+        "Béziers",
+        "Agde",
+        "Villeneuve-lès-Béziers",
+        "Maureilhan",
+        "Sérignan",
+        "Valras-Plage"
+      ]
+    },
+    {
+      "id": "carcassonne",
+      "nom": "Carcassonne · Narbonne",
+      "dept": "Aude",
+      "couleur": "#1f7a98",
+      "mots_fonction": [
+        "carcassonne",
+        "narbonne"
+      ],
+      "communes": [
+        "Carcassonne",
+        "Narbonne",
+        "Lézignan",
+        "Capendu",
+        "Trèbes"
+      ]
+    },
+    {
+      "id": "montpellier",
+      "nom": "Montpellier",
+      "dept": "Hérault",
+      "couleur": "#8a3d7a",
+      "mots_fonction": [
+        "montpellier"
+      ],
+      "communes": [
+        "Montpellier",
+        "Castelnau-le-Lez"
+      ]
+    },
+    {
+      "id": "nimes",
+      "nom": "Nîmes",
+      "dept": "Gard",
+      "couleur": "#2f8a5f",
+      "mots_fonction": [
+        "nimes"
+      ],
+      "communes": [
+        "Nîmes",
+        "Clarensac",
+        "Caveirac",
+        "Aubais",
+        "Calvisson",
+        "Beaucaire",
+        "Alès",
+        "Meynes",
+        "Garons"
+      ]
+    }
+  ],
+  "masquer": [
+    "agt_e913617b60d3"
+  ],
+  "masquer_aide": "Identifiants Collab des personnes à ne pas afficher. Nicolas Popovitch (gérant) est masqué : pas de photo, e-mail personnel. Retirer son identifiant pour l'afficher.",
+  "corrections_prenom": {
+    "Celine": "Céline",
+    "Elodie": "Élodie",
+    "Laetitia": "Laëtitia",
+    "Frederique": "Frédérique"
   },
-  {
-   "id": "carcassonne",
-   "nom": "Carcassonne · Narbonne",
-   "dept": "Aude",
-   "couleur": "#1f7a98",
-   "mots_fonction": [
-    "carcassonne",
-    "narbonne"
-   ],
-   "communes": [
-    "Carcassonne",
-    "Narbonne",
-    "Lézignan",
-    "Capendu",
-    "Trèbes"
-   ]
+  "ordre": [],
+  "profils": {
+    "agt_d36faf151fc8": {
+      "rsac": "890009269",
+      "rsac_ville": "Carcassonne"
+    },
+    "agt_4041115b3d3c": {
+      "rsac": "850128372",
+      "rsac_ville": "Argenteuil"
+    },
+    "agt_1c816c97f1fb": {
+      "rsac": "882042278",
+      "rsac_ville": "Nîmes"
+    },
+    "agt_8b5b94ce6fb3": {
+      "rsac": "922798186"
+    }
   },
-  {
-   "id": "montpellier",
-   "nom": "Montpellier",
-   "dept": "Hérault",
-   "couleur": "#8a3d7a",
-   "mots_fonction": [
-    "montpellier"
-   ],
-   "communes": [
-    "Montpellier",
-    "Castelnau-le-Lez"
-   ]
+  "profils_aide": "Champs à compléter par agent (clé = identifiant Collab) : presentation (texte), reseaux {facebook, instagram, linkedin, tiktok, youtube, whatsapp} (adresses https), specialites (liste parmi le catalogue ci-dessous), google (adresse de sa page Google), mots_cles (liste), rsac (numéro d'immatriculation). Quand Collab saura fournir ces champs, ils seront lus depuis Collab et ce bloc ne servira plus qu'à corriger.",
+  "specialites_catalogue": {
+    "vente": "Vente",
+    "location": "Location",
+    "gestion": "Gestion locative",
+    "syndic": "Syndic de copropriété",
+    "estimation": "Estimation",
+    "investissement": "Investissement locatif",
+    "maison": "Maisons et villas",
+    "appartement": "Appartements",
+    "commerce": "Locaux commerciaux",
+    "terrain": "Terrains",
+    "neuf": "Immobilier neuf",
+    "prestige": "Biens de prestige"
   },
-  {
-   "id": "nimes",
-   "nom": "Nîmes",
-   "dept": "Gard",
-   "couleur": "#2f8a5f",
-   "mots_fonction": [
-    "nimes"
-   ],
-   "communes": [
-    "Nîmes",
-    "Clarensac",
-    "Caveirac",
-    "Aubais",
-    "Calvisson",
-    "Beaucaire",
-    "Alès",
-    "Meynes",
-    "Garons"
-   ]
-  }
- ],
- "masquer": [
-  "agt_e913617b60d3"
- ],
- "masquer_aide": "Identifiants Collab des personnes à ne pas afficher. Nicolas Popovitch (gérant) est masqué : pas de photo, e-mail personnel. Retirer son identifiant pour l'afficher.",
- "corrections_prenom": {
-  "Celine": "Céline",
-  "Elodie": "Élodie",
-  "Laetitia": "Laëtitia",
-  "Frederique": "Frédérique"
- },
- "ordre": [],
- "profils": {},
- "profils_aide": "Champs à compléter par agent (clé = identifiant Collab) : presentation (texte), reseaux {facebook, instagram, linkedin, tiktok, youtube, whatsapp} (adresses https), specialites (liste parmi le catalogue ci-dessous), google (adresse de sa page Google), mots_cles (liste), rsac (numéro d'immatriculation). Quand Collab saura fournir ces champs, ils seront lus depuis Collab et ce bloc ne servira plus qu'à corriger.",
- "specialites_catalogue": {
-  "vente": "Vente",
-  "location": "Location",
-  "gestion": "Gestion locative",
-  "syndic": "Syndic de copropriété",
-  "estimation": "Estimation",
-  "investissement": "Investissement locatif",
-  "maison": "Maisons et villas",
-  "appartement": "Appartements",
-  "commerce": "Locaux commerciaux",
-  "terrain": "Terrains",
-  "neuf": "Immobilier neuf",
-  "prestige": "Biens de prestige"
- },
- "ajouts": [],
- "ajouts_aide": "Agents qui ne sont pas (encore) dans la liste publique de Collab : {prenom, nom, fonction (ex. « Agent Commercial - Secteur Béziers »), email, telephone, communes [liste], secteurs [identifiants, facultatif], photo (ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier)}. À retirer dès qu'ils sont publiés dans Collab."
+  "ajouts": [],
+  "ajouts_aide": "Agents qui ne sont pas (encore) dans la liste publique de Collab : {prenom, nom, fonction (ex. « Agent Commercial - Secteur Béziers »), email, telephone, communes [liste], secteurs [identifiants, facultatif], photo (ex. assets/agents/prenom-nom.jpg, fichier à déposer dans ce dossier)}. À retirer dès qu'ils sont publiés dans Collab."
 }
