@@ -7,7 +7,7 @@ Source : https://lotier.immo/nos-agents/laetitia-dias/
 Agent commercial indépendant · secteur Béziers
 
 Béziers
- [06 09 76 63 24](tel:+33609766324)[Écrire](mailto:laetitia.dias@lotier-immobilier.com)
+ [06 09 76 63 24](tel:+33609766324)[Écrire](mailto:laetitia.dias@lotier-immobilier.com)[Estimer mon bien ](https://lotier.immo/index.html#estimer)
 
  Annonces
 

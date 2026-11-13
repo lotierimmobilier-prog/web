@@ -1299,3 +1299,13 @@ a.tb-rate { padding-block: 8px; }
 .ag-trio .ag-side { align-content: start; gap: 14px; } .ag-trio .ag-side h3 { margin: 0; }
 .ag-types { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; } .ag-types li { padding-bottom: 8px; border-bottom: 1px solid var(--line); } .ag-types li:last-child { border: 0; padding: 0; }
 @media (max-width: 560px) { .ag-stats { grid-template-columns: 1fr 1fr; } }
+
+/* Fiche agent : bouton « Estimer mon bien », animé (reflet qui passe, halo qui respire, flèche qui avance) */
+.ag-estim { position: relative; overflow: hidden; isolation: isolate; animation: ag-halo 2.6s ease-in-out infinite; }
+.ag-estim::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, .38) 50%, transparent 65%); transform: translateX(-120%); animation: ag-reflet 2.6s ease-in-out infinite; }
+.ag-estim svg { transition: transform .25s; animation: ag-fleche 1.3s ease-in-out infinite; }
+.ag-estim:hover { animation-play-state: paused; transform: translateY(-2px); } .ag-estim:hover svg { animation: none; transform: translateX(5px); }
+@keyframes ag-reflet { 0%, 35% { transform: translateX(-120%); } 75%, 100% { transform: translateX(120%); } }
+@keyframes ag-halo { 0%, 100% { box-shadow: 0 0 0 0 rgba(134, 114, 68, .55); } 60% { box-shadow: 0 0 0 12px rgba(134, 114, 68, 0); } }
+@keyframes ag-fleche { 0%, 100% { transform: none; } 50% { transform: translateX(4px); } }
+@media (prefers-reduced-motion: reduce) { .ag-estim, .ag-estim::before, .ag-estim svg { animation: none; } }

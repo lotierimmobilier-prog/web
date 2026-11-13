@@ -7,7 +7,7 @@ Source : https://lotier.immo/nos-agents/barbara-bouba/
 Agent commercial indépendant · secteur Carcassonne · Narbonne
 
 Carcassonne · Narbonne
- [06 51 45 06 63](tel:+33651450663)[Écrire](mailto:barbara.bouba@lotier-immobilier.com)
+ [06 51 45 06 63](tel:+33651450663)[Écrire](mailto:barbara.bouba@lotier-immobilier.com)[Estimer mon bien ](https://lotier.immo/index.html#estimer)
 
  Annonces
 

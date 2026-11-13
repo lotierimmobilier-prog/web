@@ -7,7 +7,7 @@ Source : https://lotier.immo/nos-agents/frederique-gallucci/
 Agent commercial indépendant · secteur Nîmes
 
 Nîmes
- [06 37 64 77 01](tel:+33637647701)[Écrire](mailto:frederique.gallucci@lotier-immobilier.com)
+ [06 37 64 77 01](tel:+33637647701)[Écrire](mailto:frederique.gallucci@lotier-immobilier.com)[Estimer mon bien ](https://lotier.immo/index.html#estimer)
 
  Annonces
 

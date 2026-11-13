@@ -205,6 +205,7 @@ def fiche(a):
     liens = ""
     if a.get("telephone"): liens += f'<a class="btn btn-gold" href="tel:{tel_intl(a["telephone"])}">{PH}{e(a["telephone"])}</a>'
     if a.get("email"): liens += f'<a class="btn btn-ghost" href="mailto:{e(a["email"])}">{MAIL}Écrire</a>'
+    liens += f'<a class="btn btn-navy ag-estim" href="{p2}index.html#estimer"><span>Estimer mon bien</span>{ARROW}</a>'
     if a.get("google"): liens += f'<a class="btn btn-ghost" href="{e(a["google"])}" target="_blank" rel="noopener">{GOOGLE}Avis Google</a>'
     reseaux = "".join(f'<a class="ag-res" href="{e(u)}" target="_blank" rel="noopener me" aria-label="{RES_ICO[k][0]} de {e(nom)}" title="{RES_ICO[k][0]}">{RES_ICO[k][1]}</a>' for k, u in (a.get("reseaux") or {}).items() if k in RES_ICO)
     spe = "".join(f'<li class="ag-spe">{SPE_ICO.get(s, "")}<span>{e(CAT[s])}</span></li>' for s in specialites)

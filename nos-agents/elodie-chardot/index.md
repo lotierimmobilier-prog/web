@@ -7,7 +7,7 @@ Source : https://lotier.immo/nos-agents/elodie-chardot/
 Agent commercial indépendant · secteur Nîmes et Montpellier
 
 Nîmes Montpellier
- [06 73 03 51 96](tel:+33673035196)[Écrire](mailto:elodie.chardot@lotier-immobilier.com)
+ [06 73 03 51 96](tel:+33673035196)[Écrire](mailto:elodie.chardot@lotier-immobilier.com)[Estimer mon bien ](https://lotier.immo/index.html#estimer)
 
  Annonces
 
