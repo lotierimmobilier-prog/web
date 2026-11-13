@@ -1,0 +1,46 @@
+# ==== DÉBUT : redirection de lotier-immobilier.com vers lotier.immo ====
+# À coller TOUT EN HAUT du fichier .htaccess de l'ancien site (avant « # BEGIN WordPress »).
+# Pour revenir en arrière : supprimer ce bloc.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Ne concerne que le site public : collab.lotier-immobilier.com et les autres sous-domaines ne bougent pas.
+RewriteCond %{HTTP_HOST} !^(www\.)?lotier-immobilier\.com$ [NC]
+RewriteRule ^ - [S=14]
+
+# Restent accessibles : l'administration WordPress, les photos, la synchronisation des annonces (ImmoWP)
+# et le robot du nouveau site, qui vient lire les annonces chaque nuit. (La première condition laisse passer
+# les adresses que WordPress a déjà réécrites en interne.)
+RewriteCond %{ENV:REDIRECT_STATUS} !^$ [OR]
+RewriteCond %{REQUEST_URI} ^/(wp-admin|wp-includes|wp-content|wp-json)(/|$) [NC,OR]
+RewriteCond %{REQUEST_URI} ^/(wp-login\.php|wp-cron\.php|xmlrpc\.php)$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} LotierV2-sync [NC,OR]
+RewriteCond %{HTTP_COOKIE} wordpress_logged_in_ [NC]
+RewriteRule ^ - [S=13]
+
+# Annonces : même adresse sur le nouveau site
+RewriteRule ^propriete/([^/]+)/?$ https://lotier.immo/annonces/$1/ [R=301,L,QSD]
+RewriteRule ^(nos-biens|propriete)(/.*)?$ https://lotier.immo/nos-annonces/ [R=301,L,QSD]
+
+# Pages de service
+RewriteRule ^(gestion|gestion-2|gestion-locative|gestion-locative-lotier)/?$ https://lotier.immo/location/ [R=301,L,QSD]
+RewriteRule ^syndic-de-copropriete/?$ https://lotier.immo/syndic/ [R=301,L,QSD]
+RewriteRule ^(mandataire|transaction-mandataire|faq-mandataire|gestion-mandataire)/?$ https://lotier.immo/rejoindre/ [R=301,L,QSD]
+RewriteRule ^(mentions-legales|mentions-legales-2)/?$ https://lotier.immo/mentions-legales/ [R=301,L,QSD]
+RewriteRule ^(jerome-bouba-entrepreneur-immobilier-et-fondateur-de-lotier-immobilier|nicolas-popovitch-parcours-et-experience-dans-limmobilier)/?$ https://lotier.immo/a-propos/ [R=301,L,QSD]
+
+# Espaces clients de l'ancien site
+RewriteRule ^(espace-proprietaire|espace-membre|connections|user|login|logout|account|members|password-reset)(/.*)?$ https://lotier.immo/mylotier/ [R=301,L,QSD]
+RewriteRule ^lotier-immobilier-accueil(/.*)?$ https://lotier.immo/mylotier/ [R=301,L,QSD]
+
+# Articles de l'ancien blog
+RewriteRule ^(il-achete-letage-entier|2-immeubles-tres-rentable|limportance-dune-gestion-de-copropriete-efficace|vendre-votre-bien-immobilier-pourquoi-lentretien-fait-toute-la-difference|pourquoi-recevez-vous-cet-email-en-tant-que-locataire)/?$ https://lotier.immo/blog/index.html [R=301,L,QSD]
+RewriteRule ^(category|author|tag)(/.*)?$ https://lotier.immo/blog/index.html [R=301,L,QSD]
+
+# Plans de site et robots : vers ceux du nouveau site
+RewriteRule ^(wp-sitemap.*\.xml|sitemap.*\.xml)$ https://lotier.immo/sitemap.xml [R=301,L,QSD]
+
+# Tout le reste (accueil, FAQ, avis, pages inconnues) : accueil du nouveau site
+RewriteRule ^ https://lotier.immo/ [R=301,L,QSD]
+</IfModule>
+# ==== FIN : redirection vers lotier.immo ====
