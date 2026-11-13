@@ -65,6 +65,72 @@ Des secteurs résidentiels appréciés, au pied de l'aqueduc Saint-Clément.
 
 Des quartiers animés et proches du centre, très recherchés par les étudiants et les jeunes actifs.
 
+ Nos annonces
+
+## Biens à vendre et à louer *à Montpellier et alentours.*
+
+ [LOCATION ](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)
+
+ 850 € par mois
+
+### Montpellier estanove appartement 2 chambres idéal étud
+
+ Montpellier · 70,26 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)
+
+ 155 000 €
+
+### Montpellier Appartement 2 pièces avec cave et cour privati
+
+ Montpellier · 52 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)
+
+ 241 000 €
+
+### Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga
+
+ Montpellier · 41,07 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)
+
+ 284 000 €
+
+### Proche Clémentville, dernier étage avec garage.
+
+ Montpellier · 90,64 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
+
+ 415 € par mois
+
+### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
+
+ Nîmes · 14,99 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
+
+[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+
  Questions fréquentes
 
 ## Vos questions sur *Montpellier.*

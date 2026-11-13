@@ -130,6 +130,21 @@ def city_page(c):
     qs = "".join(f'<article class="glass quartier"><h3>{e(t)}</h3><p>{e(p)}</p></article>' for t, p in c["quartiers"])
     faq = "".join(f'<details><summary><span class="cat">Question</span><h3>{e(q)}</h3></summary><div class="answer"><p>{e(a)}</p></div></details>' for q, a in c["faq"])
     near = " · ".join(e(x) for x in c["nearby"])
+    # Annonces de la ville (puis des communes voisines citées sur la page) : contenu frais et liens vers les fiches
+    _fiches = [x for x in load_annonces() if x.get("description_html") is not None]
+    _ici = [x for x in _fiches if x["ville"] == c["name"]]
+    _pres = [x for x in _fiches if x["ville"] != c["name"] and x["ville"] in c["nearby"]]
+    _sel = (_ici + _pres)[:6]
+    biens = ""
+    if _sel:
+        _tete = "Biens à vendre et à louer" if _ici else "Nos biens les plus proches,"
+        _ou = (f"à {e(c['name'])}" if len(_ici) >= len(_sel) else f"à {e(c['name'])} et alentours") if _ici else ("autour d’" if c["name"][:1] in "AEIOUYH" else "autour de ") + e(c["name"])
+        biens = f'''    <section class="section container" aria-labelledby="t-biens">
+      <div class="section-head" data-r><div class="stack-3"><span class="label">Nos annonces</span><h2 class="title" id="t-biens">{_tete} <em class="gold-text">{_ou}.</em></h2></div></div>
+      <div class="cards ann-more-grid">{"".join(annonce_card(x, prefix) for x in _sel)}
+      </div>
+      <p style="margin-top:28px"><a class="text-link" href="nos-annonces/">Voir toutes nos annonces</a></p>
+    </section>'''
     other_links = "".join(f'<a class="chip-link" href="{o["slug"]}.html">Immobilier à {e(o["name"])}</a>' for o in others)
     body = f'''    <section class="page-hero city-hero">
       <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
@@ -184,6 +199,8 @@ def city_page(c):
         </div>
       </div>
     </section>
+
+{biens}
 
     <section class="section container" aria-labelledby="t-faq">
       <div class="section-head" data-r><div class="stack-3"><span class="label">Questions fréquentes</span><h2 class="title" id="t-faq">Vos questions sur <em class="gold-text">{e(c["name"])}.</em></h2></div></div>

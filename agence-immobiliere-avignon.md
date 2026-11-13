@@ -65,6 +65,72 @@ Une grande île verte sur le Rhône, face aux remparts, pour un cadre calme et n
 
 Quartiers résidentiels, Villeneuve-lès-Avignon et villages proches, pour plus d'espace et de stationnement.
 
+ Nos annonces
+
+## Nos biens les plus proches, *autour d’Avignon.*
+
+ [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
+
+ 415 € par mois
+
+### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
+
+ Nîmes · 14,99 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)
+
+ 250 000 €
+
+### Nîmes Costières appartement type 3 avec terrasse et garage
+
+ Nîmes · 84 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
+
+ 365 000 €
+
+### Nimes – à vendre fond de commerce restaurant
+
+ Nîmes · 155,21 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
+
+ 395 000 €
+
+### Nîmes quartier route D’uzes – maison type 5 avec magnifiqu
+
+ Nîmes · 116 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
+
+ 210 000 €
+
+### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
+
+ Nîmes · 75,04 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
+
+[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+
  Questions fréquentes
 
 ## Vos questions sur *Avignon.*

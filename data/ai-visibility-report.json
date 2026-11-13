@@ -2134,15 +2134,16 @@
    "url": "https://lotier.immo/location/",
    "type": "service",
    "balisage": [
+    "Answer",
     "BreadcrumbList",
     "City",
+    "FAQPage",
     "ListItem",
+    "Question",
     "Service"
    ],
    "markdown": true,
-   "problemes": [
-    "pas de FAQ balisée (FAQPage)"
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/nos-annonces/",
@@ -2211,29 +2212,31 @@
    "url": "https://lotier.immo/syndic/",
    "type": "service",
    "balisage": [
+    "Answer",
     "BreadcrumbList",
     "City",
+    "FAQPage",
     "ListItem",
+    "Question",
     "Service"
    ],
    "markdown": true,
-   "problemes": [
-    "pas de FAQ balisée (FAQPage)"
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/vente/",
    "type": "service",
    "balisage": [
+    "Answer",
     "BreadcrumbList",
     "City",
+    "FAQPage",
     "ListItem",
+    "Question",
     "Service"
    ],
    "markdown": true,
-   "problemes": [
-    "pas de FAQ balisée (FAQPage)"
-   ]
+   "problemes": []
   }
  ]
 }

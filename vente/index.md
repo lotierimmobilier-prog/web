@@ -58,6 +58,45 @@ Compte rendu après les visites, point sur les offres, conseils pour ajuster le 
 
 Estimation en ligne, annonce diffusée sur les grands portails, échanges à distance quand vous le souhaitez.
 
+ Questions fréquentes
+
+## Vos questions, nos réponses
+
+**Question
+
+### Combien coûtent les honoraires de vente chez LOTIER Immobilier ?
+**
+
+Le barème est dégressif et publié : 5 % du prix à partir de 200 001 €, 6 % de 150 001 à 200 000 €, 7 % de 100 001 à 150 000 €, 8 % de 70 001 à 100 000 € et 10 % (minimum 3 000 €) jusqu'à 70 000 €. Ces honoraires sont toutes taxes comprises, à la charge du vendeur et inclus dans le prix affiché.
+
+**Question
+
+### L'estimation de mon bien est-elle payante ?
+**
+
+Non. L'estimation est gratuite et sans engagement : un conseiller s'appuie sur les ventes récentes de votre quartier et vous explique son raisonnement.
+
+**Question
+
+### Dans quelles villes LOTIER Immobilier vend-il des biens ?
+**
+
+À Béziers, Montpellier, Nîmes et Carcassonne, ainsi que dans les communes voisines de l'Hérault, du Gard et de l'Aude. Un conseiller du secteur suit votre vente.
+
+**Question
+
+### Quels documents préparer avant de mettre en vente ?
+**
+
+Le titre de propriété, les diagnostics immobiliers obligatoires (dont le DPE), la taxe foncière et, en copropriété, le règlement, les procès-verbaux d'assemblée et le relevé de charges. Votre conseiller vérifie la liste avec vous selon votre bien.
+
+**Question
+
+### Mandat simple ou mandat exclusif : lequel choisir ?
+**
+
+Le mandat simple vous laisse confier la vente à plusieurs agences ; le mandat exclusif la confie à une seule, qui concentre ses moyens sur votre bien. La durée et les honoraires figurent dans tous les cas au mandat. Nous comparons les deux avec vous avant de signer.
+
 ## Un projet de vente ?
 
 Un conseiller vous répond sans engagement.

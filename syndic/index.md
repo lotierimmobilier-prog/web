@@ -34,6 +34,45 @@ Les copropriétaires retrouvent leurs documents dans l'espace client : [accéder
 
 Nos honoraires de syndic sont annuels, toutes taxes comprises (TVA à 20 %), dégressifs selon le nombre de lots et répartis selon les millièmes. [Voir le barème de syndic](https://lotier.immo/nos-honoraires/#syndic).
 
+ Questions fréquentes
+
+## Vos questions, nos réponses
+
+**Question
+
+### Combien coûte le syndic de copropriété chez LOTIER Immobilier ?
+**
+
+Les honoraires sont annuels, toutes taxes comprises : 2 000 € pour une copropriété de 1 à 10 lots, 160 € par lot de 11 à 50 lots, 150 € par lot de 51 à 100 lots, 144 € par lot de 101 à 200 lots, et sur devis au-delà de 200 lots.
+
+**Question
+
+### Comment les honoraires de syndic sont-ils répartis entre copropriétaires ?
+**
+
+Selon les millièmes de chacun. Le barème s'applique par lot principal (un appartement, par exemple) et non aux lots accessoires comme une cave ou un parking, sauf s'ils sont indépendants.
+
+**Question
+
+### Comment changer de syndic pour LOTIER Immobilier ?
+**
+
+Le changement de syndic se décide en assemblée générale : la désignation du nouveau syndic et son projet de contrat sont inscrits à l'ordre du jour, puis votés par les copropriétaires. Contactez-nous pour recevoir une proposition de contrat à présenter à votre conseil syndical.
+
+**Question
+
+### Où consulter les documents de ma copropriété ?
+**
+
+Dans l'espace client MyLotier : les copropriétaires y retrouvent leurs documents. Pour toute question, un gestionnaire identifié vous répond.
+
+**Question
+
+### Quelles copropriétés gérez-vous ?
+**
+
+Des copropriétés de toutes tailles, de quelques lots à plus de cent, à Béziers, Montpellier, Nîmes et dans leurs environs.
+
 ## Une question sur votre copropriété ?
 
 L'équipe syndic de LOTIER Immobilier vous répond.
