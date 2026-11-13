@@ -2,12 +2,16 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 133,
-  "pages_indexables": 127,
+  "pages_auditees": 134,
+  "pages_indexables": 128,
   "erreurs": 0,
-  "avertissements": 0,
-  "pages_sans_probleme": 133,
-  "problemes_par_type": {}
+  "avertissements": 4,
+  "pages_sans_probleme": 131,
+  "problemes_par_type": {
+   "description-doublon": 2,
+   "description-longue": 1,
+   "title-long": 1
+  }
  },
  "fichiers": {
   "robots.txt": true,
@@ -16,7 +20,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 132
+  "pages_markdown": 133
  },
  "problemes_site": [],
  "pages": [
@@ -917,18 +921,49 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
-   "fichier": "annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/index.html",
+   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/",
+   "fichier": "annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/index.html",
    "indexable": true,
    "titre": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel | LOTIER",
    "description": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2…",
-   "mots": 774,
+   "mots": 787,
+   "h1": "Maison de village rénovée avec climatisation louée meublée",
+   "nb_h2": 18,
+   "images": 28,
+   "liens": 98,
+   "markdown": true,
+   "problemes": [
+    {
+     "niveau": "avertissement",
+     "code": "description-doublon",
+     "message": "Description identique sur 2 pages."
+    }
+   ]
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
+   "fichier": "annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/index.html",
+   "indexable": true,
+   "titre": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel – 650 € par mois",
+   "description": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2…",
+   "mots": 777,
    "h1": "Maison de village rénovée avec climatisation louée meublée",
    "nb_h2": 18,
    "images": 22,
    "liens": 98,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "avertissement",
+     "code": "title-long",
+     "message": "Titre de 67 caractères (65 conseillés au maximum)."
+    },
+    {
+     "niveau": "avertissement",
+     "code": "description-doublon",
+     "message": "Description identique sur 2 pages."
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/",
@@ -1300,7 +1335,7 @@
    "indexable": true,
    "titre": "Assemblée générale de copropriété : bien se préparer | LOTIER",
    "description": "Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.",
-   "mots": 994,
+   "mots": 995,
    "h1": "Assemblée générale de copropriété : bien se préparer",
    "nb_h2": 21,
    "images": 9,
@@ -1314,7 +1349,7 @@
    "indexable": true,
    "titre": "Charges de copropriété : lire un appel de fonds | LOTIER",
    "description": "Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.",
-   "mots": 969,
+   "mots": 970,
    "h1": "Charges de copropriété : lire un appel de fonds",
    "nb_h2": 22,
    "images": 9,
@@ -1440,7 +1475,7 @@
    "indexable": true,
    "titre": "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER",
    "description": "20 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.",
-   "mots": 820,
+   "mots": 821,
    "h1": "Conseils et actualités de l'immobilier.",
    "nb_h2": 9,
    "images": 25,
@@ -1509,14 +1544,20 @@
    "fichier": "blog/travaux-en-copropriete-qui-decide.html",
    "indexable": true,
    "titre": "Travaux en copropriété : qui décide, qui paie ? | LOTIER",
-   "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comment se décident et se financent les travaux d'un immeuble.",
+   "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.",
    "mots": 1012,
    "h1": "Travaux en copropriété : qui décide, qui paie ?",
    "nb_h2": 21,
    "images": 9,
    "liens": 79,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "avertissement",
+     "code": "description-longue",
+     "message": "Description de 173 caractères (170 au maximum)."
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/visiter-un-appartement-checklist.html",
@@ -1622,7 +1663,7 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, gestion locative et syndic de copropriété. Estimez votre bien.",
-   "mots": 1250,
+   "mots": 1257,
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
@@ -1692,11 +1733,11 @@
    "indexable": true,
    "titre": "Barbara Bouba, agent immobilier à Narbonne | LOTIER",
    "description": "Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.",
-   "mots": 814,
+   "mots": 839,
    "h1": "Barbara Bouba",
    "nb_h2": 11,
-   "images": 36,
-   "liens": 167,
+   "images": 37,
+   "liens": 170,
    "markdown": true,
    "problemes": []
   },
@@ -1776,11 +1817,11 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 1998,
+   "mots": 2023,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 9,
-   "images": 86,
-   "liens": 315,
+   "images": 87,
+   "liens": 318,
    "markdown": true,
    "problemes": []
   },

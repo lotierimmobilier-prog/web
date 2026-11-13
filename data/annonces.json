@@ -3,6 +3,178 @@
  "source": "https://www.lotier-immobilier.com/nos-biens/",
  "annonces": [
   {
+   "id": "maison-de-village-renovee-avec-climatisation-louee-meublee-2",
+   "url": "https://www.lotier-immobilier.com/propriete/maison-de-village-renovee-avec-climatisation-louee-meublee-2/",
+   "titre": "Maison de village rénovée avec climatisation louée meublée",
+   "ville": "Conques-sur-Orbiel",
+   "type": "location",
+   "prix": 650.0,
+   "surface": 81.5,
+   "chambres": 2,
+   "sdb": 1,
+   "badges": [],
+   "photo": "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2.jpg",
+   "description_html": "<p>A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2 (climatisation, double vitrage, volets roulants).</p><p>La maison comprend un rez-de-chaussée un hall pour accéder à la maison. Au premier étage, une cuisine aménagée et équipée, un séjour et une buanderie avec WC. Au second étage, deux chambres et une salle d’eau avec WC.</p><p>Cette maison est meublée et décorée avec goût, tout est neuf.</p><p>Les compteurs EDF et EAU restent à votre charge. Assurance loyer impayé, votre dossier devra être validé avant l’organisation de la visite. Dépôt de garantie : deux mois de loyer. Pas de garage, places de stationnement gratuites à quelques mètres.</p><p>Libre fin septembre</p><p>Loyer : 650EUR charges comprises (dont 20EUR de charges)</p><p>Dépôt de garantie : 1260EUR</p><p>Honoraires de l’agence : 400EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire –</p>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Maison/villa"
+      ],
+      [
+       "Surface habitable",
+       "81.5 m²"
+      ],
+      [
+       "Pièces",
+       "3"
+      ],
+      [
+       "Chambres",
+       "2"
+      ],
+      [
+       "Salles de bain",
+       "1"
+      ],
+      [
+       "WC",
+       "2"
+      ],
+      [
+       "Nombre d'étages",
+       "3"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel"
+      ],
+      [
+       "Cuisine",
+       "Séparée équipée"
+      ],
+      [
+       "Exposition",
+       "Nord Ouest"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ],
+      [
+       "Meublé",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Loyer charges comprises",
+       "650 € / mois"
+      ],
+      [
+       "Provisions sur charges",
+       "20 € / mois"
+      ],
+      [
+       "Modalités de règlement des charges",
+       "Prévisionnelles mensuelles avec régularisation annuelle"
+      ],
+      [
+       "Dépôt de garantie",
+       "0 €"
+      ],
+      [
+       "Caractère meublé",
+       "Location meublée"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "2"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Conques-sur-Orbiel"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBLMA30001058",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 112,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 760,
+    "depenses_max": 1080,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 20 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "schema": 2,
+   "photos": [
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-1.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-2.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-3.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-4.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-5.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-6.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-7.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-8.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-9.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-10.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-11.jpg",
+    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-12.jpg"
+   ]
+  },
+  {
    "id": "marguerittes-immeuble-avec-local-commercial-et-deux-appart",
    "url": "https://www.lotier-immobilier.com/propriete/marguerittes-immeuble-avec-local-commercial-et-deux-appart/",
    "titre": "MARGUERITTES – IMMEUBLE AVEC LOCAL COMMERCIAL ET DEUX APPART",
@@ -79,6 +251,19 @@
      ]
     }
    ],
+   "photos": [
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-1.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-2.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-3.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-4.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-5.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-6.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-7.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-8.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-9.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-10.jpg",
+    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-11.jpg"
+   ],
    "reference": "12_646",
    "agent": {
     "nom": "Elodie CHARDOT",
@@ -100,20 +285,7 @@
     "prix_energies": "01/01/2011"
    },
    "mentions_prix": [],
-   "schema": 2,
-   "photos": [
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-1.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-2.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-3.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-4.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-5.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-6.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-7.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-8.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-9.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-10.jpg",
-    "assets/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart-11.jpg"
-   ]
+   "schema": 2
   },
   {
    "id": "maison-de-village-avec-terrasse",
