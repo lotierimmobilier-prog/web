@@ -14,8 +14,6 @@ Béziers
 ## Les biens de Laëtitia
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-13 à vendre · 8 à louer
-
  [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
 
  210 € par mois
@@ -225,6 +223,8 @@ Béziers
  Béziers · 120 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
+
+Aucune annonce ne correspond à ces critères.
 
  Présentation
 

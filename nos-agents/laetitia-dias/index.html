@@ -21,7 +21,7 @@
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.css?v=0ce0650de4">
+  <link rel="stylesheet" href="../../css/styles.css?v=b94234ab0b">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -178,9 +178,24 @@
         </div>
       </div>
     </section>
-    <section class="section container" aria-labelledby="ag-ann">
+    <section class="section container ann-list" aria-labelledby="ag-ann" data-annonces>
       <div class="section-head"><div class="stack-3"><span class="label">Annonces</span><h2 class="title" id="ag-ann">Les biens de Laëtitia</h2></div><a class="text-link" href="../../nos-annonces/">Toutes les annonces</a></div>
-      <p class="muted small" data-ann-count aria-live="polite">13 à vendre · 8 à louer</p><div class="cards" data-ann-grid>
+      <form class="ann-filtres ann-filtres-mini" data-ann-form aria-label="Filtrer les annonces" onsubmit="return false">
+        <div class="chip-links" role="group" aria-label="Vente ou location">
+          <button type="button" class="chip-link is-on" data-ann-type-btn="" aria-pressed="true">Toutes (21)</button>
+          <button type="button" class="chip-link" data-ann-type-btn="vente" aria-pressed="false">À vendre (13)</button>
+          <button type="button" class="chip-link" data-ann-type-btn="location" aria-pressed="false">À louer (8)</button>
+        </div>
+        <div class="ann-champs">
+          <label><span>Type de bien</span><select data-ann-bien><option value="">Tous les biens</option><option value="appartement">Appartement (8)</option><option value="maison">Maison (2)</option><option value="immeuble">Immeuble (4)</option><option value="commerce">Local, bureaux, commerce (3)</option><option value="parking">Parking, box (4)</option></select></label>
+          <label hidden><span>Département</span><select data-ann-dep><option value="">Tous les départements</option><option value="34">Hérault (34) · 21</option></select></label>
+          <label><span>Ville</span><select data-ann-city><option value="">Toutes les villes</option><option value="Béziers" data-dep="34">Béziers</option><option value="Maureilhan" data-dep="34">Maureilhan</option><option value="Villeneuve-lès-Béziers" data-dep="34">Villeneuve-lès-Béziers</option></select></label>
+          <label hidden><span>Budget min.</span><select data-ann-pmin disabled><option value="">Choisir vente ou location</option></select></label>
+          <label hidden><span>Budget max.</span><select data-ann-pmax disabled><option value="">Choisir vente ou location</option></select></label>
+          <label><span>Trier par</span><select data-ann-sort><option value="">Trier</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="surf-desc">Surface décroissante</option></select></label>
+        </div>
+        <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">21 annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
+      </form><div class="cards" data-ann-grid>
           <article class="card" data-tilt data-ann-type="location" data-ann-ville="Béziers" data-ann-dep="34" data-ann-bien="commerce" data-ann-prix="210" data-ann-surf="20">
             <div class="ph"><a class="ph-link" href="../../annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/" tabindex="-1" aria-label="Voir l&#x27;annonce : À louer local commercial avec mezzanine entre Béziers et"><img src="../../assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et.jpg" alt="À louer local commercial avec mezzanine entre Béziers et" width="720" height="540" loading="lazy" decoding="async"><span class="badge loc">LOCATION</span></a></div>
             <div class="card-body">
@@ -369,7 +384,7 @@
               <span class="muted small">Béziers · 120 m² · 4 ch.</span>
             </div>
             <div class="card-actions"><a class="btn btn-navy btn-sm" href="../../annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/">Voir l'annonce</a><a class="text-link" href="../../contact/" data-contact-open="rappel" data-ref="15_DLVMA170000347" data-titre="A vendre, beziers (34) quartier de la crouzette maison T7" data-url="https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/" data-agent="laetitia.dias@lotier-immobilier.com" data-agent-prenom="Laetitia" data-agent-tel="06 09 76 63 24" data-agent-tel-href="+33609766324">Être rappelé</a></div>
-          </article></div>
+          </article></div><p class="muted" data-ann-empty hidden>Aucune annonce ne correspond à ces critères. <button type="button" class="text-link ann-reset" data-ann-reset>Réinitialiser les filtres</button></p>
     </section>
     <section class="section container" aria-labelledby="ag-pres"><div class="section-head"><div class="stack-3"><span class="label">Présentation</span><h2 class="title" id="ag-pres">Faire connaissance avec Laëtitia</h2></div></div>
       <ul class="ag-stats"><li class="glass"><strong>21</strong><span>biens en ligne</span></li><li class="glass"><strong>13</strong><span>à vendre</span></li><li class="glass"><strong>8</strong><span>à louer</span></li><li class="glass"><strong>3</strong><span>communes</span></li></ul>

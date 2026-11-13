@@ -166,7 +166,7 @@ legal_page("lotier-rgpd", "Politique de confidentialité (RGPD)", "Comment LOTIE
           <li>les notaires, diagnostiqueurs, géomètres et autres professionnels intervenant dans votre dossier ;</li>
           <li>les assureurs (garantie des loyers impayés, assurance de l'immeuble, sinistres) et les établissements bancaires concernés par votre dossier ;</li>
           <li>notre hébergeur (Hostinger) et nos prestataires de maintenance informatique ;</li>
-          <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site ;</li>
+          <li>notre outil de mesure d'audience (Umami), qui reçoit des statistiques de fréquentation du site, hébergées dans l'Union européenne ;</li>
           <li>un prestataire d'envoi d'e-mails, si vous avez consenti à recevoir nos communications commerciales ;</li>
           <li>les autorités administratives ou judiciaires, sur demande légale.</li>
         </ul>
@@ -264,31 +264,73 @@ legal_page("nos-honoraires", "Nos honoraires", "Le barème des honoraires de l'a
   "Barème des honoraires de LOTIER Immobilier : vente, location, gestion locative, assurance loyers impayés et syndic.", note="")
 
 # ---------- Cookies et traceurs ----------
-legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votre appareil, et comment le gérer.", "Cookies et traceurs", f'''
-        <h2>Ce que le site enregistre</h2>
-        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. La mesure d'audience est faite sans cookie (voir ci-dessous). Il utilise uniquement le stockage local de votre navigateur pour retenir, sur votre appareil, quelles nouveautés vous avez déjà consultées (cloche « Nouveautés »). Cette donnée ne quitte pas votre navigateur.</p>
+legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votre appareil, les services qu'il appelle, et comment gérer vos choix.", "Cookies et traceurs", f'''
+        <h2>En bref</h2>
+        <p>Ce site ne dépose <b>aucun cookie</b> : ni cookie publicitaire, ni cookie de réseau social, ni cookie de mesure d'audience. Il n'affiche pas de publicité et ne revend aucune donnée. Il enregistre seulement quelques réglages dans votre navigateur, et mesure sa fréquentation sans cookie.</p>
+        <h2>Ce que le site enregistre dans votre navigateur</h2>
+        <p>Ces informations restent sur votre appareil (stockage local du navigateur). Elles ne sont pas envoyées à LOTIER Immobilier.</p>
+        <div class="table-wrap"><table class="legal-table">
+          <thead><tr><th scope="col">Nom</th><th scope="col">À quoi il sert</th><th scope="col">Durée</th></tr></thead>
+          <tbody>
+            <tr><td><code>lotier-cookies-v1</code></td><td>Retient votre choix dans le bandeau cookies (accepter ou refuser la mesure d'audience) et sa date.</td><td>Jusqu'à ce que vous le modifiiez ou l'effaciez</td></tr>
+            <tr><td><code>umami.disabled</code></td><td>Présent seulement si vous avez refusé la mesure d'audience : il la désactive.</td><td>Jusqu'à ce que vous changiez d'avis</td></tr>
+            <tr><td><code>lotier-news-seen</code></td><td>Retient les nouveautés déjà consultées (cloche « Nouveautés »).</td><td>Jusqu'à effacement</td></tr>
+            <tr><td><code>lotier-intro</code></td><td>Évite de rejouer l'animation d'ouverture de la page d'accueil pendant la même visite.</td><td>Jusqu'à la fermeture de l'onglet</td></tr>
+          </tbody>
+        </table></div>
         <h2>Mesure d'audience</h2>
-        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil) avec Umami, un service de statistiques conçu pour fonctionner sans cookie. Ces statistiques servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires ni croisées avec d'autres sites. Vous pouvez refuser cette mesure à tout moment avec le bouton « Modifier mon choix » ci-dessous. Lieu d'hébergement des statistiques : {PH_TXT}.</p>
-        <h2>Si d'autres outils de contenu externe sont ajoutés</h2>
-        <p>Cartes, vidéos ou réseaux sociaux ne sont pas utilisés à ce jour. S'ils l'étaient, votre consentement serait demandé avant tout dépôt.</p>
+        <p>Nous mesurons la fréquentation du site (pages consultées, provenance, type d'appareil, pays) avec <b>Umami</b>, un service de statistiques qui fonctionne sans cookie et ne suit pas les visiteurs d'un site à l'autre. Ces statistiques sont anonymes et servent uniquement à améliorer le site ; elles ne sont pas utilisées à des fins publicitaires. Elles sont hébergées dans l'Union européenne.</p>
+        <p>La mesure est active par défaut. Vous pouvez la refuser à tout moment : cliquez sur « Refuser » dans le bandeau, ou sur le bouton « Modifier mon choix » ci-dessous. Le script de mesure n'est alors plus chargé.</p>
+        <h2>Services appelés par le site</h2>
+        <ul>
+          <li><b>Auguste, l'assistant en ligne, et les formulaires</b> (contact, rappel, estimation) : ils sont fournis par Collab, le logiciel de gestion de LOTIER Immobilier. Ce que vous écrivez y est transmis pour vous répondre ; rien n'est envoyé tant que vous n'utilisez pas l'assistant ou un formulaire, à l'exception de l'image de l'assistant, chargée à l'ouverture de la page.</li>
+          <li><b>Avis Google</b> : les avis sont affichés par le service Trustindex. Il n'est chargé que si vous cliquez sur le bouton d'affichage des avis sur la page d'accueil ; il peut alors déposer ses propres traceurs.</li>
+          <li><b>Liens externes</b> (Google Maps pour un itinéraire, fiche Google, réseaux sociaux) : ce sont de simples liens. Aucune donnée n'est transmise tant que vous ne cliquez pas.</li>
+        </ul>
+        <p>Les polices de caractères, les images et les animations sont hébergées sur le site : leur affichage ne fait appel à aucun service tiers.</p>
         <h2>Gérer vos choix</h2>
-        <p>Votre choix du bandeau cookies est mémorisé sur votre appareil. <button type="button" class="btn btn-ghost" data-cookie-open>Modifier mon choix</button></p>
-        <p>Vous pouvez à tout moment supprimer les données enregistrées par ce site depuis les réglages de votre navigateur (rubrique « Confidentialité » ou « Cookies et données de sites »).</p>
-        <h2>Contact</h2>
-        <p>Pour toute question : <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>.</p>''',
-  "Cookies et traceurs sur le site de LOTIER Immobilier : ce qui est enregistré et comment le gérer.")
+        <p>Votre choix est mémorisé sur votre appareil. <button type="button" class="btn btn-ghost" data-cookie-open>Modifier mon choix</button></p>
+        <p>Vous pouvez aussi supprimer à tout moment les données enregistrées par ce site depuis les réglages de votre navigateur (rubrique « Confidentialité » ou « Cookies et données de sites »).</p>
+        <h2>En savoir plus</h2>
+        <p>Le traitement de vos données personnelles est décrit dans notre <a class="text-link" href="../lotier-rgpd/">politique de confidentialité</a>. Pour toute question : <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a>.</p>
+        <p>Dernière mise à jour : novembre 2026.</p>''',
+  "Cookies et traceurs sur lotier.immo : aucun cookie déposé, mesure d'audience sans cookie, réglages enregistrés dans le navigateur et gestion de vos choix.", note="")
 
 # ---------- Déclaration d'accessibilité ----------
 legal_page("accessibilite", "Déclaration d'accessibilité", "Notre engagement pour un site utilisable par tous.", "Accessibilité", f'''
         <h2>Notre engagement</h2>
-        <p>LOTIER Immobilier s'efforce de rendre ce site accessible : navigation au clavier, contrastes de couleurs, textes alternatifs sur les images, respect du réglage « réduire les animations » de votre appareil.</p>
+        <p>LOTIER Immobilier veut un site utilisable par le plus grand nombre, quels que soient l'appareil, la façon de naviguer ou le handicap. Cette déclaration concerne le site <b>lotier.immo</b>.</p>
         <h2>État de conformité</h2>
-        <p>{PH_TXT} : le niveau de conformité au référentiel RGAA n'a pas encore été évalué par un audit. Aucune conformité n'est déclarée à ce jour.</p>
+        <p>Le site n'a pas encore fait l'objet d'un audit de conformité au référentiel général d'amélioration de l'accessibilité (RGAA). Aucun niveau de conformité n'est donc déclaré à ce jour.</p>
+        <p>En attendant cet audit, les pages sont contrôlées à chaque évolution avec un outil de tests automatisés. Ces contrôles ne détectent qu'une partie des défauts possibles et ne remplacent pas un audit.</p>
+        <h2>Ce qui est prévu pour faciliter la navigation</h2>
+        <ul>
+          <li>Navigation possible au clavier, avec un lien « Aller au contenu » en début de page et un repère visible sur l'élément actif ;</li>
+          <li>Titres et rubriques structurés, pour les lecteurs d'écran ;</li>
+          <li>Textes alternatifs sur les images qui portent une information ;</li>
+          <li>Contrastes de couleurs renforcés entre le texte et le fond ;</li>
+          <li>Respect du réglage « réduire les animations » de votre appareil : l'animation d'ouverture de l'accueil et les effets de mouvement sont alors désactivés ;</li>
+          <li>Mise en page qui s'adapte à la taille de l'écran et au grossissement du texte ;</li>
+          <li>Page « Nos agents » : la liste des agents est aussi proposée sous forme de liste simple, sous les portraits animés.</li>
+        </ul>
+        <h2>Contenus qui peuvent poser difficulté</h2>
+        <ul>
+          <li>Les avis Google, affichés par un service extérieur (Trustindex), dont nous ne maîtrisons pas l'accessibilité ;</li>
+          <li>L'estimation en ligne et l'espace client MyLotier, fournis par notre logiciel de gestion, qui n'ont pas été évalués ;</li>
+          <li>Les photos des annonces, dont le texte alternatif reprend le titre de l'annonce sans décrire chaque image ;</li>
+          <li>Les descriptions des annonces, saisies par nos agents, dont la rédaction peut varier.</li>
+        </ul>
         <h2>Signaler un défaut d'accessibilité</h2>
-        <p>Si vous ne parvenez pas à accéder à un contenu ou à un service, écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez le <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a> : nous vous fournirons l'information sous une autre forme.</p>
+        <p>Si vous ne parvenez pas à accéder à un contenu ou à un service, écrivez-nous à <a href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a> ou appelez le <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>. Nous vous fournirons l'information sous une autre forme et corrigerons le défaut signalé.</p>
         <h2>Voies de recours</h2>
-        <p>{PH_TXT} : coordonnées du Défenseur des droits, à indiquer si votre demande reste sans réponse satisfaisante.</p>''',
-  "Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus non accessibles et moyens de nous contacter.")
+        <p>Si vous avez signalé un défaut d'accessibilité qui vous empêche d'accéder à un contenu ou à un service et que vous n'avez pas obtenu de réponse satisfaisante, vous pouvez :</p>
+        <ul>
+          <li>écrire un message au <a class="text-link" href="https://formulaire.defenseurdesdroits.fr/" rel="noopener">Défenseur des droits</a> ;</li>
+          <li>contacter le <a class="text-link" href="https://www.defenseurdesdroits.fr/saisir/delegues" rel="noopener">délégué du Défenseur des droits dans votre région</a> ;</li>
+          <li>envoyer un courrier par la poste (gratuit, sans timbre) : Défenseur des droits, Libre réponse 71120, 75342 Paris CEDEX 07.</li>
+        </ul>
+        <p>Déclaration établie en novembre 2026.</p>''',
+  "Déclaration d'accessibilité du site lotier.immo de LOTIER Immobilier : état de conformité, contenus qui peuvent poser difficulté et moyens de nous contacter.", note="")
 
 # ---------- Plan du site (HTML) ----------
 def plan_page():
