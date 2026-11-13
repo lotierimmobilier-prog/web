@@ -1029,3 +1029,64 @@
   box.addEventListener('change', calc);
   calc();
 })();
+
+/* Page « Nos honoraires » : simulateur (mêmes montants que les tableaux de la page, transmis par le générateur). Aucune donnée n'est envoyée. */
+(function () {
+  var root = document.querySelector('[data-hon-sim]');
+  if (!root) return;
+  var B; try { B = JSON.parse(root.querySelector('[data-hon-data]').textContent); } catch (e) { return; }
+  var q = function (s) { return root.querySelector(s); };
+  var nbsp = String.fromCharCode(160);
+  function eur(n) { var d = Math.abs(n - Math.round(n)) < 0.005 ? 0 : 2; return n.toLocaleString('fr-FR', { minimumFractionDigits: d, maximumFractionDigits: 2 }).replace(/[  ]/g, nbsp) + nbsp + '€'; }
+  function pct(n) { return (Math.round(n * 1000) / 10).toLocaleString('fr-FR') + nbsp + '%'; }
+  function num(v) { var x = parseFloat(String(v).replace(/\s/g, '').replace(',', '.')); return isFinite(x) && x > 0 ? x : 0; }
+  function col(titre, valeur, detail) { return '<div class="sim-col"><span class="sim-tag">' + titre + '</span><strong class="sim-big">' + valeur + '</strong>' + (detail ? '<span class="muted small">' + detail + '</span>' : '') + '</div>'; }
+  var rendu = {
+    vente: function () {
+      var p = Math.round(num(q('[data-hs-prix]').value)), t = null;
+      if (!p) return '<p class="muted">Indiquez un prix de vente.</p>';
+      for (var i = 0; i < B.vente.length; i++) { if (B.vente[i].max === null || p <= B.vente[i].max) { t = B.vente[i]; break; } }
+      var h = t.fixe ? t.fixe : Math.max(p * t.taux, t.min || 0);
+      if (h > p) return '<p class="muted">Pour ce montant, les honoraires du barème dépassent le prix : contactez-nous pour étudier votre projet.</p>';
+      var tva = h - h / 1.2;
+      return col('Honoraires TTC', eur(h), (t.fixe ? 'Forfait pour un prix jusqu’à ' + eur(t.max) : 'Tranche à ' + pct(t.taux) + (t.min ? ' (minimum ' + eur(t.min) + ')' : '')) + ' · dont TVA ' + eur(tva)) +
+             col('Prix net vendeur', eur(p - h), 'Honoraires inclus dans le prix affiché, à la charge du vendeur : ' + pct(h / p) + ' du prix.');
+    },
+    location: function () {
+      var m = num(q('[data-hs-surf]').value);
+      if (!m) return '<p class="muted">Indiquez la surface habitable.</p>';
+      var z = q('[data-hs-zone]').value, a = B.location[z] * m, e = B.location.edl * m;
+      return col('Mise en location', eur(a), 'Visite, dossier, bail : ' + eur(B.location[z]) + nbsp + 'TTC par m²') +
+             col('État des lieux', eur(e), 'Entrée et sortie : ' + eur(B.location.edl) + nbsp + 'TTC par m²') +
+             col('Total TTC', eur(a + e), 'Pour ' + m.toLocaleString('fr-FR') + nbsp + 'm²');
+    },
+    gestion: function () {
+      var l = num(q('[data-hs-loyer]').value);
+      if (!l) return '<p class="muted">Indiquez le loyer mensuel.</p>';
+      var tt = B.gestion.complete_ht * (1 + B.gestion.tva) * l, g = B.gestion, h = '';
+      h += col('Gestion complète', eur(tt) + ' /mois', pct(g.complete_ht) + ' HT du loyer, soit ' + pct(g.complete_ht * (1 + g.tva)) + ' TTC · ' + eur(tt * 12) + ' par an · contentieux et travaux compris');
+      h += col('Gestion locative', eur(g.simple) + ' /mois', 'Tarif fixe TTC, quel que soit le loyer · ' + eur(g.simple * 12) + ' par an');
+      var gl = Object.keys(g.gli).map(function (k) { return k + ' : ' + eur(g.gli[k] * l) + ' /mois'; }).join(' · ');
+      return h + col('Assurance loyers impayés', 'facultative', gl);
+    },
+    syndic: function () {
+      var n = Math.round(num(q('[data-hs-lots]').value));
+      if (!n) return '<p class="muted">Indiquez le nombre de lots.</p>';
+      var t = null; for (var i = 0; i < B.syndic.length; i++) { if (B.syndic[i].max === null || n <= B.syndic[i].max) { t = B.syndic[i]; break; } }
+      if (t.devis) return col('Honoraires annuels', 'Sur devis', 'Au-delà de ' + B.syndic[B.syndic.length - 2].max + nbsp + 'lots : contactez-nous.');
+      var h = t.forfait ? t.forfait : t.lot * n;
+      return col('Honoraires annuels TTC', eur(h), t.forfait ? 'Forfait de 1 à 10 lots' : eur(t.lot) + ' par lot × ' + n + ' lots') + col('Par lot et par an', eur(h / n), 'Répartis entre copropriétaires selon leurs millièmes.');
+    }
+  };
+  var courant = 'vente';
+  function calc() { var out = q('[data-hs-out="' + courant + '"]'); if (out) out.innerHTML = rendu[courant](); }
+  root.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-hs-tab]'); if (!b) return;
+    courant = b.getAttribute('data-hs-tab');
+    root.querySelectorAll('[data-hs-tab]').forEach(function (x) { var on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    root.querySelectorAll('[data-hs-panel]').forEach(function (x) { x.hidden = x.getAttribute('data-hs-panel') !== courant; });
+    calc();
+  });
+  root.addEventListener('input', calc); root.addEventListener('change', calc);
+  root.hidden = false; calc();
+})();
