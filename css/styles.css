@@ -1212,8 +1212,11 @@ a.tb-rate { padding-block: 8px; }
 .ag-chips .ag-mix { margin-left: auto; background: var(--navy); color: #fff; }
 .ag-stage { position: relative; background: rgba(255, 255, 255, .6); border: 1px solid var(--line); border-radius: 24px; overflow: hidden; }
 .ag-field { position: relative; width: 100%; min-height: 460px; }
-.ag-js .ag-list { display: none; }
-.ag-list { list-style: none; padding: 0; margin: 20px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.ag-list-t { margin: 44px 0 0; font-size: clamp(26px, 3vw, 36px); }
+.ag-scard-act { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; } .ag-scard-act .btn { padding: 10px 16px; font-size: 14px; }
+.ag-scard-liens { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; } .ag-scard-mail { color: var(--navy); word-break: break-all; }
+.ag-list.f .ag-scard:not(.on) { display: none; }
+.ag-list { list-style: none; padding: 0; margin: 20px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
 .ag-scard { padding: 16px; display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: center; }
 .ag-scard h3 { margin: 0; font-size: 18px; } .ag-scard h3 a { text-decoration: none; } .ag-scard p { margin: 2px 0 0; }
 .ag-ph { display: block; width: 72px; height: 72px; border-radius: 50%; overflow: hidden; background: #f1ece0; flex: none; border: 3px solid var(--rc, #867244); }
@@ -1239,7 +1242,9 @@ a.tb-rate { padding-block: 8px; }
 .ag-info > p { grid-column: 1 / -1; }
 .ag-big { width: 68px; height: 68px; border-radius: 50%; overflow: hidden; border: 4px solid var(--rc, #867244); background: #f1ece0; display: grid; place-items: center; font-weight: 600; color: #5c4a1f; }
 .ag-big img { width: 100%; height: 100%; object-fit: cover; }
-.ag-iname { margin: 0; font-size: 22px; }
+.ag-iname { margin: 0 0 8px; font-size: 22px; }
+.ag-info { padding: 22px 24px; gap: 20px; } .ag-info .small { margin: 0 0 16px; line-height: 1.8; } .ag-info .acts { display: flex; flex-wrap: wrap; gap: 10px; }
+.ag-scard { padding: 22px; gap: 16px 16px; } .ag-scard h3 { margin-bottom: 6px; } .ag-scard div > p { margin-top: 6px; line-height: 1.6; }
 .ag-join { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 14px 24px; justify-content: space-between; align-items: center; padding: 18px 22px; }
 .ag-hero-grid { display: grid; grid-template-columns: auto 1fr; gap: clamp(18px, 4vw, 48px); align-items: center; }
 .ag-pill { display: inline-block; padding: 4px 12px; border-radius: 999px; background: var(--rc); color: #fff; font-weight: 600; font-size: 13px; margin-right: 6px; }

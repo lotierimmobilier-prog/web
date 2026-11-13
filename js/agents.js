@@ -74,6 +74,8 @@
     field.classList.toggle('f', filt !== 'all');
     var on = GEO ? zoom() : [];
     field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('on', filt === 'all' || b.dataset.s.split(' ').indexOf(filt) > -1); b.classList.toggle('sel', b.dataset.id === sel); });
+    var liste = sec.querySelector('.ag-list');   // la liste du bas suit le secteur choisi
+    if (liste) { liste.classList.toggle('f', filt !== 'all'); liste.querySelectorAll('.ag-scard').forEach(function (c) { c.classList.toggle('on', (c.dataset.s || '').split(' ').indexOf(filt) > -1); }); }
     chips.querySelectorAll('[data-sect]').forEach(function (c) { var on2 = c.dataset.sect === filt; c.classList.toggle('is-on', on2); c.setAttribute('aria-pressed', on2 ? 'true' : 'false'); });
     if (filt !== 'all' && on.length === 1) { sel = on[0].id; show(on[0]); field.querySelectorAll('.bb').forEach(function (b) { b.classList.toggle('sel', b.dataset.id === sel); }); }
   }

@@ -5,10 +5,10 @@
   "pages_auditees": 133,
   "pages_indexables": 127,
   "erreurs": 0,
-  "avertissements": 2,
-  "pages_sans_probleme": 131,
+  "avertissements": 1,
+  "pages_sans_probleme": 132,
   "problemes_par_type": {
-   "contenu-court": 2
+   "contenu-court": 1
   }
  },
  "fichiers": {
@@ -1694,11 +1694,11 @@
    "indexable": true,
    "titre": "Barbara Bouba, agent immobilier à Narbonne | LOTIER",
    "description": "Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.",
-   "mots": 767,
+   "mots": 764,
    "h1": "Barbara Bouba",
    "nb_h2": 11,
    "images": 36,
-   "liens": 167,
+   "liens": 166,
    "markdown": true,
    "problemes": []
   },
@@ -1708,17 +1708,17 @@
    "indexable": true,
    "titre": "Céline Aubin, agent immobilier à Meynes | LOTIER",
    "description": "Céline Aubin, agent commercial indépendant LOTIER Immobilier. Secteur : Meynes. Coordonnées et annonces.",
-   "mots": 137,
+   "mots": 134,
    "h1": "Céline Aubin",
    "nb_h2": 11,
    "images": 6,
-   "liens": 77,
+   "liens": 76,
    "markdown": true,
    "problemes": [
     {
      "niveau": "avertissement",
      "code": "contenu-court",
-     "message": "Contenu court (137 mots)."
+     "message": "Contenu court (134 mots)."
     }
    ]
   },
@@ -1756,19 +1756,13 @@
    "indexable": true,
    "titre": "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER",
    "description": "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
-   "mots": 123,
+   "mots": 219,
    "h1": "Nos agents, près de chez vous.",
-   "nb_h2": 8,
+   "nb_h2": 9,
    "images": 9,
-   "liens": 74,
+   "liens": 92,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "contenu-court",
-     "message": "Contenu court (123 mots)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/nos-agents/laetitia-dias/",
