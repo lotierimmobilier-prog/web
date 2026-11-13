@@ -1,14 +1,12 @@
 # Rediriger lotier-immobilier.com vers lotier.immo
 
-Le fichier `htaccess-redirection.txt` contient un bloc à coller **tout en haut** du fichier `.htaccess` de l'ancien site
-(à la racine du site sur le FTP, avant la ligne `# BEGIN WordPress`). Il ne remplace pas le `.htaccess` existant.
+`htaccess-complet.txt` est le fichier `.htaccess` COMPLET de l'ancien site : le bloc de redirection, puis les blocs
+« Really Simple Security » et « WordPress » qui s'y trouvaient déjà.
 
 ## Pose
-1. Par FTP, télécharger le `.htaccess` actuel de l'ancien site et en garder une copie.
-2. Ouvrir ce fichier, coller le contenu de `htaccess-redirection.txt` au tout début, enregistrer, renvoyer sur le FTP.
-3. Vérifier : `https://www.lotier-immobilier.com/` doit mener à `https://lotier.immo/`, et `/wp-admin/` doit rester accessible.
-
-Pour revenir en arrière : remettre la copie du `.htaccess`.
+1. Par FTP, à la racine de l'ancien site, garder une copie du `.htaccess` actuel s'il existe encore.
+2. Envoyer le fichier, puis le renommer SUR LE SERVEUR (clic droit, Renommer dans le logiciel FTP) en `.htaccess`, avec le point au début et sans `.txt`.
+3. Vérifier : `https://www.lotier-immobilier.com/nos-biens/` doit mener à `https://lotier.immo/nos-annonces/`, et `/wp-admin/` doit rester accessible.
 
 ## Ce qui est redirigé (redirection permanente, 301)
 - `/propriete/<annonce>/` vers `https://lotier.immo/annonces/<annonce>/` (même adresse) ; `/nos-biens/` vers `/nos-annonces/`.
@@ -25,4 +23,4 @@ Pour revenir en arrière : remettre la copie du `.htaccess`.
 ## À savoir
 - L'ancien WordPress doit rester en ligne : c'est lui qui reçoit les annonces (ImmoWP / Hektor) que le nouveau site importe.
 - Une annonce retirée de la vente affichera la page « introuvable » du nouveau site.
-- Testé sur un Apache local avec un `.htaccess` WordPress standard à la suite du bloc.
+- Testé sur un Apache local. Cette version n'utilise ni le drapeau `S=` ni `REDIRECT_STATUS`, pour fonctionner aussi sur LiteSpeed.

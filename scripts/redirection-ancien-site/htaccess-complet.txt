@@ -1,22 +1,26 @@
 # ==== DÉBUT : redirection de lotier-immobilier.com vers lotier.immo ====
-# À coller TOUT EN HAUT du fichier .htaccess de l'ancien site (avant « # BEGIN WordPress »).
-# Pour revenir en arrière : supprimer ce bloc.
+# Pour revenir en arrière : supprimer ce bloc (jusqu'à la ligne « FIN »).
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# Ne concerne que le site public : collab.lotier-immobilier.com et les autres sous-domaines ne bougent pas.
-RewriteCond %{HTTP_HOST} !^(www\.)?lotier-immobilier\.com$ [NC]
-RewriteRule ^ - [S=14]
-
-# Restent accessibles : l'administration WordPress, les photos, la synchronisation des annonces (ImmoWP)
-# et le robot du nouveau site, qui vient lire les annonces chaque nuit. (La première condition laisse passer
-# les adresses que WordPress a déjà réécrites en interne.)
-RewriteCond %{ENV:REDIRECT_STATUS} !^$ [OR]
-RewriteCond %{REQUEST_URI} ^/(wp-admin|wp-includes|wp-content|wp-json)(/|$) [NC,OR]
-RewriteCond %{REQUEST_URI} ^/(wp-login\.php|wp-cron\.php|xmlrpc\.php)$ [NC,OR]
+# Ce qui continue de fonctionner sur l'ancien site : les sous-domaines, l'administration WordPress, les photos,
+# la synchronisation des annonces (ImmoWP), le robot du nouveau site (LotierV2-sync) et un administrateur connecté.
+RewriteCond %{HTTP_HOST} !^(www\.)?lotier-immobilier\.com$ [NC,OR]
+RewriteCond %{THE_REQUEST} \s/(wp-admin|wp-includes|wp-content|wp-json)[/?\s] [NC,OR]
+RewriteCond %{THE_REQUEST} \s/(wp-login|wp-cron|xmlrpc)\.php[?\s] [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} LotierV2-sync [NC,OR]
 RewriteCond %{HTTP_COOKIE} wordpress_logged_in_ [NC]
-RewriteRule ^ - [S=13]
+RewriteRule ^ - [E=LOTIER_ANCIEN:1]
+
+# Pour ces demandes-là, WordPress répond comme avant, et rien n'est redirigé.
+RewriteCond %{ENV:LOTIER_ANCIEN} =1
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{ENV:LOTIER_ANCIEN} =1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteCond %{ENV:LOTIER_ANCIEN} =1
+RewriteRule ^ - [L]
 
 # Annonces : même adresse sur le nouveau site
 RewriteRule ^propriete/([^/]+)/?$ https://lotier.immo/annonces/$1/ [R=301,L,QSD]
@@ -37,10 +41,34 @@ RewriteRule ^lotier-immobilier-accueil(/.*)?$ https://lotier.immo/mylotier/ [R=3
 RewriteRule ^(il-achete-letage-entier|2-immeubles-tres-rentable|limportance-dune-gestion-de-copropriete-efficace|vendre-votre-bien-immobilier-pourquoi-lentretien-fait-toute-la-difference|pourquoi-recevez-vous-cet-email-en-tant-que-locataire)/?$ https://lotier.immo/blog/index.html [R=301,L,QSD]
 RewriteRule ^(category|author|tag)(/.*)?$ https://lotier.immo/blog/index.html [R=301,L,QSD]
 
-# Plans de site et robots : vers ceux du nouveau site
+# Plans de site : vers celui du nouveau site
 RewriteRule ^(wp-sitemap.*\.xml|sitemap.*\.xml)$ https://lotier.immo/sitemap.xml [R=301,L,QSD]
 
 # Tout le reste (accueil, FAQ, avis, pages inconnues) : accueil du nouveau site
 RewriteRule ^ https://lotier.immo/ [R=301,L,QSD]
 </IfModule>
 # ==== FIN : redirection vers lotier.immo ====
+
+# BEGIN Really Simple Security Redirect
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} !lscache_runner [NC]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+# END Really Simple Security Redirect
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
