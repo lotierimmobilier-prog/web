@@ -1,0 +1,148 @@
+# Biens à vendre *à Capendu.*
+
+> 10 biens à vendre à Capendu avec LOTIER Immobilier : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 399 900…
+
+Source : https://lotier.immo/nos-annonces/vente-capendu/
+
+LOTIER Immobilier propose actuellement 10 biens à vendre à Capendu : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Les prix vont de 25 000 € à 399 900 €. Les surfaces vont de 27 à 1457 m².
+
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)
+
+ 224 000 €
+
+### Nouveauté à Capendu maison 140 m2 avec piscine, garage et
+
+ Capendu · 140 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)
+
+ 85 000 €
+
+### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
+
+ Capendu · 122 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)
+
+ 175 000 €
+
+### Maison familiale 136 m2 + 90 m2 de garages et dépendances
+
+ Capendu · 136,63 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
+
+ 38 500 €
+
+### Maison de village à rénover avec grange Capendu (11)
+
+ Capendu · 120 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)
+
+ 25 000 €
+
+### Terrain de loisir à Capendu
+
+ Capendu · 1457 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+[Filtrer et trier ces annonces](https://lotier.immo/nos-annonces/?offre=vente&ville=Capendu) · [Toutes nos annonces](https://lotier.immo/nos-annonces/)
+
+ Questions fréquentes
+
+## Acheter à Capendu
+
+**Question
+
+### Combien de biens sont à vendre à Capendu chez LOTIER Immobilier ?
+**
+
+10 biens sont à vendre à Capendu aujourd'hui : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Cette liste est mise à jour chaque jour.
+
+**Question
+
+### Quel budget prévoir pour acheter à Capendu ?
+**
+
+Parmi nos annonces, les prix vont de 25 000 € à 399 900 €, avec un prix médian de 85 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
+
+**Question
+
+### Qui contacter pour visiter un bien à Capendu ?
+**
+
+Chaque annonce indique l'agent qui présente le bien et son téléphone direct. À Capendu, nos annonces sont présentées par Barbara Bouba. Vous pouvez aussi demander à être rappelé depuis l'annonce.
+
+**Question
+
+### Les honoraires sont-ils inclus dans les prix affichés ?
+**
+
+Oui. Les prix de vente affichés comprennent les honoraires de l'agence, qui sont à la charge du vendeur. Le barème est publié sur la page Nos honoraires.
+
+ [Biens à louer à Capendu (4)](https://lotier.immo/nos-annonces/location-capendu/)[Vente à Béziers (11)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+
+---
+
+LOTIER Immobilier (SARL LOTIER), 40 rue Française, 1er étage, 34500 Béziers. Téléphone : 04 67 11 28 31. E-mail : contact@lotier-immobilier.com.
+Pages utiles : [À propos](https://lotier.immo/a-propos/) · [Contact](https://lotier.immo/contact/) · [Honoraires](https://lotier.immo/nos-honoraires/) · [Mentions légales](https://lotier.immo/mentions-legales/) · [Plan du site](https://lotier.immo/plan-du-site.html)

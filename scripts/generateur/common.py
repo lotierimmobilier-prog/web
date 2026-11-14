@@ -553,6 +553,20 @@ def load_annonces():
     if not os.path.exists(p): return []
     return json.load(open(p, encoding="utf-8")).get("annonces", [])
 
+def pages_ville_annonces(seuil=3):
+    """Pages « biens à vendre / à louer à <ville> » : une par ville et par type de transaction qui compte au moins `seuil` annonces.
+    Rend une liste de dicts {slug, ville, type, annonces}, de la plus fournie à la moins fournie."""
+    import unicodedata, re as _r, collections
+    groupes = collections.defaultdict(list)
+    for x in load_annonces():
+        if x.get("description_html") is not None and x.get("ville"): groupes[(x["ville"], x["type"])].append(x)
+    out = []
+    for (ville, typ), lst in groupes.items():
+        if len(lst) < seuil: continue
+        sl = "".join(c for c in unicodedata.normalize("NFD", ville.lower()) if unicodedata.category(c) != "Mn")
+        out.append({"slug": ("vente-" if typ == "vente" else "location-") + _r.sub(r"[^a-z0-9]+", "-", sl).strip("-"), "ville": ville, "type": typ, "annonces": lst})
+    return sorted(out, key=lambda g: (-len(g["annonces"]), g["slug"]))
+
 def _nice_title(a):
     t = a["titre"].strip()
     letters = [c for c in t if c.isalpha()]

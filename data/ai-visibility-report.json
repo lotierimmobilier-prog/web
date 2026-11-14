@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 45,
+  "liens": 54,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 129,
+  "pages_indexables": 137,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2247,6 +2247,134 @@
     "CollectionPage",
     "ItemList",
     "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/location-beziers/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/location-capendu/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-beziers/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-capendu/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-carcassonne/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-caveirac/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-montpellier/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-nimes/",
+   "type": "autre",
+   "balisage": [
+    "Answer",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "FAQPage",
+    "ItemList",
+    "ListItem",
+    "Question"
    ],
    "markdown": true,
    "problemes": []

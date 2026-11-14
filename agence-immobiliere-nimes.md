@@ -129,7 +129,7 @@ Les villages de l'agglomération, pour des maisons avec jardin et plus d'espace.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
 
-[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

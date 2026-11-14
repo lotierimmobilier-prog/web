@@ -104,6 +104,54 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://lotier.immo/nos-annonces/vente-beziers/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/vente-capendu/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/vente-nimes/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/location-beziers/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/location-capendu/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/vente-carcassonne/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/vente-caveirac/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/nos-annonces/vente-montpellier/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>

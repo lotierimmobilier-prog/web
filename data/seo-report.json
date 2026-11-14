@@ -2,11 +2,11 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 134,
-  "pages_indexables": 129,
+  "pages_auditees": 142,
+  "pages_indexables": 137,
   "erreurs": 0,
   "avertissements": 4,
-  "pages_sans_probleme": 131,
+  "pages_sans_probleme": 139,
   "problemes_par_type": {
    "description-doublon": 2,
    "description-longue": 1,
@@ -20,7 +20,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 133
+  "pages_markdown": 141
  },
  "problemes_site": [],
  "pages": [
@@ -86,11 +86,11 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers : vente, location, syndic | LOTIER",
    "description": "Agence immobilière indépendante à Béziers : vente, location, gestion locative et syndic de copropriété. Siège rue Française. Estimez votre bien avec un conseiller.",
-   "mots": 848,
+   "mots": 860,
    "h1": "Agence immobilière à Béziers",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 107,
    "markdown": true,
    "problemes": []
   },
@@ -100,11 +100,11 @@
    "indexable": true,
    "titre": "Agence immobilière Carcassonne : vente, location | LOTIER",
    "description": "LOTIER Immobilier vous accompagne à Carcassonne et dans l'Aude : vente, location, gestion locative et syndic de copropriété. Estimation de votre bien par un conseiller.",
-   "mots": 775,
+   "mots": 781,
    "h1": "Agence immobilière à Carcassonne",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -114,11 +114,11 @@
    "indexable": true,
    "titre": "Agence immobilière Montpellier : vente, location, syndic | LOTIER",
    "description": "LOTIER Immobilier, agence immobilière indépendante à Montpellier : vente, location, gestion locative et syndic de copropriété. Estimez votre bien avec un conseiller.",
-   "mots": 813,
+   "mots": 819,
    "h1": "Agence immobilière à Montpellier",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -142,11 +142,11 @@
    "indexable": true,
    "titre": "Agence immobilière Nîmes : vente, location, syndic | LOTIER",
    "description": "Agence immobilière à Nîmes : vente, location, gestion locative et syndic de copropriété avec LOTIER Immobilier. Estimation de votre bien par un conseiller.",
-   "mots": 800,
+   "mots": 806,
    "h1": "Agence immobilière à Nîmes",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -160,7 +160,7 @@
    "h1": "À Capendu, de 180m2 en location avec BARBARA BOUBA",
    "nb_h2": 16,
    "images": 19,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -174,7 +174,7 @@
    "h1": "À louer appartement T2 boulevard de la Liberté Béziers",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -188,7 +188,7 @@
    "h1": "À louer appartement T2 de 31 m2 en centre-ville historique",
    "nb_h2": 18,
    "images": 23,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -202,7 +202,7 @@
    "h1": "À louer appartement T3 spacieux en centre-ville historique",
    "nb_h2": 18,
    "images": 26,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -216,7 +216,7 @@
    "h1": "À louer appartement T3 spacieux en centre-ville historique",
    "nb_h2": 18,
    "images": 26,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -230,7 +230,7 @@
    "h1": "A louer Béziers centre-ville (34) appartement T3 bis ave",
    "nb_h2": 18,
    "images": 23,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -244,7 +244,7 @@
    "h1": "A louer Béziers centre-ville (34) immeuble bourgeois a",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -258,7 +258,7 @@
    "h1": "À louer bureaux de caractère rue Clemenceau, coeur de vil",
    "nb_h2": 16,
    "images": 26,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -272,7 +272,7 @@
    "h1": "À louer local commercial avec mezzanine entre Béziers et",
    "nb_h2": 16,
    "images": 23,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -286,7 +286,7 @@
    "h1": "À vendre appartement aux beaux volumes immeuble bourgeoi",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -300,7 +300,7 @@
    "h1": "À vendre appartement T2 bis avec terrasse dernier étage,",
    "nb_h2": 19,
    "images": 25,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -314,7 +314,7 @@
    "h1": "À vendre appartement T3 avec balcon et box résidence ama",
    "nb_h2": 19,
    "images": 22,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -328,7 +328,7 @@
    "h1": "À vendre appartement T3 lumineux avec terrasse, box en sou",
    "nb_h2": 18,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -342,7 +342,7 @@
    "h1": "À vendre appartement T3 lumineux secteur gare / maréchal",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -356,7 +356,7 @@
    "h1": "A vendre, beziers (34) quartier de la crouzette maison T7",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -370,7 +370,7 @@
    "h1": "À vendre beziers -appartement de cour privative",
    "nb_h2": 19,
    "images": 26,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -384,7 +384,7 @@
    "h1": "A vendre beziers quartier cathedrale (34) immeuble a fort",
    "nb_h2": 18,
    "images": 25,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -398,7 +398,7 @@
    "h1": "A vendre beziers quartier cathedrale (34) immeuble a fort",
    "nb_h2": 19,
    "images": 19,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -412,7 +412,7 @@
    "h1": "À vendre fond de commerce – centre ville de Nîmes – environ",
    "nb_h2": 17,
    "images": 16,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -454,7 +454,7 @@
    "h1": "À vendre studio spacieux de 31 m2 avec balcon et garage, a",
    "nb_h2": 19,
    "images": 25,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -482,7 +482,7 @@
    "h1": "Appartement loué de 50 m2 en rez-de-jardin situé dans une r",
    "nb_h2": 19,
    "images": 21,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -510,7 +510,7 @@
    "h1": "Appartement T2 meublé à Capendu",
    "nb_h2": 18,
    "images": 22,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -552,7 +552,7 @@
    "h1": "Bel appartement de 115m2 avec terrasse à Capendu",
    "nb_h2": 19,
    "images": 27,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -566,7 +566,7 @@
    "h1": "Capendu studio meublé vendu loué terrasse renta brute",
    "nb_h2": 19,
    "images": 24,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -580,7 +580,7 @@
    "h1": "Carcassonne Confort, élégance et espace pour toute la fami",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -594,7 +594,7 @@
    "h1": "Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire",
    "nb_h2": 19,
    "images": 21,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -608,7 +608,7 @@
    "h1": "Caveirac T2 neuf avec patio privatif et frais de notaire r",
    "nb_h2": 19,
    "images": 21,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -678,7 +678,7 @@
    "h1": "Ensemble immobilier de 6 lots",
    "nb_h2": 18,
    "images": 28,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -692,7 +692,7 @@
    "h1": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
    "nb_h2": 19,
    "images": 26,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -706,7 +706,7 @@
    "h1": "Fond de commerce à vendre Axe principal traversant Capendu",
    "nb_h2": 18,
    "images": 23,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -720,7 +720,7 @@
    "h1": "Garage viabilisé de 134 m2 sur deux niveaux",
    "nb_h2": 18,
    "images": 27,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -762,7 +762,7 @@
    "h1": "Immeuble avec 1 local commercial et 1 T4",
    "nb_h2": 18,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -776,7 +776,7 @@
    "h1": "Immeuble de rapport",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -790,7 +790,7 @@
    "h1": "Investissement Nîmes Murs commerciaux + studio loué 111",
    "nb_h2": 17,
    "images": 24,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -818,7 +818,7 @@
    "h1": "L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d",
    "nb_h2": 19,
    "images": 21,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -832,7 +832,7 @@
    "h1": "Local commercial boulevard de Genève",
    "nb_h2": 17,
    "images": 28,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -846,7 +846,7 @@
    "h1": "Local Commercial Zone Commercial Capendu",
    "nb_h2": 16,
    "images": 20,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -860,7 +860,7 @@
    "h1": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -888,7 +888,7 @@
    "h1": "Maison de village à rénover avec grange Capendu (11)",
    "nb_h2": 18,
    "images": 28,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -902,7 +902,7 @@
    "h1": "Maison de village avec terrasse",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -975,7 +975,7 @@
    "h1": "Maison familiale 136 m2 + 90 m2 de garages et dépendances",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1017,7 +1017,7 @@
    "h1": "Montpellier Appartement 2 pièces avec cave et cour privati",
    "nb_h2": 19,
    "images": 24,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1059,7 +1059,7 @@
    "h1": "Nimes – à vendre fond de commerce restaurant",
    "nb_h2": 19,
    "images": 21,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1073,7 +1073,7 @@
    "h1": "Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour",
    "nb_h2": 19,
    "images": 23,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1087,7 +1087,7 @@
    "h1": "Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement",
    "nb_h2": 19,
    "images": 22,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1101,7 +1101,7 @@
    "h1": "Nîmes Capouchiné – résidence neuve – FRAIS DE NOTAIRE REDUIT",
    "nb_h2": 19,
    "images": 19,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1115,7 +1115,7 @@
    "h1": "Nîmes Costières appartement type 3 avec terrasse et garage",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1129,7 +1129,7 @@
    "h1": "Nîmes proche gare – Belle résidence neuve – appartement type",
    "nb_h2": 19,
    "images": 22,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1143,7 +1143,7 @@
    "h1": "Nîmes quartier route D’uzes – maison type 5 avec magnifiqu",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1157,7 +1157,7 @@
    "h1": "Nouveauté à Capendu maison 140 m2 avec piscine, garage et",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1171,7 +1171,7 @@
    "h1": "Proche Clémentville, dernier étage avec garage.",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1283,7 +1283,7 @@
    "h1": "Terrain de loisir à Capendu",
    "nb_h2": 17,
    "images": 14,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1817,11 +1817,123 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 2023,
+   "mots": 2055,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 9,
    "images": 87,
-   "liens": 318,
+   "liens": 326,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/location-beziers/",
+   "fichier": "nos-annonces/location-beziers/index.html",
+   "indexable": true,
+   "titre": "Location à Béziers : 8 biens | LOTIER",
+   "description": "8 biens à louer à Béziers avec LOTIER Immobilier : 6 appartements et 2 locaux commerciaux, de 210 € à 735 € par mois. Photos, prix, agent à contacter.",
+   "mots": 435,
+   "h1": "Biens à louer à Béziers.",
+   "nb_h2": 9,
+   "images": 12,
+   "liens": 99,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/location-capendu/",
+   "fichier": "nos-annonces/location-capendu/index.html",
+   "indexable": true,
+   "titre": "Location à Capendu : 4 biens | LOTIER",
+   "description": "4 biens à louer à Capendu avec LOTIER Immobilier : 2 locaux commerciaux, 1 maison et 1 appartement, de 450 € à 760 € par mois. Photos, prix, agent à contacter.",
+   "mots": 323,
+   "h1": "Biens à louer à Capendu.",
+   "nb_h2": 9,
+   "images": 8,
+   "liens": 86,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-beziers/",
+   "fichier": "nos-annonces/vente-beziers/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Béziers : 11 biens | LOTIER",
+   "description": "11 biens à vendre à Béziers avec LOTIER Immobilier : 7 appartements, 2 immeubles, 1 local commercial et 1 maison, de 55 000 € à 357 000 €. Photos, prix, agent…",
+   "mots": 494,
+   "h1": "Biens à vendre à Béziers.",
+   "nb_h2": 9,
+   "images": 15,
+   "liens": 112,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-capendu/",
+   "fichier": "nos-annonces/vente-capendu/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Capendu : 10 biens | LOTIER",
+   "description": "10 biens à vendre à Capendu avec LOTIER Immobilier : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 399 900…",
+   "mots": 466,
+   "h1": "Biens à vendre à Capendu.",
+   "nb_h2": 9,
+   "images": 14,
+   "liens": 108,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-carcassonne/",
+   "fichier": "nos-annonces/vente-carcassonne/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Carcassonne : 4 biens | LOTIER",
+   "description": "4 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles, 1 appartement et 1 maison, de 80 000 € à 330 000 €. Photos, prix, agent à contacter.",
+   "mots": 321,
+   "h1": "Biens à vendre à Carcassonne.",
+   "nb_h2": 9,
+   "images": 8,
+   "liens": 90,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-caveirac/",
+   "fichier": "nos-annonces/vente-caveirac/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Caveirac : 3 biens | LOTIER",
+   "description": "3 biens à vendre à Caveirac avec LOTIER Immobilier : 3 appartements, de 220 000 € à 360 000 €. Photos, prix, agent à contacter.",
+   "mots": 304,
+   "h1": "Biens à vendre à Caveirac.",
+   "nb_h2": 9,
+   "images": 7,
+   "liens": 86,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-montpellier/",
+   "fichier": "nos-annonces/vente-montpellier/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Montpellier : 3 biens | LOTIER",
+   "description": "3 biens à vendre à Montpellier avec LOTIER Immobilier : 3 appartements, de 155 000 € à 284 000 €. Photos, prix, agent à contacter.",
+   "mots": 296,
+   "h1": "Biens à vendre à Montpellier.",
+   "nb_h2": 9,
+   "images": 7,
+   "liens": 87,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/nos-annonces/vente-nimes/",
+   "fichier": "nos-annonces/vente-nimes/index.html",
+   "indexable": true,
+   "titre": "Immobilier à vendre à Nîmes : 9 biens | LOTIER",
+   "description": "9 biens à vendre à Nîmes avec LOTIER Immobilier : 5 appartements, 3 locaux commerciaux et 1 maison, de 45 000 € à 395 000 €. Photos, prix, agent à contacter.",
+   "mots": 442,
+   "h1": "Biens à vendre à Nîmes.",
+   "nb_h2": 9,
+   "images": 13,
+   "liens": 105,
    "markdown": true,
    "problemes": []
   },
