@@ -2,11 +2,11 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 142,
-  "pages_indexables": 137,
+  "pages_auditees": 143,
+  "pages_indexables": 138,
   "erreurs": 0,
   "avertissements": 4,
-  "pages_sans_probleme": 139,
+  "pages_sans_probleme": 140,
   "problemes_par_type": {
    "description-doublon": 2,
    "description-longue": 1,
@@ -20,7 +20,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 141
+  "pages_markdown": 142
  },
  "problemes_site": [],
  "pages": [
@@ -34,7 +34,7 @@
    "h1": "LOTIER Immobilier, une agence indépendante.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -48,7 +48,7 @@
    "h1": "Déclaration d'accessibilité",
    "nb_h2": 14,
    "images": 4,
-   "liens": 71,
+   "liens": 72,
    "markdown": true,
    "problemes": []
   },
@@ -62,7 +62,7 @@
    "h1": "Agence immobilière à Agde",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -76,7 +76,7 @@
    "h1": "Agence immobilière à Avignon",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -90,7 +90,7 @@
    "h1": "Agence immobilière à Béziers",
    "nb_h2": 17,
    "images": 15,
-   "liens": 107,
+   "liens": 108,
    "markdown": true,
    "problemes": []
   },
@@ -104,7 +104,7 @@
    "h1": "Agence immobilière à Carcassonne",
    "nb_h2": 17,
    "images": 15,
-   "liens": 106,
+   "liens": 107,
    "markdown": true,
    "problemes": []
   },
@@ -118,7 +118,7 @@
    "h1": "Agence immobilière à Montpellier",
    "nb_h2": 17,
    "images": 15,
-   "liens": 106,
+   "liens": 107,
    "markdown": true,
    "problemes": []
   },
@@ -132,7 +132,7 @@
    "h1": "Agence immobilière à Narbonne",
    "nb_h2": 17,
    "images": 15,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -146,7 +146,7 @@
    "h1": "Agence immobilière à Nîmes",
    "nb_h2": 17,
    "images": 15,
-   "liens": 106,
+   "liens": 107,
    "markdown": true,
    "problemes": []
   },
@@ -160,7 +160,7 @@
    "h1": "À Capendu, de 180m2 en location avec BARBARA BOUBA",
    "nb_h2": 16,
    "images": 19,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -174,7 +174,7 @@
    "h1": "À louer appartement T2 boulevard de la Liberté Béziers",
    "nb_h2": 18,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -188,7 +188,7 @@
    "h1": "À louer appartement T2 de 31 m2 en centre-ville historique",
    "nb_h2": 18,
    "images": 23,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -202,7 +202,7 @@
    "h1": "À louer appartement T3 spacieux en centre-ville historique",
    "nb_h2": 18,
    "images": 26,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -216,7 +216,7 @@
    "h1": "À louer appartement T3 spacieux en centre-ville historique",
    "nb_h2": 18,
    "images": 26,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -230,7 +230,7 @@
    "h1": "A louer Béziers centre-ville (34) appartement T3 bis ave",
    "nb_h2": 18,
    "images": 23,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -244,7 +244,7 @@
    "h1": "A louer Béziers centre-ville (34) immeuble bourgeois a",
    "nb_h2": 18,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -258,7 +258,7 @@
    "h1": "À louer bureaux de caractère rue Clemenceau, coeur de vil",
    "nb_h2": 16,
    "images": 26,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -272,7 +272,7 @@
    "h1": "À louer local commercial avec mezzanine entre Béziers et",
    "nb_h2": 16,
    "images": 23,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -286,7 +286,7 @@
    "h1": "À vendre appartement aux beaux volumes immeuble bourgeoi",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -300,7 +300,7 @@
    "h1": "À vendre appartement T2 bis avec terrasse dernier étage,",
    "nb_h2": 19,
    "images": 25,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -314,7 +314,7 @@
    "h1": "À vendre appartement T3 avec balcon et box résidence ama",
    "nb_h2": 19,
    "images": 22,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -328,7 +328,7 @@
    "h1": "À vendre appartement T3 lumineux avec terrasse, box en sou",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -342,7 +342,7 @@
    "h1": "À vendre appartement T3 lumineux secteur gare / maréchal",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -356,7 +356,7 @@
    "h1": "A vendre, beziers (34) quartier de la crouzette maison T7",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -370,7 +370,7 @@
    "h1": "À vendre beziers -appartement de cour privative",
    "nb_h2": 19,
    "images": 26,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -384,7 +384,7 @@
    "h1": "A vendre beziers quartier cathedrale (34) immeuble a fort",
    "nb_h2": 18,
    "images": 25,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -398,7 +398,7 @@
    "h1": "A vendre beziers quartier cathedrale (34) immeuble a fort",
    "nb_h2": 19,
    "images": 19,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -412,7 +412,7 @@
    "h1": "À vendre fond de commerce – centre ville de Nîmes – environ",
    "nb_h2": 17,
    "images": 16,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -426,7 +426,7 @@
    "h1": "À vendre maison de village d’environ 190 m2 avec extérieur",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -440,7 +440,7 @@
    "h1": "À vendre maison de ville avec grand garage et combles amén",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -454,7 +454,7 @@
    "h1": "À vendre studio spacieux de 31 m2 avec balcon et garage, a",
    "nb_h2": 19,
    "images": 25,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -468,7 +468,7 @@
    "h1": "ALES maison des années 60 de 90 m2 avec jardin et parking 4",
    "nb_h2": 19,
    "images": 27,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -482,7 +482,7 @@
    "h1": "Appartement loué de 50 m2 en rez-de-jardin situé dans une r",
    "nb_h2": 19,
    "images": 21,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -496,7 +496,7 @@
    "h1": "Appartement T1 Narbonne centre historique 38,2 m2",
    "nb_h2": 18,
    "images": 26,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -510,7 +510,7 @@
    "h1": "Appartement T2 meublé à Capendu",
    "nb_h2": 18,
    "images": 22,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -524,7 +524,7 @@
    "h1": "Appartement T4 non meublé – centre ville Carcassonne",
    "nb_h2": 18,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -538,7 +538,7 @@
    "h1": "Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch",
    "nb_h2": 18,
    "images": 24,
-   "liens": 85,
+   "liens": 86,
    "markdown": true,
    "problemes": []
   },
@@ -552,7 +552,7 @@
    "h1": "Bel appartement de 115m2 avec terrasse à Capendu",
    "nb_h2": 19,
    "images": 27,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -566,7 +566,7 @@
    "h1": "Capendu studio meublé vendu loué terrasse renta brute",
    "nb_h2": 19,
    "images": 24,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -580,7 +580,7 @@
    "h1": "Carcassonne Confort, élégance et espace pour toute la fami",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -594,7 +594,7 @@
    "h1": "Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire",
    "nb_h2": 19,
    "images": 21,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -608,7 +608,7 @@
    "h1": "Caveirac T2 neuf avec patio privatif et frais de notaire r",
    "nb_h2": 19,
    "images": 21,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -622,7 +622,7 @@
    "h1": "Clarensac dans la vaunage entre Nîmes et Montpellier maison",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -636,7 +636,7 @@
    "h1": "Clarensac – maison de village – 3 chambres – environ 100m2 d",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -650,7 +650,7 @@
    "h1": "Coup de coeur à Aubais : T3 neuf avec terrasse dans une résid",
    "nb_h2": 18,
    "images": 20,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -664,7 +664,7 @@
    "h1": "Coup de coeur à Calvisson : Villa T4 de 2016 avec jardin, gar",
    "nb_h2": 19,
    "images": 27,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -678,7 +678,7 @@
    "h1": "Ensemble immobilier de 6 lots",
    "nb_h2": 18,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -692,7 +692,7 @@
    "h1": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
    "nb_h2": 19,
    "images": 26,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -706,7 +706,7 @@
    "h1": "Fond de commerce à vendre Axe principal traversant Capendu",
    "nb_h2": 18,
    "images": 23,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -720,7 +720,7 @@
    "h1": "Garage viabilisé de 134 m2 sur deux niveaux",
    "nb_h2": 18,
    "images": 27,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -734,7 +734,7 @@
    "h1": "Garons dans résidence neuve fin 2024 appartement type 3 avec",
    "nb_h2": 19,
    "images": 20,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -748,7 +748,7 @@
    "h1": "Grande maison de village sur 3 niveaux à Rieux-Minervois",
    "nb_h2": 19,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -762,7 +762,7 @@
    "h1": "Immeuble avec 1 local commercial et 1 T4",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -776,7 +776,7 @@
    "h1": "Immeuble de rapport",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -790,7 +790,7 @@
    "h1": "Investissement Nîmes Murs commerciaux + studio loué 111",
    "nb_h2": 17,
    "images": 24,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -804,7 +804,7 @@
    "h1": "Langlade villa neuve – T4 de 90m2 – 3 chambres – garage –",
    "nb_h2": 19,
    "images": 25,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -818,7 +818,7 @@
    "h1": "L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d",
    "nb_h2": 19,
    "images": 21,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -832,7 +832,7 @@
    "h1": "Local commercial boulevard de Genève",
    "nb_h2": 17,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -846,7 +846,7 @@
    "h1": "Local Commercial Zone Commercial Capendu",
    "nb_h2": 16,
    "images": 20,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -860,7 +860,7 @@
    "h1": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -874,7 +874,7 @@
    "h1": "Maison avec jardin et piscine à Comigne",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -888,7 +888,7 @@
    "h1": "Maison de village à rénover avec grange Capendu (11)",
    "nb_h2": 18,
    "images": 28,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -902,7 +902,7 @@
    "h1": "Maison de village avec terrasse",
    "nb_h2": 18,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -916,7 +916,7 @@
    "h1": "Maison de village de 63m2 à Villemoutaussou vendue louée",
    "nb_h2": 19,
    "images": 27,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -930,7 +930,7 @@
    "h1": "Maison de village rénovée avec climatisation louée meublée",
    "nb_h2": 18,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": [
     {
@@ -950,7 +950,7 @@
    "h1": "Maison de village rénovée avec climatisation louée meublée",
    "nb_h2": 18,
    "images": 22,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": [
     {
@@ -975,7 +975,7 @@
    "h1": "Maison familiale 136 m2 + 90 m2 de garages et dépendances",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -989,7 +989,7 @@
    "h1": "Maison vendue louée et meublée Investissement locatif clé",
    "nb_h2": 19,
    "images": 27,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1003,7 +1003,7 @@
    "h1": "Marguerittes – immeuble avec local commercial et deux appart",
    "nb_h2": 18,
    "images": 24,
-   "liens": 88,
+   "liens": 89,
    "markdown": true,
    "problemes": []
   },
@@ -1017,7 +1017,7 @@
    "h1": "Montpellier Appartement 2 pièces avec cave et cour privati",
    "nb_h2": 19,
    "images": 24,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1031,7 +1031,7 @@
    "h1": "Montpellier estanove appartement 2 chambres idéal étud",
    "nb_h2": 17,
    "images": 22,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1045,7 +1045,7 @@
    "h1": "Nîmes – a louer – studio – 14,99m2 – centre ville proche fac",
    "nb_h2": 18,
    "images": 20,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1059,7 +1059,7 @@
    "h1": "Nimes – à vendre fond de commerce restaurant",
    "nb_h2": 19,
    "images": 21,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1073,7 +1073,7 @@
    "h1": "Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour",
    "nb_h2": 19,
    "images": 23,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1087,7 +1087,7 @@
    "h1": "Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement",
    "nb_h2": 19,
    "images": 22,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1101,7 +1101,7 @@
    "h1": "Nîmes Capouchiné – résidence neuve – FRAIS DE NOTAIRE REDUIT",
    "nb_h2": 19,
    "images": 19,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1115,7 +1115,7 @@
    "h1": "Nîmes Costières appartement type 3 avec terrasse et garage",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1129,7 +1129,7 @@
    "h1": "Nîmes proche gare – Belle résidence neuve – appartement type",
    "nb_h2": 19,
    "images": 22,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1143,7 +1143,7 @@
    "h1": "Nîmes quartier route D’uzes – maison type 5 avec magnifiqu",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1157,7 +1157,7 @@
    "h1": "Nouveauté à Capendu maison 140 m2 avec piscine, garage et",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -1171,7 +1171,7 @@
    "h1": "Proche Clémentville, dernier étage avec garage.",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1185,7 +1185,7 @@
    "h1": "Propriété d’Exception avec Vue Panoramique et Piscine Vill",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1199,7 +1199,7 @@
    "h1": "Saint Ambroix à proximité d’Alès local commercial + appartem",
    "nb_h2": 19,
    "images": 22,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1213,7 +1213,7 @@
    "h1": "Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m",
    "nb_h2": 18,
    "images": 26,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1227,7 +1227,7 @@
    "h1": "Studio Spacieux au Centre de Limoux",
    "nb_h2": 17,
    "images": 21,
-   "liens": 84,
+   "liens": 85,
    "markdown": true,
    "problemes": []
   },
@@ -1241,7 +1241,7 @@
    "h1": "Terrain agricole de plus de 8000m2 à Douzens",
    "nb_h2": 17,
    "images": 21,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1255,7 +1255,7 @@
    "h1": "Terrain constructible de 1 470 m2 à Villedubert",
    "nb_h2": 18,
    "images": 20,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1269,7 +1269,7 @@
    "h1": "Terrain constructible de 3000m2 à Floure",
    "nb_h2": 17,
    "images": 26,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1283,7 +1283,7 @@
    "h1": "Terrain de loisir à Capendu",
    "nb_h2": 17,
    "images": 14,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1297,7 +1297,7 @@
    "h1": "Terrain de loisir à proximité des habitations",
    "nb_h2": 17,
    "images": 20,
-   "liens": 97,
+   "liens": 98,
    "markdown": true,
    "problemes": []
   },
@@ -1311,7 +1311,7 @@
    "h1": "TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin",
    "nb_h2": 19,
    "images": 28,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1325,7 +1325,7 @@
    "h1": "Uzes – terrain 840m2 – viabilisé",
    "nb_h2": 17,
    "images": 20,
-   "liens": 96,
+   "liens": 97,
    "markdown": true,
    "problemes": []
   },
@@ -1339,7 +1339,7 @@
    "h1": "Assemblée générale de copropriété : bien se préparer",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1353,7 +1353,7 @@
    "h1": "Charges de copropriété : lire un appel de fonds",
    "nb_h2": 22,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1367,7 +1367,7 @@
    "h1": "Compromis de vente : ce qu'il faut vérifier avant de signer",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1381,7 +1381,7 @@
    "h1": "Dépôt de garantie : montant, restitution, retenues",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1395,7 +1395,7 @@
    "h1": "Les diagnostics immobiliers obligatoires pour vendre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1409,7 +1409,7 @@
    "h1": "Constituer un dossier de location solide",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1423,7 +1423,7 @@
    "h1": "DPE : comprendre les classes A à G",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1437,7 +1437,7 @@
    "h1": "Fixer le bon prix : pourquoi une estimation sérieuse change tout",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1451,7 +1451,7 @@
    "h1": "Frais de notaire : à quoi correspondent-ils vraiment ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1465,7 +1465,7 @@
    "h1": "Home staging : 8 gestes simples pour mieux vendre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1479,7 +1479,7 @@
    "h1": "Conseils et actualités de l'immobilier.",
    "nb_h2": 9,
    "images": 25,
-   "liens": 109,
+   "liens": 110,
    "markdown": true,
    "problemes": []
   },
@@ -1493,7 +1493,7 @@
    "h1": "Loyers impayés : les bons réflexes du propriétaire",
    "nb_h2": 22,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1507,7 +1507,7 @@
    "h1": "Mandat exclusif ou mandat simple : que choisir pour vendre ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1521,7 +1521,7 @@
    "h1": "Louer son bien : meublé ou vide ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1535,7 +1535,7 @@
    "h1": "Premier achat immobilier : 6 erreurs à éviter",
    "nb_h2": 24,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1549,7 +1549,7 @@
    "h1": "Travaux en copropriété : qui décide, qui paie ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": [
     {
@@ -1569,7 +1569,7 @@
    "h1": "Visiter un appartement : la check-list de l'acheteur",
    "nb_h2": 21,
    "images": 9,
-   "liens": 79,
+   "liens": 80,
    "markdown": true,
    "problemes": []
   },
@@ -1583,7 +1583,7 @@
    "h1": "Vivre à Béziers : centre ancien, canal et art de vivre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 80,
+   "liens": 81,
    "markdown": true,
    "problemes": []
   },
@@ -1597,7 +1597,7 @@
    "h1": "Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi",
    "nb_h2": 21,
    "images": 9,
-   "liens": 80,
+   "liens": 81,
    "markdown": true,
    "problemes": []
   },
@@ -1611,7 +1611,7 @@
    "h1": "Vivre à Montpellier : du centre historique aux nouveaux quartiers",
    "nb_h2": 21,
    "images": 9,
-   "liens": 80,
+   "liens": 81,
    "markdown": true,
    "problemes": []
   },
@@ -1625,7 +1625,7 @@
    "h1": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois",
    "nb_h2": 21,
    "images": 9,
-   "liens": 80,
+   "liens": 81,
    "markdown": true,
    "problemes": []
   },
@@ -1639,7 +1639,7 @@
    "h1": "Nous contacter.",
    "nb_h2": 11,
    "images": 4,
-   "liens": 81,
+   "liens": 82,
    "markdown": true,
    "problemes": []
   },
@@ -1653,7 +1653,7 @@
    "h1": "Cookies et traceurs",
    "nb_h2": 14,
    "images": 4,
-   "liens": 69,
+   "liens": 70,
    "markdown": true,
    "problemes": []
   },
@@ -1667,7 +1667,7 @@
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
-   "liens": 133,
+   "liens": 134,
    "markdown": true,
    "problemes": []
   },
@@ -1681,7 +1681,7 @@
    "h1": "Louer et gérer, l'esprit tranquille.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 70,
+   "liens": 71,
    "markdown": true,
    "problemes": []
   },
@@ -1695,7 +1695,7 @@
    "h1": "Politique de confidentialité (RGPD)",
    "nb_h2": 25,
    "images": 4,
-   "liens": 86,
+   "liens": 87,
    "markdown": true,
    "problemes": []
   },
@@ -1709,7 +1709,7 @@
    "h1": "Mentions légales",
    "nb_h2": 24,
    "images": 4,
-   "liens": 80,
+   "liens": 81,
    "markdown": true,
    "problemes": []
   },
@@ -1723,7 +1723,7 @@
    "h1": "Votre espace client MyLotier.",
    "nb_h2": 10,
    "images": 5,
-   "liens": 70,
+   "liens": 71,
    "markdown": false,
    "problemes": []
   },
@@ -1737,7 +1737,7 @@
    "h1": "Barbara Bouba",
    "nb_h2": 11,
    "images": 37,
-   "liens": 170,
+   "liens": 171,
    "markdown": true,
    "problemes": []
   },
@@ -1751,7 +1751,7 @@
    "h1": "Céline Aubin",
    "nb_h2": 11,
    "images": 6,
-   "liens": 77,
+   "liens": 78,
    "markdown": true,
    "problemes": []
   },
@@ -1765,7 +1765,7 @@
    "h1": "Élodie Chardot",
    "nb_h2": 11,
    "images": 19,
-   "liens": 116,
+   "liens": 117,
    "markdown": true,
    "problemes": []
   },
@@ -1779,7 +1779,7 @@
    "h1": "Frédérique Gallucci",
    "nb_h2": 11,
    "images": 13,
-   "liens": 98,
+   "liens": 99,
    "markdown": true,
    "problemes": []
   },
@@ -1793,7 +1793,7 @@
    "h1": "Nos agents, près de chez vous.",
    "nb_h2": 9,
    "images": 9,
-   "liens": 89,
+   "liens": 90,
    "markdown": true,
    "problemes": []
   },
@@ -1807,7 +1807,7 @@
    "h1": "Laëtitia Dias",
    "nb_h2": 11,
    "images": 26,
-   "liens": 137,
+   "liens": 138,
    "markdown": true,
    "problemes": []
   },
@@ -1821,7 +1821,7 @@
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 9,
    "images": 87,
-   "liens": 326,
+   "liens": 327,
    "markdown": true,
    "problemes": []
   },
@@ -1835,7 +1835,7 @@
    "h1": "Biens à louer à Béziers.",
    "nb_h2": 9,
    "images": 12,
-   "liens": 99,
+   "liens": 100,
    "markdown": true,
    "problemes": []
   },
@@ -1849,7 +1849,7 @@
    "h1": "Biens à louer à Capendu.",
    "nb_h2": 9,
    "images": 8,
-   "liens": 86,
+   "liens": 87,
    "markdown": true,
    "problemes": []
   },
@@ -1863,7 +1863,7 @@
    "h1": "Biens à vendre à Béziers.",
    "nb_h2": 9,
    "images": 15,
-   "liens": 112,
+   "liens": 113,
    "markdown": true,
    "problemes": []
   },
@@ -1877,7 +1877,7 @@
    "h1": "Biens à vendre à Capendu.",
    "nb_h2": 9,
    "images": 14,
-   "liens": 108,
+   "liens": 109,
    "markdown": true,
    "problemes": []
   },
@@ -1891,7 +1891,7 @@
    "h1": "Biens à vendre à Carcassonne.",
    "nb_h2": 9,
    "images": 8,
-   "liens": 90,
+   "liens": 91,
    "markdown": true,
    "problemes": []
   },
@@ -1905,7 +1905,7 @@
    "h1": "Biens à vendre à Caveirac.",
    "nb_h2": 9,
    "images": 7,
-   "liens": 86,
+   "liens": 87,
    "markdown": true,
    "problemes": []
   },
@@ -1919,7 +1919,7 @@
    "h1": "Biens à vendre à Montpellier.",
    "nb_h2": 9,
    "images": 7,
-   "liens": 87,
+   "liens": 88,
    "markdown": true,
    "problemes": []
   },
@@ -1933,7 +1933,7 @@
    "h1": "Biens à vendre à Nîmes.",
    "nb_h2": 9,
    "images": 13,
-   "liens": 105,
+   "liens": 106,
    "markdown": true,
    "problemes": []
   },
@@ -1947,7 +1947,7 @@
    "h1": "Nos honoraires",
    "nb_h2": 14,
    "images": 4,
-   "liens": 68,
+   "liens": 69,
    "markdown": true,
    "problemes": []
   },
@@ -1961,7 +1961,7 @@
    "h1": "Un service client avant tout.",
    "nb_h2": 12,
    "images": 4,
-   "liens": 71,
+   "liens": 72,
    "markdown": true,
    "problemes": []
   },
@@ -1971,11 +1971,11 @@
    "indexable": true,
    "titre": "Plan du site | LOTIER Immobilier",
    "description": "Plan du site de LOTIER Immobilier : pages de villes, articles de blog, informations légales et fichiers pour les moteurs de recherche.",
-   "mots": 312,
+   "mots": 314,
    "h1": "Plan du site",
    "nb_h2": 13,
    "images": 4,
-   "liens": 119,
+   "liens": 121,
    "markdown": true,
    "problemes": []
   },
@@ -1989,7 +1989,7 @@
    "h1": "Réseau, agence classique ou LOTIER : quel modèle choisir ?",
    "nb_h2": 13,
    "images": 4,
-   "liens": 71,
+   "liens": 72,
    "markdown": true,
    "problemes": []
   },
@@ -2003,7 +2003,21 @@
    "h1": "Gagnez 75 %. Ne perdez pas de temps !",
    "nb_h2": 16,
    "images": 4,
-   "liens": 74,
+   "liens": 75,
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/sites-partenaires/",
+   "fichier": "sites-partenaires/index.html",
+   "indexable": true,
+   "titre": "Sites partenaires de LOTIER Immobilier | LOTIER",
+   "description": "Les sites partenaires de LOTIER Immobilier : Signabail. Des services en ligne recommandés à nos clients propriétaires, bailleurs et locataires.",
+   "mots": 164,
+   "h1": "Nos sites partenaires.",
+   "nb_h2": 10,
+   "images": 4,
+   "liens": 72,
    "markdown": true,
    "problemes": []
   },
@@ -2017,7 +2031,7 @@
    "h1": "Votre copropriété, en toute clarté.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 71,
+   "liens": 72,
    "markdown": true,
    "problemes": []
   },
@@ -2031,7 +2045,7 @@
    "h1": "Vendre votre bien, sereinement.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 70,
+   "liens": 71,
    "markdown": true,
    "problemes": []
   }

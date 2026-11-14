@@ -54,6 +54,8 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
 - [Nos honoraires](https://lotier.immo/nos-honoraires/)
 
+- [Sites partenaires](https://lotier.immo/sites-partenaires/)
+
 - [Cookies et traceurs](https://lotier.immo/cookies/)
 
 - [Déclaration d'accessibilité](https://lotier.immo/accessibilite/)

@@ -425,7 +425,7 @@ def footer(prefix, home=False, cta=None):
         </nav>
         <nav aria-label="Infos utiles"><h2>Infos utiles</h2>
           <a href="{prefix}contact/">Nous contacter</a>
-          <a href="{prefix}nos-agents/">Nos agents</a>{(chr(10) + '          <a href="' + prefix + 'equipe/">L’équipe</a>') if EQUIPE else ""}
+          <a href="{prefix}nos-agents/">Nos agents</a>{(chr(10) + '          <a href="' + prefix + 'sites-partenaires/">Sites partenaires</a>') if os.path.exists(f"{ROOT}/data/partenaires.json") else ""}{(chr(10) + '          <a href="' + prefix + 'equipe/">L’équipe</a>') if EQUIPE else ""}
           <button type="button" class="foot-link" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">Trouver une agence</button>
           <a href="{a("#estimer")}">Estimer mon bien</a>
           <a href="{prefix}nos-annonces/">Nos annonces</a>

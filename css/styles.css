@@ -1344,3 +1344,10 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 
 /* Nos annonces : accès direct par ville */
 .ann-par-ville { margin: 0 0 18px; gap: 6px; } .ann-par-ville .chip-link { font-size: 13px; padding: 6px 12px; }
+
+/* Sites partenaires */
+.part-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 18px; }
+.part-card { padding: clamp(20px, 2.6vw, 32px); display: grid; gap: 12px; align-content: start; max-width: 760px; }
+.part-card .title { margin: 0; font-size: clamp(26px, 3vw, 36px); } .part-card p { margin: 0; line-height: 1.7; }
+.part-acc { font-weight: 600; color: var(--gold-t); font-size: 18px; }
+.part-pts { margin: 0; padding-left: 20px; display: grid; gap: 6px; line-height: 1.6; }

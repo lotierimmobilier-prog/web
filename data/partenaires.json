@@ -1,0 +1,18 @@
+{
+  "_aide": "Sites partenaires affichés sur /sites-partenaires/. Pour en ajouter un : une entrée {nom, url, categorie, accroche, description, points [liste courte]}. Ne décrire que ce que le site partenaire annonce lui-même.",
+  "sites": [
+    {
+      "nom": "Signabail",
+      "url": "https://signabail.fr/",
+      "categorie": "Bail et location",
+      "accroche": "Votre bail conforme, signé en ligne.",
+      "description": "Signabail est un service en ligne de rédaction de baux et d'avenants. Le bailleur répond à quelques questions, le service rédige le contrat en appliquant la loi du 6 juillet 1989 et le contrat type, contrôle les mentions obligatoires, puis le fait signer électroniquement par les deux parties.",
+      "points": [
+        "Baux d'habitation vides ou meublés et avenants, pour les particuliers, les SCI et les professionnels",
+        "Contrôles automatiques : durée, dépôt de garantie, mentions obligatoires",
+        "Signature électronique avec dossier de preuve horodaté",
+        "Données hébergées en France"
+      ]
+    }
+  ]
+}
