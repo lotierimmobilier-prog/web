@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-caveirac/
 
 LOTIER Immobilier propose actuellement 3 biens à vendre à Caveirac : 3 appartements. Les prix vont de 220 000 € à 360 000 €. Les surfaces vont de 46 à 80 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)
 
  230 000 €

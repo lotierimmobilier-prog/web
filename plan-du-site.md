@@ -30,6 +30,8 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
 - [Nos agents par secteur](https://lotier.immo/nos-agents/)
 
+- [L’équipe de l’agence](https://lotier.immo/equipe/)
+
 - [Estimer mon bien](https://lotier.immo/index.html#estimer)
 
 - [Contact et agences](https://lotier.immo/index.html#contact)
@@ -73,7 +75,7 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
  Blog
 
 ## Les 20 articles par thème
- [Voir l'index du blog](https://lotier.immo/blog/index.html)
+ [Voir l'index du blog](https://lotier.immo/blog/)
 
 ### Vendre
 

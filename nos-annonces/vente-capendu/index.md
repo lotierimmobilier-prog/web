@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-capendu/
 
 LOTIER Immobilier propose actuellement 10 biens à vendre à Capendu : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Les prix vont de 25 000 € à 399 900 €. Les surfaces vont de 27 à 1457 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €

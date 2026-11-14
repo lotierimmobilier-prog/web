@@ -20,6 +20,9 @@ DirectoryIndex index.html index.php
   # /index.html -> /
   RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
   RewriteRule ^index\.html$ / [L,R=301]
+  # /dossier/index.html -> /dossier/ (une seule adresse par page)
+  RewriteCond %{THE_REQUEST} \s/(.+/)index\.html[\s?] [NC]
+  RewriteRule ^ /%1 [L,R=301]
 
   # Dossiers et fichiers de travail du dépôt : jamais servis au public (le site est déployé depuis GitHub)
   RewriteRule ^(v2|audit-lotier|mise-en-ligne|scripts|\.claude|\.git|node_modules)(/|$) - [R=404,L]
@@ -74,6 +77,7 @@ DirectoryIndex index.html index.php
 </IfModule>
 
 <IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set X-Frame-Options "SAMEORIGIN"

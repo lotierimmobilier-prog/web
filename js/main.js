@@ -148,7 +148,8 @@
     }
     // L'icône d'Auguste est celle choisie dans Collab (réglage du chatbot) : on la lit au chargement ; sans réponse, le « L » du logo reste.
     // (lue après le chargement de la page, pour ne pas ralentir l'affichage : l'image d'Auguste est lourde)
-    function loadAvatar() { if (API) fetch(API + '/avatar').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (d && d.logoUrl) setAvatar(d.logoUrl); }).catch(function () { /* Collab injoignable : le « L » reste */ }); }
+    function loadAvatar() { var loc = chat.getAttribute('data-avatar'); if (loc) { setAvatar(new URL(loc, location.href).href); return; }   /* copie locale légère, préparée à la synchronisation */
+      if (API) fetch(API + '/avatar').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (d && d.logoUrl) setAvatar(d.logoUrl); }).catch(function () { /* Collab injoignable : le « L » reste */ }); }
     if (document.readyState === 'complete') setTimeout(loadAvatar, 1500); else window.addEventListener('load', function () { setTimeout(loadAvatar, 1500); });
     function openSession() {
       if (token) return Promise.resolve({ token: token });

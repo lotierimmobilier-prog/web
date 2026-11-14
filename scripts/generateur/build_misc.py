@@ -453,7 +453,7 @@ def plan_page():
     </section>
 
     <section class="section container" aria-labelledby="t-blog-plan">
-      <div class="section-head" data-r><div class="stack-3"><span class="label">Blog</span><h2 class="title" id="t-blog-plan">Les {len(ARTICLES)} articles par thème</h2></div><a class="text-link" href="blog/index.html">Voir l'index du blog</a></div>
+      <div class="section-head" data-r><div class="stack-3"><span class="label">Blog</span><h2 class="title" id="t-blog-plan">Les {len(ARTICLES)} articles par thème</h2></div><a class="text-link" href="blog/">Voir l'index du blog</a></div>
       <div class="plan-grid plan-blog" data-stagger>{blog}</div>
     </section>'''
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "@id": SITE + "/plan-du-site.html", "name": "Plan du site LOTIER Immobilier", "url": SITE + "/plan-du-site.html", "inLanguage": "fr-FR", "isPartOf": {"@id": SITE + "/#website"}},
@@ -476,7 +476,7 @@ body404 = f'''    <section class="page-hero">
     <section class="section container" aria-label="Pages utiles">
       <div class="glass near">
         <div><span class="label">Nos villes</span><div class="chip-links">{cities_links}</div></div>
-        <div><span class="label">À lire</span><div class="chip-links"><a class="chip-link" href="/blog/index.html">Le blog</a><a class="chip-link" href="/plan-du-site.html">Plan du site</a><a class="chip-link" href="/index.html#estimer">Estimer mon bien</a></div></div>
+        <div><span class="label">À lire</span><div class="chip-links"><a class="chip-link" href="/blog/">Le blog</a><a class="chip-link" href="/plan-du-site.html">Plan du site</a><a class="chip-link" href="/index.html#estimer">Estimer mon bien</a></div></div>
       </div>
     </section>'''
 # La page 404 est servie depuis n'importe quelle adresse : tous les liens sont absolus (depuis la racine).
@@ -507,6 +507,9 @@ DirectoryIndex index.html index.php
   # /index.html -> /
   RewriteCond %{THE_REQUEST} \\s/index\\.html[\\s?] [NC]
   RewriteRule ^index\\.html$ / [L,R=301]
+  # /dossier/index.html -> /dossier/ (une seule adresse par page)
+  RewriteCond %{THE_REQUEST} \\s/(.+/)index\\.html[\\s?] [NC]
+  RewriteRule ^ /%1 [L,R=301]
 
   # Dossiers et fichiers de travail du dépôt : jamais servis au public (le site est déployé depuis GitHub)
   RewriteRule ^(v2|audit-lotier|mise-en-ligne|scripts|\\.claude|\\.git|node_modules)(/|$) - [R=404,L]
@@ -561,6 +564,7 @@ DirectoryIndex index.html index.php
 </IfModule>
 
 <IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set X-Frame-Options "SAMEORIGIN"

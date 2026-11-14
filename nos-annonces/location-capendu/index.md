@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/location-capendu/
 
 LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux commerciaux, 1 maison et 1 appartement. Les loyers vont de 450 € à 760 € par mois. Les surfaces vont de 33 à 180 m².
 
+## Liste des annonces
+
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
 
  750 € par mois

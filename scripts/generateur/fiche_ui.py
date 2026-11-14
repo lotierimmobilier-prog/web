@@ -111,7 +111,7 @@ _COULEURS = {"A": "#319834", "B": "#33cc31", "C": "#cbfc34", "D": "#fbfe06", "E"
 def _frise(titre, classe, valeur, unite):
     cases = "".join(f'<li class="{"is-on" if L == classe else ""}" style="--c:{_COULEURS[L]}">{L}</li>' for L in "ABCDEFG")
     val = f'<span class="ann-nrj-val"><b>{e(str(valeur))}</b> {unite}</span>' if valeur is not None else ""
-    return f'<div class="ann-nrj-ligne"><div class="ann-nrj-tt"><span>{titre}</span>{val}</div><ol class="ann-nrj-bar" role="img" aria-label="{e(titre)} : classe {classe}">{cases}</ol></div>'
+    return f'<div class="ann-nrj-ligne"><div class="ann-nrj-tt"><span>{titre}</span>{val}</div><div class="ann-nrj-bar" role="img" aria-label="{e(titre)} : classe {classe}">{cases}</div></div>'
 
 def bilan_energie(a, detail_html):
     en = a.get("energie") or {}

@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-nimes/
 
 LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 appartements, 3 locaux commerciaux et 1 maison. Les prix vont de 45 000 € à 395 000 €. Les surfaces vont de 49 à 155 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
 
  261 000 €
