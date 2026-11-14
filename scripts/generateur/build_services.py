@@ -158,4 +158,26 @@ body += faq("syndic", [
 ])
 body += closing("Une question sur votre copropriété ?", "L'équipe syndic de LOTIER Immobilier vous répond.", "Contacter le syndic", CONTACT)
 write("syndic", "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER", "Syndic de copropriété LOTIER Immobilier : assemblées, charges, travaux, espace client MyLotier et honoraires annuels publiés.", body, "syndic", crumb="Syndic de copropriété", service="Syndic de copropriété")
+# ---------- Sites partenaires (data/partenaires.json) ----------
+import json as _json
+try: _SITES = _json.load(open(f"{ROOT}/data/partenaires.json", encoding="utf-8")).get("sites", [])
+except (OSError, ValueError): _SITES = []
+if _SITES:
+    def _carte(p):
+        hote = p["url"].split("//")[-1].strip("/")
+        pts = "".join(f"<li>{e(x)}</li>" for x in p.get("points", []))
+        return (f'''<article class="glass part-card"><span class="label">{e(p.get("categorie", "Partenaire"))}</span><h2 class="title">{e(p["nom"])}</h2>'''
+                f'''<p class="part-acc">{e(p.get("accroche", ""))}</p><p>{e(p["description"])}</p>{("<ul class=\"part-pts\">" + pts + "</ul>") if pts else ""}'''
+                f'''<p><a class="btn btn-navy mag" href="{e(p["url"])}" target="_blank" rel="noopener">Visiter {e(hote)} {ARROW}</a></p></article>''')
+    body = hero("Sites partenaires", 'Nos sites <em class="gold-text">partenaires.</em>', "Des services en ligne que nous recommandons à nos clients, propriétaires, bailleurs et locataires, pour compléter l'accompagnement de l'agence.")
+    body += f'''    <section class="section container" aria-label="Sites partenaires"><div class="part-list">{"".join(_carte(p) for p in _SITES)}</div>
+      <p class="muted small" style="margin-top:22px">Ces sites sont édités par des tiers, sous leur seule responsabilité. Vous proposez un service utile à nos clients ? <a class="text-link" href="{prefix}contact/">Écrivez-nous</a>.</p>
+    </section>'''
+    body += closing("Un projet immobilier ?", "Vente, location, gestion, syndic : un conseiller vous répond.", "Contacter l'agence", CONTACT)
+    _ld = {"@context": "https://schema.org", "@type": "ItemList", "@id": f"{SITE}/sites-partenaires/#liste", "name": "Sites partenaires de LOTIER Immobilier", "numberOfItems": len(_SITES),
+           "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "WebSite", "name": p["nom"], "url": p["url"], "description": p["description"]}} for i, p in enumerate(_SITES)]}
+    os.makedirs(f"{ROOT}/sites-partenaires", exist_ok=True)
+    open(f"{ROOT}/sites-partenaires/index.html", "w", encoding="utf-8").write(
+        shell(prefix, "Sites partenaires de LOTIER Immobilier | LOTIER", "Les sites partenaires de LOTIER Immobilier : " + ", ".join(p["nom"] for p in _SITES) + ". Des services en ligne recommandés à nos clients propriétaires, bailleurs et locataires.",
+              "sites-partenaires/", body, [breadcrumb_ld([("Accueil", SITE + "/"), ("Sites partenaires", f"{SITE}/sites-partenaires/")]), _ld], "assets/og-lotier.jpg", kind="agence", banner=False))
 print("services générés")

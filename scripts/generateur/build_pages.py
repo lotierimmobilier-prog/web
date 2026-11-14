@@ -285,6 +285,7 @@ if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
 urls += [(f"{SITE}/nos-annonces/{g['slug']}/", maj_ann, "0.7", "daily") for g in pages_ville_annonces()]
 urls += [(f"{SITE}/annonces/{a['id']}/", maj_ann, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
+if os.path.exists(f"{ROOT}/data/partenaires.json"): urls += [(f"{SITE}/sites-partenaires/", today, "0.4", "monthly")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
 urls += [(f"{SITE}/blog/{a['slug']}.html", a["date"].isoformat(), "0.7", "monthly") for a in ARTICLES_BY_DATE]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<!-- À compléter à chaque nouvelle page : annonces, articles, villes. -->\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -303,6 +304,10 @@ if _cfg_ag.get("indexable") and _ag:
     ll += f"\n## Nos agents\n\n- [Nos agents par secteur]({SITE}/nos-agents/): les conseillers LOTIER Immobilier, leur secteur et leurs annonces.\n"
     for a in [x for x in _ag if x.get("rsac")]:
         ll += f"- [{a['prenom']} {a['nom']}]({SITE}/nos-agents/{a['slug']}/): {a.get('role') or 'agent commercial'}" + (f", secteur {', '.join(a['communes'][:4])}" if a.get("communes") else "") + ".\n"
+try: _part = json.load(open(f"{ROOT}/data/partenaires.json", encoding="utf-8")).get("sites", [])
+except (OSError, ValueError): _part = []
+if _part:
+    ll += f"\n## Sites partenaires\n\n- [Sites partenaires]({SITE}/sites-partenaires/): " + " ; ".join(f"{p['nom']} ({p['url']}), {p.get('accroche', '').rstrip('.').lower()}" for p in _part) + ".\n"
 _pv = pages_ville_annonces()
 if _pv:
     ll += "\n## Annonces par ville\n\n"

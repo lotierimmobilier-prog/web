@@ -438,7 +438,7 @@ def plan_page():
         </ul></div>
         <div class="glass plan-box"><h2>Nos villes</h2><ul>{villes}</ul></div>
         <div class="glass plan-box"><h2>Informations</h2><ul>
-          {li("nos-honoraires/", "Nos honoraires")}
+          {li("nos-honoraires/", "Nos honoraires")}{(chr(10) + "          " + li("sites-partenaires/", "Sites partenaires")) if os.path.exists(f"{ROOT}/data/partenaires.json") else ""}
           {li("cookies/", "Cookies et traceurs")}
           {li("accessibilite/", "Déclaration d'accessibilité")}
           {li("mentions-legales/", "Mentions légales")}
