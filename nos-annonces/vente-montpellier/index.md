@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-montpellier/
 
 LOTIER Immobilier propose actuellement 3 biens à vendre à Montpellier : 3 appartements. Les prix vont de 155 000 € à 284 000 €. Les surfaces vont de 41 à 91 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)
 
  155 000 €

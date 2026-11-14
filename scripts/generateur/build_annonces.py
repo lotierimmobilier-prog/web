@@ -47,6 +47,7 @@ body = f'''    <section class="page-hero ann-list-hero">
         <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
       </form>
       {_par_ville}
+      <h2 class="sr-only">Liste des annonces</h2>
       <div class="cards" data-ann-grid>{cards}
       </div>
       <p class="muted" data-ann-empty hidden>Aucune annonce ne correspond à ces critères. <button type="button" class="text-link ann-reset" data-ann-reset>Réinitialiser les filtres</button></p>
@@ -245,6 +246,7 @@ _TYPES = {"Appartement": ("Appartement", "Apartment"), "Maison/villa": ("Maison"
           "Terrain": ("Terrain", "LandForm"), "Local": ("Local commercial", "Place"), "Boutique": ("Local commercial", "Place"),
           "Bureaux": ("Bureaux", "Place"), "Parking/box": ("Parking", "Place")}
 _TITRES_VUS = {}
+_DESC_VUES = set()
 
 def _seo_annonce(a, title, desc, vals, price):
     """(description, titre, entité schema.org) : « Appartement 3 pièces 68 m² à louer à Béziers | LOTIER »."""
@@ -273,6 +275,9 @@ def _seo_annonce(a, title, desc, vals, price):
     if prix: extra.append(prix)
     d = _clip(faits + (", " + ", ".join(extra) if extra else "") + ". " + " ".join(paras), 160) if nom else (_clip(" ".join(paras), 160) if paras else "")
     if len(d) < 80: d = _clip(f"{d} Annonce LOTIER Immobilier : photos, caractéristiques et contact.".strip(), 165)
+    if d in _DESC_VUES and a.get("reference"): d = _clip(d, 150 - len(a["reference"])) + f" Réf. {a['reference']}."   # même bien publié deux fois à la source
+    _DESC_VUES.add(d)
+    if len(t) > 65 and a.get("reference"): t = _clip(faits, 50) + f" (réf. {a['reference'][-6:]})"
     bien = {"@type": sch, "name": faits, "address": {"@type": "PostalAddress", "addressLocality": a["ville"], "addressCountry": "FR"}}
     if a.get("surface"): bien["floorSize"] = {"@type": "QuantitativeValue", "value": a["surface"], "unitCode": "MTK"}
     if sch in ("Apartment", "House"):

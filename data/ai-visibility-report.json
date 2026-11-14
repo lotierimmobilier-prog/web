@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 54,
+  "liens": 55,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 137,
+  "pages_indexables": 138,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2123,6 +2123,18 @@
     "BreadcrumbList",
     "ContactPage",
     "ListItem"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/equipe/",
+   "type": "autre",
+   "balisage": [
+    "AboutPage",
+    "BreadcrumbList",
+    "ListItem",
+    "Person"
    ],
    "markdown": true,
    "problemes": []

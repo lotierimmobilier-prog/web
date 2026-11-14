@@ -67,6 +67,8 @@ Accueil sur rendez-vous
 
 - [Nos agents](https://lotier.immo/nos-agents/) : trouver le conseiller de votre secteur.
 
+- [L’équipe](https://lotier.immo/equipe/) : direction, gestion locative, syndic et accueil.
+
 Informations légales : [mentions légales](https://lotier.immo/mentions-legales/), [politique de confidentialité](https://lotier.immo/lotier-rgpd/), [honoraires](https://lotier.immo/nos-honoraires/).
 
 ---

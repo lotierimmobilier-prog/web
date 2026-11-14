@@ -102,7 +102,7 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
  À lire aussi
 
 ## Dans le même esprit
- [Tous les articles](https://lotier.immo/blog/index.html)
+ [Tous les articles](https://lotier.immo/blog/)
 
 Recrutement
 

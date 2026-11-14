@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-beziers/
 
 LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appartements, 2 immeubles, 1 local commercial et 1 maison. Les prix vont de 55 000 € à 357 000 €. Les surfaces vont de 33 à 185 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)
 
  Prix sur demande

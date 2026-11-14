@@ -106,7 +106,7 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
  À lire aussi
 
 ## Dans le même esprit
- [Tous les articles](https://lotier.immo/blog/index.html)
+ [Tous les articles](https://lotier.immo/blog/)
 
 Recrutement
 

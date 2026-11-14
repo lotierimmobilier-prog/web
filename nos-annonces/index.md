@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/
 
 64 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
+## Liste des annonces
+
  [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
 
  650 € par mois

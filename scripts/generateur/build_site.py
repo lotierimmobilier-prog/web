@@ -87,7 +87,7 @@ _m = NEWS_ARTS[0]
 NEWS = f'''<section class="section container" id="actualites" aria-labelledby="t-actu">
       <div class="section-head" data-r>
         <div class="stack-3"><span class="label">Actualités</span><h2 class="title" id="t-actu">L'actu immo de la semaine</h2></div>
-        <a class="text-link" href="blog/index.html">Tous les articles ({len(C.ARTICLES)})</a>
+        <a class="text-link" href="blog/">Tous les articles ({len(C.ARTICLES)})</a>
       </div>
       <div class="news">
         <article class="news-main" data-r>

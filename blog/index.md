@@ -2,7 +2,7 @@
 
 > 20 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
 
-Source : https://lotier.immo/blog/index.html
+Source : https://lotier.immo/blog/
 
 Le blog de l'agence
 

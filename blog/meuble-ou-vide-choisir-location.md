@@ -95,7 +95,7 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
  À lire aussi
 
 ## Dans le même esprit
- [Tous les articles](https://lotier.immo/blog/index.html)
+ [Tous les articles](https://lotier.immo/blog/)
 
 Recrutement
 

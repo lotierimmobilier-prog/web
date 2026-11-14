@@ -1,6 +1,6 @@
 # Maison de village rénovée avec climatisation louée meublée
 
-> Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2…
+> Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village… Réf. 2_BBLMA30000533.
 
 Source : https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/
 

@@ -19,7 +19,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 - [Accueil](https://lotier.immo/): présentation, annonces, estimation en ligne.
 - [Conseils immo](https://lotier.immo/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.
-- [Blog](https://lotier.immo/blog/index.html): 20 guides pratiques.
+- [Blog](https://lotier.immo/blog/): 20 guides pratiques.
 - [À propos](https://lotier.immo/a-propos/): qui nous sommes, métiers, informations légales.
 - [Nos annonces](https://lotier.immo/nos-annonces/): biens à vendre et à louer.
 - [Contact](https://lotier.immo/contact/): téléphone, e-mail et adresses des agences.
@@ -70,6 +70,10 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - Gestion locative : gestion complète à 7 % HT par mois (8,40 % TTC), ou gestion locative à 39,99 € TTC par mois. Assurance loyers impayés facultative : 4 % ou 3,5 % TTC du loyer charges comprises.
 - Syndic : 2 000 € par an de 1 à 10 lots, puis 160 € par lot (11 à 50), 150 € (51 à 100), 144 € (101 à 200), sur devis au-delà.
 - [Barème complet et simulateur](https://lotier.immo/nos-honoraires/).
+
+## L'équipe
+
+- [L'équipe de l'agence](https://lotier.immo/equipe/): direction, gestion locative, syndic de copropriété et accueil.
 
 ## Articles du blog
 

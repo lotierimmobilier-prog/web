@@ -77,6 +77,7 @@ ORTHO = {"Nimes": "Nîmes", "Beziers": "Béziers", "Sete": "Sète", "Ales": "Al�
 def role_de(a, gerant):
     """Intitulé affiché. Agent commercial indépendant (statut Collab « independant ») ou gérant ; pour les autres profils
     (associé, gestionnaire, alternant…), l'intitulé de poste saisi dans Collab : champ « poste », sinon le début de « fonction »."""
+    if (a.get("statut") or "independant") != "independant" and (a.get("poste") or "").strip(): return a["poste"].strip()   # intitulé saisi dans Collab
     if gerant: return "Gérant"
     if (a.get("statut") or "independant") == "independant": return "Agent commercial indépendant"
     poste = (a.get("poste") or (a.get("fonction") or "").split(" - ")[0]).strip()
@@ -203,6 +204,14 @@ def main():
                     "role": role_de(x, gerant), "statut": x.get("statut") or "independant", "service": x.get("service") or "", "secteurs": x.get("secteurs") or ids, "communes": x.get("communes", []),
                     "email": x.get("email", ""), "telephone": tel(x.get("telephone")), "mini_site": x.get("mini_site", ""), "photo": ph, "bio": x.get("bio"),
                     **profil({"id": x.get("id") or "ajout_" + slug, **x}, cfg)})
+    try:      # image de l'assistant Auguste : copie locale réduite (celle de Collab pèse environ 250 Ko et se chargeait sur chaque page)
+        logo = lire(BASE.replace("/v1", "") + "/chatbot/avatar").get("logoUrl") or ""
+        if logo:
+            url = logo if logo.startswith("http") else BASE.split("/api/")[0] + logo
+            im = Image.open(io.BytesIO(lire(url, binaire=True))).convert("RGB"); im.thumbnail((160, 160))
+            im.save(RACINE / "assets" / "auguste.jpg", "JPEG", quality=82, optimize=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"::warning::Image d'Auguste non récupérée ({e}) : la copie existante est conservée.")
     ordre = cfg.get("ordre") or []
     out.sort(key=lambda x: (ordre.index(x["id"]) if x["id"] in ordre else 999, norm(x["prenom"])))
     for f in PHOTOS.glob("*.jpg"):

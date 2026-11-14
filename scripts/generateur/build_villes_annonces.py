@@ -64,6 +64,7 @@ def page(g):
       </div>
     </section>
     <section class="section container" aria-label="Annonces">
+      <h2 class="sr-only">Liste des annonces</h2>
       <div class="cards ag-cards">{"".join(annonce_card(x, p2) for x in ann)}
       </div>
       <p style="margin-top:28px"><a class="text-link" href="../?offre={g["type"]}&amp;ville={e(ville)}">Filtrer et trier ces annonces</a> · <a class="text-link" href="../">Toutes nos annonces</a></p>
