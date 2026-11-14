@@ -1341,3 +1341,6 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 .hon-sim .hs-note { margin: 0; }
 .hon-sim [hidden] { display: none; }
 .hon-sim .chip-link, .hon-sim input, .hon-sim select { font-family: inherit; }
+
+/* Nos annonces : accès direct par ville */
+.ann-par-ville { margin: 0 0 18px; gap: 6px; } .ann-par-ville .chip-link { font-size: 13px; padding: 6px 12px; }

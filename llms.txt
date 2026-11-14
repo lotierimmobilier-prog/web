@@ -52,6 +52,25 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Frédérique Gallucci](https://lotier.immo/nos-agents/frederique-gallucci/): Agent commercial indépendant, secteur Caveirac, Nîmes, Aubais, Beaucaire.
 - [Laëtitia Dias](https://lotier.immo/nos-agents/laetitia-dias/): Agent commercial indépendant, secteur Béziers, Maureilhan, Villeneuve-lès-Béziers.
 
+## Annonces par ville
+
+- [Biens à vendre à Béziers](https://lotier.immo/nos-annonces/vente-beziers/): 11 annonces, mises à jour chaque jour.
+- [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces, mises à jour chaque jour.
+- [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces, mises à jour chaque jour.
+- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 8 annonces, mises à jour chaque jour.
+- [Biens à louer à Capendu](https://lotier.immo/nos-annonces/location-capendu/): 4 annonces, mises à jour chaque jour.
+- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces, mises à jour chaque jour.
+- [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces, mises à jour chaque jour.
+- [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces, mises à jour chaque jour.
+
+## Honoraires (barème publié)
+
+- Vente : honoraires TTC à la charge du vendeur, inclus dans le prix affiché. 5 % à partir de 200 001 €, 6 % de 150 001 à 200 000 €, 7 % de 100 001 à 150 000 €, 8 % de 70 001 à 100 000 €, 10 % (minimum 3 000 €) de 10 001 à 70 000 €, 3 000 € jusqu'à 10 000 €.
+- Mise en location : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone (autre, tendue, très tendue), plus 3,03 € TTC par m² pour l'état des lieux.
+- Gestion locative : gestion complète à 7 % HT par mois (8,40 % TTC), ou gestion locative à 39,99 € TTC par mois. Assurance loyers impayés facultative : 4 % ou 3,5 % TTC du loyer charges comprises.
+- Syndic : 2 000 € par an de 1 à 10 lots, puis 160 € par lot (11 à 50), 150 € (51 à 100), 144 € (101 à 200), sur devis au-delà.
+- [Barème complet et simulateur](https://lotier.immo/nos-honoraires/).
+
 ## Articles du blog
 
 - [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html) (Vendre, 2026-10-26): Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.

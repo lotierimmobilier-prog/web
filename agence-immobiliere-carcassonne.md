@@ -129,7 +129,7 @@ Pavillons, maisons de village et vignobles du Minervois et du Cabardès.
 
  [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
 
-[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

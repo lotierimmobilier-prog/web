@@ -17,6 +17,10 @@ nb_deps = _co.Counter(departement(a) for a in ann)
 opts_ville = "".join(f'<option value="{e(v)}" data-dep="{e(departement(next(x for x in ann if x["ville"] == v)))}">{e(v)}</option>' for v in villes)
 opts_bien = "".join(f'<option value="{k}">{e(lib)} ({nb_biens[k]})</option>' for k, lib in BIENS_LIBELLES.items() if nb_biens.get(k))
 opts_dep = "".join(f'<option value="{c}">{e(nom)} ({c}) · {nb_deps[c]}</option>' for c, nom in DEPARTEMENTS.items() if nb_deps.get(c))
+_pv = pages_ville_annonces()
+_par_ville = ('<nav class="chip-links ann-par-ville" aria-label="Annonces par ville">' + "".join(
+    f'<a class="chip-link" href="{g["slug"]}/">{"Location" if g["type"] != "vente" else "Vente"} à {e(g["ville"])} ({len(g["annonces"])})</a>' for g in _pv) + '</nav>') if _pv else ""
+_PV_SLUG = {(g["ville"], g["type"]): g["slug"] for g in _pv}
 body = f'''    <section class="page-hero ann-list-hero">
       <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span>
       <div class="container">
@@ -42,6 +46,7 @@ body = f'''    <section class="page-hero ann-list-hero">
         </div>
         <div class="ann-filtres-pied"><p class="muted small" data-ann-count aria-live="polite">{len(ann)} annonces</p><button type="button" class="text-link ann-reset" data-ann-reset hidden>Réinitialiser les filtres</button></div>
       </form>
+      {_par_ville}
       <div class="cards" data-ann-grid>{cards}
       </div>
       <p class="muted" data-ann-empty hidden>Aucune annonce ne correspond à ces critères. <button type="button" class="text-link ann-reset" data-ann-reset>Réinitialiser les filtres</button></p>
@@ -319,7 +324,7 @@ def detail_page(a, tous=()):
                  f'            <a class="btn btn-ghost btn-lg btn-block mag" href="tel:{PHONE_TEL}">{PH}{PHONE_DISPLAY}</a>')
     body = f'''    <section class="page-hero ann-hero">
       <div class="container">
-        <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{p2}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{p2}nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><span aria-current="page">{e(a['ville'])}</span></nav>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{p2}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{p2}nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span>{(f'<a href="{p2}nos-annonces/{_PV_SLUG[(a["ville"], a["type"])]}/">{e(a["ville"])}</a>') if (a["ville"], a["type"]) in _PV_SLUG else f'<span aria-current="page">{e(a["ville"])}</span>'}</nav>
         <h1 class="display page-title ann-title">{e(title)}</h1>
         <p class="lead"><strong>{price}</strong> · {e(a['ville'])}{(' · ' + ' · '.join(facts)) if facts else ''}</p>
       </div>

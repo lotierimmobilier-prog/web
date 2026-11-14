@@ -129,7 +129,7 @@ Maisons avec jardin, accès rapide à l'autoroute et à la mer (Valras-Plage, S�
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
-[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Béziers (11)](https://lotier.immo/nos-annonces/vente-beziers/) · [Biens à louer à Béziers (8)](https://lotier.immo/nos-annonces/location-beziers/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

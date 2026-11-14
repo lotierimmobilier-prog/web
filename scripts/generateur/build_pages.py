@@ -136,6 +136,7 @@ def city_page(c):
     _pres = [x for x in _fiches if x["ville"] != c["name"] and x["ville"] in c["nearby"]]
     _sel = (_ici + _pres)[:6]
     biens = ""
+    _liens_pv = "".join(f'<a class="text-link" href="nos-annonces/{g["slug"]}/">Biens {"à louer" if g["type"] != "vente" else "à vendre"} à {e(g["ville"])} ({len(g["annonces"])})</a> · ' for g in pages_ville_annonces() if g["ville"] == c["name"])
     if _sel:
         _tete = "Biens à vendre et à louer" if _ici else "Nos biens les plus proches,"
         _ou = (f"à {e(c['name'])}" if len(_ici) >= len(_sel) else f"à {e(c['name'])} et alentours") if _ici else ("autour d’" if c["name"][:1] in "AEIOUYH" else "autour de ") + e(c["name"])
@@ -143,7 +144,7 @@ def city_page(c):
       <div class="section-head" data-r><div class="stack-3"><span class="label">Nos annonces</span><h2 class="title" id="t-biens">{_tete} <em class="gold-text">{_ou}.</em></h2></div></div>
       <div class="cards ann-more-grid">{"".join(annonce_card(x, prefix) for x in _sel)}
       </div>
-      <p style="margin-top:28px"><a class="text-link" href="nos-annonces/">Voir toutes nos annonces</a></p>
+      <p style="margin-top:28px">{_liens_pv}<a class="text-link" href="nos-annonces/">Voir toutes nos annonces</a></p>
     </section>'''
     other_links = "".join(f'<a class="chip-link" href="{o["slug"]}.html">Immobilier à {e(o["name"])}</a>' for o in others)
     body = f'''    <section class="page-hero city-hero">
@@ -278,6 +279,7 @@ _cfg_ag = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8")) i
 if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le sitemap qu'une fois ouverte aux moteurs
     urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag if a.get("rsac")]
 if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
+urls += [(f"{SITE}/nos-annonces/{g['slug']}/", today, "0.7", "daily") for g in pages_ville_annonces()]
 urls += [(f"{SITE}/annonces/{a['id']}/", today, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
@@ -298,6 +300,17 @@ if _cfg_ag.get("indexable") and _ag:
     ll += f"\n## Nos agents\n\n- [Nos agents par secteur]({SITE}/nos-agents/): les conseillers LOTIER Immobilier, leur secteur et leurs annonces.\n"
     for a in [x for x in _ag if x.get("rsac")]:
         ll += f"- [{a['prenom']} {a['nom']}]({SITE}/nos-agents/{a['slug']}/): {a.get('role') or 'agent commercial'}" + (f", secteur {', '.join(a['communes'][:4])}" if a.get("communes") else "") + ".\n"
+_pv = pages_ville_annonces()
+if _pv:
+    ll += "\n## Annonces par ville\n\n"
+    for g in _pv:
+        ll += f"- [Biens {'à louer' if g['type'] != 'vente' else 'à vendre'} à {g['ville']}]({SITE}/nos-annonces/{g['slug']}/): {len(g['annonces'])} annonces, mises à jour chaque jour.\n"
+ll += ("\n## Honoraires (barème publié)\n\n"
+       "- Vente : honoraires TTC à la charge du vendeur, inclus dans le prix affiché. 5 % à partir de 200 001 €, 6 % de 150 001 à 200 000 €, 7 % de 100 001 à 150 000 €, 8 % de 70 001 à 100 000 €, 10 % (minimum 3 000 €) de 10 001 à 70 000 €, 3 000 € jusqu'à 10 000 €.\n"
+       "- Mise en location : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone (autre, tendue, très tendue), plus 3,03 € TTC par m² pour l'état des lieux.\n"
+       "- Gestion locative : gestion complète à 7 % HT par mois (8,40 % TTC), ou gestion locative à 39,99 € TTC par mois. Assurance loyers impayés facultative : 4 % ou 3,5 % TTC du loyer charges comprises.\n"
+       "- Syndic : 2 000 € par an de 1 à 10 lots, puis 160 € par lot (11 à 50), 150 € (51 à 100), 144 € (101 à 200), sur devis au-delà.\n"
+       f"- [Barème complet et simulateur]({SITE}/nos-honoraires/).\n")
 if EQUIPE:
     ll += f"\n## L'équipe\n\n- [L'équipe de l'agence]({SITE}/equipe/): direction, gestion locative, syndic de copropriété et accueil.\n"
 ll += "\n## Articles du blog\n\n"

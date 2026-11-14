@@ -129,7 +129,7 @@ Des quartiers animés et proches du centre, très recherchés par les étudiants
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
-[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 
