@@ -98,7 +98,7 @@ L'équipe syndic de LOTIER Immobilier vous répond sur le budget, les charges et
  À lire aussi
 
 ## Dans le même esprit
- [Tous les articles](https://lotier.immo/blog/index.html)
+ [Tous les articles](https://lotier.immo/blog/)
 
 Recrutement
 

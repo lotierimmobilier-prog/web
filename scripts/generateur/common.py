@@ -138,7 +138,7 @@ CITY_BY_KEY = {c["key"]: c for c in CITIES}
 
 def art_url(prefix, a): return f"{prefix}blog/{a['slug']}.html"
 def city_url(prefix, c): return f"{prefix}{c['slug']}.html"
-def blog_index(prefix): return f"{prefix}blog/index.html"
+def blog_index(prefix): return f"{prefix}blog/"
 
 # ---------- En-tête, pied de page, coque de page ----------
 LOGO_FN = lambda prefix: f'<img src="{prefix}assets/lotier-logo.png" alt="LOTIER Immobilier" width="165" height="56">'
@@ -218,7 +218,7 @@ def contact_dialog(prefix):
 ''')
 
 def chat_widget(prefix):
-    return f'''  <div class="chat" id="chat" data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
+    return f'''  <div class="chat" id="chat"{(' data-avatar="' + prefix + 'assets/auguste.jpg"') if os.path.exists(f"{ROOT}/assets/auguste.jpg") else ""} data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
     <button type="button" class="chat-fab" data-chat-open aria-haspopup="dialog" aria-controls="chat-panel" aria-expanded="false">
       <span class="chat-fab-ico"><img src="{prefix}assets/lotier-l.png" alt="" width="44" height="44" loading="lazy" decoding="async"><i class="chat-dot" aria-hidden="true"></i></span>
       <span class="chat-fab-txt"><strong>Auguste</strong><small>Assistant LOTIER, 7j/7</small></span>
@@ -342,7 +342,7 @@ def header(prefix, home=False, cta=None):
     cta_label, cta_href = cta[:2] if cta else ("Estimer mon bien", a("#estimer"))
     return f'''  <div class="topbar">
     <div class="container">
-      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="Note Google : {AVIS['note']} sur 5. Voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> <span class="tb-g">sur Google</span></a></span>
+      <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="{AVIS['note']}/5 sur Google : voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> <span class="tb-g">sur Google</span></a></span>
       <div class="tb-r">
         <a class="tb-btn tb-agents" href="{prefix}nos-agents/">{USERS}Nos agents</a>
         <button type="button" class="tb-btn" data-open-agences aria-haspopup="dialog" aria-controls="agences-dialog">{PIN}Nos agences</button>

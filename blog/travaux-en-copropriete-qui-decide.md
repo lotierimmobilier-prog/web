@@ -1,6 +1,6 @@
 # Travaux en copropriété : qui décide, qui paie ? | LOTIER
 
-> Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
+> Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux…
 
 Source : https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html
 
@@ -100,7 +100,7 @@ L'équipe syndic de LOTIER Immobilier vous répond sur le budget, les charges et
  À lire aussi
 
 ## Dans le même esprit
- [Tous les articles](https://lotier.immo/blog/index.html)
+ [Tous les articles](https://lotier.immo/blog/)
 
 Recrutement
 

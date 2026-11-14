@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/location-beziers/
 
 LOTIER Immobilier propose actuellement 8 biens à louer à Béziers : 6 appartements et 2 locaux commerciaux. Les loyers vont de 210 € à 735 € par mois. Les surfaces vont de 20 à 100 m².
 
+## Liste des annonces
+
  [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
 
  210 € par mois

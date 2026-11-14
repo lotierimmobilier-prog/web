@@ -2128,6 +2128,18 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/equipe/",
+   "type": "autre",
+   "balisage": [
+    "AboutPage",
+    "BreadcrumbList",
+    "ListItem",
+    "Person"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/",
    "type": "accueil",
    "balisage": [

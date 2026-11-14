@@ -6,6 +6,8 @@ Source : https://lotier.immo/nos-annonces/vente-carcassonne/
 
 LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 immeubles, 1 appartement et 1 maison. Les prix vont de 80 000 € à 330 000 €. Les surfaces vont de 50 à 240 m².
 
+## Liste des annonces
+
  [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €

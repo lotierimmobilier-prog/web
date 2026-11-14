@@ -80,13 +80,14 @@ def article_page(a):
          "mainEntityOfPage": {"@type": "WebPage", "@id": url},
          "author": {"@type": "Organization", "name": "LOTIER Immobilier", "url": SITE + "/"},
          "publisher": {"@type": "Organization", "name": "LOTIER Immobilier", "logo": {"@type": "ImageObject", "url": SITE + "/assets/lotier-logo.png"}}},
-        breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/index.html"), (a["title"], url)]),
+        breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/"), (a["title"], url)]),
     ]
     if faqs:
         ld.append({"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq", "inLanguage": "fr-FR",
                    "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": an}} for q, an in faqs]})
     title = f"{a.get('seo_title', a['title'])} | LOTIER"
-    return shell(prefix, title, a["desc"], path, body, ld, f"assets/photos/{a['photo']}.jpg", og_type="article", banner=True, kind=KIND_BY_CAT[a["cat"]])
+    _d = a["desc"] if len(a["desc"]) <= 165 else a["desc"][:162].rsplit(" ", 1)[0].rstrip(" ,;:.") + "…"      # description venue de Collab : ramenée à la longueur affichée par Google
+    return shell(prefix, title, _d, path, body, ld, f"assets/photos/{a['photo']}.jpg", og_type="article", banner=True, kind=KIND_BY_CAT[a["cat"]])
 
 def blog_index_page():
     prefix = "../"
@@ -112,14 +113,14 @@ def blog_index_page():
       </div>
     </section>'''
     ld = [
-        {"@context": "https://schema.org", "@type": "Blog", "@id": SITE + "/blog/index.html#blog", "name": "Le blog de LOTIER Immobilier", "url": SITE + "/blog/index.html", "inLanguage": "fr-FR",
+        {"@context": "https://schema.org", "@type": "Blog", "@id": SITE + "/blog/#blog", "name": "Le blog de LOTIER Immobilier", "url": SITE + "/blog/", "inLanguage": "fr-FR",
          "publisher": {"@id": SITE + "/#agence"},
          "blogPost": [{"@type": "BlogPosting", "headline": a["title"], "url": f"{SITE}/blog/{a['slug']}.html", "datePublished": a["date"].isoformat()} for a in ARTICLES_BY_DATE]},
-        breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/index.html")]),
+        breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/")]),
     ]
     return shell(prefix, "Blog immobilier : conseils pour vendre, acheter, louer | LOTIER",
                  f"{len(ARTICLES)} guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.",
-                 "blog/index.html", body, ld, f"assets/photos/{first['photo']}.jpg", banner=True)
+                 "blog/", body, ld, f"assets/photos/{first['photo']}.jpg", banner=True)
 
 def city_page(c):
     prefix = ""
@@ -268,19 +269,21 @@ for c in CITIES:
     open(f"{ROOT}/{c['slug']}.html", "w", encoding="utf-8").write(city_page(c))
 
 # plan du site
-today = "2026-11-05"
+today = "2026-11-14"      # dernière révision des pages fixes (à avancer quand leur contenu change)
+try: maj_ann = json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("maj") or today      # pages nourries par les annonces
+except (OSError, ValueError): maj_ann = today
 urls = [(f"{SITE}/", today, "1.0", "weekly")]
-urls += [(f"{SITE}/{c['slug']}.html", today, "0.9", "monthly") for c in CITIES]
-urls += [(f"{SITE}/blog/index.html", max(a["date"] for a in ARTICLES).isoformat(), "0.8", "weekly")]
+urls += [(f"{SITE}/{c['slug']}.html", maj_ann, "0.9", "weekly") for c in CITIES]
+urls += [(f"{SITE}/blog/", max(a["date"] for a in ARTICLES).isoformat(), "0.8", "weekly")]
 urls += [(f"{SITE}/rejoindre/", today, "0.8", "monthly")]
 urls += [(f"{SITE}/rejoindre/comparatif/", today, "0.8", "monthly")]
 _ag = json.load(open(f"{ROOT}/data/agents.json", encoding="utf-8")).get("agents", []) if os.path.exists(f"{ROOT}/data/agents.json") else []
 _cfg_ag = json.load(open(f"{ROOT}/data/agents-config.json", encoding="utf-8")) if os.path.exists(f"{ROOT}/data/agents-config.json") else {}
 if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le sitemap qu'une fois ouverte aux moteurs
-    urls += [(f"{SITE}/nos-agents/", today, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", today, "0.6", "weekly") for a in _ag if a.get("rsac")]
+    urls += [(f"{SITE}/nos-agents/", maj_ann, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", maj_ann, "0.6", "weekly") for a in _ag if a.get("rsac")]
 if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
-urls += [(f"{SITE}/nos-annonces/{g['slug']}/", today, "0.7", "daily") for g in pages_ville_annonces()]
-urls += [(f"{SITE}/annonces/{a['id']}/", today, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
+urls += [(f"{SITE}/nos-annonces/{g['slug']}/", maj_ann, "0.7", "daily") for g in pages_ville_annonces()]
+urls += [(f"{SITE}/annonces/{a['id']}/", maj_ann, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
 if os.path.exists(f"{ROOT}/data/partenaires.json"): urls += [(f"{SITE}/sites-partenaires/", today, "0.4", "monthly")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
@@ -294,7 +297,7 @@ open(f"{ROOT}/sitemap.xml", "w", encoding="utf-8").write(sm)
 # llms.txt
 ll = open(f"{ROOT}/llms.txt", encoding="utf-8").read()
 cut = ll.split("## Pages principales")[0]
-ll = cut + "## Pages principales\n\n- [Accueil](https://lotier.immo/): présentation, annonces, estimation en ligne.\n- [Conseils immo](https://lotier.immo/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.\n- [Blog](https://lotier.immo/blog/index.html): " + str(len(ARTICLES)) + " guides pratiques.\n- [À propos](https://lotier.immo/a-propos/): qui nous sommes, métiers, informations légales.\n- [Nos annonces](https://lotier.immo/nos-annonces/): biens à vendre et à louer.\n- [Contact](https://lotier.immo/contact/): téléphone, e-mail et adresses des agences.\n- [Honoraires](https://lotier.immo/nos-honoraires/): barème de vente, de location, de gestion et de syndic.\n- [Notre service](https://lotier.immo/notre-service/): transparence, personnalisation, proximité.\n- [Devenir agent immobilier indépendant](https://lotier.immo/rejoindre/): conditions, simulateur de commission et candidature.\n- [Comparatif réseaux, agence classique et modèle hybride LOTIER](https://lotier.immo/rejoindre/comparatif/): comparatif et FAQ.\n\n## Pour les agents\n\n- Chaque page existe en Markdown : même adresse avec l'en-tête `Accept: text/markdown`, ou adresse terminée par `index.md` (ou `.md` pour les pages `.html`).\n- [Serveur MCP en lecture seule](https://lotier.immo/mcp/) décrit par la [carte de serveur](https://lotier.immo/.well-known/mcp/server-card.json).\n\n## Pages par ville\n\n"
+ll = cut + "## Pages principales\n\n- [Accueil](https://lotier.immo/): présentation, annonces, estimation en ligne.\n- [Conseils immo](https://lotier.immo/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.\n- [Blog](https://lotier.immo/blog/): " + str(len(ARTICLES)) + " guides pratiques.\n- [À propos](https://lotier.immo/a-propos/): qui nous sommes, métiers, informations légales.\n- [Nos annonces](https://lotier.immo/nos-annonces/): biens à vendre et à louer.\n- [Contact](https://lotier.immo/contact/): téléphone, e-mail et adresses des agences.\n- [Honoraires](https://lotier.immo/nos-honoraires/): barème de vente, de location, de gestion et de syndic.\n- [Notre service](https://lotier.immo/notre-service/): transparence, personnalisation, proximité.\n- [Devenir agent immobilier indépendant](https://lotier.immo/rejoindre/): conditions, simulateur de commission et candidature.\n- [Comparatif réseaux, agence classique et modèle hybride LOTIER](https://lotier.immo/rejoindre/comparatif/): comparatif et FAQ.\n\n## Pour les agents\n\n- Chaque page existe en Markdown : même adresse avec l'en-tête `Accept: text/markdown`, ou adresse terminée par `index.md` (ou `.md` pour les pages `.html`).\n- [Serveur MCP en lecture seule](https://lotier.immo/mcp/) décrit par la [carte de serveur](https://lotier.immo/.well-known/mcp/server-card.json).\n\n## Pages par ville\n\n"
 for c in CITIES:
     ll += f"- [Agence immobilière à {c['name']}]({SITE}/{c['slug']}.html): vente, location, gestion locative et syndic à {c['name']}.\n"
 if _cfg_ag.get("indexable") and _ag:

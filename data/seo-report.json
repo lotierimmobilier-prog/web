@@ -5,12 +5,10 @@
   "pages_auditees": 143,
   "pages_indexables": 138,
   "erreurs": 0,
-  "avertissements": 4,
-  "pages_sans_probleme": 140,
+  "avertissements": 1,
+  "pages_sans_probleme": 142,
   "problemes_par_type": {
-   "description-doublon": 2,
-   "description-longue": 1,
-   "title-long": 1
+   "contenu-court": 1
   }
  },
  "fichiers": {
@@ -932,38 +930,21 @@
    "images": 28,
    "liens": 99,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "description-doublon",
-     "message": "Description identique sur 2 pages."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
    "fichier": "annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/index.html",
    "indexable": true,
-   "titre": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel – 650 € par mois",
-   "description": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2…",
+   "titre": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel (réf. 000533)",
+   "description": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel, 2 chambres, 650 € par mois. A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village… Réf. 2_BBLMA30000533.",
    "mots": 777,
    "h1": "Maison de village rénovée avec climatisation louée meublée",
    "nb_h2": 18,
    "images": 22,
    "liens": 99,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "title-long",
-     "message": "Titre de 67 caractères (65 conseillés au maximum)."
-    },
-    {
-     "niveau": "avertissement",
-     "code": "description-doublon",
-     "message": "Description identique sur 2 pages."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/",
@@ -1544,20 +1525,14 @@
    "fichier": "blog/travaux-en-copropriete-qui-decide.html",
    "indexable": true,
    "titre": "Travaux en copropriété : qui décide, qui paie ? | LOTIER",
-   "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.",
+   "description": "Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux…",
    "mots": 1012,
    "h1": "Travaux en copropriété : qui décide, qui paie ?",
    "nb_h2": 21,
    "images": 9,
    "liens": 80,
    "markdown": true,
-   "problemes": [
-    {
-     "niveau": "avertissement",
-     "code": "description-longue",
-     "message": "Description de 173 caractères (170 au maximum)."
-    }
-   ]
+   "problemes": []
   },
   {
    "url": "https://lotier.immo/blog/visiter-un-appartement-checklist.html",
@@ -1635,11 +1610,11 @@
    "indexable": true,
    "titre": "Contacter LOTIER Immobilier : téléphone, e-mail et agences",
    "description": "Contactez LOTIER Immobilier : téléphone, e-mail et adresses des agences de Béziers, Montpellier et Nîmes. Vente, location, gestion locative et syndic.",
-   "mots": 166,
+   "mots": 174,
    "h1": "Nous contacter.",
    "nb_h2": 11,
    "images": 4,
-   "liens": 82,
+   "liens": 83,
    "markdown": true,
    "problemes": []
   },
@@ -1656,6 +1631,26 @@
    "liens": 70,
    "markdown": true,
    "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/equipe/",
+   "fichier": "equipe/index.html",
+   "indexable": true,
+   "titre": "L’équipe de l’agence : direction, gestion, syndic | LOTIER",
+   "description": "L’équipe de LOTIER Immobilier : direction, gestion locative, syndic de copropriété et accueil. Les personnes qui suivent vos dossiers au quotidien.",
+   "mots": 61,
+   "h1": "L’équipe de l’agence.",
+   "nb_h2": 9,
+   "images": 5,
+   "liens": 71,
+   "markdown": true,
+   "problemes": [
+    {
+     "niveau": "avertissement",
+     "code": "contenu-court",
+     "message": "Contenu court (61 mots)."
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/",
@@ -1817,9 +1812,9 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 2055,
+   "mots": 2058,
    "h1": "Nos annonces, ventes et locations.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 87,
    "liens": 327,
    "markdown": true,
@@ -1831,9 +1826,9 @@
    "indexable": true,
    "titre": "Location à Béziers : 8 biens | LOTIER",
    "description": "8 biens à louer à Béziers avec LOTIER Immobilier : 6 appartements et 2 locaux commerciaux, de 210 € à 735 € par mois. Photos, prix, agent à contacter.",
-   "mots": 435,
+   "mots": 438,
    "h1": "Biens à louer à Béziers.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 12,
    "liens": 100,
    "markdown": true,
@@ -1845,9 +1840,9 @@
    "indexable": true,
    "titre": "Location à Capendu : 4 biens | LOTIER",
    "description": "4 biens à louer à Capendu avec LOTIER Immobilier : 2 locaux commerciaux, 1 maison et 1 appartement, de 450 € à 760 € par mois. Photos, prix, agent à contacter.",
-   "mots": 323,
+   "mots": 326,
    "h1": "Biens à louer à Capendu.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 8,
    "liens": 87,
    "markdown": true,
@@ -1859,9 +1854,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Béziers : 11 biens | LOTIER",
    "description": "11 biens à vendre à Béziers avec LOTIER Immobilier : 7 appartements, 2 immeubles, 1 local commercial et 1 maison, de 55 000 € à 357 000 €. Photos, prix, agent…",
-   "mots": 494,
+   "mots": 497,
    "h1": "Biens à vendre à Béziers.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 15,
    "liens": 113,
    "markdown": true,
@@ -1873,9 +1868,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Capendu : 10 biens | LOTIER",
    "description": "10 biens à vendre à Capendu avec LOTIER Immobilier : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 399 900…",
-   "mots": 466,
+   "mots": 469,
    "h1": "Biens à vendre à Capendu.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 14,
    "liens": 109,
    "markdown": true,
@@ -1887,9 +1882,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Carcassonne : 4 biens | LOTIER",
    "description": "4 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles, 1 appartement et 1 maison, de 80 000 € à 330 000 €. Photos, prix, agent à contacter.",
-   "mots": 321,
+   "mots": 324,
    "h1": "Biens à vendre à Carcassonne.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 8,
    "liens": 91,
    "markdown": true,
@@ -1901,9 +1896,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Caveirac : 3 biens | LOTIER",
    "description": "3 biens à vendre à Caveirac avec LOTIER Immobilier : 3 appartements, de 220 000 € à 360 000 €. Photos, prix, agent à contacter.",
-   "mots": 304,
+   "mots": 307,
    "h1": "Biens à vendre à Caveirac.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 7,
    "liens": 87,
    "markdown": true,
@@ -1915,9 +1910,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Montpellier : 3 biens | LOTIER",
    "description": "3 biens à vendre à Montpellier avec LOTIER Immobilier : 3 appartements, de 155 000 € à 284 000 €. Photos, prix, agent à contacter.",
-   "mots": 296,
+   "mots": 299,
    "h1": "Biens à vendre à Montpellier.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 7,
    "liens": 88,
    "markdown": true,
@@ -1929,9 +1924,9 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Nîmes : 9 biens | LOTIER",
    "description": "9 biens à vendre à Nîmes avec LOTIER Immobilier : 5 appartements, 3 locaux commerciaux et 1 maison, de 45 000 € à 395 000 €. Photos, prix, agent à contacter.",
-   "mots": 442,
+   "mots": 445,
    "h1": "Biens à vendre à Nîmes.",
-   "nb_h2": 9,
+   "nb_h2": 10,
    "images": 13,
    "liens": 106,
    "markdown": true,
@@ -1971,7 +1966,7 @@
    "indexable": true,
    "titre": "Plan du site | LOTIER Immobilier",
    "description": "Plan du site de LOTIER Immobilier : pages de villes, articles de blog, informations légales et fichiers pour les moteurs de recherche.",
-   "mots": 314,
+   "mots": 317,
    "h1": "Plan du site",
    "nb_h2": 13,
    "images": 4,
@@ -2004,20 +1999,6 @@
    "nb_h2": 16,
    "images": 4,
    "liens": 75,
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/sites-partenaires/",
-   "fichier": "sites-partenaires/index.html",
-   "indexable": true,
-   "titre": "Sites partenaires de LOTIER Immobilier | LOTIER",
-   "description": "Les sites partenaires de LOTIER Immobilier : Signabail. Des services en ligne recommandés à nos clients propriétaires, bailleurs et locataires.",
-   "mots": 164,
-   "h1": "Nos sites partenaires.",
-   "nb_h2": 10,
-   "images": 4,
-   "liens": 72,
    "markdown": true,
    "problemes": []
   },
