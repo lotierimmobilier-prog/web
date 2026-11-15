@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "lotier-immobilier",
+      "type": "skill-md",
+      "description": "Répondre à une question sur LOTIER Immobilier : trouver une annonce à vendre ou à louer, connaître les honoraires, identifier l'agent à contacter.",
+      "url": "/.well-known/agent-skills/lotier-immobilier/SKILL.md",
+      "digest": "sha256:21d0367be8c90fea7c4d8c9b4d2d48b0857dee13bec991ff8819b3711ce93f71"
+    }
+  ]
+}
