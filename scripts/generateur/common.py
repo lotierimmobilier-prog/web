@@ -482,6 +482,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="{prefix}assets/favicon.png">
   <link rel="manifest" href="{prefix}site.webmanifest">
+  <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="{prefix}assets/favicon.png">
   <link rel="preload" href="{prefix}assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{prefix}css/styles.css?v={V_CSS}">

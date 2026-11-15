@@ -581,7 +581,7 @@ DirectoryIndex index.html index.php
     ForceType application/linkset+json
     Header set Access-Control-Allow-Origin "*"
   </Files>
-  <FilesMatch "server-card\\.json$">
+  <FilesMatch "(server-card|ai-catalog|openapi-annonces)\\.json$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
@@ -674,4 +674,17 @@ _index = {"$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json
     "url": "/.well-known/agent-skills/lotier-immobilier/SKILL.md",
     "digest": "sha256:" + hashlib.sha256(_skill.encode("utf-8")).hexdigest()}]}
 open(f"{_wk}/agent-skills/index.json", "w", encoding="utf-8").write(json.dumps(_index, ensure_ascii=False, indent=2) + "\n")
-print("catalogue d'API et compétence d'agent générés")
+# Manifeste ARD (ai-catalog.json, brouillon v0.9) : les mêmes ressources réelles, avec des exemples de questions
+_ard = {"specVersion": "1.0", "host": {"displayName": "LOTIER Immobilier", "identifier": "did:web:lotier.immo"}, "entries": [
+    {"identifier": "urn:air:lotier.immo:server:site", "displayName": "Serveur MCP du site LOTIER Immobilier (lecture seule)",
+     "type": "application/mcp-server-card+json", "url": f"{SITE}/.well-known/mcp/server-card.json",
+     "representativeQueries": ["quelles sont les coordonnées de LOTIER Immobilier", "chercher une page du site lotier.immo sur le syndic de copropriété", "lire la page des honoraires de LOTIER Immobilier"]},
+    {"identifier": "urn:air:lotier.immo:api:annonces", "displayName": "Annonces immobilières LOTIER (vente et location)",
+     "type": "application/vnd.oai.openapi+json", "url": f"{SITE}/.well-known/openapi-annonces.json",
+     "representativeQueries": ["appartement à vendre à Béziers", "maison à louer à Capendu", "biens à vendre à Nîmes avec leur prix", "qui contacter pour visiter une annonce LOTIER"]},
+    {"identifier": "urn:air:lotier.immo:skill:lotier-immobilier", "displayName": "Compétence : annonces, honoraires et contacts LOTIER Immobilier",
+     "type": "text/markdown", "url": f"{SITE}/.well-known/agent-skills/lotier-immobilier/SKILL.md",
+     "representativeQueries": ["combien coûtent les honoraires de vente de LOTIER Immobilier", "trouver l'agent LOTIER du secteur de Carcassonne", "quel est le tarif de gestion locative chez LOTIER"]},
+]}
+open(f"{_wk}/ai-catalog.json", "w", encoding="utf-8").write(json.dumps(_ard, ensure_ascii=False, indent=2) + "\n")
+print("catalogue d'API, manifeste ARD et compétence d'agent générés")

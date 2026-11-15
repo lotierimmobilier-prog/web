@@ -1,0 +1,43 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "LOTIER Immobilier",
+    "identifier": "did:web:lotier.immo"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:lotier.immo:server:site",
+      "displayName": "Serveur MCP du site LOTIER Immobilier (lecture seule)",
+      "type": "application/mcp-server-card+json",
+      "url": "https://lotier.immo/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "quelles sont les coordonnées de LOTIER Immobilier",
+        "chercher une page du site lotier.immo sur le syndic de copropriété",
+        "lire la page des honoraires de LOTIER Immobilier"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotier.immo:api:annonces",
+      "displayName": "Annonces immobilières LOTIER (vente et location)",
+      "type": "application/vnd.oai.openapi+json",
+      "url": "https://lotier.immo/.well-known/openapi-annonces.json",
+      "representativeQueries": [
+        "appartement à vendre à Béziers",
+        "maison à louer à Capendu",
+        "biens à vendre à Nîmes avec leur prix",
+        "qui contacter pour visiter une annonce LOTIER"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotier.immo:skill:lotier-immobilier",
+      "displayName": "Compétence : annonces, honoraires et contacts LOTIER Immobilier",
+      "type": "text/markdown",
+      "url": "https://lotier.immo/.well-known/agent-skills/lotier-immobilier/SKILL.md",
+      "representativeQueries": [
+        "combien coûtent les honoraires de vente de LOTIER Immobilier",
+        "trouver l'agent LOTIER du secteur de Carcassonne",
+        "quel est le tarif de gestion locative chez LOTIER"
+      ]
+    }
+  ]
+}
