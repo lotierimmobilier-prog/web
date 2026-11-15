@@ -69,16 +69,17 @@ def _vignettes():
     src, dst = f"{ROOT}/assets/lotier-logo.png", f"{ROOT}/assets/lotier-logo-330.png"
     if os.path.exists(src) and not os.path.exists(dst):
         im = Image.open(src); im.thumbnail((330, 330)); im.save(dst, "PNG", optimize=True)
-    d, m = f"{ROOT}/assets/annonces", f"{ROOT}/assets/annonces-mini"
+    d = f"{ROOT}/assets/annonces"
     if not os.path.isdir(d): return
-    os.makedirs(m, exist_ok=True)
     try: voulues = {os.path.basename(x["photo"]) for x in json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("annonces", []) if x.get("photo")}
     except (OSError, ValueError): voulues = set()
-    for f in voulues:
-        if os.path.exists(f"{d}/{f}") and (not os.path.exists(f"{m}/{f}") or os.path.getmtime(f"{m}/{f}") < os.path.getmtime(f"{d}/{f}")):
-            im = Image.open(f"{d}/{f}").convert("RGB"); im.thumbnail((560, 560)); im.save(f"{m}/{f}", "JPEG", quality=72, optimize=True, progressive=True)
-    for f in os.listdir(m):
-        if f not in voulues: os.remove(f"{m}/{f}")
+    for m, larg in ((f"{ROOT}/assets/annonces-mini", 560), (f"{ROOT}/assets/annonces-420", 420)):
+        os.makedirs(m, exist_ok=True)
+        for f in voulues:
+            if os.path.exists(f"{d}/{f}") and (not os.path.exists(f"{m}/{f}") or os.path.getmtime(f"{m}/{f}") < os.path.getmtime(f"{d}/{f}")):
+                im = Image.open(f"{d}/{f}").convert("RGB"); im.thumbnail((larg, larg)); im.save(f"{m}/{f}", "JPEG", quality=72, optimize=True, progressive=True)
+        for f in os.listdir(m):
+            if f not in voulues: os.remove(f"{m}/{f}")
 _vignettes()
 
 SITE = "https://lotier.immo"
@@ -662,7 +663,7 @@ def attr_tel_agent(ag):
     t = tel_agent((ag or {}).get("telephone"))
     return f' data-agent-tel="{t[0]}" data-agent-tel-href="{t[1]}"' if t else ""
 
-def annonce_card(a, prefix):
+def annonce_card(a, prefix, sizes="(max-width: 700px) 320px, 380px"):
     loc = a["type"] == "location"
     badge = '<span class="badge loc">LOCATION</span>' if loc else '<span class="badge">VENTE</span>'
     extra = " ".join(f'<span class="badge xtra">{e(b)}</span>' for b in a.get("badges", []) if b)
@@ -671,7 +672,8 @@ def annonce_card(a, prefix):
     if a.get("surface"): bits.append(f"{a['surface']:g}".replace(".", ",") + " m\u00b2")
     if a.get("chambres"): bits.append(f"{a['chambres']} ch.")
     _mini = "assets/annonces-mini/" + os.path.basename(a["photo"]) if a.get("photo") else ""
-    _srcset = (f' srcset="{prefix}{_mini} 560w, {prefix}{a["photo"]} 720w" sizes="(max-width: 700px) 320px, 380px"' if _mini and os.path.exists(f"{ROOT}/{_mini}") else "")
+    _p420 = _mini.replace("annonces-mini/", "annonces-420/")
+    _srcset = (f' srcset="{(prefix + _p420 + " 420w, ") if os.path.exists(f"{ROOT}/{_p420}") else ""}{prefix}{_mini} 560w, {prefix}{a["photo"]} 720w" sizes="{sizes}"' if _mini and os.path.exists(f"{ROOT}/{_mini}") else "")
     photo = (f'<img src="{prefix}{a["photo"]}"{_srcset} alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
     lien = (prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'
     ag = a.get("agent") or {}

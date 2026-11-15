@@ -159,7 +159,7 @@ def card(photo, alt, loc):
 
 _ann = C.load_annonces()
 _vente = [a for a in _ann if a["type"] == "vente"][:5]; _loc = [a for a in _ann if a["type"] == "location"][:3]
-cards = "".join(C.annonce_card(a, "") for a in (_vente + _loc)) if _ann else (card("immeuble", "Photo d'illustration : immeuble moderne avec balcons", False)
+cards = "".join(C.annonce_card(a, "", "(max-width: 900px) 240px, 380px") for a in (_vente + _loc)) if _ann else (card("immeuble", "Photo d'illustration : immeuble moderne avec balcons", False)
          + card("salon2", "Photo d'illustration : séjour lumineux", True))
 
 jsonld = {
