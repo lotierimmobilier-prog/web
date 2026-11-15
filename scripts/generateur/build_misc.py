@@ -687,4 +687,7 @@ _ard = {"specVersion": "1.0", "host": {"displayName": "LOTIER Immobilier", "iden
      "representativeQueries": ["combien coûtent les honoraires de vente de LOTIER Immobilier", "trouver l'agent LOTIER du secteur de Carcassonne", "quel est le tarif de gestion locative chez LOTIER"]},
 ]}
 open(f"{_wk}/ai-catalog.json", "w", encoding="utf-8").write(json.dumps(_ard, ensure_ascii=False, indent=2) + "\n")
+# Personal Agent Protocol (brouillon 0.1) : déclaration « site web seulement », sans session ni connexion (le site n'en propose pas)
+open(f"{_wk}/poppy.json", "w", encoding="utf-8").write(json.dumps(
+    {"protocol_version": "0.1", "organization": {"name": "LOTIER Immobilier", "domain": "lotier.immo"}, "web": {}}, ensure_ascii=False, indent=2) + "\n")
 print("catalogue d'API, manifeste ARD et compétence d'agent générés")
