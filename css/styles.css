@@ -234,7 +234,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .carousel-btns button:hover:not(:disabled) { background: var(--navy); color: #fff; }
 .carousel-btns button:disabled { opacity: 0.3; cursor: default; }
 .carousel-btns svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.track { display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 4px 4px 14px; scroll-behavior: smooth; }
+.track { display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 4px 4px 14px; scroll-behavior: smooth; scroll-padding-inline: 4px; }   /* scroll-padding = marge intérieure : sans lui, le navigateur fait défiler la piste de 4 px au chargement, ce qui arrête la mesure LCP de Google */
 .track::-webkit-scrollbar { display: none; }
 .track > * { flex: 0 0 clamp(260px, 29vw, 380px); scroll-snap-align: start; }
 .card { padding: 12px 12px 20px; border-radius: 28px; background: rgba(255, 255, 255, 0.78); border: 1px solid #fff; box-shadow: 0 4px 16px rgba(15, 39, 68, 0.05); display: grid; gap: 14px; align-content: start; transition: transform 0.25s ease-out, box-shadow 0.3s; will-change: transform; }
