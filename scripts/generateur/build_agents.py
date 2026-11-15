@@ -141,7 +141,7 @@ def avec_script(html, src):
 shutil.rmtree(f"{ROOT}/nos-agents", ignore_errors=True)
 page = shell(prefix, "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER", "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
              "nos-agents/", body, ld, "assets/og-lotier.jpg", robots=ROBOTS, kind="agence")
-ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.js?v={V_AGENTS_JS}'))
+ecrire(f"{ROOT}/nos-agents/index.html", avec_script(page, f'{prefix}js/agents.min.js?v={V_AGENTS_JS}'))
 
 # ---------- mini-site d'un agent : ce que ses annonces disent de son activité (rien n'est inventé, tout vient de data/annonces.json) ----------
 _BIEN_NOM = {"maison": ("maison", "maisons"), "appartement": ("appartement", "appartements"), "immeuble": ("immeuble", "immeubles"), "terrain": ("terrain", "terrains"),
@@ -297,7 +297,7 @@ def fiche(a):
                  a["photo"] if a.get("photo") else "assets/og-lotier.jpg", robots=ROBOTS if a.get("rsac") or not independant(a) else "noindex, follow", kind="agence")
     if a.get("mots_cles"):
         html = html.replace('<meta name="robots"', f'<meta name="keywords" content="{e(", ".join(a["mots_cles"]))}">\n  <meta name="robots"', 1)
-    ecrire(f'{ROOT}/nos-agents/{a["slug"]}/index.html', avec_script(html, f'{p2}js/agents.js?v={V_AGENTS_JS}') if False else html)
+    ecrire(f'{ROOT}/nos-agents/{a["slug"]}/index.html', avec_script(html, f'{p2}js/agents.min.js?v={V_AGENTS_JS}') if False else html)
 
 for a in AGENTS: fiche(a)
 print(f"agents : page liste + {len(AGENTS)} fiches ({'indexables' if INDEXABLE else 'noindex'})")
