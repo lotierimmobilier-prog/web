@@ -19,14 +19,20 @@
       "anchor": "https://lotier.immo/data/annonces.json",
       "service-desc": [
         {
-          "href": "https://lotier.immo/.well-known/agent-skills/lotier-immobilier/SKILL.md",
-          "type": "text/markdown"
+          "href": "https://lotier.immo/.well-known/openapi-annonces.json",
+          "type": "application/vnd.oai.openapi+json"
         }
       ],
       "service-doc": [
         {
-          "href": "https://lotier.immo/nos-annonces/index.md",
+          "href": "https://lotier.immo/.well-known/agent-skills/lotier-immobilier/SKILL.md",
           "type": "text/markdown"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://lotier.immo/data/annonces.json",
+          "type": "application/json"
         }
       ]
     }

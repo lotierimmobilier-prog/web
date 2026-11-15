@@ -1,0 +1,128 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Annonces LOTIER Immobilier",
+    "version": "1.0.0",
+    "description": "Liste publique, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier. Fichier régénéré chaque jour ; aucune authentification.",
+    "contact": {
+      "email": "contact@lotier-immobilier.com",
+      "url": "https://lotier.immo/contact/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://lotier.immo"
+    }
+  ],
+  "paths": {
+    "/data/annonces.json": {
+      "get": {
+        "operationId": "listerAnnonces",
+        "summary": "Toutes les annonces en ligne",
+        "responses": {
+          "200": {
+            "description": "Date de mise à jour et liste des annonces",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "maj": {
+                      "type": "string",
+                      "description": "Date de la dernière mise à jour (AAAA-MM-JJ)"
+                    },
+                    "annonces": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Annonce"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Annonce": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifiant ; la page de l'annonce est /annonces/{id}/"
+          },
+          "titre": {
+            "type": "string"
+          },
+          "ville": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "vente",
+              "location"
+            ]
+          },
+          "prix": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "En euros ; par mois pour une location"
+          },
+          "surface": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "En mètres carrés"
+          },
+          "chambres": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "sdb": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "reference": {
+            "type": "string"
+          },
+          "photo": {
+            "type": "string",
+            "description": "Chemin de la photo principale, relatif à la racine du site"
+          },
+          "description_html": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "agent": {
+            "type": "object",
+            "properties": {
+              "nom": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "telephone": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

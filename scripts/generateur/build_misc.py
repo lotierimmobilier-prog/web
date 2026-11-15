@@ -613,9 +613,28 @@ _catalogue = {"linkset": [
      "service-desc": [{"href": f"{SITE}/.well-known/mcp/server-card.json", "type": "application/json"}],
      "service-doc": [{"href": f"{SITE}/llms.txt", "type": "text/plain"}]},
     {"anchor": f"{SITE}/data/annonces.json",
-     "service-desc": [{"href": f"{SITE}/.well-known/agent-skills/lotier-immobilier/SKILL.md", "type": "text/markdown"}],
-     "service-doc": [{"href": f"{SITE}/nos-annonces/index.md", "type": "text/markdown"}]},
+     "service-desc": [{"href": f"{SITE}/.well-known/openapi-annonces.json", "type": "application/vnd.oai.openapi+json"}],
+     "service-doc": [{"href": f"{SITE}/.well-known/agent-skills/lotier-immobilier/SKILL.md", "type": "text/markdown"}],
+     "status": [{"href": f"{SITE}/data/annonces.json", "type": "application/json"}]},
 ]}
+_num = {"type": ["number", "null"]}
+_openapi = {"openapi": "3.1.0",
+  "info": {"title": "Annonces LOTIER Immobilier", "version": "1.0.0", "description": "Liste publique, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier. Fichier régénéré chaque jour ; aucune authentification.",
+           "contact": {"email": "contact@lotier-immobilier.com", "url": f"{SITE}/contact/"}},
+  "servers": [{"url": SITE}],
+  "paths": {"/data/annonces.json": {"get": {"operationId": "listerAnnonces", "summary": "Toutes les annonces en ligne",
+      "responses": {"200": {"description": "Date de mise à jour et liste des annonces", "content": {"application/json": {"schema": {"type": "object", "properties": {
+          "maj": {"type": "string", "description": "Date de la dernière mise à jour (AAAA-MM-JJ)"},
+          "annonces": {"type": "array", "items": {"$ref": "#/components/schemas/Annonce"}}}}}}}}}}},
+  "components": {"schemas": {"Annonce": {"type": "object", "properties": {
+      "id": {"type": "string", "description": "Identifiant ; la page de l'annonce est /annonces/{id}/"},
+      "titre": {"type": "string"}, "ville": {"type": "string"}, "type": {"type": "string", "enum": ["vente", "location"]},
+      "prix": {**_num, "description": "En euros ; par mois pour une location"}, "surface": {**_num, "description": "En mètres carrés"},
+      "chambres": {"type": ["integer", "null"]}, "sdb": {"type": ["integer", "null"]}, "reference": {"type": "string"},
+      "photo": {"type": "string", "description": "Chemin de la photo principale, relatif à la racine du site"},
+      "description_html": {"type": ["string", "null"]},
+      "agent": {"type": "object", "properties": {"nom": {"type": "string"}, "email": {"type": "string"}, "telephone": {"type": "string"}}}}}}}}
+open(f"{_wk}/openapi-annonces.json", "w", encoding="utf-8").write(json.dumps(_openapi, ensure_ascii=False, indent=2) + "\n")
 open(f"{_wk}/api-catalog", "w", encoding="utf-8").write(json.dumps(_catalogue, ensure_ascii=False, indent=2) + "\n")
 _skill = f'''---
 name: lotier-immobilier
