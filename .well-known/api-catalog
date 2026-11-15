@@ -1,0 +1,34 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://lotier.immo/mcp/",
+      "service-desc": [
+        {
+          "href": "https://lotier.immo/.well-known/mcp/server-card.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://lotier.immo/llms.txt",
+          "type": "text/plain"
+        }
+      ]
+    },
+    {
+      "anchor": "https://lotier.immo/data/annonces.json",
+      "service-desc": [
+        {
+          "href": "https://lotier.immo/.well-known/agent-skills/lotier-immobilier/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://lotier.immo/nos-annonces/index.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}

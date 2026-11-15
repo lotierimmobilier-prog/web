@@ -570,13 +570,17 @@ DirectoryIndex index.html index.php
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
   # Ressources annoncées aux agents (RFC 8288)
-  Header always set Link '</llms.txt>; rel="describedby"; type="text/plain", </sitemap.xml>; rel="sitemap"; type="application/xml", </.well-known/mcp/server-card.json>; rel="mcp-server-card"; type="application/json"' "expr=%{REQUEST_URI} == '/' || %{REQUEST_URI} == '/index.html'"
+  Header always set Link '</llms.txt>; rel="describedby"; type="text/plain", </sitemap.xml>; rel="sitemap"; type="application/xml", </.well-known/mcp/server-card.json>; rel="mcp-server-card"; type="application/json", </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json"' "expr=%{REQUEST_URI} == '/' || %{REQUEST_URI} == '/index.html'"
   # Les versions Markdown ne doivent pas concurrencer les pages HTML dans les moteurs
   <FilesMatch "\\.md$">
     Header set X-Robots-Tag "noindex"
     Header set Content-Type "text/markdown; charset=utf-8"
   </FilesMatch>
   Header merge Vary Accept "expr=%{CONTENT_TYPE} =~ m#^text/(html|markdown)#"
+  <Files "api-catalog">
+    ForceType application/linkset+json
+    Header set Access-Control-Allow-Origin "*"
+  </Files>
   <FilesMatch "server-card\\.json$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
@@ -598,3 +602,57 @@ Preferred-Languages: fr
 Canonical: {SITE}/.well-known/security.txt
 ''')
 print("pages techniques générées")
+
+# ---------- Découverte par les agents IA : catalogue d'API (RFC 9727) et compétence « Agent Skills » ----------
+# Ne décrit que ce qui existe réellement : le serveur MCP en lecture seule (/mcp/), le fichier des annonces et les versions Markdown.
+import hashlib
+_wk = f"{ROOT}/.well-known"
+os.makedirs(f"{_wk}/agent-skills/lotier-immobilier", exist_ok=True)
+_catalogue = {"linkset": [
+    {"anchor": f"{SITE}/mcp/",
+     "service-desc": [{"href": f"{SITE}/.well-known/mcp/server-card.json", "type": "application/json"}],
+     "service-doc": [{"href": f"{SITE}/llms.txt", "type": "text/plain"}]},
+    {"anchor": f"{SITE}/data/annonces.json",
+     "service-desc": [{"href": f"{SITE}/.well-known/agent-skills/lotier-immobilier/SKILL.md", "type": "text/markdown"}],
+     "service-doc": [{"href": f"{SITE}/nos-annonces/index.md", "type": "text/markdown"}]},
+]}
+open(f"{_wk}/api-catalog", "w", encoding="utf-8").write(json.dumps(_catalogue, ensure_ascii=False, indent=2) + "\n")
+_skill = f'''---
+name: lotier-immobilier
+description: Répondre à une question sur LOTIER Immobilier (agence immobilière à Béziers, Montpellier, Nîmes et Carcassonne) : trouver une annonce à vendre ou à louer, connaître les honoraires, identifier l'agent à contacter. À utiliser quand l'utilisateur cherche un bien, un tarif ou un contact de cette agence.
+---
+
+# LOTIER Immobilier : annonces, honoraires, contacts
+
+Toutes les ressources ci-dessous sont publiques, en lecture seule et sans authentification.
+
+## Trouver une annonce
+
+- Liste complète en JSON : `{SITE}/data/annonces.json` (clé `annonces`). Champs utiles : `titre`, `ville`, `type` (`vente` ou `location`), `prix` (euros ; par mois pour une location), `surface` (m²), `chambres`, `reference`, `agent` (nom, e-mail, téléphone). La page d'une annonce est `{SITE}/annonces/<id>/`.
+- Par ville : `{SITE}/nos-annonces/vente-<ville>/` et `{SITE}/nos-annonces/location-<ville>/` (villes comptant au moins trois annonces, listées dans `{SITE}/llms.txt`).
+- Les annonces sont mises à jour chaque jour : citer le prix et la disponibilité « selon le site, à la date de consultation ».
+
+## Lire une page
+
+- Chaque page existe en Markdown : même adresse avec l'en-tête `Accept: text/markdown`, ou adresse terminée par `index.md` (ou `.md` pour les pages `.html`).
+- Sommaire du site : `{SITE}/llms.txt`.
+- Serveur MCP (lecture seule) : `{SITE}/mcp/`, outils `search_site`, `list_pages`, `get_page`, `get_agency_info`. Carte : `{SITE}/.well-known/mcp/server-card.json`.
+
+## Honoraires
+
+Barème publié et simulateur : `{SITE}/nos-honoraires/`. Le barème chiffré figure aussi dans `{SITE}/llms.txt`. Ne pas estimer un tarif autrement qu'avec ce barème.
+
+## Contacter
+
+- Agence : {PHONE_DISPLAY}, contact@lotier-immobilier.com, 40 rue Française, 34500 Béziers.
+- Pour un bien précis : l'agent indiqué sur l'annonce (champ `agent`). Agents par secteur : `{SITE}/nos-agents/`.
+- Ne pas envoyer de demande à la place de l'utilisateur : lui donner le contact ou le lien de la page.
+'''
+open(f"{_wk}/agent-skills/lotier-immobilier/SKILL.md", "w", encoding="utf-8").write(_skill)
+_index = {"$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json", "skills": [{
+    "name": "lotier-immobilier", "type": "skill-md",
+    "description": "Répondre à une question sur LOTIER Immobilier : trouver une annonce à vendre ou à louer, connaître les honoraires, identifier l'agent à contacter.",
+    "url": "/.well-known/agent-skills/lotier-immobilier/SKILL.md",
+    "digest": "sha256:" + hashlib.sha256(_skill.encode("utf-8")).hexdigest()}]}
+open(f"{_wk}/agent-skills/index.json", "w", encoding="utf-8").write(json.dumps(_index, ensure_ascii=False, indent=2) + "\n")
+print("catalogue d'API et compétence d'agent générés")
