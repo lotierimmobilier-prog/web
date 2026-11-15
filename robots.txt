@@ -48,4 +48,3 @@ User-agent: Meta-ExternalAgent
 Disallow: /
 
 Sitemap: https://lotier.immo/sitemap.xml
-Agentmap: https://lotier.immo/.well-known/ai-catalog.json
