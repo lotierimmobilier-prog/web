@@ -26,11 +26,60 @@ def _empreinte(rel):
     import hashlib
     with open(os.path.join(ROOT, rel), "rb") as f:
         return hashlib.sha1(f.read()).hexdigest()[:10]
-V_CSS = _empreinte("css/styles.css")
-V_JS = _empreinte("js/main.js")
-V_INTRO_CSS = _empreinte("css/intro.css")
-V_INTRO_JS = _empreinte("js/intro.js")
-V_AGENTS_JS = _empreinte("js/agents.js")
+# ---- Versions compactées de la feuille de style et des scripts (les fichiers sources restent lisibles et sont les seuls à modifier) ----
+def _css_min(t):
+    t = re.sub(r"/\*.*?\*/", "", t, flags=re.S)                 # commentaires
+    t = re.sub(r"\s+", " ", t)
+    t = re.sub(r"\s*([{};,])\s*", r"\1", t)                    # autour de { } ; ,
+    t = re.sub(r":\s+", ":", t)                                 # après « : » (jamais avant : « a :hover » a un sens)
+    return t.replace(";}", "}").strip() + "\n"
+
+def _js_min(t):
+    """Compactage prudent : lignes de commentaire, indentation et lignes vides. Le code lui-même n'est pas réécrit."""
+    out, dans_bloc = [], False
+    for l in t.split("\n"):
+        x = l.strip()
+        if dans_bloc:
+            if x.endswith("*/"): dans_bloc = False
+            continue
+        if x.startswith("/*"):
+            if not x.endswith("*/"): dans_bloc = True
+            continue
+        if not x or x.startswith("//"): continue
+        out.append(x)
+    return "\n".join(out) + "\n"
+
+def _compacte(src, dst, fn):
+    t = fn(open(os.path.join(ROOT, src), encoding="utf-8").read())
+    p = os.path.join(ROOT, dst)
+    if not os.path.exists(p) or open(p, encoding="utf-8").read() != t: open(p, "w", encoding="utf-8").write(t)
+    return _empreinte(dst)
+
+V_CSS = _compacte("css/styles.css", "css/styles.min.css", _css_min)
+V_JS = _compacte("js/main.js", "js/main.min.js", _js_min)
+V_INTRO_CSS = _compacte("css/intro.css", "css/intro.min.css", _css_min)
+V_INTRO_JS = _compacte("js/intro.js", "js/intro.min.js", _js_min)
+V_AGENTS_JS = _compacte("js/agents.js", "js/agents.min.js", _js_min)
+V_GSAP = _empreinte("js/gsap.min.js")
+
+def _vignettes():
+    """Logo de l'en-tête à sa taille d'affichage (×2 pour les écrans denses) et vignettes d'annonce de 560 px pour les petits écrans."""
+    try: from PIL import Image
+    except ImportError: return
+    src, dst = f"{ROOT}/assets/lotier-logo.png", f"{ROOT}/assets/lotier-logo-330.png"
+    if os.path.exists(src) and not os.path.exists(dst):
+        im = Image.open(src); im.thumbnail((330, 330)); im.save(dst, "PNG", optimize=True)
+    d, m = f"{ROOT}/assets/annonces", f"{ROOT}/assets/annonces-mini"
+    if not os.path.isdir(d): return
+    os.makedirs(m, exist_ok=True)
+    try: voulues = {os.path.basename(x["photo"]) for x in json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("annonces", []) if x.get("photo")}
+    except (OSError, ValueError): voulues = set()
+    for f in voulues:
+        if os.path.exists(f"{d}/{f}") and (not os.path.exists(f"{m}/{f}") or os.path.getmtime(f"{m}/{f}") < os.path.getmtime(f"{d}/{f}")):
+            im = Image.open(f"{d}/{f}").convert("RGB"); im.thumbnail((560, 560)); im.save(f"{m}/{f}", "JPEG", quality=72, optimize=True, progressive=True)
+    for f in os.listdir(m):
+        if f not in voulues: os.remove(f"{m}/{f}")
+_vignettes()
 
 SITE = "https://lotier.immo"
 # Adresses des réseaux sociaux : renseigner les URLs complètes (les liens n'apparaissent que si elles sont remplies)
@@ -141,7 +190,7 @@ def city_url(prefix, c): return f"{prefix}{c['slug']}.html"
 def blog_index(prefix): return f"{prefix}blog/"
 
 # ---------- En-tête, pied de page, coque de page ----------
-LOGO_FN = lambda prefix: f'<img src="{prefix}assets/lotier-logo.png" alt="LOTIER Immobilier" width="165" height="56">'
+LOGO_FN = lambda prefix: f'<img src="{prefix}assets/lotier-logo{"-330" if os.path.exists(ROOT + "/assets/lotier-logo-330.png") else ""}.png" alt="LOTIER Immobilier" width="165" height="56">'
 
 # ---------- Avis Google : note de la barre du haut + fenêtre « lire / laisser un avis » ----------
 def _avis_cfg():
@@ -485,7 +534,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="{prefix}assets/favicon.png">
   <link rel="preload" href="{prefix}assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{prefix}css/styles.css?v={V_CSS}">
+  <link rel="stylesheet" href="{prefix}css/styles.min.css?v={V_CSS}">
 {ld}</head>
 <body id="top">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -498,7 +547,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
 
 {footer(prefix, home, cta)}
 {chat_widget(prefix)}
-{contact_dialog(prefix)}{avis_dialog()}  <script src="{prefix}js/main.js?v={V_JS}"></script>
+{contact_dialog(prefix)}{avis_dialog()}  <script src="{prefix}js/main.min.js?v={V_JS}"></script>
 </body>
 </html>
 '''
@@ -621,7 +670,9 @@ def annonce_card(a, prefix):
     bits = []
     if a.get("surface"): bits.append(f"{a['surface']:g}".replace(".", ",") + " m\u00b2")
     if a.get("chambres"): bits.append(f"{a['chambres']} ch.")
-    photo = (f'<img src="{prefix}{a["photo"]}" alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
+    _mini = "assets/annonces-mini/" + os.path.basename(a["photo"]) if a.get("photo") else ""
+    _srcset = (f' srcset="{prefix}{_mini} 560w, {prefix}{a["photo"]} 720w" sizes="(max-width: 700px) 320px, 380px"' if _mini and os.path.exists(f"{ROOT}/{_mini}") else "")
+    photo = (f'<img src="{prefix}{a["photo"]}"{_srcset} alt="{e(title)}" width="720" height="540" loading="lazy" decoding="async">' if a.get("photo") else "")
     lien = (prefix + 'annonces/' + a['id'] + '/') if a.get('description_html') is not None else prefix + 'contact/'
     ag = a.get("agent") or {}
     prenom = " ".join("-".join(w.capitalize() for w in part.split("-")) for part in (ag.get("nom") or "").strip().split()).split(" ")[0]
