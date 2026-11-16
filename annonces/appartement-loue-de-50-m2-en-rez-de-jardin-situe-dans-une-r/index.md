@@ -1,12 +1,253 @@
-# Appartement loué de 50 m2 en rez-de-jardin situé dans une r
+# Appartement 2 pièces 50 m² à vendre à Carcassonne
 
-> Appartement 2 pièces 50 m² à vendre à Carcassonne, 1 chambre, 80 000 €. À vendre loué à Carcassonne (11) : appartement non meublé de 50 m2 en rez-de-jardin…
+> Appartement 2 pièces 50 m² à vendre à Carcassonne, 1 chambre, 80 000 €. À vendre loué à Carcassonne (11) : appartement non meublé de 50 m² en rez-de-jardin…
 
 Source : https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/
+
+Appartement loué de 50 m2 en rez-de-jardin situé dans une r
 
 **80 000 €** · Carcassonne · 50 m² · 1 chambre · 1 salle d'eau/bain
 
  VENTE 1 / 5
+
+## En bref
+
+Appartement de 50 m² à vendre à Carcassonne (Aude, 11) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 80 000 €, honoraires à la charge du vendeur. Construction de 2005, exposition nord ouest, classe énergie D (191 kWh/m²/an), classe climat A. Référence 2_MAVAP130000883, suivie par Barbara Bouba (LOTIER Immobilier).
+
+## Informations clés
+
+- **50 m²** Surface
+- **2** Pièces
+- **1** Chambre
+- **1** Salle d'eau/bain
+- **2005** Construction
+
+## Description
+
+À vendre loué à Carcassonne (11) : appartement non meublé de 50 m² en rez-de-jardin, situé dans une résidence sécurisée et bien entretenue.
+
+Ce bien se compose d’un agréable espace de vie lumineux ouvrant sur un jardin privatif de 30 m², idéal pour profiter des beaux jours en toute tranquillité.
+
+Caractéristiques :
+
+Jardin privatif de 30 m²
+
+1 place de parking attribuée
+
+Accès à une piscine commune dans la résidence
+
+Eau froide incluse dans les charges
+
+Informations complémentaires :
+
+Les charges de copropriété s’élèvent à 1 100 € par an, incluant l’eau.
+
+La taxe foncière est de 1 250 €.
+
+Loué 610 € charges comprises.
+
+Idéalement situé, cet appartement offre un cadre de vie calme et agréable, à proximité des commodités.
+
+– Annonce rédigée et publiée par un Agent Mandataire –
+
+## Les atouts du bien
+
+- Exposition nord ouest
+
+## Caractéristiques
+
+### Caractéristiques
+
+**Type de bien**
+Appartement
+
+**Surface habitable**
+50 m²
+
+**Pièces**
+2
+
+**Chambres**
+1
+
+**Salles de bain**
+1
+
+**WC**
+1
+
+**Année de construction**
+2005
+
+### Équipements et confort
+
+**Exposition**
+Nord Ouest
+
+**Ascenseur**
+Non
+
+### Copropriété (loi ALUR)
+
+**Copropriété**
+Oui
+
+**Procédures en cours**
+Non
+
+## Détail du prix
+
+- Prix **80 000 €** *Frais d'agence inclus*
+- Honoraires à la charge de **Vendeur**
+
+## Bilan énergétique
+DPE · Consommation d'énergie **191** kWh/m².an
+- A
+- B
+- C
+- D
+- E
+- F
+- G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an
+- A
+- B
+- C
+- D
+- E
+- F
+- G
+
+Dépenses annuelles d’énergie estimées : **entre 780 € et 1 100 €** par an.
+
+**Voir le diagnostic complet**
+
+DPE classe D, 191 kWh/m².an ; GES classe A, 5 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+
+Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 780 € et 1 100 € par an.
+
+Prix moyens des énergies indexés au 01/01/2023 (abonnement compris).
+
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
+
+## Estimer mon financement
+
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€) Durée du crédit : 20 ans Taux du crédit (% par an) Assurance emprunteur (% par an) Type de bien Droit départemental Frais de notaire estimés **—**
+
+- Émoluments du notaire (TTC) **—**
+- Droits et taxes (État, département, commune) **—**
+- Sécurité immobilière et débours **—**
+ Votre crédit **—** par mois, assurance comprise
+
+- Montant emprunté **—**
+- Intérêts **—**
+- Assurance **—**
+- Coût total du crédit **—**
+
+Estimation indicative et non contractuelle, calculée avec des paramètres par défaut (3,31 % sur 20 ans, valeurs du 09/11/2026) : elle ne constitue ni une offre de prêt ni un conseil en financement. Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Pour une offre personnalisée, contactez votre banque ou un courtier.
+ Lien partenaire
+
+## Un nouveau logement, de nouveaux abonnements ?
+
+Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie, internet ou l’assurance habitation, avec notre partenaire Papernest. Service gratuit, sans engagement de votre part envers LOTIER Immobilier. [Comparer les offres (nouvelle fenêtre, site partenaire Papernest) ](https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7&y=1bd41d4a-598b-4237-a49f-03d0eaaaaaaa&destination=intro-call-or-app__generic&user.campaign=app_link)
+
+## Mentions légales
+
+- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
+ 80 000 €
+
+Réf. 2_MAVAP130000883
+
+- 50 m²
+- 1 chambre
+- 1 salle d'eau/bain
+
+ **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
+ [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
+ [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
+ [Être rappelé ](https://lotier.immo/contact/)
+
+Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
+
+Annonce proposée par LOTIER Immobilier.
+
+[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Les autres biens de Barbara
+
+ [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
+
+ 330 000 €
+
+### Carcassonne Confort, élégance et espace pour toute la fami
+
+ Carcassonne · 240 m² · 5 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
+
+ 170 000 €
+
+### Immeuble avec 1 local commercial et 1 T4
+
+ Carcassonne · 170 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
+
+ 230 000 €
+
+### Immeuble de rapport
+
+ Carcassonne · 166 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
+
+ [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
+
+ 750 € par mois
+
+### Appartement T4 non meublé – centre ville Carcassonne
+
+ Carcassonne · 106,58 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

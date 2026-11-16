@@ -22,7 +22,7 @@
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.min.css?v=e32d9292f0">
+  <link rel="stylesheet" href="../../css/styles.min.css?v=d699242545">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,9 +32,11 @@
   ],
   "@id": "https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/#annonce",
   "url": "https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/",
-  "name": "Ensemble immobilier de 6 lots",
-  "description": "Immeuble 400 m² à vendre à Capendu, 7 chambres, 399 900 €. Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place. Cet ensemble…",
+  "name": "Immeuble 400 m² à vendre à Capendu",
+  "alternateName": "Ensemble immobilier de 6 lots",
+  "description": "Immeuble de 400 m² à vendre à Capendu (Aude, 11) : 12 pièces, 7 chambres et 4 salles d'eau ou de bain. Prix : 399 900 €. Le bien comprend : terrain de 640 m², terrasse, balcon, garage et parking. Construction de 1948. Référence 2_BBV30000787, suivie par Barbara Bouba (LOTIER Immobilier).",
   "inLanguage": "fr-FR",
+  "identifier": "2_BBV30000787",
   "image": [
     "https://lotier.immo/assets/annonces/ensemble-immobilier-de-6-lots-1.jpg",
     "https://lotier.immo/assets/annonces/ensemble-immobilier-de-6-lots-2.jpg",
@@ -54,7 +56,8 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Capendu",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     }
   },
   "isPartOf": {
@@ -67,6 +70,17 @@
     "availability": "https://schema.org/InStock",
     "seller": {
       "@id": "https://lotier.immo/#agence"
+    },
+    "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+    "offeredBy": {
+      "@type": "Person",
+      "name": "Barbara Bouba",
+      "telephone": "+33651450663",
+      "email": "barbara.bouba@lotier-immobilier.com",
+      "url": "https://lotier.immo/nos-agents/barbara-bouba/",
+      "worksFor": {
+        "@id": "https://lotier.immo/#agence"
+      }
     }
   },
   "mainEntity": {
@@ -75,13 +89,54 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Capendu",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     },
     "floorSize": {
       "@type": "QuantitativeValue",
       "value": 400.0,
       "unitCode": "MTK"
-    }
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Type de bien",
+        "value": "Immeuble"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Terrain",
+        "value": "640 m²"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Référence",
+        "value": "2_BBV30000787"
+      }
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Terrasse",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Balcon",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Garage",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Parking",
+        "value": true
+      }
+    ],
+    "yearBuilt": 1948
   }
 }
   </script>
@@ -105,7 +160,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Ensemble immobilier de 6 lots",
+      "name": "Immeuble 400 m² à vendre à Capendu",
       "item": "https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/"
     }
   ]
@@ -164,7 +219,8 @@
     <section class="page-hero ann-hero">
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../../index.html">Accueil</a><span aria-hidden="true">/</span><a href="../../nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><a href="../../nos-annonces/vente-capendu/">Capendu</a></nav>
-        <h1 class="display page-title ann-title">Ensemble immobilier de 6 lots</h1>
+        <h1 class="display page-title ann-title">Immeuble 400 m² à vendre à Capendu</h1>
+        <p class="ann-accroche">Ensemble immobilier de 6 lots</p>
         <p class="lead"><strong>399 900 €</strong> · Capendu · 400 m² · 7 chambres · 4 salles d'eau/bain</p>
       </div>
     </section>
@@ -179,8 +235,9 @@
           <div class="ann-thumbs"><button type="button" class="ann-thumb is-on" data-gal-i="0" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-1.jpg" aria-label="Photo 1 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-1.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="1" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-2.jpg" aria-label="Photo 2 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-2.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="2" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-3.jpg" aria-label="Photo 3 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-3.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="3" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-4.jpg" aria-label="Photo 4 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-4.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="4" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-5.jpg" aria-label="Photo 5 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-5.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="5" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-6.jpg" aria-label="Photo 6 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-6.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="6" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-7.jpg" aria-label="Photo 7 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-7.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="7" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-8.jpg" aria-label="Photo 8 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-8.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="8" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-9.jpg" aria-label="Photo 9 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-9.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="9" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-10.jpg" aria-label="Photo 10 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-10.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="10" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-11.jpg" aria-label="Photo 11 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-11.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="11" data-ann-photo="../../assets/annonces/ensemble-immobilier-de-6-lots-12.jpg" aria-label="Photo 12 sur 12"><img src="../../assets/annonces/ensemble-immobilier-de-6-lots-12.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button></div>
           <dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><img alt="" data-gal-big><button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button><button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button><span class="ann-count" data-gal-count2 aria-live="polite">1 / 12</span></dialog>
         </div>
+          <section class="ann-card ann-bref" aria-labelledby="ann-h-bref"><h2 id="ann-h-bref">En bref</h2><p>Immeuble de 400 m² à vendre à Capendu (Aude, 11) : 12 pièces, 7 chambres et 4 salles d&#x27;eau ou de bain. Prix : 399 900 €. Le bien comprend : terrain de 640 m², terrasse, balcon, garage et parking. Construction de 1948. Référence 2_BBV30000787, suivie par Barbara Bouba (LOTIER Immobilier).</p></section>
           <section class="ann-card ann-keys" aria-labelledby="ann-h-cles"><h2 id="ann-h-cles">Informations clés</h2><ul class="ann-keys-grid"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><strong>400 m²</strong><span>Surface</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V5h10v15M14 9h6v11M2 20h20M8 10h2M8 14h2"/></svg><strong>12</strong><span>Pièces</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3"/></svg><strong>7</strong><span>Chambres</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0M7 19l-1 2M17 19l1 2"/></svg><strong>4</strong><span>Salles d&#x27;eau/bain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-9 4 6 3-4 6 7zM3 21h18"/></svg><strong>640 m²</strong><span>Terrain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><strong>1948</strong><span>Construction</span></li></ul></section>
-          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place.</p><p>Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation.</p><p>Il se compose des lots suivants :</p><p>Maison principale de 143 m2 avec jardin et grand garage</p><p>Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée F/F, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900 € par mois.</p><p>Local commercial</p><p>Actuellement loué pour un loyer mensuel de 457 €.</p><p>Studio de 19 m2 avec jardin et climatisation</p><p>Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 €.</p><p>Classe énergétique : C / A.</p><p>Ce logement a bénéficié de récents travaux d’amélioration.</p><p>Appartement T3 de 77 m2 avec jardin, garage et cave</p><p>Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 €.</p><p>Classe énergétique : C / A.</p><p>Ce logement a également bénéficié de travaux récents.</p><p>Garage indépendant</p><p>Actuellement loué pour 57 € par mois.</p><p>Appartement T3</p><p>Actuellement loué pour un loyer mensuel de 516 €.</p><p>Les atouts de l’ensemble</p><ul><li>Revenus locatifs déjà en place sur la majorité des lots</li><li>Diversification des revenus entre habitation et commerce</li><li>Potentiel d’optimisation de la maison principale après rénovation énergétique</li><li>Travaux récents réalisés sur plusieurs logements</li><li>Présence de jardins et dépendances</li><li>Investissement offrant à la fois rendement immédiat et potentiel de valorisation</li></ul><p>Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p></section>
+          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place.</p><p>Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation.</p><p>Il se compose des lots suivants :</p><p>Maison principale de 143 m² avec jardin et grand garage</p><p>Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée F/F, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900 € par mois.</p><p>Local commercial</p><p>Actuellement loué pour un loyer mensuel de 457 €.</p><p>Studio de 19 m² avec jardin et climatisation</p><p>Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 €.</p><p>Classe énergétique : C / A.</p><p>Ce logement a bénéficié de récents travaux d’amélioration.</p><p>Appartement T3 de 77 m² avec jardin, garage et cave</p><p>Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 €.</p><p>Classe énergétique : C / A.</p><p>Ce logement a également bénéficié de travaux récents.</p><p>Garage indépendant</p><p>Actuellement loué pour 57 € par mois.</p><p>Appartement T3</p><p>Actuellement loué pour un loyer mensuel de 516 €.</p><p>Les atouts de l’ensemble</p><ul><li>Revenus locatifs déjà en place sur la majorité des lots</li><li>Diversification des revenus entre habitation et commerce</li><li>Potentiel d’optimisation de la maison principale après rénovation énergétique</li><li>Travaux récents réalisés sur plusieurs logements</li><li>Présence de jardins et dépendances</li><li>Investissement offrant à la fois rendement immédiat et potentiel de valorisation</li></ul><p>Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p></section>
           <section class="ann-card ann-atouts" aria-labelledby="ann-h-atouts"><h2 id="ann-h-atouts">Les atouts du bien</h2><ul class="ann-chips"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Terrasse</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Balcon</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Garage</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Parking</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Boxe</li></ul></section>
           <section class="ann-card ann-carac" aria-labelledby="ann-h-carac"><h2 id="ann-h-carac">Caractéristiques</h2><div class="ann-carac-grid"><div class="ann-carac-grp"><h3>Caractéristiques</h3><dl><div><dt>Type de bien</dt><dd>Immeuble</dd></div><div><dt>Surface habitable</dt><dd>400 m²</dd></div><div><dt>Terrain</dt><dd>640 m²</dd></div><div><dt>Pièces</dt><dd>12</dd></div><div><dt>Chambres</dt><dd>7</dd></div><div><dt>Salles de bain</dt><dd>4</dd></div><div><dt>WC</dt><dd>5</dd></div><div><dt>Année de construction</dt><dd>1948</dd></div></dl></div><div class="ann-carac-grp"><h3>Équipements et confort</h3><dl><div><dt>Ascenseur</dt><dd>Non</dd></div><div><dt>Balcon</dt><dd>Oui</dd></div><div><dt>Boxe</dt><dd>Oui</dd></div><div><dt>Garage</dt><dd>Oui</dd></div><div><dt>Parking</dt><dd>Oui</dd></div><div><dt>Terrasse</dt><dd>Oui</dd></div></dl></div></div></section>
           <section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid"><li><span>Prix</span><strong>399 900 €</strong><em>Frais d&#x27;agence inclus</em></li></ul></section>

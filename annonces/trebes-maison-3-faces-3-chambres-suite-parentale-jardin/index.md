@@ -1,12 +1,264 @@
-# TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
+# Maison 4 pièces 105 m² à vendre à Trèbes
 
 > Maison 4 pièces 105 m² à vendre à Trèbes, 3 chambres, 207 000 €. À Trèbes, à quelques minutes de Carcassonne, découvrez cette maison 3 faces qui se distingue…
 
 Source : https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/
 
+TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
+
 **207 000 €** · Trèbes · 105 m² · 3 chambres · 1 salle d'eau/bain
 
  VENTE 1 / 12
+
+## En bref
+
+Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 207 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition ouest est, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).
+
+## Informations clés
+
+- **105 m²** Surface
+- **4** Pièces
+- **3** Chambres
+- **1** Salle d'eau/bain
+- **315 m²** Terrain
+- **1970** Construction
+- **Individuel** Chauffage
+
+## Description
+
+À Trèbes, à quelques minutes de Carcassonne, découvrez cette maison 3 faces qui se distingue par ses volumes généreux, sa rénovation contemporaine et sa superbe pièce de vie.
+
+Dès l’entrée, la maison dévoile un vaste espace de vie particulièrement agréable, marqué par une très belle hauteur sous plafond qui apporte caractère et sensation d’espace. Le séjour s’organise autour d’un salon lumineux et d’une grande cuisine ouverte, moderne et fonctionnelle, avec îlot central.
+
+De larges ouvertures prolongent naturellement l’intérieur vers le jardin, notamment une porte-fenêtre à galandage permettant d’effacer la séparation entre la pièce de vie et la terrasse aux beaux jours.
+
+Le rez-de-chaussée accueille également un véritable espace parental composé d’une chambre d’environ 11 m², d’une salle d’eau et surtout d’un dressing indépendant d’environ 5,5 m². Une buanderie vient compléter ce niveau.
+
+À l’étage, l’espace nuit propose deux chambres d’environ 9,4 m² et 9,7 m², ainsi qu’une salle de bains à rénover. Les travaux de placo actuellement visibles sur les photos seront terminés pour la vente, permettant de bénéficier d’un étage propre et achevé.
+
+À l’extérieur, la maison profite d’un jardin permettant de véritables moments de convivialité avec terrasse, espace barbecue et cabanon de rangement.
+
+La rénovation déjà réalisée apporte un vrai confort au quotidien : menuiseries récentes, volets roulants électriques, climatisation, cuisine contemporaine, douche moderne et escalier métallique au style actuel.
+
+Une maison familiale qui offre déjà de très belles prestations, tout en laissant la possibilité de personnaliser quelques éléments à son goût.
+
+Les points forts : 3 faces o 3 chambres o espace parental au RDC o dressing 5,5 m² o 2 pièces d’eau o très belle hauteur sous plafond o cuisine ouverte o baie/porte-fenêtre à galandage o climatisation o menuiseries neuves o volets roulants électriques o buanderie o terrasse o barbecue o cabanon o proximité immédiate de Carcassonne.
+
+## Les atouts du bien
+
+- Terrasse
+- Climatisation
+- Cuisine américaine équipée
+- Exposition ouest est
+
+## Caractéristiques
+
+### Caractéristiques
+
+**Type de bien**
+Maison/villa
+
+**Surface habitable**
+105 m²
+
+**Terrain**
+315 m²
+
+**Pièces**
+4
+
+**Chambres**
+3
+
+**Salles de bain**
+1
+
+**Salles d'eau**
+1
+
+**WC**
+1
+
+**Nombre d'étages**
+2
+
+**Année de construction**
+1970
+
+### Équipements et confort
+
+**Chauffage**
+Individuel
+
+**Cuisine**
+Américaine équipée
+
+**Exposition**
+Ouest Est
+
+**Ascenseur**
+Non
+
+**Climatisation**
+Oui
+
+**Terrasse**
+Oui
+
+## Détail du prix
+
+- Prix **207 000 €** *Frais d'agence inclus*
+- Honoraires à la charge de **Vendeur**
+
+## Bilan énergétique
+DPE · Consommation d'énergie **99** kWh/m².an
+- A
+- B
+- C
+- D
+- E
+- F
+- G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an
+- A
+- B
+- C
+- D
+- E
+- F
+- G
+
+Dépenses annuelles d’énergie estimées : **entre 1 000 € et 1 400 €** par an.
+
+**Voir le diagnostic complet**
+
+DPE classe B, 99 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+
+Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 1 000 € et 1 400 € par an.
+
+Prix moyens des énergies indexés au 01/01/2025 (abonnement compris).
+
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
+
+## Estimer mon financement
+
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€) Durée du crédit : 20 ans Taux du crédit (% par an) Assurance emprunteur (% par an) Type de bien Droit départemental Frais de notaire estimés **—**
+
+- Émoluments du notaire (TTC) **—**
+- Droits et taxes (État, département, commune) **—**
+- Sécurité immobilière et débours **—**
+ Votre crédit **—** par mois, assurance comprise
+
+- Montant emprunté **—**
+- Intérêts **—**
+- Assurance **—**
+- Coût total du crédit **—**
+
+Estimation indicative et non contractuelle, calculée avec des paramètres par défaut (3,31 % sur 20 ans, valeurs du 09/11/2026) : elle ne constitue ni une offre de prêt ni un conseil en financement. Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Pour une offre personnalisée, contactez votre banque ou un courtier.
+ Lien partenaire
+
+## Un nouveau logement, de nouveaux abonnements ?
+
+Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie, internet ou l’assurance habitation, avec notre partenaire Papernest. Service gratuit, sans engagement de votre part envers LOTIER Immobilier. [Comparer les offres (nouvelle fenêtre, site partenaire Papernest) ](https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7&y=1bd41d4a-598b-4237-a49f-03d0eaaaaaaa&destination=intro-call-or-app__generic&user.campaign=app_link)
+
+## Mentions légales
+
+- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
+ 207 000 €
+
+Réf. 2_BBV30000987
+
+- 105 m²
+- 3 chambres
+- 1 salle d'eau/bain
+
+ **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
+ [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
+ [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
+ [Être rappelé ](https://lotier.immo/contact/)
+
+Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
+
+Annonce proposée par LOTIER Immobilier.
+
+[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Les autres biens de Barbara
+
+ [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
+
+ 80 000 €
+
+### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
+
+ Carcassonne · 50 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
+
+ 330 000 €
+
+### Carcassonne Confort, élégance et espace pour toute la fami
+
+ Carcassonne · 240 m² · 5 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
+
+ 399 900 €
+
+### Ensemble immobilier de 6 lots
+
+ Capendu · 400 m² · 7 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

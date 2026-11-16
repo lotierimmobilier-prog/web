@@ -1,12 +1,177 @@
-# À vendre fond de commerce – centre ville de Nîmes – environ
+# Fonds de commerce 49 m² à vendre à Nîmes
 
-> Local commercial 49 m² à vendre à Nîmes, 45 000 €. Je vous propose ce fond de commerce extrêmement bien situé, en plein centre ville de Nîmes dans une des rues…
+> Fonds de commerce 49 m² à vendre à Nîmes, 45 000 €. À VENDRE FOND DE COMMERCE – CENTRE VILLE DE NÎMES – ENVIRON 49 m² – TRÈS BIEN SITUÉ. Je vous propose ce…
 
 Source : https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/
+
+À vendre fond de commerce – centre ville de Nîmes – environ
 
 **45 000 €** · Nîmes · 48,96 m²
 
  VENTE 1 / 2
+
+## En bref
+
+Fonds de commerce de 48,96 m² à vendre à Nîmes (Gard, 30). Prix : 45 000 €. Construction de 1950. Référence 12_328, suivie par Elodie Chardot (LOTIER Immobilier).
+
+## Informations clés
+
+- **48,96 m²** Surface
+- **1950** Construction
+
+## Description
+
+À VENDRE FOND DE COMMERCE – CENTRE VILLE DE NÎMES – ENVIRON 49 m² – TRÈS BIEN SITUÉ.
+
+Je vous propose ce fond de commerce extrêmement bien situé, en plein centre ville de Nîmes dans une des rues les plus recherchées, entre le Boulevard Victor Hugo et le Jean-Jaurès. Ce local vous laisse la possibilité de faire plusieurs types de commerce sauf la restauration. Il se compose d’une grande pièce à office de magasin ou d’atelier, de deux réserves, d’un coin sanitaire équipé d’un toilette et d’un lavabo.
+
+Il dispose d’une vitrine double donnant sur la rue passante. Une de 5,47×2,94 et l’autre de 2,69×2,94
+
+Un loyer mensuel d’environ 580 € est demandé.
+
+Pour tous renseignements ou pour faire une visite, je me tiens à votre disposition tous les jours de 9H à 19h30. (Photos sur demande)
+
+– Annonce rédigée et publiée par un Agent Mandataire –
+
+## Caractéristiques
+
+### Caractéristiques
+
+**Type de bien**
+Boutique
+
+**Surface habitable**
+48.96 m²
+
+**Année de construction**
+1950
+
+### Équipements et confort
+
+**Ascenseur**
+Non
+
+## Détail du prix
+
+- Prix **45 000 €** *Frais d'agence inclus*
+
+## Estimer mon financement
+
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€) Durée du crédit : 20 ans Taux du crédit (% par an) Assurance emprunteur (% par an) Type de bien Droit départemental Frais de notaire estimés **—**
+
+- Émoluments du notaire (TTC) **—**
+- Droits et taxes (État, département, commune) **—**
+- Sécurité immobilière et débours **—**
+ Votre crédit **—** par mois, assurance comprise
+
+- Montant emprunté **—**
+- Intérêts **—**
+- Assurance **—**
+- Coût total du crédit **—**
+
+Estimation indicative et non contractuelle, calculée avec des paramètres par défaut (3,31 % sur 20 ans, valeurs du 09/11/2026) : elle ne constitue ni une offre de prêt ni un conseil en financement. Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Pour une offre personnalisée, contactez votre banque ou un courtier.
+ Lien partenaire
+
+## Un nouveau logement, de nouveaux abonnements ?
+
+Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie, internet ou l’assurance habitation, avec notre partenaire Papernest. Service gratuit, sans engagement de votre part envers LOTIER Immobilier. [Comparer les offres (nouvelle fenêtre, site partenaire Papernest) ](https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7&y=1bd41d4a-598b-4237-a49f-03d0eaaaaaaa&destination=intro-call-or-app__generic&user.campaign=app_link)
+
+## Mentions légales
+
+- Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
+ 45 000 €
+
+Réf. 12_328
+
+- 48,96 m²
+
+ **[Élodie Chardot](https://lotier.immo/nos-agents/elodie-chardot/)** Votre contact LOTIER Immobilier
+ [Appeler Élodie **06 73 03 51 96** ](tel:+33673035196)
+ [elodie.chardot@lotier-immobilier.com](mailto:elodie.chardot@lotier-immobilier.com)
+ [Être rappelé ](https://lotier.immo/contact/)
+
+Agent commercial indépendant · immatriculé au RSAC de Nîmes n° 882042278
+
+Annonce proposée par LOTIER Immobilier.
+
+[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Les autres biens de Elodie
+
+ [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
+
+ 365 000 €
+
+### Nimes – à vendre fond de commerce restaurant
+
+ Nîmes · 155,21 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
+
+ 395 000 €
+
+### Nîmes quartier route D’uzes – maison type 5 avec magnifiqu
+
+ Nîmes · 116 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
+
+ 415 € par mois
+
+### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
+
+ Nîmes · 14,99 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
+
+ 320 000 €
+
+### Clarensac dans la vaunage entre Nîmes et Montpellier maison
+
+ Clarensac · 127 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
+
+ 261 000 €
+
+### Investissement Nîmes Murs commerciaux + studio loué 111
+
+ Nîmes · 111,36 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
+
+ 210 000 €
+
+### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
+
+ Nîmes · 75,04 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
+
+ 351 900 €
+
+### Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement
+
+ Nîmes · 84,48 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

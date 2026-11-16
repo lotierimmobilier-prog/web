@@ -65,6 +65,13 @@ Promenades et résidences en bord d'eau, à deux pas du centre.
 
 Pavillons, maisons de village et vignobles du Minervois et du Cabardès.
 
+ À lire sur le blog
+
+## [Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi](https://lotier.immo/blog/vivre-a-carcassonne.html)
+
+Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.
+ [Lire l'article ](https://lotier.immo/blog/vivre-a-carcassonne.html)
+
  Nos annonces
 
 ## Biens à vendre et à louer *à Carcassonne et alentours.*
@@ -175,6 +182,27 @@ Par téléphone au 04 67 11 28 31, par e-mail à contact@lotier-immobilier.com, 
 Un conseiller compare votre bien aux ventes récentes de son secteur et vous explique le prix du marché.
 
 Ou appelez-nous : [04 67 11 28 31](tel:+33467112831)
+
+ Autour de Carcassonne
+
+## Nous intervenons aussi à…
+
+Trèbes · Limoux · Castelnaudary · Narbonne · Béziers
+
+ Nos autres villes
+ [Immobilier à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Immobilier à Montpellier](https://lotier.immo/agence-immobiliere-montpellier.html)[Immobilier à Nîmes](https://lotier.immo/agence-immobiliere-nimes.html)[Immobilier à Narbonne](https://lotier.immo/agence-immobiliere-narbonne.html)[Immobilier à Avignon](https://lotier.immo/agence-immobiliere-avignon.html)[Immobilier à Agde](https://lotier.immo/agence-immobiliere-agde.html)
+
+Contact : [04 67 11 28 31](tel:+33467112831) · [contact@lotier-immobilier.com](mailto:contact@lotier-immobilier.com)
+Siège : 40 rue Française, 1er étage, 34500 Béziers
+
+Recrutement
+
+## Votre patron actuel ne lit pas ce site. *Profitez-en.*
+
+Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la machine à café.
+
+ [Je change de vie ](https://lotier.immo/rejoindre/)
+ [Comparer avant de sauter](https://lotier.immo/rejoindre/comparatif/)
 
 ---
 

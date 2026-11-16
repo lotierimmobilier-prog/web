@@ -104,6 +104,24 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Bailleur** 13 avril 2026 4 min
+
+### [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
+
+Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.
+
+ **Bailleur** 6 février 2026 4 min
+
+### [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
+
+Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
+
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

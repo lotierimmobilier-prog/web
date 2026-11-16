@@ -340,10 +340,10 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **32**biens en ligne
-- **24**à vendre
-- **8**à louer
-- **13**communes
+- **32** biens en ligne
+- **24** à vendre
+- **8** à louer
+- **13** communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
 

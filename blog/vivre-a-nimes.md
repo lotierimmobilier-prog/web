@@ -100,6 +100,24 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Villes** 3 mai 2026 4 min
+
+### [Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi](https://lotier.immo/blog/vivre-a-carcassonne.html)
+
+Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.
+
+ **Villes** 18 avril 2026 4 min
+
+### [Vivre à Montpellier : du centre historique aux nouveaux quartiers](https://lotier.immo/blog/vivre-a-montpellier.html)
+
+Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.
+
+ **Villes** 25 novembre 2025 4 min
+
+### [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier.immo/blog/vivre-a-beziers.html)
+
+Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

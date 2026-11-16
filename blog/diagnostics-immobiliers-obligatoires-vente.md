@@ -110,6 +110,24 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
+ **Vendre** 17 septembre 2026 4 min
+
+### [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
+
+Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
+
+ **Vendre** 28 janvier 2026 4 min
+
+### [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
+
+Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

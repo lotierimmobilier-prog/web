@@ -230,10 +230,10 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Laëtitia
 
-- **21**biens en ligne
-- **13**à vendre
-- **8**à louer
-- **3**communes
+- **21** biens en ligne
+- **13** à vendre
+- **8** à louer
+- **3** communes
 
 Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béziers.
 

@@ -1351,3 +1351,7 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 .part-card .title { margin: 0; font-size: clamp(26px, 3vw, 36px); } .part-card p { margin: 0; line-height: 1.7; }
 .part-acc { font-weight: 600; color: var(--gold-t); font-size: 18px; }
 .part-pts { margin: 0; padding-left: 20px; display: grid; gap: 6px; line-height: 1.6; }
+
+/* Fiche annonce : titre d'origine de l'agent sous le titre factuel, et résumé « En bref » */
+.ann-accroche { margin: 0; font-size: clamp(17px, 1.8vw, 21px); font-weight: 500; color: var(--mut); max-width: 60ch; }
+.ann-bref p { margin: 0; line-height: 1.7; }

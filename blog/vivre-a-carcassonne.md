@@ -104,6 +104,24 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Villes** 18 avril 2026 4 min
+
+### [Vivre à Montpellier : du centre historique aux nouveaux quartiers](https://lotier.immo/blog/vivre-a-montpellier.html)
+
+Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.
+
+ **Villes** 29 mars 2026 4 min
+
+### [Vivre à Nîmes : Arènes, Écusson et art de vivre gardois](https://lotier.immo/blog/vivre-a-nimes.html)
+
+Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.
+
+ **Villes** 25 novembre 2025 4 min
+
+### [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier.immo/blog/vivre-a-beziers.html)
+
+Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

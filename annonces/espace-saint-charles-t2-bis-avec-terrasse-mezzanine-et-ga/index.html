@@ -22,7 +22,7 @@
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.min.css?v=e32d9292f0">
+  <link rel="stylesheet" href="../../css/styles.min.css?v=d699242545">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,9 +32,11 @@
   ],
   "@id": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/#annonce",
   "url": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/",
-  "name": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
-  "description": "Appartement 2 pièces 41 m² à vendre à Montpellier, 1 chambre, 241 000 €. Situé dans l’un des secteurs les plus prisés de Montpellier, à deux pas du Jardin des…",
+  "name": "Appartement 2 pièces 41 m² à vendre à Montpellier",
+  "alternateName": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
+  "description": "Appartement de 41,07 m² à vendre à Montpellier (Hérault, 34) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 241 000 €, honoraires partagés acquéreur / vendeur. Le bien comprend : terrasse, garage, ascenseur et gardien. Étage 3 sur 6, construction de 2006, chauffage individuel électrique radiateur, exposition nord ouest, classe énergie D (193 kWh/m²/an), classe climat B. Référence 12_617, suivie par Elodie Chardot (LOTIER Immobilier).",
   "inLanguage": "fr-FR",
+  "identifier": "12_617",
   "image": [
     "https://lotier.immo/assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-1.jpg",
     "https://lotier.immo/assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-2.jpg",
@@ -52,7 +54,8 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Montpellier",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Hérault"
     }
   },
   "isPartOf": {
@@ -65,6 +68,17 @@
     "availability": "https://schema.org/InStock",
     "seller": {
       "@id": "https://lotier.immo/#agence"
+    },
+    "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+    "offeredBy": {
+      "@type": "Person",
+      "name": "Élodie Chardot",
+      "telephone": "+33673035196",
+      "email": "elodie.chardot@lotier-immobilier.com",
+      "url": "https://lotier.immo/nos-agents/elodie-chardot/",
+      "worksFor": {
+        "@id": "https://lotier.immo/#agence"
+      }
     }
   },
   "mainEntity": {
@@ -73,13 +87,79 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Montpellier",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Hérault"
     },
     "floorSize": {
       "@type": "QuantitativeValue",
       "value": 41.07,
       "unitCode": "MTK"
     },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Type de bien",
+        "value": "Appartement"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Étage",
+        "value": "3 / 6"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chauffage",
+        "value": "Individuel électrique radiateur"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Exposition",
+        "value": "Nord Ouest"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe énergie (DPE)",
+        "value": "D"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe climat (GES)",
+        "value": "B"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Référence",
+        "value": "12_617"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Consommation d'énergie primaire",
+        "value": "193 kWh/m²/an"
+      }
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Terrasse",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Garage",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Ascenseur",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Gardien",
+        "value": true
+      }
+    ],
+    "yearBuilt": 2006,
     "numberOfRooms": 2,
     "numberOfBedrooms": 1,
     "numberOfBathroomsTotal": 1
@@ -106,7 +186,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga",
+      "name": "Appartement 2 pièces 41 m² à vendre à Montpellier",
       "item": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/"
     }
   ]
@@ -165,7 +245,8 @@
     <section class="page-hero ann-hero">
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../../index.html">Accueil</a><span aria-hidden="true">/</span><a href="../../nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><a href="../../nos-annonces/vente-montpellier/">Montpellier</a></nav>
-        <h1 class="display page-title ann-title">Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga</h1>
+        <h1 class="display page-title ann-title">Appartement 2 pièces 41 m² à vendre à Montpellier</h1>
+        <p class="ann-accroche">Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga</p>
         <p class="lead"><strong>241 000 €</strong> · Montpellier · 41,07 m² · 1 chambre · 1 salle d'eau/bain</p>
       </div>
     </section>
@@ -180,8 +261,9 @@
           <div class="ann-thumbs"><button type="button" class="ann-thumb is-on" data-gal-i="0" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-1.jpg" aria-label="Photo 1 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-1.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="1" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-2.jpg" aria-label="Photo 2 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-2.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="2" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-3.jpg" aria-label="Photo 3 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-3.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="3" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-4.jpg" aria-label="Photo 4 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-4.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="4" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-5.jpg" aria-label="Photo 5 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-5.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="5" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-6.jpg" aria-label="Photo 6 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-6.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="6" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-7.jpg" aria-label="Photo 7 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-7.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="7" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-8.jpg" aria-label="Photo 8 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-8.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="8" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-9.jpg" aria-label="Photo 9 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-9.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="9" data-ann-photo="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-10.jpg" aria-label="Photo 10 sur 10"><img src="../../assets/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga-10.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button></div>
           <dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><img alt="" data-gal-big><button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button><button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button><span class="ann-count" data-gal-count2 aria-live="polite">1 / 10</span></dialog>
         </div>
+          <section class="ann-card ann-bref" aria-labelledby="ann-h-bref"><h2 id="ann-h-bref">En bref</h2><p>Appartement de 41,07 m² à vendre à Montpellier (Hérault, 34) : 2 pièces, 1 chambre et 1 salle d&#x27;eau ou de bain. Prix : 241 000 €, honoraires partagés acquéreur / vendeur. Le bien comprend : terrasse, garage, ascenseur et gardien. Étage 3 sur 6, construction de 2006, chauffage individuel électrique radiateur, exposition nord ouest, classe énergie D (193 kWh/m²/an), classe climat B. Référence 12_617, suivie par Elodie Chardot (LOTIER Immobilier).</p></section>
           <section class="ann-card ann-keys" aria-labelledby="ann-h-cles"><h2 id="ann-h-cles">Informations clés</h2><ul class="ann-keys-grid"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><strong>41,07 m²</strong><span>Surface</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V5h10v15M14 9h6v11M2 20h20M8 10h2M8 14h2"/></svg><strong>2</strong><span>Pièces</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3"/></svg><strong>1</strong><span>Chambre</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0M7 19l-1 2M17 19l1 2"/></svg><strong>1</strong><span>Salle d&#x27;eau/bain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><strong>2006</strong><span>Construction</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 20V9h12v11M9 9V4h6v5"/></svg><strong>3 / 6</strong><span>Étage</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4 5 9a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3 0-5 1-8z"/></svg><strong>Individuel électrique radiateur</strong><span>Chauffage</span></li></ul></section>
-          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>MONTPELLIER JARDIN DES PLANTES / ALBERT 1ER</p><p>Situé dans l’un des secteurs les plus prisés de Montpellier, à deux pas du Jardin des Plantes et de la place Albert 1er, cet appartement de 41 m2 offre un cadre de vie rare en hypercentre. Le bien se compose d’une pièce de vie avec cuisine, d’une mezzanine, d’une chambre et d’une salle de douches. Il bénéficie d’une grande terrasse couverte, atout exceptionnel pour un appartement de ce secteur, ainsi que d’un garage fermé en sous-sol, particulièrement recherché dans ce quartier.</p><p>Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite. Pour plus de renseignements, merci de me joindre</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p></section>
+          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>MONTPELLIER JARDIN DES PLANTES / ALBERT 1ER</p><p>Situé dans l’un des secteurs les plus prisés de Montpellier, à deux pas du Jardin des Plantes et de la place Albert 1er, cet appartement de 41 m² offre un cadre de vie rare en hypercentre. Le bien se compose d’une pièce de vie avec cuisine, d’une mezzanine, d’une chambre et d’une salle de douches. Il bénéficie d’une grande terrasse couverte, atout exceptionnel pour un appartement de ce secteur, ainsi que d’un garage fermé en sous-sol, particulièrement recherché dans ce quartier.</p><p>Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite. Pour plus de renseignements, merci de me joindre</p><p>– Annonce rédigée et publiée par un Agent Mandataire –</p></section>
           <section class="ann-card ann-atouts" aria-labelledby="ann-h-atouts"><h2 id="ann-h-atouts">Les atouts du bien</h2><ul class="ann-chips"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Terrasse</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Garage</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Boxe</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Ascenseur</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Gardien</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Cuisine américaine</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Exposition nord ouest</li></ul></section>
           <section class="ann-card ann-carac" aria-labelledby="ann-h-carac"><h2 id="ann-h-carac">Caractéristiques</h2><div class="ann-carac-grid"><div class="ann-carac-grp"><h3>Caractéristiques</h3><dl><div><dt>Type de bien</dt><dd>Appartement</dd></div><div><dt>Surface habitable</dt><dd>41.07 m²</dd></div><div><dt>Pièces</dt><dd>2</dd></div><div><dt>Chambres</dt><dd>1</dd></div><div><dt>Salles d&#x27;eau</dt><dd>1</dd></div><div><dt>WC</dt><dd>1</dd></div><div><dt>Étage</dt><dd>3 / 6</dd></div><div><dt>Année de construction</dt><dd>2006</dd></div></dl></div><div class="ann-carac-grp"><h3>Équipements et confort</h3><dl><div><dt>Chauffage</dt><dd>Individuel électrique radiateur</dd></div><div><dt>Cuisine</dt><dd>Américaine</dd></div><div><dt>Exposition</dt><dd>Nord Ouest</dd></div><div><dt>Ascenseur</dt><dd>Oui</dd></div><div><dt>Ascenseur</dt><dd>Oui</dd></div><div><dt>Boxe</dt><dd>Oui</dd></div><div><dt>Garage</dt><dd>Oui</dd></div><div><dt>Gardien</dt><dd>Oui</dd></div><div><dt>Terrasse</dt><dd>Oui</dd></div></dl></div><div class="ann-carac-grp"><h3>Copropriété (loi ALUR)</h3><dl><div><dt>Copropriété</dt><dd>Oui</dd></div><div><dt>Nombre de lots</dt><dd>152</dd></div><div><dt>Charges annuelles</dt><dd>1 132 €/an</dd></div><div><dt>Procédures en cours</dt><dd>Non</dd></div></dl></div></div></section>
           <section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid"><li><span>Prix</span><strong>241 000 €</strong><em>Frais d&#x27;agence inclus</em></li><li><span>Honoraires à la charge de</span><strong class="long">Honoraires partagés acquéreur / vendeur</strong></li><li><span>Honoraires</span><strong>4.56% TTC</strong></li><li><span>Montant honoraires</span><strong>11 000 €</strong></li><li><span>Charges de copropriété</span><strong>1 132 €/an</strong></li><li><span>Prix hors honoraires</span><strong>230 000 €</strong></li></ul></section>

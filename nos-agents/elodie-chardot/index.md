@@ -160,10 +160,10 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Élodie
 
-- **14**biens en ligne
-- **12**à vendre
-- **2**à louer
-- **7**communes
+- **14** biens en ligne
+- **12** à vendre
+- **2** à louer
+- **7** communes
 
 Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier.
 
