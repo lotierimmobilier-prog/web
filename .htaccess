@@ -96,7 +96,7 @@ DirectoryIndex index.html index.php
     ForceType application/linkset+json
     Header set Access-Control-Allow-Origin "*"
   </Files>
-  <FilesMatch "(server-card|ai-catalog|openapi-annonces)\.json$">
+  <FilesMatch "(server-card|ai-catalog|openapi-annonces|catalogue)\.json$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>

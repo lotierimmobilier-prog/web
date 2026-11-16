@@ -90,3 +90,10 @@ jobs:
           git commit -q -F "$RUNNER_TEMP/message-final.txt"
           git pull --rebase origin main
           git push origin HEAD:main
+          echo "publie=oui" >> "$GITHUB_ENV"
+
+      # Prévient Bing et les moteurs associés des pages modifiées (jamais bloquant ; le résultat affiché dans Collab ne change pas).
+      - name: Prévenir les moteurs (IndexNow)
+        if: env.publie == 'oui'
+        continue-on-error: true
+        run: python3 scripts/indexnow.py HEAD~1 HEAD

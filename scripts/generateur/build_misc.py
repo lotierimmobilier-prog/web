@@ -583,7 +583,7 @@ DirectoryIndex index.html index.php
     ForceType application/linkset+json
     Header set Access-Control-Allow-Origin "*"
   </Files>
-  <FilesMatch "(server-card|ai-catalog|openapi-annonces)\\.json$">
+  <FilesMatch "(server-card|ai-catalog|openapi-annonces|catalogue)\\.json$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
@@ -614,28 +614,34 @@ _catalogue = {"linkset": [
     {"anchor": f"{SITE}/mcp/",
      "service-desc": [{"href": f"{SITE}/.well-known/mcp/server-card.json", "type": "application/json"}],
      "service-doc": [{"href": f"{SITE}/llms.txt", "type": "text/plain"}]},
-    {"anchor": f"{SITE}/data/annonces.json",
+    {"anchor": f"{SITE}/annonces/catalogue.json",
      "service-desc": [{"href": f"{SITE}/.well-known/openapi-annonces.json", "type": "application/vnd.oai.openapi+json"}],
      "service-doc": [{"href": f"{SITE}/.well-known/agent-skills/lotier-immobilier/SKILL.md", "type": "text/markdown"}],
-     "status": [{"href": f"{SITE}/data/annonces.json", "type": "application/json"}]},
+     "status": [{"href": f"{SITE}/annonces/catalogue.json", "type": "application/json"}]},
 ]}
 _num = {"type": ["number", "null"]}
+_txt = {"type": ["string", "null"]}
+_ent = {"type": ["integer", "null"]}
 _openapi = {"openapi": "3.1.0",
-  "info": {"title": "Annonces LOTIER Immobilier", "version": "1.0.0", "description": "Liste publique, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier. Fichier régénéré chaque jour ; aucune authentification.",
+  "info": {"title": "Annonces LOTIER Immobilier", "version": "2.0.0", "description": "Catalogue public, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier (Aude, Gard, Hérault). Fichier régénéré chaque jour ; aucune authentification. Le filtrage se fait côté client ; le serveur MCP du site (/mcp/) propose une recherche par critères.",
            "contact": {"email": "contact@lotier-immobilier.com", "url": f"{SITE}/contact/"}},
   "servers": [{"url": SITE}],
-  "paths": {"/data/annonces.json": {"get": {"operationId": "listerAnnonces", "summary": "Toutes les annonces en ligne",
+  "paths": {"/annonces/catalogue.json": {"get": {"operationId": "listerAnnonces", "summary": "Toutes les annonces en ligne, avec leurs faits et leur texte",
       "responses": {"200": {"description": "Date de mise à jour et liste des annonces", "content": {"application/json": {"schema": {"type": "object", "properties": {
-          "maj": {"type": "string", "description": "Date de la dernière mise à jour (AAAA-MM-JJ)"},
+          "maj": {"type": "string", "description": "Date de la dernière relecture des annonces (AAAA-MM-JJ)"}, "nombre": {"type": "integer"},
           "annonces": {"type": "array", "items": {"$ref": "#/components/schemas/Annonce"}}}}}}}}}}},
   "components": {"schemas": {"Annonce": {"type": "object", "properties": {
-      "id": {"type": "string", "description": "Identifiant ; la page de l'annonce est /annonces/{id}/"},
-      "titre": {"type": "string"}, "ville": {"type": "string"}, "type": {"type": "string", "enum": ["vente", "location"]},
-      "prix": {**_num, "description": "En euros ; par mois pour une location"}, "surface": {**_num, "description": "En mètres carrés"},
-      "chambres": {"type": ["integer", "null"]}, "sdb": {"type": ["integer", "null"]}, "reference": {"type": "string"},
-      "photo": {"type": "string", "description": "Chemin de la photo principale, relatif à la racine du site"},
-      "description_html": {"type": ["string", "null"]},
-      "agent": {"type": "object", "properties": {"nom": {"type": "string"}, "email": {"type": "string"}, "telephone": {"type": "string"}}}}}}}}
+      "id": {"type": "string"}, "url": {"type": "string", "description": "Adresse de la fiche sur lotier.immo : c'est elle qu'il faut citer"},
+      "titre": {"type": "string", "description": "Titre factuel : type de bien, pièces, surface, commune"}, "titre_agent": {"type": "string", "description": "Titre saisi par l'agent"},
+      "resume": {"type": "string", "description": "Résumé en quelques phrases, construit avec les seuls faits de la fiche"},
+      "transaction": {"type": "string", "enum": ["vente", "location"]}, "type_bien": {**_txt, "description": "Appartement, Studio, Maison, Immeuble, Terrain, Local commercial, Bureaux, Fonds de commerce, Parking, Garage"},
+      "ville": {"type": "string"}, "departement": {**_txt, "description": "Code du département (11, 30, 34)"}, "departement_nom": _txt, "secteur": _txt,
+      "prix": {**_num, "description": "En euros ; par mois pour une location. null : prix sur demande"}, "prix_unite": {"type": "string"}, "mentions_prix": {"type": "array", "items": {"type": "string"}},
+      "surface_m2": _num, "pieces": _ent, "chambres": _ent, "salles_eau": _ent, "terrain": _txt, "etage": _txt, "annee_construction": _txt, "chauffage": _txt, "exposition": _txt,
+      "equipements": {"type": "array", "items": {"type": "string"}}, "dpe": {**_txt, "description": "Classe énergie, de A à G"}, "dpe_kwh_m2_an": _num, "ges": {**_txt, "description": "Classe climat, de A à G"},
+      "reference": _txt, "agent": _txt, "telephone_agent": _txt, "photo": _txt, "nombre_photos": {"type": "integer"},
+      "description": {"type": "string", "description": "Texte de l'annonce, sans balises"}, "caracteristiques": {"type": "object", "additionalProperties": {"type": "string"}},
+      "date_publication": {**_txt, "description": "AAAA-MM-JJ ; null si l'annonce est antérieure au suivi des dates"}, "date_mise_a_jour": _txt}}}}}
 open(f"{_wk}/openapi-annonces.json", "w", encoding="utf-8").write(json.dumps(_openapi, ensure_ascii=False, indent=2) + "\n")
 open(f"{_wk}/api-catalog", "w", encoding="utf-8").write(json.dumps(_catalogue, ensure_ascii=False, indent=2) + "\n")
 _skill = f'''---
@@ -649,7 +655,7 @@ Toutes les ressources ci-dessous sont publiques, en lecture seule et sans authen
 
 ## Trouver une annonce
 
-- Liste complète en JSON : `{SITE}/data/annonces.json` (clé `annonces`). Champs utiles : `titre`, `ville`, `type` (`vente` ou `location`), `prix` (euros ; par mois pour une location), `surface` (m²), `chambres`, `reference`, `agent` (nom, e-mail, téléphone). La page d'une annonce est `{SITE}/annonces/<id>/`.
+- Catalogue complet en JSON : `{SITE}/annonces/catalogue.json` (clé `annonces`). Champs utiles : `titre`, `url` (adresse de la fiche, à citer), `transaction` (`vente` ou `location`), `type_bien`, `ville`, `departement`, `prix` (euros ; par mois pour une location), `surface_m2`, `pieces`, `chambres`, `equipements`, `dpe`, `reference`, `agent`, `resume`, `description`, `date_mise_a_jour`. Le serveur MCP du site (`{SITE}/mcp/`) propose la recherche par critères (`search_listings`) et la lecture d'une annonce (`get_listing`).
 - Par ville : `{SITE}/nos-annonces/vente-<ville>/` et `{SITE}/nos-annonces/location-<ville>/` (villes comptant au moins trois annonces, listées dans `{SITE}/llms.txt`).
 - Les annonces sont mises à jour chaque jour : citer le prix et la disponibilité « selon le site, à la date de consultation ».
 

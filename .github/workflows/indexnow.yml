@@ -1,0 +1,32 @@
+# Prévenir les moteurs de recherche (IndexNow : Bing, donc Copilot, et les moteurs associés) quand des pages changent
+# à la suite d'une modification du site poussée sur `main` par une personne (fusion d'une PR).
+#
+# Les publications automatiques (mise à jour de nuit des annonces, « Publier » de Collab) préviennent les moteurs
+# elles-mêmes, à la fin de leur propre travail : un commit poussé par un workflow ne déclenche pas celui-ci.
+# Aucun secret : la clé IndexNow est publique par conception (fichier <clé>.txt à la racine du site).
+name: Prévenir les moteurs (IndexNow)
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    name: Signaler les pages modifiées
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Récupérer le site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Laisser l'hébergeur déployer
+        run: sleep 120
+
+      - name: Signaler les pages modifiées
+        continue-on-error: true
+        run: python3 scripts/indexnow.py HEAD~1 HEAD

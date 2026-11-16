@@ -157,7 +157,7 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 56,
+  "liens": 140,
   "liens_invalides": []
  },
  "couverture": {

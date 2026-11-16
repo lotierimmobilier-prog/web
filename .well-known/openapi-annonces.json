@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Annonces LOTIER Immobilier",
-    "version": "1.0.0",
-    "description": "Liste publique, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier. Fichier régénéré chaque jour ; aucune authentification.",
+    "version": "2.0.0",
+    "description": "Catalogue public, en lecture seule, des biens à vendre et à louer de LOTIER Immobilier (Aude, Gard, Hérault). Fichier régénéré chaque jour ; aucune authentification. Le filtrage se fait côté client ; le serveur MCP du site (/mcp/) propose une recherche par critères.",
     "contact": {
       "email": "contact@lotier-immobilier.com",
       "url": "https://lotier.immo/contact/"
@@ -15,10 +15,10 @@
     }
   ],
   "paths": {
-    "/data/annonces.json": {
+    "/annonces/catalogue.json": {
       "get": {
         "operationId": "listerAnnonces",
-        "summary": "Toutes les annonces en ligne",
+        "summary": "Toutes les annonces en ligne, avec leurs faits et leur texte",
         "responses": {
           "200": {
             "description": "Date de mise à jour et liste des annonces",
@@ -29,7 +29,10 @@
                   "properties": {
                     "maj": {
                       "type": "string",
-                      "description": "Date de la dernière mise à jour (AAAA-MM-JJ)"
+                      "description": "Date de la dernière relecture des annonces (AAAA-MM-JJ)"
+                    },
+                    "nombre": {
+                      "type": "integer"
                     },
                     "annonces": {
                       "type": "array",
@@ -52,20 +55,58 @@
         "type": "object",
         "properties": {
           "id": {
+            "type": "string"
+          },
+          "url": {
             "type": "string",
-            "description": "Identifiant ; la page de l'annonce est /annonces/{id}/"
+            "description": "Adresse de la fiche sur lotier.immo : c'est elle qu'il faut citer"
           },
           "titre": {
-            "type": "string"
+            "type": "string",
+            "description": "Titre factuel : type de bien, pièces, surface, commune"
           },
-          "ville": {
-            "type": "string"
+          "titre_agent": {
+            "type": "string",
+            "description": "Titre saisi par l'agent"
           },
-          "type": {
+          "resume": {
+            "type": "string",
+            "description": "Résumé en quelques phrases, construit avec les seuls faits de la fiche"
+          },
+          "transaction": {
             "type": "string",
             "enum": [
               "vente",
               "location"
+            ]
+          },
+          "type_bien": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Appartement, Studio, Maison, Immeuble, Terrain, Local commercial, Bureaux, Fonds de commerce, Parking, Garage"
+          },
+          "ville": {
+            "type": "string"
+          },
+          "departement": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Code du département (11, 30, 34)"
+          },
+          "departement_nom": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "secteur": {
+            "type": [
+              "string",
+              "null"
             ]
           },
           "prix": {
@@ -73,14 +114,28 @@
               "number",
               "null"
             ],
-            "description": "En euros ; par mois pour une location"
+            "description": "En euros ; par mois pour une location. null : prix sur demande"
           },
-          "surface": {
+          "prix_unite": {
+            "type": "string"
+          },
+          "mentions_prix": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "surface_m2": {
             "type": [
               "number",
               "null"
-            ],
-            "description": "En mètres carrés"
+            ]
+          },
+          "pieces": {
+            "type": [
+              "integer",
+              "null"
+            ]
           },
           "chambres": {
             "type": [
@@ -88,38 +143,117 @@
               "null"
             ]
           },
-          "sdb": {
+          "salles_eau": {
             "type": [
               "integer",
               "null"
             ]
           },
+          "terrain": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "etage": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "annee_construction": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "chauffage": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "exposition": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "equipements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dpe": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Classe énergie, de A à G"
+          },
+          "dpe_kwh_m2_an": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ges": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Classe climat, de A à G"
+          },
           "reference": {
-            "type": "string"
-          },
-          "photo": {
-            "type": "string",
-            "description": "Chemin de la photo principale, relatif à la racine du site"
-          },
-          "description_html": {
             "type": [
               "string",
               "null"
             ]
           },
           "agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "telephone_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "photo": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "nombre_photos": {
+            "type": "integer"
+          },
+          "description": {
+            "type": "string",
+            "description": "Texte de l'annonce, sans balises"
+          },
+          "caracteristiques": {
             "type": "object",
-            "properties": {
-              "nom": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "telephone": {
-                "type": "string"
-              }
+            "additionalProperties": {
+              "type": "string"
             }
+          },
+          "date_publication": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "AAAA-MM-JJ ; null si l'annonce est antérieure au suivi des dates"
+          },
+          "date_mise_a_jour": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         }
       }
