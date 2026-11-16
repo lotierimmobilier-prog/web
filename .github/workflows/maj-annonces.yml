@@ -60,7 +60,7 @@ jobs:
 
       - name: Installer Pillow
         if: steps.heure.outputs.go == 'oui'
-        run: pip install pillow
+        run: pip install pillow rjsmin
 
       - name: Relire les annonces
         if: steps.heure.outputs.go == 'oui'

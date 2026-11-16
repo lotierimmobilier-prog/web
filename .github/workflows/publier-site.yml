@@ -58,7 +58,7 @@ jobs:
           python-version: "3.12"
 
       - name: Installer Pillow
-        run: pip install pillow
+        run: pip install pillow rjsmin
 
       - name: Récupérer les contenus de Collab
         env:

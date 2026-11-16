@@ -35,7 +35,13 @@ def _css_min(t):
     return t.replace(";}", "}").strip() + "\n"
 
 def _js_min(t):
-    """Compactage prudent : lignes de commentaire, indentation et lignes vides. Le code lui-même n'est pas réécrit."""
+    """Compactage du JavaScript avec rjsmin (espaces et commentaires seulement, le code n'est pas réécrit).
+    Sans rjsmin (pip install rjsmin), repli sur un compactage plus simple : le résultat reste correct, un peu plus lourd."""
+    try:
+        import rjsmin
+        return rjsmin.jsmin(t).strip() + "\n"
+    except ImportError:
+        print("::warning::rjsmin absent : scripts compactés avec la méthode de repli (pip install rjsmin).")
     out, dans_bloc = [], False
     for l in t.split("\n"):
         x = l.strip()
