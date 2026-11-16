@@ -100,6 +100,24 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Acheter** 2 octobre 2026 4 min
+
+### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+
+Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+
+ **Acheter** 22 septembre 2026 4 min
+
+### [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+
+Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
+
+ **Acheter** 10 juin 2026 4 min
+
+### [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
+
+Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

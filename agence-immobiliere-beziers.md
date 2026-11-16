@@ -65,6 +65,13 @@ Les abords du canal, ses écluses de Fonséranes et ses promenades en bord d'eau
 
 Maisons avec jardin, accès rapide à l'autoroute et à la mer (Valras-Plage, Sérignan, Cap d'Agde).
 
+ À lire sur le blog
+
+## [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier.immo/blog/vivre-a-beziers.html)
+
+Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
+ [Lire l'article ](https://lotier.immo/blog/vivre-a-beziers.html)
+
  Nos annonces
 
 ## Biens à vendre et à louer *à Béziers.*
@@ -175,6 +182,27 @@ Oui. Nos conseillers couvrent aussi les communes voisines, de Nîmes à Carcasso
 Un conseiller compare votre bien aux ventes récentes de son secteur et vous explique le prix du marché.
 
 Ou appelez-nous : [04 67 11 28 31](tel:+33467112831)
+
+ Autour de Béziers
+
+## Nous intervenons aussi à…
+
+Valras-Plage · Sérignan · Cap d'Agde · Narbonne · Montpellier
+
+ Nos autres villes
+ [Immobilier à Montpellier](https://lotier.immo/agence-immobiliere-montpellier.html)[Immobilier à Nîmes](https://lotier.immo/agence-immobiliere-nimes.html)[Immobilier à Carcassonne](https://lotier.immo/agence-immobiliere-carcassonne.html)[Immobilier à Narbonne](https://lotier.immo/agence-immobiliere-narbonne.html)[Immobilier à Avignon](https://lotier.immo/agence-immobiliere-avignon.html)[Immobilier à Agde](https://lotier.immo/agence-immobiliere-agde.html)
+
+Contact : [04 67 11 28 31](tel:+33467112831) · [contact@lotier-immobilier.com](mailto:contact@lotier-immobilier.com)
+Siège : 40 rue Française, 1er étage, 34500 Béziers
+
+Recrutement
+
+## Votre patron actuel ne lit pas ce site. *Profitez-en.*
+
+Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la machine à café.
+
+ [Je change de vie ](https://lotier.immo/rejoindre/)
+ [Comparer avant de sauter](https://lotier.immo/rejoindre/comparatif/)
 
 ---
 

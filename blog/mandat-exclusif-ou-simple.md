@@ -100,6 +100,24 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
+ **Vendre** 17 septembre 2026 4 min
+
+### [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
+
+Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
+
+ **Vendre** 16 janvier 2026 6 min
+
+### [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
+
+DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

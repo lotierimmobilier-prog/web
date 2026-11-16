@@ -22,7 +22,7 @@
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.min.css?v=e32d9292f0">
+  <link rel="stylesheet" href="../../css/styles.min.css?v=d699242545">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,9 +32,11 @@
   ],
   "@id": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/#annonce",
   "url": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/",
-  "name": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
-  "description": "Maison 5 pièces 122 m² à vendre à Capendu, 3 chambres, 85 000 €. À VENDRE à CAPENDU (Aude) – Maison de village lumineuse avec grand garage et terrasse sans…",
+  "name": "Maison 5 pièces 122 m² à vendre à Capendu",
+  "alternateName": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
+  "description": "Maison de 122 m² à vendre à Capendu (Aude, 11) : 5 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 85 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 113 m², terrasse, garage, parking, cave et climatisation. Construction de 1900, chauffage individuel, exposition ouest est, classe énergie C (121 kWh/m²/an), classe climat A. Référence 2_BBV30000919, suivie par Barbara Bouba (LOTIER Immobilier).",
   "inLanguage": "fr-FR",
+  "identifier": "2_BBV30000919",
   "image": [
     "https://lotier.immo/assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-1.jpg",
     "https://lotier.immo/assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-2.jpg",
@@ -54,7 +56,8 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Capendu",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     }
   },
   "isPartOf": {
@@ -67,6 +70,17 @@
     "availability": "https://schema.org/InStock",
     "seller": {
       "@id": "https://lotier.immo/#agence"
+    },
+    "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+    "offeredBy": {
+      "@type": "Person",
+      "name": "Barbara Bouba",
+      "telephone": "+33651450663",
+      "email": "barbara.bouba@lotier-immobilier.com",
+      "url": "https://lotier.immo/nos-agents/barbara-bouba/",
+      "worksFor": {
+        "@id": "https://lotier.immo/#agence"
+      }
     }
   },
   "mainEntity": {
@@ -75,13 +89,84 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Capendu",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     },
     "floorSize": {
       "@type": "QuantitativeValue",
       "value": 122.0,
       "unitCode": "MTK"
     },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Type de bien",
+        "value": "Maison"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Terrain",
+        "value": "113 m²"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chauffage",
+        "value": "Individuel"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Exposition",
+        "value": "Ouest Est"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe énergie (DPE)",
+        "value": "C"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe climat (GES)",
+        "value": "A"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Référence",
+        "value": "2_BBV30000919"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Consommation d'énergie primaire",
+        "value": "121 kWh/m²/an"
+      }
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Terrasse",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Garage",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Parking",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Cave",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Climatisation",
+        "value": true
+      }
+    ],
+    "yearBuilt": 1900,
     "numberOfRooms": 5,
     "numberOfBedrooms": 3,
     "numberOfBathroomsTotal": 1
@@ -108,7 +193,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis",
+      "name": "Maison 5 pièces 122 m² à vendre à Capendu",
       "item": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/"
     }
   ]
@@ -167,7 +252,8 @@
     <section class="page-hero ann-hero">
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../../index.html">Accueil</a><span aria-hidden="true">/</span><a href="../../nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><a href="../../nos-annonces/vente-capendu/">Capendu</a></nav>
-        <h1 class="display page-title ann-title">Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis</h1>
+        <h1 class="display page-title ann-title">Maison 5 pièces 122 m² à vendre à Capendu</h1>
+        <p class="ann-accroche">Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis</p>
         <p class="lead"><strong>85 000 €</strong> · Capendu · 122 m² · 3 chambres · 1 salle d'eau/bain</p>
       </div>
     </section>
@@ -182,8 +268,9 @@
           <div class="ann-thumbs"><button type="button" class="ann-thumb is-on" data-gal-i="0" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-1.jpg" aria-label="Photo 1 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-1.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="1" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-2.jpg" aria-label="Photo 2 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-2.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="2" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-3.jpg" aria-label="Photo 3 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-3.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="3" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-4.jpg" aria-label="Photo 4 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-4.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="4" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-5.jpg" aria-label="Photo 5 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-5.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="5" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-6.jpg" aria-label="Photo 6 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-6.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="6" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-7.jpg" aria-label="Photo 7 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-7.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="7" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-8.jpg" aria-label="Photo 8 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-8.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="8" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-9.jpg" aria-label="Photo 9 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-9.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="9" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-10.jpg" aria-label="Photo 10 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-10.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="10" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-11.jpg" aria-label="Photo 11 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-11.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="11" data-ann-photo="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-12.jpg" aria-label="Photo 12 sur 12"><img src="../../assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-12.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button></div>
           <dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><img alt="" data-gal-big><button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button><button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button><span class="ann-count" data-gal-count2 aria-live="polite">1 / 12</span></dialog>
         </div>
+          <section class="ann-card ann-bref" aria-labelledby="ann-h-bref"><h2 id="ann-h-bref">En bref</h2><p>Maison de 122 m² à vendre à Capendu (Aude, 11) : 5 pièces, 3 chambres et 1 salle d&#x27;eau ou de bain. Prix : 85 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 113 m², terrasse, garage, parking, cave et climatisation. Construction de 1900, chauffage individuel, exposition ouest est, classe énergie C (121 kWh/m²/an), classe climat A. Référence 2_BBV30000919, suivie par Barbara Bouba (LOTIER Immobilier).</p></section>
           <section class="ann-card ann-keys" aria-labelledby="ann-h-cles"><h2 id="ann-h-cles">Informations clés</h2><ul class="ann-keys-grid"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><strong>122 m²</strong><span>Surface</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V5h10v15M14 9h6v11M2 20h20M8 10h2M8 14h2"/></svg><strong>5</strong><span>Pièces</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3"/></svg><strong>3</strong><span>Chambres</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0M7 19l-1 2M17 19l1 2"/></svg><strong>1</strong><span>Salle d&#x27;eau/bain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-9 4 6 3-4 6 7zM3 21h18"/></svg><strong>113 m²</strong><span>Terrain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><strong>1900</strong><span>Construction</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4 5 9a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3 0-5 1-8z"/></svg><strong>Individuel</strong><span>Chauffage</span></li></ul></section>
-          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>À VENDRE à CAPENDU (Aude) – Maison de village lumineuse avec grand garage et terrasse sans vis-à-vis</p><p>Implantée au coeur de Capendu, village dynamique de l’Aude idéalement situé entre Carcassonne et Narbonne, cette maison de 122 m2 offre de beaux volumes sur trois niveaux. Elle séduit par sa grande terrasse de 65 m2 sans vis-à-vis, son garage XXL de 72 m2 et une organisation intérieure bien pensée.</p><p>Des travaux permettront de révéler tout son potentiel. Un bien à fort caractère, dans un village disposant de toutes les commodités du quotidien.</p><p>– Type : maison de village</p><p>– Surface habitable : 122 m2</p><p>– Pièces : pièce de vie 27 m2 avec cuisine ouverte, salon 22 m2 avec poêle à bois, 3 chambres (11 à 12,5 m2), salle d’eau, salle de bain, 2 WC indépendants</p><p>– Cave : 40 m2</p><p>– Terrasse : 65 m2, sans vis-à-vis</p><p>– Garage : 72 m2, portail électrique</p><p>– Équipements : pompe à chaleur, chauffe-eau thermodynamique, double vitrage, climatisation dans une chambre.</p><p>Travaux à prévoir : révision de la toiture, rafraîchissement des murs et sols, murs de la cave à faire vérifier car reposent sur l’argile, poutre de la toiture de la terrasse à renforcer.</p><p>Budget travaux conséquent à prévoir.</p></section>
+          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>À VENDRE à CAPENDU (Aude) – Maison de village lumineuse avec grand garage et terrasse sans vis-à-vis</p><p>Implantée au coeur de Capendu, village dynamique de l’Aude idéalement situé entre Carcassonne et Narbonne, cette maison de 122 m² offre de beaux volumes sur trois niveaux. Elle séduit par sa grande terrasse de 65 m² sans vis-à-vis, son garage XXL de 72 m² et une organisation intérieure bien pensée.</p><p>Des travaux permettront de révéler tout son potentiel. Un bien à fort caractère, dans un village disposant de toutes les commodités du quotidien.</p><p>– Type : maison de village</p><p>– Surface habitable : 122 m²</p><p>– Pièces : pièce de vie 27 m² avec cuisine ouverte, salon 22 m² avec poêle à bois, 3 chambres (11 à 12,5 m²), salle d’eau, salle de bain, 2 WC indépendants</p><p>– Cave : 40 m²</p><p>– Terrasse : 65 m², sans vis-à-vis</p><p>– Garage : 72 m², portail électrique</p><p>– Équipements : pompe à chaleur, chauffe-eau thermodynamique, double vitrage, climatisation dans une chambre.</p><p>Travaux à prévoir : révision de la toiture, rafraîchissement des murs et sols, murs de la cave à faire vérifier car reposent sur l’argile, poutre de la toiture de la terrasse à renforcer.</p><p>Budget travaux conséquent à prévoir.</p></section>
           <section class="ann-card ann-atouts" aria-labelledby="ann-h-atouts"><h2 id="ann-h-atouts">Les atouts du bien</h2><ul class="ann-chips"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Terrasse</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Garage</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Parking</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Boxe</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Cave</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Climatisation</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Cuisine américaine</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Exposition ouest est</li></ul></section>
           <section class="ann-card ann-carac" aria-labelledby="ann-h-carac"><h2 id="ann-h-carac">Caractéristiques</h2><div class="ann-carac-grid"><div class="ann-carac-grp"><h3>Caractéristiques</h3><dl><div><dt>Type de bien</dt><dd>Maison/villa</dd></div><div><dt>Surface habitable</dt><dd>122 m²</dd></div><div><dt>Terrain</dt><dd>113 m²</dd></div><div><dt>Pièces</dt><dd>5</dd></div><div><dt>Chambres</dt><dd>3</dd></div><div><dt>Salles de bain</dt><dd>1</dd></div><div><dt>Salles d&#x27;eau</dt><dd>1</dd></div><div><dt>WC</dt><dd>2</dd></div><div><dt>Nombre d&#x27;étages</dt><dd>3</dd></div><div><dt>Année de construction</dt><dd>1900</dd></div></dl></div><div class="ann-carac-grp"><h3>Équipements et confort</h3><dl><div><dt>Chauffage</dt><dd>Individuel</dd></div><div><dt>Cuisine</dt><dd>Américaine</dd></div><div><dt>Exposition</dt><dd>Ouest Est</dd></div><div><dt>Ascenseur</dt><dd>Non</dd></div><div><dt>Boxe</dt><dd>Oui</dd></div><div><dt>Cave</dt><dd>Oui</dd></div><div><dt>Climatisation</dt><dd>Oui</dd></div><div><dt>Garage</dt><dd>Oui</dd></div><div><dt>Parking</dt><dd>Oui</dd></div><div><dt>Terrasse</dt><dd>Oui</dd></div></dl></div></div></section>
           <section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid"><li><span>Prix</span><strong>85 000 €</strong><em>Frais d&#x27;agence inclus</em></li><li><span>Honoraires à la charge de</span><strong>Vendeur</strong></li></ul></section>

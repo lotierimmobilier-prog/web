@@ -100,9 +100,9 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Frédérique
 
-- **8**biens en ligne
-- **8**à vendre
-- **5**communes
+- **8** biens en ligne
+- **8** à vendre
+- **5** communes
 
 Frédérique Gallucci est agent commercial indépendant LOTIER Immobilier, secteur Nîmes.
 

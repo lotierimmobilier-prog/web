@@ -99,6 +99,24 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Acheter** 2 octobre 2026 4 min
+
+### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+
+Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+
+ **Acheter** 22 septembre 2026 4 min
+
+### [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+
+Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
+
+ **Acheter** 1er janvier 2026 5 min
+
+### [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
+
+Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

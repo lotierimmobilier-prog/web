@@ -5,6 +5,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin
 from common import ROOT, SITE
 
+VOID = {"img", "br", "hr", "input", "meta", "link", "source", "wbr", "col", "area", "base", "embed", "track", "param"}
 SKIP = {"script", "style", "svg", "noscript", "dialog", "button", "select", "option", "input", "textarea", "template", "nav", "footer", "form"}
 
 class MD(HTMLParser):
@@ -23,6 +24,9 @@ class MD(HTMLParser):
         a = dict(attrs)
         if tag == "main" and a.get("id") == "contenu": self.in_main = True; return
         if not self.in_main: return
+        if tag in VOID:      # balises sans fermeture : jamais empilées (sinon un <img> dans un bouton masquait toute la suite de la page)
+            if tag == "br": self.w("  \n")
+            return
         if self.skip or tag in SKIP or a.get("aria-hidden") == "true" or "visually-hidden" in a.get("class", "").split() and tag == "span" and False:
             self.skip += 1; self.stack.append(("skip", tag)); return
         self.stack.append(("ok", tag))
@@ -33,7 +37,6 @@ class MD(HTMLParser):
         elif tag == "li":
             lv = self.list[-1] if self.list else ["ul", 0]; lv[1] += 1
             self.out.append("\n" + "  " * (len(self.list) - 1) + ("- " if lv[0] == "ul" else f"{lv[1]}. "))
-        elif tag == "br": self.w("  \n")
         elif tag in ("strong", "b"): self.w("**")
         elif tag in ("em", "i"): self.w("*")
         elif tag == "a" and a.get("href") and not a["href"].startswith(("javascript:", "#")):
@@ -49,7 +52,7 @@ class MD(HTMLParser):
 
     def handle_endtag(self, tag):
         if tag == "main" and self.in_main and not self.stack: self.in_main = False; return
-        if not self.in_main: return
+        if not self.in_main or tag in VOID: return
         if not self.stack: return
         kind, t = self.stack.pop()
         if kind == "skip": self.skip -= 1; return
@@ -58,7 +61,7 @@ class MD(HTMLParser):
         elif tag in ("ul", "ol"):
             if self.list: self.list.pop()
             self.out.append("\n")
-        elif tag in ("strong", "b"): self.w("**")
+        elif tag in ("strong", "b"): self.w("** ")
         elif tag in ("em", "i"): self.w("*")
         elif tag == "a" and self.href: self.w(f"]({self.href})"); self.href = None
         elif tag == "summary": self.in_summary = False; self.out.append("**\n")

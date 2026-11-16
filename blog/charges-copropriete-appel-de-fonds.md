@@ -100,6 +100,24 @@ L'équipe syndic de LOTIER Immobilier vous répond sur le budget, les charges et
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Syndic** 3 juillet 2026 4 min
+
+### [Assemblée générale de copropriété : bien se préparer](https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html)
+
+Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.
+
+ **Syndic** 14 février 2026 4 min
+
+### [Travaux en copropriété : qui décide, qui paie ?](https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html)
+
+Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
+
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

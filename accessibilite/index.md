@@ -8,7 +8,7 @@ Notre engagement pour un site utilisable par tous.
 
 ## Notre engagement
 
-LOTIER Immobilier veut un site utilisable par le plus grand nombre, quels que soient l'appareil, la façon de naviguer ou le handicap. Cette déclaration concerne le site **lotier.immo**.
+LOTIER Immobilier veut un site utilisable par le plus grand nombre, quels que soient l'appareil, la façon de naviguer ou le handicap. Cette déclaration concerne le site **lotier.immo** .
 
 ## État de conformité
 

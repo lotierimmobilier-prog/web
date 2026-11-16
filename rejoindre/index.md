@@ -19,7 +19,7 @@ LOTIER vous laisse l'essentiel de ce que vous gagnez : aucune redevance de marqu
 
 Une question ? Appelez-nous [04 67 11 28 31](tel:+33467112831)
 
- **75 % **de commission HT, sans redevance de marque **5·3·2·1% **de parrainage sur quatre niveaux **149 € **par mois TTC, tout inclus **160 € **pour démarrer : carte pro et kit
+ **75 % ** de commission HT, sans redevance de marque **5·3·2·1% ** de parrainage sur quatre niveaux **149 € ** par mois TTC, tout inclus **160 € ** pour démarrer : carte pro et kit
 
  D'où l'on vient
 
@@ -71,7 +71,7 @@ Les agents commerciaux n'ont aucune restriction géographique pour leur activit�
 
 Sur chaque facturation signée : vente, mise en location, état des lieux, avis de valeur, accompagnement… Sans redevance de marque, sans quota.
  Parrainage multi-niveaux
- **5 %**niveau 1 **3 %**niveau 2 **2 %**niveau 3 **1 %**niveau 4
+ **5 %** niveau 1 **3 %** niveau 2 **2 %** niveau 3 **1 %** niveau 4
 
 Vous touchez un pourcentage du chiffre d'affaires HT de vos filleuls, sur quatre niveaux.
  Coût d'entrée 160 €
@@ -90,6 +90,16 @@ Formation continue ALUR comprise, sans frais cachés.
 Déplacez le curseur : comparez votre commission chez LOTIER et dans deux agences aux taux plus bas.
 
  Honoraires HT d'une vente 10 000 €
+
+ 2 000 € 30 000 €
+
+ Agence A · 55 % ** **5 500 €**
+ Agence B · 65 % ** **6 500 €**
+ LOTIER · 75 % ** **7 500 €**
+
+Écart avec la meilleure des deux autres agences : **+ 1 000 €**
+
+Simulation indicative, hors revenus de parrainage. Les taux des agences A et B sont donnés à titre d'exemple.
 
  Parcours d'intégration
 

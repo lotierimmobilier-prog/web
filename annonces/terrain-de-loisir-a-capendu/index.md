@@ -1,21 +1,27 @@
-# Terrain de loisir à Capendu
+# Terrain 1457 m² à vendre à Capendu
 
-> Terrain 1457 m² à vendre à Capendu, 25 000 €. Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est situé dans une zone habitée mais ne…
+> Terrain 1457 m² à vendre à Capendu, 25 000 €. Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m² est situé dans une zone habitée mais ne…
 
 Source : https://lotier.immo/annonces/terrain-de-loisir-a-capendu/
+
+Terrain de loisir à Capendu
 
 **25 000 €** · Capendu · 1457 m²
 
  VENTE
 
+## En bref
+
+Terrain de 1457 m² à vendre à Capendu (Aude, 11). Prix : 25 000 €, honoraires à la charge du vendeur. Référence 2_BBVTE30000159, suivie par Barbara Bouba (LOTIER Immobilier).
+
 ## Informations clés
 
-- **1457 m²**Surface
-- **1457 m²**Terrain
+- **1457 m²** Surface
+- **1457 m²** Terrain
 
 ## Description
 
-Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m2 est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
+Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m² est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
 
 – Annonce rédigée et publiée par un Agent Mandataire –
 
@@ -39,17 +45,17 @@ Non
 
 ## Détail du prix
 
-- Prix **25 000 €***Frais d'agence inclus*
+- Prix **25 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Estimer mon financement
 
-Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€)Durée du crédit : 20 ans Taux du crédit (% par an)Assurance emprunteur (% par an)Type de bien Droit départemental Frais de notaire estimés **—**
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€) Durée du crédit : 20 ans Taux du crédit (% par an) Assurance emprunteur (% par an) Type de bien Droit départemental Frais de notaire estimés **—**
 
 - Émoluments du notaire (TTC) **—**
 - Droits et taxes (État, département, commune) **—**
 - Sécurité immobilière et débours **—**
- Votre crédit **—**par mois, assurance comprise
+ Votre crédit **—** par mois, assurance comprise
 
 - Montant emprunté **—**
 - Intérêts **—**
@@ -75,6 +81,7 @@ Réf. 2_BBVTE30000159
 
 - 1457 m²
 
+ **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
  [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
  [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)

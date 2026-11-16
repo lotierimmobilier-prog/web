@@ -108,6 +108,24 @@ Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
+ **Vendre** 28 janvier 2026 4 min
+
+### [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
+
+Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.
+
+ **Vendre** 16 janvier 2026 6 min
+
+### [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
+
+DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

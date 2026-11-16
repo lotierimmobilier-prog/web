@@ -630,6 +630,99 @@ def _nice_title(a):
         t = re.sub(r"\bt(\d)\b", lambda m: "T" + m.group(1), t)
     return t
 
+# ---- Faits d'une annonce, tirés des seules données de la fiche (titre factuel, paragraphe « En bref », données structurées, catalogue) ----
+_TYPES_BIEN = {"Appartement": ("Appartement", "Apartment"), "Maison/villa": ("Maison", "House"), "Immeuble": ("Immeuble", "Residence"),
+               "Terrain": ("Terrain", "Place"), "Local": ("Local commercial", "Place"), "Boutique": ("Local commercial", "Place"),
+               "Bureaux": ("Bureaux", "Place"), "Parking/box": ("Parking", "Place")}
+_EQUIP = ("Terrasse", "Balcon", "Piscine", "Garage", "Boxe", "Parking", "Cave", "Climatisation", "Ascenseur", "Gardien")
+def _entier(v):
+    m = re.search(r"\d+", str(v or "")); return int(m.group(0)) if m else None
+
+def faits_annonce(a):
+    """Dictionnaire des faits connus d'une annonce. Rien n'est inventé : une information absente de la fiche est absente ici."""
+    v = {}
+    for b in a.get("blocs") or []:
+        for k, val in b["lignes"]: v.setdefault(k, val)
+    loc = a["type"] == "location"
+    brut = v.get("Type de bien") or ""
+    nom, sch = _TYPES_BIEN.get(brut, (None, "Place"))
+    titre_min = (a.get("titre") or "").lower()
+    if "Vente-fonds-de-commerce" in (a.get("badges") or []): nom = "Fonds de commerce"
+    elif brut == "Parking/box" and "garage" in titre_min: nom = "Garage"
+    pieces = _entier(v.get("Pièces"))
+    if nom == "Appartement" and pieces == 1: nom_aff = "Studio"
+    else: nom_aff = nom
+    dep = departement(a)
+    prix_ok = bool(a.get("prix")) and not (not loc and a["prix"] < 1000)       # un prix de vente inférieur à 1 000 € est une erreur de saisie : « prix sur demande »
+    sdb = a.get("sdb") or _entier(v.get("Salles d'eau")) or _entier(v.get("Salles de bain"))
+    en = a.get("energie") or {}
+    ag = (a.get("agent") or {}).get("nom") or ""
+    f = {"type_bien": nom_aff, "type_brut": brut, "schema": sch, "transaction": "location" if loc else "vente", "pieces": pieces,
+         "chambres": a.get("chambres") or None, "salles_eau": sdb or None, "surface": a.get("surface") or None,
+         "terrain": v.get("Terrain") if nom != "Terrain" else None, "ville": a.get("ville") or "", "departement": dep, "departement_nom": DEPARTEMENTS.get(dep, ""),
+         "secteur": (v.get("Secteur") if (v.get("Secteur") or "").strip().lower() not in ("ville", "bus", "") else None), "prix": a["prix"] if prix_ok else None, "etage": (v.get("Étage") or None) if nom in ("Appartement", "Bureaux", "Local commercial") else None,
+         "annee": v.get("Année de construction") if 1600 <= (_entier(v.get("Année de construction")) or 0) <= 2030 else None,
+         "chauffage": v.get("Chauffage") or None, "exposition": v.get("Exposition") or None, "meuble": (v.get("Caractère meublé") or ("Meublé" if v.get("Meublé") == "Oui" else None)) if loc else None,
+         "equipements": [k for k in _EQUIP if (v.get(k) or "").lower() == "oui" and not (k == "Boxe" and (v.get("Garage") or "").lower() == "oui")
+                         and not (k == "Ascenseur" and nom not in ("Appartement", "Bureaux", "Immeuble", "Local commercial"))],
+         "honoraires_charge": v.get("Charge honoraires") or None, "depot_garantie": v.get("Dépôt de garantie") if (_entier(v.get("Dépôt de garantie")) or 0) > 0 else None,
+         "copropriete": (v.get("Copropriété") or "").lower() == "oui" or None, "lots": v.get("Nombre de lots") or None, "charges_copro": v.get("Charges annuelles") or None,
+         "dpe": (en.get("dpe") or {}).get("classe"), "dpe_valeur": (en.get("dpe") or {}).get("valeur"), "ges": (en.get("ges") or {}).get("classe"), "ges_valeur": (en.get("ges") or {}).get("valeur"),
+         "reference": a.get("reference") or None, "agent": " ".join(w.capitalize() for w in ag.split()) or None, "mentions_prix": a.get("mentions_prix") or []}
+    surf = (f"{round(a['surface'])} m²" if a.get("surface") else "")
+    if nom_aff:
+        tete = nom_aff + (f" {pieces} pièces" if pieces and pieces > 1 and nom in ("Appartement", "Maison") else "")
+        f["titre"] = " ".join(x for x in (tete, surf, "à louer" if loc else "à vendre", f"à {a['ville']}" if a.get("ville") else "") if x)
+    else:
+        f["titre"] = None
+    return f
+
+def _liste_fr(xs):
+    xs = list(xs); return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " et " + xs[-1]
+
+def en_bref(a, f=None):
+    """Deux à quatre phrases autonomes qui résument l'annonce avec ses seuls faits (type, pièces, surface, commune, prix, équipements, énergie, référence)."""
+    f = f or faits_annonce(a)
+    loc = f["transaction"] == "location"
+    lieu = f["ville"] + (f" ({f['departement_nom']}, {f['departement']})" if f["departement"] else "")
+    sect = f["secteur"] if f["secteur"] and f["secteur"].lower() not in f["ville"].lower() else ""
+    if sect and "," not in sect: lieu += f", secteur {sect}"
+    surf = (f"{a['surface']:g}".replace(".", ",") + " m²") if a.get("surface") else ""
+    sujet = f["type_bien"] or "Bien"
+    det = []
+    if f["pieces"] and f["pieces"] > 1 and f["type_bien"] in ("Appartement", "Maison", "Immeuble"): det.append(f"{f['pieces']} pièces")
+    if f["chambres"]: det.append(f"{f['chambres']} chambre" + ("s" if f["chambres"] > 1 else ""))
+    if f["salles_eau"]: det.append(f"{f['salles_eau']} salle" + ("s" if f["salles_eau"] > 1 else "") + " d'eau ou de bain")
+    p1 = sujet + (f" de {surf}" if surf else "") + (" à louer" if loc else " à vendre") + f" à {lieu}"
+    if det: p1 += " : " + _liste_fr(det)
+    p1 += "."
+    out = [p1]
+    if sect and "," in sect: out.append(f"À proximité : {sect}.")
+    if f["prix"]:
+        n = f"{f['prix']:,.0f}".replace(",", " ") + " €"
+        if loc:
+            p = f"Loyer : {n} par mois" + (", charges comprises" if any("harges comprises" in m for m in f["mentions_prix"]) else "") + (f" ({f['meuble'].lower()})" if f["meuble"] and sujet in ("Appartement", "Studio", "Maison") else "")
+            if f["depot_garantie"]: p += f" ; dépôt de garantie : {f['depot_garantie']}"
+        else:
+            p = f"Prix : {n}" + ({"vendeur": ", honoraires à la charge du vendeur", "acquéreur": ", honoraires à la charge de l’acquéreur"}.get(f["honoraires_charge"].lower(), ", " + f["honoraires_charge"][0].lower() + f["honoraires_charge"][1:]) if f["honoraires_charge"] else "")
+        out.append(p + ".")
+    plus = []
+    if f["terrain"]: plus.append(f"terrain de {f['terrain']}")
+    plus += [("box" if x == "Boxe" else x.lower()) for x in f["equipements"]]
+    if plus: out.append("Le bien comprend : " + _liste_fr(plus) + ".")
+    tech = []
+    if f["etage"]:
+        et = [x.strip() for x in f["etage"].split("/")]
+        tech.append(("rez-de-chaussée" if et[0] == "0" else f"étage {et[0]}") + (f" sur {et[1]}" if len(et) > 1 else ""))
+    if f["annee"]: tech.append(f"construction de {f['annee']}")
+    if f["chauffage"]: tech.append(f"chauffage {f['chauffage'].lower()}")
+    if f["exposition"]: tech.append(f"exposition {f['exposition'].lower()}")
+    if f["dpe"]: tech.append(f"classe énergie {f['dpe']}" + (f" ({f['dpe_valeur']} kWh/m²/an)" if f["dpe_valeur"] else "") + (f", classe climat {f['ges']}" if f["ges"] else ""))
+    if tech: out.append((tech[0][0].upper() + tech[0][1:] + ("" if len(tech) == 1 else ", " + ", ".join(tech[1:]))) + ".")
+    fin = (f"Référence {f['reference']}" if f["reference"] else "Annonce") + (f", suivie par {f['agent']}" if f["agent"] else "") + " (LOTIER Immobilier)."
+    out.append(fin)
+    return re.sub(r"(?<=\d) (?=\d|€|m²)", "\u00a0", " ".join(out))
+
 def _price(a):
     if a.get("prix") is None or (a["type"] == "vente" and a["prix"] < 1000): return "Prix sur demande"  # prix de vente invraisemblable : on n'affiche pas
     n = f"{a['prix']:,.0f}".replace(",", "\u202f")

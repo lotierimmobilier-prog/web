@@ -248,17 +248,20 @@ _TYPES = {"Appartement": ("Appartement", "Apartment"), "Maison/villa": ("Maison"
 _TITRES_VUS = {}
 _DESC_VUES = set()
 
+def _adresse(fa):
+    ad = {"@type": "PostalAddress", "addressLocality": fa["ville"], "addressCountry": "FR"}
+    if fa["departement_nom"]: ad["addressRegion"] = fa["departement_nom"]
+    return ad
+
 def _seo_annonce(a, title, desc, vals, price):
     """(description, titre, entité schema.org) : « Appartement 3 pièces 68 m² à louer à Béziers | LOTIER »."""
     loc = a["type"] == "location"
-    nom, sch = _TYPES.get(vals.get("Type de bien") or "", (None, "Place"))
-    pieces = _re.search(r"\d+", vals.get("Pièces") or "")
-    pieces = int(pieces.group(0)) if pieces else None
+    fa = faits_annonce(a)
+    nom, sch, pieces = fa["type_bien"], fa["schema"], fa["pieces"]
     surf = f"{round(a['surface'])}{NB}m²" if a.get("surface") else ""       # arrondi : le détail exact est dans la fiche
     action = "à louer" if loc else "à vendre"
     if nom:
-        tete = "Studio" if (nom == "Appartement" and pieces == 1) else nom + (f" {pieces} pièces" if pieces and pieces > 1 and nom in ("Appartement", "Maison") else "")
-        base = " ".join(x for x in (tete, surf, action, f"à {a['ville']}") if x)
+        base = fa["titre"]
     else:
         base = _clip(title, 52)
     prix = _re.sub(r"\s+", " ", _plain(price)) if a.get("prix") and not (not loc and a["prix"] < 1000) else ""
@@ -278,8 +281,17 @@ def _seo_annonce(a, title, desc, vals, price):
     if d in _DESC_VUES and a.get("reference"): d = _clip(d, 150 - len(a["reference"])) + f" Réf. {a['reference']}."   # même bien publié deux fois à la source
     _DESC_VUES.add(d)
     if len(t) > 65 and a.get("reference"): t = _clip(faits, 50) + f" (réf. {a['reference'][-6:]})"
-    bien = {"@type": sch, "name": faits, "address": {"@type": "PostalAddress", "addressLocality": a["ville"], "addressCountry": "FR"}}
-    if a.get("surface"): bien["floorSize"] = {"@type": "QuantitativeValue", "value": a["surface"], "unitCode": "MTK"}
+    bien = {"@type": sch, "name": faits, "address": _adresse(fa)}
+    props = []
+    if a.get("surface") and nom == "Terrain": props.append(("Surface du terrain", f"{a['surface']:g} m²"))
+    elif a.get("surface"): bien["floorSize"] = {"@type": "QuantitativeValue", "value": a["surface"], "unitCode": "MTK"}
+    if nom: props.append(("Type de bien", nom))
+    for lib, cle in (("Terrain", "terrain"), ("Étage", "etage"), ("Chauffage", "chauffage"), ("Exposition", "exposition"), ("Classe énergie (DPE)", "dpe"), ("Classe climat (GES)", "ges"), ("Référence", "reference")):
+        if fa.get(cle): props.append((lib, str(fa[cle])))
+    if fa["dpe_valeur"]: props.append(("Consommation d'énergie primaire", f"{fa['dpe_valeur']} kWh/m²/an"))
+    if props: bien["additionalProperty"] = [{"@type": "PropertyValue", "name": k, "value": v} for k, v in props]
+    if fa["equipements"]: bien["amenityFeature"] = [{"@type": "LocationFeatureSpecification", "name": x, "value": True} for x in fa["equipements"]]
+    if fa["annee"] and sch in ("Apartment", "House", "Residence") and str(fa["annee"]).isdigit(): bien["yearBuilt"] = int(fa["annee"])
     if sch in ("Apartment", "House"):
         if pieces: bien["numberOfRooms"] = pieces
         if a.get("chambres"): bien["numberOfBedrooms"] = a["chambres"]
@@ -298,7 +310,13 @@ def detail_page(a, tous=()):
     if a.get("sdb"): facts.append(f"{a['sdb']} salle" + ("s" if a["sdb"] > 1 else "") + " d'eau/bain")
     facts_html = "".join(f"<li>{e(f)}</li>" for f in facts)
     vals = F.valeurs(a.get("blocs"))
+    fa = faits_annonce(a)
+    h1 = fa["titre"] or title
+    accroche = f'<p class="ann-accroche">{e(title)}</p>' if fa["titre"] and _unaccent(title).lower() != _unaccent(h1).lower() else ""
+    bref = en_bref(a, fa)
     desc, mentions = _separe_mentions(a.get("description_html") or "")
+    desc = _re.sub(r"(?<=\d)\s?m2\b", NB + "m²", desc, flags=_re.I)        # typographie seulement : « 95m2 » -> « 95 m² », « 750 EUR » -> « 750 € »
+    desc = _re.sub(r"(?<=\d)\s?EUR\b", NB + "€", desc)
     diag = F.bilan_energie(a, energie_bloc(a, titre=False))
     legal = mentions_bloc(mentions, p2)
     ag = a.get("agent") or {}
@@ -330,7 +348,8 @@ def detail_page(a, tous=()):
     body = f'''    <section class="page-hero ann-hero">
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{p2}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{p2}nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span>{(f'<a href="{p2}nos-annonces/{_PV_SLUG[(a["ville"], a["type"])]}/">{e(a["ville"])}</a>') if (a["ville"], a["type"]) in _PV_SLUG else f'<span aria-current="page">{e(a["ville"])}</span>'}</nav>
-        <h1 class="display page-title ann-title">{e(title)}</h1>
+        <h1 class="display page-title ann-title">{e(h1)}</h1>
+        {accroche}
         <p class="lead"><strong>{price}</strong> · {e(a['ville'])}{(' · ' + ' · '.join(facts)) if facts else ''}</p>
       </div>
     </section>
@@ -338,6 +357,7 @@ def detail_page(a, tous=()):
       <div class="ann-layout">
         <div class="ann-left">
           {gallery}
+          <section class="ann-card ann-bref" aria-labelledby="ann-h-bref"><h2 id="ann-h-bref">En bref</h2><p>{e(bref)}</p></section>
           {cles}
           <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2>{desc if desc else '<p class="muted">Contactez-nous pour recevoir la description complète de ce bien.</p>'}</section>
           {atouts}
@@ -367,16 +387,20 @@ def detail_page(a, tous=()):
     url = f"{SITE}/annonces/{a['id']}/"
     d, t, bien = _seo_annonce(a, title, desc, vals, price)
     offer = {"@type": "Offer", "priceCurrency": "EUR", "price": a["prix"], "availability": "https://schema.org/InStock", "seller": {"@id": SITE + "/#agence"}} if a.get("prix") and not (a["type"] == "vente" and a["prix"] < 1000) else None
-    node = {"@context": "https://schema.org", "@type": ["RealEstateListing", "WebPage"], "@id": url + "#annonce", "url": url, "name": title, "description": d, "inLanguage": "fr-FR",
-            "datePosted": None, "image": [f"{SITE}/{ph}" for ph in photos], "about": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": a["ville"], "addressCountry": "FR"}},
+    node = {"@context": "https://schema.org", "@type": ["RealEstateListing", "WebPage"], "@id": url + "#annonce", "url": url, "name": h1, "alternateName": title if title != h1 else None, "description": bref, "inLanguage": "fr-FR",
+            "identifier": a.get("reference") or None, "image": [f"{SITE}/{ph}" for ph in photos], "about": {"@type": "Place", "address": _adresse(fa)},
             "isPartOf": {"@id": SITE + "/#website"}}
     if offer:
+        offer["businessFunction"] = "http://purl.org/goodrelations/v1#LeaseOut" if loc else "http://purl.org/goodrelations/v1#Sell"
+        if ag.get("nom"):
+            offer["offeredBy"] = {k: v for k, v in {"@type": "Person", "name": nom_aff, "telephone": tel[1] if tel else None, "email": ag.get("email") or None,
+                                  "url": f"{SITE}/nos-agents/{fiche['slug']}/" if fiche else None, "worksFor": {"@id": SITE + "/#agence"}}.items() if v}
         if loc: offer["priceSpecification"] = {"@type": "UnitPriceSpecification", "price": a["prix"], "priceCurrency": "EUR", "unitCode": "MON"}
         node["offers"] = offer
     if bien: node["mainEntity"] = bien
     node = {k: v for k, v in node.items() if v is not None}
     os.makedirs(f"{ROOT}/annonces/{a['id']}", exist_ok=True)
-    open(f"{ROOT}/annonces/{a['id']}/index.html", "w", encoding="utf-8").write(shell(p2, t, d, f"annonces/{a['id']}/", body, [node, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos annonces", f"{SITE}/nos-annonces/"), (title, url)])],
+    open(f"{ROOT}/annonces/{a['id']}/index.html", "w", encoding="utf-8").write(shell(p2, t, d, f"annonces/{a['id']}/", body, [node, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos annonces", f"{SITE}/nos-annonces/"), (h1, url)])],
         photos[0] if photos else "assets/og-lotier.jpg", kind="agence"))
 
 import shutil

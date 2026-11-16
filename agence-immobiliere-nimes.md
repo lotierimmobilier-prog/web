@@ -65,6 +65,13 @@ Un quartier vivant, rythmé par les spectacles et les férias.
 
 Les villages de l'agglomération, pour des maisons avec jardin et plus d'espace.
 
+ À lire sur le blog
+
+## [Vivre à Nîmes : Arènes, Écusson et art de vivre gardois](https://lotier.immo/blog/vivre-a-nimes.html)
+
+Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.
+ [Lire l'article ](https://lotier.immo/blog/vivre-a-nimes.html)
+
  Nos annonces
 
 ## Biens à vendre et à louer *à Nîmes.*
@@ -175,6 +182,27 @@ Appartements, maisons, immeubles de rapport : nos conseillers présentent les bi
 Un conseiller compare votre bien aux ventes récentes de son secteur et vous explique le prix du marché.
 
 Ou appelez-nous : [04 67 11 28 31](tel:+33467112831)
+
+ Autour de Nîmes
+
+## Nous intervenons aussi à…
+
+Bouillargues · Caissargues · Saint-Gilles · Uzès · Avignon
+
+ Nos autres villes
+ [Immobilier à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Immobilier à Montpellier](https://lotier.immo/agence-immobiliere-montpellier.html)[Immobilier à Carcassonne](https://lotier.immo/agence-immobiliere-carcassonne.html)[Immobilier à Narbonne](https://lotier.immo/agence-immobiliere-narbonne.html)[Immobilier à Avignon](https://lotier.immo/agence-immobiliere-avignon.html)[Immobilier à Agde](https://lotier.immo/agence-immobiliere-agde.html)
+
+Contact : [04 67 11 28 31](tel:+33467112831) · [contact@lotier-immobilier.com](mailto:contact@lotier-immobilier.com)
+Siège : 40 rue Française, 1er étage, 34500 Béziers
+
+Recrutement
+
+## Votre patron actuel ne lit pas ce site. *Profitez-en.*
+
+Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la machine à café.
+
+ [Je change de vie ](https://lotier.immo/rejoindre/)
+ [Comparer avant de sauter](https://lotier.immo/rejoindre/comparatif/)
 
 ---
 

@@ -103,6 +103,24 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Bailleur** 7 février 2026 4 min
+
+### [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
+
+Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.
+
+ **Bailleur** 6 février 2026 4 min
+
+### [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
+
+Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
+
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

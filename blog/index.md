@@ -10,6 +10,126 @@ Le blog de l'agence
 
 Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 20 guides écrits par les conseillers de LOTIER Immobilier.
 
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
+ **Locataire** 17 octobre 2026 4 min
+
+### [Constituer un dossier de location solide](https://lotier.immo/blog/dossier-de-location-solide.html)
+
+Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.
+
+ **Acheter** 2 octobre 2026 4 min
+
+### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+
+Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+
+ **Acheter** 22 septembre 2026 4 min
+
+### [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+
+Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
+
+ **Vendre** 17 septembre 2026 4 min
+
+### [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
+
+Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
+
+ **Syndic** 3 juillet 2026 4 min
+
+### [Assemblée générale de copropriété : bien se préparer](https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html)
+
+Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'une assemblée générale et les bons réflexes pour y participer.
+
+ **Locataire** 16 juin 2026 4 min
+
+### [Dépôt de garantie : montant, restitution, retenues](https://lotier.immo/blog/depot-de-garantie-location.html)
+
+Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
+
+ **Acheter** 10 juin 2026 4 min
+
+### [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
+
+Droits de mutation, émoluments, débours : de quoi sont composés les frais de notaire, pourquoi ils sont plus élevés dans l'ancien et comment les budgéter.
+
+ **Villes** 3 mai 2026 4 min
+
+### [Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi](https://lotier.immo/blog/vivre-a-carcassonne.html)
+
+Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un aperçu de Carcassonne pour acheter ou louer dans l'Aude.
+
+ **Syndic** 21 avril 2026 4 min
+
+### [Charges de copropriété : lire un appel de fonds](https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html)
+
+Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.
+
+ **Villes** 18 avril 2026 4 min
+
+### [Vivre à Montpellier : du centre historique aux nouveaux quartiers](https://lotier.immo/blog/vivre-a-montpellier.html)
+
+Écusson, Antigone, Port Marianne, Arceaux, tramway : un tour des quartiers de Montpellier avant d'y acheter ou de louer.
+
+ **Bailleur** 13 avril 2026 4 min
+
+### [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
+
+Agir tôt, relancer, formaliser, activer la caution ou l'assurance : la marche à suivre quand un locataire ne paie plus son loyer.
+
+ **Villes** 29 mars 2026 4 min
+
+### [Vivre à Nîmes : Arènes, Écusson et art de vivre gardois](https://lotier.immo/blog/vivre-a-nimes.html)
+
+Centre historique, Maison Carrée, jardins de la Fontaine, quartiers résidentiels : ce qu'il faut savoir avant d'acheter ou de louer à Nîmes.
+
+ **Syndic** 14 février 2026 4 min
+
+### [Travaux en copropriété : qui décide, qui paie ?](https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html)
+
+Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
+
+ **Bailleur** 7 février 2026 4 min
+
+### [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
+
+Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.
+
+ **Bailleur** 6 février 2026 4 min
+
+### [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
+
+Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
+
+ **Vendre** 28 janvier 2026 4 min
+
+### [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
+
+Différences entre mandat simple et mandat exclusif, durée, honoraires, engagement : les points à comparer avant de confier la vente de votre bien.
+
+ **Vendre** 16 janvier 2026 6 min
+
+### [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
+
+DPE, amiante, plomb, électricité, risques : la liste des diagnostics à fournir quand on vend un bien, leur durée de validité et le bon moment pour les commander.
+
+ **Acheter** 1er janvier 2026 5 min
+
+### [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
+
+Conditions suspensives, dépôt de garantie, délai de rétractation, calendrier jusqu'à l'acte : les points clés à contrôler avant de signer un compromis de vente.
+
+ **Villes** 25 novembre 2025 4 min
+
+### [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier.immo/blog/vivre-a-beziers.html)
+
+Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoir avant d'acheter ou de louer à Béziers.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

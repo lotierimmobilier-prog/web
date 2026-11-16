@@ -101,6 +101,24 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Locataire** 17 octobre 2026 4 min
+
+### [Constituer un dossier de location solide](https://lotier.immo/blog/dossier-de-location-solide.html)
+
+Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.
+
+ **Vendre** 26 octobre 2026 5 min
+
+### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+
+Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+
+ **Acheter** 2 octobre 2026 4 min
+
+### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+
+Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+
 Recrutement
 
 ## Votre patron actuel ne lit pas ce site. *Profitez-en.*

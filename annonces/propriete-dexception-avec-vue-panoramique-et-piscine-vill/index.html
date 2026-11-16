@@ -22,7 +22,7 @@
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="../../assets/favicon.png">
   <link rel="preload" href="../../assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../css/styles.min.css?v=e32d9292f0">
+  <link rel="stylesheet" href="../../css/styles.min.css?v=d699242545">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,9 +32,11 @@
   ],
   "@id": "https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/#annonce",
   "url": "https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/",
-  "name": "Propriété d’Exception avec Vue Panoramique et Piscine Vill",
-  "description": "Maison 8 pièces 320 m² à vendre à Villedubert, 4 chambres, 1 145 000 €. Nichée dans un écrin de verdure sur les hauteurs de Villedubert, cette élégante maison…",
+  "name": "Maison 8 pièces 320 m² à vendre à Villedubert",
+  "alternateName": "Propriété d’Exception avec Vue Panoramique et Piscine Vill",
+  "description": "Maison de 320 m² à vendre à Villedubert (Aude, 11) : 8 pièces, 4 chambres et 1 salle d'eau ou de bain. Prix : 1 145 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 30000 m², terrasse, piscine, garage, parking et climatisation. Construction de 2000, chauffage individuel gaz, exposition nord sud, classe énergie C (100 kWh/m²/an), classe climat C. Référence 2_BBVVI30000726, suivie par Barbara Bouba (LOTIER Immobilier).",
   "inLanguage": "fr-FR",
+  "identifier": "2_BBVVI30000726",
   "image": [
     "https://lotier.immo/assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-1.jpg",
     "https://lotier.immo/assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-2.jpg",
@@ -54,7 +56,8 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Villedubert",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     }
   },
   "isPartOf": {
@@ -67,6 +70,17 @@
     "availability": "https://schema.org/InStock",
     "seller": {
       "@id": "https://lotier.immo/#agence"
+    },
+    "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+    "offeredBy": {
+      "@type": "Person",
+      "name": "Barbara Bouba",
+      "telephone": "+33651450663",
+      "email": "barbara.bouba@lotier-immobilier.com",
+      "url": "https://lotier.immo/nos-agents/barbara-bouba/",
+      "worksFor": {
+        "@id": "https://lotier.immo/#agence"
+      }
     }
   },
   "mainEntity": {
@@ -75,13 +89,84 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Villedubert",
-      "addressCountry": "FR"
+      "addressCountry": "FR",
+      "addressRegion": "Aude"
     },
     "floorSize": {
       "@type": "QuantitativeValue",
       "value": 320.0,
       "unitCode": "MTK"
     },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Type de bien",
+        "value": "Maison"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Terrain",
+        "value": "30000 m²"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chauffage",
+        "value": "Individuel gaz"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Exposition",
+        "value": "Nord Sud"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe énergie (DPE)",
+        "value": "C"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Classe climat (GES)",
+        "value": "C"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Référence",
+        "value": "2_BBVVI30000726"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Consommation d'énergie primaire",
+        "value": "100 kWh/m²/an"
+      }
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Terrasse",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Piscine",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Garage",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Parking",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Climatisation",
+        "value": true
+      }
+    ],
+    "yearBuilt": 2000,
     "numberOfRooms": 8,
     "numberOfBedrooms": 4,
     "numberOfBathroomsTotal": 1
@@ -108,7 +193,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Propriété d’Exception avec Vue Panoramique et Piscine Vill",
+      "name": "Maison 8 pièces 320 m² à vendre à Villedubert",
       "item": "https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/"
     }
   ]
@@ -167,7 +252,8 @@
     <section class="page-hero ann-hero">
       <div class="container">
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../../index.html">Accueil</a><span aria-hidden="true">/</span><a href="../../nos-annonces/">Nos annonces</a><span aria-hidden="true">/</span><span aria-current="page">Villedubert</span></nav>
-        <h1 class="display page-title ann-title">Propriété d’Exception avec Vue Panoramique et Piscine Vill</h1>
+        <h1 class="display page-title ann-title">Maison 8 pièces 320 m² à vendre à Villedubert</h1>
+        <p class="ann-accroche">Propriété d’Exception avec Vue Panoramique et Piscine Vill</p>
         <p class="lead"><strong>1 145 000 €</strong> · Villedubert · 320 m² · 4 chambres · 1 salle d'eau/bain</p>
       </div>
     </section>
@@ -182,8 +268,9 @@
           <div class="ann-thumbs"><button type="button" class="ann-thumb is-on" data-gal-i="0" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-1.jpg" aria-label="Photo 1 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-1.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="1" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-2.jpg" aria-label="Photo 2 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-2.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="2" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-3.jpg" aria-label="Photo 3 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-3.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="3" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-4.jpg" aria-label="Photo 4 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-4.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="4" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-5.jpg" aria-label="Photo 5 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-5.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="5" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-6.jpg" aria-label="Photo 6 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-6.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="6" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-7.jpg" aria-label="Photo 7 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-7.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="7" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-8.jpg" aria-label="Photo 8 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-8.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="8" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-9.jpg" aria-label="Photo 9 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-9.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="9" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-10.jpg" aria-label="Photo 10 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-10.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="10" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-11.jpg" aria-label="Photo 11 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-11.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button><button type="button" class="ann-thumb" data-gal-i="11" data-ann-photo="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-12.jpg" aria-label="Photo 12 sur 12"><img src="../../assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-12.jpg" alt="" width="120" height="90" loading="lazy" decoding="async"></button></div>
           <dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><img alt="" data-gal-big><button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button><button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button><span class="ann-count" data-gal-count2 aria-live="polite">1 / 12</span></dialog>
         </div>
+          <section class="ann-card ann-bref" aria-labelledby="ann-h-bref"><h2 id="ann-h-bref">En bref</h2><p>Maison de 320 m² à vendre à Villedubert (Aude, 11) : 8 pièces, 4 chambres et 1 salle d&#x27;eau ou de bain. Prix : 1 145 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 30000 m², terrasse, piscine, garage, parking et climatisation. Construction de 2000, chauffage individuel gaz, exposition nord sud, classe énergie C (100 kWh/m²/an), classe climat C. Référence 2_BBVVI30000726, suivie par Barbara Bouba (LOTIER Immobilier).</p></section>
           <section class="ann-card ann-keys" aria-labelledby="ann-h-cles"><h2 id="ann-h-cles">Informations clés</h2><ul class="ann-keys-grid"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><strong>320 m²</strong><span>Surface</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V5h10v15M14 9h6v11M2 20h20M8 10h2M8 14h2"/></svg><strong>8</strong><span>Pièces</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3"/></svg><strong>4</strong><span>Chambres</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0M7 19l-1 2M17 19l1 2"/></svg><strong>1</strong><span>Salle d&#x27;eau/bain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-9 4 6 3-4 6 7zM3 21h18"/></svg><strong>30000 m²</strong><span>Terrain</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><strong>2000</strong><span>Construction</span></li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s5 4 5 9a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3 0-5 1-8z"/></svg><strong>Individuel gaz</strong><span>Chauffage</span></li></ul></section>
-          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>Nichée dans un écrin de verdure sur les hauteurs de Villedubert, cette élégante maison d’architecte conjugue avec raffinement des prestations haut de gamme, de vastes volumes baignés de lumière et une situation privilégiée aux portes de Carcassonne et de sa célèbre Cité Médiévale.</p><p>Édifiée sur un terrain paysager de plus de 3 hectares, cette demeure unique développe environ 320 m2 habitables, organisés autour de superbes espaces de réception. Dès l’entrée, le vaste salon prolonge ses perspectives vers plusieurs terrasses panoramiques invitant à la détente.</p><p>La cuisine professionnelle, véritable pièce maîtresse, offre un espace convivial avec sa grande table en marbre, son équipement complet et un accès direct à la terrasse ombragée sous pergola, idéale pour les repas d’été. Elle est prolongée par un garage attenant de 30m2 qui facilite le quotidien.</p><p>La circulation intérieure se veut fluide et fonctionnelle : une élégante véranda permet de profiter de la nature en toute saison, une buanderie pratique ouvre sur le jardin et son étendoir à l’abri des regards. Un garage indépendant avec toit-terrasse complète les espaces extérieurs et offre un panorama imprenable sur les collines et le vignoble environnants.</p><p>L’espace nuit comprend quatre chambres spacieuses, dont trois suites confortables. L’une des suites, de plain-pied, bénéficie de sa propre salle de bains privative avec baignoire et douche, offrant un confort optimal au quotidien.</p><p>Côté loisirs et bien-être, une grande pièce de 40m2 avec vue dégagée accueille un snooker et pourra aisément être transformée en salle de sport ou de cinéma. Une cave à vin ventilée, creusée sous terre, séduira les amateurs d’oenologie.</p><p>À l’extérieur, la piscine profite d’un environnement préservé et sécurisé par une élégante clôture discrète. Un accès direct mène à une douche intérieure, parfaite après la baignade. Le jardin, soigneusement paysagé, propose de multiples coins de repos et bénéficie d’un système d’arrosage alimenté par un puits. L’allée goudronnée et les nombreux stationnements ajoutent au confort de la propriété.</p><p>On aime particulièrement :</p><p>La vue spectaculaire sur les collines et les vignes alentour</p><p>La proximité immédiate du Canal du Midi et des domaines viticoles renommés</p><p>L’architecture soignée et l’agréable circulation intérieure</p><p>Le confort moderne : climatisation, DPE C, menuiseries haut de gamme</p><p>La possibilité d’acquérir le mobilier partiel (à convenir avec l’acquéreur)</p><p>Informations pratiques :</p><p>Taxe foncière : 3 900 €</p><p>Visites uniquement sur présentation d’un dossier de financement validé.</p></section>
+          <section class="ann-card ann-desc" aria-labelledby="ann-h-desc"><h2 id="ann-h-desc">Description</h2><p>Nichée dans un écrin de verdure sur les hauteurs de Villedubert, cette élégante maison d’architecte conjugue avec raffinement des prestations haut de gamme, de vastes volumes baignés de lumière et une situation privilégiée aux portes de Carcassonne et de sa célèbre Cité Médiévale.</p><p>Édifiée sur un terrain paysager de plus de 3 hectares, cette demeure unique développe environ 320 m² habitables, organisés autour de superbes espaces de réception. Dès l’entrée, le vaste salon prolonge ses perspectives vers plusieurs terrasses panoramiques invitant à la détente.</p><p>La cuisine professionnelle, véritable pièce maîtresse, offre un espace convivial avec sa grande table en marbre, son équipement complet et un accès direct à la terrasse ombragée sous pergola, idéale pour les repas d’été. Elle est prolongée par un garage attenant de 30 m² qui facilite le quotidien.</p><p>La circulation intérieure se veut fluide et fonctionnelle : une élégante véranda permet de profiter de la nature en toute saison, une buanderie pratique ouvre sur le jardin et son étendoir à l’abri des regards. Un garage indépendant avec toit-terrasse complète les espaces extérieurs et offre un panorama imprenable sur les collines et le vignoble environnants.</p><p>L’espace nuit comprend quatre chambres spacieuses, dont trois suites confortables. L’une des suites, de plain-pied, bénéficie de sa propre salle de bains privative avec baignoire et douche, offrant un confort optimal au quotidien.</p><p>Côté loisirs et bien-être, une grande pièce de 40 m² avec vue dégagée accueille un snooker et pourra aisément être transformée en salle de sport ou de cinéma. Une cave à vin ventilée, creusée sous terre, séduira les amateurs d’oenologie.</p><p>À l’extérieur, la piscine profite d’un environnement préservé et sécurisé par une élégante clôture discrète. Un accès direct mène à une douche intérieure, parfaite après la baignade. Le jardin, soigneusement paysagé, propose de multiples coins de repos et bénéficie d’un système d’arrosage alimenté par un puits. L’allée goudronnée et les nombreux stationnements ajoutent au confort de la propriété.</p><p>On aime particulièrement :</p><p>La vue spectaculaire sur les collines et les vignes alentour</p><p>La proximité immédiate du Canal du Midi et des domaines viticoles renommés</p><p>L’architecture soignée et l’agréable circulation intérieure</p><p>Le confort moderne : climatisation, DPE C, menuiseries haut de gamme</p><p>La possibilité d’acquérir le mobilier partiel (à convenir avec l’acquéreur)</p><p>Informations pratiques :</p><p>Taxe foncière : 3 900 €</p><p>Visites uniquement sur présentation d’un dossier de financement validé.</p></section>
           <section class="ann-card ann-atouts" aria-labelledby="ann-h-atouts"><h2 id="ann-h-atouts">Les atouts du bien</h2><ul class="ann-chips"><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Terrasse</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Garage</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Parking</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Boxe</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Piscine</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Climatisation</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Cuisine séparée équipée</li><li><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7"/></svg>Exposition nord sud</li></ul></section>
           <section class="ann-card ann-carac" aria-labelledby="ann-h-carac"><h2 id="ann-h-carac">Caractéristiques</h2><div class="ann-carac-grid"><div class="ann-carac-grp"><h3>Caractéristiques</h3><dl><div><dt>Type de bien</dt><dd>Maison/villa</dd></div><div><dt>Surface habitable</dt><dd>320 m²</dd></div><div><dt>Terrain</dt><dd>30000 m²</dd></div><div><dt>Pièces</dt><dd>8</dd></div><div><dt>Chambres</dt><dd>4</dd></div><div><dt>Salles de bain</dt><dd>1</dd></div><div><dt>Salles d&#x27;eau</dt><dd>3</dd></div><div><dt>WC</dt><dd>5</dd></div><div><dt>Nombre d&#x27;étages</dt><dd>2</dd></div><div><dt>Année de construction</dt><dd>2000</dd></div></dl></div><div class="ann-carac-grp"><h3>Équipements et confort</h3><dl><div><dt>Chauffage</dt><dd>Individuel gaz</dd></div><div><dt>Cuisine</dt><dd>Séparée équipée</dd></div><div><dt>Exposition</dt><dd>Nord Sud</dd></div><div><dt>Ascenseur</dt><dd>Non</dd></div><div><dt>Boxe</dt><dd>Oui</dd></div><div><dt>Climatisation</dt><dd>Oui</dd></div><div><dt>Garage</dt><dd>Oui</dd></div><div><dt>Parking</dt><dd>Oui</dd></div><div><dt>Piscine</dt><dd>Oui</dd></div><div><dt>Terrasse</dt><dd>Oui</dd></div></dl></div></div></section>
           <section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid"><li><span>Prix</span><strong>1 145 000 €</strong><em>Frais d&#x27;agence inclus</em></li><li><span>Honoraires à la charge de</span><strong>Vendeur</strong></li></ul></section>

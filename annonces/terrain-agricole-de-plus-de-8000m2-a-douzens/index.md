@@ -1,12 +1,170 @@
-# Terrain agricole de plus de 8000m2 à Douzens
+# Terrain 8741 m² à vendre à Douzens
 
-> Terrain 8741 m² à vendre à Douzens, 5 000 €. Terrain agricole de 8741m2 à la sortie de Douzens, après le cimetière. Cette ancienne vigne (arrachée) ne possède…
+> Terrain 8741 m² à vendre à Douzens, 5 000 €. Terrain agricole de 8741 m² à la sortie de Douzens, après le cimetière. Cette ancienne vigne (arrachée) ne possède…
 
 Source : https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/
+
+Terrain agricole de plus de 8000m2 à Douzens
 
 **5 000 €** · Douzens · 8741 m²
 
  VENTE 1 / 5
+
+## En bref
+
+Terrain de 8741 m² à vendre à Douzens (Aude, 11). Prix : 5 000 €, honoraires à la charge du vendeur. Référence 2_BBVTE30000967, suivie par Barbara Bouba (LOTIER Immobilier).
+
+## Informations clés
+
+- **8741 m²** Surface
+- **8741 m²** Terrain
+
+## Description
+
+Terrain agricole de 8741 m² à la sortie de Douzens, après le cimetière. Cette ancienne vigne (arrachée) ne possède ni eau, ni électricité. Il est plat et facile d’accès par un chemin de terre.
+
+– Annonce rédigée et publiée par un Agent Mandataire –
+
+## Caractéristiques
+
+### Caractéristiques
+
+**Type de bien**
+Terrain
+
+**Surface habitable**
+8741 m²
+
+**Terrain**
+8741 m²
+
+### Équipements et confort
+
+**Ascenseur**
+Non
+
+## Détail du prix
+
+- Prix **5 000 €** *Frais d'agence inclus*
+- Honoraires à la charge de **Vendeur**
+
+## Estimer mon financement
+
+Frais de notaire et crédit : une estimation indicative pour ce bien, modifiable à votre mesure. Rien n’est envoyé : le calcul se fait dans votre navigateur.Apport personnel (€) Durée du crédit : 20 ans Taux du crédit (% par an) Assurance emprunteur (% par an) Type de bien Droit départemental Frais de notaire estimés **—**
+
+- Émoluments du notaire (TTC) **—**
+- Droits et taxes (État, département, commune) **—**
+- Sécurité immobilière et débours **—**
+ Votre crédit **—** par mois, assurance comprise
+
+- Montant emprunté **—**
+- Intérêts **—**
+- Assurance **—**
+- Coût total du crédit **—**
+
+Estimation indicative et non contractuelle, calculée avec des paramètres par défaut (3,31 % sur 20 ans, valeurs du 09/11/2026) : elle ne constitue ni une offre de prêt ni un conseil en financement. Les frais de notaire dépendent du dossier (taux du département, mobilier, débours) ; le notaire les confirmera. Un crédit immobilier vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Pour une offre personnalisée, contactez votre banque ou un courtier.
+ Lien partenaire
+
+## Un nouveau logement, de nouveaux abonnements ?
+
+Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie, internet ou l’assurance habitation, avec notre partenaire Papernest. Service gratuit, sans engagement de votre part envers LOTIER Immobilier. [Comparer les offres (nouvelle fenêtre, site partenaire Papernest) ](https://app.papernest.com/onboarding?anonymous&x=a45d02d5-18bf-4b8b-a028-baf31f1cb7b7&y=1bd41d4a-598b-4237-a49f-03d0eaaaaaaa&destination=intro-call-or-app__generic&user.campaign=app_link)
+
+## Mentions légales
+
+- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
+
+ PRIX
+ 5 000 €
+
+Réf. 2_BBVTE30000967
+
+- 8741 m²
+
+ **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
+ [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
+ [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
+ [Être rappelé ](https://lotier.immo/contact/)
+
+Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
+
+Annonce proposée par LOTIER Immobilier.
+
+[← Toutes les annonces](https://lotier.immo/nos-annonces/)
+
+## Les autres biens de Barbara
+
+ [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
+
+ 65 000 €
+
+### Grande maison de village sur 3 niveaux à Rieux-Minervois
+
+ Rieux-Minervois · 112,37 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)
+
+ 89 000 €
+
+### Maison vendue louée et meublée Investissement locatif clé
+
+ Pezens · 81 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)
+
+ 22 000 €
+
+### Terrain de loisir à proximité des habitations
+
+ Barbaira · 1400 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
+
+ 80 000 €
+
+### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
+
+ Carcassonne · 50 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
+
+ 54 000 €
+
+### Capendu studio meublé vendu loué terrasse renta brute
+
+ Capendu · 27,4 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+
+ [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
+
+ 330 000 €
+
+### Carcassonne Confort, élégance et espace pour toute la fami
+
+ Carcassonne · 240 m² · 5 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 
