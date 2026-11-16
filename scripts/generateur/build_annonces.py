@@ -398,6 +398,9 @@ def detail_page(a, tous=()):
         if loc: offer["priceSpecification"] = {"@type": "UnitPriceSpecification", "price": a["prix"], "priceCurrency": "EUR", "unitCode": "MON"}
         node["offers"] = offer
     if bien: node["mainEntity"] = bien
+    _dt = dates_annonces().get(a["id"], {})
+    if _dt.get("publie"): node["datePosted"] = _dt["publie"]
+    if _dt.get("maj"): node["dateModified"] = _dt["maj"]
     node = {k: v for k, v in node.items() if v is not None}
     os.makedirs(f"{ROOT}/annonces/{a['id']}", exist_ok=True)
     open(f"{ROOT}/annonces/{a['id']}/index.html", "w", encoding="utf-8").write(shell(p2, t, d, f"annonces/{a['id']}/", body, [node, breadcrumb_ld([("Accueil", SITE + "/"), ("Nos annonces", f"{SITE}/nos-annonces/"), (h1, url)])],
@@ -407,6 +410,10 @@ import shutil
 _detail = [a for a in ann if a.get("description_html") is not None]
 _ids = {a["id"] for a in _detail}
 for _d in (os.listdir(f"{ROOT}/annonces") if os.path.isdir(f"{ROOT}/annonces") else []):   # seules les fiches disparues sont retirées
-    if _d not in _ids: shutil.rmtree(f"{ROOT}/annonces/{_d}", ignore_errors=True)            # (le reste du dossier porte aussi les versions Markdown)
+    if _d not in _ids and os.path.isdir(f"{ROOT}/annonces/{_d}"): shutil.rmtree(f"{ROOT}/annonces/{_d}", ignore_errors=True)            # (le reste du dossier porte aussi les versions Markdown)
 for a in _detail: detail_page(a, ann)
+# Catalogue des annonces pour les agents IA et les intégrations (lu aussi par le serveur MCP)
+_cat = {"maj": json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("maj"), "source": "LOTIER Immobilier", "site": SITE + "/",
+        "licence": "Lecture libre ; citer LOTIER Immobilier et l'adresse de la fiche.", "nombre": len(_detail), "annonces": [entree_catalogue(a) for a in _detail]}
+open(f"{ROOT}/annonces/catalogue.json", "w", encoding="utf-8").write(json.dumps(_cat, ensure_ascii=False, indent=1) + "\n")
 print(f"{len(_detail)} fiches d\u00e9taill\u00e9es g\u00e9n\u00e9r\u00e9es")

@@ -677,6 +677,52 @@ def faits_annonce(a):
         f["titre"] = None
     return f
 
+_DATES = None
+def dates_annonces():
+    """{id: {"publie": date ou None, "maj": date}} tenu dans data/annonces-dates.json : la date de mise à jour d'une annonce ne change
+    que si son contenu change (prix, texte, caractéristiques, nombre de photos). « publie » n'est connu que pour les annonces apparues
+    après la création de ce fichier."""
+    global _DATES
+    if _DATES is not None: return _DATES
+    import hashlib
+    p = f"{ROOT}/data/annonces-dates.json"
+    try: etat = json.load(open(p, encoding="utf-8")); neuf = False
+    except (OSError, ValueError): etat = {}; neuf = True
+    try: ref = json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("maj") or ""
+    except (OSError, ValueError): ref = ""
+    avant = json.dumps(etat, sort_keys=True)
+    ids = set()
+    for a in load_annonces():
+        ids.add(a["id"])
+        h = hashlib.sha1(json.dumps([a.get(k) for k in ("titre", "ville", "type", "prix", "surface", "chambres", "sdb", "description_html", "blocs", "energie", "mentions_prix", "reference")]
+                                    + [len(a.get("photos") or [])], sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
+        x = etat.get(a["id"])
+        if x is None: etat[a["id"]] = {"h": h, "publie": None if neuf else ref, "maj": ref}
+        elif x["h"] != h: x["h"] = h; x["maj"] = ref or x["maj"]
+    for k in [k for k in etat if k not in ids]: del etat[k]
+    if json.dumps(etat, sort_keys=True) != avant and ids:
+        open(p, "w", encoding="utf-8").write(json.dumps(etat, ensure_ascii=False, indent=0, sort_keys=True) + "\n")
+    _DATES = etat
+    return etat
+
+def entree_catalogue(a):
+    """Annonce telle que publiée dans /annonces/catalogue.json (lecture par les agents IA) : faits, texte et adresse de la fiche."""
+    f = faits_annonce(a)
+    d = dates_annonces().get(a["id"], {})
+    texte = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", a.get("description_html") or ""))).strip()
+    carac = {}
+    for b in a.get("blocs") or []:
+        for k, val in b["lignes"]: carac.setdefault(k, val)
+    out = {"id": a["id"], "url": f"{SITE}/annonces/{a['id']}/", "titre": f["titre"] or _nice_title(a), "titre_agent": _nice_title(a), "resume": en_bref(a, f),
+           "transaction": f["transaction"], "type_bien": f["type_bien"], "ville": f["ville"], "departement": f["departement"] or None, "departement_nom": f["departement_nom"] or None,
+           "secteur": f["secteur"], "prix": f["prix"], "prix_unite": "EUR par mois" if f["transaction"] == "location" else "EUR", "mentions_prix": f["mentions_prix"],
+           "surface_m2": f["surface"], "pieces": f["pieces"], "chambres": f["chambres"], "salles_eau": f["salles_eau"], "terrain": f["terrain"], "etage": f["etage"],
+           "annee_construction": f["annee"], "chauffage": f["chauffage"], "exposition": f["exposition"], "equipements": [("Box" if x == "Boxe" else x) for x in f["equipements"]],
+           "dpe": f["dpe"], "dpe_kwh_m2_an": f["dpe_valeur"], "ges": f["ges"], "reference": f["reference"], "agent": f["agent"],
+           "telephone_agent": (a.get("agent") or {}).get("telephone") or None, "photo": f"{SITE}/{a['photo']}" if a.get("photo") else None,
+           "nombre_photos": len(a.get("photos") or []), "description": texte, "caracteristiques": carac, "date_publication": d.get("publie"), "date_mise_a_jour": d.get("maj")}
+    return out
+
 def _liste_fr(xs):
     xs = list(xs); return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " et " + xs[-1]
 

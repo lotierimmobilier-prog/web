@@ -16,7 +16,7 @@
       ]
     },
     {
-      "anchor": "https://lotier.immo/data/annonces.json",
+      "anchor": "https://lotier.immo/annonces/catalogue.json",
       "service-desc": [
         {
           "href": "https://lotier.immo/.well-known/openapi-annonces.json",
@@ -31,7 +31,7 @@
       ],
       "status": [
         {
-          "href": "https://lotier.immo/data/annonces.json",
+          "href": "https://lotier.immo/annonces/catalogue.json",
           "type": "application/json"
         }
       ]

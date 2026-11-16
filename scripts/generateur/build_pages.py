@@ -283,7 +283,8 @@ if _cfg_ag.get("indexable") and _ag:     # la page des agents n'entre dans le si
     urls += [(f"{SITE}/nos-agents/", maj_ann, "0.7", "weekly")] + [(f"{SITE}/nos-agents/{a['slug']}/", maj_ann, "0.6", "weekly") for a in _ag if a.get("rsac")]
 if EQUIPE: urls += [(f"{SITE}/equipe/", today, "0.5", "monthly")]
 urls += [(f"{SITE}/nos-annonces/{g['slug']}/", maj_ann, "0.7", "daily") for g in pages_ville_annonces()]
-urls += [(f"{SITE}/annonces/{a['id']}/", maj_ann, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
+_da = dates_annonces()
+urls += [(f"{SITE}/annonces/{a['id']}/", _da.get(a["id"], {}).get("maj") or maj_ann, "0.6", "weekly") for a in load_annonces() if a.get("description_html") is not None]
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
 if os.path.exists(f"{ROOT}/data/partenaires.json"): urls += [(f"{SITE}/sites-partenaires/", today, "0.4", "monthly")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
@@ -308,6 +309,14 @@ try: _part = json.load(open(f"{ROOT}/data/partenaires.json", encoding="utf-8")).
 except (OSError, ValueError): _part = []
 if _part:
     ll += f"\n## Sites partenaires\n\n- [Sites partenaires]({SITE}/sites-partenaires/): " + " ; ".join(f"{p['nom']} ({p['url']}), {p.get('accroche', '').rstrip('.').lower()}" for p in _part) + ".\n"
+_la = [a for a in load_annonces() if a.get("description_html") is not None]
+if _la:
+    ll += (f"\n## Annonces en cours ({len(_la)})\n\n"
+           f"- [Catalogue complet en JSON]({SITE}/annonces/catalogue.json): toutes les annonces avec type de bien, commune, département, prix, surface, pièces, équipements, classe énergie, référence, agent, texte et date de mise à jour. Régénéré chaque jour.\n")
+    for a in sorted(_la, key=lambda x: (x["type"] != "vente", x.get("ville") or "", x.get("prix") or 0)):
+        c = entree_catalogue(a)
+        prix = (f"{c['prix']:,.0f}".replace(",", " ") + (" € par mois" if c["transaction"] == "location" else " €")) if c["prix"] else "prix sur demande"
+        ll += f"- [{c['titre']}]({c['url']}): {prix}" + (f", {c['departement_nom']} ({c['departement']})" if c["departement"] else "") + (f", classe énergie {c['dpe']}" if c["dpe"] else "") + (f", réf. {c['reference']}" if c["reference"] else "") + ".\n"
 _pv = pages_ville_annonces()
 if _pv:
     ll += "\n## Annonces par ville\n\n"

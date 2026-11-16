@@ -105,3 +105,12 @@ jobs:
           fi
           git pull --rebase origin main
           git push origin HEAD:main
+          echo "publie=oui" >> "$GITHUB_ENV"
+
+      # Prévient Bing et les moteurs associés des fiches créées, modifiées ou retirées (jamais bloquant).
+      - name: Prévenir les moteurs (IndexNow)
+        if: steps.heure.outputs.go == 'oui' && env.publie == 'oui'
+        continue-on-error: true
+        run: |
+          sleep 120
+          python3 scripts/indexnow.py HEAD~1 HEAD
