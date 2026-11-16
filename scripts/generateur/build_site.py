@@ -208,6 +208,7 @@ page = f'''<!doctype html>
   <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.min.css?v={C.V_CSS}">
   <script>(function(){{try{{var d=document.documentElement;if(!sessionStorage.getItem('lotier-intro')&&!location.hash&&!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){{d.classList.add('has-intro');setTimeout(function(){{if(!window.__lotierIntro)d.classList.remove('has-intro')}},4000)}}}}catch(e){{}}}})()</script>
   <style>{INTRO_CSS}</style>
@@ -407,5 +408,15 @@ page = f'''<!doctype html>
 head, sep, rest = page.partition('</script>')
 rest = rest.replace(' ?', '&nbsp;?')
 page = head + sep + rest
+# L'accueil charge une feuille réduite à ce qu'il peut utiliser (css/accueil.min.css) ; les autres pages gardent la feuille complète.
+from css_page import css_pour_page
+import hashlib as _hl
+_lien = f'href="css/styles.min.css?v={C.V_CSS}"'
+assert page.count(_lien) == 1
+_js = "".join(open(f"{ROOT}/js/{f}", encoding="utf-8").read() for f in ("main.js", "intro.js"))
+_css = css_pour_page(open(f"{ROOT}/css/styles.min.css", encoding="utf-8").read().strip(), page, _js)
+if not os.path.exists(f"{ROOT}/css/accueil.min.css") or open(f"{ROOT}/css/accueil.min.css", encoding="utf-8").read() != _css:
+    open(f"{ROOT}/css/accueil.min.css", "w", encoding="utf-8").write(_css)
+page = page.replace(_lien, f'href="css/accueil.min.css?v={_hl.sha1(_css.encode()).hexdigest()[:10]}"')
 open(f'{ROOT}/index.html', 'w', encoding='utf-8').write(page)
 print(len(page))
