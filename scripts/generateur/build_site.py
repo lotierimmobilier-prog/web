@@ -224,7 +224,7 @@ page = f'''<!doctype html>
   <main id="contenu">
 
     <section class="home-hero" id="accueil-hero" aria-labelledby="titre-accueil">
-      <div class="hh-photo"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></div>
+      <div class="hh-photo"><picture><source media="(max-width: 700px) and (max-aspect-ratio: 2/3)" srcset="assets/intro/bez-pont-p.jpg" width="700" height="934"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></picture></div>
       <div class="hh-shade" aria-hidden="true"></div>
       <div class="container hh-inner">
         <div class="hh-copy">

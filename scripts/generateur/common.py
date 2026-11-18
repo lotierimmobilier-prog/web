@@ -75,6 +75,13 @@ def _vignettes():
     src, dst = f"{ROOT}/assets/lotier-logo.png", f"{ROOT}/assets/lotier-logo-330.png"
     if os.path.exists(src) and not os.path.exists(dst):
         im = Image.open(src); im.thumbnail((330, 330)); im.save(dst, "PNG", optimize=True)
+    # Photos plein écran de l'accueil : version recadrée en portrait pour les téléphones (même netteté, moitié moins d'octets).
+    # Le recadrage suit le cadrage CSS de l'image (object-position) : 60 % pour la photo du bandeau, centré pour les autres.
+    for nom, pos in (("bez-pont", 0.6), ("montpellier", 0.5), ("carcassonne", 0.5), ("nimes", 0.5)):
+        src, dst = f"{ROOT}/assets/intro/{nom}.jpg", f"{ROOT}/assets/intro/{nom}-p.jpg"
+        if os.path.exists(src) and (not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src)):
+            im = Image.open(src).convert("RGB"); w, h = im.size; lw = min(w, round(h * 0.75)); x0 = round((w - lw) * pos)
+            im.crop((x0, 0, x0 + lw, h)).save(dst, "JPEG", quality=74, optimize=True, progressive=True)
     d = f"{ROOT}/assets/annonces"
     if not os.path.isdir(d): return
     try: voulues = {os.path.basename(x["photo"]) for x in json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("annonces", []) if x.get("photo")}

@@ -12,6 +12,8 @@
   if (!window.gsap) { running = false; done(); return; }
   var CITIES = [['bez-pont', 'BÉZIERS', 'Cathédrale · Pont-Vieux'], ['montpellier', 'MONTPELLIER', 'Place de la Comédie'], ['carcassonne', 'CARCASSONNE', 'La Cité'], ['nimes', 'NÎMES', 'Les Arènes']];
   var BASE = 'assets/intro/';
+  /* Téléphone tenu en hauteur : photos recadrées en portrait (même condition que la photo du bandeau dans la page) */
+  var SUF = (window.matchMedia && matchMedia('(max-width: 700px) and (max-aspect-ratio: 2/3)').matches) ? '-p' : '';
   var el = document.createElement('div');
   el.id = 'intro'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', 'Animation d\'introduction de LOTIER Immobilier');
   el.innerHTML =
@@ -30,9 +32,9 @@
   var phsBox = $('.li-phs'), edge = $('.li-edge'), edgeC = $('.li-edgec'), badge = $('.li-badge'), cross = $('.li-cross'), skipBtn = $('.li-skip');
   var photos = CITIES.map(function (c, i) {
     var d = document.createElement('div'); d.className = 'li-ph'; d.style.zIndex = i + 1;
-    var im = new Image(); im.alt = ''; im.decoding = 'async'; im.src = BASE + c[0] + '.jpg'; d.appendChild(im); phsBox.appendChild(d); return d;
+    var im = new Image(); im.alt = ''; im.decoding = 'async'; im.src = BASE + c[0] + SUF + '.jpg'; d.appendChild(im); phsBox.appendChild(d); return d;
   });
-  cross.style.backgroundImage = 'url(' + BASE + 'bez-pont.jpg)';
+  cross.style.backgroundImage = 'url(' + BASE + 'bez-pont' + SUF + '.jpg)';
   skipBtn.focus();
   var R = 0, tl = null, mo = { v: 6 }, finished = false;
   function metrics() {
