@@ -26,6 +26,7 @@ class MD(HTMLParser):
         if not self.in_main: return
         if tag in VOID:      # balises sans fermeture : jamais empilées (sinon un <img> dans un bouton masquait toute la suite de la page)
             if tag == "br": self.w("  \n")
+            elif tag == "img" and a.get("alt") and "/assets/blog/" in urljoin(self.base, a.get("src", "")): self.w(f"\n\n![{a['alt']}]({urljoin(self.base, a['src'])})\n\n")   # visuels d'article : décrits aux lecteurs en texte
             return
         if self.skip or tag in SKIP or a.get("aria-hidden") == "true" or "visually-hidden" in a.get("class", "").split() and tag == "span" and False:
             self.skip += 1; self.stack.append(("skip", tag)); return

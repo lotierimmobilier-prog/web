@@ -1,0 +1,584 @@
+[
+  {
+    "slug": "taux-credit-immobilier-novembre-2026",
+    "titre": "Crédit immobilier : les taux remontent en novembre 2026",
+    "titreSeo": "Taux de crédit immobilier : le point en novembre 2026",
+    "description": "Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.",
+    "categorie": "Acheter",
+    "cta": "contact",
+    "photo": "cles",
+    "photoAlt": "Photo d'illustration : remise de clés d'un logement",
+    "ville": null,
+    "date": "2026-11-18",
+    "intro": "Les taux de crédit immobilier ont encore augmenté en novembre 2026. Selon les baromètres des courtiers, un emprunt sur 20 ans se négocie désormais autour de 3,6 à 3,7 %, hors assurance. Voici ce que disent les chiffres, d'où vient cette hausse et ce qu'elle change pour un projet d'achat.",
+    "sections": [
+      {
+        "titre": "Les taux relevés en novembre 2026",
+        "blocs": [
+          {
+            "type": "chiffres",
+            "items": [
+              {
+                "valeur": "3,6 à 3,7 %",
+                "libelle": "Taux moyen sur 20 ans en novembre 2026, hors assurance"
+              },
+              {
+                "valeur": "5,40 %",
+                "libelle": "Taux d'usure des prêts de 20 ans et plus depuis le 1er octobre 2026"
+              },
+              {
+                "valeur": "+0,10 à +0,20 pt",
+                "libelle": "Hausse des taux en un mois, selon les courtiers"
+              }
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Les courtiers publient chaque mois les taux qu'ils obtiennent pour leurs clients. Leurs chiffres diffèrent un peu, car ils ne mesurent pas exactement la même chose, mais la tendance est la même : une hausse de 0,10 à 0,20 point en un mois."
+          },
+          {
+            "type": "tableau",
+            "entetes": [
+              "Durée du prêt",
+              "CAFPI",
+              "Meilleurtaux"
+            ],
+            "lignes": [
+              [
+                "15 ans",
+                "3,40 %",
+                "3,50 %"
+              ],
+              [
+                "20 ans",
+                "3,61 %",
+                "3,70 %"
+              ],
+              [
+                "25 ans",
+                "3,75 %",
+                "3,80 %"
+              ]
+            ],
+            "legende": "Taux moyens hors assurance, relevés le 17 novembre 2026."
+          },
+          {
+            "type": "texte",
+            "texte": "Ces taux s'entendent hors assurance emprunteur et hors frais. Les meilleurs dossiers obtiennent un peu mieux, les dossiers plus fragiles un peu moins bien."
+          }
+        ]
+      },
+      {
+        "titre": "Pourquoi les taux remontent",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Les banques fixent leurs taux en fonction du coût auquel elles se financent elles-mêmes. Deux éléments pèsent en ce moment, d'après les analyses des courtiers."
+          },
+          {
+            "type": "liste",
+            "items": [
+              "Le taux auquel l'État français emprunte sur dix ans a dépassé 5 % en octobre 2026. C'est une référence directe pour les crédits immobiliers.",
+              "L'inflation est repartie dans la zone euro : 3,8 % en septembre 2026, surtout à cause de l'énergie. La Banque centrale européenne a laissé ses taux inchangés le 29 octobre, et les courtiers jugent une hausse possible lors de sa réunion du 17 décembre."
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Les banques sont aussi plus sélectives : elles réservent leurs meilleures conditions aux dossiers les plus solides."
+          }
+        ]
+      },
+      {
+        "titre": "Ce que cela change pour un achat",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Un taux plus élevé réduit la somme que l'on peut emprunter pour une même mensualité. À titre d'ordre de grandeur, pour 1 000 € par mois sur 20 ans, hors assurance, on emprunte environ 172 000 € à 3,50 % et environ 169 000 € à 3,70 %, soit près de 3 000 € de moins."
+          },
+          {
+            "type": "tableau",
+            "entetes": [
+              "Taux sur 20 ans",
+              "Mensualité",
+              "Capital emprunté"
+            ],
+            "lignes": [
+              [
+                "3,50 %",
+                "1 000 €",
+                "environ 172 000 €"
+              ],
+              [
+                "3,70 %",
+                "1 000 €",
+                "environ 169 000 €"
+              ]
+            ],
+            "legende": "Calcul indicatif, hors assurance, pour un prêt à taux fixe sur 240 mois."
+          },
+          {
+            "type": "texte",
+            "texte": "Autre point de vigilance : le taux d'usure, c'est-à-dire le taux maximal, assurance et frais compris, auquel une banque a le droit de prêter. Il est fixé à 5,40 % pour les prêts de 20 ans et plus depuis le 1er octobre 2026. Sur les petits montants, où les frais pèsent davantage, ce plafond peut bloquer un dossier."
+          }
+        ]
+      },
+      {
+        "titre": "Comment préparer son dossier",
+        "blocs": [
+          {
+            "type": "liste",
+            "items": [
+              "Faites valider votre budget par une banque ou un courtier avant de visiter : vous saurez précisément ce que vous pouvez acheter.",
+              "Soignez vos comptes sur les trois derniers mois : pas de découvert, une épargne régulière.",
+              "Comparez l'assurance emprunteur : elle peut représenter une part importante du coût total, et vous êtes libre de la choisir.",
+              "Constituez un apport qui couvre au moins les frais de notaire et de garantie.",
+              "Demandez la durée de validité de l'offre de taux : une offre obtenue aujourd'hui protège d'une hausse le temps de trouver le bien."
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Faut-il attendre ?",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Personne ne peut prédire les taux des prochains mois. Les courtiers s'attendent plutôt à une poursuite de la hausse à court terme. Attendre, c'est donc parier sur une baisse qui n'est pas annoncée. À l'inverse, un taux plus élevé renforce la position de l'acheteur dans la négociation du prix : un bien affiché depuis plusieurs semaines se discute plus facilement. Le bon raisonnement part de votre projet de vie et de votre budget mensuel, pas du seul taux du moment."
+          }
+        ]
+      },
+      {
+        "titre": "Sources",
+        "blocs": [
+          {
+            "type": "sources",
+            "items": [
+              {
+                "titre": "CAFPI, baromètre des taux de crédit immobilier, novembre 2026 (relevé du 17 novembre 2026)",
+                "url": "https://www.cafpi.fr/credit-immobilier/barometre-taux/actualites-taux/analyse-taux-credit-immobilier-novembre-2026"
+              },
+              {
+                "titre": "Meilleurtaux, baromètre des taux immobiliers, novembre 2026 (relevé du 17 novembre 2026)",
+                "url": "https://www.meilleurtaux.com/credit-immobilier/barometre-des-taux.html"
+              },
+              {
+                "titre": "Taux d'usure applicables au 1er octobre 2026 : avis publié au Journal officiel du 26 septembre 2026",
+                "url": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "retenir": [
+      "En novembre 2026, un crédit sur 20 ans se négocie autour de 3,6 à 3,7 %, hors assurance.",
+      "La hausse vient surtout du coût de la dette de l'État et du retour de l'inflation.",
+      "Faites valider votre budget avant de visiter et comparez l'assurance emprunteur."
+    ],
+    "faq": [
+      {
+        "question": "Quel est le taux moyen d'un crédit immobilier sur 20 ans en novembre 2026 ?",
+        "reponse": "Entre 3,61 % (CAFPI) et 3,70 % (Meilleurtaux), hors assurance, d'après les relevés du 17 novembre 2026. Le taux réellement obtenu dépend de votre dossier et de votre banque."
+      },
+      {
+        "question": "Qu'est-ce que le taux d'usure ?",
+        "reponse": "C'est le taux maximal, tous frais et assurance compris, auquel une banque peut prêter. Il est fixé chaque trimestre par la Banque de France : 5,40 % pour les prêts de 20 ans et plus depuis le 1er octobre 2026."
+      },
+      {
+        "question": "Une hausse de taux fait-elle baisser les prix ?",
+        "reponse": "Pas automatiquement. Elle réduit le budget des acheteurs, ce qui donne plus de place à la négociation, surtout pour les biens affichés au-dessus du marché. L'effet dépend beaucoup du secteur et du type de bien."
+      },
+      {
+        "question": "Peut-on renégocier son crédit plus tard si les taux baissent ?",
+        "reponse": "Oui, une renégociation ou un rachat de crédit reste possible si les taux baissent nettement. Il faut alors tenir compte des indemnités de remboursement anticipé et des frais de la nouvelle garantie."
+      }
+    ]
+  },
+  {
+    "slug": "budget-2027-logement-ce-qui-est-prevu",
+    "titre": "Budget 2027 : ce que le projet de loi prévoit pour le logement",
+    "titreSeo": "Budget 2027 et logement : ce qui est prévu",
+    "description": "Prêt à taux zéro élargi aux jeunes parents, location meublée moins avantageuse, MaPrimeRénov' recentrée, APL gelées : les mesures logement du projet de loi de finances 2027, encore en discussion.",
+    "categorie": "Acheter",
+    "cta": "contact",
+    "photo": "immeuble",
+    "photoAlt": "Photo d'illustration : immeuble moderne avec balcons",
+    "ville": null,
+    "date": "2026-11-18",
+    "intro": "Le projet de loi de finances pour 2027 a été déposé à l'Assemblée nationale le 1er octobre 2026 et son examen a commencé le 13 octobre. Plusieurs de ses mesures touchent directement les acheteurs, les bailleurs et les locataires. Attention : il s'agit d'un projet. Tant que la loi n'est pas votée et publiée, tout peut encore être modifié.",
+    "sections": [
+      {
+        "titre": "L'essentiel en un tableau",
+        "blocs": [
+          {
+            "type": "tableau",
+            "entetes": [
+              "Sujet",
+              "Ce que prévoit le projet",
+              "Qui est concerné"
+            ],
+            "lignes": [
+              [
+                "Prêt à taux zéro",
+                "Nouveau prêt « parentalité » ; prêt classique prolongé jusqu'en 2030",
+                "Ménages avec un enfant à naître ou de moins de 3 ans, sous conditions de ressources"
+              ],
+              [
+                "Location meublée",
+                "Amortissement limité à 2,5 % de la valeur du bien et à 7 000 € par an",
+                "Loueurs en meublé non professionnels au régime réel"
+              ],
+              [
+                "Meublés de tourisme",
+                "Amortissement limité à 1,5 % et à 5 000 € par an",
+                "Loueurs de meublés de tourisme"
+              ],
+              [
+                "MaPrimeRénov'",
+                "Dotation de l'Anah ramenée de 1,4 à 1,2 milliard d'euros ; priorité aux rénovations d'ampleur",
+                "Propriétaires et copropriétés qui rénovent"
+              ],
+              [
+                "APL",
+                "Pas de revalorisation en 2027",
+                "Locataires qui perçoivent une aide au logement"
+              ],
+              [
+                "Dons familiaux",
+                "Taxation à 6 % du 1er janvier au 30 juin 2027, jusqu'à 100 000 € par donateur et par bénéficiaire",
+                "Familles qui aident un proche à acheter"
+              ]
+            ],
+            "legende": "Projet de loi de finances pour 2027, tel que déposé le 1er octobre 2026. Mesures susceptibles d'être modifiées."
+          },
+          {
+            "type": "image",
+            "fichier": "budget-2027-calendrier.svg",
+            "alt": "Frise du calendrier du budget 2027 : dépôt du projet le 1er octobre 2026, début de l'examen par les députés le 13 octobre 2026, vote du Parlement fin 2026, entrée en vigueur prévue le 1er janvier 2027, dons familiaux taxés à 6 % de janvier à juin 2027, nouveau choix sur l'aide au logement des étudiants le 1er septembre 2027.",
+            "legende": "Le calendrier du projet de loi de finances pour 2027."
+          }
+        ]
+      },
+      {
+        "titre": "Un prêt à taux zéro pour les jeunes parents",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Le texte crée un prêt à taux zéro dit « parentalité ». Il s'adresserait aux ménages qui attendent un enfant ou qui élèvent un enfant de moins de trois ans, sous conditions de ressources, pour financer un logement plus adapté."
+          },
+          {
+            "type": "liste",
+            "items": [
+              "Il serait ouvert même aux ménages qui ont déjà bénéficié d'un prêt à taux zéro, mais une seule fois.",
+              "Le plafond annuel de 2,1 milliards d'euros qui limite le coût du dispositif serait supprimé.",
+              "Le prêt à taux zéro classique et l'éco-prêt à taux zéro seraient prolongés jusqu'en 2030."
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Les plafonds de ressources ne sont pas encore connus. Même une fois la loi votée, il faudra un décret avant que les banques puissent proposer ce prêt."
+          }
+        ]
+      },
+      {
+        "titre": "Location meublée : un avantage fiscal réduit",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "C'est la mesure qui concerne le plus les bailleurs. Aujourd'hui, un loueur en meublé non professionnel au régime réel déduit chaque année une part de la valeur du bien, ce qu'on appelle l'amortissement. Le projet encadre cette déduction à partir de 2027."
+          },
+          {
+            "type": "liste",
+            "items": [
+              "Amortissement limité à 2,5 % de la valeur du bien par an, dans la limite de 7 000 € par foyer fiscal.",
+              "Meublés de tourisme : 1,5 % de la valeur du bien, dans la limite de 5 000 € par an.",
+              "Les amortissements non déduits à partir de 2027 ne pourraient plus être reportés sur les années suivantes.",
+              "Certaines résidences avec services (étudiants, seniors, personnes dépendantes) resteraient en dehors de ces limites."
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Si la mesure est adoptée, la rentabilité d'un investissement en meublé devra être recalculée. La comparaison avec la location vide mérite d'être refaite au cas par cas."
+          }
+        ]
+      },
+      {
+        "titre": "MaPrimeRénov' : priorité aux rénovations complètes",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "La dotation de l'État à l'Agence nationale de l'habitat passerait de 1,4 à 1,2 milliard d'euros. Les aides de l'État seraient concentrées sur les rénovations d'ampleur et sur les copropriétés. Les travaux isolés, comme le remplacement d'un seul équipement, seraient financés par les certificats d'économies d'énergie. Le montant réservé à MaPrimeRénov' pour 2027 n'est pas fixé dans le texte."
+          }
+        ]
+      },
+      {
+        "titre": "APL gelées en 2027",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Les aides personnalisées au logement ne seraient pas revalorisées en 2027, alors qu'elles suivent habituellement l'indice de référence des loyers. À partir du 1er septembre 2027, les familles les plus aisées devraient choisir entre l'aide au logement de leur enfant étudiant et l'avantage fiscal lié à son rattachement."
+          }
+        ]
+      },
+      {
+        "titre": "Un coup de pouce aux donations familiales",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Le projet prévoit aussi, du 1er janvier au 30 juin 2027, une taxation réduite à 6 % des dons d'argent aux enfants, petits-enfants et arrière-petits-enfants, dans la limite de 100 000 € par donateur et par bénéficiaire. Une condition d'âge est prévue, dont les modalités restent à préciser. Pour un premier achat, ce type de don sert souvent à constituer l'apport."
+          }
+        ]
+      },
+      {
+        "titre": "Que faire en attendant le vote ?",
+        "blocs": [
+          {
+            "type": "liste",
+            "items": [
+              "Acheteurs avec un jeune enfant ou une naissance à venir : faites chiffrer votre projet avec et sans prêt à taux zéro, sans compter dessus tant que le décret n'est pas paru.",
+              "Bailleurs en meublé : demandez à votre comptable une simulation avec les nouveaux plafonds.",
+              "Propriétaires qui prévoient des travaux : privilégiez un projet global et faites établir les devis avant de déposer une demande d'aide.",
+              "Dans tous les cas, ne prenez pas de décision irréversible sur la seule base d'un projet de loi."
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Sources",
+        "blocs": [
+          {
+            "type": "sources",
+            "items": [
+              {
+                "titre": "Journal de l'Agence, « PLF 2027 : quelles mesures impactent l'immobilier ? », 6 octobre 2026",
+                "url": "https://www.journaldelagence.com/1414034-plf-2027-quelles-mesures-impactent-limmobilier"
+              },
+              {
+                "titre": "Empruntis, « Logement : ce que prévoit le PLF 2027 », 13 octobre 2026",
+                "url": "https://www.empruntis.com/financement/actualites/2026/logement-ptz-renforce-apl-gelees-lmnp-moins-avantageux-ce-que-prevoit-plf-2027-21335/"
+              },
+              {
+                "titre": "Projet de loi de finances pour 2027, déposé à l'Assemblée nationale le 1er octobre 2026",
+                "url": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "retenir": [
+      "Le budget 2027 est encore un projet : rien n'est acquis avant le vote et la publication de la loi.",
+      "Un prêt à taux zéro « parentalité » est prévu pour les ménages avec un enfant de moins de trois ans.",
+      "La location meublée perdrait une partie de son avantage fiscal à partir de 2027."
+    ],
+    "faq": [
+      {
+        "question": "Le prêt à taux zéro « parentalité » est-il déjà disponible ?",
+        "reponse": "Non. Il figure dans le projet de loi de finances pour 2027. Il doit être voté par le Parlement, puis précisé par décret, avant que les banques puissent le proposer."
+      },
+      {
+        "question": "Qui serait concerné par la réforme de la location meublée ?",
+        "reponse": "Les loueurs en meublé non professionnels imposés au régime réel, qui déduisent un amortissement. Celui-ci serait limité à 2,5 % de la valeur du bien et à 7 000 € par an et par foyer fiscal, et à 1,5 % et 5 000 € pour les meublés de tourisme."
+      },
+      {
+        "question": "MaPrimeRénov' va-t-elle disparaître en 2027 ?",
+        "reponse": "Non, mais son budget baisserait et les aides de l'État seraient réservées en priorité aux rénovations d'ampleur et aux copropriétés. Les travaux isolés relèveraient des certificats d'économies d'énergie."
+      },
+      {
+        "question": "Quand ces mesures entreraient-elles en vigueur ?",
+        "reponse": "Pour la plupart, au 1er janvier 2027, si la loi est adoptée dans les délais habituels. Certaines nécessitent un décret d'application et pourraient donc s'appliquer plus tard."
+      }
+    ]
+  },
+  {
+    "slug": "dpe-nouveau-calcul-2026-location-2028",
+    "titre": "DPE : le nouveau calcul de 2026 et l'échéance de 2028",
+    "titreSeo": "DPE : nouveau calcul 2026, location interdite en 2028",
+    "description": "Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à l'électricité. Comment mettre à jour son étiquette sans nouveau diagnostic, et ce qui attend les logements classés F en 2028.",
+    "categorie": "Bailleur",
+    "cta": "location",
+    "photo": "toits",
+    "photoAlt": "Photo d'illustration : toits de tuiles d'une vieille ville du Sud",
+    "ville": null,
+    "date": "2026-11-18",
+    "intro": "Le calcul du diagnostic de performance énergétique a changé le 1er janvier 2026 pour les logements chauffés à l'électricité. Beaucoup de propriétaires ont gagné une classe sans faire de travaux, et certains l'ignorent encore. Dans le même temps, une échéance approche : à partir du 1er janvier 2028, les logements classés F ne pourront plus être mis en location.",
+    "sections": [
+      {
+        "titre": "Ce qui a changé au 1er janvier 2026",
+        "blocs": [
+          {
+            "type": "chiffres",
+            "items": [
+              {
+                "valeur": "1,9",
+                "libelle": "Nouveau coefficient de l'électricité dans le DPE (2,3 auparavant)"
+              },
+              {
+                "valeur": "850 000",
+                "libelle": "Logements qui sortent des classes F et G, selon l'estimation du gouvernement"
+              },
+              {
+                "valeur": "2028",
+                "libelle": "Au 1er janvier, fin de la mise en location des logements classés F"
+              }
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Le DPE exprime la consommation d'un logement en énergie dite primaire. Pour l'électricité, on multiplie la consommation par un coefficient. Un arrêté du 13 août 2025 a abaissé ce coefficient de 2,3 à 1,9 à compter du 1er janvier 2026. Pour le gaz et le bois, il reste égal à 1."
+          },
+          {
+            "type": "tableau",
+            "entetes": [
+              "Énergie",
+              "Coefficient avant 2026",
+              "Coefficient depuis le 1er janvier 2026"
+            ],
+            "lignes": [
+              [
+                "Électricité",
+                "2,3",
+                "1,9"
+              ],
+              [
+                "Gaz",
+                "1",
+                "1"
+              ],
+              [
+                "Bois",
+                "1",
+                "1"
+              ]
+            ],
+            "legende": "Coefficient de conversion de l'énergie finale en énergie primaire utilisé par le DPE."
+          },
+          {
+            "type": "texte",
+            "texte": "Conséquence : à consommation identique, un logement chauffé à l'électricité affiche une consommation calculée plus faible, donc souvent une meilleure étiquette. D'après les estimations du gouvernement, environ 850 000 logements sortent ainsi des classes F et G."
+          }
+        ]
+      },
+      {
+        "titre": "Qui est concerné",
+        "blocs": [
+          {
+            "type": "liste",
+            "items": [
+              "Les logements chauffés à l'électricité : convecteurs, radiateurs, pompe à chaleur, eau chaude électrique.",
+              "Surtout les petites surfaces, souvent tout électriques et souvent mal classées.",
+              "Les logements chauffés au gaz, au fioul ou au bois ne changent pas de classe."
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "La facture d'énergie, elle, ne change pas : c'est le mode de calcul qui évolue, pas la consommation réelle du logement."
+          }
+        ]
+      },
+      {
+        "titre": "Mettre à jour son étiquette sans refaire le diagnostic",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "Les DPE réalisés depuis le 1er juillet 2021 n'ont pas à être refaits. Une attestation portant la nouvelle étiquette se télécharge sur le site de l'Observatoire DPE-Audit de l'Ademe, à partir du numéro du diagnostic, sans nouvelle visite. Cette attestation se joint à l'ancien DPE dans le dossier de vente ou de location."
+          },
+          {
+            "type": "texte",
+            "texte": "Si votre bien est en vente ou en location avec une étiquette établie avant 2026, pensez à faire cette vérification : l'annonce doit afficher la bonne classe, et une classe meilleure pèse sur le prix comme sur le délai de vente."
+          }
+        ]
+      },
+      {
+        "titre": "Location : le calendrier des interdictions",
+        "blocs": [
+          {
+            "type": "texte",
+            "texte": "La loi Climat et Résilience écarte progressivement de la location les logements les plus énergivores. Un logement doit atteindre un niveau minimal de performance pour être considéré comme décent."
+          },
+          {
+            "type": "image",
+            "fichier": "dpe-calendrier-location.svg",
+            "alt": "Frise des dates du DPE pour la location : depuis le 1er janvier 2025 les logements classés G ne peuvent plus être mis en location ; le 1er janvier 2026, nouveau calcul pour le chauffage électrique avec un coefficient de 1,9 au lieu de 2,3 ; le 1er janvier 2028, au tour des logements classés F ; le 1er janvier 2034, au tour des logements classés E.",
+            "legende": "Les échéances du DPE pour les logements loués."
+          },
+          {
+            "type": "liste",
+            "items": [
+              "Depuis le 1er janvier 2025 : les logements classés G ne peuvent plus être mis en location.",
+              "À partir du 1er janvier 2028 : ce sera le tour des logements classés F.",
+              "À partir du 1er janvier 2034 : celui des logements classés E."
+            ]
+          },
+          {
+            "type": "texte",
+            "texte": "Un logement électrique passé de G à F grâce au nouveau calcul peut donc de nouveau être loué, mais seulement jusqu'à la fin de 2027 s'il n'est pas amélioré d'ici là."
+          }
+        ]
+      },
+      {
+        "titre": "Bailleurs : ce qu'il faut faire d'ici 2028",
+        "blocs": [
+          {
+            "type": "liste",
+            "items": [
+              "Vérifiez la classe actuelle de chaque logement loué, en téléchargeant l'attestation si le chauffage est électrique.",
+              "Pour un logement classé F, faites chiffrer les travaux dès maintenant : isolation, fenêtres, chauffage, ventilation.",
+              "En copropriété, renseignez-vous sur les travaux votés ou envisagés : certains gains dépendent de l'immeuble.",
+              "Tenez compte des délais des artisans et des aides, qui se demandent avant de signer les devis.",
+              "Si les travaux ne sont pas réalisables, étudiez la vente : un logement classé F peut toujours être vendu, avec un audit énergétique pour une maison ou un immeuble en monopropriété."
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Sources",
+        "blocs": [
+          {
+            "type": "sources",
+            "items": [
+              {
+                "titre": "Institut national de la consommation, « 1er janvier 2026 : abaissement du coefficient de conversion de l'électricité des DPE »",
+                "url": "https://www.inc-conso.fr/content/1er-janvier-2026-abaissement-du-coefficient-de-conversion-de-lelectricite-des-dpe"
+              },
+              {
+                "titre": "Observatoire DPE-Audit de l'Ademe : téléchargement de l'attestation",
+                "url": "https://observatoire-dpe-audit.ademe.fr/"
+              },
+              {
+                "titre": "Arrêté du 13 août 2025 modifiant le facteur de conversion de l'électricité pour le DPE",
+                "url": null
+              },
+              {
+                "titre": "Loi du 22 août 2021 dite Climat et Résilience, pour le calendrier applicable aux logements loués",
+                "url": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "retenir": [
+      "Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à l'électricité.",
+      "Une attestation avec la nouvelle étiquette se télécharge sur le site de l'Ademe, sans refaire le diagnostic.",
+      "Les logements classés F ne pourront plus être mis en location à partir du 1er janvier 2028."
+    ],
+    "faq": [
+      {
+        "question": "Dois-je refaire mon DPE après la réforme de 2026 ?",
+        "reponse": "Non, s'il a été réalisé depuis le 1er juillet 2021 : une attestation portant la nouvelle étiquette se télécharge sur le site de l'Observatoire DPE-Audit de l'Ademe. Un DPE reste par ailleurs valable dix ans."
+      },
+      {
+        "question": "Mon logement au gaz change-t-il de classe ?",
+        "reponse": "Non. Le nouveau coefficient ne concerne que l'électricité. Les logements chauffés au gaz, au fioul ou au bois gardent la même étiquette."
+      },
+      {
+        "question": "Peut-on encore louer un logement classé F ?",
+        "reponse": "Oui, jusqu'au 31 décembre 2027. À partir du 1er janvier 2028, un logement classé F ne pourra plus être mis en location tant qu'il n'aura pas été amélioré."
+      },
+      {
+        "question": "Peut-on vendre un logement classé F ou G ?",
+        "reponse": "Oui, la vente reste possible. Pour une maison individuelle ou un immeuble appartenant à un seul propriétaire, un audit énergétique doit être remis à l'acheteur en plus du DPE."
+      }
+    ]
+  }
+]

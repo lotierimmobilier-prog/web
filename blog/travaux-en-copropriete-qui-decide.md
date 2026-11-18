@@ -114,11 +114,11 @@ Convocation, ordre du jour, pouvoirs, votes, procès-verbal : le déroulement d'
 
 Provisions, charges courantes, travaux, fonds de travaux, régularisation : comprendre un appel de fonds de copropriété ligne par ligne.
 
- **Vendre** 26 octobre 2026 5 min
+ **Acheter** 18 novembre 2026 5 min
 
-### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
 
-Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
 
 Recrutement
 

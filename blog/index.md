@@ -1,6 +1,6 @@
 # Blog immobilier : conseils pour vendre, acheter, louer | LOTIER
 
-> 20 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
+> 23 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
 
 Source : https://lotier.immo/blog/
 
@@ -8,7 +8,25 @@ Le blog de l'agence
 
 # Conseils et actualités *de l'immobilier.*
 
-Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 20 guides écrits par les conseillers de LOTIER Immobilier.
+Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 23 guides écrits par les conseillers de LOTIER Immobilier.
+
+ **Acheter** 18 novembre 2026 5 min
+
+### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+
+Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
+
+ **Acheter** 18 novembre 2026 6 min
+
+### [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
+
+Prêt à taux zéro élargi aux jeunes parents, location meublée moins avantageuse, MaPrimeRénov' recentrée, APL gelées : les mesures logement du projet de loi de finances 2027, encore en discussion.
+
+ **Bailleur** 18 novembre 2026 5 min
+
+### [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
+
+Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à l'électricité. Comment mettre à jour son étiquette sans nouveau diagnostic, et ce qui attend les logements classés F en 2028.
 
  **Vendre** 26 octobre 2026 5 min
 
