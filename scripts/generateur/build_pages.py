@@ -2,12 +2,37 @@
 import os, json, datetime
 from common import *
 
-def render_blocks(blocks):
+def _taille_visuel(fichier):
+    """(largeur, hauteur) d'un visuel de assets/blog/ : lue dans le viewBox d'un SVG, sinon dans l'image."""
+    chemin = f"{ROOT}/assets/blog/{fichier}"
+    if fichier.endswith(".svg"):
+        m = re.search(r'viewBox="\s*[\d.]+[\s,]+[\d.]+[\s,]+([\d.]+)[\s,]+([\d.]+)', open(chemin, encoding="utf-8").read(2000))
+        return (round(float(m.group(1))), round(float(m.group(2)))) if m else (1200, 630)
+    return Image.open(chemin).size
+
+def render_blocks(blocks, prefix="../"):
     out = []
     for b in blocks:
         if isinstance(b, list): out.append("<ul>" + "".join(f"<li>{e(x)}</li>" for x in b) + "</ul>")
-        else: out.append(f"<p>{e(b)}</p>")
+        elif isinstance(b, str): out.append(f"<p>{e(b)}</p>")
+        elif b["type"] == "tableau":
+            tete = "".join(f'<th scope="col">{e(x)}</th>' for x in b["entetes"])
+            corps = "".join("<tr>" + "".join((f'<th scope="row">{e(c)}</th>' if i == 0 else f"<td>{e(c)}</td>") for i, c in enumerate(l)) + "</tr>" for l in b["lignes"])
+            leg = f'<caption>{e(b["legende"])}</caption>' if b.get("legende") else ""
+            out.append(f'<div class="art-table" tabindex="0" role="region" aria-label="{e(b.get("legende") or "Tableau")}"><table>{leg}<thead><tr>{tete}</tr></thead><tbody>{corps}</tbody></table></div>')
+        elif b["type"] == "chiffres":
+            out.append('<ul class="art-chiffres">' + "".join(f'<li><strong>{e(x["valeur"])}</strong><span>{e(x["libelle"])}</span></li>' for x in b["items"]) + "</ul>")
+        elif b["type"] == "image":
+            w, h = _taille_visuel(b["fichier"])
+            leg = f'<figcaption>{e(b["legende"])}</figcaption>' if b.get("legende") else ""
+            out.append(f'<figure class="art-visuel"><img src="{prefix}assets/blog/{e(b["fichier"])}" alt="{e(b["alt"])}" width="{w}" height="{h}" loading="lazy" decoding="async">{leg}</figure>')
+        elif b["type"] == "sources":
+            out.append('<ul class="art-sources">' + "".join(
+                (f'<li><a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["titre"])}</a></li>' if x.get("url") else f'<li>{e(x["titre"])}</li>') for x in b["items"]) + "</ul>")
     return "\n          ".join(out)
+
+def _blocs_de(a, type_):
+    return [b for _, blocs in a["sections"] for b in blocs if isinstance(b, dict) and b["type"] == type_]
 
 CTA_TEXT = {
     "estimation": ("Un projet de vente ?", "Un conseiller estime votre bien en s'appuyant sur les ventes récentes de votre quartier.", "Demander une estimation", "#estimer"),
@@ -44,7 +69,7 @@ def article_page(a):
         <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="{prefix}index.html">Accueil</a><span aria-hidden="true">/</span><a href="{blog_index(prefix)}">Blog</a><span aria-hidden="true">/</span><span aria-current="page">{e(a["cat"])}</span></nav>
         <span class="label">{e(a["cat"])}</span>
         <h1 class="display page-title">{e(a["title"])}</h1>
-        <p class="meta"><time datetime="{a["date"].isoformat()}">Publié le {fr_date(a["date"])}</time><span aria-hidden="true">·</span><span>{a["min"]} min de lecture</span><span aria-hidden="true">·</span><span>L'équipe LOTIER Immobilier</span></p>
+        <p class="meta"><time datetime="{a["date"].isoformat()}">Publié le {fr_date(a["date"])}</time>{(f'<span aria-hidden="true">·</span><time datetime="{a["maj"].isoformat()}">Mis à jour le {fr_date(a["maj"])}</time>') if a.get("maj") and a["maj"] != a["date"] else ""}<span aria-hidden="true">·</span><span>{a["min"]} min de lecture</span><span aria-hidden="true">·</span><span>L'équipe LOTIER Immobilier</span></p>
       </div>
     </section>
 
@@ -75,13 +100,16 @@ def article_page(a):
     </section>'''
     ld = [
         {"@context": "https://schema.org", "@type": "BlogPosting", "@id": url + "#article", "headline": a["title"], "description": a["desc"],
-         "image": [f"{SITE}/assets/photos/{a['photo']}.jpg"], "datePublished": a["date"].isoformat(), "dateModified": a["date"].isoformat(),
+         "image": [f"{SITE}/assets/photos/{a['photo']}.jpg"] + [f"{SITE}/assets/blog/{b['fichier']}" for b in _blocs_de(a, "image")],
+         "datePublished": a["date"].isoformat(), "dateModified": (a.get("maj") or a["date"]).isoformat(),
          "inLanguage": "fr-FR", "articleSection": a["cat"], "wordCount": a["words"],
          "mainEntityOfPage": {"@type": "WebPage", "@id": url},
          "author": {"@type": "Organization", "name": "LOTIER Immobilier", "url": SITE + "/"},
          "publisher": {"@type": "Organization", "name": "LOTIER Immobilier", "logo": {"@type": "ImageObject", "url": SITE + "/assets/lotier-logo.png"}}},
         breadcrumb_ld([("Accueil", SITE + "/"), ("Blog", SITE + "/blog/"), (a["title"], url)]),
     ]
+    _cit = [({"@type": "CreativeWork", "name": x["titre"], "url": x["url"]} if x.get("url") else {"@type": "CreativeWork", "name": x["titre"]}) for b in _blocs_de(a, "sources") for x in b["items"]]
+    if _cit: ld[0]["citation"] = _cit
     if faqs:
         ld.append({"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq", "inLanguage": "fr-FR",
                    "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": an}} for q, an in faqs]})
@@ -288,7 +316,7 @@ urls += [(f"{SITE}/annonces/{a['id']}/", _da.get(a["id"], {}).get("maj") or maj_
 urls += [(f"{SITE}/{x}/", today, "0.8", "monthly") for x in ("a-propos", "contact", "nos-annonces", "notre-service", "vente", "location", "syndic", "nos-honoraires")]
 if os.path.exists(f"{ROOT}/data/partenaires.json"): urls += [(f"{SITE}/sites-partenaires/", today, "0.4", "monthly")]
 urls += [(f"{SITE}/plan-du-site.html", today, "0.3", "monthly")]
-urls += [(f"{SITE}/blog/{a['slug']}.html", a["date"].isoformat(), "0.7", "monthly") for a in ARTICLES_BY_DATE]
+urls += [(f"{SITE}/blog/{a['slug']}.html", (a.get("maj") or a["date"]).isoformat(), "0.7", "monthly") for a in ARTICLES_BY_DATE]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<!-- À compléter à chaque nouvelle page : annonces, articles, villes. -->\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 for u, d, p, f in urls:
     sm += f"  <url>\n    <loc>{u}</loc>\n    <lastmod>{d}</lastmod>\n    <changefreq>{f}</changefreq>\n    <priority>{p}</priority>\n  </url>\n"

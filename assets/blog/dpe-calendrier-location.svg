@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-label="DPE et location : les dates à connaître">
+<rect width="900" height="470" fill="#ffffff"/>
+<text x="40" y="54" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#0f2744">DPE et location : les dates à connaître</text>
+<line x1="70" y1="250" x2="830" y2="250" stroke="#d9d2c3" stroke-width="4" stroke-linecap="round"/>
+<line x1="70" y1="250" x2="70" y2="216" stroke="#d9d2c3" stroke-width="2"/>
+<circle cx="70" cy="250" r="21" fill="#c8102e" stroke="#ffffff" stroke-width="3"/>
+<text x="70" y="257" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">G</text>
+<text x="48" y="133" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#0f2744">1er janvier 2025</text>
+<text x="48" y="159" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">Les logements classés</text>
+<text x="48" y="180" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">G ne peuvent plus être</text>
+<text x="48" y="201" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">mis en location</text>
+<line x1="323" y1="250" x2="323" y2="284" stroke="#d9d2c3" stroke-width="2"/>
+<circle cx="323" cy="250" r="11" fill="#8f7442" stroke="#ffffff" stroke-width="3"/>
+<text x="323" y="312" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#0f2744">1er janvier 2026</text>
+<text x="323" y="338" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">Nouveau calcul pour le</text>
+<text x="323" y="359" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">chauffage électrique :</text>
+<text x="323" y="380" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">coefficient 1,9 au</text>
+<text x="323" y="401" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">lieu de 2,3</text>
+<line x1="577" y1="250" x2="577" y2="216" stroke="#d9d2c3" stroke-width="2"/>
+<circle cx="577" cy="250" r="21" fill="#d9541e" stroke="#ffffff" stroke-width="3"/>
+<text x="577" y="257" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">F</text>
+<text x="577" y="154" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#0f2744">1er janvier 2028</text>
+<text x="577" y="180" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">Au tour des logements</text>
+<text x="577" y="201" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">classés F</text>
+<line x1="830" y1="250" x2="830" y2="284" stroke="#d9d2c3" stroke-width="2"/>
+<circle cx="830" cy="250" r="21" fill="#b97a00" stroke="#ffffff" stroke-width="3"/>
+<text x="830" y="257" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">E</text>
+<text x="852" y="312" text-anchor="end" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#0f2744">1er janvier 2034</text>
+<text x="852" y="338" text-anchor="end" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">Au tour des logements</text>
+<text x="852" y="359" text-anchor="end" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#52647c">classés E</text>
+<text x="40" y="446" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#52647c">Source : loi Climat et Résilience du 22 août 2021 ; arrêté du 13 août 2025. LOTIER Immobilier, novembre 2026.</text>
+</svg>

@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 140,
+  "liens": 143,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 139,
+  "pages_indexables": 142,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -1991,6 +1991,24 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html",
    "type": "article",
    "balisage": [
@@ -2082,6 +2100,24 @@
     "Answer",
     "BlogPosting",
     "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
     "FAQPage",
     "ImageObject",
     "ListItem",
@@ -2213,6 +2249,24 @@
     "Answer",
     "BlogPosting",
     "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
     "FAQPage",
     "ImageObject",
     "ListItem",

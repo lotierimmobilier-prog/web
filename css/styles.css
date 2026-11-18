@@ -1356,3 +1356,22 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 /* Fiche annonce : titre d'origine de l'agent sous le titre factuel, et résumé « En bref » */
 .ann-accroche { margin: 0; font-size: clamp(17px, 1.8vw, 21px); font-weight: 500; color: var(--mut); max-width: 60ch; }
 .ann-bref p { margin: 0; line-height: 1.7; }
+
+/* Articles du blog : tableau, chiffres clés, visuel, sources */
+.art-table { overflow-x: auto; border: 1px solid var(--line, #e3ddd0); border-radius: 14px; background: #fff; }
+.art-table table { width: 100%; border-collapse: collapse; font-size: 15.5px; line-height: 1.5; }
+.art-table caption { caption-side: bottom; padding: 10px 14px; font-size: 13.5px; color: var(--mut); text-align: left; border-top: 1px solid var(--line, #e3ddd0); }
+.art-table th, .art-table td { padding: 11px 14px; text-align: left; vertical-align: top; }
+.art-table thead th { background: var(--navy, #0f2744); color: #fff; font-weight: 600; white-space: nowrap; }
+.art-table tbody tr + tr > * { border-top: 1px solid var(--line, #e3ddd0); }
+.art-table tbody th { font-weight: 600; color: var(--navy, #0f2744); }
+.art-table tbody td { color: #2d4157; font-variant-numeric: tabular-nums; }
+.prose ul.art-chiffres { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.art-chiffres li { display: grid; gap: 4px; padding: 16px 18px; border: 1px solid var(--line, #e3ddd0); border-radius: 14px; background: #fff; }
+.art-chiffres strong { font-size: clamp(26px, 3vw, 34px); font-weight: 600; letter-spacing: -.02em; line-height: 1.1; color: var(--navy, #0f2744); }
+.art-chiffres span { font-size: 14.5px; line-height: 1.45; color: var(--mut); }
+.art-visuel { margin: 4px 0; overflow-x: auto; }      /* sur téléphone, le visuel garde une taille lisible et défile */
+.art-visuel img { display: block; width: 100%; min-width: 760px; height: auto; border: 1px solid var(--line, #e3ddd0); border-radius: 14px; background: #fff; }
+.art-visuel figcaption { margin-top: 8px; font-size: 13.5px; color: var(--mut); }
+.prose ul.art-sources { font-size: 15px; }
+.art-sources a { color: var(--gold-t); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }

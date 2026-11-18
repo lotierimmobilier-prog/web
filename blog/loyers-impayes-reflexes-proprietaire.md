@@ -103,6 +103,12 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Bailleur** 18 novembre 2026 5 min
+
+### [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
+
+Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à l'électricité. Comment mettre à jour son étiquette sans nouveau diagnostic, et ce qui attend les logements classés F en 2028.
+
  **Bailleur** 7 février 2026 4 min
 
 ### [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
@@ -114,12 +120,6 @@ Ce que mesure le diagnostic de performance énergétique, sa durée de validité
 ### [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
 
 Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
-
- **Vendre** 26 octobre 2026 5 min
-
-### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
-
-Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
 
 Recrutement
 

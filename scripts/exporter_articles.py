@@ -17,7 +17,7 @@ def exporter():
     for a in sorted(C.ARTICLES, key=lambda x: x["slug"]):
         sections = []
         for titre, blocs in a["sections"]:
-            sections.append({"titre": titre, "blocs": [{"type": "liste", "items": list(b)} if isinstance(b, list) else {"type": "texte", "texte": b} for b in blocs]})
+            sections.append({"titre": titre, "blocs": [b if isinstance(b, dict) else {"type": "liste", "items": list(b)} if isinstance(b, list) else {"type": "texte", "texte": b} for b in blocs]})
         sortie.append({
             "slug": a["slug"], "titre": a["title"], "titreSeo": a.get("seo_title"), "description": a["desc"], "categorie": a["cat"],
             "cta": a["cta"], "photo": a["photo"], "photoAlt": a["alt"], "ville": a.get("city"), "intro": a["intro"],

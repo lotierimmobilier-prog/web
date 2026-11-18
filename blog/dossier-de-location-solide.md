@@ -107,17 +107,17 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 
 Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
 
- **Vendre** 26 octobre 2026 5 min
+ **Acheter** 18 novembre 2026 5 min
 
-### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
 
-Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
 
- **Acheter** 2 octobre 2026 4 min
+ **Acheter** 18 novembre 2026 6 min
 
-### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+### [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
 
-Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
+Prêt à taux zéro élargi aux jeunes parents, location meublée moins avantageuse, MaPrimeRénov' recentrée, APL gelées : les mesures logement du projet de loi de finances 2027, encore en discussion.
 
 Recrutement
 
