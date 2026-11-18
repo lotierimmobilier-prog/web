@@ -141,21 +141,7 @@ Oui
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **100** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **12** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **100** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **12** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 3 120 € et 4 300 €** par an.
 
@@ -218,8 +204,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)
-
  111 000 €
 
 ### Terrain constructible de 1 470 m2 à Villedubert
@@ -227,8 +211,6 @@ Annonce proposée par LOTIER Immobilier.
  Villedubert · 1470 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €
 
@@ -238,8 +220,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -247,8 +227,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -260,8 +238,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
-
  330 000 €
 
 ### Carcassonne Confort, élégance et espace pour toute la fami
@@ -270,8 +246,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -279,8 +253,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 

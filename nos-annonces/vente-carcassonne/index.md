@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
 
 ## Liste des annonces
 
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
-
  80 000 €
 
 ### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
@@ -17,8 +15,6 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 
@@ -28,8 +24,6 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
-
  230 000 €
 
 ### Immeuble de rapport
@@ -37,8 +31,6 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
  Carcassonne · 166 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
 
  170 000 €
 

@@ -1030,8 +1030,8 @@ main .section:nth-of-type(even)::before { right: auto; left: -220px; transform: 
 .ann-nrj-val { font-weight: 400; color: var(--mut); }
 .ann-nrj-val b { color: var(--fg); font-size: 1.15em; }
 .ann-nrj-bar { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; align-items: end; }
-.ann-nrj-bar li { display: grid; place-items: center; height: 30px; border-radius: 6px; background: var(--c); color: #0a1c33; font-weight: 700; font-size: 14px; opacity: .45; }
-.ann-nrj-bar li.is-on { opacity: 1; height: 46px; font-size: 20px; box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--navy); }
+.ann-nrj-bar span { display: grid; place-items: center; height: 30px; border-radius: 6px; background: var(--c); color: #0a1c33; font-weight: 700; font-size: 14px; opacity: .45; }
+.ann-nrj-bar span.is-on { opacity: 1; height: 46px; font-size: 20px; box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--navy); }
 .ann-nrj-note { margin: 4px 0 0; color: var(--mut); font-size: 15px; }
 .ann-det { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
 .ann-det > summary { cursor: pointer; font-weight: 600; color: var(--navy); padding: 6px 0; }

@@ -120,8 +120,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
-
  80 000 €
 
 ### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
@@ -129,8 +127,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
 
@@ -140,8 +136,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
-
  54 000 €
 
 ### Capendu studio meublé vendu loué terrasse renta brute
@@ -149,8 +143,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 27,4 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 
@@ -162,8 +154,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -172,8 +162,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
-
  60 000 €
 
 ### Fond de commerce à vendre Axe principal traversant Capendu
@@ -181,8 +169,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
 
  45 000 €
 

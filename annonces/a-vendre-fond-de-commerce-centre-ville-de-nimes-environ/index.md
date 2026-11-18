@@ -101,8 +101,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Elodie
 
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
-
  365 000 €
 
 ### Nimes – à vendre fond de commerce restaurant
@@ -110,8 +108,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 155,21 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
 
  395 000 €
 
@@ -121,8 +117,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
-
  415 € par mois
 
 ### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
@@ -130,8 +124,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 14,99 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
 
  320 000 €
 
@@ -143,8 +135,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
-
  261 000 €
 
 ### Investissement Nîmes Murs commerciaux + studio loué 111
@@ -153,8 +143,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
-
  210 000 €
 
 ### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
@@ -162,8 +150,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 75,04 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
 
  351 900 €
 

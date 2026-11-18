@@ -76,8 +76,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
 
 ## Nos biens les plus proches, *autour d’Agde.*
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
-
  210 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
@@ -85,8 +83,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
  Béziers · 20 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)
 
  430 € par mois
 
@@ -96,8 +92,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)
-
  Prix sur demande
 
 ### Local commercial boulevard de Genève
@@ -105,8 +99,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
  Béziers · 77 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)
 
  76 000 €
 
@@ -116,8 +108,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)
-
  533 € par mois
 
 ### À louer appartement T3 spacieux en centre-ville historique
@@ -125,8 +115,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
  Béziers · 65,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)
 
  504 € par mois
 

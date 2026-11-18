@@ -42,8 +42,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
- [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
-
  255 000 €
 
 ### Marguerittes – immeuble avec local commercial et deux appart
@@ -51,8 +49,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Marguerittes · 142 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
 
  261 000 €
 
@@ -62,8 +58,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)
-
  174 000 €
 
 ### À vendre maison de village d’environ 190 m2 avec extérieur
@@ -71,8 +65,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Villeneuve-lès-Béziers · 191 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)
 
  Prix sur demande
 
@@ -82,8 +74,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)
-
  76 000 €
 
 ### À vendre appartement T3 lumineux secteur gare / maréchal
@@ -91,8 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Béziers · 53 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
 
  650 € par mois
 
@@ -102,8 +90,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -111,8 +97,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)
 
  650 € par mois
 

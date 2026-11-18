@@ -97,21 +97,7 @@ Oui
 - Caractère meublé **Location meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **112** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **112** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 760 € et 1 080 €** par an.
 
@@ -163,8 +149,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
-
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -172,8 +156,6 @@ Annonce proposée par LOTIER Immobilier.
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
 
  760 € par mois
 
@@ -183,8 +165,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
-
  450 € par mois
 
 ### Appartement T2 meublé à Capendu
@@ -192,8 +172,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 33,4 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
 
  750 € par mois
 
@@ -205,8 +183,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
-
  660 € par mois
 
 ### Local Commercial Zone Commercial Capendu
@@ -215,8 +191,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -224,8 +198,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €
 

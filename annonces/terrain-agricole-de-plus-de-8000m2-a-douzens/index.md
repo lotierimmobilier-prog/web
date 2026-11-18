@@ -94,8 +94,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
-
  65 000 €
 
 ### Grande maison de village sur 3 niveaux à Rieux-Minervois
@@ -103,8 +101,6 @@ Annonce proposée par LOTIER Immobilier.
  Rieux-Minervois · 112,37 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)
 
  89 000 €
 
@@ -114,8 +110,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)
-
  22 000 €
 
 ### Terrain de loisir à proximité des habitations
@@ -123,8 +117,6 @@ Annonce proposée par LOTIER Immobilier.
  Barbaira · 1400 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €
 
@@ -136,8 +128,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -146,8 +136,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
-
  54 000 €
 
 ### Capendu studio meublé vendu loué terrasse renta brute
@@ -155,8 +143,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 27,4 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 

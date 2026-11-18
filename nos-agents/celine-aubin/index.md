@@ -16,8 +16,6 @@ Nîmes
 
 1 à vendre
 
- [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
-
  243 000 €
 
 ### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch

@@ -133,21 +133,7 @@ Oui
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **121** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **4** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **121** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **4** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 1 230 € et 1 720 €** par an.
 
@@ -210,8 +196,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -219,8 +203,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -230,8 +212,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -239,8 +219,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 
@@ -252,8 +230,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
-
  45 000 €
 
 ### Garage viabilisé de 134 m2 sur deux niveaux
@@ -262,8 +238,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
-
  38 500 €
 
 ### Maison de village à rénover avec grange Capendu (11)
@@ -271,8 +245,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)
 
  175 000 €
 

@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Montpellier : 3 appa
 
 ## Liste des annonces
 
- [VENTE ](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)
-
  155 000 €
 
 ### Montpellier Appartement 2 pièces avec cave et cour privati
@@ -18,8 +16,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Montpellier : 3 appa
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)
-
  241 000 €
 
 ### Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga
@@ -27,8 +23,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Montpellier : 3 appa
  Montpellier · 41,07 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)
 
  284 000 €
 

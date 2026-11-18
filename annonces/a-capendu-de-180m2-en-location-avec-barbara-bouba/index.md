@@ -81,8 +81,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
-
  450 € par mois
 
 ### Appartement T2 meublé à Capendu
@@ -90,8 +88,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 33,4 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
 
  660 € par mois
 
@@ -101,8 +97,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -110,8 +104,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
 
@@ -123,8 +115,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
-
  54 000 €
 
 ### Capendu studio meublé vendu loué terrasse renta brute
@@ -133,8 +123,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -142,8 +130,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 

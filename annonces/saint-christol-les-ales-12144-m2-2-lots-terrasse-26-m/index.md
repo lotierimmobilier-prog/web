@@ -169,8 +169,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Elodie
 
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
-
  164 300 €
 
 ### ALES maison des années 60 de 90 m2 avec jardin et parking 4
@@ -178,8 +176,6 @@ Annonce proposée par LOTIER Immobilier.
  Alès · 89 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)
 
  214 000 €
 
@@ -189,8 +185,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -198,8 +192,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
 
  320 000 €
 
@@ -211,8 +203,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/)
-
  57 000 €
 
 ### Saint Ambroix à proximité d’Alès local commercial + appartem
@@ -221,8 +211,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
-
  243 000 €
 
 ### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
@@ -230,8 +218,6 @@ Annonce proposée par LOTIER Immobilier.
  Meynes · 87,16 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)
 
  230 000 €
 

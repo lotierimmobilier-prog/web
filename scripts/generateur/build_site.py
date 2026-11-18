@@ -74,10 +74,10 @@ FAQ = [
 CATS = ["Vendeur", "Acquéreur", "Bailleur", "Locataire", "Copropriétaire"]
 CITIES = ["Béziers", "Montpellier", "Nîmes", "Avignon", "Narbonne", "Carcassonne", "Agde"]
 
-def img(name, alt, cls="", lazy=True):
+def img(name, alt, cls="", lazy=True, larg=560):
     path = f"{ROOT}/assets/photos/{name}.jpg"
     w, h = Image.open(path).size
-    return f'<img src="assets/photos/{name}.jpg" alt="{e(alt)}" width="{w}" height="{h}"{" loading=\"lazy\" decoding=\"async\"" if lazy else ""}{" class=\"" + cls + "\"" if cls else ""}>'
+    return f'<img src="assets/photos/{name}.jpg"{C.srcset_photo("", name, w, larg)} alt="{e(alt)}" width="{w}" height="{h}"{" loading=\"lazy\" decoding=\"async\"" if lazy else ""}{" class=\"" + cls + "\"" if cls else ""}>'
 
 def svg(path):
     return f'<svg viewBox="0 0 24 24" aria-hidden="true">{path}</svg>'
@@ -115,7 +115,7 @@ _VT = {"beziers": ("bez-pont", "Siège de l'agence, rue Française. Cathédrale,
        "agde": ("agde", "La Perle noire de la Méditerranée : port, Grau d'Agde et Cap d'Agde.")}
 def _vcard(c):
     ph, tx = _VT[c["key"]]
-    return f'''<a class="glass city-card" href="{c["slug"]}.html"><div class="ph">{img(ph, "Photo d'illustration : " + c["name"])}</div><div class="city-card-body"><h3>Immobilier à {e(c["name"])}</h3><p>{e(tx)}</p><span class="text-link">Voir la page {e(c["name"])}</span></div></a>'''
+    return f'''<a class="glass city-card" href="{c["slug"]}.html"><div class="ph">{img(ph, "Photo d'illustration : " + c["name"], larg=400)}</div><div class="city-card-body"><h3>Immobilier à {e(c["name"])}</h3><p>{e(tx)}</p><span class="text-link">Voir la page {e(c["name"])}</span></div></a>'''
 VILLES = f'''<section class="section container" id="villes" aria-labelledby="t-villes">
       <div class="section-head" data-r>
         <div class="stack-3"><span class="label">Nos villes</span><h2 class="title" id="t-villes">Une agence <em class="gold-text">de Nîmes à Carcassonne.</em></h2></div>
@@ -148,7 +148,7 @@ def card(photo, alt, loc):
     price = "[LOYER] € par mois" if loc else "[PRIX] €"
     return f'''
           <article class="card" data-tilt>
-            <div class="ph">{img(photo, alt)}{badge}</div>
+            <div class="ph">{img(photo, alt, larg=400)}{badge}</div>
             <div class="card-body">
               <span class="price">{price}</span>
               <h3 class="heading">[TYPE DE BIEN] · [VILLE]</h3>
@@ -224,7 +224,7 @@ page = f'''<!doctype html>
   <main id="contenu">
 
     <section class="home-hero" id="accueil-hero" aria-labelledby="titre-accueil">
-      <div class="hh-photo"><picture><source media="(max-width: 700px) and (max-aspect-ratio: 2/3)" srcset="assets/intro/bez-pont-p.jpg" width="700" height="934"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></picture></div>
+      <div class="hh-photo"><picture><source media="(max-width: 700px) and (max-aspect-ratio: 2/3)" srcset="assets/intro/bez-pont-p.jpg" width="450" height="600"><img src="assets/intro/bez-pont.jpg" width="1400" height="933" alt="La cathédrale Saint-Nazaire et le Pont-Vieux à Béziers" fetchpriority="high"></picture></div>
       <div class="hh-shade" aria-hidden="true"></div>
       <div class="container hh-inner">
         <div class="hh-copy">

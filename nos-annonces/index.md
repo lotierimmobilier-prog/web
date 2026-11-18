@@ -8,8 +8,6 @@ Source : https://lotier.immo/nos-annonces/
 
 ## Liste des annonces
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
-
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -17,8 +15,6 @@ Source : https://lotier.immo/nos-annonces/
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
 
  255 000 €
 
@@ -28,8 +24,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -37,8 +31,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)
 
  650 € par mois
 
@@ -48,8 +40,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)
-
  465 € par mois
 
 ### Studio Spacieux au Centre de Limoux
@@ -57,8 +47,6 @@ Source : https://lotier.immo/nos-annonces/
  Limoux · 68 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
 
  210 € par mois
 
@@ -68,8 +56,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)
-
  500 € par mois
 
 ### Appartement T1 Narbonne centre historique 38,2 m2
@@ -77,8 +63,6 @@ Source : https://lotier.immo/nos-annonces/
  Narbonne · 38,2 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)
 
  430 € par mois
 
@@ -88,8 +72,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
-
  261 000 €
 
 ### Investissement Nîmes Murs commerciaux + studio loué 111
@@ -97,8 +79,6 @@ Source : https://lotier.immo/nos-annonces/
  Nîmes · 111,36 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
 
  415 € par mois
 
@@ -108,8 +88,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)
-
  174 000 €
 
 ### À vendre maison de village d’environ 190 m2 avec extérieur
@@ -117,8 +95,6 @@ Source : https://lotier.immo/nos-annonces/
  Villeneuve-lès-Béziers · 191 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
 
  750 € par mois
 
@@ -128,8 +104,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)
-
  Prix sur demande
 
 ### Local commercial boulevard de Genève
@@ -137,8 +111,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 77 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)
 
  76 000 €
 
@@ -148,8 +120,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
-
  164 300 €
 
 ### ALES maison des années 60 de 90 m2 avec jardin et parking 4
@@ -157,8 +127,6 @@ Source : https://lotier.immo/nos-annonces/
  Alès · 89 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)
 
  250 000 €
 
@@ -168,8 +136,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)
-
  243 000 €
 
 ### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
@@ -177,8 +143,6 @@ Source : https://lotier.immo/nos-annonces/
  Meynes · 87,16 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)
 
  533 € par mois
 
@@ -188,8 +152,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)
-
  504 € par mois
 
 ### À louer appartement T3 spacieux en centre-ville historique
@@ -197,8 +159,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 57,12 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
 
  450 € par mois
 
@@ -208,8 +168,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
-
  320 000 €
 
 ### Clarensac dans la vaunage entre Nîmes et Montpellier maison
@@ -217,8 +175,6 @@ Source : https://lotier.immo/nos-annonces/
  Clarensac · 127 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)
 
  263 000 €
 
@@ -228,8 +184,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)
-
  357 000 €
 
 ### A vendre beziers quartier cathedrale (34) immeuble a fort
@@ -237,8 +191,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 185 m² · 5 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)
 
  635 € par mois
 
@@ -248,8 +200,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -257,8 +207,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -268,8 +216,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)
-
  122 000 €
 
 ### Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
@@ -277,8 +223,6 @@ Source : https://lotier.immo/nos-annonces/
  Saint-Christol-lez-Alès · 136,39 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)
 
  850 € par mois
 
@@ -288,8 +232,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)
-
  224 000 €
 
 ### Nouveauté à Capendu maison 140 m2 avec piscine, garage et
@@ -297,8 +239,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 140 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
 
  365 000 €
 
@@ -308,8 +248,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)
-
  89 000 €
 
 ### Maison vendue louée et meublée Investissement locatif clé
@@ -317,8 +255,6 @@ Source : https://lotier.immo/nos-annonces/
  Pezens · 81 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)
 
  207 000 €
 
@@ -328,8 +264,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)
-
  155 000 €
 
 ### Montpellier Appartement 2 pièces avec cave et cour privati
@@ -337,8 +271,6 @@ Source : https://lotier.immo/nos-annonces/
  Montpellier · 52 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)
 
  5 000 €
 
@@ -348,8 +280,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)
-
  394 € par mois
 
 ### À louer appartement T2 de 31 m2 en centre-ville historique
@@ -357,8 +287,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 32,75 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)
 
  230 000 €
 
@@ -368,8 +296,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)
-
  220 000 €
 
 ### Caveirac T2 neuf avec patio privatif et frais de notaire r
@@ -377,8 +303,6 @@ Source : https://lotier.immo/nos-annonces/
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/)
 
  360 000 €
 
@@ -388,8 +312,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/)
-
  309 000 €
 
 ### Coup de coeur à Calvisson : Villa T4 de 2016 avec jardin, gar
@@ -397,8 +319,6 @@ Source : https://lotier.immo/nos-annonces/
  Calvisson · 84,55 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/)
 
  399 000 €
 
@@ -408,8 +328,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)
-
  149 800 €
 
 ### À vendre appartement T3 lumineux avec terrasse, box en sou
@@ -417,8 +335,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 83,85 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)
 
  299 000 €
 
@@ -428,8 +344,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)
-
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -437,8 +351,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/)
 
  239 000 €
 
@@ -448,8 +360,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)
-
  175 000 €
 
 ### Maison familiale 136 m2 + 90 m2 de garages et dépendances
@@ -457,8 +367,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 136,63 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)
 
  241 000 €
 
@@ -468,8 +376,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)
-
  284 000 €
 
 ### Proche Clémentville, dernier étage avec garage.
@@ -477,8 +383,6 @@ Source : https://lotier.immo/nos-annonces/
  Montpellier · 90,64 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €
 
@@ -488,8 +392,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)
-
  55 000 €
 
 ### À vendre appartement T2 bis avec terrasse dernier étage,
@@ -497,8 +399,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 48,34 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)
 
  124 000 €
 
@@ -508,8 +408,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)
-
  135 000 €
 
 ### À vendre appartement aux beaux volumes immeuble bourgeoi
@@ -517,8 +415,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 100,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)
 
  129 600 €
 
@@ -528,8 +424,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
-
  60 000 €
 
 ### Fond de commerce à vendre Axe principal traversant Capendu
@@ -537,8 +431,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 120 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
 
  395 000 €
 
@@ -548,8 +440,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
-
  65 000 €
 
 ### Grande maison de village sur 3 niveaux à Rieux-Minervois
@@ -557,8 +447,6 @@ Source : https://lotier.immo/nos-annonces/
  Rieux-Minervois · 112,37 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
 
  38 500 €
 
@@ -568,8 +456,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
-
  210 000 €
 
 ### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
@@ -577,8 +463,6 @@ Source : https://lotier.immo/nos-annonces/
  Nîmes · 75,04 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 
@@ -588,8 +472,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -597,8 +479,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)
 
  214 000 €
 
@@ -608,8 +488,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/)
-
  57 000 €
 
 ### Saint Ambroix à proximité d’Alès local commercial + appartem
@@ -617,8 +495,6 @@ Source : https://lotier.immo/nos-annonces/
  Saint-Ambroix · 68 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)
 
  1 145 000 €
 
@@ -628,8 +504,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)
-
  111 000 €
 
 ### Terrain constructible de 1 470 m2 à Villedubert
@@ -637,8 +511,6 @@ Source : https://lotier.immo/nos-annonces/
  Villedubert · 1470 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/)
 
  177 000 €
 
@@ -648,8 +520,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)
-
  99 000 €
 
 ### Maison de village de 63m2 à Villemoutaussou vendue louée
@@ -657,8 +527,6 @@ Source : https://lotier.immo/nos-annonces/
  Villemoustaussou · 67 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)
 
  70 000 €
 
@@ -668,8 +536,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)
-
  110 000 €
 
 ### Terrain constructible de 3000m2 à Floure
@@ -677,8 +543,6 @@ Source : https://lotier.immo/nos-annonces/
  Floure · 3000 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
 
  230 000 €
 
@@ -688,8 +552,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)
-
  280 000 €
 
 ### Nîmes proche gare – Belle résidence neuve – appartement type
@@ -697,8 +559,6 @@ Source : https://lotier.immo/nos-annonces/
  Nîmes · 73,6 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
 
  351 900 €
 
@@ -708,8 +568,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)
-
  249 900 €
 
 ### Nîmes Capouchiné – résidence neuve – FRAIS DE NOTAIRE REDUIT
@@ -717,8 +575,6 @@ Source : https://lotier.immo/nos-annonces/
  Nîmes · 64,1 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)
 
  234 900 €
 
@@ -728,8 +584,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)
-
  726 € par mois
 
 ### A louer Béziers centre-ville (34) immeuble bourgeois a
@@ -737,8 +591,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 98 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
 
  660 € par mois
 
@@ -748,8 +600,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)
-
  735 € par mois
 
 ### À louer bureaux de caractère rue Clemenceau, coeur de vil
@@ -757,8 +607,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 100 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)
 
  22 000 €
 
@@ -768,8 +616,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)
-
  209 000 €
 
 ### A vendre, beziers (34) quartier de la crouzette maison T7
@@ -777,8 +623,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 120 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)
 
  149 000 €
 
@@ -788,8 +632,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
-
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -797,8 +639,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 180 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
 
  45 000 €
 
@@ -808,8 +648,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
-
  170 000 €
 
 ### Immeuble avec 1 local commercial et 1 T4
@@ -818,8 +656,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)
-
  25 000 €
 
 ### Terrain de loisir à Capendu
@@ -827,8 +663,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 1457 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
 
  45 000 €
 

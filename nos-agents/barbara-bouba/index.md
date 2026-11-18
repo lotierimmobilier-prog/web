@@ -14,8 +14,6 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)
-
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -23,8 +21,6 @@ Carcassonne · Narbonne
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
 
  750 € par mois
 
@@ -34,8 +30,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)
-
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -43,8 +37,6 @@ Carcassonne · Narbonne
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)
 
  500 € par mois
 
@@ -54,8 +46,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
-
  750 € par mois
 
 ### Appartement T4 non meublé – centre ville Carcassonne
@@ -63,8 +53,6 @@ Carcassonne · Narbonne
  Carcassonne · 106,58 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
 
  450 € par mois
 
@@ -74,8 +62,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -83,8 +69,6 @@ Carcassonne · Narbonne
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
 
  54 000 €
 
@@ -94,8 +78,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)
-
  224 000 €
 
 ### Nouveauté à Capendu maison 140 m2 avec piscine, garage et
@@ -103,8 +85,6 @@ Carcassonne · Narbonne
  Capendu · 140 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)
 
  89 000 €
 
@@ -114,8 +94,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)
-
  207 000 €
 
 ### TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
@@ -123,8 +101,6 @@ Carcassonne · Narbonne
  Trèbes · 105 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)
 
  5 000 €
 
@@ -134,8 +110,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)
-
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -143,8 +117,6 @@ Carcassonne · Narbonne
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/)
 
  239 000 €
 
@@ -154,8 +126,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)
-
  175 000 €
 
 ### Maison familiale 136 m2 + 90 m2 de garages et dépendances
@@ -163,8 +133,6 @@ Carcassonne · Narbonne
  Capendu · 136,63 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
 
  80 000 €
 
@@ -174,8 +142,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
-
  60 000 €
 
 ### Fond de commerce à vendre Axe principal traversant Capendu
@@ -183,8 +149,6 @@ Carcassonne · Narbonne
  Capendu · 120 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
 
  65 000 €
 
@@ -194,8 +158,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)
-
  38 500 €
 
 ### Maison de village à rénover avec grange Capendu (11)
@@ -203,8 +165,6 @@ Carcassonne · Narbonne
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 
@@ -214,8 +174,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -223,8 +181,6 @@ Carcassonne · Narbonne
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)
 
  1 145 000 €
 
@@ -234,8 +190,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)
-
  111 000 €
 
 ### Terrain constructible de 1 470 m2 à Villedubert
@@ -243,8 +197,6 @@ Carcassonne · Narbonne
  Villedubert · 1470 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)
 
  99 000 €
 
@@ -254,8 +206,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)
-
  110 000 €
 
 ### Terrain constructible de 3000m2 à Floure
@@ -263,8 +213,6 @@ Carcassonne · Narbonne
  Floure · 3000 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
 
  230 000 €
 
@@ -274,8 +222,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
-
  660 € par mois
 
 ### Local Commercial Zone Commercial Capendu
@@ -283,8 +229,6 @@ Carcassonne · Narbonne
  Capendu · 66 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)
 
  22 000 €
 
@@ -294,8 +238,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
-
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -303,8 +245,6 @@ Carcassonne · Narbonne
  Capendu · 180 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)
 
  45 000 €
 
@@ -314,8 +254,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
-
  170 000 €
 
 ### Immeuble avec 1 local commercial et 1 T4
@@ -323,8 +261,6 @@ Carcassonne · Narbonne
  Carcassonne · 170 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/)
 
  25 000 €
 

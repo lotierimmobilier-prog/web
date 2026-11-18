@@ -81,7 +81,20 @@ def _vignettes():
         src, dst = f"{ROOT}/assets/intro/{nom}.jpg", f"{ROOT}/assets/intro/{nom}-p.jpg"
         if os.path.exists(src) and (not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src)):
             im = Image.open(src).convert("RGB"); w, h = im.size; lw = min(w, round(h * 0.75)); x0 = round((w - lw) * pos)
-            im.crop((x0, 0, x0 + lw, h)).save(dst, "JPEG", quality=74, optimize=True, progressive=True)
+            im = im.crop((x0, 0, x0 + lw, h))
+            if im.height > 600: im = im.resize((round(im.width * 600 / im.height), 600), Image.LANCZOS)      # 450 × 600 : même netteté que l'image de 800 px servie aux téléphones par l'hébergeur, moitié moins de pixels
+            im.save(dst, "JPEG", quality=74, optimize=True, progressive=True)
+    # Photos d'illustration : variantes de 480 et 960 px de large (cartes, colonnes, écrans ordinaires)
+    for f in sorted(os.listdir(f"{ROOT}/assets/photos")):
+        if not f.endswith(".jpg"): continue
+        src = f"{ROOT}/assets/photos/{f}"
+        for larg in (480, 960):
+            dst = f"{ROOT}/assets/photos/w{larg}/{f}"
+            if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src): continue
+            im = Image.open(src).convert("RGB")
+            if im.width <= larg: continue
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            im.resize((larg, round(im.height * larg / im.width)), Image.LANCZOS).save(dst, "JPEG", quality=76, optimize=True, progressive=True)
     d = f"{ROOT}/assets/annonces"
     if not os.path.isdir(d): return
     try: voulues = {os.path.basename(x["photo"]) for x in json.load(open(f"{ROOT}/data/annonces.json", encoding="utf-8")).get("annonces", []) if x.get("photo")}
@@ -134,12 +147,18 @@ ARROW = svg('<path d="M4 12h16M14 6l6 6-6 6"/>')
 LEFT = svg('<path d="M20 12H4M10 6l-6 6 6 6"/>')
 MENU = svg('<path d="M4 8h16M4 16h16"/>')
 
-def img(prefix, name, alt, cls="", lazy=True):
+def srcset_photo(prefix, name, w, larg=600):
+    """srcset d'une photo d'illustration : variantes de 480 et 960 px (créées par _vignettes) et original ; `larg` = largeur d'affichage sur grand écran."""
+    v = [(x, f"{prefix}assets/photos/w{x}/{name}.jpg") for x in (480, 960) if x < w and os.path.exists(f"{ROOT}/assets/photos/w{x}/{name}.jpg")]
+    if not v: return ""
+    return f' srcset="{", ".join(f"{u} {x}w" for x, u in v)}, {prefix}assets/photos/{name}.jpg {w}w" sizes="(max-width: 700px) 100vw, {larg}px"'
+
+def img(prefix, name, alt, cls="", lazy=True, larg=600):
     path = f"{ROOT}/assets/photos/{name}.jpg"
     w, h = Image.open(path).size
     extra = ' loading="lazy" decoding="async"' if lazy else ""
     c = f' class="{cls}"' if cls else ""
-    return f'<img src="{prefix}assets/photos/{name}.jpg" alt="{e(alt)}" width="{w}" height="{h}"{extra}{c}>'
+    return f'<img src="{prefix}assets/photos/{name}.jpg"{srcset_photo(prefix, name, w, larg)} alt="{e(alt)}" width="{w}" height="{h}"{extra}{c}>'
 
 
 # Photos d'illustration : variété et textes alternatifs
@@ -622,7 +641,7 @@ def breadcrumb_ld(items):
 
 def card_article(prefix, a, cls="blog-card"):
     return f'''<article class="{cls}" data-cat="{e(a["cat"])}">
-            <a class="ph" href="{art_url(prefix, a)}" tabindex="-1" aria-hidden="true">{img(prefix, a["photo"], a["alt"])}</a>
+            <a class="ph" href="{art_url(prefix, a)}" tabindex="-1" aria-hidden="true">{img(prefix, a["photo"], a["alt"], larg=400)}</a>
             <div class="blog-card-body">
               <div class="pm"><b>{e(a["cat"])}</b><time datetime="{a["date"].isoformat()}">{fr_date(a["date"])}</time><span>{a["min"]} min</span></div>
               <h3><a href="{art_url(prefix, a)}">{e(a["title"])}</a></h3>
@@ -855,7 +874,7 @@ def annonce_card(a, prefix, sizes="(max-width: 700px) 320px, 380px"):
     texte_lien = "Voir l'annonce" if a.get('description_html') is not None else "Nous contacter"
     return f'''
           <article class="card" data-tilt data-ann-type="{a['type']}" data-ann-ville="{e(a['ville'])}" data-ann-dep="{departement(a)}" data-ann-bien="{categorie_bien(a)}" data-ann-prix="{int(a['prix']) if a.get('prix') else ''}" data-ann-surf="{int(a['surface']) if a.get('surface') else ''}">
-            <div class="ph"><a class="ph-link" href="{lien}" tabindex="-1" aria-label="{e(texte_lien)} : {e(title)}">{photo}{badge}</a></div>
+            <div class="ph"><a class="ph-link" href="{lien}" tabindex="-1" aria-hidden="true">{photo}{badge}</a></div>
             <div class="card-body">
               <span class="price">{_price(a)}</span>
               <h3 class="heading">{e(title)}</h3>

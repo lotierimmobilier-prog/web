@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 
 ## Liste des annonces
 
- [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
-
  261 000 €
 
 ### Investissement Nîmes Murs commerciaux + studio loué 111
@@ -17,8 +15,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
  Nîmes · 111,36 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)
 
  250 000 €
 
@@ -28,8 +24,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
-
  365 000 €
 
 ### Nimes – à vendre fond de commerce restaurant
@@ -37,8 +31,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
  Nîmes · 155,21 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
 
  395 000 €
 
@@ -48,8 +40,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
-
  210 000 €
 
 ### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
@@ -57,8 +47,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
  Nîmes · 75,04 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)
 
  280 000 €
 
@@ -68,8 +56,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
-
  351 900 €
 
 ### Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement
@@ -78,8 +64,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)
-
  249 900 €
 
 ### Nîmes Capouchiné – résidence neuve – FRAIS DE NOTAIRE REDUIT
@@ -87,8 +71,6 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
  Nîmes · 64,1 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
 
  45 000 €
 
