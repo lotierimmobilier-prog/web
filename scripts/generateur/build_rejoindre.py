@@ -44,7 +44,7 @@ poles = "".join(f'<article class="glass"><span class="ico">{ic}</span><h3>{e(t)}
     (svg('<circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3M21 12v2"/>'), "Location et gestion locative", "Une équipe dédiée à Béziers prend en charge la gestion des biens confiés à l'agence."),
     (svg('<path d="M5 21V4h9v17M14 9h5v12M8 8h3M8 12h3M8 16h3M3 21h18"/>'), "Syndic de copropriété", "Plus de 40 copropriétés et 900 lots gérés par l'équipe syndic."),
 ])
-cities = ["Béziers (siège)", "Montpellier", "Nîmes", "Alès", "Avignon", "Narbonne", "Carcassonne", "Brest", "Bordeaux", "Toulouse (bientôt)"]
+cities = ["Béziers (siège)", "Montpellier", "Nîmes", "Alès", "Avignon", "Narbonne", "Carcassonne"]
 city_chips = "".join(f'<span class="chip-link">{e(c)}</span>' for c in cities)
 
 pay = f'''<div class="pay-grid" data-stagger>

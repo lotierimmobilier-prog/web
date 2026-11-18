@@ -56,7 +56,7 @@ Une équipe dédiée à Béziers prend en charge la gestion des biens confiés �
 
 Plus de 40 copropriétés et 900 lots gérés par l'équipe syndic.
 
- Nos implantations Béziers (siège) Montpellier Nîmes Alès Avignon Narbonne Carcassonne Brest Bordeaux Toulouse (bientôt)
+ Nos implantations Béziers (siège) Montpellier Nîmes Alès Avignon Narbonne Carcassonne
  Sans frontière
 
 Les agents commerciaux n'ont aucune restriction géographique pour leur activité de vente : vous pouvez travailler sur toute la France.
