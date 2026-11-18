@@ -170,18 +170,38 @@ for a, off in zip(ARTICLES, _days):
 # absent de Collab n'est pas publié (article dépublié) : on remplace la liste, FAQ comprise. Date, photo et texte viennent de Collab.
 _COLLAB_ARTICLES = CONTENU_COLLAB.articles(
     {os.path.splitext(f)[0] for f in os.listdir(os.path.join(ROOT, "assets", "photos")) if f.endswith(".jpg")},
-    {c["key"] for c in CITIES})
+    {c["key"] for c in CITIES},
+    {f for f in (os.listdir(os.path.join(ROOT, "assets", "blog")) if os.path.isdir(os.path.join(ROOT, "assets", "blog")) else [])})
 if _COLLAB_ARTICLES is not None:
     ARTICLES[:] = [{k: v for k, v in a.items() if k != "faq"} for a in _COLLAB_ARTICLES]
     ART_FAQ.clear()
     ART_FAQ.update({a["slug"]: a["faq"] for a in _COLLAB_ARTICLES if a["faq"]})
+# Articles tenus dans le dépôt (data/articles-site.json) : ajoutés à ceux de Collab ; à adresse égale, Collab l'emporte.
+_deja = {a["slug"] for a in ARTICLES}
+for _a in CONTENU_COLLAB.articles_du_depot(
+        {os.path.splitext(f)[0] for f in os.listdir(os.path.join(ROOT, "assets", "photos")) if f.endswith(".jpg")}, {c["key"] for c in CITIES},
+        {f for f in (os.listdir(os.path.join(ROOT, "assets", "blog")) if os.path.isdir(os.path.join(ROOT, "assets", "blog")) else [])}):
+    if _a["slug"] in _deja: continue
+    ARTICLES.append({k: v for k, v in _a.items() if k != "faq"})
+    if _a["faq"]: ART_FAQ[_a["slug"]] = _a["faq"]
+
+def texte_bloc(b):
+    """Les textes d'un bloc d'article (pour compter les mots) : paragraphe, liste, tableau, chiffres clés, visuel, sources."""
+    if isinstance(b, str): return [b]
+    if isinstance(b, list): return list(b)
+    t = b.get("type")
+    if t == "tableau": return list(b["entetes"]) + [c for l in b["lignes"] for c in l] + ([b["legende"]] if b.get("legende") else [])
+    if t == "chiffres": return [x["valeur"] + " " + x["libelle"] for x in b["items"]]
+    if t == "image": return [b["legende"]] if b.get("legende") else []
+    if t == "sources": return [x["titre"] for x in b["items"]]
+    return []
 
 def _text_of(a):
     parts = [a["intro"]]
     for h, blocks in a["sections"]:
         parts.append(h)
         for b in blocks:
-            parts.extend(b if isinstance(b, list) else [b])
+            parts.extend(texte_bloc(b))
     parts.extend(a["retenir"])
     for q, ans in ART_FAQ.get(a["slug"], []): parts.extend([q, ans])
     return " ".join(parts)

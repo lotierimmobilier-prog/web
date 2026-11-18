@@ -19,7 +19,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 - [Accueil](https://lotier.immo/): présentation, annonces, estimation en ligne.
 - [Conseils immo](https://lotier.immo/#conseils): réponses courtes aux questions des vendeurs, acquéreurs, bailleurs, locataires et copropriétaires.
-- [Blog](https://lotier.immo/blog/): 20 guides pratiques.
+- [Blog](https://lotier.immo/blog/): 23 guides pratiques.
 - [À propos](https://lotier.immo/a-propos/): qui nous sommes, métiers, informations légales.
 - [Nos annonces](https://lotier.immo/nos-annonces/): biens à vendre et à louer.
 - [Contact](https://lotier.immo/contact/): téléphone, e-mail et adresses des agences.
@@ -168,6 +168,9 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 ## Articles du blog
 
+- [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html) (Acheter, 2026-11-18): Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
+- [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html) (Acheter, 2026-11-18): Prêt à taux zéro élargi aux jeunes parents, location meublée moins avantageuse, MaPrimeRénov' recentrée, APL gelées : les mesures logement du projet de loi de finances 2027, encore en discussion.
+- [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html) (Bailleur, 2026-11-18): Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à l'électricité. Comment mettre à jour son étiquette sans nouveau diagnostic, et ce qui attend les logements classés F en 2028.
 - [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html) (Vendre, 2026-10-26): Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
 - [Constituer un dossier de location solide](https://lotier.immo/blog/dossier-de-location-solide.html) (Locataire, 2026-10-17): Pièces à fournir, garants, documents interdits, présentation : comment composer un dossier de location qui rassure le propriétaire et accélère la réponse.
 - [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html) (Acheter, 2026-10-02): Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.

@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://lotier.immo/blog/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -714,6 +714,24 @@
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lotier.immo/blog/home-staging-mieux-vendre.html</loc>

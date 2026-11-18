@@ -116,11 +116,11 @@ Provisions, charges courantes, travaux, fonds de travaux, régularisation : comp
 
 Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
 
- **Vendre** 26 octobre 2026 5 min
+ **Acheter** 18 novembre 2026 5 min
 
-### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
 
-Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
+Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
 
 Recrutement
 

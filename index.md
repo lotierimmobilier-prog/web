@@ -275,25 +275,25 @@ Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la mac
 
 ## L'actu immo de la semaine
 
- [Tous les articles (20)](https://lotier.immo/blog/)
+ [Tous les articles (23)](https://lotier.immo/blog/)
 
- Vendre · 26 octobre 2026
+ Acheter · 18 novembre 2026
+
+### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+
+Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
+ [Lire l'article](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+
+ Acheter · 18 novembre 2026
+
+### [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
+[Lire l'article](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html) Bailleur · 18 novembre 2026
+
+### [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
+[Lire l'article](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html) Vendre · 26 octobre 2026
 
 ### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
-
-Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
- [Lire l'article](https://lotier.immo/blog/home-staging-mieux-vendre.html)
-
- Locataire · 17 octobre 2026
-
-### [Constituer un dossier de location solide](https://lotier.immo/blog/dossier-de-location-solide.html)
-[Lire l'article](https://lotier.immo/blog/dossier-de-location-solide.html) Acheter · 2 octobre 2026
-
-### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
-[Lire l'article](https://lotier.immo/blog/visiter-un-appartement-checklist.html) Acheter · 22 septembre 2026
-
-### [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
-[Lire l'article](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+[Lire l'article](https://lotier.immo/blog/home-staging-mieux-vendre.html)
 
  Devenir agent
 

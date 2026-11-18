@@ -76,8 +76,24 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
  Blog
 
-## Les 20 articles par thème
+## Les 23 articles par thème
  [Voir l'index du blog](https://lotier.immo/blog/)
+
+### Acheter
+
+- [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+- [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
+- [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+- [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+- [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
+- [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
+
+### Bailleur
+
+- [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
+- [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
+- [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
+- [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
 
 ### Vendre
 
@@ -91,13 +107,6 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 - [Constituer un dossier de location solide](https://lotier.immo/blog/dossier-de-location-solide.html)
 - [Dépôt de garantie : montant, restitution, retenues](https://lotier.immo/blog/depot-de-garantie-location.html)
 
-### Acheter
-
-- [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
-- [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
-- [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
-- [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
-
 ### Syndic
 
 - [Assemblée générale de copropriété : bien se préparer](https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html)
@@ -110,12 +119,6 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 - [Vivre à Montpellier : du centre historique aux nouveaux quartiers](https://lotier.immo/blog/vivre-a-montpellier.html)
 - [Vivre à Nîmes : Arènes, Écusson et art de vivre gardois](https://lotier.immo/blog/vivre-a-nimes.html)
 - [Vivre à Béziers : centre ancien, canal et art de vivre](https://lotier.immo/blog/vivre-a-beziers.html)
-
-### Bailleur
-
-- [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
-- [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
-- [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
 
 ---
 
