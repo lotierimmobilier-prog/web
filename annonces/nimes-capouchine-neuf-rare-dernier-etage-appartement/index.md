@@ -83,21 +83,7 @@ Non
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **50** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **1** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **50** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **1** kg CO₂/m².an A B C D E F G
 
 **Voir le diagnostic complet**
 
@@ -150,8 +136,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Nicolas
 
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
-
  210 000 €
 
 ### Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
@@ -159,8 +143,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 75,04 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)
 
  249 900 €
 
@@ -170,8 +152,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)
-
  280 000 €
 
 ### Nîmes proche gare – Belle résidence neuve – appartement type
@@ -179,8 +159,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 73,6 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)
 
  234 900 €
 
@@ -192,8 +170,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -202,8 +178,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)
-
  261 000 €
 
 ### Investissement Nîmes Murs commerciaux + studio loué 111
@@ -211,8 +185,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 111,36 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
 
  365 000 €
 

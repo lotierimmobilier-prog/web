@@ -95,21 +95,7 @@ Oui
 - Caractère meublé **Location meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **259** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **8** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **259** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **8** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 720 € et 1 020 €** par an.
 
@@ -161,8 +147,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
-
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -170,8 +154,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 180 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
 
  660 € par mois
 
@@ -181,8 +163,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -190,8 +170,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
 
  145 000 €
 
@@ -203,8 +181,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
-
  54 000 €
 
 ### Capendu studio meublé vendu loué terrasse renta brute
@@ -213,8 +189,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
-
  399 900 €
 
 ### Ensemble immobilier de 6 lots
@@ -222,8 +196,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)
 
  60 000 €
 

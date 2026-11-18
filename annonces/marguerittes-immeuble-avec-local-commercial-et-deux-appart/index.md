@@ -78,21 +78,7 @@ Oui
 - Prix **255 000 €** *Frais d'agence inclus*
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **100** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **100** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 823 € et 901 €** par an.
 
@@ -152,8 +138,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Elodie
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -161,8 +145,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
 
  164 300 €
 
@@ -172,8 +154,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
-
  320 000 €
 
 ### Clarensac dans la vaunage entre Nîmes et Montpellier maison
@@ -181,8 +161,6 @@ Annonce proposée par LOTIER Immobilier.
  Clarensac · 127 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)
 
  149 000 €
 

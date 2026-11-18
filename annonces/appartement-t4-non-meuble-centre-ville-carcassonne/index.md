@@ -107,21 +107,7 @@ Non
 - Caractère meublé **Location non meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **199** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **41** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **199** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **41** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 1 940 € et 2 670 €** par an.
 
@@ -172,8 +158,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)
-
  80 000 €
 
 ### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
@@ -181,8 +165,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
 
  330 000 €
 
@@ -192,8 +174,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
-
  170 000 €
 
 ### Immeuble avec 1 local commercial et 1 T4
@@ -201,8 +181,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 170 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
 
  230 000 €
 
@@ -214,8 +192,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
-
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -224,8 +200,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
-
  450 € par mois
 
 ### Appartement T2 meublé à Capendu
@@ -233,8 +207,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 33,4 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
 
  660 € par mois
 

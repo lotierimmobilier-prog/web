@@ -165,8 +165,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Frédérique
 
- [VENTE ](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)
-
  250 000 €
 
 ### Nîmes Costières appartement type 3 avec terrasse et garage
@@ -174,8 +172,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 84 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)
 
  230 000 €
 
@@ -185,8 +181,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)
-
  220 000 €
 
 ### Caveirac T2 neuf avec patio privatif et frais de notaire r
@@ -194,8 +188,6 @@ Annonce proposée par LOTIER Immobilier.
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)
 
  299 000 €
 
@@ -207,8 +199,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -217,8 +207,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
-
  365 000 €
 
 ### Nimes – à vendre fond de commerce restaurant
@@ -226,8 +214,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 155,21 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
 
  210 000 €
 

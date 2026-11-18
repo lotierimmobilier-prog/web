@@ -14,8 +14,6 @@ Nîmes Montpellier
 ## Les biens de Élodie
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
- [VENTE ](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)
-
  255 000 €
 
 ### Marguerittes – immeuble avec local commercial et deux appart
@@ -23,8 +21,6 @@ Nîmes Montpellier
  Marguerittes · 142 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)
 
  415 € par mois
 
@@ -34,8 +30,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
-
  164 300 €
 
 ### ALES maison des années 60 de 90 m2 avec jardin et parking 4
@@ -43,8 +37,6 @@ Nîmes Montpellier
  Alès · 89 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)
 
  320 000 €
 
@@ -54,8 +46,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)
-
  122 000 €
 
 ### Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
@@ -63,8 +53,6 @@ Nîmes Montpellier
  Saint-Christol-lez-Alès · 136,39 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)
 
  850 € par mois
 
@@ -74,8 +62,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)
-
  365 000 €
 
 ### Nimes – à vendre fond de commerce restaurant
@@ -83,8 +69,6 @@ Nîmes Montpellier
  Nîmes · 155,21 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)
 
  155 000 €
 
@@ -94,8 +78,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)
-
  241 000 €
 
 ### Espace Saint-Charles : T2 bis avec Terrasse, Mezzanine et ga
@@ -103,8 +85,6 @@ Nîmes Montpellier
  Montpellier · 41,07 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)
 
  284 000 €
 
@@ -114,8 +94,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)
-
  395 000 €
 
 ### Nîmes quartier route D’uzes – maison type 5 avec magnifiqu
@@ -123,8 +101,6 @@ Nîmes Montpellier
  Nîmes · 116 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)
 
  214 000 €
 
@@ -134,8 +110,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)
-
  149 000 €
 
 ### Clarensac – maison de village – 3 chambres – environ 100m2 d
@@ -143,8 +117,6 @@ Nîmes Montpellier
  Clarensac · 80 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)
 
  45 000 €
 

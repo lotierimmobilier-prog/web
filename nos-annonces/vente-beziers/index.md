@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
 ## Liste des annonces
 
- [VENTE ](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)
-
  Prix sur demande
 
 ### Local commercial boulevard de Genève
@@ -17,8 +15,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
  Béziers · 77 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)
 
  76 000 €
 
@@ -28,8 +24,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)
-
  263 000 €
 
 ### A vendre beziers quartier cathedrale (34) immeuble a fort
@@ -37,8 +31,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
  Béziers · 185 m² · 5 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)
 
  357 000 €
 
@@ -48,8 +40,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)
-
  149 800 €
 
 ### À vendre appartement T3 lumineux avec terrasse, box en sou
@@ -57,8 +47,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
  Béziers · 83,85 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)
 
  55 000 €
 
@@ -68,8 +56,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)
-
  124 000 €
 
 ### À vendre appartement T3 avec balcon et box résidence ama
@@ -77,8 +63,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
  Béziers · 61,65 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)
 
  135 000 €
 
@@ -88,8 +72,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)
-
  129 600 €
 
 ### À vendre beziers -appartement de cour privative
@@ -98,8 +80,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)
-
  70 000 €
 
 ### À vendre studio spacieux de 31 m2 avec balcon et garage, a
@@ -107,8 +87,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
  Béziers · 33 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)
 
  209 000 €
 

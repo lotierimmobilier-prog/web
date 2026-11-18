@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux co
 
 ## Liste des annonces
 
- [LOCATION ](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)
-
  750 € par mois
 
 ### Maison de village avec terrasse
@@ -17,8 +15,6 @@ LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux co
  Capendu · 95 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
 
  450 € par mois
 
@@ -28,8 +24,6 @@ LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux co
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)
-
  660 € par mois
 
 ### Local Commercial Zone Commercial Capendu
@@ -37,8 +31,6 @@ LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux co
  Capendu · 66 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
 
  760 € par mois
 

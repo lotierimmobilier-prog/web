@@ -101,21 +101,7 @@ Non
 - Prix **57 000 €** *Frais d'agence inclus*
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **414** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **13** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **414** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **13** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 1 070 € et 1 500 €** par an.
 
@@ -175,8 +161,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Nicolas
 
- [VENTE ](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)
-
  234 900 €
 
 ### Garons dans résidence neuve fin 2024 appartement type 3 avec
@@ -184,8 +168,6 @@ Annonce proposée par LOTIER Immobilier.
  Garons · 67,87 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)
 
  210 000 €
 
@@ -195,8 +177,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)
-
  351 900 €
 
 ### Nîmes Capouchiné – neuf RARE DERNIER ETAGE – appartement
@@ -204,8 +184,6 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 84,48 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/)
 
  249 900 €
 
@@ -217,8 +195,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)
-
  164 300 €
 
 ### ALES maison des années 60 de 90 m2 avec jardin et parking 4
@@ -227,8 +203,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)
-
  122 000 €
 
 ### Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
@@ -236,8 +210,6 @@ Annonce proposée par LOTIER Immobilier.
  Saint-Christol-lez-Alès · 136,39 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)
 
  214 000 €
 

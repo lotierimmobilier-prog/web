@@ -101,21 +101,7 @@ Non
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **191** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **191** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 780 € et 1 100 €** par an.
 
@@ -177,8 +163,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)
-
  330 000 €
 
 ### Carcassonne Confort, élégance et espace pour toute la fami
@@ -186,8 +170,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 240 m² · 5 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)
 
  170 000 €
 
@@ -197,8 +179,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/immeuble-de-rapport/)
-
  230 000 €
 
 ### Immeuble de rapport
@@ -206,8 +186,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 166 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
 
  750 € par mois
 
@@ -219,8 +197,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -229,8 +205,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)
-
  54 000 €
 
 ### Capendu studio meublé vendu loué terrasse renta brute
@@ -238,8 +212,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 27,4 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)
 
  399 900 €
 

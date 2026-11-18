@@ -107,21 +107,7 @@ Non
 - Caractère meublé **Location non meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **176** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **176** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 590 € et 860 €** par an.
 
@@ -171,8 +157,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- [VENTE ](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)
-
  65 000 €
 
 ### Grande maison de village sur 3 niveaux à Rieux-Minervois
@@ -180,8 +164,6 @@ Annonce proposée par LOTIER Immobilier.
  Rieux-Minervois · 112,37 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)
 
  89 000 €
 
@@ -191,8 +173,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)
-
  5 000 €
 
 ### Terrain agricole de plus de 8000m2 à Douzens
@@ -200,8 +180,6 @@ Annonce proposée par LOTIER Immobilier.
  Douzens · 8741 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/)
 
  22 000 €
 
@@ -213,8 +191,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)
-
  430 € par mois
 
 ### À louer appartement T2 boulevard de la Liberté Béziers
@@ -223,8 +199,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)
-
  394 € par mois
 
 ### À louer appartement T2 de 31 m2 en centre-ville historique
@@ -232,8 +206,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 32,75 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)
 
  504 € par mois
 

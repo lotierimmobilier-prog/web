@@ -8,8 +8,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Caveirac : 3 apparte
 
 ## Liste des annonces
 
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)
-
  230 000 €
 
 ### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
@@ -18,8 +16,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Caveirac : 3 apparte
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)
-
  220 000 €
 
 ### Caveirac T2 neuf avec patio privatif et frais de notaire r
@@ -27,8 +23,6 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Caveirac : 3 apparte
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/)
 
  360 000 €
 

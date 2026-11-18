@@ -100,8 +100,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Laetitia
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)
-
  135 000 €
 
 ### À vendre appartement aux beaux volumes immeuble bourgeoi
@@ -109,8 +107,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 100,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)
 
  55 000 €
 
@@ -120,8 +116,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)
-
  124 000 €
 
 ### À vendre appartement T3 avec balcon et box résidence ama
@@ -129,8 +123,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 61,65 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/)
 
  149 800 €
 
@@ -142,8 +134,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)
-
  76 000 €
 
 ### À vendre appartement T3 lumineux secteur gare / maréchal
@@ -152,8 +142,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)
-
  209 000 €
 
 ### A vendre, beziers (34) quartier de la crouzette maison T7
@@ -161,8 +149,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 120 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
-
- [VENTE ](https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/)
 
  129 600 €
 

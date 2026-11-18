@@ -105,21 +105,7 @@ Oui
 - Caractère meublé **Location non meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **218** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **7** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **218** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **7** kg CO₂/m².an A B C D E F G
 
 Dépenses annuelles d’énergie estimées : **entre 850 € et 1 190 €** par an.
 
@@ -167,8 +153,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [LOCATION ](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)
-
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -177,8 +161,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)
-
  450 € par mois
 
 ### Appartement T2 meublé à Capendu
@@ -186,8 +168,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 33,4 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)
 
  750 € par mois
 

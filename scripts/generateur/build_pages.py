@@ -74,7 +74,7 @@ def article_page(a):
     </section>
 
     <article class="container article">
-      <figure class="cover">{img(prefix, a["photo"], a["alt"], lazy=False)}</figure>
+      <figure class="cover">{img(prefix, a["photo"], a["alt"], lazy=False, larg=860)}</figure>
       <p class="article-intro">{e(a["intro"])}</p>
       <div class="prose">
 {sections}
@@ -220,7 +220,7 @@ def city_page(c):
 
     <section class="section container" aria-label="À lire">
       <div class="glass read-card" data-r>
-        <a class="ph" href="blog/{art["slug"]}.html" tabindex="-1" aria-hidden="true">{img(prefix, art["photo"], art["alt"])}</a>
+        <a class="ph" href="blog/{art["slug"]}.html" tabindex="-1" aria-hidden="true">{img(prefix, art["photo"], art["alt"], larg=400)}</a>
         <div class="read-body">
           <span class="label">À lire sur le blog</span>
           <h2 class="title"><a href="blog/{art["slug"]}.html">{e(art["title"])}</a></h2>

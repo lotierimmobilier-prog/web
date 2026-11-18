@@ -99,21 +99,7 @@ Non
 - Caractère meublé **Location non meublée**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **178** kWh/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an
-- A
-- B
-- C
-- D
-- E
-- F
-- G
+DPE · Consommation d'énergie **178** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **5** kg CO₂/m².an A B C D E F G
 
 **Voir le diagnostic complet**
 
@@ -157,8 +143,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Laetitia
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)
-
  430 € par mois
 
 ### À louer appartement T2 boulevard de la Liberté Béziers
@@ -166,8 +150,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 44,06 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)
 
  394 € par mois
 
@@ -177,8 +159,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)
-
  533 € par mois
 
 ### À louer appartement T3 spacieux en centre-ville historique
@@ -186,8 +166,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 65,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)
 
  635 € par mois
 
@@ -199,8 +177,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)
-
  726 € par mois
 
 ### A louer Béziers centre-ville (34) immeuble bourgeois a
@@ -209,8 +185,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)[Être rappelé](https://lotier.immo/contact/)
 
- [LOCATION ](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)
-
  735 € par mois
 
 ### À louer bureaux de caractère rue Clemenceau, coeur de vil
@@ -218,8 +192,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 100 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
-
- [LOCATION ](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)
 
  210 € par mois
 
