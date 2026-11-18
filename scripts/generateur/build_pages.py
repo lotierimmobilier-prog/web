@@ -134,7 +134,8 @@ def blog_index_page():
       </div>
     </section>
 
-    <section class="section container" aria-label="Articles">
+    <section class="section container" aria-labelledby="t-articles">
+      <h2 class="sr-only" id="t-articles">Tous les articles</h2>
       <div class="chips" role="group" aria-label="Filtrer par thème">{chips}</div>
       <div class="blog-grid blog-grid-lg" id="blog-list">
         {"".join(card_article(prefix, a) for a in ARTICLES_BY_DATE)}
