@@ -103,6 +103,7 @@ Oui
 - État des lieux (locataire, TTC) **200 €**
 - Charges récupérables **20 € / mois**
 - Caractère meublé **Location non meublée**
+- Honoraires de l'agence **400 €** *D'après le descriptif de l'annonce*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **218** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **7** kg CO₂/m².an A B C D E F G

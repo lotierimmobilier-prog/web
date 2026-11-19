@@ -100,7 +100,7 @@ def _libelle_honoraires(k):
     else: return k
     return nom + suffixe
 
-def prix_bloc(a, v, price, notes):
+def prix_bloc(a, v, price, notes, honoraires_texte=None):
     loc = a["type"] == "location"
     cartes = [("Loyer" if loc else "Prix", price, "Charges comprises" if loc and any("comprises" in n.lower() for n in notes) else "Frais d'agence inclus" if not loc else "")]
     ordre = ("Loyer charges comprises", "Provisions sur charges", "Forfait de charges", "Dépôt de garantie", "Charge honoraires", "Honoraires", "Montant honoraires",
@@ -119,6 +119,8 @@ def prix_bloc(a, v, price, notes):
             if k in vus or "honoraire" not in k.lower() or not val: continue
             vus.add(k)
             cartes.append((_libelle_honoraires(k), val, ""))
+        if honoraires_texte:
+            cartes.append(("Honoraires de l'agence", honoraires_texte, "D'après le descriptif de l'annonce"))
     items = "".join(f'<li><span>{e(l)}</span><strong{" class=\"long\"" if len(val) > 22 else ""}>{e(val)}</strong>{f"<em>{e(sub)}</em>" if sub else ""}</li>' for l, val, sub in cartes)
     return f'<section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid">{items}</ul></section>'
 

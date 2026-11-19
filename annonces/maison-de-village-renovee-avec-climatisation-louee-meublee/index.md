@@ -95,6 +95,7 @@ Oui
 - État des lieux (locataire, TTC) **245 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
+- Honoraires de l'agence **500 €** *D'après le descriptif de l'annonce*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **112** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G
