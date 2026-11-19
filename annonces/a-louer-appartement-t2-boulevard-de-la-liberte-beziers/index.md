@@ -106,9 +106,9 @@ Non
 - Loyer charges comprises **430 € / mois**
 - Provisions sur charges **30 € / mois**
 - Dépôt de garantie **400 €**
-- État des lieux (locataire, TTC) **132 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location non meublée**
+- Honoraires à la charge du locataire (TTC) **482,68 €** *dont état des lieux 131,64 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **273** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **9** kg CO₂/m².an A B C D E F G

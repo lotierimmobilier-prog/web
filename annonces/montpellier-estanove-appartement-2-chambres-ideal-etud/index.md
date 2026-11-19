@@ -104,9 +104,9 @@ Oui
 - Loyer charges comprises **850 € / mois**
 - Provisions sur charges **150 € / mois**
 - Dépôt de garantie **1 600 €**
-- État des lieux (locataire, TTC) **210 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
+- Honoraires à la charge du locataire (TTC) **910 €** *dont état des lieux 210 €*
 
  Lien partenaire
 

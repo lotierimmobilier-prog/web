@@ -82,6 +82,20 @@ def _plain(htmlstr): return _re.sub(r"\s+", " ", _h.unescape(_re.sub(r"<[^>]+>",
 # ---- Outils d'affichage d'une fiche ----
 NB = " "  # espace insécable
 
+try: _HONO_HEKTOR = json.load(open(f"{ROOT}/data/honoraires-location.json", encoding="utf-8")).get("honoraires") or {}     # relevés dans Hektor par l'agence
+except (OSError, ValueError): _HONO_HEKTOR = {}
+
+def _honoraires_du_texte(a):
+    """Honoraires d'agence écrits par l'agent dans le descriptif (« Honoraires de l'agence : 400EUR »), quand la fiche n'a pas de champ dédié.
+    Le texte est repris tel qu'écrit (typographie de l'euro seulement) : rien n'est calculé ni interprété (TTC, bénéficiaire, postes compris)."""
+    t = _h.unescape(_re.sub(r"<[^>]+>", "\n", a.get("description_html") or ""))
+    m = _re.search(r"Honoraires\s+(?:de\s+l[’']|d[’'])agence\s*:\s*([^\n]{1,160})", t, _re.I)
+    if not m: return None
+    v = m.group(1).strip()
+    if not _re.match(r"^\s*(?:à partir de\s*)?\d", v, _re.I): return None          # pas un montant : on n'affiche rien
+    v = _re.split(r"(?<=[\d€R\)])\s*(?:\.|;)\s|(?<=EUR)\s+(?=[A-ZÀ-Ý])|(?<=€)\s+(?=[A-ZÀ-Ý])", v)[0].strip().rstrip(".")   # s'arrête à la fin de la phrase
+    return _re.sub(r"(\d)\s?(?:EUR|euros?)\b", lambda x: x.group(1) + NB + "€", v)
+
 def _eur(t):
     """« 650EUR » -> « 650 € » (les descriptions Hektor écrivent EUR)."""
     return _re.sub(r"(\d)\s?EUR\b", lambda m: m.group(1) + NB + "€", t or "")
@@ -323,7 +337,7 @@ def detail_page(a, tous=()):
     tel = _tel(ag.get("telephone"))
     notes_l = [_eur(m) for m in (a.get("mentions_prix") or [])]
     notes = "".join(f"<li>{e(m)}</li>" for m in notes_l)
-    cles = F.cles_bloc(a, vals); atouts = F.atouts_bloc(vals); carac = F.caracteristiques_bloc(a.get("blocs")); prix_det = F.prix_bloc(a, vals, price, notes_l)
+    cles = F.cles_bloc(a, vals); atouts = F.atouts_bloc(vals); carac = F.caracteristiques_bloc(a.get("blocs")); prix_det = F.prix_bloc(a, vals, price, notes_l, _honoraires_du_texte(a) if loc else None, _HONO_HEKTOR.get(a.get("reference") or "") if loc else None)
     ref = f'<p class="ann-ref muted small">Réf. {e(a["reference"])}</p>' if a.get("reference") else ""
     rappel_attrs = (f'data-contact-open="rappel" data-ref="{e(a.get("reference") or "")}" data-titre="{e(title)}" '
                     f'data-url="{SITE}/annonces/{a["id"]}/" data-agent="{e(ag.get("email") or "")}" '

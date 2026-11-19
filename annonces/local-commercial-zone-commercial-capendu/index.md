@@ -51,6 +51,7 @@ Non
 - Dépôt de garantie **0 €**
 - Charges récupérables **0 € / mois**
 - Caractère meublé **Location non meublée**
+- Honoraires de l'agence **à partir de 660 € (accompagnement, frais de constitution de dossier, état des lieux)** *D'après le descriptif de l'annonce*
 
  Lien partenaire
 

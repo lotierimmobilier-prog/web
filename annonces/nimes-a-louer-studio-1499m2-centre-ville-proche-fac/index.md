@@ -81,9 +81,9 @@ Oui
 - Loyer charges comprises **415 € / mois**
 - Forfait de charges **15 € / mois**
 - Dépôt de garantie **900 €**
-- État des lieux (locataire, TTC) **44 €**
 - Modalités de règlement des charges **Forfaitaires mensuelles**
 - Caractère meublé **Location meublée**
+- Honoraires à la charge du locataire (TTC) **194,87 €** *dont état des lieux 44 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **216** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **6** kg CO₂/m².an A B C D E F G
