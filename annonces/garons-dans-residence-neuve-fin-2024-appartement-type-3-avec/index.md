@@ -95,10 +95,10 @@ Ouest
 **Ascenseur**
 Non
 
-**Parking**
+**Terrasse**
 Oui
 
-**Terrasse**
+**Parking**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -149,7 +149,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par LOTIER – SARL – NoRSAC: 452117294, Enregistré à Greffe du tribunal de commerce de Nimes
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

@@ -12,7 +12,7 @@ Nîmes Arènes appartement type 3 de 75 m2 dans immeuble bour
 
 ## En bref
 
-Appartement de 75,04 m² à vendre à Nîmes (Gard, 30) : 3 pièces et 2 chambres. Prix : 210 000 €, honoraires à la charge du vendeur. Chauffage individuel électrique radiateur, exposition ouest est, classe énergie D (194 kWh/m²/an), classe climat B. Référence 6_RFVAP70000793, suivie par Nicolas Popovitch (LOTIER Immobilier).
+Appartement de 75,04 m² à vendre à Nîmes (Gard, 30) : 3 pièces et 2 chambres. Prix : 210 000 €, honoraires à la charge du vendeur. Chauffage individuel électrique radiateur, exposition est ouest, classe énergie D (194 kWh/m²/an), classe climat B. Référence 6_RFVAP70000793, suivie par Nicolas Popovitch (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -43,7 +43,7 @@ Pour organiser une visite ou obtenir plus d’informations, contactez l’agence
 
 ## Les atouts du bien
 
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -67,10 +67,7 @@ Appartement
 Individuel électrique radiateur
 
 **Exposition**
-Ouest Est
-
-**Ascenseur**
-Non
+Est Ouest
 
 ### Copropriété (loi ALUR)
 
@@ -131,7 +128,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par LOTIER – SARL – NoRSAC: 452117294, Enregistré à Greffe du tribunal de commerce de Nimes
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

@@ -41,14 +41,13 @@ Parfaitement équipée pour le quotidien, la propriété offre également un gar
 
 Une maison idéale pour une vie de famille ou un projet locatif.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Piscine
 - Climatisation
 - Cuisine américaine
@@ -62,9 +61,6 @@ Maison/villa
 
 **Surface habitable**
 240 m²
-
-**Terrain**
-617 m²
 
 **Pièces**
 8
@@ -84,6 +80,9 @@ Maison/villa
 **Nombre d'étages**
 1
 
+**Terrain**
+617 m²
+
 ### Équipements et confort
 
 **Chauffage**
@@ -92,25 +91,19 @@ Gaz
 **Cuisine**
 Américaine
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Climatisation**
-Oui
-
-**Garage**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Piscine**
+**Garage**
 Oui
 
-**Terrasse**
+**Climatisation**
+Oui
+
+**Piscine**
 Oui
 
 ## Détail du prix

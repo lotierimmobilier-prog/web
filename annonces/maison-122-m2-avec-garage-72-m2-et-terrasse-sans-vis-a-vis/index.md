@@ -12,7 +12,7 @@ Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
 
 ## En bref
 
-Maison de 122 m² à vendre à Capendu (Aude, 11) : 5 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 85 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 113 m², terrasse, garage, parking, cave et climatisation. Construction de 1900, chauffage individuel, exposition ouest est, classe énergie C (121 kWh/m²/an), classe climat A. Référence 2_BBV30000919, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 122 m² à vendre à Capendu (Aude, 11) : 5 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 85 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 113 m², terrasse, garage, parking, cave et climatisation. Construction de 1900, chauffage individuel, exposition est ouest, classe énergie C (121 kWh/m²/an), classe climat A. Référence 2_BBV30000919, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -32,19 +32,13 @@ Implantée au coeur de Capendu, village dynamique de l’Aude idéalement situé
 
 Des travaux permettront de révéler tout son potentiel. Un bien à fort caractère, dans un village disposant de toutes les commodités du quotidien.
 
-– Type : maison de village
-
-– Surface habitable : 122 m²
-
-– Pièces : pièce de vie 27 m² avec cuisine ouverte, salon 22 m² avec poêle à bois, 3 chambres (11 à 12,5 m²), salle d’eau, salle de bain, 2 WC indépendants
-
-– Cave : 40 m²
-
-– Terrasse : 65 m², sans vis-à-vis
-
-– Garage : 72 m², portail électrique
-
-– Équipements : pompe à chaleur, chauffe-eau thermodynamique, double vitrage, climatisation dans une chambre.
+- Type : maison de village
+- Surface habitable : 122 m²
+- Pièces : pièce de vie 27 m² avec cuisine ouverte, salon 22 m² avec poêle à bois, 3 chambres (11 à 12,5 m²), salle d’eau, salle de bain, 2 WC indépendants
+- Cave : 40 m²
+- Terrasse : 65 m², sans vis-à-vis
+- Garage : 72 m², portail électrique
+- Équipements : pompe à chaleur, chauffe-eau thermodynamique, double vitrage, climatisation dans une chambre.
 
 Travaux à prévoir : révision de la toiture, rafraîchissement des murs et sols, murs de la cave à faire vérifier car reposent sur l’argile, poutre de la toiture de la terrasse à renforcer.
 
@@ -55,11 +49,10 @@ Budget travaux conséquent à prévoir.
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Cave
 - Climatisation
 - Cuisine américaine
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -70,9 +63,6 @@ Maison/villa
 
 **Surface habitable**
 122 m²
-
-**Terrain**
-113 m²
 
 **Pièces**
 5
@@ -92,6 +82,9 @@ Maison/villa
 **Nombre d'étages**
 3
 
+**Terrain**
+113 m²
+
 **Année de construction**
 1900
 
@@ -104,27 +97,24 @@ Individuel
 Américaine
 
 **Exposition**
-Ouest Est
+Est Ouest
 
 **Ascenseur**
 Non
 
-**Boxe**
+**Terrasse**
 Oui
 
 **Cave**
 Oui
 
-**Climatisation**
+**Parking**
 Oui
 
 **Garage**
 Oui
 
-**Parking**
-Oui
-
-**Terrasse**
+**Climatisation**
 Oui
 
 ## Détail du prix
@@ -171,7 +161,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
@@ -238,6 +228,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  38 500 €
 
 ### Maison de village à rénover avec grange Capendu (11)
@@ -245,14 +243,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
-
- 175 000 €
-
-### Maison familiale 136 m2 + 90 m2 de garages et dépendances
-
- Capendu · 136,63 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

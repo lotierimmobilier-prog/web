@@ -23,7 +23,7 @@ Terrain de 1457 m² à vendre à Capendu (Aude, 11). Prix : 25 000 €, hono
 
 Situé dans la commune de Capendu, ce terrain de loisir de presque 1500 m² est situé dans une zone habitée mais ne comportant que quelques habitations. Il est plat et accessible en voiture.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -37,11 +37,6 @@ Terrain
 
 **Terrain**
 1457 m²
-
-### Équipements et confort
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 
@@ -136,6 +131,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -143,14 +146,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
-
- 38 500 €
-
-### Maison de village à rénover avec grange Capendu (11)
-
- Capendu · 120 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

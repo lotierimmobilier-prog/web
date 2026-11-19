@@ -36,11 +36,6 @@ Terrain
 **Terrain**
 1400 m²
 
-### Équipements et confort
-
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Prix **22 000 €** *Frais d'agence inclus*
@@ -70,7 +65,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

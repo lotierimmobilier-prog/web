@@ -49,7 +49,7 @@ Proximité de Carcassonne et de ses commodités
 
 Floure est une commune dynamique, bénéficiant de la proximité du Château de Floure, un hôtel de charme, et de nombreux sentiers de randonnée.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -63,11 +63,6 @@ Terrain
 
 **Terrain**
 3000 m²
-
-### Équipements et confort
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

@@ -32,13 +32,12 @@ Situé dans l’un des secteurs les plus prisés de Montpellier, à deux pas du 
 
 Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite. Pour plus de renseignements, merci de me joindre
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
-- Boxe
 - Ascenseur
 - Gardien
 - Cuisine américaine
@@ -86,19 +85,13 @@ Nord Ouest
 **Ascenseur**
 Oui
 
-**Ascenseur**
-Oui
-
-**Boxe**
+**Terrasse**
 Oui
 
 **Garage**
 Oui
 
 **Gardien**
-Oui
-
-**Terrasse**
 Oui
 
 ### Copropriété (loi ALUR)

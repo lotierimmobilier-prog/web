@@ -83,7 +83,7 @@ Frédérique GALLUCCI
 
 LOTIER IMMOBILIER
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -92,16 +92,11 @@ LOTIER IMMOBILIER
 **Surface habitable**
 111.36 m²
 
-**Terrain**
-279 m²
-
 **Pièces**
 1
 
-### Équipements et confort
-
-**Ascenseur**
-Non
+**Terrain**
+279 m²
 
 ### Copropriété (loi ALUR)
 

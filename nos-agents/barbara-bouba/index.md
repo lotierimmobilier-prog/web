@@ -14,6 +14,14 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -37,14 +45,6 @@ Carcassonne · Narbonne
  Conques-sur-Orbiel · 81,5 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
-
- 500 € par mois
-
-### Appartement T1 Narbonne centre historique 38,2 m2
-
- Narbonne · 38,2 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
 
  750 € par mois
 
@@ -277,9 +277,9 @@ Aucune annonce ne correspond à ces critères.
 ## Faire connaissance avec Barbara
 
 - **32** biens en ligne
-- **24** à vendre
-- **8** à louer
-- **13** communes
+- **25** à vendre
+- **7** à louer
+- **12** communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
 
@@ -306,11 +306,11 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 ### Biens proposés
 
 - 14 maisons
-- 6 appartements
+- 5 appartements
 - 5 terrains
 - 3 locaux commerciaux
 - 3 immeubles
-- 1 parking
+- 2 parkings
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Carcassonne sous le n° 890009269. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

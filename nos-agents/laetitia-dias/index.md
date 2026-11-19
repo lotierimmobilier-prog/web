@@ -14,7 +14,15 @@ Béziers
 ## Les biens de Laëtitia
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
- 210 € par mois
+ 289 000 €
+
+### Immeuble de 4 lots 123,32 m2 Béziers
+
+ Béziers · 95,32 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
+
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 
@@ -188,23 +196,23 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Laëtitia
 
-- **21** biens en ligne
-- **13** à vendre
+- **22** biens en ligne
+- **14** à vendre
 - **8** à louer
 - **3** communes
 
 Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béziers.
 
-Ventes de 55 000 € à 357 000 € · loyers de 210 € à 735 € par mois.
+Ventes de 55 000 € à 357 000 € · loyers de 195 € à 735 € par mois.
 
 ### Spécialités
 
 - Vente
 - Location
 - Appartements
+- Investissement locatif
 - Locaux commerciaux
 - Maisons et villas
-- Investissement locatif
 
 ### Communes couvertes
 
@@ -215,9 +223,9 @@ Ventes de 55 000 € à 357 000 € · loyers de 210 € à 735 € par mois.
 ### Biens proposés
 
 - 13 appartements
+- 3 immeubles
 - 3 locaux commerciaux
 - 3 maisons
-- 2 immeubles
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Argenteuil sous le n° 850128372. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

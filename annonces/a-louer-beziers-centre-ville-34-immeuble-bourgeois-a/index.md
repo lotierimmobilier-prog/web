@@ -12,7 +12,7 @@ A louer Béziers centre-ville (34) immeuble bourgeois a
 
 ## En bref
 
-Appartement de 98 m² à louer à Béziers (Hérault, 34) : 4 pièces, 2 chambres et 1 salle d'eau ou de bain. À proximité : Commerces, Allée Paul Riquet, centre ville historique, Jardin des poètes. Loyer : 726 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 651 €. Le bien comprend : balcon. Étage 2 sur 5, construction de 1900, chauffage individuel gaz, classe énergie D (145 kWh/m²/an), classe climat D. Référence 15_DLLAP170000503, suivie par Laetitia Dias (LOTIER Immobilier).
+Appartement de 98 m² à louer à Béziers (Hérault, 34) : 4 pièces, 2 chambres et 1 salle d'eau ou de bain. À proximité : Commerces, Allée Paul Riquet, centre ville historique, Jardin des poètes. Loyer : 726 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 651 €. Le bien comprend : balcon. Étage 2 sur 5, construction de 1900, chauffage individuel gaz, classe énergie C (145 kWh/m²/an), classe climat D. Référence 15_DLLAP170000503, suivie par Laetitia Dias (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -118,7 +118,7 @@ DPE · Consommation d'énergie **145** kWh/m².an A B C D E F G GES · Émission
 
 **Voir le diagnostic complet**
 
-DPE classe D, 145 kWh/m².an ; GES classe D, 31 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe C, 145 kWh/m².an ; GES classe D, 31 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 
@@ -131,7 +131,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER
@@ -209,7 +209,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

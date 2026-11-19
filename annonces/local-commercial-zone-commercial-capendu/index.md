@@ -25,7 +25,7 @@ A LOUER à CAPENDU (11) – Au coeur de la zone commerciale Capendu, cellules co
 
 Celulle 1 : 148 m² /// Celulle 2 : 66 m² /// Celulle 3 : 75 m² /// Cellule 5 : 105 m²
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -40,17 +40,9 @@ Local
 **Année de construction**
 2023
 
-### Équipements et confort
-
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Loyer **660 € par mois**
-- Dépôt de garantie **0 €**
-- Charges récupérables **0 € / mois**
-- Caractère meublé **Location non meublée**
 - Honoraires de l'agence **à partir de 660 € (accompagnement, frais de constitution de dossier, état des lieux)** *D'après le descriptif de l'annonce*
 
  Lien partenaire
@@ -68,7 +60,6 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
  660 € par mois
 
 - Hors charges, montant des charges non communiqué
-- Location non meublée
 
 Réf. 2_BBLCO30000383
 

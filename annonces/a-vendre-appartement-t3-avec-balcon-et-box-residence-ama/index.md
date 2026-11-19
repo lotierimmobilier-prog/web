@@ -46,7 +46,6 @@ Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 
 
 - Balcon
 - Garage
-- Boxe
 - Ascenseur
 - Cuisine séparée équipée
 
@@ -89,13 +88,7 @@ Séparée équipée
 **Ascenseur**
 Oui
 
-**Ascenseur**
-Oui
-
 **Balcon**
-Oui
-
-**Boxe**
 Oui
 
 **Garage**
@@ -125,8 +118,6 @@ DPE classe B, 109 kWh/m².an ; GES classe A, 4 kg CO₂/m².an.Diagnostic de per
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 740 € et 1 040 € par an.
 
-Prix moyens des énergies indexés au 00/00/0000 (abonnement compris).
-
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 
 ## Estimer mon financement
@@ -153,7 +144,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

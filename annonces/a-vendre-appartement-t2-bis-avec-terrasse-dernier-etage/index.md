@@ -12,7 +12,7 @@ Source : https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-
 
 ## En bref
 
-Appartement de 48,34 m² à vendre à Béziers (Hérault, 34) : 3 pièces, 1 chambre et 1 salle d'eau ou de bain. À proximité : Gare ferroviaire, commerces, centre ville. Prix : 55 000 €. Le bien comprend : terrasse et climatisation. Étage 3 sur 3, construction de 1940, chauffage individuel électrique radiateur, classe énergie D (234 kWh/m²/an), classe climat B. Référence 15_DLVDU170000876, suivie par Laetitia Dias (LOTIER Immobilier).
+Appartement de 48,34 m² à vendre à Béziers (Hérault, 34) : 3 pièces, 1 chambre et 1 salle d'eau ou de bain. À proximité : Gare ferroviaire, commerces, centre ville. Prix : 55 000 €. Le bien comprend : terrasse et climatisation. Étage 3 sur 3, construction de 1940, chauffage individuel électrique radiateur, classe énergie E (234 kWh/m²/an), classe climat B. Référence 15_DLVDU170000876, suivie par Laetitia Dias (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -42,13 +42,13 @@ Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous
 
 Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Climatisation
-- Cuisine coin suisine
+- Cuisine coin cuisine
 
 ## Caractéristiques
 
@@ -84,15 +84,15 @@ Appartement
 Individuel électrique radiateur
 
 **Cuisine**
-Coin suisine
+Coin cuisine
 
 **Ascenseur**
 Non
 
-**Climatisation**
+**Terrasse**
 Oui
 
-**Terrasse**
+**Climatisation**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -115,7 +115,7 @@ DPE · Consommation d'énergie **234** kWh/m².an A B C D E F G GES · Émission
 
 **Voir le diagnostic complet**
 
-DPE classe D, 234 kWh/m².an ; GES classe B, 7 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe E, 234 kWh/m².an ; GES classe B, 7 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 

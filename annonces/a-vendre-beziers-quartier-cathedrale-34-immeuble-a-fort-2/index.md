@@ -1,6 +1,6 @@
 # Immeuble 185 m² à vendre à Béziers
 
-> Immeuble 185 m² à vendre à Béziers, 5 chambres, 263 000 €. Situé à proximité des Halles de Béziers, des commerces et de toutes les commodités du centre-ville…
+> Immeuble 185 m² à vendre à Béziers, 5 chambres, 263 000 €. Situé dans le quartier de la Cathédrale, au coeur du centre historique de Béziers, cet immeuble de…
 
 Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/
 
@@ -25,39 +25,19 @@ Immeuble de 185 m² à vendre à Béziers (Hérault, 34) : 9 pièces, 5 chambre
 
 ## Description
 
-Situé à proximité des Halles de Béziers, des commerces et de toutes les commodités du centre-ville, cet immeuble de rapport d’environ 185 m² constitue une belle opportunité pour un investissement locatif.
+Situé dans le quartier de la Cathédrale, au coeur du centre historique de Béziers, cet immeuble de rapport d’environ 185 m², composé de quatre appartements, est proposé à la vente au prix de 263 000 € honoraires inclus.
 
-L’immeuble se compose de 4 appartements répartis comme suit :
+L’immeuble comprend un studio d’environ 28 m², un appartement T2 d’environ 34 m² et deux appartements T3 d’environ 57 m² et 65 m².
 
-Un studio d’environ 28 m².
+Deux appartements sont actuellement loués et deux sont disponibles, offrant la possibilité de développer les revenus locatifs. Le potentiel locatif global est estimé à 19 200 € hors charges par an, soit 1 600 € par mois, une fois l’ensemble des logements loués.
 
-Un appartement T2 d’environ 34 m².
+À proximité immédiate des Halles de Béziers, des commerces, des services et des transports, l’immeuble bénéficie d’un emplacement central.
 
-Un appartement T3 d’environ 57 m².
+Des possibilités de stationnement public sont accessibles dans le secteur.
 
-Un appartement T3 d’environ 65 m².
+Sa configuration et sa situation géographique en font un bien adapté à un projet d’investissement locatif.
 
-Actuellement, deux appartements sont loués et deux sont disponibles, offrant la possibilité de développer les revenus locatifs dès leur remise en location.
-
-L’ensemble présente un potentiel locatif global estimé à 19 200 € hors charges par an, une fois les quatre logements loués.
-
-Sa situation en coeur de ville, à proximité des commerces, des services et des stationnements publics, constitue un atout pour la location.
-
-Ses points forts :
-
-Immeuble composé de 4 appartements aux superficies variées.
-
-Deux logements déjà loués et un potentiel locatif annuel de 19 200 € HC.
-
-Emplacement central à proximité des Halles et des commodités.
-
-Prix de vente : 263 000 € honoraires inclus.
-
-Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite.
-
-Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
-
-– Annonce rédigée et publiée par un Agent Mandataire –
+Pour tout renseignement complémentaire ou pour organiser une visite, contactez Laetitia Dias au 06 09 76 63 24.
 
 ## Les atouts du bien
 
@@ -96,9 +76,6 @@ Individuel électrique radiateur
 **Exposition**
 Nord
 
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Prix **263 000 €** *Frais d'agence inclus*
@@ -127,7 +104,8 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 ## Mentions légales
 
-- Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
+- Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

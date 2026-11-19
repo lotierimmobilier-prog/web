@@ -1,12 +1,20 @@
 # Biens à vendre *à Béziers.*
 
-> 11 biens à vendre à Béziers avec LOTIER Immobilier : 7 appartements, 2 immeubles, 1 local commercial et 1 maison, de 55 000 € à 357 000 €. Photos, prix, agent…
+> 12 biens à vendre à Béziers avec LOTIER Immobilier : 7 appartements, 3 immeubles, 1 local commercial et 1 maison, de 55 000 € à 357 000 €. Photos, prix, agent…
 
 Source : https://lotier.immo/nos-annonces/vente-beziers/
 
-LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appartements, 2 immeubles, 1 local commercial et 1 maison. Les prix vont de 55 000 € à 357 000 €. Les surfaces vont de 33 à 185 m².
+LOTIER Immobilier propose actuellement 12 biens à vendre à Béziers : 7 appartements, 3 immeubles, 1 local commercial et 1 maison. Les prix vont de 55 000 € à 357 000 €. Les surfaces vont de 33 à 185 m².
 
 ## Liste des annonces
+
+ 289 000 €
+
+### Immeuble de 4 lots 123,32 m2 Béziers
+
+ Béziers · 95,32 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
  Prix sur demande
 
@@ -107,7 +115,7 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 ### Combien de biens sont à vendre à Béziers chez LOTIER Immobilier ?
 **
 
-11 biens sont à vendre à Béziers aujourd'hui : 7 appartements, 2 immeubles, 1 local commercial et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
+12 biens sont à vendre à Béziers aujourd'hui : 7 appartements, 3 immeubles, 1 local commercial et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
@@ -130,7 +138,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Oui. Les prix de vente affichés comprennent les honoraires de l'agence, qui sont à la charge du vendeur. Le barème est publié sur la page Nos honoraires.
 
- [Biens à louer à Béziers (8)](https://lotier.immo/nos-annonces/location-beziers/)[Vente à Capendu (10)](https://lotier.immo/nos-annonces/vente-capendu/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Notre agence à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Biens à louer à Béziers (8)](https://lotier.immo/nos-annonces/location-beziers/)[Vente à Capendu (11)](https://lotier.immo/nos-annonces/vente-capendu/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Notre agence à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

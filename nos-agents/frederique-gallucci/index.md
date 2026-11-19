@@ -64,7 +64,7 @@ Nîmes
 
  399 000 €
 
-### Langlade villa neuve – T4 de 90m2 – 3 chambres – garage –
+### Langlade villa neuve – T4 de 90m2 – 3 chambres – garage
 
  Langlade · 90 m² · 3 ch.
 

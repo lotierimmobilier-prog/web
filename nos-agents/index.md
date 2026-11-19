@@ -50,7 +50,7 @@ Caveirac, Nîmes, Aubais, Beaucaire, Calvisson [Voir sa page et ses 8 annonces](
 
 Agent commercial indépendant · Béziers
 
-Béziers, Maureilhan, Villeneuve-lès-Béziers [Voir sa page et ses 21 annonces](https://lotier.immo/nos-agents/laetitia-dias/)[06 09 76 63 24](tel:+33609766324)
+Béziers, Maureilhan, Villeneuve-lès-Béziers [Voir sa page et ses 22 annonces](https://lotier.immo/nos-agents/laetitia-dias/)[06 09 76 63 24](tel:+33609766324)
 
 [laetitia.dias@lotier-immobilier.com](mailto:laetitia.dias@lotier-immobilier.com)
 

@@ -650,7 +650,7 @@ def card_article(prefix, a, cls="blog-card"):
           </article>'''
 
 
-# ---------- Annonces (importées par scripts/scrape_annonces.py) ----------
+# ---------- Annonces (lues dans l'export Hektor par scripts/sync_annonces_export.py) ----------
 def load_annonces():
     p = f"{ROOT}/data/annonces.json"
     if not os.path.exists(p): return []
@@ -701,6 +701,7 @@ def faits_annonce(a):
     titre_min = (a.get("titre") or "").lower()
     if "Vente-fonds-de-commerce" in (a.get("badges") or []): nom = "Fonds de commerce"
     elif brut == "Parking/box" and "garage" in titre_min: nom = "Garage"
+    elif brut == "Parking/box" and "grange" in titre_min: nom = "Grange"
     pieces = _entier(v.get("Pièces"))
     if nom == "Appartement" and pieces == 1: nom_aff = "Studio"
     else: nom_aff = nom

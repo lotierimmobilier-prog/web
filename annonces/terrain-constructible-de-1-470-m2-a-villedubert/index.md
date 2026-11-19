@@ -33,7 +33,7 @@ Villedubert, charmant village bordé par le Canal du Midi, offre un cadre de vie
 
 Ce terrain constitue une belle opportunité de réaliser un projet de construction personnalisé dans un secteur apprécié, où il fait bon vivre.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -56,9 +56,6 @@ Terrain
 
 **Exposition**
 Nord Sud
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

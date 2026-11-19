@@ -64,9 +64,6 @@ Maison/villa
 **Surface habitable**
 89 m²
 
-**Terrain**
-220 m²
-
 **Pièces**
 5
 
@@ -82,6 +79,9 @@ Maison/villa
 **Nombre d'étages**
 2
 
+**Terrain**
+220 m²
+
 **Année de construction**
 1962
 
@@ -95,9 +95,6 @@ Séparée équipée
 
 **Exposition**
 Sud
-
-**Ascenseur**
-Non
 
 **Parking**
 Oui
@@ -117,8 +114,6 @@ Dépenses annuelles d’énergie estimées : **entre 1 587 € et 2 147 €*
 DPE classe D, 193 kWh/m².an ; GES classe D, 42 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 1 587 € et 2 147 € par an.
-
-Prix moyens des énergies indexés au 00/00/0000 (abonnement compris).
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 
@@ -146,7 +141,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

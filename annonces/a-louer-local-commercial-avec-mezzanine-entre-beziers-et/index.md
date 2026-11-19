@@ -1,18 +1,18 @@
 # Local commercial 20 m² à louer à Béziers
 
-> Local commercial 20 m² à louer à Béziers, 210 € par mois. Idéalement situé entre Béziers et Maraussan, à seulement 5 minutes de l’accès à la rocade et du stade…
+> Local commercial 20 m² à louer à Béziers, 195 € par mois. Idéalement situé entre Béziers et Maraussan, à seulement 5 minutes de l’accès à la rocade et du stade…
 
 Source : https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/
 
 À louer local commercial avec mezzanine entre Béziers et
 
-**210 € par mois** · Béziers · 20 m²
+**195 € par mois** · Béziers · 20 m²
 
  LOCATION 1 / 7
 
 ## En bref
 
-Local commercial de 20 m² à louer à Béziers (Hérault, 34). Loyer : 210 € par mois, charges comprises ; dépôt de garantie : 200 €. Construction de 1900. Référence 15_DLLCO170001039, suivie par Laetitia Dias (LOTIER Immobilier).
+Local commercial de 20 m² à louer à Béziers (Hérault, 34). Loyer : 195 € par mois, charges comprises ; dépôt de garantie : 200 €. Construction de 1900. Référence 15_DLLCO170001039, suivie par Laetitia Dias (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -33,11 +33,9 @@ Possibilité de louer l’ensemble immobilier selon la nature et les besoins de 
 
 Ses points forts :
 
-– Emplacement stratégique entre Béziers et Maraussan, proche de la rocade
-
-– Surface de 20 m² avec mezzanine de 12 m².
-
-– Bon état général, stationnement extérieur et possibilité de location de l’ensemble.
+- Emplacement stratégique entre Béziers et Maraussan, proche de la rocade
+- Surface de 20 m² avec mezzanine de 12 m².
+- Bon état général, stationnement extérieur et possibilité de location de l’ensemble.
 
 Afin de vous accompagner dans votre projet de location commerciale, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite.
 
@@ -56,18 +54,12 @@ Local
 **Année de construction**
 1900
 
-### Équipements et confort
-
-**Ascenseur**
-Non
-
 ## Détail du prix
 
-- Loyer **210 € par mois** *Charges comprises*
-- Loyer charges comprises **210 € / mois**
+- Loyer **195 € par mois** *Charges comprises*
+- Loyer charges comprises **195 € / mois**
 - Dépôt de garantie **200 €**
 - Charges récupérables **5 € / mois**
-- Caractère meublé **Location non meublée**
 - Honoraires à la charge du locataire (TTC) **160 €**
 
  Lien partenaire
@@ -79,14 +71,13 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER
- 210 € par mois
+ 195 € par mois
 
 - Charges comprises, dont 5 € de charges récupérables
-- Location non meublée
 
 Réf. 15_DLLCO170001039
 

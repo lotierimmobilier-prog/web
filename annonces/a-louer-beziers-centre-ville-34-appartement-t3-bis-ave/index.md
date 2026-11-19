@@ -44,7 +44,7 @@ Afin de vous accompagner dans votre projet de location, merci de bien vouloir d�
 
 Lien : https://app.zelok.fr/preinscription?code-agence=ZELOK194
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -204,7 +204,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

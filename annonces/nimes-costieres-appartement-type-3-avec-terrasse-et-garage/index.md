@@ -52,14 +52,13 @@ Copropriété de 99 logements – Charges annuelles : 2 800 €
 
 Pour organiser une visite ou obtenir toutes les informations complémentaires, contactez l’agence Lotier Immobilier par téléphone, par message ou directement en agence – notre équipe se tient à votre disposition.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Ascenseur
 - Climatisation
 - Meublé
@@ -108,25 +107,19 @@ Sud
 **Ascenseur**
 Oui
 
-**Ascenseur**
-Oui
-
-**Boxe**
-Oui
-
-**Climatisation**
-Oui
-
-**Garage**
-Oui
-
-**Meublé**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Terrasse**
+**Garage**
+Oui
+
+**Climatisation**
+Oui
+
+**Meublé**
 Oui
 
 ### Copropriété (loi ALUR)

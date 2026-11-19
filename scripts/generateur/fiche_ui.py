@@ -127,7 +127,7 @@ def prix_bloc(a, v, price, notes, honoraires_texte=None, honoraires_hektor=None)
             cartes.append((_libelle_honoraires(k), val, ""))
         hk = honoraires_hektor or {}
         if hk.get("locataire"):
-            # relevés dans l'export Hektor de l'agence (data/honoraires-location.json) : recopiés, jamais calculés
+            # relevés dans l'export Hektor de l'agence (champ « honoraires » de l'annonce) : recopiés, jamais calculés
             sous = f"dont état des lieux {_euros(hk['etat_des_lieux'])}" if hk.get("etat_des_lieux") else ""
             if sous: cartes = [c for c in cartes if c[0] != "État des lieux (locataire, TTC)"]      # déjà détaillé dans la ligne ci-dessous
             cartes.append(("Honoraires à la charge du locataire (TTC)", _euros(hk["locataire"]), sous))

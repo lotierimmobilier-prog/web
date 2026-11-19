@@ -37,13 +37,12 @@ En complément, une grange non attenante de 45 m² au sol sur deux niveaux vien
 
 Un bien destiné aux amateurs de rénovation ou investisseurs souhaitant valoriser un projet au coeur d’un village vivant et recherché.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Garage
 - Parking
-- Boxe
 - Cuisine séparée
 - Exposition est
 
@@ -86,13 +85,10 @@ Est
 **Ascenseur**
 Non
 
-**Boxe**
+**Parking**
 Oui
 
 **Garage**
-Oui
-
-**Parking**
 Oui
 
 ## Détail du prix
@@ -190,6 +186,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -197,14 +201,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
-
- 175 000 €
-
-### Maison familiale 136 m2 + 90 m2 de garages et dépendances
-
- Capendu · 136,63 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

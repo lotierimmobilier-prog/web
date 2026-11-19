@@ -12,7 +12,7 @@ Clarensac dans la vaunage entre Nîmes et Montpellier maison
 
 ## En bref
 
-Maison de 127 m² à vendre à Clarensac (Gard, 30), secteur centre village : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 320 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 445 m², terrasse, piscine, garage et climatisation. Construction de 2005, chauffage individuel gaz, exposition ouest est, classe énergie C (94 kWh/m²/an), classe climat C. Référence 12_RFVMA70000739, suivie par Elodie Chardot (LOTIER Immobilier).
+Maison de 127 m² à vendre à Clarensac (Gard, 30), secteur centre village : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 320 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 445 m², terrasse, piscine, garage et climatisation. Construction de 2005, chauffage individuel gaz, exposition est ouest, classe énergie B (94 kWh/m²/an), classe climat C. Référence 12_RFVMA70000739, suivie par Elodie Chardot (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -54,17 +54,16 @@ Situation en impasse, calme absolu
 
 Pour organiser une visite ou obtenir plus d’informations, contactez l’agence Lotier Immobilier par téléphone, par message ou directement en agence — notre équipe est à votre disposition.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
-- Boxe
 - Piscine
 - Climatisation
 - Cuisine américaine équipée
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -75,9 +74,6 @@ Maison/villa
 
 **Surface habitable**
 127 m²
-
-**Terrain**
-445 m²
 
 **Pièces**
 4
@@ -91,6 +87,9 @@ Maison/villa
 **WC**
 1
 
+**Terrain**
+445 m²
+
 **Année de construction**
 2005
 
@@ -103,24 +102,18 @@ Individuel gaz
 Américaine équipée
 
 **Exposition**
-Ouest Est
+Est Ouest
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Climatisation**
+**Terrasse**
 Oui
 
 **Garage**
 Oui
 
-**Piscine**
+**Climatisation**
 Oui
 
-**Terrasse**
+**Piscine**
 Oui
 
 ## Détail du prix
@@ -135,7 +128,7 @@ Dépenses annuelles d’énergie estimées : **entre 990 € et 1 400 €** p
 
 **Voir le diagnostic complet**
 
-DPE classe C, 94 kWh/m².an ; GES classe C, 14 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe B, 94 kWh/m².an ; GES classe C, 14 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 990 € et 1 400 € par an.
 

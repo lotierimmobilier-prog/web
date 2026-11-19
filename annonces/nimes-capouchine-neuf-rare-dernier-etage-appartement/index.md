@@ -26,7 +26,7 @@ Appartement de 84,48 m² à vendre à Nîmes (Gard, 30) : 4 pièces et 3 chambr
 
 Nîmes Capouchiné – à proximité de tout – l’agence immobilière Lotier immobilier propose à la vente dans une belle résidence neuve de 22 logements, un appartement type 4 en dernier étage avec ascenseur et belle terrasse de 32 m² – la pièce de vie avec cuisine équipée ouverte de 35 m² s’ouvre sur cette belle terrasse qui domine la vile de Nîmes – avec ses 3 chambres équipées de rangements de 10 à13 m² dont une avec sa salle d’eau privative – salle de bain – toilettes séparées – Le plus : dernier étage – luminosité – terrasse – ascenseur – parking – et son caractère neuf qui vous permet de bénéficier des frais de notaire réduits
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -59,9 +59,6 @@ Individuel électrique
 
 **Exposition**
 Nord Est
-
-**Ascenseur**
-Oui
 
 **Ascenseur**
 Oui

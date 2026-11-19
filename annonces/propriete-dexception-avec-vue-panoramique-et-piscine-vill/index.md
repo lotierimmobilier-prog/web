@@ -12,7 +12,7 @@ Propriété d’Exception avec Vue Panoramique et Piscine Vill
 
 ## En bref
 
-Maison de 320 m² à vendre à Villedubert (Aude, 11) : 8 pièces, 4 chambres et 1 salle d'eau ou de bain. Prix : 1 145 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 30000 m², terrasse, piscine, garage, parking et climatisation. Construction de 2000, chauffage individuel gaz, exposition nord sud, classe énergie C (100 kWh/m²/an), classe climat C. Référence 2_BBVVI30000726, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 320 m² à vendre à Villedubert (Aude, 11) : 8 pièces, 4 chambres et 1 salle d'eau ou de bain. Prix : 1 145 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 30000 m², terrasse, piscine, garage, parking et climatisation. Construction de 2000, chauffage individuel gaz, exposition nord sud, classe énergie B (100 kWh/m²/an), classe climat C. Référence 2_BBVVI30000726, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -63,7 +63,6 @@ Visites uniquement sur présentation d’un dossier de financement validé.
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Piscine
 - Climatisation
 - Cuisine séparée équipée
@@ -78,9 +77,6 @@ Maison/villa
 
 **Surface habitable**
 320 m²
-
-**Terrain**
-30000 m²
 
 **Pièces**
 8
@@ -100,6 +96,9 @@ Maison/villa
 **Nombre d'étages**
 2
 
+**Terrain**
+30000 m²
+
 **Année de construction**
 2000
 
@@ -114,25 +113,19 @@ Séparée équipée
 **Exposition**
 Nord Sud
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Climatisation**
-Oui
-
-**Garage**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Piscine**
+**Garage**
 Oui
 
-**Terrasse**
+**Climatisation**
+Oui
+
+**Piscine**
 Oui
 
 ## Détail du prix
@@ -147,7 +140,7 @@ Dépenses annuelles d’énergie estimées : **entre 3 120 € et 4 300 €*
 
 **Voir le diagnostic complet**
 
-DPE classe C, 100 kWh/m².an ; GES classe C, 12 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe B, 100 kWh/m².an ; GES classe C, 12 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 3 120 € et 4 300 € par an.
 
@@ -179,7 +172,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

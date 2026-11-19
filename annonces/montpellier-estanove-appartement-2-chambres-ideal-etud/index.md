@@ -51,12 +51,11 @@ Pour tout renseignements supplementaires ou faire une visite, contactez Elodie C
 
 Une solution idéale pour profiter pleinement de son année universitaire à Montpellier !
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Climatisation
-- Meublé
 - Cuisine séparée équipée
 
 ## Caractéristiques
@@ -89,13 +88,7 @@ Individuel
 **Cuisine**
 Séparée équipée
 
-**Ascenseur**
-Non
-
 **Climatisation**
-Oui
-
-**Meublé**
 Oui
 
 ## Détail du prix

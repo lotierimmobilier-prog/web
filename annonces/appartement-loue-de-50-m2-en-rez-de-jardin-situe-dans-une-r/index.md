@@ -48,7 +48,7 @@ Loué 610 € charges comprises.
 
 Idéalement situé, cet appartement offre un cadre de vie calme et agréable, à proximité des commodités.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -83,9 +83,6 @@ Appartement
 
 **Exposition**
 Nord Ouest
-
-**Ascenseur**
-Non
 
 ### Copropriété (loi ALUR)
 

@@ -51,12 +51,11 @@ Idéal pour un premier investissement ou pour diversifier son patrimoine locatif
 
 Contactez-moi pour plus d’informations
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Garage
-- Boxe
 - Exposition nord
 
 ## Caractéristiques
@@ -85,9 +84,6 @@ Nord
 
 **Ascenseur**
 Non
-
-**Boxe**
-Oui
 
 **Garage**
 Oui

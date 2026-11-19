@@ -12,7 +12,7 @@ Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
 
 ## En bref
 
-Appartement de 45,92 m² à vendre à Caveirac (Gard, 30) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 230 000 €. Le bien comprend : parking et climatisation. Construction de 2026, chauffage individuel, classe énergie D (30 kWh/m²/an), classe climat D. Référence 18_CEORE140000950, suivie par Frédérique Gallucci (LOTIER Immobilier).
+Appartement de 45,92 m² à vendre à Caveirac (Gard, 30) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 230 000 €. Le bien comprend : parking et climatisation. Construction de 2026, chauffage individuel, classe énergie A (30 kWh/m²/an), classe climat E. Référence 18_CEORE140000950, suivie par Frédérique Gallucci (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -69,7 +69,7 @@ Un bien particulièrement rare, idéal pour une résidence principale, un premie
 
 Contactez- moi aujourd’hui pour découvrir cette opportunité et bénéficier des avantages exclusifs de l’immobilier neuf.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -110,13 +110,10 @@ Individuel
 **Cuisine**
 Américaine
 
-**Ascenseur**
-Non
-
-**Climatisation**
+**Parking**
 Oui
 
-**Parking**
+**Climatisation**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -133,7 +130,7 @@ DPE · Consommation d'énergie **30** kWh/m².an A B C D E F G GES · Émissions
 
 **Voir le diagnostic complet**
 
-DPE classe D, 30 kWh/m².an ; GES classe D, 39 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe A, 30 kWh/m².an ; GES classe E, 39 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 

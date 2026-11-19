@@ -12,7 +12,7 @@ Saint-christol-lès-alès 121,44 m2 2 lots terrasse 26 m
 
 ## En bref
 
-Appartement de 136,39 m² à vendre à Saint-Christol-lez-Alès (Gard, 30) : 3 pièces. Prix : 122 000 €, honoraires à la charge du vendeur. Le bien comprend : terrasse et cave. Rez-de-chaussée sur 2, construction de 1974, exposition ouest est. Référence 12_626, suivie par Elodie Chardot (LOTIER Immobilier).
+Appartement de 136,39 m² à vendre à Saint-Christol-lez-Alès (Gard, 30) : 3 pièces. Prix : 122 000 €, honoraires à la charge du vendeur. Le bien comprend : terrasse et cave. Rez-de-chaussée sur 2, construction de 1974, exposition est ouest. Référence 12_626, suivie par Elodie Chardot (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -59,13 +59,13 @@ Un bien rare par sa polyvalence, offrant une belle surface, deux lots existants 
 
 Elodie CHARDOT, LOTIER IMMOBILIER
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Cave
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -92,15 +92,12 @@ Appartement
 ### Équipements et confort
 
 **Exposition**
-Ouest Est
-
-**Ascenseur**
-Non
-
-**Cave**
-Oui
+Est Ouest
 
 **Terrasse**
+Oui
+
+**Cave**
 Oui
 
 ### Copropriété (loi ALUR)

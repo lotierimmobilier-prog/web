@@ -37,7 +37,7 @@ Située dans une petite rue calme, à proximité des commerces, des écoles et d
 
 Ne laissez pas passer cette opportunité unique d’acquérir cette jolie maison de village à Clarensac. Contactez-moi dès maintenant pour organiser une visite et découvrir toutes ses qualités. Elodie CHARDOT, votre conseillere LOTIER immobiler.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -81,9 +81,6 @@ Individuel électrique radiateur
 
 **Cuisine**
 Américaine
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

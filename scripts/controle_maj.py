@@ -4,7 +4,7 @@
 Usage : python3 scripts/controle_maj.py <data/annonces.json d'avant le scraper> [fichier du message de commit]
 
 Lit l'ancien et le nouveau data/annonces.json et :
-  1. REFUSE (code 1, rien n'est publié) si le résultat ressemble à une panne de WordPress, pas à une vraie évolution :
+  1. REFUSE (code 1, rien n'est publié) si le résultat ressemble à un export incomplet, pas à une vraie évolution :
      - moins de 30 annonces, ou plus de 25 % d'annonces en moins qu'avant ;
      - plus de 10 % de fiches détaillées en moins qu'avant (fiche illisible = page de détail supprimée) ;
      - une annonce sur cinq (ou plus) sans photo.

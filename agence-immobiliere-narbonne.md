@@ -74,17 +74,17 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
 
  Nos annonces
 
-## Biens à vendre et à louer *à Narbonne et alentours.*
+## Nos biens les plus proches, *autour de Narbonne.*
 
- 500 € par mois
+ 289 000 €
 
-### Appartement T1 Narbonne centre historique 38,2 m2
+### Immeuble de 4 lots 123,32 m2 Béziers
 
- Narbonne · 38,2 m²
+ Béziers · 95,32 m²
 
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

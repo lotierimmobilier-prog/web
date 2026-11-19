@@ -1,15 +1,16 @@
-# Mise à jour automatique des annonces de lotier.immo : chaque nuit à 02h00 (heure de Paris).
+# Mise à jour automatique des annonces de lotier.immo : chaque matin à 05h00 (heure de Paris),
+# après le renouvellement de l'export par Hektor (vers 03h50).
 #
-# Elle relit les annonces publiées sur lotier-immobilier.com (WPImmo), recopie les photos, régénère le site et,
-# s'il y a du nouveau, le publie sur `main` — Hostinger redéploie alors tout seul (déploiement Git).
-# Aucune annonce n'est jamais publiée à la main ici : tout vient de WPImmo, puis de Collab quand la source changera.
+# Elle lit l'export Hektor de l'agence (lotier-immo.zip, renouvelé chaque nuit), recopie les photos, régénère le site
+# et, s'il y a du nouveau, le publie sur `main` — Hostinger redéploie alors tout seul (déploiement Git).
+# Aucune annonce n'est jamais publiée à la main ici : tout vient de l'export Hektor (scripts/sync_annonces_export.py).
 #
-# Garde-fous (scripts/controle_maj.py) : si le résultat ressemble à une panne de WordPress (beaucoup moins d'annonces,
+# Garde-fous (scripts/controle_maj.py) : si le résultat ressemble à un export incomplet (beaucoup moins d'annonces,
 # de fiches ou de photos qu'avant), la mise à jour est REFUSÉE, rien n'est publié et le travail apparaît en échec
 # dans l'onglet Actions (GitHub prévient par e-mail). Sans changement réel des annonces, aucun commit.
 #
-# GitHub ne planifie qu'en UTC : on déclenche à 00:00 et 01:00 UTC et on ne garde que l'exécution qui tombe à 02h
-# à Paris (01:00 UTC en hiver, 00:00 UTC en été). Lancement à la main possible : onglet Actions → « Mise à jour des annonces ».
+# GitHub ne planifie qu'en UTC : on déclenche à 03:00 et 04:00 UTC et on ne garde que l'exécution qui tombe à 05h
+# à Paris (04:00 UTC en hiver, 03:00 UTC en été). Lancement à la main possible : onglet Actions → « Mise à jour des annonces ».
 # Elle reprend aussi les contenus que Collab a figés au dernier « Publier » (data/contenu.json ; s'il est injoignable, le
 # fichier actuel est conservé) et passe les mêmes contrôles que « Publier le site » (scripts/controle_publication.py).
 # Activée le 2026-11-09 (Actions réactivées sur le dépôt par Jerome).
@@ -17,8 +18,8 @@ name: Mise à jour des annonces
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-    - cron: "0 1 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -30,7 +31,7 @@ concurrency:
 
 jobs:
   maj:
-    name: Relire WPImmo et publier
+    name: Lire l'export Hektor et publier
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -39,8 +40,8 @@ jobs:
         run: |
           h=$(TZ=Europe/Paris date +%H)
           echo "Il est ${h}h à Paris."
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$h" != "02" ]; then
-            echo "Pas 02h à Paris : cette exécution est laissée à son jumeau."
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$h" != "05" ]; then
+            echo "Pas 05h à Paris : cette exécution est laissée à son jumeau."
             echo "go=non" >> "$GITHUB_OUTPUT"
           else
             echo "go=oui" >> "$GITHUB_OUTPUT"
@@ -66,12 +67,7 @@ jobs:
         if: steps.heure.outputs.go == 'oui'
         run: |
           cp data/annonces.json "$RUNNER_TEMP/annonces-avant.json"
-          python3 scripts/scrape_annonces.py
-
-      # Honoraires de location : relevés dans l'export Hektor (les fiches du site source n'en affichent qu'une partie).
-      - name: Relever les honoraires de location
-        if: steps.heure.outputs.go == 'oui'
-        run: python3 scripts/sync_export_hektor.py --souple
+          python3 scripts/sync_annonces_export.py
 
       - name: Contrôler le résultat
         if: steps.heure.outputs.go == 'oui'

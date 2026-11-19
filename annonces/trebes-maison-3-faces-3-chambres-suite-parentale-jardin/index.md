@@ -12,7 +12,7 @@ TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
 
 ## En bref
 
-Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 207 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition ouest est, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 207 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition est ouest, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -49,7 +49,7 @@ Les points forts : 3 faces o 3 chambres o espace parental au RDC o dressing 5,5�
 - Terrasse
 - Climatisation
 - Cuisine américaine équipée
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -60,9 +60,6 @@ Maison/villa
 
 **Surface habitable**
 105 m²
-
-**Terrain**
-315 m²
 
 **Pièces**
 4
@@ -82,6 +79,9 @@ Maison/villa
 **Nombre d'étages**
 2
 
+**Terrain**
+315 m²
+
 **Année de construction**
 1970
 
@@ -94,15 +94,15 @@ Individuel
 Américaine équipée
 
 **Exposition**
-Ouest Est
+Est Ouest
 
 **Ascenseur**
 Non
 
-**Climatisation**
+**Terrasse**
 Oui
 
-**Terrasse**
+**Climatisation**
 Oui
 
 ## Détail du prix
@@ -149,7 +149,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

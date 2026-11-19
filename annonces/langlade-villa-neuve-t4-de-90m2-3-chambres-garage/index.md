@@ -4,7 +4,7 @@
 
 Source : https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/
 
-Langlade villa neuve – T4 de 90m2 – 3 chambres – garage –
+Langlade villa neuve – T4 de 90m2 – 3 chambres – garage
 
 **399 000 €** · Langlade · 90 m² · 3 chambres · 1 salle d'eau/bain
 
@@ -57,13 +57,12 @@ Une opportunité rare pour acquérir une villa neuve de standing dans l’un des
 
 Pour plus de renseignements et une évétuelle visite, Contactez moi Elodie CHARDOT votre conseillère dans le GARD
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
-- Boxe
 - Climatisation
 - Exposition nord sud
 
@@ -106,19 +105,13 @@ Individuel
 **Exposition**
 Nord Sud
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Climatisation**
+**Terrasse**
 Oui
 
 **Garage**
 Oui
 
-**Terrasse**
+**Climatisation**
 Oui
 
 ## Détail du prix

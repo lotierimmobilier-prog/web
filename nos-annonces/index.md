@@ -4,9 +4,25 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-64 biens à vendre et 19 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+66 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 289 000 €
+
+### Immeuble de 4 lots 123,32 m2 Béziers
+
+ Béziers · 95,32 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
+
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 
@@ -40,29 +56,13 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
 
- 465 € par mois
-
-### Studio Spacieux au Centre de Limoux
-
- Limoux · 68 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
-
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 
  Béziers · 20 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
-
- 500 € par mois
-
-### Appartement T1 Narbonne centre historique 38,2 m2
-
- Narbonne · 38,2 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/)[Être rappelé](https://lotier.immo/contact/)
 
  430 € par mois
 
@@ -322,7 +322,7 @@ Source : https://lotier.immo/nos-annonces/
 
  399 000 €
 
-### Langlade villa neuve – T4 de 90m2 – 3 chambres – garage –
+### Langlade villa neuve – T4 de 90m2 – 3 chambres – garage
 
  Langlade · 90 m² · 3 ch.
 

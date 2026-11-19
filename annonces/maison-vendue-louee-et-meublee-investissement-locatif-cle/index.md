@@ -92,7 +92,7 @@ Loyer actuel : 590 € / mois
 
 Un investissement serein dans une commune en plein développement, aux portes de Carcassonne.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -109,9 +109,6 @@ Maison/villa
 **Surface habitable**
 81 m²
 
-**Terrain**
-40 m²
-
 **Pièces**
 4
 
@@ -126,6 +123,9 @@ Maison/villa
 
 **Nombre d'étages**
 3
+
+**Terrain**
+40 m²
 
 **Année de construction**
 1960
