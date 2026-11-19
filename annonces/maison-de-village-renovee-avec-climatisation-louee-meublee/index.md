@@ -92,10 +92,9 @@ Oui
 - Loyer charges comprises **650 € / mois**
 - Provisions sur charges **20 € / mois**
 - Dépôt de garantie **1 260 €**
-- État des lieux (locataire, TTC) **245 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
-- Honoraires de l'agence **500 €** *D'après le descriptif de l'annonce*
+- Honoraires à la charge du locataire (TTC) **400 €** *dont état des lieux 244,50 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **112** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G

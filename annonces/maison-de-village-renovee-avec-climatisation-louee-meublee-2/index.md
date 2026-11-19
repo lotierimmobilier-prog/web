@@ -109,7 +109,7 @@ Non
 - Dépôt de garantie **0 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
-- Honoraires de l'agence **400 €** *D'après le descriptif de l'annonce*
+- Honoraires à la charge du locataire (TTC) **400 €** *dont état des lieux 244,50 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **112** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G

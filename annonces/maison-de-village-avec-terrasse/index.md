@@ -119,10 +119,9 @@ Oui
 - Loyer **750 € par mois** *Charges comprises*
 - Loyer charges comprises **750 € / mois**
 - Dépôt de garantie **730 €**
-- État des lieux (locataire, TTC) **285 €**
 - Charges récupérables **20 € / mois**
 - Caractère meublé **Location non meublée**
-- Honoraires de l'agence **700 €** *D'après le descriptif de l'annonce*
+- Honoraires à la charge du locataire (TTC) **700 €** *dont état des lieux 285 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **151** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **4** kg CO₂/m².an A B C D E F G

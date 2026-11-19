@@ -46,6 +46,7 @@ Non
 - Dépôt de garantie **2 130 €**
 - Charges récupérables **50 € / mois**
 - Caractère meublé **Location non meublée**
+- Honoraires à la charge du locataire (TTC) **600 €**
 
  Lien partenaire
 

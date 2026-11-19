@@ -65,9 +65,9 @@ Non
 - Loyer **735 € par mois** *Charges comprises*
 - Loyer charges comprises **735 € / mois**
 - Dépôt de garantie **725 €**
-- État des lieux (locataire, TTC) **300 €**
 - Charges récupérables **75 € / mois**
 - Caractère meublé **Location non meublée**
+- Honoraires à la charge du locataire (TTC) **1 100 €** *dont état des lieux 300 €*
 
  Lien partenaire
 

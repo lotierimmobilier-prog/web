@@ -89,6 +89,12 @@ def caracteristiques_bloc(blocs):
 
 
 # ---------- Détail du prix ----------
+def _euros(n):
+    """360.25 -> « 360,25 € » ; 1078 -> « 1 078 € »."""
+    n = float(n)
+    t = f"{n:,.2f}".replace(",", "\u202f").replace(".", ",")
+    return (t[:-3] if t.endswith(",00") else t) + f"{NB}€"
+
 def _libelle_honoraires(k):
     """Libellé d'une ligne d'honoraires de location venue de la source, avec la mention TTC et la personne qui paie quand la source les donne."""
     b = k.lower()
@@ -121,12 +127,10 @@ def prix_bloc(a, v, price, notes, honoraires_texte=None, honoraires_hektor=None)
             cartes.append((_libelle_honoraires(k), val, ""))
         hk = honoraires_hektor or {}
         if hk.get("locataire"):
-            # montants relevés dans Hektor par l'agence (data/honoraires-location.json) : recopiés, jamais calculés
-            det = [f"{hk['locataire_par_m2']} par m² de surface habitable"] if hk.get("locataire_par_m2") else []
-            if hk.get("etat_des_lieux"):
-                det.append(f"dont état des lieux {hk['etat_des_lieux']}" + (f" ({hk['etat_des_lieux_par_m2']} par m²)" if hk.get("etat_des_lieux_par_m2") else ""))
-            cartes = [c for c in cartes if c[0] != "État des lieux (locataire, TTC)"] if hk.get("etat_des_lieux") else cartes      # déjà détaillé dans la ligne ci-dessous
-            cartes.append(("Honoraires à la charge du locataire", hk["locataire"], ", ".join(det)))
+            # relevés dans l'export Hektor de l'agence (data/honoraires-location.json) : recopiés, jamais calculés
+            sous = f"dont état des lieux {_euros(hk['etat_des_lieux'])}" if hk.get("etat_des_lieux") else ""
+            if sous: cartes = [c for c in cartes if c[0] != "État des lieux (locataire, TTC)"]      # déjà détaillé dans la ligne ci-dessous
+            cartes.append(("Honoraires à la charge du locataire (TTC)", _euros(hk["locataire"]), sous))
         elif honoraires_texte:
             cartes.append(("Honoraires de l'agence", honoraires_texte, "D'après le descriptif de l'annonce"))
     items = "".join(f'<li><span>{e(l)}</span><strong{" class=\"long\"" if len(val) > 22 else ""}>{e(val)}</strong>{f"<em>{e(sub)}</em>" if sub else ""}</li>' for l, val, sub in cartes)

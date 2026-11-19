@@ -98,7 +98,7 @@ Non
 - Dépôt de garantie **0 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location non meublée**
-- Honoraires à la charge du locataire **360,25 €** *11,00 € par m² de surface habitable, dont état des lieux 98,25 € (3,00 € par m²)*
+- Honoraires à la charge du locataire (TTC) **360,25 €** *dont état des lieux 98,25 €*
 
 ## Bilan énergétique
 DPE · Consommation d'énergie **327** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **10** kg CO₂/m².an A B C D E F G
