@@ -1,0 +1,6 @@
+{
+  "_note": "Honoraires de location à la charge du locataire, relevés dans Hektor par l'agence, pour les annonces dont le site source (WordPress) ne publie que l'état des lieux. Clé : référence de l'annonce. Les montants sont recopiés tels qu'affichés dans Hektor : aucun n'est calculé par le site. À retirer quand la source publiera ces champs.",
+  "honoraires": {
+    "15_DLLAP170000959": {"locataire": "360,25 €", "locataire_par_m2": "11,00 €", "etat_des_lieux": "98,25 €", "etat_des_lieux_par_m2": "3,00 €", "releve": "Hektor, 19 novembre 2026"}
+  }
+}
