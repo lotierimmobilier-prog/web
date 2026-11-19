@@ -112,7 +112,7 @@ Le barème de nos honoraires de vente, de location, de gestion locative et de sy
 
 ## Annonces
 
-Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et mises à jour chaque jour. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.
+Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et reprises chaque jour sur ce site. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.
 
 ## Propriété intellectuelle et droits d'auteur
 

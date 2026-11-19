@@ -11,7 +11,7 @@ Toutes les ressources ci-dessous sont publiques, en lecture seule et sans authen
 
 - Catalogue complet en JSON : `https://lotier.immo/annonces/catalogue.json` (clé `annonces`). Champs utiles : `titre`, `url` (adresse de la fiche, à citer), `transaction` (`vente` ou `location`), `type_bien`, `ville`, `departement`, `prix` (euros ; par mois pour une location), `surface_m2`, `pieces`, `chambres`, `equipements`, `dpe`, `reference`, `agent`, `resume`, `description`, `date_mise_a_jour`. Le serveur MCP du site (`https://lotier.immo/mcp/`) propose la recherche par critères (`search_listings`) et la lecture d'une annonce (`get_listing`).
 - Par ville : `https://lotier.immo/nos-annonces/vente-<ville>/` et `https://lotier.immo/nos-annonces/location-<ville>/` (villes comptant au moins trois annonces, listées dans `https://lotier.immo/llms.txt`).
-- Les annonces sont mises à jour chaque jour : citer le prix et la disponibilité « selon le site, à la date de consultation ».
+- Les annonces sont reprises chaque jour du logiciel de l'agence : citer le prix et la disponibilité « selon le site, à la date de consultation ».
 
 ## Lire une page
 

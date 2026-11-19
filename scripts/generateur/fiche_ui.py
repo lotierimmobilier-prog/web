@@ -89,6 +89,17 @@ def caracteristiques_bloc(blocs):
 
 
 # ---------- Détail du prix ----------
+def _libelle_honoraires(k):
+    """Libellé d'une ligne d'honoraires de location venue de la source, avec la mention TTC et la personne qui paie quand la source les donne."""
+    b = k.lower()
+    qui = "locataire" if "locataire" in b else "propriétaire" if ("propriétaire" in b or "bailleur" in b) else ""
+    suffixe = " (" + ", ".join(x for x in (qui, "TTC" if "ttc" in b else "") if x) + ")" if (qui or "ttc" in b) else ""
+    if "état des lieux" in b or "etat des lieux" in b: nom = "État des lieux"
+    elif "visite" in b or "dossier" in b: nom = "Visite, dossier et rédaction du bail" if ("rédaction" in b or "redaction" in b or "bail" in b) else "Visite et constitution du dossier"
+    elif "rédaction" in b or "redaction" in b or "bail" in b: nom = "Rédaction du bail"
+    else: return k
+    return nom + suffixe
+
 def prix_bloc(a, v, price, notes):
     loc = a["type"] == "location"
     cartes = [("Loyer" if loc else "Prix", price, "Charges comprises" if loc and any("comprises" in n.lower() for n in notes) else "Frais d'agence inclus" if not loc else "")]
@@ -101,6 +112,13 @@ def prix_bloc(a, v, price, notes):
             val = v[k]
             lab = {"Charge honoraires": "Honoraires à la charge de", "Charges annuelles": "Charges de copropriété", "Honoraires état des lieux (TTC, charge locataire)": "État des lieux (locataire, TTC)"}.get(k, k)
             cartes.append((lab, val, ""))
+    # Honoraires de location : toute autre ligne d'honoraires fournie par la source (visite, dossier, rédaction du bail…) est affichée,
+    # une ligne par poste. Aucun montant n'est calculé ici : le calcul appartient à l'agence.
+    if loc:
+        for k, val in v.items():
+            if k in vus or "honoraire" not in k.lower() or not val: continue
+            vus.add(k)
+            cartes.append((_libelle_honoraires(k), val, ""))
     items = "".join(f'<li><span>{e(l)}</span><strong{" class=\"long\"" if len(val) > 22 else ""}>{e(val)}</strong>{f"<em>{e(sub)}</em>" if sub else ""}</li>' for l, val, sub in cartes)
     return f'<section class="ann-card ann-prix" aria-labelledby="ann-h-prix"><h2 id="ann-h-prix">Détail du prix</h2><ul class="ann-prix-grid">{items}</ul></section>'
 

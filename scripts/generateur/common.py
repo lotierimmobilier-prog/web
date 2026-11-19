@@ -834,14 +834,13 @@ def departement(a):
     return _DEPS["communes"].get(a.get("ville") or "", "")
 _BIENS = (("appartement", "Appartement"), ("maison", "Maison"), ("terrain", "Terrain"), ("immeuble", "Immeuble"), ("commerce", "Local, bureaux, commerce"), ("parking", "Parking, box"), ("autre", "Autre"))
 BIENS_LIBELLES = dict(_BIENS)
+_CATEGORIE_DU_TYPE = {"appartement": "appartement", "maison/villa": "maison", "maison": "maison", "villa": "maison", "immeuble": "immeuble", "terrain": "terrain",
+                      "local": "commerce", "boutique": "commerce", "bureaux": "commerce", "parking/box": "parking"}
 def categorie_bien(a):
-    """Catégorie de bien (clé de _BIENS) : lue dans la fiche (« Type de bien »), à défaut déduite du titre."""
+    """Catégorie de bien (clé de _BIENS), lue dans le seul champ « Type de bien » de la fiche source. Jamais dans le titre ni la description :
+    « appartement dans un immeuble bourgeois » n'est pas un immeuble, « maison avec garage » n'est pas un parking. Type absent ou inconnu : « autre »."""
     brut = next((l[1] for b in a.get("blocs", []) for l in b["lignes"] if l[0] == "Type de bien"), "") or ""
-    t = (brut + " " + (a.get("titre") or "")).lower()
-    for cle, mots in (("parking", ("parking", "box", "garage")), ("terrain", ("terrain",)), ("immeuble", ("immeuble",)),
-                      ("commerce", ("local", "boutique", "bureau", "commerc", "fonds")), ("maison", ("maison", "villa")), ("appartement", ("appartement", "studio", "t1", "t2", "t3", "t4", "t5"))):
-        if any(m in t for m in mots): return cle
-    return "autre"
+    return _CATEGORIE_DU_TYPE.get(brut.strip().lower(), "autre")
 
 def tel_agent(t):
     """« 0651450663 » -> (« 06 51 45 06 63 », « +33651450663 »), ou None (numéro de l'agent d'une annonce)."""

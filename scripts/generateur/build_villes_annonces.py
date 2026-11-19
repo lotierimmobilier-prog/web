@@ -33,7 +33,7 @@ def page(g):
     intro = f"LOTIER Immobilier propose actuellement {n} biens {action} {ou}" + (f" : {liste(types)}." if types else ".")
     if len(prix) > 1: intro += f" Les {'loyers' if loc else 'prix'} vont de {eur(prix[0])} à {eur(prix[-1])}{unite}."
     if len(surf) > 1: intro += f" Les surfaces vont de {round(surf[0])} à {round(surf[-1])} m²."
-    faq = [(f"Combien de biens sont {action} {ou} chez LOTIER Immobilier ?", f"{n} biens sont {action} {ou} aujourd'hui" + (f" : {liste(types)}." if types else ".") + " Cette liste est mise à jour chaque jour.")]
+    faq = [(f"Combien de biens sont {action} {ou} chez LOTIER Immobilier ?", f"{n} biens sont {action} {ou} aujourd'hui" + (f" : {liste(types)}." if types else ".") + " Cette liste est reprise chaque jour du logiciel de l'agence.")]
     if len(prix) > 1:
         med = prix[len(prix) // 2]
         faq.append((f"Quel budget prévoir pour {'louer' if loc else 'acheter'} {ou} ?", f"Parmi nos annonces, les {'loyers' if loc else 'prix'} vont de {eur(prix[0])} à {eur(prix[-1])}{unite}, avec un {'loyer' if loc else 'prix'} médian de {eur(med)}{unite}. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché."))

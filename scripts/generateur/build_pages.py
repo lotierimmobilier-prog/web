@@ -350,7 +350,7 @@ _pv = pages_ville_annonces()
 if _pv:
     ll += "\n## Annonces par ville\n\n"
     for g in _pv:
-        ll += f"- [Biens {'à louer' if g['type'] != 'vente' else 'à vendre'} à {g['ville']}]({SITE}/nos-annonces/{g['slug']}/): {len(g['annonces'])} annonces, mises à jour chaque jour.\n"
+        ll += f"- [Biens {'à louer' if g['type'] != 'vente' else 'à vendre'} à {g['ville']}]({SITE}/nos-annonces/{g['slug']}/): {len(g['annonces'])} annonces.\n"
 ll += ("\n## Honoraires (barème publié)\n\n"
        "- Vente : honoraires TTC à la charge du vendeur, inclus dans le prix affiché. 5 % à partir de 200 001 €, 6 % de 150 001 à 200 000 €, 7 % de 100 001 à 150 000 €, 8 % de 70 001 à 100 000 €, 10 % (minimum 3 000 €) de 10 001 à 70 000 €, 3 000 € jusqu'à 10 000 €.\n"
        "- Mise en location : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone (autre, tendue, très tendue), plus 3,03 € TTC par m² pour l'état des lieux.\n"
