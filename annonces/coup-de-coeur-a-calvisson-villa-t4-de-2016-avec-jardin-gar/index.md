@@ -61,7 +61,6 @@ Une opportunité rare à Calvisson. Contactez-moi rapidement pour organiser une 
 
 - Garage
 - Parking
-- Boxe
 - Climatisation
 - Cuisine américaine équipée
 - Exposition nord sud
@@ -75,9 +74,6 @@ Maison/villa
 
 **Surface habitable**
 84.55 m²
-
-**Terrain**
-180 m²
 
 **Pièces**
 4
@@ -94,6 +90,9 @@ Maison/villa
 **Nombre d'étages**
 1
 
+**Terrain**
+180 m²
+
 **Année de construction**
 2016
 
@@ -108,19 +107,13 @@ Américaine équipée
 **Exposition**
 Nord Sud
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Climatisation**
+**Parking**
 Oui
 
 **Garage**
 Oui
 
-**Parking**
+**Climatisation**
 Oui
 
 ## Détail du prix
@@ -161,7 +154,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par GALLUCCI CONSULTING & PERFORMANCE – SARL – NoRSAC: 100 710 235, Enregistré à Greffe du tribunal de commerce de AJACCIO
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

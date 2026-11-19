@@ -46,7 +46,7 @@ Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 
 
 ## Les atouts du bien
 
-- Cuisine coin suisine
+- Cuisine coin cuisine
 
 ## Caractéristiques
 
@@ -85,7 +85,7 @@ Appartement
 Individuel électrique radiateur
 
 **Cuisine**
-Coin suisine
+Coin cuisine
 
 **Ascenseur**
 Non
@@ -95,7 +95,6 @@ Non
 - Loyer **394 € par mois** *Charges comprises*
 - Loyer charges comprises **394 € / mois**
 - Provisions sur charges **30 € / mois**
-- Dépôt de garantie **0 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location non meublée**
 - Honoraires à la charge du locataire (TTC) **360,25 €** *dont état des lieux 98,25 €*
@@ -124,7 +123,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER
@@ -202,7 +201,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

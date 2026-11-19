@@ -22,7 +22,7 @@ Local commercial de 180 m² à louer à Capendu (Aude, 11). Loyer : 760 € pa
 
 A LOUER à CAPENDU (11) – local commercial de 180 m² à Capendu, au sein d’un bâtiment partagé avec une boucherie. Situé dans un village dynamique de 1600 habitants, le local est disponible pour tout type de commerce, stockage ou entrepôt. Emplacement idéal pour affaires dans une commune en croissance. Contactez-nous pour plus de détails ou pour organiser une visite. Bail 3/6/9.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -34,18 +34,12 @@ Local
 **Surface habitable**
 180 m²
 
-### Équipements et confort
-
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Loyer **760 € par mois** *Charges comprises*
 - Loyer charges comprises **760 € / mois**
 - Dépôt de garantie **2 130 €**
 - Charges récupérables **50 € / mois**
-- Caractère meublé **Location non meublée**
 - Honoraires à la charge du locataire (TTC) **600 €**
 
  Lien partenaire
@@ -63,7 +57,6 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
  760 € par mois
 
 - Charges comprises, dont 50 € de charges récupérables
-- Location non meublée
 
 Réf. 2_BBLCO30000256
 

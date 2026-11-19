@@ -42,6 +42,22 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 289 000 €
+
+### Immeuble de 4 lots 123,32 m2 Béziers
+
+ Béziers · 95,32 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
+
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  255 000 €
 
 ### Marguerittes – immeuble avec local commercial et deux appart
@@ -65,22 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Villeneuve-lès-Béziers · 191 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
-
- Prix sur demande
-
-### Local commercial boulevard de Genève
-
- Béziers · 77 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/)[Être rappelé](https://lotier.immo/contact/)
-
- 76 000 €
-
-### À vendre appartement T3 lumineux secteur gare / maréchal
-
- Béziers · 53 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 

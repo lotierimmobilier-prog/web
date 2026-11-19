@@ -29,11 +29,10 @@ NÎMES – A LOUER – STUDIO – 14,99 m² – CENTRE VILLE PROCHE PLACE DE LA
 
 Me contacter si ce bien vous interesse, Elodie CHARDOT
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
-- Meublé
 - Cuisine coin cuisine équipée
 
 ## Caractéristiques
@@ -71,9 +70,6 @@ Coin cuisine équipée
 
 **Ascenseur**
 Non
-
-**Meublé**
-Oui
 
 ## Détail du prix
 

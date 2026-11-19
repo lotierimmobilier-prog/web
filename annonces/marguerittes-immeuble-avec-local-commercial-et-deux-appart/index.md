@@ -12,7 +12,7 @@ Marguerittes – immeuble avec local commercial et deux appart
 
 ## En bref
 
-Immeuble de 142 m² à vendre à Marguerittes. Prix : 255 000 €. Le bien comprend : balcon. Construction de 1949, chauffage individuel, classe énergie B (100 kWh/m²/an), classe climat A. Référence 12_646, suivie par Elodie Chardot (LOTIER Immobilier).
+Immeuble de 142 m² à vendre à Marguerittes. Prix : 255 000 €. Le bien comprend : balcon. Construction de 1949, chauffage individuel, classe énergie C (100 kWh/m²/an), classe climat A. Référence 12_646, suivie par Elodie Chardot (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -40,7 +40,7 @@ Un bien à découvrir pour les investisseurs souhaitant valoriser un immeuble pa
 
 Contactez-moi pour obtenir davantage de renseignements et organiser une visite, Elodie CHARDOT.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -84,7 +84,7 @@ Dépenses annuelles d’énergie estimées : **entre 823 € et 901 €** par 
 
 **Voir le diagnostic complet**
 
-DPE classe B, 100 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe C, 100 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 823 € et 901 € par an.
 

@@ -35,55 +35,55 @@ Description du bien
 
 Rez-de-chaussée :
 
-– Grande cuisine aménagée et équipée récente ouverte sur une belle pièce de vie lumineuse
+- Grande cuisine aménagée et équipée récente ouverte sur une belle pièce de vie lumineuse
 
-– Chambre de 8 m² ou bureau
+- Chambre de 8 m² ou bureau
 
-– Chambre de 11 m²
+- Chambre de 11 m²
 
-– Suite parentale avec salle d’eau privative
+- Suite parentale avec salle d’eau privative
 
-– WC indépendant
+- WC indépendant
 
 Étage :
 
-– 2 chambres supplémentaires
+- 2 chambres supplémentaires
 
-– Salle d’eau
+- Salle d’eau
 
-– WC indépendant
+- WC indépendant
 
 Extérieurs et annexes :
 
-– Terrasse de 24 m²
+- Terrasse de 24 m²
 
-– Jardin agréable
+- Jardin agréable
 
-– Piscine au sel
+- Piscine au sel
 
-– Local piscine
+- Local piscine
 
-– Sous-sol / garage total de 113 m²
+- Sous-sol / garage total de 113 m²
 
-– Portail électrique
+- Portail électrique
 
 Prestations :
 
-– Maison entièrement rénovée (travaux réalisés il y a moins de 10 ans)
+- Maison entièrement rénovée (travaux réalisés il y a moins de 10 ans)
 
-– Climatisation réversible gainable
+- Climatisation réversible gainable
 
-– Menuiseries aluminium
+- Menuiseries aluminium
 
-– Volets roulants électriques côté jardin
+- Volets roulants électriques côté jardin
 
-– Toiture récente
+- Toiture récente
 
-– Isolation du plancher
+- Isolation du plancher
 
-– Alarme
+- Alarme
 
-– Maison lumineuse et bien entretenue
+- Maison lumineuse et bien entretenue
 
 Localisation :
 
@@ -94,7 +94,6 @@ Comigne village recherché des Corbières offrant un environnement paisible tout
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Piscine
 - Cuisine américaine équipée
 - Exposition nord sud
@@ -109,9 +108,6 @@ Maison/villa
 **Surface habitable**
 127 m²
 
-**Terrain**
-289 m²
-
 **Pièces**
 6
 
@@ -123,6 +119,9 @@ Maison/villa
 
 **WC**
 2
+
+**Terrain**
+289 m²
 
 **Année de construction**
 1900
@@ -138,19 +137,16 @@ Nord Sud
 **Ascenseur**
 Non
 
-**Boxe**
-Oui
-
-**Garage**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Piscine**
+**Garage**
 Oui
 
-**Terrasse**
+**Piscine**
 Oui
 
 ## Détail du prix
@@ -197,7 +193,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

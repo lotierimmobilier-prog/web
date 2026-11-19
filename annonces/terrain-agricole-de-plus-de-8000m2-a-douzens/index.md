@@ -23,7 +23,7 @@ Terrain de 8741 m² à vendre à Douzens (Aude, 11). Prix : 5 000 €, honor
 
 Terrain agricole de 8741 m² à la sortie de Douzens, après le cimetière. Cette ancienne vigne (arrachée) ne possède ni eau, ni électricité. Il est plat et facile d’accès par un chemin de terre.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -37,11 +37,6 @@ Terrain
 
 **Terrain**
 8741 m²
-
-### Équipements et confort
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

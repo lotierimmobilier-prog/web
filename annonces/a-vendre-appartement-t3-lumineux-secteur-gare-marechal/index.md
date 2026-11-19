@@ -42,7 +42,7 @@ Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous
 
 Pour plus de renseignements, merci de joindre Laetitia Dias au 06.09.76.63.24.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 

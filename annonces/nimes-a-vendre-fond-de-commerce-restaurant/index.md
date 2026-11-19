@@ -43,7 +43,7 @@ Que vous souhaitiez poursuivre une activité existante ou développer un nouveau
 
 Pour tout renseignement complémentaire ou organiser une visite, contactez-moi dès maintenant.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -69,9 +69,6 @@ Boutique
 1949
 
 ### Équipements et confort
-
-**Ascenseur**
-Non
 
 **Climatisation**
 Oui

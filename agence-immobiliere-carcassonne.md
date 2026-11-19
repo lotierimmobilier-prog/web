@@ -116,13 +116,13 @@ Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un 
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
 
- 465 € par mois
+ 289 000 €
 
-### Studio Spacieux au Centre de Limoux
+### Immeuble de 4 lots 123,32 m2 Béziers
 
- Limoux · 68 m²
+ Béziers · 95,32 m²
 
- [Voir l'annonce](https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
 [Biens à vendre à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 

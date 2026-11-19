@@ -70,9 +70,6 @@ Maison/villa
 **Surface habitable**
 95 m²
 
-**Terrain**
-33 m²
-
 **Pièces**
 5
 
@@ -88,6 +85,9 @@ Maison/villa
 **Nombre d'étages**
 3
 
+**Terrain**
+33 m²
+
 **Année de construction**
 1948
 
@@ -102,16 +102,13 @@ Américaine équipée
 **Exposition**
 Nord
 
-**Ascenseur**
-Non
+**Terrasse**
+Oui
 
 **Cave**
 Oui
 
 **Climatisation**
-Oui
-
-**Terrasse**
 Oui
 
 ## Détail du prix
@@ -148,7 +145,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 - Honoraires de l’agence : 700 €
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER

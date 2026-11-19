@@ -12,7 +12,7 @@ Saint Ambroix à proximité d’Alès local commercial + appartem
 
 ## En bref
 
-Appartement de 68 m² à vendre à Saint-Ambroix (Gard, 30), secteur centre ville : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 57 000 €. Étage 1 sur 2, chauffage individuel, exposition ouest sud, classe énergie F (414 kWh/m²/an), classe climat C. Référence 6_RFVAP70000759, suivie par Nicolas Popovitch (LOTIER Immobilier).
+Appartement de 68 m² à vendre à Saint-Ambroix (Gard, 30), secteur centre ville : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Prix : 57 000 €. Étage 1 sur 2, chauffage individuel, exposition sud ouest, classe énergie F (414 kWh/m²/an), classe climat C. Référence 6_RFVAP70000759, suivie par Nicolas Popovitch (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -39,12 +39,12 @@ Secteur Saint-Ambroix, à proximité d’Alès (Gard)
 
 Pour organiser une visite ou obtenir toutes les informations sur ce bien, contactez l’agence Lotier Immobilier par téléphone, par message ou directement en agence. Notre équipe se tient disponible pour vous accompagner dans votre projet d’investissement.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Cuisine séparée
-- Exposition ouest sud
+- Exposition sud ouest
 
 ## Caractéristiques
 
@@ -80,7 +80,7 @@ Individuel
 Séparée
 
 **Exposition**
-Ouest Sud
+Sud Ouest
 
 **Ascenseur**
 Non

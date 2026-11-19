@@ -8,7 +8,7 @@ Maison de village rénovée avec climatisation louée meublée
 
 **650 € par mois** · Conques-sur-Orbiel · 81,5 m² · 2 chambres · 1 salle d'eau/bain
 
- LOCATION 1 / 6
+ LOCATION 1 / 12
 
 ## En bref
 
@@ -40,7 +40,6 @@ Dépôt de garantie : 1260 €
 ## Les atouts du bien
 
 - Climatisation
-- Meublé
 - Cuisine séparée équipée
 - Exposition nord ouest
 
@@ -77,14 +76,19 @@ Séparée équipée
 **Exposition**
 Nord Ouest
 
-**Ascenseur**
-Non
-
 **Climatisation**
 Oui
 
-**Meublé**
+### Copropriété (loi ALUR)
+
+**Copropriété**
 Oui
+
+**Nombre de lots**
+2
+
+**Procédures en cours**
+Non
 
 ## Détail du prix
 
@@ -119,9 +123,9 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 ## Mentions légales
 
-- Honoraires de l’agence : 500 €
+- Honoraires de l’agence : 400 €
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER

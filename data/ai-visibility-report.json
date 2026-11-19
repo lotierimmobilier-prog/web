@@ -818,27 +818,6 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/appartement-t1-narbonne-centre-historique-382-m2/",
-   "type": "autre",
-   "balisage": [
-    "Apartment",
-    "BreadcrumbList",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
    "url": "https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/",
    "type": "autre",
    "balisage": [
@@ -1198,11 +1177,49 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "QuantitativeValue",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
     "ListItem",
+    "Offer",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "QuantitativeValue",
+    "RealEstateListing",
+    "Residence",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "ListItem",
+    "LocationFeatureSpecification",
     "Offer",
     "Person",
     "Place",
@@ -1825,27 +1842,6 @@
     "PropertyValue",
     "QuantitativeValue",
     "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/studio-spacieux-au-centre-de-limoux/",
-   "type": "autre",
-   "balisage": [
-    "Apartment",
-    "BreadcrumbList",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,

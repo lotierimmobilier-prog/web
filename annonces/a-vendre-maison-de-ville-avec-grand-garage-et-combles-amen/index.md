@@ -43,12 +43,11 @@ Ses points forts :
 
 Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Garage
-- Boxe
 - Cuisine américaine
 
 ## Caractéristiques
@@ -86,9 +85,6 @@ Américaine
 
 **Ascenseur**
 Non
-
-**Boxe**
-Oui
 
 **Garage**
 Oui

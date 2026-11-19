@@ -12,7 +12,7 @@ Proche Clémentville, dernier étage avec garage.
 
 ## En bref
 
-Appartement de 90,64 m² à vendre à Montpellier (Hérault, 34), secteur clinique St Clément : 4 pièces, 3 chambres et 2 salles d'eau ou de bain. Prix : 284 000 €, honoraires à la charge du vendeur. Le bien comprend : terrasse, garage et ascenseur. Étage 4 sur 4, construction de 1983, exposition ouest est, classe énergie D (196 kWh/m²/an), classe climat D. Référence 12_587, suivie par Elodie Chardot (LOTIER Immobilier).
+Appartement de 90,64 m² à vendre à Montpellier (Hérault, 34), secteur clinique St Clément : 4 pièces, 3 chambres et 2 salles d'eau ou de bain. Prix : 284 000 €, honoraires à la charge du vendeur. Le bien comprend : terrasse, garage et ascenseur. Étage 4 sur 4, construction de 1983, exposition est ouest, classe énergie D (196 kWh/m²/an), classe climat D. Référence 12_587, suivie par Elodie Chardot (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -31,16 +31,15 @@ Grand appartement traversant au 4e et dernier étage avec ascenseur ; pas de voi
 
 Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite. Pour plus de renseignements, merci de me contacter
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
-- Boxe
 - Ascenseur
 - Cuisine américaine équipée
-- Exposition ouest est
+- Exposition est ouest
 
 ## Caractéristiques
 
@@ -76,21 +75,15 @@ Appartement
 Américaine équipée
 
 **Exposition**
-Ouest Est
+Est Ouest
 
 **Ascenseur**
-Oui
-
-**Ascenseur**
-Oui
-
-**Boxe**
-Oui
-
-**Garage**
 Oui
 
 **Terrasse**
+Oui
+
+**Garage**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -105,7 +98,7 @@ Oui
 3 055 €/an
 
 **Procédures en cours**
-oui
+Oui
 
 ## Détail du prix
 

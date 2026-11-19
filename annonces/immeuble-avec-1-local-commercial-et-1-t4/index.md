@@ -12,7 +12,7 @@ Immeuble avec 1 local commercial et 1 T4
 
 ## En bref
 
-Immeuble de 170 m² à vendre à Carcassonne (Aude, 11). Prix : 170 000 €, honoraires à la charge du vendeur. Classe énergie D (132 kWh/m²/an), classe climat D. Référence 2_MAVIM130000208, suivie par Barbara Bouba (LOTIER Immobilier).
+Immeuble de 170 m² à vendre à Carcassonne (Aude, 11). Prix : 170 000 €, honoraires à la charge du vendeur. Classe énergie C (132 kWh/m²/an), classe climat E. Référence 2_MAVIM130000208, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -28,7 +28,7 @@ A VENDRE à CARCASSONNE (11) – Immeuble comprenant deux lots :
 
 Revenus annuels : 14027,28 euros CC.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -40,11 +40,6 @@ Immeuble
 **Surface habitable**
 170 m²
 
-### Équipements et confort
-
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Prix **170 000 €** *Frais d'agence inclus*
@@ -55,7 +50,7 @@ DPE · Consommation d'énergie **132** kWh/m².an A B C D E F G GES · Émission
 
 **Voir le diagnostic complet**
 
-DPE classe D, 132 kWh/m².an ; GES classe D, 39 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe C, 132 kWh/m².an ; GES classe E, 39 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 

@@ -36,7 +36,7 @@ Loyer CC 750 € dont 80 € de charges (ordures ménagères et eau).
 
 Dépôt de garantie : 670 €
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 

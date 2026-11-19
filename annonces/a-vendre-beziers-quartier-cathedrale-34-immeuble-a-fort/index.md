@@ -1,6 +1,6 @@
 # Immeuble 185 m² à vendre à Béziers
 
-> Immeuble 185 m² à vendre à Béziers, 5 chambres, 357 000 €. Situé en centre-ville de Béziers, à deux pas des Halles, cet immeuble de charme représente une…
+> Immeuble 185 m² à vendre à Béziers, 5 chambres, 357 000 €. Situé dans le quartier de la Cathédrale, au coeur du centre historique de Béziers, cet immeuble de…
 
 Source : https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/
 
@@ -25,39 +25,19 @@ Immeuble de 185 m² à vendre à Béziers (Hérault, 34) : 9 pièces, 5 chambre
 
 ## Description
 
-Situé en centre-ville de Béziers, à deux pas des Halles, cet immeuble de charme représente une excellente opportunité d’investissement locatif dans un secteur très recherché.
+Situé dans le quartier de la Cathédrale, au coeur du centre historique de Béziers, cet immeuble de rapport à vendre comprend 6 appartements, dont certains sont actuellement loués. Il bénéficie d’un emplacement à proximité immédiate des Halles et des commerces.
 
-L’immeuble se compose de six appartements, tous actuellement loués :
+Cet immeuble de caractère, avec sa façade en pierre et son architecture ancienne, se compose de 4 appartements de type T2 et de 2 appartements de type T3, répartis sur plusieurs niveaux.
 
-Quatre appartements de type T2
+L’ensemble bénéficie d’une toiture récemment refaite, constituant un atout pour la conservation et l’entretien du bâtiment.
 
-Deux appartements de type T3
+Avec un potentiel locatif annuel estimé à 25 710 € hors charges, soit 2 142,50 € par mois une fois l’ensemble des logements loués, cet immeuble représente une opportunité pour un investisseur souhaitant développer son patrimoine immobilier. Ce montant correspond à une estimation des revenus locatifs possibles et non aux loyers actuellement perçus.
 
-L’ensemble développe une superficie habitable confortable, répartie sur plusieurs niveaux.
+Implanté dans le quartier historique de la Cathédrale, l’immeuble profite de la proximité des Halles de Béziers, des commerces, des services et des transports du centre-ville. Des possibilités de stationnement public sont disponibles à proximité.
 
-Vous serez séduit par sa façade en pierre, son caractère ancien, et sa toiture récemment refaite, garantissant une tranquillité d’esprit à long terme.
+Sa configuration en six logements, son caractère architectural et son emplacement central constituent des atouts pour un projet d’investissement locatif.
 
-Le revenu locatif annuel hors charges s’élève à 25 710 €, offrant un excellent rendement dans un environnement à forte demande locative.
-
-Stationnement public à proximité immédiate.
-
-Points forts :
-
-Immeuble composé de 6 appartements, tous loués
-
-Très bon rapport locatif : 25 710 € / an hors charges
-
-Façade en pierre immeuble de charme
-
-Toiture refaite récemment
-
-Emplacement recherché, à deux pas des Halles, commerces et transports
-
-Afin de faciliter la constitution de votre dossier acquéreur, merci de bien vouloir prendre contact avec l’agence Lotier Immobilier.
-
-L’agence Lotier Immobilier vous propose également ses services de locaction, de syndic ainsi que de gestion locative. Pour toute demande d’information complémentaire, contactez l’agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
-
-– Annonce rédigée et publiée par un Agent Mandataire –
+Pour tout renseignement complémentaire ou pour organiser une visite, contactez Laetitia Dias au 06 09 76 63 24.
 
 ## Les atouts du bien
 
@@ -143,7 +123,8 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 ## Mentions légales
 
-- Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
+- Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX

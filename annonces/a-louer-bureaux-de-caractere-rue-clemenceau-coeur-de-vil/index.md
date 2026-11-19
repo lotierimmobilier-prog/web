@@ -37,7 +37,7 @@ Afin de vous accompagner dans votre projet de location commerciale, merci de bie
 
 Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -57,16 +57,12 @@ Bureaux
 **Chauffage**
 Individuel gaz
 
-**Ascenseur**
-Non
-
 ## Détail du prix
 
 - Loyer **735 € par mois** *Charges comprises*
 - Loyer charges comprises **735 € / mois**
 - Dépôt de garantie **725 €**
 - Charges récupérables **75 € / mois**
-- Caractère meublé **Location non meublée**
 - Honoraires à la charge du locataire (TTC) **1 100 €** *dont état des lieux 300 €*
 
  Lien partenaire
@@ -84,7 +80,6 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
  735 € par mois
 
 - Charges comprises, dont 75 € de charges récupérables
-- Location non meublée
 
 Réf. 15_DLLCO170000377
 
@@ -153,7 +148,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

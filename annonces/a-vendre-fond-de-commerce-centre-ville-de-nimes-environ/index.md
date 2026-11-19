@@ -25,13 +25,13 @@ Fonds de commerce de 48,96 m² à vendre à Nîmes (Gard, 30). Prix : 45 000�
 
 Je vous propose ce fond de commerce extrêmement bien situé, en plein centre ville de Nîmes dans une des rues les plus recherchées, entre le Boulevard Victor Hugo et le Jean-Jaurès. Ce local vous laisse la possibilité de faire plusieurs types de commerce sauf la restauration. Il se compose d’une grande pièce à office de magasin ou d’atelier, de deux réserves, d’un coin sanitaire équipé d’un toilette et d’un lavabo.
 
-Il dispose d’une vitrine double donnant sur la rue passante. Une de 5,47×2,94 et l’autre de 2,69×2,94
+Il dispose d’une vitrine double donnant sur la rue passante. Une de 5,47x2,94 et l’autre de 2,69x2,94
 
 Un loyer mensuel d’environ 580 € est demandé.
 
 Pour tous renseignements ou pour faire une visite, je me tiens à votre disposition tous les jours de 9H à 19h30. (Photos sur demande)
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -45,11 +45,6 @@ Boutique
 
 **Année de construction**
 1950
-
-### Équipements et confort
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

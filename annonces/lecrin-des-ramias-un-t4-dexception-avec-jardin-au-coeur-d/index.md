@@ -12,7 +12,7 @@ L’Écrin des Ramias : un T4 d’exception avec jardin au coeur d
 
 ## En bref
 
-Appartement de 80,34 m² à vendre à Caveirac (Gard, 30) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 360 000 €. Le bien comprend : parking et climatisation. Rez-de-chaussée, construction de 2026, chauffage individuel, classe énergie D (30 kWh/m²/an), classe climat D. Référence 18_CEORE140000947, suivie par Frédérique Gallucci (LOTIER Immobilier).
+Appartement de 80,34 m² à vendre à Caveirac (Gard, 30) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 360 000 €. Le bien comprend : parking et climatisation. Rez-de-chaussée, construction de 2026, chauffage individuel, classe énergie A (30 kWh/m²/an), classe climat E. Référence 18_CEORE140000947, suivie par Frédérique Gallucci (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -60,7 +60,7 @@ Un bien rare sur le secteur, idéal pour une famille ou pour toute personne rech
 
 Contactez-moi pour plus d’informations ou pour organiser une découverte du programme.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -104,13 +104,10 @@ Individuel
 **Cuisine**
 Américaine
 
-**Ascenseur**
-Non
-
-**Climatisation**
+**Parking**
 Oui
 
-**Parking**
+**Climatisation**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -133,7 +130,7 @@ DPE · Consommation d'énergie **30** kWh/m².an A B C D E F G GES · Émissions
 
 **Voir le diagnostic complet**
 
-DPE classe D, 30 kWh/m².an ; GES classe D, 40 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe A, 30 kWh/m².an ; GES classe E, 40 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 

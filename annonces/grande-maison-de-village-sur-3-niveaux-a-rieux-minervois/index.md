@@ -67,7 +67,7 @@ Cour intime
 
 Maison saine avec de beaux volumes
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -85,9 +85,6 @@ Maison/villa
 **Surface habitable**
 112.37 m²
 
-**Terrain**
-92 m²
-
 **Pièces**
 5
 
@@ -102,6 +99,9 @@ Maison/villa
 
 **Nombre d'étages**
 3
+
+**Terrain**
+92 m²
 
 **Année de construction**
 1948

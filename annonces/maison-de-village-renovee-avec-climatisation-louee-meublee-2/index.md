@@ -12,7 +12,7 @@ Maison de village rénovée avec climatisation louée meublée
 
 ## En bref
 
-Maison de 81,5 m² à louer à Conques-sur-Orbiel (Aude, 11) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. Loyer : 650 € par mois, charges comprises (location meublée). Le bien comprend : climatisation. Chauffage individuel, exposition nord ouest, classe énergie C (112 kWh/m²/an), classe climat A. Référence 2_BBLMA30001058, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 81,5 m² à louer à Conques-sur-Orbiel (Aude, 11) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. Loyer : 650 € par mois, charges comprises (location meublée) ; dépôt de garantie : 1 260 €. Le bien comprend : climatisation. Chauffage individuel, exposition nord ouest, classe énergie C (112 kWh/m²/an), classe climat A. Référence 2_BBLMA30001058, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -41,7 +41,6 @@ Dépôt de garantie : 1260 €
 ## Les atouts du bien
 
 - Climatisation
-- Meublé
 - Cuisine séparée équipée
 - Exposition nord ouest
 
@@ -81,13 +80,7 @@ Séparée équipée
 **Exposition**
 Nord Ouest
 
-**Ascenseur**
-Non
-
 **Climatisation**
-Oui
-
-**Meublé**
 Oui
 
 ### Copropriété (loi ALUR)
@@ -106,7 +99,7 @@ Non
 - Loyer **650 € par mois** *Charges comprises*
 - Loyer charges comprises **650 € / mois**
 - Provisions sur charges **20 € / mois**
-- Dépôt de garantie **0 €**
+- Dépôt de garantie **1 260 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
 - Honoraires à la charge du locataire (TTC) **400 €** *dont état des lieux 244,50 €*
@@ -136,7 +129,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 - Honoraires de l’agence : 400 €
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER

@@ -74,7 +74,7 @@ Les atouts de l’ensemble
 
 Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -82,7 +82,6 @@ Cet ensemble immobilier représente une opportunité pour un investisseur recher
 - Balcon
 - Garage
 - Parking
-- Boxe
 
 ## Caractéristiques
 
@@ -93,9 +92,6 @@ Immeuble
 
 **Surface habitable**
 400 m²
-
-**Terrain**
-640 m²
 
 **Pièces**
 12
@@ -109,6 +105,9 @@ Immeuble
 **WC**
 5
 
+**Terrain**
+640 m²
+
 **Année de construction**
 1948
 
@@ -120,16 +119,13 @@ Non
 **Balcon**
 Oui
 
-**Boxe**
-Oui
-
-**Garage**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Terrasse**
+**Garage**
 Oui
 
 ## Détail du prix
@@ -218,6 +214,14 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -233,14 +237,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
-
- 175 000 €
-
-### Maison familiale 136 m2 + 90 m2 de garages et dépendances
-
- Capendu · 136,63 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

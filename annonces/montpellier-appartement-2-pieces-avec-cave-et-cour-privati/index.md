@@ -32,13 +32,13 @@ Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous
 
 Pour plus de renseignements, merci de me contacter rapidement Elodie CHARDOT
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Cave
 - Climatisation
-- Cuisine coin suisine
+- Cuisine coin cuisine
 
 ## Caractéristiques
 
@@ -74,7 +74,7 @@ Appartement
 Individuel électrique radiateur
 
 **Cuisine**
-Coin suisine
+Coin cuisine
 
 **Ascenseur**
 Non

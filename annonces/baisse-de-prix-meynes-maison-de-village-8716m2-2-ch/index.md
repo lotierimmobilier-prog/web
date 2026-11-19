@@ -12,7 +12,7 @@ Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
 ## En bref
 
-Maison de 87,16 m² à vendre à Meynes (Gard, 30) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. Prix : 243 000 €, honoraires à la charge du vendeur. Le bien comprend : garage et climatisation. Construction de 1940, chauffage individuel électrique radiateur, exposition est, classe énergie B (103 kWh/m²/an), classe climat A. Référence 17_521, suivie par Celine Aubin (LOTIER Immobilier).
+Maison de 87,16 m² à vendre à Meynes (Gard, 30) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. Prix : 243 000 €, honoraires à la charge du vendeur. Le bien comprend : garage et climatisation. Construction de 1940, chauffage individuel électrique radiateur, exposition est, classe énergie C (103 kWh/m²/an), classe climat A. Référence 17_521, suivie par Celine Aubin (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -35,12 +35,11 @@ Le dernier niveau abrite deux chambres confortables, toutes deux dotées de plac
 
 Cette maison est idéale pour ceux qui recherchent un bien impeccable, lumineux et prêt à habiter dans un environnement calme et recherché. Une très belle opportunité à saisir rapidement !
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Garage
-- Boxe
 - Climatisation
 - Cuisine américaine équipée
 - Exposition est
@@ -84,16 +83,10 @@ Américaine équipée
 **Exposition**
 Est
 
-**Ascenseur**
-Non
-
-**Boxe**
+**Garage**
 Oui
 
 **Climatisation**
-Oui
-
-**Garage**
 Oui
 
 ## Détail du prix
@@ -108,7 +101,7 @@ Dépenses annuelles d’énergie estimées : **entre 750 € et 1 070 €** p
 
 **Voir le diagnostic complet**
 
-DPE classe B, 103 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe C, 103 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 750 € et 1 070 € par an.
 

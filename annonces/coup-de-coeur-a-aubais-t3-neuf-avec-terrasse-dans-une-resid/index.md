@@ -61,7 +61,7 @@ Imaginez-vous déjà profiter de votre terrasse, dans un environnement calme et 
 
 Ne laissez pas passer cette opportunité. Contactez-moi dès aujourd’hui pour découvrir ce programme d’exception et réserver votre futur logement.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -116,13 +116,13 @@ Nord Sud
 **Ascenseur**
 Non
 
-**Climatisation**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Terrasse**
+**Climatisation**
 Oui
 
 ### Copropriété (loi ALUR)

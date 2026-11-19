@@ -84,14 +84,13 @@ Une visite s’impose !
 
 Contactez-moi dès aujourd’hui pour découvrir cette propriété pleine de charme et de potentiel.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Cave
 - Cuisine américaine
 - Exposition sud
@@ -105,9 +104,6 @@ Maison/villa
 
 **Surface habitable**
 116 m²
-
-**Terrain**
-1653 m²
 
 **Pièces**
 5
@@ -127,6 +123,9 @@ Maison/villa
 **Nombre d'étages**
 2
 
+**Terrain**
+1653 m²
+
 **Année de construction**
 1949
 
@@ -144,19 +143,16 @@ Sud
 **Ascenseur**
 Non
 
-**Boxe**
+**Terrasse**
 Oui
 
 **Cave**
 Oui
 
-**Garage**
-Oui
-
 **Parking**
 Oui
 
-**Terrasse**
+**Garage**
 Oui
 
 ## Détail du prix

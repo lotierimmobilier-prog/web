@@ -33,7 +33,7 @@ Opportunité rare à saisir pour un projet immobilier.
 
 Contactez Elodie CHARDOT dès aujourd’hui pour plus d’informations.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Caractéristiques
 
@@ -47,11 +47,6 @@ Terrain
 
 **Terrain**
 840 m²
-
-### Équipements et confort
-
-**Ascenseur**
-Non
 
 ## Détail du prix
 

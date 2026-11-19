@@ -12,7 +12,7 @@ Source : https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-
 
 ## En bref
 
-Appartement de 57,12 m² à louer à Béziers (Hérault, 34) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. À proximité : Commerces, Allée Paul Riquet, centre ville historique, Jardin des poètes. Loyer : 504 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 484 €. Étage 2 sur 3, construction de 1900, chauffage individuel électrique radiateur, classe énergie C (178 kWh/m²/an), classe climat A. Référence 15_DLLAP170000830, suivie par Laetitia Dias (LOTIER Immobilier).
+Appartement de 57,12 m² à louer à Béziers (Hérault, 34) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. À proximité : Commerces, Allée Paul Riquet, centre ville historique, Jardin des poètes. Loyer : 504 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 484 €. Étage 2 sur 3, construction de 1900, chauffage individuel électrique radiateur, classe énergie D (178 kWh/m²/an), classe climat A. Référence 15_DLLAP170000830, suivie par Laetitia Dias (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -44,7 +44,7 @@ Lien : https://app.zelok.fr/preinscription?code-agence=ZELOK1944
 
 Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.
 
-– Annonce rédigée et publiée par un Agent Mandataire –
+- Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
@@ -103,7 +103,7 @@ DPE · Consommation d'énergie **178** kWh/m².an A B C D E F G GES · Émission
 
 **Voir le diagnostic complet**
 
-DPE classe C, 178 kWh/m².an ; GES classe A, 5 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe D, 178 kWh/m².an ; GES classe A, 5 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 
@@ -193,7 +193,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
- 210 € par mois
+ 195 € par mois
 
 ### À louer local commercial avec mezzanine entre Béziers et
 

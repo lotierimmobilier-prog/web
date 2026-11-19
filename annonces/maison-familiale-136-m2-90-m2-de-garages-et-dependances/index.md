@@ -53,7 +53,6 @@ Une maison offrant des volumes et des possibilités rarement réunis sur le sect
 - Terrasse
 - Garage
 - Parking
-- Boxe
 - Cuisine séparée
 - Exposition nord sud
 
@@ -66,9 +65,6 @@ Maison/villa
 
 **Surface habitable**
 136.63 m²
-
-**Terrain**
-363 m²
 
 **Pièces**
 5
@@ -85,6 +81,9 @@ Maison/villa
 **Nombre d'étages**
 2
 
+**Terrain**
+363 m²
+
 **Année de construction**
 1900
 
@@ -99,19 +98,13 @@ Séparée
 **Exposition**
 Nord Sud
 
-**Ascenseur**
-Non
-
-**Boxe**
-Oui
-
-**Garage**
+**Terrasse**
 Oui
 
 **Parking**
 Oui
 
-**Terrasse**
+**Garage**
 Oui
 
 ## Détail du prix
@@ -158,7 +151,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
-- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire –
+- Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr) – Annonce rédigée et publiée par un Agent Mandataire -
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
@@ -225,6 +218,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
+ 7 000 €
+
+### Grange 118 m2 sur 2 niveaux Capendu centre
+
+ Capendu · 118 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -232,14 +233,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
-
- 38 500 €
-
-### Maison de village à rénover avec grange Capendu (11)
-
- Capendu · 120 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 
