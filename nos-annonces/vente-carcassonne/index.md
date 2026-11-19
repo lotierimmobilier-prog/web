@@ -51,7 +51,7 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
 ### Combien de biens sont à vendre à Carcassonne chez LOTIER Immobilier ?
 **
 
-4 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles, 1 appartement et 1 maison. Cette liste est mise à jour chaque jour.
+4 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles, 1 appartement et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

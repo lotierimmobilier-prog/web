@@ -51,7 +51,7 @@ LOTIER Immobilier propose actuellement 4 biens à louer à Capendu : 2 locaux co
 ### Combien de biens sont à louer à Capendu chez LOTIER Immobilier ?
 **
 
-4 biens sont à louer à Capendu aujourd'hui : 2 locaux commerciaux, 1 maison et 1 appartement. Cette liste est mise à jour chaque jour.
+4 biens sont à louer à Capendu aujourd'hui : 2 locaux commerciaux, 1 maison et 1 appartement. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

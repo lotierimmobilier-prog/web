@@ -145,14 +145,14 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 ## Annonces par ville
 
-- [Biens à vendre à Béziers](https://lotier.immo/nos-annonces/vente-beziers/): 11 annonces, mises à jour chaque jour.
-- [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces, mises à jour chaque jour.
-- [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces, mises à jour chaque jour.
-- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 8 annonces, mises à jour chaque jour.
-- [Biens à louer à Capendu](https://lotier.immo/nos-annonces/location-capendu/): 4 annonces, mises à jour chaque jour.
-- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces, mises à jour chaque jour.
-- [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces, mises à jour chaque jour.
-- [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces, mises à jour chaque jour.
+- [Biens à vendre à Béziers](https://lotier.immo/nos-annonces/vente-beziers/): 11 annonces.
+- [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces.
+- [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces.
+- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 8 annonces.
+- [Biens à louer à Capendu](https://lotier.immo/nos-annonces/location-capendu/): 4 annonces.
+- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces.
+- [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces.
+- [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces.
 
 ## Honoraires (barème publié)
 

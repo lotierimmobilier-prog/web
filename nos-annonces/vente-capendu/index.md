@@ -99,7 +99,7 @@ LOTIER Immobilier propose actuellement 10 biens à vendre à Capendu : 4 maisons
 ### Combien de biens sont à vendre à Capendu chez LOTIER Immobilier ?
 **
 
-10 biens sont à vendre à Capendu aujourd'hui : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Cette liste est mise à jour chaque jour.
+10 biens sont à vendre à Capendu aujourd'hui : 4 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

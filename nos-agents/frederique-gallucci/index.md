@@ -97,7 +97,6 @@ Ventes de 220 000 € à 399 000 €.
 - Vente
 - Appartements
 - Maisons et villas
-- Locaux commerciaux
 
 ### Communes couvertes
 
@@ -111,7 +110,6 @@ Ventes de 220 000 € à 399 000 €.
 
 - 5 appartements
 - 2 maisons
-- 1 local commercial
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC d’Ajaccio sous le n° 100710235. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

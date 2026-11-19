@@ -107,7 +107,7 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Béziers : 7 appart
 ### Combien de biens sont à vendre à Béziers chez LOTIER Immobilier ?
 **
 
-11 biens sont à vendre à Béziers aujourd'hui : 7 appartements, 2 immeubles, 1 local commercial et 1 maison. Cette liste est mise à jour chaque jour.
+11 biens sont à vendre à Béziers aujourd'hui : 7 appartements, 2 immeubles, 1 local commercial et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

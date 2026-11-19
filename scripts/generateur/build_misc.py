@@ -89,7 +89,7 @@ legal_page("mentions-legales", "Mentions légales", "Qui édite ce site, quelles
         <h2>Honoraires</h2>
         <p>Le barème de nos honoraires de vente, de location, de gestion locative et de syndic est publié, en euros toutes taxes comprises, sur la page <a class="text-link" href="../nos-honoraires/">Nos honoraires</a>. Il est identique à celui affiché en agence.</p>
         <h2>Annonces</h2>
-        <p>Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et mises à jour chaque jour. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.</p>
+        <p>Les annonces sont publiées par l'agence et ses agents à partir de notre logiciel de transaction, et reprises chaque jour sur ce site. Les prix de vente s'entendent honoraires inclus, à la charge du vendeur, sauf mention contraire dans l'annonce. Les surfaces, les diagnostics et les descriptions sont donnés à titre indicatif et ne constituent pas un document contractuel. Un bien peut être vendu, loué ou retiré entre deux mises à jour.</p>
         <h2>Propriété intellectuelle et droits d'auteur</h2>
         <p>Les textes, la mise en page, les illustrations et le logo du site sont la propriété de la SARL LOTIER, sauf mention contraire. Les informations présentes sur ce site peuvent être téléchargées, reproduites ou imprimées à condition de les utiliser à des fins personnelles et non commerciales, de ne pas les modifier et de reproduire sur chaque copie la mention des droits d'auteur (contact@lotier-immobilier.com). Toute autre utilisation est interdite sans autorisation écrite préalable de LOTIER.</p>
         <h2>Photographies</h2>
@@ -658,7 +658,7 @@ Toutes les ressources ci-dessous sont publiques, en lecture seule et sans authen
 
 - Catalogue complet en JSON : `{SITE}/annonces/catalogue.json` (clé `annonces`). Champs utiles : `titre`, `url` (adresse de la fiche, à citer), `transaction` (`vente` ou `location`), `type_bien`, `ville`, `departement`, `prix` (euros ; par mois pour une location), `surface_m2`, `pieces`, `chambres`, `equipements`, `dpe`, `reference`, `agent`, `resume`, `description`, `date_mise_a_jour`. Le serveur MCP du site (`{SITE}/mcp/`) propose la recherche par critères (`search_listings`) et la lecture d'une annonce (`get_listing`).
 - Par ville : `{SITE}/nos-annonces/vente-<ville>/` et `{SITE}/nos-annonces/location-<ville>/` (villes comptant au moins trois annonces, listées dans `{SITE}/llms.txt`).
-- Les annonces sont mises à jour chaque jour : citer le prix et la disponibilité « selon le site, à la date de consultation ».
+- Les annonces sont reprises chaque jour du logiciel de l'agence : citer le prix et la disponibilité « selon le site, à la date de consultation ».
 
 ## Lire une page
 

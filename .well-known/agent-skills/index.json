@@ -6,7 +6,7 @@
       "type": "skill-md",
       "description": "Répondre à une question sur LOTIER Immobilier : trouver une annonce à vendre ou à louer, connaître les honoraires, identifier l'agent à contacter.",
       "url": "/.well-known/agent-skills/lotier-immobilier/SKILL.md",
-      "digest": "sha256:bf97f1a4b55f57cfb2fb22599e85fe74930e2cea487e8c85bf913431222d3436"
+      "digest": "sha256:4ec10155497b924af6cf549f8135d246bb42daeece9501fbb0970fc3e58ae722"
     }
   ]
 }

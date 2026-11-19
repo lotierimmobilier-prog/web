@@ -43,7 +43,7 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Montpellier : 3 appa
 ### Combien de biens sont à vendre à Montpellier chez LOTIER Immobilier ?
 **
 
-3 biens sont à vendre à Montpellier aujourd'hui : 3 appartements. Cette liste est mise à jour chaque jour.
+3 biens sont à vendre à Montpellier aujourd'hui : 3 appartements. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

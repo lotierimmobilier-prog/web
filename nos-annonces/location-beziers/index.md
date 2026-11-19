@@ -83,7 +83,7 @@ LOTIER Immobilier propose actuellement 8 biens à louer à Béziers : 6 appartem
 ### Combien de biens sont à louer à Béziers chez LOTIER Immobilier ?
 **
 
-8 biens sont à louer à Béziers aujourd'hui : 6 appartements et 2 locaux commerciaux. Cette liste est mise à jour chaque jour.
+8 biens sont à louer à Béziers aujourd'hui : 6 appartements et 2 locaux commerciaux. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

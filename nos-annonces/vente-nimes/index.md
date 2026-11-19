@@ -1,10 +1,10 @@
 # Biens à vendre *à Nîmes.*
 
-> 9 biens à vendre à Nîmes avec LOTIER Immobilier : 5 appartements, 3 locaux commerciaux et 1 maison, de 45 000 € à 395 000 €. Photos, prix, agent à contacter.
+> 9 biens à vendre à Nîmes avec LOTIER Immobilier : 5 appartements, 2 locaux commerciaux et 1 maison, de 45 000 € à 395 000 €. Photos, prix, agent à contacter.
 
 Source : https://lotier.immo/nos-annonces/vente-nimes/
 
-LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 appartements, 3 locaux commerciaux et 1 maison. Les prix vont de 45 000 € à 395 000 €. Les surfaces vont de 49 à 155 m².
+LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 appartements, 2 locaux commerciaux et 1 maison. Les prix vont de 45 000 € à 395 000 €. Les surfaces vont de 49 à 155 m².
 
 ## Liste des annonces
 
@@ -91,7 +91,7 @@ LOTIER Immobilier propose actuellement 9 biens à vendre à Nîmes : 5 apparteme
 ### Combien de biens sont à vendre à Nîmes chez LOTIER Immobilier ?
 **
 
-9 biens sont à vendre à Nîmes aujourd'hui : 5 appartements, 3 locaux commerciaux et 1 maison. Cette liste est mise à jour chaque jour.
+9 biens sont à vendre à Nîmes aujourd'hui : 5 appartements, 2 locaux commerciaux et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
