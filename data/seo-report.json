@@ -2,11 +2,11 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 147,
-  "pages_indexables": 142,
+  "pages_auditees": 148,
+  "pages_indexables": 143,
   "erreurs": 0,
   "avertissements": 1,
-  "pages_sans_probleme": 146,
+  "pages_sans_probleme": 147,
   "problemes_par_type": {
    "contenu-court": 1
   }
@@ -18,7 +18,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 146
+  "pages_markdown": 147
  },
  "problemes_site": [],
  "pages": [
@@ -891,6 +891,20 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/",
+   "fichier": "annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/index.html",
+   "indexable": true,
+   "titre": "Maison 4 pièces 110 m² à vendre à Laure-Minervois | LOTIER",
+   "description": "Maison 4 pièces 110 m² à vendre à Laure-Minervois, 3 chambres, 200 000 €. À VENDRE Maison de plain-pied rénovée avec grand terrain Laure-Minervois (11) À…",
+   "mots": 926,
+   "h1": "Maison 4 pièces 110 m² à vendre à Laure-Minervois",
+   "nb_h2": 19,
+   "images": 25,
+   "liens": 90,
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/",
    "fichier": "annonces/maison-de-village-a-renover-avec-grange-capendu-11/index.html",
    "indexable": true,
@@ -1700,7 +1714,7 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, gestion locative et syndic de copropriété. Estimez votre bien.",
-   "mots": 1280,
+   "mots": 1278,
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
@@ -1770,11 +1784,11 @@
    "indexable": true,
    "titre": "Barbara Bouba, agent immobilier à Narbonne | LOTIER",
    "description": "Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.",
-   "mots": 922,
+   "mots": 948,
    "h1": "Barbara Bouba",
    "nb_h2": 11,
-   "images": 37,
-   "liens": 172,
+   "images": 38,
+   "liens": 175,
    "markdown": true,
    "problemes": []
   },
@@ -1854,11 +1868,11 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 2058,
+   "mots": 2084,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 10,
-   "images": 87,
-   "liens": 328,
+   "images": 88,
+   "liens": 331,
    "markdown": true,
    "problemes": []
   },

@@ -14,6 +14,14 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 200 000 €
+
+### Maison de 110m2 au total sur une parcelle de 2110m2
+
+ Laure-Minervois · 110 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
+
  7 000 €
 
 ### Grange 118 m2 sur 2 niveaux Capendu centre
@@ -276,10 +284,10 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **32** biens en ligne
-- **25** à vendre
+- **33** biens en ligne
+- **26** à vendre
 - **7** à louer
-- **12** communes
+- **13** communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
 
@@ -305,7 +313,7 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 
 ### Biens proposés
 
-- 14 maisons
+- 15 maisons
 - 5 appartements
 - 5 terrains
 - 3 locaux commerciaux

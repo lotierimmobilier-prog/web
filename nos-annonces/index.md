@@ -4,9 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-66 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+67 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 200 000 €
+
+### Maison de 110m2 au total sur une parcelle de 2110m2
+
+ Laure-Minervois · 110 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
 
  289 000 €
 

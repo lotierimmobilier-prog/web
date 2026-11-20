@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 143,
+  "liens": 144,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 142,
+  "pages_indexables": 143,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -1369,6 +1369,26 @@
   },
   {
    "url": "https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "House",
+    "ListItem",
+    "LocationFeatureSpecification",
+    "Offer",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "QuantitativeValue",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",

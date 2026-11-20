@@ -1,7 +1,153 @@
 {
- "maj": "2026-11-19",
+ "maj": "2026-11-20",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "maison-de-110m2-au-total-sur-une-parcelle-de-2110m2",
+   "titre": "Maison de 110m2 au total sur une parcelle de 2110m2",
+   "ville": "Laure-Minervois",
+   "type": "vente",
+   "prix": 200000.0,
+   "surface": 110.0,
+   "chambres": 3,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>À VENDRE Maison de plain-pied rénovée avec grand terrain Laure-Minervois (11)</p><p>À l’extérieur du village de Laure-Minervois, dans un environnement dégagé, cette maison de plain-pied entièrement rénovée offre 110 m2 habitables, dont une grande véranda récente de 27,7 m2, sur un terrain clôturé de 2 110 m2 aménagé et entretenu, accessible par deux entrées.</p><p>Elle se compose de :</p><p>Une pièce de vie lumineuse avec climatisation réversible</p><p>Une cuisine équipée récente</p><p>Trois chambres, dont deux avec placards et climatisation</p><p>Une salle d’eau avec douche à l’italienne et simple vasque</p><p>WC suspendu indépendant</p><p>Une buanderie avec accès extérieur</p><p>Chalet neuf dans le jardin</p><p>Prestations techniques :</p><p>Maison refaite à neuf récemment (peintures, revêtements, cuisine…)</p><p>Double vitrage PVC</p><p>Fibre optique installée</p><p>Panneaux solaires photovoltaïques</p><p>Poêle à granulés</p><p>Climatisation réversible (séjour + 2 chambres)</p><p>Toiture en bon état</p><p>Fosse septique entretenue</p><p>Puits pour l’arrosage</p><p>Le jardin, entièrement clôturé, offre plusieurs espaces : stationnement, potager, détente. Il peut facilement accueillir un abri, une piscine ou un projet complémentaire.</p><p>Maison habitable immédiatement, sans travaux à prévoir.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Maison/villa"
+      ],
+      [
+       "Surface habitable",
+       "110 m²"
+      ],
+      [
+       "Pièces",
+       "4"
+      ],
+      [
+       "Chambres",
+       "3"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Année de construction",
+       "1982"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel"
+      ],
+      [
+       "Exposition",
+       "Nord"
+      ],
+      [
+       "Parking",
+       "Oui"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "200 000 €"
+      ],
+      [
+       "Charge honoraires",
+       "Vendeur"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Laure-Minervois"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBV30000474",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 91,
+     "classe": "B"
+    },
+    "ges": {
+     "valeur": 2,
+     "classe": "A"
+    },
+    "depenses_min": 516,
+    "depenses_max": 698,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "honoraires": null,
+   "photo": "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2.jpg",
+   "photos": [
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-1.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-2.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-3.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-4.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-5.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-6.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-7.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-8.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-9.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-10.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-11.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-12.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f348e4d9aaf839bed586dda0b8aece1d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_25fa149c66bdc715b0960b9508df77f6.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_8988844ff1f4d2d2421d34ab6ed9590a.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_08781e784eb1184a316a5dc0ed4120ac.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_31e1e661e8cee6c7cef08c7dd93d064d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_10d4350da5e20ca3b7fcb2d230067a08.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_56d9e23ae50f6edc079910fa612bf4ef.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_2e951d949b7273032ab8017bb8475562.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f3cededb9da765559986a01bdeb8c1c3.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f4c59994e33302a5ddc52de98d4690dd.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_15b2de1c6c8af63e86fc68ad495b7c23.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_6d4897191d758d632b9c7897d849985e.png"
+   ],
+   "schema": 3
+  },
   {
    "id": "immeuble-de-4-lots-123-32-m2-beziers",
    "titre": "Immeuble de 4 lots 123,32 m2 Béziers",

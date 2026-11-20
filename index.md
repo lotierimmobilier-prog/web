@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 200 000 €
+
+### Maison de 110m2 au total sur une parcelle de 2110m2
+
+ Laure-Minervois · 110 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
+
  289 000 €
 
 ### Immeuble de 4 lots 123,32 m2 Béziers
@@ -73,14 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Nîmes · 111,36 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
-
- 174 000 €
-
-### À vendre maison de village d’environ 190 m2 avec extérieur
-
- Villeneuve-lès-Béziers · 191 m² · 4 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 
