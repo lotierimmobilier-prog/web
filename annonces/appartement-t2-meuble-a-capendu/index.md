@@ -12,7 +12,7 @@ Appartement T2 meublé à Capendu
 
 ## En bref
 
-Appartement de 33,4 m² à louer à Capendu (Aude, 11) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Loyer : 450 € par mois, charges comprises (location meublée) ; dépôt de garantie : 450 €. Le bien comprend : cave. Construction de 1948, chauffage individuel électrique radiateur, classe énergie D (259 kWh/m²/an), classe climat B. Référence 2_BBLAP30000805, suivie par Barbara Bouba (LOTIER Immobilier).
+Appartement de 33,4 m² à louer à Capendu (Aude, 11) : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Loyer : 450 € par mois, charges comprises (location meublée) ; dépôt de garantie : 860 €. Le bien comprend : cave. Construction de 1948, chauffage individuel électrique radiateur, classe énergie D (259 kWh/m²/an), classe climat B. Référence 2_BBLAP30000805, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -29,7 +29,7 @@ Appartement de 33 m² au rez-de-chaussée d’un petit immeuble comprenant troi
 
 Loyer : 450 € charges comprises dont 20 € de charges (taxe d’ordures ménagères, eau), l’électricité sera à la charge du locataire en prenant le compteur à son nom.
 
-Dépôt de garantie : 900 €
+Dépôt de garantie : 860 €
 
 Libre en novembre 2026
 
@@ -85,7 +85,7 @@ Oui
 - Loyer **450 € par mois** *Charges comprises*
 - Loyer charges comprises **450 € / mois**
 - Provisions sur charges **20 € / mois**
-- Dépôt de garantie **450 €**
+- Dépôt de garantie **860 €**
 - Modalités de règlement des charges **Prévisionnelles mensuelles avec régularisation annuelle**
 - Caractère meublé **Location meublée**
 - Honoraires à la charge du locataire (TTC) **360 €** *dont état des lieux 100,20 €*

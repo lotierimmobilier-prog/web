@@ -14,6 +14,14 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
  200 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
@@ -284,8 +292,8 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **33** biens en ligne
-- **26** à vendre
+- **34** biens en ligne
+- **27** à vendre
 - **7** à louer
 - **13** communes
 
@@ -313,7 +321,7 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 
 ### Biens proposés
 
-- 15 maisons
+- 16 maisons
 - 5 appartements
 - 5 terrains
 - 3 locaux commerciaux

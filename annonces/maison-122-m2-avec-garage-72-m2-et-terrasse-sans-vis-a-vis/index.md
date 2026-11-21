@@ -236,13 +236,13 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 95 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison 125 m2, cour, garage, vendue louée, Capendu
 
- Capendu · 120 m² · 3 ch.
+ Capendu · 124,89 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

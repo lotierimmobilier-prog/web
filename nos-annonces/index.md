@@ -4,9 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-67 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+68 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  200 000 €
 

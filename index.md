@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
  200 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
@@ -73,14 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Marguerittes · 142 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
-
- 261 000 €
-
-### Investissement Nîmes Murs commerciaux + studio loué 111
-
- Nîmes · 111,36 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 

@@ -1,12 +1,20 @@
 # Biens à vendre *à Capendu.*
 
-> 11 biens à vendre à Capendu avec LOTIER Immobilier : 4 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain, de 7 000 € à 399 900…
+> 12 biens à vendre à Capendu avec LOTIER Immobilier : 5 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain, de 7 000 € à 399 900…
 
 Source : https://lotier.immo/nos-annonces/vente-capendu/
 
-LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 4 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain. Les prix vont de 7 000 € à 399 900 €. Les surfaces vont de 27 à 1457 m².
+LOTIER Immobilier propose actuellement 12 biens à vendre à Capendu : 5 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain. Les prix vont de 7 000 € à 399 900 €. Les surfaces vont de 27 à 1457 m².
 
 ## Liste des annonces
+
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  7 000 €
 
@@ -107,14 +115,14 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 4 maisons
 ### Combien de biens sont à vendre à Capendu chez LOTIER Immobilier ?
 **
 
-11 biens sont à vendre à Capendu aujourd'hui : 4 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain. Cette liste est reprise chaque jour du logiciel de l'agence.
+12 biens sont à vendre à Capendu aujourd'hui : 5 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
 ### Quel budget prévoir pour acheter à Capendu ?
 **
 
-Parmi nos annonces, les prix vont de 7 000 € à 399 900 €, avec un prix médian de 60 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
+Parmi nos annonces, les prix vont de 7 000 € à 399 900 €, avec un prix médian de 85 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
 
 **Question
 

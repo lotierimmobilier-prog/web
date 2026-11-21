@@ -2,11 +2,11 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 148,
-  "pages_indexables": 143,
+  "pages_auditees": 149,
+  "pages_indexables": 144,
   "erreurs": 0,
   "avertissements": 1,
-  "pages_sans_probleme": 147,
+  "pages_sans_probleme": 148,
   "problemes_par_type": {
    "contenu-court": 1
   }
@@ -18,7 +18,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 147
+  "pages_markdown": 148
  },
  "problemes_site": [],
  "pages": [
@@ -877,6 +877,20 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/",
+   "fichier": "annonces/maison-125-m2-cour-garage-vendue-louee-capendu/index.html",
+   "indexable": true,
+   "titre": "Maison 4 pièces 125 m² à vendre à Capendu | LOTIER",
+   "description": "Maison 4 pièces 125 m² à vendre à Capendu, 3 chambres, 95 000 €. Maison de village de 125 m² habitables, répartie sur trois niveaux, à vendre à Capendu…",
+   "mots": 1263,
+   "h1": "Maison 4 pièces 125 m² à vendre à Capendu",
+   "nb_h2": 20,
+   "images": 21,
+   "liens": 101,
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/",
    "fichier": "annonces/maison-avec-jardin-et-piscine-a-comigne/index.html",
    "indexable": true,
@@ -1714,7 +1728,7 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, gestion locative et syndic de copropriété. Estimez votre bien.",
-   "mots": 1278,
+   "mots": 1281,
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
@@ -1784,11 +1798,11 @@
    "indexable": true,
    "titre": "Barbara Bouba, agent immobilier à Narbonne | LOTIER",
    "description": "Barbara Bouba, agent commercial indépendant LOTIER Immobilier. Secteur : Narbonne, Lézignan, Capendu, Trèbes. Coordonnées et annonces.",
-   "mots": 948,
+   "mots": 970,
    "h1": "Barbara Bouba",
    "nb_h2": 11,
-   "images": 38,
-   "liens": 175,
+   "images": 39,
+   "liens": 178,
    "markdown": true,
    "problemes": []
   },
@@ -1868,11 +1882,11 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 2084,
+   "mots": 2106,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 10,
-   "images": 88,
-   "liens": 331,
+   "images": 89,
+   "liens": 334,
    "markdown": true,
    "problemes": []
   },
@@ -1922,13 +1936,13 @@
    "url": "https://lotier.immo/nos-annonces/vente-capendu/",
    "fichier": "nos-annonces/vente-capendu/index.html",
    "indexable": true,
-   "titre": "Immobilier à vendre à Capendu : 11 biens | LOTIER",
-   "description": "11 biens à vendre à Capendu avec LOTIER Immobilier : 4 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain, de 7 000 € à 399 900…",
-   "mots": 491,
+   "titre": "Immobilier à vendre à Capendu : 12 biens | LOTIER",
+   "description": "12 biens à vendre à Capendu avec LOTIER Immobilier : 5 maisons, 2 parkings, 2 appartements, 1 local commercial, 1 immeuble et 1 terrain, de 7 000 € à 399 900…",
+   "mots": 513,
    "h1": "Biens à vendre à Capendu.",
    "nb_h2": 10,
-   "images": 15,
-   "liens": 113,
+   "images": 16,
+   "liens": 116,
    "markdown": true,
    "problemes": []
   },
