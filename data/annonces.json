@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21",
+ "maj": "2026-11-22",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
   {
@@ -421,81 +421,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_0f0fe7e8d99d93025d6263e723a17b9c.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_12ba221b5142c0460ac34156448cafdb.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_af453095b7c5d2d2ac218837735074a4.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "grange-118-m2-sur-2-niveaux-capendu-centre",
-   "titre": "Grange 118 m2 sur 2 niveaux Capendu centre",
-   "ville": "Capendu",
-   "type": "vente",
-   "prix": 7000.0,
-   "surface": 118.0,
-   "chambres": null,
-   "sdb": null,
-   "badges": [
-    "Exclusivité"
-   ],
-   "description_html": "<p>Au centre du village de Capendu (11700), grange de 118 m2 de surface totale répartis sur deux niveaux, à vendre au prix de 7 000 EUR honoraires d’agence inclus, à la charge du vendeur.</p><p>Au rez-de-chaussée, le bâtiment dispose d’un espace comprenant d’anciennes cuves en béton, témoignant de son utilisation passée. L’accès s’effectue par une porte d’entrée en bois.</p><p>À l’étage, un second niveau offre des possibilités d’aménagement, sous réserve de la faisabilité technique et des autorisations administratives nécessaires.</p><p>D’importants travaux de rénovation sont à prévoir, notamment la réfection de la toiture et du plancher.</p><p>Située au coeur de Capendu, dans l’Aude, entre Carcassonne et Lézignan-Corbières, cette grange peut convenir à un projet de stockage ou de réhabilitation.</p><p>Ce bien s’adresse aux acquéreurs recherchant un bâtiment ancien à rénover, tout en tenant compte de l’importance des travaux nécessaires.</p><p>Prix de vente : 7 000 EUR HAI (honoraires d’agence inclus, à la charge du vendeur).</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Parking/box"
-      ],
-      [
-       "Surface habitable",
-       "118 m²"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "7 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Capendu"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBVGA30001059",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": null,
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre.jpg",
-   "photos": [
-    "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre-1.jpg",
-    "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre-2.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b4d315088d4bb5bff2b693725961c5af/photo_68441996332a25e52bd7dfa8750e36a5.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b4d315088d4bb5bff2b693725961c5af/photo_ac6ed4d370ad1db9e0be03629f62c37b.jpg"
    ],
    "schema": 3
   },

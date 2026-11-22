@@ -30,14 +30,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
 
- 7 000 €
-
-### Grange 118 m2 sur 2 niveaux Capendu centre
-
- Capendu · 118 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
-
  650 € par mois
 
 ### Maison de village rénovée avec climatisation louée meublée
@@ -292,8 +284,8 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **34** biens en ligne
-- **27** à vendre
+- **33** biens en ligne
+- **26** à vendre
 - **7** à louer
 - **13** communes
 
@@ -326,7 +318,7 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 - 5 terrains
 - 3 locaux commerciaux
 - 3 immeubles
-- 2 parkings
+- 1 parking
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Carcassonne sous le n° 890009269. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

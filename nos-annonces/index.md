@@ -4,7 +4,7 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-68 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+67 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
 
@@ -31,14 +31,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 95,32 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
-
- 7 000 €
-
-### Grange 118 m2 sur 2 niveaux Capendu centre
-
- Capendu · 118 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 

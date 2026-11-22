@@ -74,7 +74,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Les honoraires de mise en location sont plafonnés par la loi et calculés au mètre carré : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone, plus 3,03 € TTC par m² pour l'état des lieux. Le détail figure sur la page Nos honoraires.
 
- [Biens à vendre à Capendu (12)](https://lotier.immo/nos-annonces/vente-capendu/)[Location à Béziers (8)](https://lotier.immo/nos-annonces/location-beziers/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Biens à vendre à Capendu (11)](https://lotier.immo/nos-annonces/vente-capendu/)[Location à Béziers (8)](https://lotier.immo/nos-annonces/location-beziers/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

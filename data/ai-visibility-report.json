@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 145,
+  "liens": 144,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 144,
+  "pages_indexables": 143,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -1164,24 +1164,6 @@
     "House",
     "ListItem",
     "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "ListItem",
     "Offer",
     "Person",
     "Place",
