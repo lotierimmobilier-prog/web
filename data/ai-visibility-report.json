@@ -2738,9 +2738,11 @@
    "url": "https://lotier.immo/sites-partenaires/",
    "type": "autre",
    "balisage": [
+    "Book",
     "BreadcrumbList",
     "ItemList",
     "ListItem",
+    "Person",
     "WebSite"
    ],
    "markdown": true,

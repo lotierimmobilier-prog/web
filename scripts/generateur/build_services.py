@@ -160,8 +160,9 @@ body += closing("Une question sur votre copropriété ?", "L'équipe syndic de L
 write("syndic", "Syndic de copropriété à Béziers, Montpellier, Nîmes | LOTIER", "Syndic de copropriété LOTIER Immobilier : assemblées, charges, travaux, espace client MyLotier et honoraires annuels publiés.", body, "syndic", crumb="Syndic de copropriété", service="Syndic de copropriété")
 # ---------- Sites partenaires (data/partenaires.json) ----------
 import json as _json
-try: _SITES = _json.load(open(f"{ROOT}/data/partenaires.json", encoding="utf-8")).get("sites", [])
-except (OSError, ValueError): _SITES = []
+try: _PART = _json.load(open(f"{ROOT}/data/partenaires.json", encoding="utf-8"))
+except (OSError, ValueError): _PART = {}
+_SITES, _LIVRES = _PART.get("sites", []), _PART.get("livres", [])
 if _SITES:
     def _carte(p):
         hote = p["url"].split("//")[-1].strip("/")
@@ -173,11 +174,27 @@ if _SITES:
     body += f'''    <section class="section container" aria-label="Sites partenaires"><div class="part-list">{"".join(_carte(p) for p in _SITES)}</div>
       <p class="muted small" style="margin-top:22px">Ces sites sont édités par des tiers, sous leur seule responsabilité. Vous proposez un service utile à nos clients ? <a class="text-link" href="{prefix}contact/">Écrivez-nous</a>.</p>
     </section>'''
+    def _livre(l):
+        pts = "".join(f"<li>{e(x)}</li>" for x in l.get("points", []))
+        titre = l["titre"] + (", " + l["sous_titre"].rstrip(".") if l.get("sous_titre") else "")
+        return (f'''<article class="glass part-card part-livre"><img src="{prefix}{e(l["couverture"])}" alt="Couverture du livre {e(l["titre"])}" width="240" height="360" loading="lazy" decoding="async">'''
+                f'''<div><h3 class="title">{e(l["titre"])}</h3>{(f'<p class="part-acc">{e(l["sous_titre"])}</p>') if l.get("sous_titre") else ""}'''
+                f'''<p class="muted small">{e(l["auteur"])}{(" · " + e(l["mention"])) if l.get("mention") else ""}</p><p>{e(l["description"])}</p>{("<ul class=\"part-pts\">" + pts + "</ul>") if pts else ""}'''
+                f'''<p><a class="btn btn-ghost mag" href="{e(l["url"])}" target="_blank" rel="noopener" aria-label="{e(l.get("lien_libelle", "Voir le livre"))} : {e(titre)} (nouvelle fenêtre)">{e(l.get("lien_libelle", "Voir le livre"))} {ARROW}</a></p></div></article>''')
+    _auteurs = list(dict.fromkeys(l["auteur"] for l in _LIVRES))
+    if _LIVRES:
+        body += f'''    <section class="section container" id="livres" aria-labelledby="t-livres"><span class="label">Livres</span><h2 class="title" id="t-livres">Les livres <em class="gold-text">de l'équipe.</em></h2>
+      <p class="lead-sm">Des ouvrages sur l'immobilier, la gestion locative et le patrimoine, écrits par les associés de LOTIER Immobilier.</p>'''
+        for au in _auteurs:
+            body += f'''\n      <h3 class="part-auteur">{e(au)}</h3><div class="part-list">{"".join(_livre(l) for l in _LIVRES if l["auteur"] == au)}</div>'''
+        body += '''\n      <p class="muted small" style="margin-top:22px">Les liens ouvrent le site du libraire en ligne, dans un nouvel onglet.</p>\n    </section>'''
     body += closing("Un projet immobilier ?", "Vente, location, gestion, syndic : un conseiller vous répond.", "Contacter l'agence", CONTACT)
+    _ld_livres = [{"@context": "https://schema.org", "@type": "Book", "name": l["titre"], "author": {"@type": "Person", "name": l["auteur"]}, "inLanguage": "fr", "url": l["url"],
+                   "image": f"{SITE}/{l['couverture']}", "description": l["description"]} for l in _LIVRES]
     _ld = {"@context": "https://schema.org", "@type": "ItemList", "@id": f"{SITE}/sites-partenaires/#liste", "name": "Sites partenaires de LOTIER Immobilier", "numberOfItems": len(_SITES),
            "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "WebSite", "name": p["nom"], "url": p["url"], "description": p["description"]}} for i, p in enumerate(_SITES)]}
     os.makedirs(f"{ROOT}/sites-partenaires", exist_ok=True)
     open(f"{ROOT}/sites-partenaires/index.html", "w", encoding="utf-8").write(
         shell(prefix, "Sites partenaires de LOTIER Immobilier | LOTIER", "Les sites partenaires de LOTIER Immobilier : " + ", ".join(p["nom"] for p in _SITES) + ". Des services en ligne recommandés à nos clients propriétaires, bailleurs et locataires.",
-              "sites-partenaires/", body, [breadcrumb_ld([("Accueil", SITE + "/"), ("Sites partenaires", f"{SITE}/sites-partenaires/")]), _ld], "assets/og-lotier.jpg", kind="agence", banner=False))
+              "sites-partenaires/", body, [breadcrumb_ld([("Accueil", SITE + "/"), ("Sites partenaires", f"{SITE}/sites-partenaires/")]), _ld] + _ld_livres, "assets/og-lotier.jpg", kind="agence", banner=False))
 print("services générés")

@@ -1,5 +1,5 @@
 {
-  "_aide": "Sites partenaires affichés sur /sites-partenaires/. Pour en ajouter un : une entrée {nom, url, categorie, accroche, description, points [liste courte]}. Ne décrire que ce que le site partenaire annonce lui-même.",
+  "_aide": "Sites partenaires et livres affichés sur /sites-partenaires/. Site : une entrée {nom, url, categorie, accroche, description, points [liste courte]}. Livre : {titre, sous_titre, auteur, url, lien_libelle, couverture, description, points}. Ne décrire que ce que le site ou l'éditeur annonce lui-même.",
   "sites": [
     {
       "nom": "Signabail",
@@ -13,6 +13,91 @@
         "Signature électronique avec dossier de preuve horodaté",
         "Données hébergées en France"
       ]
+    },
+    {
+      "nom": "Constatio",
+      "url": "https://constatio.fr/",
+      "categorie": "État des lieux",
+      "accroche": "L'état des lieux depuis votre téléphone.",
+      "description": "Constatio est une application en ligne pour réaliser un état des lieux d'entrée ou de sortie depuis un téléphone. Le bailleur ou le gestionnaire visite le logement pièce par pièce, note l'état de chaque élément, ajoute des photos horodatées, puis fait signer le document sur place ou à distance. À la sortie, l'application compare avec l'entrée.",
+      "points": [
+        "Pour les bailleurs particuliers, les SCI, les agences et les gestionnaires",
+        "Contrôles avant signature : compteur non relevé, clé non décrite, meublé incomplet",
+        "Signature électronique avec dossier de preuve horodaté",
+        "Textes appliqués : loi du 6 juillet 1989 et décret du 30 mars 2016"
+      ]
+    },
+    {
+      "nom": "Jérôme Bouba",
+      "url": "https://jeromebouba.fr/",
+      "categorie": "Le dirigeant de l'agence",
+      "accroche": "Entrepreneur de l'immobilier en Occitanie.",
+      "description": "Le site personnel de Jérôme Bouba, cofondateur de LOTIER Immobilier. Il y présente l'agence, les applications qu'il développe pour les acteurs de l'immobilier (Signabail, Constatio), ses formations à l'intelligence artificielle et ses livres.",
+      "points": []
+    }
+  ],
+  "livres": [
+    {
+      "titre": "L'immobilier à l'heure de l'intelligence artificielle",
+      "sous_titre": "Le guide pratique de la gestion locative pour les particuliers et les professionnels.",
+      "auteur": "Jérôme Bouba",
+      "url": "https://link.amazon/B0hl82bGU",
+      "lien_libelle": "Voir le livre sur Amazon",
+      "couverture": "assets/livres/immobilier-intelligence-artificielle.jpg",
+      "description": "Rédiger une annonce, relire un bail, calculer une révision de loyer, relancer un impayé, comparer deux états des lieux : le livre montre, situation par situation, ce que l'IA sait faire et ce qu'il faut vérifier soi-même.",
+      "points": [
+        "32 chapitres courts et 4 cas pratiques",
+        "40 prompts prêts à copier",
+        "8 modèles de courriers et 20 schémas",
+        "Un plan d'action en 30 jours"
+      ]
+    },
+    {
+      "titre": "Communiquer sans les portails",
+      "sous_titre": "Construire l'audience de son agence immobilière grâce à l'intelligence artificielle.",
+      "auteur": "Jérôme Bouba",
+      "url": "https://www.amazon.fr/dp/B0HSLWFWVT",
+      "lien_libelle": "Voir le livre sur Amazon",
+      "couverture": "assets/livres/communiquer-sans-les-portails.jpg",
+      "description": "Ce guide montre comment une agence peut cesser de dépendre des portails d'annonces en construisant les canaux qui lui appartiennent : site, fiche d'établissement, fichier d'acquéreurs, lettre d'information, réseaux, vidéo, terrain.",
+      "points": [
+        "24 chapitres courts et 2 cas pratiques déroulés sur un an",
+        "30 prompts prêts à copier",
+        "Un calendrier éditorial type et six modèles de contenus"
+      ]
+    },
+    {
+      "titre": "Les Secrets de la S.C.I. immobilière",
+      "sous_titre": "Créer sa SCI soi-même.",
+      "auteur": "Nicolas Popovitch",
+      "mention": "Préface de Geoffroy Lisart",
+      "url": "https://www.amazon.fr/dp/B0HKFWJFT1",
+      "lien_libelle": "Voir le livre sur Amazon",
+      "couverture": "assets/livres/secrets-sci-immobiliere.jpg",
+      "description": "L'auteur raconte comment il a constitué lui-même ses sociétés civiles immobilières et explique la marche à suivre pour créer la sienne sans passer par un intermédiaire.",
+      "points": []
+    },
+    {
+      "titre": "Survivre à une crise financière",
+      "sous_titre": "Sauver son épargne, sécuriser ses placements, protéger ses économies.",
+      "auteur": "Nicolas Popovitch",
+      "mention": "Avec François Denis et Luca Di Ferdinando",
+      "url": "https://www.amazon.fr/dp/2956571818",
+      "lien_libelle": "Voir le livre sur Amazon",
+      "couverture": "assets/livres/survivre-crise-financiere.jpg",
+      "description": "Un ouvrage sur les grandes crises économiques, la psychologie des marchés et la répartition de l'épargne entre immobilier, bourse, or et liquidités.",
+      "points": []
+    },
+    {
+      "titre": "La liberté financière en 5 ans, oui c'est possible",
+      "sous_titre": "",
+      "auteur": "Nicolas Popovitch",
+      "mention": "Avec Thami Kabbaj",
+      "url": "https://www.amazon.fr/dp/B0HSK6GTR4",
+      "lien_libelle": "Voir le livre sur Amazon",
+      "couverture": "assets/livres/liberte-financiere-5-ans.jpg",
+      "description": "Présenté par ses auteurs comme un guide et un plan d'action pour atteindre l'indépendance financière en cinq ans.",
+      "points": []
     }
   ]
 }
