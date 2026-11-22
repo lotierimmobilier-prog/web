@@ -25,12 +25,12 @@ Signabail est un service en ligne de rédaction de baux et d'avenants. Le baille
 
 L'état des lieux depuis votre téléphone.
 
-Constatio est une application en ligne pour réaliser un état des lieux d'entrée ou de sortie depuis un téléphone. Le bailleur ou le gestionnaire visite le logement pièce par pièce, note l'état de chaque élément, ajoute des photos horodatées, puis fait signer le document sur place ou à distance. À la sortie, l'application compare avec l'entrée.
+Constatio est une application en ligne d'état des lieux. Le bailleur ou le gestionnaire visite le logement pièce par pièce depuis son téléphone, note l'état de chaque élément avec des photos horodatées, puis fait signer le document sur place ou à distance.
 
-- Pour les bailleurs particuliers, les SCI, les agences et les gestionnaires
-- Contrôles avant signature : compteur non relevé, clé non décrite, meublé incomplet
+- États des lieux d'entrée et de sortie, pour les particuliers, les SCI et les professionnels
+- Contrôles automatiques : compteur non relevé, clé non décrite, meublé incomplet
 - Signature électronique avec dossier de preuve horodaté
-- Textes appliqués : loi du 6 juillet 1989 et décret du 30 mars 2016
+- Comparaison de la sortie avec l'entrée
 
 [Visiter constatio.fr ](https://constatio.fr/)Le dirigeant de l'agence
 
@@ -57,6 +57,8 @@ Le guide pratique de la gestion locative pour les particuliers et les profession
 
 Jérôme Bouba
 
+**Présentation du livre**
+
 Rédiger une annonce, relire un bail, calculer une révision de loyer, relancer un impayé, comparer deux états des lieux : le livre montre, situation par situation, ce que l'IA sait faire et ce qu'il faut vérifier soi-même.
 
 - 32 chapitres courts et 4 cas pratiques
@@ -71,6 +73,8 @@ Rédiger une annonce, relire un bail, calculer une révision de loyer, relancer 
 Construire l'audience de son agence immobilière grâce à l'intelligence artificielle.
 
 Jérôme Bouba
+
+**Présentation du livre**
 
 Ce guide montre comment une agence peut cesser de dépendre des portails d'annonces en construisant les canaux qui lui appartiennent : site, fiche d'établissement, fichier d'acquéreurs, lettre d'information, réseaux, vidéo, terrain.
 
@@ -88,6 +92,8 @@ Créer sa SCI soi-même.
 
 Nicolas Popovitch · Préface de Geoffroy Lisart
 
+**Présentation du livre**
+
 L'auteur raconte comment il a constitué lui-même ses sociétés civiles immobilières et explique la marche à suivre pour créer la sienne sans passer par un intermédiaire.
 
 [Voir le livre sur Amazon ](https://www.amazon.fr/dp/B0HKFWJFT1)
@@ -98,6 +104,8 @@ Sauver son épargne, sécuriser ses placements, protéger ses économies.
 
 Nicolas Popovitch · Avec François Denis et Luca Di Ferdinando
 
+**Présentation du livre**
+
 Un ouvrage sur les grandes crises économiques, la psychologie des marchés et la répartition de l'épargne entre immobilier, bourse, or et liquidités.
 
 [Voir le livre sur Amazon ](https://www.amazon.fr/dp/2956571818)
@@ -105,6 +113,8 @@ Un ouvrage sur les grandes crises économiques, la psychologie des marchés et l
 ### La liberté financière en 5 ans, oui c'est possible
 
 Nicolas Popovitch · Avec Thami Kabbaj
+
+**Présentation du livre**
 
 Présenté par ses auteurs comme un guide et un plan d'action pour atteindre l'indépendance financière en cinq ans.
 

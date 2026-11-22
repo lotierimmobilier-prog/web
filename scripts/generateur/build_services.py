@@ -179,7 +179,7 @@ if _SITES:
         titre = l["titre"] + (", " + l["sous_titre"].rstrip(".") if l.get("sous_titre") else "")
         return (f'''<article class="glass part-card part-livre"><img src="{prefix}{e(l["couverture"])}" alt="Couverture du livre {e(l["titre"])}" width="240" height="360" loading="lazy" decoding="async">'''
                 f'''<div><h3 class="title">{e(l["titre"])}</h3>{(f'<p class="part-acc">{e(l["sous_titre"])}</p>') if l.get("sous_titre") else ""}'''
-                f'''<p class="muted small">{e(l["auteur"])}{(" · " + e(l["mention"])) if l.get("mention") else ""}</p><p>{e(l["description"])}</p>{("<ul class=\"part-pts\">" + pts + "</ul>") if pts else ""}'''
+                f'''<p class="muted small">{e(l["auteur"])}{(" · " + e(l["mention"])) if l.get("mention") else ""}</p><details class="part-plus"><summary>Présentation du livre</summary><p>{e(l["description"])}</p>{("<ul class=\"part-pts\">" + pts + "</ul>") if pts else ""}</details>'''
                 f'''<p><a class="btn btn-ghost mag" href="{e(l["url"])}" target="_blank" rel="noopener" aria-label="{e(l.get("lien_libelle", "Voir le livre"))} : {e(titre)} (nouvelle fenêtre)">{e(l.get("lien_libelle", "Voir le livre"))} {ARROW}</a></p></div></article>''')
     _auteurs = list(dict.fromkeys(l["auteur"] for l in _LIVRES))
     if _LIVRES:
