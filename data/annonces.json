@@ -1,7 +1,167 @@
 {
- "maj": "2026-11-20",
+ "maj": "2026-11-22",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "maison-125-m2-cour-garage-vendue-louee-capendu",
+   "titre": "Maison 125 m2, cour, garage, vendue louée, Capendu",
+   "ville": "Capendu",
+   "type": "vente",
+   "prix": 95000.0,
+   "surface": 124.89,
+   "chambres": 3,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>Maison de village de 125 m2 habitables, répartie sur trois niveaux, à vendre à Capendu (11700), entre Carcassonne et Lézignan-Corbières, au prix de 95 000 EUR honoraires d’agence inclus. Le bien est vendu occupé dans le cadre d’un bail d’habitation non meublé, avec un loyer mensuel de 650 EUR charges comprises, soit une rentabilité locative brute de 7,89 % (hors frais d’acquisition et fiscalité).</p><p>Au rez-de-chaussée, la maison propose une pièce de vie avec climatisation réversible, une cuisine et un accès direct à une cour privative de 18 m2, aménagée en espace de détente. Ce niveau comprend également un garage de 37 m2, une buanderie et une cave avec WC.</p><p>Au premier étage, l’espace nuit se compose d’une chambre de 17,5 m2 avec accès à un balcon et une terrasse, ainsi que d’une deuxième chambre de 9 m2. Une salle de bains équipée d’une douche, d’une baignoire et d’une double vasque, ainsi qu’un WC indépendant, complètent cet étage.</p><p>Au deuxième étage, on trouve une troisième chambre de 10 m2 et un bureau de 8 m2 avec placard donnant accès au grenier.</p><p>La maison ancienne a été rénovée. Elle est équipée d’un chauffage au gaz, de menuiseries en double vitrage et d’une climatisation réversible dans la pièce de vie. Classement énergétique : DPE D GES D.</p><p>Les revenus locatifs se détaillent comme suit : loyer mensuel hors charges 625 EUR, provisions mensuelles pour charges 25 EUR, soit 650 EUR par mois charges comprises et 7 500 EUR de revenus annuels hors charges. La locataire en place est à jour du paiement de ses loyers. La taxe foncière annuelle s’élève à 2 276 EUR, dont 468 EUR de taxe d’enlèvement des ordures ménagères récupérable auprès de la locataire.</p><p>Capendu dispose d’écoles maternelle et élémentaire, d’un collège, de commerces alimentaires, d’un supermarché, d’une pharmacie, de professionnels de santé et d’équipements sportifs, tous accessibles à 5 minutes à pied. La commune est située à proximité immédiate de Carcassonne et de Lézignan-Corbières.</p><p>Prix de vente : 95 000 EUR honoraires d’agence inclus (honoraires à la charge du vendeur).</p><p>Montant estimé des dépenses annuelles d’énergie pour un usage standard : information à compléter selon le diagnostic énergétique.</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Maison/villa"
+      ],
+      [
+       "Surface habitable",
+       "124.89 m²"
+      ],
+      [
+       "Pièces",
+       "4"
+      ],
+      [
+       "Chambres",
+       "3"
+      ],
+      [
+       "Salles de bain",
+       "1"
+      ],
+      [
+       "WC",
+       "2"
+      ],
+      [
+       "Nombre d'étages",
+       "3"
+      ],
+      [
+       "Terrain",
+       "121 m²"
+      ],
+      [
+       "Année de construction",
+       "1900"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Gaz radiateur"
+      ],
+      [
+       "Cuisine",
+       "Séparée équipée"
+      ],
+      [
+       "Exposition",
+       "Nord Sud"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Balcon",
+       "Oui"
+      ],
+      [
+       "Terrasse",
+       "Oui"
+      ],
+      [
+       "Cave",
+       "Oui"
+      ],
+      [
+       "Garage",
+       "Oui"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "95 000 €"
+      ],
+      [
+       "Charge honoraires",
+       "Vendeur"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Capendu"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBV30000937",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 172,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 31,
+     "classe": "D"
+    },
+    "depenses_min": 2000,
+    "depenses_max": 2800,
+    "prix_energies": "01/01/2000"
+   },
+   "mentions_prix": [],
+   "honoraires": null,
+   "photo": "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu.jpg",
+   "photos": [
+    "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu-1.jpg",
+    "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu-2.jpg",
+    "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu-3.jpg",
+    "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu-4.jpg",
+    "assets/annonces/maison-125-m2-cour-garage-vendue-louee-capendu-5.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/010238f921c22f4b185f81fa3effc52c/photo_8e7cef17af0f53a8e62882084131dc61.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/010238f921c22f4b185f81fa3effc52c/photo_dd9ef5af7495e870da6cc5875e142861.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/010238f921c22f4b185f81fa3effc52c/photo_89fd921d36c0163b85ac803966e439dc.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/010238f921c22f4b185f81fa3effc52c/photo_f87804371057aeac0364096d0e20b187.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/010238f921c22f4b185f81fa3effc52c/photo_9c7df68ffb40a28ce88b85f2683278eb.png"
+   ],
+   "schema": 3
+  },
   {
    "id": "maison-de-110m2-au-total-sur-une-parcelle-de-2110m2",
    "titre": "Maison de 110m2 au total sur une parcelle de 2110m2",
@@ -261,81 +421,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_0f0fe7e8d99d93025d6263e723a17b9c.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_12ba221b5142c0460ac34156448cafdb.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_af453095b7c5d2d2ac218837735074a4.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "grange-118-m2-sur-2-niveaux-capendu-centre",
-   "titre": "Grange 118 m2 sur 2 niveaux Capendu centre",
-   "ville": "Capendu",
-   "type": "vente",
-   "prix": 7000.0,
-   "surface": 118.0,
-   "chambres": null,
-   "sdb": null,
-   "badges": [
-    "Exclusivité"
-   ],
-   "description_html": "<p>Au centre du village de Capendu (11700), grange de 118 m2 de surface totale répartis sur deux niveaux, à vendre au prix de 7 000 EUR honoraires d’agence inclus, à la charge du vendeur.</p><p>Au rez-de-chaussée, le bâtiment dispose d’un espace comprenant d’anciennes cuves en béton, témoignant de son utilisation passée. L’accès s’effectue par une porte d’entrée en bois.</p><p>À l’étage, un second niveau offre des possibilités d’aménagement, sous réserve de la faisabilité technique et des autorisations administratives nécessaires.</p><p>D’importants travaux de rénovation sont à prévoir, notamment la réfection de la toiture et du plancher.</p><p>Située au coeur de Capendu, dans l’Aude, entre Carcassonne et Lézignan-Corbières, cette grange peut convenir à un projet de stockage ou de réhabilitation.</p><p>Ce bien s’adresse aux acquéreurs recherchant un bâtiment ancien à rénover, tout en tenant compte de l’importance des travaux nécessaires.</p><p>Prix de vente : 7 000 EUR HAI (honoraires d’agence inclus, à la charge du vendeur).</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Parking/box"
-      ],
-      [
-       "Surface habitable",
-       "118 m²"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "7 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Capendu"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBVGA30001059",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": null,
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre.jpg",
-   "photos": [
-    "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre-1.jpg",
-    "assets/annonces/grange-118-m2-sur-2-niveaux-capendu-centre-2.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b4d315088d4bb5bff2b693725961c5af/photo_68441996332a25e52bd7dfa8750e36a5.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b4d315088d4bb5bff2b693725961c5af/photo_ac6ed4d370ad1db9e0be03629f62c37b.jpg"
    ],
    "schema": 3
   },
@@ -2999,7 +3084,7 @@
    "chambres": 1,
    "sdb": 1,
    "badges": [],
-   "description_html": "<p>Appartement de 33m2 au rez-de-chaussée d’un petit immeuble comprenant trois appartements au centre de Capendu. Cet appartement, loué meublé, comprend une pièce de vie avec cuisine équipée, une chambre, une salle d’eau avec WC et un box avec banchement pour la machine à laver. Il a été entièrement rafraichi en novembre 2025. Tous les équipements : vaiselle, lit, canapé, ont 1 an et n’ont été utilisé que par un locataire.</p><p>Loyer : 450EUR charges comprises dont 20EUR de charges (taxe d’ordures ménagères, eau), l’électricité sera à la charge du locataire en prenant le compteur à son nom.</p><p>Dépôt de garantie : 900EUR</p><p>Honoraires de l’agence : 360EUR</p><p>Libre en novembre 2026</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
+   "description_html": "<p>Appartement de 33m2 au rez-de-chaussée d’un petit immeuble comprenant trois appartements au centre de Capendu. Cet appartement, loué meublé, comprend une pièce de vie avec cuisine équipée, une chambre, une salle d’eau avec WC et un box avec banchement pour la machine à laver. Il a été entièrement rafraichi en novembre 2025. Tous les équipements : vaiselle, lit, canapé, ont 1 an et n’ont été utilisé que par un locataire.</p><p>Loyer : 450EUR charges comprises dont 20EUR de charges (taxe d’ordures ménagères, eau), l’électricité sera à la charge du locataire en prenant le compteur à son nom.</p><p>Dépôt de garantie : 860 EUR</p><p>Honoraires de l’agence : 360EUR</p><p>Libre en novembre 2026</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
    "blocs": [
     {
      "titre": "Caractéristiques",
@@ -3080,7 +3165,7 @@
       ],
       [
        "Dépôt de garantie",
-       "450 €"
+       "860 €"
       ],
       [
        "Caractère meublé",

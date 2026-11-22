@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
  200 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
@@ -57,14 +65,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Béziers · 95,32 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
-
- 7 000 €
-
-### Grange 118 m2 sur 2 niveaux Capendu centre
-
- Capendu · 118 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
 
  255 000 €
 

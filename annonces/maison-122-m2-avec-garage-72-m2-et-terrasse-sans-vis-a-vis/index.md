@@ -228,13 +228,13 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
- 7 000 €
+ 95 000 €
 
-### Grange 118 m2 sur 2 niveaux Capendu centre
+### Maison 125 m2, cour, garage, vendue louée, Capendu
 
- Capendu · 118 m²
+ Capendu · 124,89 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
  38 500 €
 

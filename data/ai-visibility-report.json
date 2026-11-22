@@ -1177,24 +1177,6 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "ListItem",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
    "url": "https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/",
    "type": "autre",
    "balisage": [
@@ -1349,6 +1331,26 @@
   },
   {
    "url": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "House",
+    "ListItem",
+    "LocationFeatureSpecification",
+    "Offer",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "QuantitativeValue",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",

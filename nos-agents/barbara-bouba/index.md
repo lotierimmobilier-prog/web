@@ -14,6 +14,14 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
  200 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
@@ -21,14 +29,6 @@ Carcassonne · Narbonne
  Laure-Minervois · 110 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
-
- 7 000 €
-
-### Grange 118 m2 sur 2 niveaux Capendu centre
-
- Capendu · 118 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/grange-118-m2-sur-2-niveaux-capendu-centre/)[Être rappelé](https://lotier.immo/contact/)
 
  650 € par mois
 
@@ -313,12 +313,12 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 
 ### Biens proposés
 
-- 15 maisons
+- 16 maisons
 - 5 appartements
 - 5 terrains
 - 3 locaux commerciaux
 - 3 immeubles
-- 2 parkings
+- 1 parking
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Carcassonne sous le n° 890009269. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.
 

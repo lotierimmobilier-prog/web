@@ -120,8 +120,8 @@
 "publie": null
 },
 "appartement-t2-meuble-a-capendu": {
-"h": "be27072ba7d2",
-"maj": "2026-11-13",
+"h": "69652f16b328",
+"maj": "2026-11-21",
 "publie": null
 },
 "appartement-t4-non-meuble-centre-ville-carcassonne": {
@@ -209,11 +209,6 @@
 "maj": "2026-11-19",
 "publie": null
 },
-"grange-118-m2-sur-2-niveaux-capendu-centre": {
-"h": "793840b3edc9",
-"maj": "2026-11-19",
-"publie": "2026-11-19"
-},
 "immeuble-avec-1-local-commercial-et-1-t4": {
 "h": "511136ae2b71",
 "maj": "2026-11-13",
@@ -258,6 +253,11 @@
 "h": "a5b26d224037",
 "maj": "2026-11-13",
 "publie": null
+},
+"maison-125-m2-cour-garage-vendue-louee-capendu": {
+"h": "c4abfcf15aaa",
+"maj": "2026-11-21",
+"publie": "2026-11-21"
 },
 "maison-avec-jardin-et-piscine-a-comigne": {
 "h": "ac2eb780fdf8",
