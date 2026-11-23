@@ -197,7 +197,7 @@ def galerie(photos, title, loc, p2):
     """Galerie : flèches, compteur, clavier, balayage au doigt, miniatures, agrandissement plein écran (js/main.js)."""
     if not photos: return ""
     n = len(photos)
-    thumbs = "".join(f'<button type="button" class="ann-thumb{" is-on" if i == 0 else ""}" data-gal-i="{i}" data-ann-photo="{p2}{ph}" aria-label="Photo {i + 1} sur {n}"><img src="{p2}{ph}" alt="" width="120" height="90" loading="lazy" decoding="async"></button>' for i, ph in enumerate(photos)) if n > 1 else ""
+    thumbs = "".join(f'<button type="button" class="ann-thumb{" is-on" if i == 0 else ""}" data-gal-i="{i}" data-ann-photo="{p2}{ph}" aria-label="Photo {i + 1} sur {n}"><img src="{p2}{ph}" alt="{e(title)}, photo {i + 1} sur {n}" width="120" height="90" loading="lazy" decoding="async"></button>' for i, ph in enumerate(photos)) if n > 1 else ""
     fleches = (f'<button type="button" class="ann-nav prev" data-gal-prev aria-label="Photo précédente">{LEFT}</button>'
                f'<button type="button" class="ann-nav next" data-gal-next aria-label="Photo suivante">{ARROW}</button>') if n > 1 else ""
     compteur = f'<span class="ann-count" data-gal-count aria-live="polite">1 / {n}</span>' if n > 1 else ""
@@ -205,7 +205,7 @@ def galerie(photos, title, loc, p2):
             '<button type="button" class="ann-zoom" data-gal-open aria-label="Agrandir la photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>')
     tuiles = F.vignettes(photos, title, p2)
     boite = (f'<dialog class="ann-lightbox" data-gal-box aria-label="Photos du bien"><button type="button" class="ann-close" data-gal-close aria-label="Fermer">{CLOSE}</button>'
-             f'<img alt="" data-gal-big>{fleches}{compteur.replace("data-gal-count", "data-gal-count2")}</dialog>')
+             f'<img alt="{e(title)}, photo agrandie" data-gal-big>{fleches}{compteur.replace("data-gal-count", "data-gal-count2")}</dialog>')
     return (f'<div class="ann-gallery{" has-tiles" if tuiles else ""}" data-gal data-ann-gallery="">\n'
             f'          <div class="ann-mosaic">\n'
             f'          <div class="ann-main" data-gal-stage tabindex="0" aria-roledescription="carrousel" aria-label="Photos du bien ({n})"><img src="{p2}{photos[0]}" alt="{e(title)}" width="1000" height="750" data-ann-main fetchpriority="high"><span class="badge{" loc" if loc else ""}">{"LOCATION" if loc else "VENTE"}</span>{fleches}{compteur}{zoom}</div>\n'
@@ -345,7 +345,7 @@ def detail_page(a, tous=()):
         prenom = nom_aff.split(" ")[0]
         appel = f'<a class="btn btn-gold btn-lg btn-block mag ann-call" href="tel:{tel[1]}">{PH}<span class="ann-call-txt"><span>Appeler {e(prenom)}</span><strong>{tel[0]}</strong></span></a>' if tel else ""
         mail = f'<a class="ann-mail" href="mailto:{e(ag["email"])}">{e(ag["email"])}</a>' if ag.get("email") else ""
-        ava = (f'<img src="{p2}{e(fiche["photo"])}" alt="" width="96" height="96" loading="lazy">' if fiche and fiche.get("photo") else e(_initiales(nom_aff)))
+        ava = (f'<img src="{p2}{e(fiche["photo"])}" alt="Portrait de {e(nom_aff)}, conseiller LOTIER Immobilier" width="96" height="96" loading="lazy">' if fiche and fiche.get("photo") else e(_initiales(nom_aff)))
         nom_html = f'<a href="{p2}nos-agents/{fiche["slug"]}/">{e(nom_aff)}</a>' if fiche else e(nom_aff)
         agent = (f'<div class="ann-agent"><span class="ann-ava" aria-hidden="true">{ava}</span><div><strong>{nom_html}</strong><span class="muted small">Votre contact LOTIER Immobilier</span></div></div>\n'
                  f'            {appel}\n            {mail}\n'

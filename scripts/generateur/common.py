@@ -323,12 +323,12 @@ def contact_dialog(prefix):
 def chat_widget(prefix):
     return f'''  <div class="chat" id="chat"{(' data-avatar="' + prefix + 'assets/auguste.jpg"') if os.path.exists(f"{ROOT}/assets/auguste.jpg") else ""} data-prefix="{prefix}" data-endpoint="{CHAT_ENDPOINT}" data-phone="{PHONE_TEL}" data-phone-label="{PHONE_DISPLAY}">
     <button type="button" class="chat-fab" data-chat-open aria-haspopup="dialog" aria-controls="chat-panel" aria-expanded="false">
-      <span class="chat-fab-ico"><img src="{prefix}assets/lotier-l.png" alt="" width="44" height="44" loading="lazy" decoding="async"><i class="chat-dot" aria-hidden="true"></i></span>
+      <span class="chat-fab-ico"><img src="{prefix}assets/lotier-l.png" alt="LOTIER Immobilier" width="44" height="44" loading="lazy" decoding="async"><i class="chat-dot" aria-hidden="true"></i></span>
       <span class="chat-fab-txt"><strong>Auguste</strong><small>Assistant LOTIER, 7j/7</small></span>
     </button>
     <section class="chat-panel" id="chat-panel" role="dialog" aria-label="Auguste, assistant LOTIER" hidden>
       <header class="chat-head">
-        <span class="chat-ava" data-chat-avatar aria-hidden="true"><img src="{prefix}assets/lotier-l.png" alt="" width="40" height="40" decoding="async"></span>
+        <span class="chat-ava" data-chat-avatar aria-hidden="true"><img src="{prefix}assets/lotier-l.png" alt="LOTIER Immobilier" width="40" height="40" decoding="async"></span>
         <div><strong>Auguste</strong><span><i class="chat-dot" aria-hidden="true"></i>Assistant LOTIER, disponible 7j/7</span></div>
         <button type="button" class="chat-x" data-chat-close aria-label="Fermer le chat">{CLOSE}</button>
       </header>
@@ -366,7 +366,7 @@ def partners_strip(prefix=""):
     def one(hidden=False):
         alt = "" if hidden else None
         return "".join(
-            f'<li class="pt"><img src="{prefix}assets/partners/{f}.png" alt="{"" if hidden else e(n)}" width="{w}" height="{h}" decoding="async"></li>'
+            f'<li class="pt"><img src="{prefix}assets/partners/{f}.png" alt="{e(n)}" width="{w}" height="{h}" decoding="async"></li>'
             for n, f, w, h in PARTNERS)
     return f'''    <section class="partners" aria-labelledby="t-partners">
       <p class="partners-label" id="t-partners">Nos partenaires</p>

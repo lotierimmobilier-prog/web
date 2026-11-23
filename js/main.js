@@ -141,7 +141,7 @@
       try {
         var x = new URL(u, ORIGIN + '/');
         if (!/^https?:$/.test(x.protocol)) return;
-        var im = document.createElement('img'); im.src = x.href; im.alt = ''; im.width = 40; im.height = 40;
+        var im = document.createElement('img'); im.src = x.href; im.alt = 'LOTIER Immobilier'; im.width = 40; im.height = 40;
         box.textContent = ''; box.appendChild(im); box.hidden = false;
         var fi = chat.querySelector('.chat-fab-ico img'); if (fi) { fi.src = x.href; }   // même image sur le bouton
       } catch (e) { /* image d'Auguste indisponible : l'en-tête reste sans image */ }
@@ -605,7 +605,7 @@
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-labelledby', 'ck-title');
     box.innerHTML =
-      '<img class="ck-logo" src="' + prefix + 'assets/lotier-logo-330.png" alt="" width="110" height="37">' +
+      '<img class="ck-logo" src="' + prefix + 'assets/lotier-logo-330.png" alt="LOTIER Immobilier" width="110" height="37">' +
       '<h2 id="ck-title">Les cookies de LOTIER</h2>' +
       '<p>Comme pour tout bien immobilier, on a besoin de vous faire signer quelque chose. Nos cookies servent à mémoriser vos préférences, rien de plus, promis (pas de clause abusive dans nos CGV). Ce site ne dépose aucun cookie publicitaire. Sa fréquentation est mesurée sans cookie (pages vues, provenance) : vous pouvez le refuser ci-dessous. <a href="' + prefix + 'lotier-rgpd/#cookies">Registre RGPD</a></p>' +
       '<div class="ck-actions"><button type="button" class="btn btn-primary" data-ck="ok">Ok pour moi</button>' +
@@ -787,7 +787,7 @@
   }
   function openBox() {
     if (!box || !big) return;
-    big.src = srcs[i]; big.alt = main ? main.alt : '';
+    big.src = srcs[i]; big.alt = (main && main.alt ? main.alt : document.title) + ', photo ' + (i + 1);
     if (box.showModal) box.showModal(); else box.setAttribute('open', '');
   }
   g.addEventListener('click', function (ev) {
