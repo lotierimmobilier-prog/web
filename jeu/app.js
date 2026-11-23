@@ -151,6 +151,15 @@
     film.addEventListener('play', function () { d.querySelectorAll('.video-pn video').forEach(function (autre) { if (autre !== film) autre.pause(); }); });      // une seule vidéo à la fois
   });
 
+  // Lien direct vers une vidéo (lettre d'information, partage) : la page descend sur la vidéo et tente de la lancer.
+  // Si le navigateur refuse le son automatique, la vidéo reste prête : un toucher suffit.
+  var cible = (location.hash.match(/^#(video-pere-noel|video-lutin)$/) || [])[1];
+  if (cible) window.addEventListener('load', function () {
+    var bloc = d.getElementById(cible), film = bloc && bloc.querySelector('video'); if (!film) return;
+    bloc.scrollIntoView({ block: 'center' });
+    var essai = film.play(); if (essai && essai.catch) essai.catch(function () {});
+  });
+
   /* ---- Effets : apparition au défilement, compteurs, cartes inclinées, neige du haut de page ---- */
   var calme = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   d.documentElement.classList.add('js');

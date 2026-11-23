@@ -121,7 +121,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
 
     <section class="bloc apparait message-pn" aria-labelledby="t-message">
       <h2 id="t-message">Le message du Père Noël</h2>
-      <div class="video-pn">
+      <div class="video-pn" id="video-pere-noel">
         <video controls playsinline preload="none" poster="pere-noel.jpg" width="960" height="540">
           <source src="pere-noel.mp4?v=3" type="video/mp4">
           <a href="pere-noel.mp4?v=3">Voir la vidéo du Père Noël</a>
@@ -130,7 +130,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
       <p class="petit">«&nbsp;Cette année, j’ai une mission pour vous&nbsp;: dessinez-moi ma maison&nbsp;!&nbsp;» Vidéo de 22 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
 
       <h3 class="sous-titre-pn">Et le lutin t’explique comment faire</h3>
-      <div class="video-pn">
+      <div class="video-pn" id="video-lutin">
         <video controls playsinline preload="none" poster="lutin.jpg" width="960" height="540">
           <source src="lutin.mp4?v=6" type="video/mp4">
           <a href="lutin.mp4?v=6">Voir la vidéo du lutin</a>
@@ -322,7 +322,7 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=9" defer></script>
+  <script src="app.js?v=10" defer></script>
 </body>
 </html>
 <?php
