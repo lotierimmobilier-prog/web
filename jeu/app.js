@@ -142,6 +142,14 @@
     }, { passive: true });
   }
 
+  // Pendant la lecture de la vidéo du Père Noël, toutes les animations de la page sont suspendues : la vidéo reste fluide, même sur un appareil modeste.
+  var lecture = false, film = q('.video-pn video');
+  if (film) {
+    var etat = function (oui) { lecture = oui; d.documentElement.classList.toggle('lecture', oui); };
+    film.addEventListener('play', function () { etat(true); }); film.addEventListener('playing', function () { etat(true); });
+    film.addEventListener('pause', function () { etat(false); }); film.addEventListener('ended', function () { etat(false); });
+  }
+
   /* ---- Effets : apparition au défilement, compteurs, cartes inclinées, neige du haut de page ---- */
   var calme = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   d.documentElement.classList.add('js');
@@ -171,6 +179,7 @@
     var cx = toile.getContext('2d'), L = 0, H = 0, fl = [], img = 0, visible = true;
     var taille = function () { var r = Math.min(window.devicePixelRatio || 1, 2); L = hero.clientWidth; H = hero.clientHeight; toile.width = L * r; toile.height = H * r; cx.setTransform(r, 0, 0, r, 0, 0); var n = Math.round(Math.min(70, L / 18)); while (fl.length < n) fl.push({ x: Math.random() * L, y: Math.random() * H, r: 1.4 + Math.random() * 3, v: 0.3 + Math.random() * 0.7, d: Math.random() * 6 }); fl.length = n; };
     var dessine = function () {
+      if (lecture) { if (visible) img = requestAnimationFrame(dessine); return; }      // rien pendant la vidéo
       cx.clearRect(0, 0, L, H);
       fl.forEach(function (f) { f.y += f.v; f.d += 0.012; f.x += Math.sin(f.d) * 0.4; if (f.y > H + 6) { f.y = -6; f.x = Math.random() * L; } cx.beginPath(); cx.fillStyle = 'rgba(255,255,255,.95)'; cx.shadowColor = 'rgba(120,100,80,.35)'; cx.shadowBlur = 4; cx.arc(f.x, f.y, f.r, 0, 6.2832); cx.fill(); });
       if (visible) img = requestAnimationFrame(dessine);
@@ -211,6 +220,7 @@
     };
     var appliquer = function () { anneau.style.transform = 'translateZ(' + (-rayon) + 'px) rotateY(' + rot + 'deg)'; };
     var tourner = function (t) {
+      if (lecture) { dernier = 0; if (enVue) boucle = requestAnimationFrame(tourner); return; }      // rien pendant la vidéo
       var dt = dernier ? Math.min((t - dernier) / 1000, 0.1) : 0; dernier = t;
       if (!saisi) { if (Math.abs(vit) > 0.5) { rot += vit * dt; vit *= 0.94; } else { rot += auto * dt; } }
       appliquer();
