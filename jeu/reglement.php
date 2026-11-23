@@ -3,7 +3,7 @@
 declare(strict_types=1);
 require __DIR__ . '/lib.php';
 entetes_page();
-$lot = function (int $rang): string {
+$lot = function ($rang): string {
     $v = JEU_LOTS[$rang] ?? null;
     return $v ? 'un bon cadeau culturel d’une valeur de ' . $v . ' € TTC' : 'un bon cadeau culturel';
 };
@@ -55,13 +55,12 @@ $lot = function (int $rang): string {
     <p>Le partage d’un dessin par messagerie ou sur les réseaux sociaux est libre et n’apporte aucun avantage. L’organisateur peut annuler les votes obtenus de façon manifestement frauduleuse (adresses créées en série, automates), et exclure le dessin concerné.</p>
 
     <h2>Article 7. Lots</h2>
-    <p>Dans chacune des quatre catégories, les trois dessins ayant reçu le plus de voix gagnent :</p>
+    <p>Deux sortes de lots sont attribuées :</p>
     <ul>
-      <li>1er prix : <?= $lot(1) ?> ;</li>
-      <li>2e prix : <?= $lot(2) ?> ;</li>
-      <li>3e prix : <?= $lot(3) ?>.</li>
+      <li>un lot par catégorie : dans chacune des quatre catégories, le dessin ayant reçu le plus de voix gagne <?= $lot(1) ?> ;</li>
+      <li>le prix du jury : l’équipe LOTIER Immobilier choisit un dessin, toutes catégories confondues, qui gagne <?= $lot('jury') ?>. Ce choix est libre et ne dépend pas du nombre de voix. Le dessin choisi peut aussi être celui qui a gagné dans sa catégorie ; dans ce cas, le jury choisit un autre dessin.</li>
     </ul>
-    <p>Soit douze lots au total. En cas d’égalité, le dessin déposé le premier l’emporte. Les lots ne peuvent être ni échangés, ni remboursés, ni cédés.</p>
+    <p>Soit cinq lots au total. En cas d’égalité de voix dans une catégorie, le dessin déposé le premier l’emporte. Les lots ne peuvent être ni échangés, ni remboursés, ni cédés.</p>
     <p>Les gagnants sont prévenus par e-mail, à l’adresse de l’adulte indiquée lors du dépôt. Le lot est envoyé par e-mail ou par courrier postal, au choix de l’organisateur ; dans le second cas, l’adresse postale est demandée au gagnant à cette seule fin. Un lot non réclamé dans les trois mois qui suivent l’annonce des résultats est perdu.</p>
 
     <h2>Article 8. Droits sur les dessins</h2>
