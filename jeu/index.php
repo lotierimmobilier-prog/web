@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=17">
+  <link rel="stylesheet" href="style.css?v=18">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -132,11 +132,11 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
       <h3 class="sous-titre-pn">Et le lutin t’explique comment faire</h3>
       <div class="video-pn">
         <video controls playsinline preload="none" poster="lutin.jpg" width="960" height="540">
-          <source src="lutin.mp4?v=1" type="video/mp4">
-          <a href="lutin.mp4?v=1">Voir la vidéo du lutin</a>
+          <source src="lutin.mp4?v=2" type="video/mp4">
+          <a href="lutin.mp4?v=2">Voir la vidéo du lutin</a>
         </video>
       </div>
-      <p class="petit">Vidéo de 8 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
+      <p class="petit">Vidéo de 15 secondes, avec le son. Les dates indiquées sont celles du concours. Personnage et voix créés par ordinateur.</p>
     </section>
 
     <section class="bloc apparait" aria-labelledby="t-comment">
