@@ -230,6 +230,14 @@ if ($admin) {
 <?php $nbEnvois = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 1')->fetchColumn(); $nbEchecs = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 0')->fetchColumn(); $nbDesabo = (int) db()->query('SELECT COUNT(DISTINCT email) FROM dessins WHERE mails = 0')->fetchColumn(); ?>
   <p>État : <b><?= mails_actifs() ? 'activés' : 'désactivés (rien ne part)' ?></b> · <?= $nbEnvois ?> envoyé(s) · <?= $nbEchecs ?> échec(s) · <?= $nbDesabo ?> désinscrit(s)</p>
   <p class="aide">Chaque adulte reçoit un message à la réception du dessin, un autre à sa publication, puis un message tous les deux jours pendant les votes (conseils et point sur le classement), jusqu’aux résultats. Les envois programmés partent le matin, à partir de <?= MAILS_HEURE ?> h. Un lien de désinscription figure dans chaque message.</p>
+<?php $derniers = db()->query("SELECT e.quand, e.cle, e.ok, d.prenom, d.email FROM envois e JOIN dessins d ON d.id = e.dessin_id ORDER BY e.quand DESC LIMIT 12")->fetchAll(); if ($derniers): ?>
+  <table class="classement" style="max-width:760px"><caption>Derniers envois</caption><thead><tr><th>Quand</th><th>Destinataire</th><th>Message</th><th>Résultat</th></tr></thead><tbody>
+<?php foreach ($derniers as $r): ?><tr><td style="width:auto"><?= h(substr($r['quand'], 8, 2) . '/' . substr($r['quand'], 5, 2) . ' ' . substr($r['quand'], 11, 5)) ?></td><td><?= h($r['email']) ?> (<?= h($r['prenom']) ?>)</td><td><?= h($r['cle']) ?></td><td><?= (int) $r['ok'] ? 'Remis au serveur d’envoi' : '<b>Refusé par le serveur</b>' ?></td></tr>
+<?php endforeach; ?>
+  </tbody></table>
+<?php else: ?>
+  <p class="aide">Aucun e-mail envoyé pour l’instant.<?= mails_actifs() ? '' : ' L’envoi est désactivé : cochez « Activer l’envoi automatique des e-mails » ci-dessous, puis enregistrez.' ?></p>
+<?php endif; ?>
   <table class="classement" style="max-width:760px"><thead><tr><th>Quand</th><th>Objet</th><th></th></tr></thead><tbody>
 <?php foreach (mails_modeles() as $cle => $quand): ?><tr><td style="width:auto"><?= h($quand) ?></td><td><?= h(mails_contenu($cle, mails_exemple())[0]) ?></td><td><a href="admin.php?apercu=<?= h($cle) ?>" target="_blank" rel="noopener">Aperçu</a></td></tr>
 <?php endforeach; ?>

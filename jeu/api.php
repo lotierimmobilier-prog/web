@@ -49,8 +49,9 @@ if ($action === 'depot') {
     db()->prepare("INSERT INTO dessins (jeton, prenom, age, categorie, email, lien, code_postal, projet, rappel, telephone, infolettre, cree_le, ip)
                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
         ->execute([$jeton, $prenom, $age, categorie_de((int) $age), $email, $lien, $cp, $projet, $rappel, $tel, $infolettre, maintenant()->format('Y-m-d H:i:s'), ip()]);
+    $idDessin = (int) db()->lastInsertId();      // à lire avant journal(), qui insère lui aussi une ligne
     journal('depot', $jeton);
-    mails_envoyer('recu', (int) db()->lastInsertId());
+    try { mails_envoyer('recu', $idDessin); } catch (Throwable $e) { journal('e-mails', 'erreur : ' . mb_substr($e->getMessage(), 0, 120)); }
     repondre(['ok' => true, 'jeton' => $jeton, 'prenom' => $prenom]);
 }
 
