@@ -110,6 +110,10 @@ def main():
             erreurs.append(f"{ch} : pas de <title>")
         if "<h1" not in t:
             erreurs.append(f"{ch} : pas de <h1>")
+        # Toute image porte un texte de remplacement non vide (référencement, lecteurs d'écran).
+        sans_alt = [m for m in re.findall(r"<img\b[^>]*>", t) if not re.search(r'\balt="[^"]+"', m)]
+        if sans_alt:
+            erreurs.append(f"{ch} : {len(sans_alt)} image(s) sans texte de remplacement, par exemple {sans_alt[0][:80]}")
         for lien in liens_casses(ch)[:5]:
             erreurs.append(f"{ch} : lien interne cassé → {lien}")
 

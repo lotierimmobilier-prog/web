@@ -181,7 +181,7 @@ def vignettes(photos, title, p2, max_n=2):
         dernier = k == max_n
         plus = f'<span class="ann-tile-more">{ICO["photos"]}Voir les {n} photos</span>' if dernier and n > 3 else ""
         out += (f'<button type="button" class="ann-tile" data-gal-goto="{k}" aria-label="Voir la photo {k + 1} sur {n}">'
-                f'<img src="{p2}{photos[k]}" alt="" width="480" height="360" loading="lazy" decoding="async">{plus}</button>')
+                f'<img src="{p2}{photos[k]}" alt="{e(title)}, photo {k + 1} sur {n}" width="480" height="360" loading="lazy" decoding="async">{plus}</button>')
     return f'<div class="ann-tiles">{out}</div>'
 
 
