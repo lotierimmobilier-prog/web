@@ -1,0 +1,176 @@
+<?php
+// Concours de Noël : administration (validation des dessins, résultats, exports). Accès par mot de passe.
+declare(strict_types=1);
+require __DIR__ . '/lib.php';
+entetes_page();
+header('X-Robots-Tag: noindex, nofollow');
+
+$https = (($_SERVER['HTTPS'] ?? '') === 'on') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
+session_name('concours_admin');
+session_start(['cookie_path' => '/jeu/', 'cookie_httponly' => true, 'cookie_samesite' => 'Strict', 'cookie_secure' => $https, 'use_strict_mode' => true]);
+if (empty($_SESSION['csrf'])) $_SESSION['csrf'] = bin2hex(random_bytes(16));
+$csrf = $_SESSION['csrf'];
+$post = ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST';
+$csrf_ok = $post && hash_equals($csrf, (string) ($_POST['csrf'] ?? ''));
+$empreinte = reglage('admin');
+$erreur = ''; $info = '';
+
+function trop_de_tentatives(): bool {
+    db()->prepare('DELETE FROM tentatives WHERE quand < ?')->execute([time() - 900]);
+    $q = db()->prepare('SELECT COUNT(*) FROM tentatives WHERE ip = ?'); $q->execute([ip()]);
+    return (int) $q->fetchColumn() >= 6;
+}
+
+// Première ouverture : choix du mot de passe (il n'est écrit nulle part dans le code, seule son empreinte est gardée).
+if ($empreinte === null) {
+    if ($csrf_ok && ($_POST['action'] ?? '') === 'creer') {
+        $m = (string) ($_POST['mdp'] ?? '');
+        if (mb_strlen($m) < 12) $erreur = 'Le mot de passe doit compter au moins 12 caractères.';
+        else { reglage('admin', password_hash($m, PASSWORD_DEFAULT)); journal('admin', 'mot de passe créé'); session_regenerate_id(true); $_SESSION['admin'] = true; header('Location: admin.php'); exit; }
+    }
+} elseif (empty($_SESSION['admin'])) {
+    if ($csrf_ok && ($_POST['action'] ?? '') === 'connexion') {
+        if (trop_de_tentatives()) $erreur = 'Trop de tentatives. Réessayez dans un quart d’heure.';
+        elseif (password_verify((string) ($_POST['mdp'] ?? ''), $empreinte)) { session_regenerate_id(true); $_SESSION['admin'] = true; header('Location: admin.php'); exit; }
+        else { db()->prepare('INSERT INTO tentatives (ip, quand) VALUES (?, ?)')->execute([ip(), time()]); usleep(400000); $erreur = 'Mot de passe incorrect.'; }
+    }
+}
+$admin = !empty($_SESSION['admin']) && $empreinte !== null;
+
+if ($admin && $csrf_ok) {
+    $a = (string) ($_POST['action'] ?? ''); $id = (int) ($_POST['id'] ?? 0);
+    if ($a === 'deconnexion') { $_SESSION = []; session_destroy(); header('Location: admin.php'); exit; }
+    if (in_array($a, ['valider', 'refuser'], true) && $id) {
+        db()->prepare('UPDATE dessins SET statut = ?, traite_le = ? WHERE id = ?')->execute([$a === 'valider' ? 'valide' : 'refuse', date('Y-m-d H:i:s'), $id]);
+        journal($a, (string) $id); $info = $a === 'valider' ? 'Dessin publié.' : 'Dessin refusé (il n’est pas affiché).';
+    }
+    if ($a === 'supprimer' && $id) {
+        $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
+        if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
+    }
+    if ($a === 'mdp') {
+        $m = (string) ($_POST['mdp'] ?? '');
+        if (mb_strlen($m) < 12) $erreur = 'Le nouveau mot de passe doit compter au moins 12 caractères.';
+        else { reglage('admin', password_hash($m, PASSWORD_DEFAULT)); journal('admin', 'mot de passe changé'); $info = 'Mot de passe changé.'; }
+    }
+}
+if ($admin && isset($_GET['export'])) {
+    $quoi = $_GET['export'] === 'infolettre' ? 'infolettre' : 'participants';
+    header('Content-Type: text/csv; charset=utf-8');
+    header('Content-Disposition: attachment; filename="concours-noel-' . $quoi . '-' . date('Y-m-d') . '.csv"');
+    $s = fopen('php://output', 'w'); fwrite($s, "\xEF\xBB\xBF");
+    $sur = fn($v) => preg_match('/^[=+\-@\t\r]/', (string) $v) ? "'" . $v : (string) $v;      // pas de formule dans un tableur
+    if ($quoi === 'infolettre') {
+        fputcsv($s, ['E-mail', 'Code postal', 'Projet', 'Date du consentement'], ';');
+        foreach (db()->query("SELECT DISTINCT email, code_postal, projet, cree_le FROM dessins WHERE infolettre = 1 ORDER BY cree_le") as $r) fputcsv($s, array_map($sur, array_values($r)), ';');
+    } else {
+        fputcsv($s, ['Prénom', 'Âge', 'Catégorie', 'Statut', 'Voix', 'E-mail de l’adulte', 'Lien', 'Code postal', 'Projet', 'Rappel demandé', 'Téléphone', 'Lettre d’information', 'Déposé le'], ';');
+        foreach (db()->query("SELECT prenom, age, categorie, statut, (SELECT COUNT(*) FROM votes v WHERE v.dessin_id = d.id), email, lien, code_postal, projet, rappel, telephone, infolettre, cree_le FROM dessins d ORDER BY categorie, cree_le") as $r) fputcsv($s, array_map($sur, array_values($r)), ';');
+    }
+    journal('export', $quoi);
+    exit;
+}
+$liste = $admin ? db()->query("SELECT d.*, (SELECT COUNT(*) FROM votes v WHERE v.dessin_id = d.id) AS voix FROM dessins d ORDER BY CASE statut WHEN 'attente' THEN 0 WHEN 'valide' THEN 1 ELSE 2 END, categorie, voix DESC, cree_le")->fetchAll() : [];
+$compte = ['attente' => 0, 'valide' => 0, 'refuse' => 0];
+foreach ($liste as $d) $compte[$d['statut']]++;
+$champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
+$suivi = null;
+if ($admin) {
+    $jour = maintenant()->format('Y-m-d');
+    $un = fn(string $sql, array $p = []) => (function () use ($sql, $p) { $q = db()->prepare($sql); $q->execute($p); return (int) $q->fetchColumn(); })();
+    $suivi = ['total' => $un('SELECT COUNT(*) FROM votes'), 'jour' => $un('SELECT COUNT(*) FROM votes WHERE jour = ?', [$jour]), 'votants' => $un('SELECT COUNT(DISTINCT email) FROM votes'),
+              'par_jour' => db()->query('SELECT jour, COUNT(*) AS n FROM votes GROUP BY jour ORDER BY jour DESC LIMIT 30')->fetchAll(),
+              'alertes' => db()->query("SELECT v.jour, d.prenom, COUNT(*) AS n FROM votes v JOIN dessins d ON d.id = v.dessin_id GROUP BY v.jour, v.ip, v.dessin_id HAVING n >= 8 ORDER BY v.jour DESC, n DESC LIMIT 20")->fetchAll()];
+    $classement = array_fill_keys(array_keys(JEU_CATEGORIES), []);
+    foreach (dessins_valides() as $x) $classement[$x['categorie']][] = $x;
+}
+?><!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+  <title>Administration du concours de Noël</title>
+  <link rel="stylesheet" href="style.css?v=3">
+  <style>
+    .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
+    .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
+    .boite { background: #fff; border: 1px solid var(--trait); border-radius: 18px; padding: 20px; max-width: 460px; }
+    .ligne { display: grid; grid-template-columns: 150px 1fr auto; gap: 16px; align-items: start; background: #fff; border: 1px solid var(--trait); border-radius: 16px; padding: 12px; margin-bottom: 10px; }
+    .ligne img { border-radius: 10px; width: 150px; } .ligne p { margin: 0 0 3px; font-size: 15px; } .ligne form { display: inline; }
+    .ligne .btn { min-height: 38px; padding: 6px 14px; font-size: 14.5px; margin: 0 0 6px 6px; }
+    .etat { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 600; }
+    .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; }
+    .ok { background: #dff3e4; color: #17502c; padding: 10px 14px; border-radius: 12px; font-weight: 600; }
+    .diag { font-size: 14px; color: #4d5c70; } .diag code { background: #eef1f5; padding: 1px 5px; border-radius: 4px; }
+    .suivi { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 0 22px; } .adm .classement { max-width: none; } .adm .classement td, .adm .classement th { white-space: nowrap; } .adm .jours { max-width: 420px; }
+    @media (max-width: 720px) { .ligne { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main class="adm">
+  <h1>Concours de Noël · administration</h1>
+<?php if ($erreur): ?><p class="message"><?= h($erreur) ?></p><?php endif; ?>
+<?php if ($info): ?><p class="ok"><?= h($info) ?></p><?php endif; ?>
+
+<?php if ($empreinte === null): ?>
+  <form method="post" class="boite" autocomplete="off"><?= $champ_csrf ?><input type="hidden" name="action" value="creer">
+    <p><b>Première ouverture.</b> Choisissez le mot de passe de l’administration (12 caractères au moins).</p>
+    <p><label for="mdp">Mot de passe</label><input id="mdp" name="mdp" type="password" required minlength="12" autocomplete="new-password"></p>
+    <p><button class="btn rouge" type="submit">Enregistrer</button></p>
+  </form>
+<?php elseif (!$admin): ?>
+  <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="connexion">
+    <p><label for="mdp">Mot de passe</label><input id="mdp" name="mdp" type="password" required autocomplete="current-password"></p>
+    <p><button class="btn rouge" type="submit">Se connecter</button></p>
+  </form>
+<?php else: ?>
+  <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['refuse'] ?> refusé(s)</p>
+  <p class="boutons"><a class="btn clair" href="admin.php">Actualiser</a><a class="btn clair" href="admin.php?export=participants">Exporter les participants (CSV)</a><a class="btn clair" href="admin.php?export=infolettre">Exporter les inscrits à la lettre d’information (CSV)</a><a class="btn clair" href="./" target="_blank" rel="noopener">Voir le concours</a></p>
+  <h2>Suivi des votes</h2>
+  <p><b><?= $suivi['total'] ?></b> vote(s) au total · <b><?= $suivi['jour'] ?></b> aujourd’hui · <b><?= $suivi['votants'] ?></b> votant(s) différent(s)</p>
+  <div class="suivi">
+<?php foreach (JEU_CATEGORIES as $cle => $nom): ?>
+    <table class="classement"><caption><?= h($nom) ?></caption><thead><tr><th>Rang</th><th>Prénom</th><th>Âge</th><th>Votes</th></tr></thead><tbody>
+<?php if (!$classement[$cle]): ?><tr><td colspan="4">Aucun dessin publié.</td></tr><?php endif; ?>
+<?php foreach ($classement[$cle] as $i => $x): ?><tr<?= $i < 3 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><?= h($x['prenom']) ?></td><td><?= (int) $x['age'] ?> ans</td><td><b><?= (int) $x['voix'] ?></b></td></tr><?php endforeach; ?>
+    </tbody></table>
+<?php endforeach; ?>
+  </div>
+<?php if ($suivi['par_jour']): ?>
+  <table class="classement jours"><caption>Votes par jour</caption><thead><tr><th>Jour</th><th>Votes</th></tr></thead><tbody>
+<?php foreach ($suivi['par_jour'] as $r): ?><tr><td style="width:auto"><?= h(fr_date($r['jour'])) ?></td><td><b><?= (int) $r['n'] ?></b></td></tr><?php endforeach; ?>
+  </tbody></table>
+<?php endif; ?>
+<?php if ($suivi['alertes']): ?>
+  <p class="message">À surveiller : beaucoup de votes pour un même dessin depuis une même connexion, le même jour.</p>
+  <ul><?php foreach ($suivi['alertes'] as $r): ?><li><?= h(fr_date($r['jour'])) ?> : <?= (int) $r['n'] ?> votes pour <?= h($r['prenom']) ?></li><?php endforeach; ?></ul>
+<?php endif; ?>
+  <h2>Dessins</h2>
+<?php if (!$liste): ?><p>Aucun dessin pour le moment.</p><?php endif; ?>
+<?php foreach ($liste as $d): ?>
+  <div class="ligne">
+    <a href="image.php?d=<?= h($d['jeton']) ?>" target="_blank" rel="noopener"><img src="image.php?d=<?= h($d['jeton']) ?>&amp;v=1" alt="Dessin de <?= h($d['prenom']) ?>" loading="lazy"></a>
+    <div>
+      <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'refuse' => 'Refusé'][$d['statut']] ?></span> · <?= (int) $d['voix'] ?> vote(s)</p>
+      <p>Adulte : <?= h($d['email']) ?><?= $d['lien'] !== '' ? ' (' . h($d['lien']) . ')' : '' ?></p>
+      <p><?= $d['code_postal'] !== '' ? 'Code postal : ' . h($d['code_postal']) . ' · ' : '' ?><?= $d['projet'] !== '' ? 'Projet : ' . h(JEU_PROJETS[$d['projet']] ?? $d['projet']) . ' · ' : '' ?><?= $d['rappel'] ? '<b>À rappeler : ' . h($d['telephone']) . '</b> · ' : '' ?><?= $d['infolettre'] ? 'Lettre d’information : oui' : 'Lettre d’information : non' ?></p>
+      <p class="diag">Déposé le <?= h($d['cree_le']) ?> · lien public : <code><?= h(JEU_URL . '?d=' . $d['jeton']) ?></code></p>
+    </div>
+    <div>
+<?php if ($d['statut'] !== 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn rouge" name="action" value="valider">Publier</button></form><?php endif; ?>
+<?php if ($d['statut'] !== 'refuse'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="refuser">Refuser</button></form><?php endif; ?>
+      <form method="post" onsubmit="return confirm('Supprimer définitivement ce dessin, ses données et ses votes ?')"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="supprimer">Supprimer</button></form>
+    </div>
+  </div>
+<?php endforeach; ?>
+
+  <h2>Réglages</h2>
+  <form method="post" class="boite" autocomplete="off"><?= $champ_csrf ?><input type="hidden" name="action" value="mdp">
+    <p><label for="nmdp">Changer le mot de passe</label><input id="nmdp" name="mdp" type="password" required minlength="12" autocomplete="new-password"></p>
+    <p><button class="btn clair" type="submit">Changer</button></p>
+  </form>
+  <p class="diag">Données rangées dans <code><?= h(dossier()) ?></code> (<?= str_starts_with(dossier(), __DIR__) ? '<b>dans le dossier public : à signaler</b>' : 'hors du dossier public' ?>) · PHP <?= h(PHP_VERSION) ?> · traitement d’image : <?= function_exists('imagecreatefromjpeg') ? 'oui' : '<b>absent</b>' ?> · adresse vue par le serveur : <code><?= h($_SERVER['REMOTE_ADDR'] ?? '') ?></code>, retenue : <code><?= h(ip_brute()) ?></code></p>
+  <form method="post"><?= $champ_csrf ?><button class="btn clair" name="action" value="deconnexion">Se déconnecter</button></form>
+<?php endif; ?>
+</main>
+</body>
+</html>
