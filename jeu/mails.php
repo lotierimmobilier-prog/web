@@ -109,7 +109,7 @@ function mails_composer(string $cle, array $d): array {
     $html = '<!doctype html><html lang="fr"><body style="margin:0;background:#ece6da;font-family:Arial,Helvetica,sans-serif;color:#2b2620">'
           . '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ece6da"><tr><td align="center" style="padding:24px 12px">'
           . '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden">'
-          . '<tr><td style="background:#8f2530;padding:18px 28px;color:#f3dfae;font-size:13px;letter-spacing:2px;text-transform:uppercase">Concours de Noël · LOTIER Immobilier</td></tr>'
+          . '<tr><td style="background:#ece6da;padding:0;line-height:0"><a href="' . h(JEU_URL) . '"><img src="' . h(JEU_URL) . 'mail-entete.jpg" width="560" alt="Concours de Noël LOTIER Immobilier : dessine la maison du Père Noël" style="display:block;width:100%;max-width:560px;height:auto;border:0;color:#8f2530;font:bold 18px Arial,sans-serif;line-height:1.4"></a></td></tr>'
           . '<tr><td style="padding:28px 28px 8px"><h1 style="margin:0 0 16px;font-size:24px;line-height:1.25;color:#14100c">' . $titre . '</h1>';
     foreach ($paras as $t) $html .= '<p style="margin:0 0 14px;font-size:16px;line-height:1.55">' . $t . '</p>';
     $html .= '<p style="margin:22px 0 26px"><a href="' . h($lien) . '" style="display:inline-block;background:#c1272f;color:#ffffff;text-decoration:none;font-weight:bold;font-size:16px;padding:13px 24px;border-radius:999px">' . h($bouton) . '</a></p>'
