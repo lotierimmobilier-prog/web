@@ -6,6 +6,10 @@ entetes_page();
 
 $phase = phase();
 $dessins = dessins_valides();
+// Dessins d'exemple, hors concours : sans prénom, sans âge, sans vote. Ils disparaissent dès qu'il y a assez de vrais dessins, et dès l'ouverture des votes.
+$exemples = [];
+if (phase() === 'depot' && count($dessins) < JEU_EXEMPLES) foreach (glob(__DIR__ . '/exemples/exemple-*.jpg') ?: [] as $f) $exemples[] = 'exemples/' . basename($f);
+sort($exemples, SORT_NATURAL);
 $vedette = null;
 $jd = (string) ($_GET['d'] ?? '');
 if (preg_match('/^[a-f0-9]{16}$/', $jd)) { foreach ($dessins as $x) { if ($x['jeton'] === $jd) { $vedette = $x; break; } } }
@@ -54,7 +58,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -197,14 +201,18 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
 <?php endif; ?>
 
-<?php if ($dessins): $faces = $dessins; while (count($faces) < 8) $faces = array_merge($faces, $dessins); $faces = array_slice($faces, 0, 16); ?>
+<?php
+$faces = [];
+foreach ($dessins as $f) $faces[] = ['lien' => '#d-' . $f['jeton'], 'image' => 'image.php?d=' . $f['jeton'] . '&v=1', 'nom' => $f['prenom'] . ', ' . (int) $f['age'] . ' ans' . ($phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '')];
+foreach ($exemples as $f) $faces[] = ['lien' => '#inspiration', 'image' => $f, 'nom' => 'Exemple, hors concours'];
+if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($faces, $base); $faces = array_slice($faces, 0, 16); ?>
     <section class="ronde" aria-labelledby="t-ronde">
       <p class="sur"><span class="point" aria-hidden="true"></span>La galerie</p>
       <h2 id="t-ronde">La ronde <em>des dessins.</em></h2>
       <div class="manege" data-manege aria-label="Carrousel des dessins : faites glisser pour le faire tourner">
         <div class="incline"><div class="anneau">
 <?php foreach ($faces as $f): ?>
-          <a class="face" href="#d-<?= h($f['jeton']) ?>" draggable="false"><span class="recto" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)"></span><span class="verso" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)" aria-hidden="true"></span><span class="nom"><?= h($f['prenom']) ?>, <?= (int) $f['age'] ?> ans<?= $phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '' ?></span></a>
+          <a class="face" href="<?= h($f['lien']) ?>" draggable="false"><span class="recto" style="background-image:url(<?= h($f['image']) ?>)"></span><span class="verso" style="background-image:url(<?= h($f['image']) ?>)" aria-hidden="true"></span><span class="nom"><?= h($f['nom']) ?></span></a>
 <?php endforeach; ?>
         </div></div>
       </div>
@@ -233,6 +241,13 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 <?php endif; ?>
       <div class="grille"><?php foreach ($parCat[$cle] as $i => $d) echo carte($d, $phase, $i + 1); ?></div>
 <?php endforeach; endif; ?>
+<?php if ($exemples): ?>
+      <div class="inspiration" id="inspiration">
+        <h3 class="cat">Pour s’inspirer <span>(exemples, hors concours)</span></h3>
+        <p class="intro">En panne d’idée&nbsp;? Voici quelques illustrations d’exemple préparées par LOTIER Immobilier. Elles ne participent pas au concours et ne reçoivent aucun vote&nbsp;: elles laisseront la place aux vrais dessins au fil des dépôts.</p>
+        <div class="grille"><?php foreach ($exemples as $f): ?><figure class="carte exemple"><span class="vue"><img src="<?= h($f) ?>" alt="Illustration d’exemple, hors concours : la maison du Père Noël" loading="lazy" width="960" height="540"></span><figcaption class="bas"><p class="etiquette">Exemple, hors concours</p></figcaption></figure><?php endforeach; ?></div>
+      </div>
+<?php endif; ?>
     </section>
   </main>
 
