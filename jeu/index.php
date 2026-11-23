@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=9">
+  <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -203,6 +203,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
         <h3>Merci, le dessin de <span data-merci-prenom></span> est bien arrivé&nbsp;!</h3>
         <p>L’équipe LOTIER le regarde et le publie sous 12&nbsp;heures. En attendant, prévenez la famille&nbsp;: les votes ouvrent le <?= h(jour_mois(debut_votes())) ?>.</p>
         <p class="boutons"><button type="button" class="btn rouge" data-partager-merci>Prévenir mes proches</button><a class="btn clair" href="./">Déposer un autre dessin</a></p>
+        <p class="avis-google">Vous connaissez LOTIER Immobilier&nbsp;? <a href="https://g.page/r/CRMEk2Rx1mm0EBE/review" target="_blank" rel="noopener">Donnez votre avis sur Google</a>. C’est libre et sans lien avec le concours.</p>
       </div>
     </section>
 <?php endif; ?>
@@ -291,6 +292,7 @@ if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($fac
     <p><label for="partage-texte">Votre message (modifiable)</label><textarea id="partage-texte" rows="4"></textarea></p>
     <p class="reseaux"><a class="btn rouge" data-r="whatsapp" target="_blank" rel="noopener">WhatsApp</a><a class="btn rouge" data-r="facebook" target="_blank" rel="noopener">Facebook</a><a class="btn rouge" data-r="email">E-mail</a><a class="btn rouge" data-r="sms">SMS</a><button type="button" class="btn clair" data-r="copier">Copier le message</button><button type="button" class="btn clair" data-r="natif" hidden>Autre application</button></p>
     <p class="message" id="msg-partage" aria-live="polite"></p>
+    <p class="avis-google">Vous connaissez LOTIER Immobilier&nbsp;? <a href="https://g.page/r/CRMEk2Rx1mm0EBE/review" target="_blank" rel="noopener">Donnez votre avis sur Google</a>. C’est libre et sans lien avec le concours.</p>
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 

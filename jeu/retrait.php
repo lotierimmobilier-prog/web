@@ -33,7 +33,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
   <title>Retirer un dessin | Concours de Noël LOTIER Immobilier</title>
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=9">
+  <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
   <header class="haut">
