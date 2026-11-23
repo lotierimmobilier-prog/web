@@ -400,6 +400,7 @@ page = f'''<!doctype html>
 
 {FOOTER}
   <script src="js/main.min.js?v={C.V_JS}"></script>
+  <script src="js/noel.min.js?v={C.V_NOEL_JS}" defer></script>
   <script src="js/gsap.min.js?v={C.V_GSAP}" defer></script>
   <script src="js/intro.min.js?v={C.V_INTRO_JS}" defer></script>
 </body>
