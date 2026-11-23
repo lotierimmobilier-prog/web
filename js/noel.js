@@ -35,7 +35,6 @@
     '.tb-noel svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}' +
     '.tb-noel .n-court{display:none}' +
     '.noel .tb-noel{background:rgba(255,255,255,.12);border-radius:999px;padding-inline:12px}' +
-    '.noel-fete{display:none}.noel .tb-txt{display:none}.noel .noel-fete{display:inline;color:#f3dfae;font-weight:600}' +
     '.noel .topbar{background:linear-gradient(90deg,#0f2744 0%,#123b33 55%,#5b1d24 100%)}' +
     '.noel .site-header{border-bottom-color:rgba(174,152,106,.55)}' +
     '.noel-guirlande{position:absolute;left:0;right:0;top:100%;height:34px;pointer-events:none;background:' + FIL + ' repeat-x 0 0;display:none}' +
@@ -47,17 +46,9 @@
     '.noel .noel-neige{display:block}' +
     '@keyframes noel-clin{0%,100%{opacity:1}50%{opacity:.45}}' +
     '@media (prefers-reduced-motion: no-preference){.noel-guirlande::before{animation:noel-clin 1.8s ease-in-out infinite}.noel-guirlande::after{animation:noel-clin 1.8s ease-in-out .9s infinite}}' +
-    '@media (max-width:760px){.tb-noel .n-long{display:none}.tb-noel .n-court{display:inline}.tb-noel{gap:5px}.tb-noel svg{display:inline-block;width:14px;height:14px}.noel .tb-noel{padding-inline:9px}.noel .noel-fete{display:none}.noel-guirlande{height:25px;background-size:176px 25px}.noel-guirlande::before,.noel-guirlande::after{background-size:176px 25px}}' +
+    '@media (max-width:760px){.tb-noel .n-long{display:none}.tb-noel .n-court{display:inline}.tb-noel{gap:5px}.tb-noel svg{display:inline-block;width:14px;height:14px}.noel .tb-noel{padding-inline:9px}.noel-guirlande{height:25px;background-size:176px 25px}.noel-guirlande::before,.noel-guirlande::after{background-size:176px 25px}}' +
     '@media print{.noel-guirlande,.noel-neige,.tb-noel{display:none!important}}';
   d.head.appendChild(css);
-
-  var txt = d.querySelector('.topbar .tb-txt');
-  if (txt) {
-    var fete = d.createElement('span');
-    fete.className = 'noel-fete';
-    fete.textContent = 'Joyeuses fêtes !';
-    txt.parentNode.insertBefore(fete, txt.nextSibling);
-  }
 
   var bouton = d.createElement('button');
   bouton.type = 'button';
