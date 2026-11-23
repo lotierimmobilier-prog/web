@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=10">
+  <link rel="stylesheet" href="style.css?v=11">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -200,9 +200,16 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
         <p><button type="submit" class="btn rouge grand">Envoyer le dessin</button></p>
       </form>
       <div id="merci" class="merci" hidden tabindex="-1">
-        <h3>Merci, le dessin de <span data-merci-prenom></span> est bien arrivé&nbsp;!</h3>
-        <p>L’équipe LOTIER le regarde et le publie sous 12&nbsp;heures. En attendant, prévenez la famille&nbsp;: les votes ouvrent le <?= h(jour_mois(debut_votes())) ?>.</p>
-        <p class="boutons"><button type="button" class="btn rouge" data-partager-merci>Prévenir mes proches</button><a class="btn clair" href="./">Déposer un autre dessin</a></p>
+        <canvas class="confettis" data-confettis aria-hidden="true"></canvas>
+        <p class="merci-sur">Dessin bien arrivé</p>
+        <h3>Bravo <span data-merci-prenom></span>&nbsp;!<br><em>Le Père Noël a reçu ton dessin.</em></h3>
+        <p class="merci-chance">Bonne chance pour le concours&nbsp;: on croise les doigts (et les bois des rennes) pour toi&nbsp;!</p>
+        <ol class="merci-etapes">
+          <li><b>Sous 12&nbsp;heures</b><span>Les lutins de LOTIER regardent le dessin et le mettent en ligne.</span></li>
+          <li><b>Le <?= h(jour_mois(debut_votes())) ?></b><span>Les votes ouvrent&nbsp;: un vote par jour et par adresse e-mail.</span></li>
+          <li><b>Dès maintenant</b><span>Préviens la famille et les amis, pour qu’ils soient prêts à voter.</span></li>
+        </ol>
+        <p class="boutons"><button type="button" class="btn rouge grand" data-partager-merci>Prévenir mes proches</button><a class="btn clair" href="./">Déposer un autre dessin</a></p>
         <p class="avis-google">Vous connaissez LOTIER Immobilier&nbsp;? <a href="https://g.page/r/CRMEk2Rx1mm0EBE/review" target="_blank" rel="noopener">Donnez votre avis sur Google</a>. C’est libre et sans lien avec le concours.</p>
       </div>
     </section>
@@ -296,7 +303,7 @@ if ($faces): $base = $faces; while (count($faces) < 5) $faces = array_merge($fac
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=5" defer></script>
+  <script src="app.js?v=6" defer></script>
 </body>
 </html>
 <?php

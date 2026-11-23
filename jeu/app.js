@@ -59,6 +59,7 @@
         merci.dataset.prenom = r.prenom; merci.dataset.url = location.origin + location.pathname + '?d=' + r.jeton;
         depot.hidden = true; merci.hidden = false; merci.focus();
         merci.scrollIntoView({ block: 'center' });
+        confettis(q('[data-confettis]', merci));
       });
     });
     var pm = q('[data-partager-merci]');
@@ -180,6 +181,24 @@
   }
 
   /* ---- Carrousel en anneau des dessins (rotation continue, glissement à la souris ou au doigt, inertie) ---- */
+  // Pluie de confettis sur le message de remerciement (rien si le visiteur a demandé moins d'animations).
+  function confettis(toile) {
+    if (!toile || !toile.getContext || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var c = toile.getContext('2d'), l = toile.width = toile.offsetWidth, h = toile.height = toile.offsetHeight;
+    var teintes = ['#c1272f', '#e3c98a', '#2f7d4f', '#f3dfae', '#8f2530', '#ffffff'], grains = [], debut = performance.now();
+    for (var i = 0; i < 110; i++) grains.push({ x: Math.random() * l, y: -20 - Math.random() * h * .6, vx: (Math.random() - .5) * 2.4, vy: 2 + Math.random() * 3.4, t: 5 + Math.random() * 7, a: Math.random() * 6.3, va: (Math.random() - .5) * .3, k: teintes[i % teintes.length], rond: i % 4 === 0 });
+    (function dessiner(n) {
+      var ecoule = n - debut; c.clearRect(0, 0, l, h); c.globalAlpha = Math.max(0, 1 - Math.max(0, ecoule - 3200) / 1400);
+      grains.forEach(function (g) {
+        g.x += g.vx; g.y += g.vy; g.a += g.va; g.vy += .02;
+        c.save(); c.translate(g.x, g.y); c.rotate(g.a); c.fillStyle = g.k; c.strokeStyle = 'rgba(20,16,12,.12)';
+        if (g.rond) { c.beginPath(); c.arc(0, 0, g.t / 2, 0, 6.3); c.fill(); c.stroke(); } else { c.fillRect(-g.t / 2, -g.t / 4, g.t, g.t / 2); }
+        c.restore();
+      });
+      if (ecoule < 4600) requestAnimationFrame(dessiner); else c.clearRect(0, 0, l, h);
+    })(debut);
+  }
+
   var manege = q('[data-manege]');
   if (manege) {
     var anneau = q('.anneau', manege), faces = tous('.face', manege), nb = faces.length;
