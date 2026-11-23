@@ -2369,11 +2369,11 @@
    "indexable": true,
    "titre": "Contacter LOTIER Immobilier : téléphone, e-mail et agences",
    "description": "Contactez LOTIER Immobilier : téléphone, e-mail et adresses des agences de Béziers, Montpellier et Nîmes. Vente, location, gestion locative et syndic.",
-   "mots": 238,
+   "mots": 227,
    "h1": "Nous contacter.",
    "nb_h2": 12,
    "images": 4,
-   "liens": 87,
+   "liens": 88,
    "markdown": true,
    "problemes": [
     {
@@ -2389,7 +2389,7 @@
    "indexable": false,
    "titre": "Cookies et traceurs | LOTIER Immobilier",
    "description": "Cookies et traceurs sur lotier.immo : aucun cookie déposé, mesure d'audience sans cookie, réglages enregistrés dans le navigateur et gestion de vos choix.",
-   "mots": 558,
+   "mots": 561,
    "h1": "Cookies et traceurs",
    "nb_h2": 14,
    "images": 4,

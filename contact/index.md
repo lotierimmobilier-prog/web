@@ -57,9 +57,7 @@ Accueil sur rendez-vous
 
 ## Le quartier de l’agence de Béziers
 
-Commerces, restaurants, écoles, stationnement : découvrez ce qui entoure notre agence du 40 rue Française, à Béziers.
-
-La carte est fournie par Google Maps. En l’affichant, votre navigateur se connecte aux serveurs de Google, qui reçoit alors votre adresse IP et peut déposer ses propres traceurs. [En savoir plus](https://lotier.immo/cookies/).
+Commerces, restaurants, écoles, stationnement autour du 40 rue Française. Carte fournie par Google Maps, qui reçoit votre adresse IP à l’affichage et peut déposer ses propres traceurs. [En savoir plus](https://lotier.immo/cookies/).
 
  Votre demande
 

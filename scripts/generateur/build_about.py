@@ -76,12 +76,11 @@ body += section("Nous joindre", "Téléphone et e-mail", f'''<div class="trio" d
       </div>''', "t-joindre")
 body += section("Nos agences", "Où nous trouver", f'<div class="trio" data-stagger>{offices}</div>', "t-agences")
 # Carte Google « autour de l'agence » : chargée seulement si le visiteur la demande (aucun appel à Google avant le clic).
-body += section("Autour de l’agence", "Le quartier de l’agence de Béziers", '''<div class="carte-quartier" data-carte-quartier>
-        <p>Commerces, restaurants, écoles, stationnement : découvrez ce qui entoure notre agence du 40 rue Française, à Béziers.</p>
-        <p><button type="button" class="btn btn-gold" data-carte-bouton>Afficher la carte interactive</button></p>
-        <p class="muted small">La carte est fournie par Google Maps. En l’affichant, votre navigateur se connecte aux serveurs de Google, qui reçoit alors votre adresse IP et peut déposer ses propres traceurs. <a class="text-link" href="../cookies/">En savoir plus</a>.</p>
+body += section("Autour de l’agence", "Le quartier de l’agence de Béziers", '''<div class="carte-quartier ouverte" data-carte-quartier>
+        <noscript><p>La carte interactive nécessite JavaScript. <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=40+rue+Fran%C3%A7aise+34500+B%C3%A9ziers" target="_blank" rel="noopener">Voir l’agence sur Google Maps</a>.</p></noscript>
       </div>
-      <script>(function(){var z=document.querySelector('[data-carte-quartier]');if(!z)return;z.querySelector('[data-carte-bouton]').addEventListener('click',function(){var f=document.createElement('iframe');f.src='quartier.htm';f.title='Carte interactive du quartier de l’agence LOTIER Immobilier à Béziers';f.loading='lazy';f.className='carte-quartier-cadre';z.innerHTML='';z.appendChild(f);z.classList.add('ouverte');f.focus();});})();</script>''', "t-quartier")
+      <p class="muted small" style="margin-top:10px">Commerces, restaurants, écoles, stationnement autour du 40 rue Française. Carte fournie par Google Maps, qui reçoit votre adresse IP à l’affichage et peut déposer ses propres traceurs. <a class="text-link" href="../cookies/">En savoir plus</a>.</p>
+      <script>(function(){var z=document.querySelector('[data-carte-quartier]');if(!z)return;var fait=false;function ouvrir(){if(fait)return;fait=true;var f=document.createElement('iframe');f.src='quartier.htm';f.title='Carte interactive du quartier de l’agence LOTIER Immobilier à Béziers';f.className='carte-quartier-cadre';z.appendChild(f);}if(!('IntersectionObserver' in window)){ouvrir();return;}new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();ouvrir();}},{rootMargin:'400px'}).observe(z);})();</script>''', "t-quartier")
 body += section("Votre demande", "Choisir le bon interlocuteur", f'''<ul class="plain-list">
         <li><a class="text-link" href="{prefix}index.html#estimer">Estimer mon bien</a> : demande d'estimation gratuite.</li>
         <li><a class="text-link" href="{prefix}location/">Location et gestion locative</a> : confier ou louer un bien.</li>
