@@ -13,6 +13,7 @@ $reste = function (string $fin): int { return max(0, (int) ceil(((new DateTimeIm
 $j = $phase === 'depot' ? $reste(JEU_FIN_DEPOTS) : ($phase === 'vote' ? $reste(JEU_FIN_VOTES) : 0);
 $compte = $phase === 'depot' ? ($j <= 1 ? 'Dernier jour pour déposer un dessin !' : "Plus que $j jours pour déposer un dessin")
         : ($phase === 'vote' ? ($j <= 1 ? 'Dernier jour pour voter !' : "Plus que $j jours pour voter") : '');
+$nbVotes = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn();
 $parCat = array_fill_keys(array_keys(JEU_CATEGORIES), []);
 foreach ($dessins as $x) { $parCat[$x['categorie']][] = $x; }
 
@@ -53,7 +54,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -89,6 +90,19 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
       </div>
     </section>
 
+    <div class="defile" aria-hidden="true"><div class="piste"><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i></div></div>
+
+    <section class="chiffres" aria-label="Le concours en chiffres">
+      <div><b data-compte="<?= count($dessins) ?>"><?= count($dessins) ?></b><span><?= count($dessins) > 1 ? 'dessins en ligne' : 'dessin en ligne' ?></span></div>
+<?php if ($phase === 'depot'): ?>
+      <div><b data-compte="<?= $j ?>"><?= $j ?></b><span><?= $j > 1 ? 'jours pour participer' : 'jour pour participer' ?></span></div>
+<?php else: ?>
+      <div><b data-compte="<?= $nbVotes ?>"><?= $nbVotes ?></b><span><?= $nbVotes > 1 ? 'votes enregistrés' : 'vote enregistré' ?></span></div>
+<?php endif; ?>
+      <div><b data-compte="4">4</b><span>catégories d’âge</span></div>
+      <div><b data-compte="12">12</b><span>bons cadeaux à gagner</span></div>
+    </section>
+
 <?php if ($vedette): ?>
     <section class="bloc vedette" aria-labelledby="t-vedette">
       <h2 id="t-vedette">Le dessin de <?= h($vedette['prenom']) ?></h2>
@@ -96,7 +110,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
 <?php endif; ?>
 
-    <section class="bloc" aria-labelledby="t-comment">
+    <section class="bloc apparait" aria-labelledby="t-comment">
       <h2 id="t-comment">Comment ça marche&nbsp;?</h2>
       <div class="trois">
         <div><span class="num">1</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40l4-12L32 8l8 8-20 20z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/><path d="M27 13l8 8M8 40l12-4-8-8z" fill="#8f2530" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On dessine</h3><p>Crayons, feutres, peinture, collage&nbsp;: tout est permis, sur une feuille, autour du thème «&nbsp;<?= h(JEU_THEME) ?>&nbsp;».</p></div>
@@ -106,7 +120,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
       <p class="cats"><?php foreach (JEU_CATEGORIES as $c): ?><span><?= h($c) ?></span><?php endforeach; ?></p>
     </section>
 
-    <section class="bloc" aria-labelledby="t-lots">
+    <section class="bloc apparait" aria-labelledby="t-lots">
       <h2 id="t-lots">À gagner</h2>
       <p class="intro">Dans chacune des quatre catégories, les trois dessins les plus soutenus remportent un bon cadeau culturel : livres, musique, spectacles, loisirs créatifs… Douze gagnants en tout.</p>
       <div class="gagner"><div>
@@ -139,7 +153,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
 
 <?php if ($phase === 'depot'): ?>
-    <section class="bloc" id="participer" aria-labelledby="t-participer">
+    <section class="bloc apparait" id="participer" aria-labelledby="t-participer">
       <h2 id="t-participer">Déposer un dessin</h2>
       <p class="intro">Avis aux artistes de moins de 18 ans&nbsp;: c’est un adulte qui remplit ce formulaire. Papa, maman, tatie, papy, mamie… peu importe, tant qu’il ou elle est majeur. Le Père Noël vérifie, et il a l’œil.</p>
       <form id="depot" class="formulaire" novalidate>
@@ -183,7 +197,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
 <?php endif; ?>
 
-    <section class="bloc" id="galerie" aria-labelledby="t-galerie">
+    <section class="bloc apparait" id="galerie" aria-labelledby="t-galerie">
       <h2 id="t-galerie"><?= $phase === 'fini' ? 'Les résultats' : 'Les dessins' ?></h2>
 <?php if ($phase === 'depot'): ?>
       <p class="intro">Les votes ouvrent le 15 décembre. D’ici là, admirez, et partagez vos préférés.</p>
@@ -207,9 +221,22 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
   </main>
 
+  <section class="final">
+    <svg class="ruban" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="or" x1="0" x2="1"><stop offset="0" stop-color="#8a6a14"/><stop offset=".3" stop-color="#f3dfae"/><stop offset=".55" stop-color="#c79a3a"/><stop offset=".8" stop-color="#f7e9c3"/><stop offset="1" stop-color="#8a6a14"/></linearGradient></defs>
+      <path class="r1" d="M0 210 C180 120 300 300 480 220 S760 110 940 210 1240 300 1440 180 V320 H0Z" fill="url(#or)" opacity=".95"/>
+      <path class="r2" d="M0 250 C200 190 320 320 520 260 S800 180 980 250 1260 320 1440 230 V320 H0Z" fill="#fbf6ee"/>
+    </svg>
+    <div class="final-in">
+      <p class="sur"><span class="point" aria-hidden="true"></span><?= $phase === 'depot' ? 'À vos crayons' : ($phase === 'vote' ? 'À vos votes' : 'Merci à tous') ?></p>
+      <h2><?= $phase === 'depot' ? 'À toi de jouer.<br><em>Le Père Noël attend.</em>' : ($phase === 'vote' ? 'Un vote par jour.<br><em>Chaque voix compte.</em>' : 'Bravo aux artistes.<br><em>À l’année prochaine.</em>') ?></h2>
+      <p class="boutons"><a class="btn or grand" href="<?= $phase === 'depot' ? '#participer' : '#galerie' ?>"><?= $phase === 'depot' ? 'Déposer un dessin' : ($phase === 'vote' ? 'Voter maintenant' : 'Voir les résultats') ?> <span aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+
   <footer class="pied">
     <p><a href="reglement.php">Règlement du concours</a> · <a href="reglement.php#donnees">Vos données personnelles</a> · <a href="../lotier-rgpd/">Politique de protection des données</a> · <a href="../">lotier.immo</a></p>
     <p>Jeu gratuit et sans obligation d’achat, organisé par LOTIER Immobilier, 40 rue Française, 34500 Béziers. 04 67 11 28 31.</p>
+    <p><a class="cadenas" href="admin.php" rel="nofollow" aria-label="Administration du concours (accès réservé)" title="Administration"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg></a></p>
   </footer>
 
   <dialog id="dlg-vote" aria-labelledby="t-vote">
@@ -231,6 +258,6 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=2" defer></script>
+  <script src="app.js?v=3" defer></script>
 </body>
 </html>
