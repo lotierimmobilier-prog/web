@@ -125,11 +125,12 @@ function mails_composer(string $cle, array $d): array {
 function mails_envoyer_a(string $a, string $objet, string $html, string $texte, string $desabo = ''): bool {
     $de = mails_expediteur();
     $b = 'lotier-' . bin2hex(random_bytes(8));
-    $entetes = ['MIME-Version: 1.0', 'From: =?UTF-8?B?' . base64_encode('LOTIER Immobilier') . '?= <' . $de . '>', 'Reply-To: contact@lotier-immobilier.com',
-                'Content-Type: multipart/alternative; boundary="' . $b . '"', 'X-Auto-Response-Suppress: All'];
+    // En-têtes sobres et corps en « quoted-printable » (lisible, contrairement au base64) : les filtres anti-spam y sont sensibles.
+    $entetes = ['MIME-Version: 1.0', 'From: LOTIER Immobilier <' . $de . '>', 'Content-Type: multipart/alternative; boundary="' . $b . '"'];
     if ($desabo !== '') { $entetes[] = 'List-Unsubscribe: <' . $desabo . '>'; }
-    $corps = "--$b\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n" . chunk_split(base64_encode($texte))
-           . "--$b\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n" . chunk_split(base64_encode($html)) . "--$b--\r\n";
+    $qp = fn(string $t): string => rtrim(quoted_printable_encode(str_replace("\n", "\r\n", str_replace(["\r\n", "\r"], "\n", $t))), "\r\n") . "\r\n";
+    $corps = "--$b\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: quoted-printable\r\n\r\n" . $qp($texte)
+           . "--$b\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Transfer-Encoding: quoted-printable\r\n\r\n" . $qp($html) . "--$b--\r\n";
     if (getenv('JEU_MAILS_VERS')) {      // essais en local : l'e-mail est écrit dans un dossier au lieu d'être envoyé
         return (bool) file_put_contents(rtrim(getenv('JEU_MAILS_VERS'), '/') . '/' . date('His') . '-' . bin2hex(random_bytes(3)) . '.eml', "To: $a\nSubject: $objet\n\n$texte\n\n$html");
     }
