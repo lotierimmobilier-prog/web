@@ -90,6 +90,13 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .text-link:hover { background-size: 0 1.5px; background-position: 100% 100%; }
 
 /* ---------- Bandeau + en-tête ---------- */
+.bandeau-jeu { display: flex; justify-content: center; align-items: center; gap: 6px 16px; flex-wrap: wrap; padding: 8px 16px; background: linear-gradient(90deg, #8f2530, #c1272f 50%, #8f2530); color: #fff; font-size: 14.5px; line-height: 1.35; text-align: center; text-decoration: none; }
+.bandeau-jeu b { color: #f3dfae; }
+.bandeau-jeu .bj-btn { display: inline-flex; align-items: center; gap: 6px; padding: 3px 12px; border-radius: 999px; background: #fff; color: #8f2530; font-weight: 700; white-space: nowrap; }
+.bandeau-jeu .bj-btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.bandeau-jeu:hover .bj-btn, .bandeau-jeu:focus-visible .bj-btn { background: #f3dfae; }
+@media (max-width: 560px) { .bandeau-jeu { font-size: 13.5px; padding: 7px 10px; } }
+@media print { .bandeau-jeu { display: none; } }
 .topbar { background: var(--navy); color: #dbe6f4; font-size: 14px; }
 .topbar .container { display: flex; justify-content: space-between; align-items: center; gap: 8px 24px; min-height: 42px; flex-wrap: wrap; }
 .topbar a { color: #fff; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding-block: 8px; font-weight: 600; }

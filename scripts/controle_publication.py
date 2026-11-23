@@ -61,8 +61,8 @@ def liens_casses(chemin):
             continue
         cible = (RACINE / p.lstrip("/")) if p.startswith("/") else (base / p)
         cible = Path(os.path.normpath(cible))
-        if cible.is_dir():
-            cible = cible / "index.html"
+        if cible.is_dir():      # page d'accueil du dossier : statique, ou PHP (le concours, /jeu/)
+            cible = cible / ("index.html" if (cible / "index.html").exists() or not (cible / "index.php").exists() else "index.php")
         if not cible.exists():
             cassés.append(m)
     return cassés

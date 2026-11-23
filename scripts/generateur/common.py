@@ -440,10 +440,21 @@ def cta_for(prefix, kind, city=None):
     label, frag, title = CTA_KINDS[kind]
     return (label, f"{prefix}index.html{frag}", title)
 
+# Bandeau du concours de Noël (page /jeu/), affiché sur tout le site jusqu'à la fin des votes. Dates officielles du concours.
+CONCOURS_FIN_DEPOTS, CONCOURS_FIN_VOTES = datetime.date(2026, 12, 14), datetime.date(2027, 1, 6)
+def bandeau_concours(prefix):
+    jour = datetime.date.today()
+    if jour > CONCOURS_FIN_VOTES: return ""
+    if jour <= CONCOURS_FIN_DEPOTS: texte, bouton = "dessine la maison du Père Noël et tente de gagner un bon cadeau", "Participer"
+    else: texte, bouton = "votez pour votre dessin préféré jusqu’au 6 janvier", "Voter"
+    return f'''  <a class="bandeau-jeu" href="{prefix}jeu/"><span><b>Concours de Noël</b><span class="bj-txt"> : {texte}</span></span><span class="bj-btn">{bouton} {ARROW}</span></a>\n'''
+
+def concours_actif(): return datetime.date.today() <= CONCOURS_FIN_VOTES
+
 def header(prefix, home=False, cta=None):
     def a(frag): return frag if home else f"{prefix}index.html{frag}"
     cta_label, cta_href = cta[:2] if cta else ("Estimer mon bien", a("#estimer"))
-    return f'''  <div class="topbar">
+    return bandeau_concours(prefix) + f'''  <div class="topbar">
     <div class="container">
       <span class="tb-l"><span class="tb-txt">Agence indépendante en Occitanie</span><a class="tb-rate" href="{e(AVIS['lire'])}" target="_blank" rel="noopener noreferrer" data-avis-open aria-haspopup="dialog" aria-controls="avis-dlg" aria-label="{AVIS['note']}/5 sur Google : voir les avis ou laisser un avis"><span class="stars" aria-hidden="true">★★★★★</span> <b>{AVIS['note']}/5</b> <span class="tb-g">sur Google</span></a></span>
       <div class="tb-r">
@@ -503,6 +514,7 @@ def footer(prefix, home=False, cta=None):
     soc_nav = f'<nav aria-label="Réseaux sociaux"><h2>Nous suivre</h2>{soc_items}</nav>' if soc_items else ""
     cta_title = cta[2] if cta and len(cta) > 2 else ("Prêt à nous rejoindre&nbsp;?" if cta else "Un projet immobilier&nbsp;?")
     home_href = a("#top") if home else prefix + "index.html"
+    concours_lien = f'          <a href="{prefix}jeu/">Concours de Noël</a>\n' if concours_actif() else ""
     return f'''  <footer class="footer">
     <div class="container">
       <div class="glass footer-cta">
@@ -518,7 +530,7 @@ def footer(prefix, home=False, cta=None):
         <nav aria-label="Nos villes"><h2>Nos villes</h2>{cities}</nav>
         <nav aria-label="Notre site"><h2>Notre site</h2>
           <a href="{prefix}a-propos/">À propos</a>
-          <a href="{prefix}notre-service/">Notre service</a>
+{concours_lien}          <a href="{prefix}notre-service/">Notre service</a>
           <a href="{prefix}plan-du-site.html">Plan du site</a>
           <a href="{prefix}mentions-legales/">Mentions légales</a>
           <a href="{prefix}lotier-rgpd/">Politique de protection des données</a>
