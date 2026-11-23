@@ -50,6 +50,10 @@ if ($admin && $csrf_ok) {
         if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
     }
     if ($a === 'demande-traitee' && $id) { db()->prepare('UPDATE demandes SET traite_le = ? WHERE id = ?')->execute([date('Y-m-d H:i:s'), $id]); journal('demande traitée', (string) $id); $info = 'Demande classée.'; }
+    if (in_array($a, ['jury', 'jury-retirer'], true) && $id) {
+        if ($a === 'jury') { reglage('jury', (string) $id); journal('prix du jury', (string) $id); $info = 'Prix du jury attribué à ce dessin. Il s’affiche à la clôture des votes.'; }
+        else { reglage('jury', '0'); journal('prix du jury', 'retiré'); $info = 'Prix du jury retiré.'; }
+    }
     if ($a === 'demande-suspendre' && $id) {
         $q = db()->prepare('SELECT dessin_id FROM demandes WHERE id = ?'); $q->execute([$id]); $did = $q->fetchColumn();
         if ($did) {
@@ -127,7 +131,7 @@ if ($admin) {
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
   <title>Administration du concours de Noël</title>
-  <link rel="stylesheet" href="style.css?v=19">
+  <link rel="stylesheet" href="style.css?v=20">
   <style>
     .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
     .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
@@ -193,7 +197,7 @@ if ($admin) {
 <?php foreach (JEU_CATEGORIES as $cle => $nom): ?>
     <table class="classement"><caption><?= h($nom) ?></caption><thead><tr><th>Rang</th><th>Prénom</th><th>Âge</th><th>Votes</th></tr></thead><tbody>
 <?php if (!$classement[$cle]): ?><tr><td colspan="4">Aucun dessin publié.</td></tr><?php endif; ?>
-<?php foreach ($classement[$cle] as $i => $x): ?><tr<?= $i < 3 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><?= h($x['prenom']) ?></td><td><?= (int) $x['age'] ?> ans</td><td><b><?= (int) $x['voix'] ?></b></td></tr><?php endforeach; ?>
+<?php foreach ($classement[$cle] as $i => $x): ?><tr<?= $i < 1 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><?= h($x['prenom']) ?></td><td><?= (int) $x['age'] ?> ans</td><td><b><?= (int) $x['voix'] ?></b></td></tr><?php endforeach; ?>
     </tbody></table>
 <?php endforeach; ?>
   </div>
@@ -219,7 +223,8 @@ if ($admin) {
     </div>
     <div>
 <?php if ($d['statut'] !== 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn rouge" name="action" value="valider"><?= $d['statut'] === 'suspendu' ? 'Remettre en ligne' : 'Publier' ?></button></form><?php endif; ?>
-<?php if ($d['statut'] === 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="suspendre">Suspendre</button></form><?php endif; ?>
+<?php if ($d['statut'] === 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="suspendre">Suspendre</button></form>
+<form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><?php if ((int) reglage('jury') === (int) $d['id']): ?><button class="btn clair" name="action" value="jury-retirer">★ Retirer le prix du jury</button><?php else: ?><button class="btn clair" name="action" value="jury">★ Prix du jury</button><?php endif; ?></form><?php endif; ?>
 <?php if ($d['statut'] !== 'refuse'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="refuser">Refuser</button></form><?php endif; ?>
       <form method="post" onsubmit="return confirm('Supprimer définitivement ce dessin, ses données et ses votes ?')"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="supprimer">Supprimer</button></form>
     </div>

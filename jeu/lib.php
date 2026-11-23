@@ -20,7 +20,7 @@ const JEU_DEPOTS_PAR_IP = 10;         // dépôts par adresse IP et par jour
 const JEU_DESSINS_PAR_EMAIL = 6;      // une famille nombreuse reste possible
 const JEU_POIDS_MAX = 12 * 1024 * 1024;
 // Valeur des bons cadeaux culturels (euros TTC) pour les 1er, 2e et 3e de chaque catégorie. null = pas encore fixée.
-const JEU_LOTS = [1 => null, 2 => null, 3 => null];
+const JEU_LOTS = [1 => null, 'jury' => null];
 const JEU_EXEMPLES = 8;              // dessins d'exemple (hors concours) affichés tant qu'il y a moins de N vrais dessins en ligne
 
 function maintenant(): DateTimeImmutable {

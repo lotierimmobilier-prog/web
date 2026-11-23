@@ -34,7 +34,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
     $s = '<article class="carte" id="d-' . h($d['jeton']) . '" data-jeton="' . h($d['jeton']) . '" data-prenom="' . h($d['prenom']) . '" data-url="' . h($url) . '" data-texte="' . h(texte_partage($d, $phase)) . '">';
     $s .= '<a class="vue" href="image.php?d=' . h($d['jeton']) . '" target="_blank" rel="noopener"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=1" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
     $s .= '<div class="bas"><p class="qui"><b>' . h($d['prenom']) . '</b>, ' . (int) $d['age'] . ' ans</p>';
-    if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> ' . ($voix > 1 ? 'votes' : 'vote') . ($phase === 'fini' && $rang >= 1 && $rang <= 3 ? ' · ' . ($rang === 1 ? '1er' : $rang . 'e') . ' prix' : '') . '</p>';
+    if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> ' . ($voix > 1 ? 'votes' : 'vote') . ($phase === 'fini' && $rang === 1 ? ' · gagnant de la catégorie' : '') . ($phase === 'fini' && (int) reglage('jury') === (int) ($d['id'] ?? 0) ? ' · prix du jury' : '') . '</p>';
     $s .= '<div class="actions">';
     if ($phase === 'vote') $s .= '<button type="button" class="btn rouge" data-voter>Voter pour ' . h($d['prenom']) . '</button>';
     $s .= '<button type="button" class="btn clair" data-partager>Partager</button></div></div></article>';
@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=19">
+  <link rel="stylesheet" href="style.css?v=20">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -144,19 +144,18 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
       <div class="trois">
         <div><span class="num">1</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40l4-12L32 8l8 8-20 20z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/><path d="M27 13l8 8M8 40l12-4-8-8z" fill="#8f2530" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On dessine</h3><p>Crayons, feutres, peinture, collage&nbsp;: tout est permis, sur une feuille, autour du thème «&nbsp;<?= h(JEU_THEME) ?>&nbsp;».</p></div>
         <div><span class="num">2</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="14" width="36" height="26" rx="5" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5"/><path d="M17 14l3-5h8l3 5" fill="none" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/><circle cx="24" cy="27" r="7" fill="#fff" stroke="#8f2530" stroke-width="2.5"/></svg><h3>Un adulte envoie la photo</h3><p>Papa, maman, tatie, papy ou mamie prend le dessin en photo et le dépose ici. L’équipe LOTIER le publie sous 12&nbsp;heures.</p></div>
-        <div><span class="num">3</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 31 7 19a9 9 0 0 1 17-4 9 9 0 0 1 17 4c0 12-17 22-17 22z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On fait voter</h3><p>À partir du 15 décembre, chacun peut voter une fois par jour. Les trois dessins les plus soutenus de chaque catégorie gagnent un bon cadeau culturel.</p></div>
+        <div><span class="num">3</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 31 7 19a9 9 0 0 1 17-4 9 9 0 0 1 17 4c0 12-17 22-17 22z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On fait voter</h3><p>À partir du 15 décembre, chacun peut voter une fois par jour. Le dessin le plus soutenu de chaque catégorie gagne un bon cadeau culturel, et le jury choisit son préféré parmi tous.</p></div>
       </div>
       <p class="cats"><?php foreach (JEU_CATEGORIES as $c): ?><span><?= h($c) ?></span><?php endforeach; ?></p>
     </section>
 
     <section class="bloc apparait" aria-labelledby="t-lots">
       <h2 id="t-lots">À gagner</h2>
-      <p class="intro">Dans chacune des quatre catégories, les trois dessins les plus soutenus remportent un bon cadeau culturel : livres, musique, spectacles, loisirs créatifs… Douze gagnants en tout.</p>
+      <p class="intro">Un bon cadeau culturel pour le dessin le plus soutenu de chaque catégorie, et un bon cadeau pour le prix du jury, choisi parmi tous les dessins : livres, musique, spectacles, loisirs créatifs… Cinq gagnants en tout.</p>
       <div class="gagner"><div>
       <div class="lots">
-        <div class="lot or"><span class="medaille">1</span><h3>1er prix</h3><p>Bon cadeau culturel</p></div>
-        <div class="lot argent"><span class="medaille">2</span><h3>2e prix</h3><p>Bon cadeau culturel</p></div>
-        <div class="lot bronze"><span class="medaille">3</span><h3>3e prix</h3><p>Bon cadeau culturel</p></div>
+        <div class="lot or"><span class="medaille">1</span><h3>Dans chaque catégorie</h3><p>Le dessin le plus voté<br>Bon cadeau culturel</p></div>
+        <div class="lot argent"><span class="medaille">★</span><h3>Prix du jury</h3><p>Un dessin choisi par LOTIER, toutes catégories<br>Bon cadeau culturel</p></div>
       </div>
       </div>
       <svg class="scene" viewBox="0 0 520 440" role="img" aria-label="Illustration : la maison du Père Noël sous la neige">
@@ -270,7 +269,7 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
 <?php if ($phase !== 'depot'): ?>
       <table class="classement"><caption>Classement, <?= h(mb_strtolower($nom)) ?></caption>
         <thead><tr><th scope="col">Rang</th><th scope="col">Prénom</th><th scope="col">Âge</th><th scope="col">Votes</th></tr></thead>
-        <tbody><?php foreach ($parCat[$cle] as $i => $d): ?><tr<?= $i < 3 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><a href="#d-<?= h($d['jeton']) ?>"><?= h($d['prenom']) ?></a></td><td><?= (int) $d['age'] ?> ans</td><td><b><?= (int) $d['voix'] ?></b></td></tr><?php endforeach; ?></tbody>
+        <tbody><?php foreach ($parCat[$cle] as $i => $d): ?><tr<?= $i < 1 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><a href="#d-<?= h($d['jeton']) ?>"><?= h($d['prenom']) ?></a></td><td><?= (int) $d['age'] ?> ans</td><td><b><?= (int) $d['voix'] ?></b></td></tr><?php endforeach; ?></tbody>
       </table>
 <?php endif; ?>
       <div class="grille"><?php foreach ($parCat[$cle] as $i => $d) echo carte($d, $phase, $i + 1); ?></div>
