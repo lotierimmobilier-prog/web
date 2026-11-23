@@ -50,7 +50,11 @@ em { font-family: "DM Serif Display", Georgia, serif; font-style: italic; font-w
 .fiche dt, .fiche dd { margin: 0; } .fiche dd { text-align: right; color: #14100c; font-weight: 600; }
 .fiche .tete { text-transform: uppercase; letter-spacing: .14em; font-size: 11.5px; color: #6a6257; border-bottom-style: solid; } .fiche .tete dd { color: var(--rouge); }
 .fiche .ici dt::before { content: "● "; color: var(--rouge-c); } .fiche .fort dd { color: var(--rouge); }
-.pastille { background: #14100c; color: #fff !important; border-radius: 999px; padding: 8px 18px !important; }
+.pastille { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #d2444d, #b8252e); color: #fff !important; border-radius: 999px; padding: 6px 18px 6px 12px !important; font-weight: 700; box-shadow: 0 4px 12px rgba(184, 37, 46, .35); transition: transform .15s ease, box-shadow .15s ease; }
+.pastille:hover, .pastille:focus-visible { transform: translateY(-1px) scale(1.04); box-shadow: 0 8px 18px rgba(184, 37, 46, .45); }
+.pastille .pn { flex: none; width: 32px; height: 32px; padding: 2px; margin: -4px 0 -4px -6px; border-radius: 50%; background: #f3dfae; box-shadow: 0 1px 3px rgba(0, 0, 0, .25); }
+@media (prefers-reduced-motion: no-preference) { .pastille .pn { animation: pn-salut 3.2s ease-in-out 1.5s infinite; transform-origin: 50% 90%; } }
+@keyframes pn-salut { 0%, 86%, 100% { transform: rotate(0); } 90% { transform: rotate(-12deg); } 94% { transform: rotate(10deg); } 97% { transform: rotate(-6deg); } }
 .gagner { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 40px); align-items: center; }
 .scene { width: 100%; height: auto; border-radius: 28px; background: linear-gradient(180deg, #3a1830, #7d1f2a); box-shadow: 0 14px 34px rgba(15, 39, 68, .18); }
 @media (prefers-reduced-motion: no-preference) { .fumee circle { animation: fumee 5s ease-in-out infinite; } .fumee circle:nth-child(2) { animation-delay: .8s; } .fumee circle:nth-child(3) { animation-delay: 1.6s; } }

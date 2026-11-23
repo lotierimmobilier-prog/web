@@ -62,13 +62,13 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=15">
+  <link rel="stylesheet" href="style.css?v=16">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
   <header class="haut">
     <a class="logo" href="../" aria-label="LOTIER Immobilier, retour au site"><img src="../assets/lotier-logo-330.png" alt="LOTIER Immobilier" width="165" height="56"></a>
-    <nav aria-label="Concours"><a href="#galerie">Les dessins</a><a href="reglement.php">Règlement</a><a href="../">lotier.immo</a><?php if ($phase === 'depot'): ?><a class="pastille" href="#participer">Participer</a><?php endif; ?></nav>
+    <nav aria-label="Concours"><a href="#galerie">Les dessins</a><a href="reglement.php">Règlement</a><a href="../">lotier.immo</a><?php if ($phase === 'depot'): ?><a class="pastille" href="#participer"><svg class="pn" viewBox="0 0 40 40" width="32" height="32" aria-hidden="true"><circle cx="20" cy="23" r="9" fill="#f3c9a8"/><path d="M9 25c1 8 6 12 11 12s10-4 11-12c-2 3-6 5-11 5s-9-2-11-5z" fill="#fff"/><path d="M13 22c2 2 5 3 7 3s5-1 7-3c0 2-3 6-7 6s-7-4-7-6z" fill="#fff"/><path d="M8 20C8 9 14 3 23 4c3 .4 5 2 6 4-4-1-8 0-11 2 5 0 9 1 11 4z" fill="#c1272f"/><path d="M7 20c3-3 8-5 14-5s10 2 12 5c-1 2-4 3-7 2-4-1-9-1-13 0-3 1-5 0-6-2z" fill="#fff"/><circle cx="31" cy="6" r="3.4" fill="#fff"/><circle cx="16.5" cy="22.5" r="1.1" fill="#14100c"/><circle cx="23.5" cy="22.5" r="1.1" fill="#14100c"/><circle cx="20" cy="25" r="1.6" fill="#e0848a"/></svg><span>Participer</span></a><?php endif; ?></nav>
   </header>
 
   <main id="contenu">
