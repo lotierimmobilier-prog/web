@@ -217,3 +217,8 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 .lecture .traineau { visibility: hidden; }
 .video-pn video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #14100c; }
 .message-pn .petit { margin-top: 12px; max-width: 860px; }
+.video-pn iframe, .video-yt { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: #14100c center / cover no-repeat; }
+.video-yt { position: relative; cursor: pointer; padding: 0; }
+.video-yt .jouer { position: absolute; left: 50%; top: 50%; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%; background: rgba(193, 39, 47, .94); box-shadow: 0 8px 22px rgba(0, 0, 0, .35); transition: transform .15s ease; }
+.video-yt .jouer::after { content: ""; position: absolute; left: 34px; top: 26px; border-style: solid; border-width: 16px 0 16px 26px; border-color: transparent transparent transparent #fff; }
+.video-yt:hover .jouer, .video-yt:focus-visible .jouer { transform: scale(1.08); }

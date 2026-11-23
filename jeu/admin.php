@@ -81,6 +81,12 @@ if ($admin && $csrf_ok) {
     if ($a === 'vider-votes' && ($_POST['confirmation'] ?? '') === 'EFFACER') {
         $n = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn(); db()->exec('DELETE FROM votes'); journal('votes', "effacés : $n"); $info = "$n vote(s) effacé(s).";
     } elseif ($a === 'vider-votes') $erreur = 'Pour effacer les votes, écrivez EFFACER dans la case.';
+    if ($a === 'video') {
+        $lien = trim((string) ($_POST['youtube'] ?? ''));
+        if ($lien === '') { reglage('video_youtube', ''); journal('vidéo', 'hébergée sur le site'); $info = 'La vidéo est de nouveau lue depuis le site.'; }
+        elseif (video_youtube_id($lien) === '') $erreur = 'Ce lien YouTube n’est pas reconnu. Collez l’adresse de la vidéo, par exemple https://youtu.be/…';
+        else { reglage('video_youtube', $lien); journal('vidéo', 'YouTube ' . video_youtube_id($lien)); $info = 'La vidéo du Père Noël est maintenant lue par YouTube.'; }
+    }
     if ($a === 'mdp') {
         $m = (string) ($_POST['mdp'] ?? '');
         if (mb_strlen($m) < 12) $erreur = 'Le nouveau mot de passe doit compter au moins 12 caractères.';
@@ -127,7 +133,7 @@ if ($admin) {
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
   <title>Administration du concours de Noël</title>
-  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="style.css?v=14">
   <style>
     .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
     .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
@@ -279,6 +285,13 @@ if ($admin) {
     <p><label for="conf">Effacer tous les votes (après un essai)</label><input id="conf" name="confirmation" type="text" placeholder="Écrivez EFFACER" autocomplete="off"></p>
     <p class="aide">Remet tous les compteurs à zéro. Les dessins et les participants ne sont pas touchés. Action définitive.</p>
     <p><button class="btn clair" type="submit">Effacer les votes</button></p>
+  </form>
+
+  <h2 id="video">Vidéo du Père Noël</h2>
+  <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="video">
+    <p><label for="v-yt">Lien YouTube de la vidéo</label><input id="v-yt" name="youtube" type="text" inputmode="url" placeholder="https://youtu.be/…" value="<?= h((string) reglage('video_youtube')) ?>"></p>
+    <p class="aide">Actuellement : <b><?= video_youtube() !== '' ? 'lecture par YouTube' : 'vidéo hébergée sur le site' ?></b>. Collez le lien d’une vidéo YouTube (publique ou non répertoriée) pour que la page l’utilise ; videz le champ pour revenir à la vidéo du site.</p>
+    <p><button class="btn rouge" type="submit">Enregistrer</button></p>
   </form>
 
   <h2>Réglages</h2>

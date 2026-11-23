@@ -149,6 +149,14 @@
     film.addEventListener('play', function () { etat(true); }); film.addEventListener('playing', function () { etat(true); });
     film.addEventListener('pause', function () { etat(false); }); film.addEventListener('ended', function () { etat(false); });
   }
+  // Variante YouTube : le lecteur n'est chargé qu'au clic ; les animations restent en pause tant qu'il est affiché.
+  var yt = q('.video-yt');
+  if (yt) yt.addEventListener('click', function () {
+    var f = d.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(yt.dataset.yt) + '?autoplay=1&rel=0&playsinline=1';
+    f.title = 'Le message du Père Noël'; f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.allowFullscreen = true;
+    yt.parentNode.replaceChild(f, yt); lecture = true; d.documentElement.classList.add('lecture');
+  });
 
   /* ---- Effets : apparition au défilement, compteurs, cartes inclinées, neige du haut de page ---- */
   var calme = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;

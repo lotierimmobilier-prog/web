@@ -113,6 +113,11 @@ function jour_court(string $d): string {                                        
     $t = new DateTimeImmutable($d);
     return ($t->format('j') === '1' ? '1er' : $t->format('j')) . ' ' . $m[(int) $t->format('n')];
 }
+// Vidéo du Père Noël : identifiant YouTube tiré du lien saisi dans l'administration (vide = vidéo hébergée sur le site).
+function video_youtube_id(string $lien): string {
+    return preg_match('~(?:youtu\.be/|youtube(?:-nocookie)?\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/|live/))([A-Za-z0-9_-]{11})~', $lien, $m) ? $m[1] : '';
+}
+function video_youtube(): string { return video_youtube_id((string) reglage('video_youtube')); }
 function journal(string $action, string $detail = ''): void {
     db()->prepare('INSERT INTO journal (quand, action, detail) VALUES (?, ?, ?)')->execute([date('Y-m-d H:i:s'), $action, $detail]);
 }
