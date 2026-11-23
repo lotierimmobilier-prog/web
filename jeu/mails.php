@@ -7,7 +7,7 @@ const MAILS_PAR_TOURNEE = 40;          // plafond par passage, pour ménager l'h
 const MAILS_HEURE = 9;                 // pas d'envoi programmé avant 9 h
 
 function mails_actifs(): bool { return reglage('mails') === '1'; }
-function mails_expediteur(): string { return reglage('mails_de') ?: 'concours@lotier.immo'; }
+function mails_expediteur(): string { return reglage('mails_de') ?: 'jeu@lotier.immo'; }
 function mails_signature(string $jeton): string { return substr(hash_hmac('sha256', 'mails|' . $jeton, sel()), 0, 20); }
 
 // Calendrier : clé => jour d'envoi (AAAA-MM-JJ). Un e-mail tous les deux jours pendant les votes.
