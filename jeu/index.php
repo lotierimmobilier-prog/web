@@ -212,7 +212,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
 $faces = [];
 foreach ($dessins as $f) $faces[] = ['lien' => '#d-' . $f['jeton'], 'image' => 'image.php?d=' . $f['jeton'] . '&v=1', 'nom' => $f['prenom'] . ', ' . (int) $f['age'] . ' ans' . ($phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '')];
 foreach ($exemples as $f) $faces[] = ['lien' => '#inspiration', 'image' => $f, 'nom' => 'Exemple, hors concours'];
-if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($faces, $base); $faces = array_slice($faces, 0, 16); ?>
+if ($faces): $base = $faces; while (count($faces) < 5) $faces = array_merge($faces, $base);   // on ne répète les dessins que s’il y en a moins de cinq $faces = array_slice($faces, 0, 16); ?>
     <section class="ronde" aria-labelledby="t-ronde">
       <p class="sur"><span class="point" aria-hidden="true"></span>La galerie</p>
       <h2 id="t-ronde">La ronde <em>des dessins.</em></h2>
