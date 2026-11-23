@@ -5,7 +5,7 @@ require __DIR__ . '/lib.php';
 entetes_page();
 $lot = function (int $rang): string {
     $v = JEU_LOTS[$rang] ?? null;
-    return $v ? 'un bon cadeau culturel d’une valeur de ' . $v . ' € TTC' : 'un bon cadeau culturel <span class="a-valider">(valeur à préciser avant l’ouverture des votes)</span>';
+    return $v ? 'un bon cadeau culturel d’une valeur de ' . $v . ' € TTC' : 'un bon cadeau culturel';
 };
 ?><!doctype html>
 <html lang="fr">
@@ -39,8 +39,8 @@ $lot = function (int $rang): string {
     </ul>
 
     <h2>Article 3. Qui peut participer</h2>
-    <p>Le concours est ouvert à toute personne âgée de 3 ans ou plus, résidant en France métropolitaine. Les dirigeants et salariés de l’organisateur, ainsi que leurs enfants, peuvent déposer un dessin hors concours mais ne peuvent pas gagner de lot. <span class="a-valider">(à confirmer)</span></p>
-    <p><b>Participants mineurs.</b> Le dessin d’un mineur est déposé par un adulte : son parent ou son représentant légal, ou un autre adulte de la famille agissant avec l’accord de ceux-ci. Cet adulte garantit disposer de cet accord, et autorise la publication du dessin, du prénom et de l’âge de l’enfant. <span class="a-valider">(rédaction à valider : faut-il réserver le dépôt aux seuls titulaires de l’autorité parentale ?)</span></p>
+    <p>Le concours est ouvert à toute personne âgée de 3 ans ou plus, résidant en France métropolitaine. Les dirigeants et salariés de l’organisateur, ainsi que les membres de leur famille, peuvent participer dans les mêmes conditions que les autres participants.</p>
+    <p><b>Participants mineurs.</b> Le dessin d’un mineur est déposé par un adulte : son parent ou son représentant légal, ou un autre adulte de la famille agissant avec l’accord de ceux-ci. Cet adulte garantit disposer de cet accord, et autorise la publication du dessin, du prénom et de l’âge de l’enfant.</p>
     <p>Chaque participant ne peut déposer qu’un seul dessin. Une même adresse e-mail peut déposer les dessins de plusieurs enfants, dans la limite de <?= JEU_DESSINS_PAR_EMAIL ?>.</p>
 
     <h2>Article 4. Catégories</h2>
@@ -63,10 +63,10 @@ $lot = function (int $rang): string {
       <li>3e prix : <?= $lot(3) ?>.</li>
     </ul>
     <p>Soit douze lots au total. En cas d’égalité, le dessin déposé le premier l’emporte. Les lots ne peuvent être ni échangés, ni remboursés, ni cédés.</p>
-    <p>Les gagnants sont prévenus par e-mail, à l’adresse de l’adulte indiquée lors du dépôt. Le lot est envoyé par e-mail ou par courrier postal, au choix de l’organisateur ; dans le second cas, l’adresse postale est demandée au gagnant à cette seule fin. Un lot non réclamé dans les <span class="a-valider">30 jours</span> qui suivent l’annonce est perdu.</p>
+    <p>Les gagnants sont prévenus par e-mail, à l’adresse de l’adulte indiquée lors du dépôt. Le lot est envoyé par e-mail ou par courrier postal, au choix de l’organisateur ; dans le second cas, l’adresse postale est demandée au gagnant à cette seule fin. Un lot non réclamé dans les trois mois qui suivent l’annonce des résultats est perdu.</p>
 
     <h2>Article 8. Droits sur les dessins</h2>
-    <p>Le participant, ou l’adulte qui le représente, autorise gratuitement l’organisateur à reproduire et à publier le dessin, accompagné du prénom et de l’âge de son auteur, sur la page du concours, sur le site lotier.immo, dans ses agences, sur ses réseaux sociaux et dans son magazine, pendant <span class="a-valider">un an</span> à compter du dépôt. Le participant reste propriétaire de son dessin et peut en demander le retrait à tout moment.</p>
+    <p>Le participant, ou l’adulte qui le représente, autorise gratuitement l’organisateur à reproduire et à publier le dessin, accompagné du prénom et de l’âge de son auteur, sur la page du concours, sur le site lotier.immo, dans ses agences, sur ses réseaux sociaux et dans son magazine, pendant la durée du concours et les trois mois qui suivent la clôture des votes. Le participant reste propriétaire de son dessin et peut en demander le retrait à tout moment.</p>
 
     <h2 id="donnees">Article 9. Données personnelles</h2>
     <p><b>Responsable du traitement :</b> SARL LOTIER, 40 rue Française, 34500 Béziers, contact@lotier-immobilier.com.</p>
@@ -76,7 +76,7 @@ $lot = function (int $rang): string {
       <li><b>Finalités :</b> organisation du concours, publication des dessins, désignation et information des gagnants, lutte contre la fraude. Si vous l’avez demandé : rappel par un conseiller, envoi de la lettre d’information.</li>
       <li><b>Bases légales :</b> exécution du présent règlement pour la participation ; intérêt légitime pour la lutte contre la fraude ; consentement pour le rappel et la lettre d’information. <span class="a-valider">(à valider)</span></li>
       <li><b>Destinataires :</b> les seules équipes de LOTIER Immobilier. Les données ne sont ni vendues, ni cédées. Le site est hébergé par Hostinger, dans l’Union européenne. <span class="a-valider">(à confirmer)</span></li>
-      <li><b>Durées de conservation :</b> les dessins, les données des participants et les adresses des votants sont supprimés <span class="a-valider">trois mois</span> après la clôture du concours. Les dessins refusés sont supprimés sous <span class="a-valider">trente jours</span>. Les coordonnées des personnes ayant demandé un rappel ou la lettre d’information sont conservées <span class="a-valider">trois ans</span> au plus après le dernier contact.</li>
+      <li><b>Durées de conservation :</b> les dessins, les données des participants et les adresses des votants sont supprimés trois mois après la clôture des votes. Les coordonnées des gagnants sont conservées jusqu’à la remise de leur lot, et au plus tard jusqu’à l’expiration du délai de réclamation prévu à l’article 7. Les dessins refusés sont supprimés sous <span class="a-valider">trente jours</span>. Les coordonnées des personnes ayant demandé un rappel ou la lettre d’information sont conservées <span class="a-valider">trois ans</span> au plus après le dernier contact.</li>
       <li><b>Sécurité :</b> les photographies sont réenregistrées sans leurs informations cachées (lieu de prise de vue, appareil). L’adresse de connexion n’est conservée que sous une forme chiffrée irréversible, pour limiter les abus.</li>
       <li><b>Vos droits :</b> accès, rectification, effacement, opposition, limitation, retrait du consentement, en écrivant à contact@lotier-immobilier.com. Le retrait d’un dessin est effectué sous 72 heures. Vous pouvez adresser une réclamation à la CNIL (cnil.fr).</li>
     </ul>
@@ -86,7 +86,7 @@ $lot = function (int $rang): string {
     <p>L’organisateur peut écourter, prolonger, modifier ou annuler le concours si les circonstances l’exigent ; il en informe les participants sur la page du concours. Il ne peut être tenu responsable d’une interruption du service, d’un défaut de connexion ou de l’impossibilité de joindre un gagnant à l’adresse indiquée.</p>
 
     <h2>Article 11. Acceptation et litiges</h2>
-    <p>La participation vaut acceptation du présent règlement, consultable gratuitement sur cette page pendant toute la durée du concours. Toute réclamation est adressée par écrit à l’organisateur, au plus tard un mois après la clôture des votes. Le règlement est soumis au droit français. <span class="a-valider">(dépôt chez un commissaire de justice : à décider)</span></p>
+    <p>La participation vaut acceptation du présent règlement, consultable gratuitement sur cette page pendant toute la durée du concours. Toute réclamation est adressée par écrit à l’organisateur, au plus tard un mois après la clôture des votes. Le règlement est soumis au droit français. Il n’est pas déposé chez un commissaire de justice.</p>
     <p><a class="btn rouge" href="./">Retour au concours</a></p>
   </main>
   <footer class="pied"><p>LOTIER Immobilier, 40 rue Française, 34500 Béziers · 04 67 11 28 31 · <a href="../lotier-rgpd/">Politique de protection des données</a></p></footer>
