@@ -13,7 +13,7 @@ $csrf = $_SESSION['csrf'];
 $post = ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST';
 $csrf_ok = $post && hash_equals($csrf, (string) ($_POST['csrf'] ?? ''));
 $empreinte = reglage('admin');
-$erreur = ''; $info = '';
+$erreur = ''; $info = ($_GET['ok'] ?? '') === 'dates' ? 'Dates enregistrées. Le site public les applique dès maintenant.' : '';
 
 function trop_de_tentatives(): bool {
     db()->prepare('DELETE FROM tentatives WHERE quand < ?')->execute([time() - 900]);
@@ -48,6 +48,18 @@ if ($admin && $csrf_ok) {
         $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
         if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
     }
+    if ($a === 'dates') {
+        $dd = (string) ($_POST['depots'] ?? ''); $dv = (string) ($_POST['votes'] ?? '');
+        $ok = fn($v) => preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) && checkdate((int) substr($v, 5, 2), (int) substr($v, 8, 2), (int) substr($v, 0, 4));
+        if (!$ok($dd) || !$ok($dv)) $erreur = 'Indiquez deux dates valides.';
+        elseif ($dv <= $dd) $erreur = 'Le dernier jour des votes doit être postérieur au dernier jour des dépôts.';
+        elseif ($dd === JEU_FIN_DEPOTS && $dv === JEU_FIN_VOTES) { db()->exec("DELETE FROM reglages WHERE cle = 'dates'"); journal('dates', 'officielles'); header('Location: admin.php?ok=dates'); exit; }
+        else { reglage('dates', json_encode(['depots' => $dd, 'votes' => $dv])); journal('dates', "$dd / $dv"); header('Location: admin.php?ok=dates'); exit; }
+    }
+    if ($a === 'dates-officielles') { db()->exec("DELETE FROM reglages WHERE cle = 'dates'"); journal('dates', 'officielles'); header('Location: admin.php?ok=dates'); exit; }
+    if ($a === 'vider-votes' && ($_POST['confirmation'] ?? '') === 'EFFACER') {
+        $n = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn(); db()->exec('DELETE FROM votes'); journal('votes', "effacés : $n"); $info = "$n vote(s) effacé(s).";
+    } elseif ($a === 'vider-votes') $erreur = 'Pour effacer les votes, écrivez EFFACER dans la case.';
     if ($a === 'mdp') {
         $m = (string) ($_POST['mdp'] ?? '');
         if (mb_strlen($m) < 12) $erreur = 'Le nouveau mot de passe doit compter au moins 12 caractères.';
@@ -89,7 +101,7 @@ if ($admin) {
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
   <title>Administration du concours de Noël</title>
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
   <style>
     .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
     .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
@@ -99,6 +111,7 @@ if ($admin) {
     .ligne .btn { min-height: 38px; padding: 6px 14px; font-size: 14.5px; margin: 0 0 6px 6px; }
     .etat { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 600; }
     .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; }
+    .alerte { background: #fff3cd; color: #5c4a10; padding: 10px 14px; border-radius: 12px; max-width: 640px; } .adm .aide { font-size: 14px; color: #4d5c70; margin: 6px 0; } .adm .boite + form, .adm form + .boite { margin-top: 12px; }
     .ok { background: #dff3e4; color: #17502c; padding: 10px 14px; border-radius: 12px; font-weight: 600; }
     .diag { font-size: 14px; color: #4d5c70; } .diag code { background: #eef1f5; padding: 1px 5px; border-radius: 4px; }
     .suivi { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 0 22px; } .adm .classement { max-width: none; } .adm .classement td, .adm .classement th { white-space: nowrap; } .adm .jours { max-width: 420px; }
@@ -162,6 +175,25 @@ if ($admin) {
     </div>
   </div>
 <?php endforeach; ?>
+
+  <h2 id="dates">Dates du concours</h2>
+<?php $dt = dates(); if ($dt['essai']): ?>
+  <p class="alerte"><b>Dates modifiées.</b> Le site public suit ces dates, pour tous les visiteurs. Dates officielles&nbsp;: dépôts jusqu’au <?= fr_date(JEU_FIN_DEPOTS) ?>, votes jusqu’au <?= fr_date(JEU_FIN_VOTES) ?>.</p>
+<?php endif; ?>
+  <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="dates">
+    <p><label for="d-depots">Dernier jour pour déposer un dessin</label><input id="d-depots" name="depots" type="date" required value="<?= h($dt['depots']) ?>"></p>
+    <p><label for="d-votes">Dernier jour pour voter</label><input id="d-votes" name="votes" type="date" required value="<?= h($dt['votes']) ?>"></p>
+    <p class="aide">Les votes ouvrent le lendemain du dernier jour des dépôts, à minuit. Pour essayer les votes dès maintenant, choisissez hier comme dernier jour des dépôts. Attention&nbsp;: le changement s’applique aussitôt au site public, et les dépôts sont fermés pendant la phase de votes.</p>
+    <p><button class="btn rouge" type="submit">Enregistrer les dates</button></p>
+  </form>
+<?php if ($dt['essai']): ?>
+  <form method="post"><?= $champ_csrf ?><button class="btn clair" name="action" value="dates-officielles">Revenir aux dates officielles</button></form>
+<?php endif; ?>
+  <form method="post" class="boite" autocomplete="off" onsubmit="return confirm('Effacer définitivement tous les votes ?')"><?= $champ_csrf ?><input type="hidden" name="action" value="vider-votes">
+    <p><label for="conf">Effacer tous les votes (après un essai)</label><input id="conf" name="confirmation" type="text" placeholder="Écrivez EFFACER" autocomplete="off"></p>
+    <p class="aide">Remet tous les compteurs à zéro. Les dessins et les participants ne sont pas touchés. Action définitive.</p>
+    <p><button class="btn clair" type="submit">Effacer les votes</button></p>
+  </form>
 
   <h2>Réglages</h2>
   <form method="post" class="boite" autocomplete="off"><?= $champ_csrf ?><input type="hidden" name="action" value="mdp">

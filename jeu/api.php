@@ -11,7 +11,7 @@ $action = (string) ($_POST['action'] ?? '');
 $jour = maintenant()->format('Y-m-d');
 
 if ($action === 'depot') {
-    if (phase() !== 'depot') repondre(['erreur' => 'Les dépôts sont clos depuis le ' . fr_date(JEU_FIN_DEPOTS) . '.'], 403);
+    if (phase() !== 'depot') repondre(['erreur' => 'Les dépôts sont clos depuis le ' . fr_date(fin_depots()) . '.'], 403);
     if (($_POST['site'] ?? '') !== '' || !jeton_valide((string) ($_POST['jeton'] ?? ''))) repondre(['erreur' => 'Le formulaire a expiré. Rechargez la page, puis recommencez.'], 400);
     $prenom = trim(preg_replace('/\s+/u', ' ', (string) ($_POST['prenom'] ?? '')));
     if (!preg_match('/^[\p{L}][\p{L} \'’-]{1,29}$/u', $prenom)) repondre(['erreur' => 'Indiquez le prénom du dessinateur (lettres uniquement).'], 400);
@@ -54,7 +54,7 @@ if ($action === 'depot') {
 
 if ($action === 'vote') {
     $ph = phase();
-    if ($ph === 'depot') repondre(['erreur' => 'Les votes ouvrent le ' . fr_date(JEU_DEBUT_VOTES) . '.'], 403);
+    if ($ph === 'depot') repondre(['erreur' => 'Les votes ouvrent le ' . fr_date(debut_votes()) . '.'], 403);
     if ($ph === 'fini') repondre(['erreur' => 'Les votes sont clos.'], 403);
     if (($_POST['site'] ?? '') !== '') repondre(['erreur' => 'Demande refusée.'], 400);
     $email = email_propre((string) ($_POST['email'] ?? ''));

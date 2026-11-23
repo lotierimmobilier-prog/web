@@ -64,7 +64,7 @@
     var pm = q('[data-partager-merci]');
     if (pm) pm.addEventListener('click', function () {
       var m = q('#merci');
-      ouvrirPartage(m.dataset.prenom, m.dataset.prenom + ' participe au concours de Noël de LOTIER Immobilier ! Son dessin de la maison du Père Noël sera en ligne sous 12 heures. Les votes ouvrent le 15 décembre, un vote par jour :', m.dataset.url);
+      ouvrirPartage(m.dataset.prenom, m.dataset.prenom + ' participe au concours de Noël de LOTIER Immobilier ! Son dessin de la maison du Père Noël sera en ligne sous 12 heures. Les votes ouvrent le ' + (document.body.dataset.votes || '15 décembre') + ', un vote par jour :', m.dataset.url);
     });
   }
 
