@@ -66,6 +66,7 @@ V_JS = _compacte("js/main.js", "js/main.min.js", _js_min)
 V_INTRO_CSS = _compacte("css/intro.css", "css/intro.min.css", _css_min)
 V_INTRO_JS = _compacte("js/intro.js", "js/intro.min.js", _js_min)
 V_AGENTS_JS = _compacte("js/agents.js", "js/agents.min.js", _js_min)
+V_NOEL_JS = _compacte("js/noel.js", "js/noel.min.js", _js_min)     # décor de Noël, sans effet hors saison
 V_GSAP = _empreinte("js/gsap.min.js")
 
 def _vignettes():
@@ -601,6 +602,7 @@ def shell(prefix, title, desc, path, body, jsonld, og_image, og_type="website", 
 {footer(prefix, home, cta)}
 {chat_widget(prefix)}
 {contact_dialog(prefix)}{avis_dialog()}  <script src="{prefix}js/main.min.js?v={V_JS}"></script>
+  <script src="{prefix}js/noel.min.js?v={V_NOEL_JS}" defer></script>
 </body>
 </html>
 '''
