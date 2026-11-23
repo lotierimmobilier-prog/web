@@ -37,6 +37,8 @@
     '.noel .tb-noel{background:rgba(255,255,255,.12);border-radius:999px;padding-inline:12px}' +
     '.noel-fete{display:none}.noel .tb-txt{display:none}.noel .noel-fete{display:inline;color:#f3dfae;font-weight:600}' +
     '.noel .topbar{background:linear-gradient(90deg,#0f2744 0%,#123b33 55%,#5b1d24 100%)}' +
+    '.noel .btn-gold,.noel .btn-primary,.noel .mbar .a2{background:linear-gradient(135deg,#cf4a50 0%,#b3323a 100%);color:#fff}' +
+    '.noel .btn-gold:hover,.noel .btn-primary:hover{background:linear-gradient(135deg,#bb3b42 0%,#9d2932 100%);color:#fff}' +
     '.noel .site-header{border-bottom-color:rgba(174,152,106,.55)}' +
     '.noel-guirlande{position:absolute;left:0;right:0;top:100%;height:34px;pointer-events:none;background:' + FIL + ' repeat-x 0 0;display:none}' +
     '.noel .noel-guirlande{display:block}' +
