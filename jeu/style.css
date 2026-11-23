@@ -198,3 +198,4 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 @keyframes tangue { 50% { transform: translateY(-5px) rotate(-1.2deg); } }
 
 .petit { font-size: 14px; color: #5b6b80; margin-top: -4px; }
+.avis-google { font-size: 14.5px; color: #5b6b80; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--trait); } .avis-google a { font-weight: 600; }
