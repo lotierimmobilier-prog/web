@@ -4,11 +4,12 @@
  "resume": {
   "pages_auditees": 148,
   "pages_indexables": 143,
-  "erreurs": 0,
+  "erreurs": 148,
   "avertissements": 1,
-  "pages_sans_probleme": 147,
+  "pages_sans_probleme": 0,
   "problemes_par_type": {
-   "contenu-court": 1
+   "contenu-court": 1,
+   "lien-casse": 148
   }
  },
  "fichiers": {
@@ -32,9 +33,15 @@
    "h1": "LOTIER Immobilier, une agence indépendante.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/accessibilite/",
@@ -46,9 +53,15 @@
    "h1": "Déclaration d'accessibilité",
    "nb_h2": 14,
    "images": 4,
-   "liens": 73,
+   "liens": 75,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-agde.html",
@@ -60,9 +73,15 @@
    "h1": "Agence immobilière à Agde",
    "nb_h2": 17,
    "images": 15,
-   "liens": 107,
+   "liens": 109,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-avignon.html",
@@ -74,9 +93,15 @@
    "h1": "Agence immobilière à Avignon",
    "nb_h2": 17,
    "images": 15,
-   "liens": 107,
+   "liens": 109,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-beziers.html",
@@ -88,9 +113,15 @@
    "h1": "Agence immobilière à Béziers",
    "nb_h2": 17,
    "images": 15,
-   "liens": 109,
+   "liens": 111,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-carcassonne.html",
@@ -102,9 +133,15 @@
    "h1": "Agence immobilière à Carcassonne",
    "nb_h2": 17,
    "images": 15,
-   "liens": 108,
+   "liens": 110,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-montpellier.html",
@@ -116,9 +153,15 @@
    "h1": "Agence immobilière à Montpellier",
    "nb_h2": 17,
    "images": 15,
-   "liens": 108,
+   "liens": 110,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-narbonne.html",
@@ -130,9 +173,15 @@
    "h1": "Agence immobilière à Narbonne",
    "nb_h2": 17,
    "images": 15,
-   "liens": 107,
+   "liens": 109,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/agence-immobiliere-nimes.html",
@@ -144,9 +193,15 @@
    "h1": "Agence immobilière à Nîmes",
    "nb_h2": 17,
    "images": 15,
-   "liens": 108,
+   "liens": 110,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/",
@@ -158,9 +213,15 @@
    "h1": "Local commercial 180 m² à louer à Capendu",
    "nb_h2": 17,
    "images": 19,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/",
@@ -172,9 +233,15 @@
    "h1": "Appartement 2 pièces 44 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/",
@@ -186,9 +253,15 @@
    "h1": "Appartement 2 pièces 33 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 23,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/",
@@ -200,9 +273,15 @@
    "h1": "Appartement 3 pièces 65 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 26,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/",
@@ -214,9 +293,15 @@
    "h1": "Appartement 3 pièces 57 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 26,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/",
@@ -228,9 +313,15 @@
    "h1": "Appartement 3 pièces 55 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 23,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/",
@@ -242,9 +333,15 @@
    "h1": "Appartement 4 pièces 98 m² à louer à Béziers",
    "nb_h2": 19,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/",
@@ -256,9 +353,15 @@
    "h1": "Bureaux 100 m² à louer à Béziers",
    "nb_h2": 17,
    "images": 26,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/",
@@ -270,9 +373,15 @@
    "h1": "Local commercial 20 m² à louer à Béziers",
    "nb_h2": 17,
    "images": 23,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/",
@@ -284,9 +393,15 @@
    "h1": "Appartement 4 pièces 100 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/",
@@ -298,9 +413,15 @@
    "h1": "Appartement 3 pièces 48 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 25,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-avec-balcon-et-box-residence-ama/",
@@ -312,9 +433,15 @@
    "h1": "Appartement 3 pièces 62 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 22,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou/",
@@ -326,9 +453,15 @@
    "h1": "Appartement 3 pièces 84 m² à vendre à Béziers",
    "nb_h2": 19,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal/",
@@ -340,9 +473,15 @@
    "h1": "Appartement 3 pièces 53 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/",
@@ -354,9 +493,15 @@
    "h1": "Maison 6 pièces 120 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-beziers-appartement-de-cour-privative/",
@@ -368,9 +513,15 @@
    "h1": "Appartement 3 pièces 76 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 26,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort-2/",
@@ -382,9 +533,15 @@
    "h1": "Immeuble 185 m² à vendre à Béziers",
    "nb_h2": 19,
    "images": 25,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/",
@@ -396,9 +553,15 @@
    "h1": "Immeuble 185 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 19,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/",
@@ -410,9 +573,15 @@
    "h1": "Fonds de commerce 49 m² à vendre à Nîmes",
    "nb_h2": 18,
    "images": 16,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/",
@@ -424,9 +593,15 @@
    "h1": "Maison 6 pièces 191 m² à vendre à Villeneuve-lès-Béziers",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen/",
@@ -438,9 +613,15 @@
    "h1": "Maison 4 pièces 89 m² à vendre à Maureilhan",
    "nb_h2": 20,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/",
@@ -452,9 +633,15 @@
    "h1": "Studio 33 m² à vendre à Béziers",
    "nb_h2": 20,
    "images": 25,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/",
@@ -466,9 +653,15 @@
    "h1": "Maison 5 pièces 89 m² à vendre à Alès",
    "nb_h2": 20,
    "images": 27,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/",
@@ -480,9 +673,15 @@
    "h1": "Appartement 2 pièces 50 m² à vendre à Carcassonne",
    "nb_h2": 20,
    "images": 21,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/",
@@ -494,9 +693,15 @@
    "h1": "Appartement 2 pièces 33 m² à louer à Capendu",
    "nb_h2": 19,
    "images": 22,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/",
@@ -508,9 +713,15 @@
    "h1": "Appartement 4 pièces 107 m² à louer à Carcassonne",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/",
@@ -522,9 +733,15 @@
    "h1": "Maison 3 pièces 87 m² à vendre à Meynes",
    "nb_h2": 19,
    "images": 24,
-   "liens": 87,
+   "liens": 89,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/",
@@ -536,9 +753,15 @@
    "h1": "Appartement 4 pièces 116 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 27,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/",
@@ -550,9 +773,15 @@
    "h1": "Studio 27 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 24,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/",
@@ -564,9 +793,15 @@
    "h1": "Maison 8 pièces 240 m² à vendre à Carcassonne",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/",
@@ -578,9 +813,15 @@
    "h1": "Appartement 2 pièces 46 m² à vendre à Caveirac",
    "nb_h2": 20,
    "images": 21,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/",
@@ -592,9 +833,15 @@
    "h1": "Appartement 2 pièces 46 m² à vendre à Caveirac",
    "nb_h2": 20,
    "images": 21,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/",
@@ -606,9 +853,15 @@
    "h1": "Maison 4 pièces 127 m² à vendre à Clarensac",
    "nb_h2": 20,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/",
@@ -620,9 +873,15 @@
    "h1": "Maison 4 pièces 80 m² à vendre à Clarensac",
    "nb_h2": 20,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/",
@@ -634,9 +893,15 @@
    "h1": "Appartement 3 pièces 69 m² à vendre à Aubais",
    "nb_h2": 19,
    "images": 20,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/coup-de-coeur-a-calvisson-villa-t4-de-2016-avec-jardin-gar/",
@@ -648,9 +913,15 @@
    "h1": "Maison 4 pièces 85 m² à vendre à Calvisson",
    "nb_h2": 20,
    "images": 27,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/",
@@ -662,9 +933,15 @@
    "h1": "Immeuble 400 m² à vendre à Capendu",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/",
@@ -676,9 +953,15 @@
    "h1": "Appartement 2 pièces 41 m² à vendre à Montpellier",
    "nb_h2": 20,
    "images": 26,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/",
@@ -690,9 +973,15 @@
    "h1": "Fonds de commerce 120 m² à vendre à Capendu",
    "nb_h2": 19,
    "images": 23,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/",
@@ -704,9 +993,15 @@
    "h1": "Garage 134 m² à vendre à Capendu",
    "nb_h2": 19,
    "images": 27,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/",
@@ -718,9 +1013,15 @@
    "h1": "Appartement 3 pièces 68 m² à vendre à Garons",
    "nb_h2": 20,
    "images": 20,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/",
@@ -732,9 +1033,15 @@
    "h1": "Maison 5 pièces 112 m² à vendre à Rieux-Minervois",
    "nb_h2": 20,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/",
@@ -746,9 +1053,15 @@
    "h1": "Immeuble 170 m² à vendre à Carcassonne",
    "nb_h2": 19,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/",
@@ -760,9 +1073,15 @@
    "h1": "Immeuble 95 m² à vendre à Béziers",
    "nb_h2": 19,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/immeuble-de-rapport/",
@@ -774,9 +1093,15 @@
    "h1": "Immeuble 166 m² à vendre à Carcassonne",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/",
@@ -788,9 +1113,15 @@
    "h1": "Investissement Nîmes Murs commerciaux + studio loué 111",
    "nb_h2": 18,
    "images": 24,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/",
@@ -802,9 +1133,15 @@
    "h1": "Maison 4 pièces 90 m² à vendre à Langlade",
    "nb_h2": 20,
    "images": 25,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/",
@@ -816,9 +1153,15 @@
    "h1": "Appartement 4 pièces 80 m² à vendre à Caveirac",
    "nb_h2": 20,
    "images": 21,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/local-commercial-boulevard-de-geneve/",
@@ -830,9 +1173,15 @@
    "h1": "Local commercial 77 m² à vendre à Béziers",
    "nb_h2": 18,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/",
@@ -844,9 +1193,15 @@
    "h1": "Local commercial 66 m² à louer à Capendu",
    "nb_h2": 17,
    "images": 20,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/",
@@ -858,9 +1213,15 @@
    "h1": "Maison 5 pièces 122 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/",
@@ -872,9 +1233,15 @@
    "h1": "Maison 4 pièces 125 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 21,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/",
@@ -886,9 +1253,15 @@
    "h1": "Maison 6 pièces 127 m² à vendre à Comigne",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/",
@@ -900,9 +1273,15 @@
    "h1": "Maison 4 pièces 110 m² à vendre à Laure-Minervois",
    "nb_h2": 19,
    "images": 25,
-   "liens": 90,
+   "liens": 92,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/",
@@ -914,9 +1293,15 @@
    "h1": "Maison 4 pièces 120 m² à vendre à Capendu",
    "nb_h2": 19,
    "images": 28,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-avec-terrasse/",
@@ -928,9 +1313,15 @@
    "h1": "Maison 5 pièces 95 m² à louer à Capendu",
    "nb_h2": 19,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/",
@@ -942,9 +1333,15 @@
    "h1": "Maison 3 pièces 67 m² à vendre à Villemoustaussou",
    "nb_h2": 20,
    "images": 27,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/",
@@ -956,9 +1353,15 @@
    "h1": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel",
    "nb_h2": 19,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
@@ -970,9 +1373,15 @@
    "h1": "Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel",
    "nb_h2": 19,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/",
@@ -984,9 +1393,15 @@
    "h1": "Maison 5 pièces 137 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/",
@@ -998,9 +1413,15 @@
    "h1": "Maison 4 pièces 81 m² à vendre à Pezens",
    "nb_h2": 20,
    "images": 27,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/",
@@ -1012,9 +1433,15 @@
    "h1": "Immeuble 142 m² à vendre à Marguerittes",
    "nb_h2": 19,
    "images": 24,
-   "liens": 90,
+   "liens": 92,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/",
@@ -1026,9 +1453,15 @@
    "h1": "Appartement 2 pièces 52 m² à vendre à Montpellier",
    "nb_h2": 20,
    "images": 24,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/",
@@ -1040,9 +1473,15 @@
    "h1": "Appartement 3 pièces 70 m² à louer à Montpellier",
    "nb_h2": 18,
    "images": 22,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/",
@@ -1054,9 +1493,15 @@
    "h1": "Studio 15 m² à louer à Nîmes",
    "nb_h2": 19,
    "images": 20,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/",
@@ -1068,9 +1513,15 @@
    "h1": "Fonds de commerce 155 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 21,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/",
@@ -1082,9 +1533,15 @@
    "h1": "Appartement 3 pièces 75 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 23,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-capouchine-neuf-rare-dernier-etage-appartement/",
@@ -1096,9 +1553,15 @@
    "h1": "Appartement 4 pièces 84 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 22,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-capouchine-residence-neuve-frais-de-notaire-reduit/",
@@ -1110,9 +1573,15 @@
    "h1": "Appartement 3 pièces 64 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 19,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/",
@@ -1124,9 +1593,15 @@
    "h1": "Appartement 3 pièces 84 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-proche-gare-belle-residence-neuve-appartement-type/",
@@ -1138,9 +1613,15 @@
    "h1": "Appartement 4 pièces 74 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 22,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/",
@@ -1152,9 +1633,15 @@
    "h1": "Maison 5 pièces 116 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/",
@@ -1166,9 +1653,15 @@
    "h1": "Maison 5 pièces 140 m² à vendre à Capendu",
    "nb_h2": 20,
    "images": 28,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/",
@@ -1180,9 +1673,15 @@
    "h1": "Appartement 4 pièces 91 m² à vendre à Montpellier",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/",
@@ -1194,9 +1693,15 @@
    "h1": "Maison 8 pièces 320 m² à vendre à Villedubert",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/",
@@ -1208,9 +1713,15 @@
    "h1": "Appartement 2 pièces 68 m² à vendre à Saint-Ambroix",
    "nb_h2": 20,
    "images": 22,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/",
@@ -1222,9 +1733,15 @@
    "h1": "Appartement 3 pièces 136 m² à vendre à Saint-Christol-lez-Alès",
    "nb_h2": 19,
    "images": 26,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/",
@@ -1236,9 +1753,15 @@
    "h1": "Terrain 8741 m² à vendre à Douzens",
    "nb_h2": 18,
    "images": 21,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/",
@@ -1250,9 +1773,15 @@
    "h1": "Terrain 1470 m² à vendre à Villedubert",
    "nb_h2": 19,
    "images": 20,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/",
@@ -1264,9 +1793,15 @@
    "h1": "Terrain 3000 m² à vendre à Floure",
    "nb_h2": 18,
    "images": 26,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/terrain-de-loisir-a-capendu/",
@@ -1278,9 +1813,15 @@
    "h1": "Terrain 1457 m² à vendre à Capendu",
    "nb_h2": 18,
    "images": 14,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/terrain-de-loisir-a-proximite-des-habitations/",
@@ -1292,9 +1833,15 @@
    "h1": "Terrain 1400 m² à vendre à Barbaira",
    "nb_h2": 18,
    "images": 20,
-   "liens": 99,
+   "liens": 101,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/",
@@ -1306,9 +1853,15 @@
    "h1": "Maison 4 pièces 105 m² à vendre à Trèbes",
    "nb_h2": 20,
    "images": 28,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/",
@@ -1320,9 +1873,15 @@
    "h1": "Terrain 840 m² à vendre à Uzès",
    "nb_h2": 18,
    "images": 20,
-   "liens": 98,
+   "liens": 100,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/assemblee-generale-copropriete-preparer.html",
@@ -1334,9 +1893,15 @@
    "h1": "Assemblée générale de copropriété : bien se préparer",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html",
@@ -1348,9 +1913,15 @@
    "h1": "Budget 2027 : ce que le projet de loi prévoit pour le logement",
    "nb_h2": 21,
    "images": 10,
-   "liens": 83,
+   "liens": 85,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/charges-copropriete-appel-de-fonds.html",
@@ -1362,9 +1933,15 @@
    "h1": "Charges de copropriété : lire un appel de fonds",
    "nb_h2": 22,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html",
@@ -1376,9 +1953,15 @@
    "h1": "Compromis de vente : ce qu'il faut vérifier avant de signer",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/depot-de-garantie-location.html",
@@ -1390,9 +1973,15 @@
    "h1": "Dépôt de garantie : montant, restitution, retenues",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html",
@@ -1404,9 +1993,15 @@
    "h1": "Les diagnostics immobiliers obligatoires pour vendre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/dossier-de-location-solide.html",
@@ -1418,9 +2013,15 @@
    "h1": "Constituer un dossier de location solide",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/dpe-classes-a-g-comprendre.html",
@@ -1432,9 +2033,15 @@
    "h1": "DPE : comprendre les classes A à G",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html",
@@ -1446,9 +2053,15 @@
    "h1": "DPE : le nouveau calcul de 2026 et l'échéance de 2028",
    "nb_h2": 19,
    "images": 10,
-   "liens": 83,
+   "liens": 85,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/fixer-le-bon-prix-estimation.html",
@@ -1460,9 +2073,15 @@
    "h1": "Fixer le bon prix : pourquoi une estimation sérieuse change tout",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/frais-de-notaire-comprendre.html",
@@ -1474,9 +2093,15 @@
    "h1": "Frais de notaire : à quoi correspondent-ils vraiment ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/home-staging-mieux-vendre.html",
@@ -1488,9 +2113,15 @@
    "h1": "Home staging : 8 gestes simples pour mieux vendre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/",
@@ -1502,9 +2133,15 @@
    "h1": "Conseils et actualités de l'immobilier.",
    "nb_h2": 10,
    "images": 28,
-   "liens": 117,
+   "liens": 119,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html",
@@ -1516,9 +2153,15 @@
    "h1": "Loyers impayés : les bons réflexes du propriétaire",
    "nb_h2": 22,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/mandat-exclusif-ou-simple.html",
@@ -1530,9 +2173,15 @@
    "h1": "Mandat exclusif ou mandat simple : que choisir pour vendre ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/meuble-ou-vide-choisir-location.html",
@@ -1544,9 +2193,15 @@
    "h1": "Louer son bien : meublé ou vide ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html",
@@ -1558,9 +2213,15 @@
    "h1": "Premier achat immobilier : 6 erreurs à éviter",
    "nb_h2": 24,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html",
@@ -1572,9 +2233,15 @@
    "h1": "Crédit immobilier : les taux remontent en novembre 2026",
    "nb_h2": 19,
    "images": 9,
-   "liens": 83,
+   "liens": 85,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/travaux-en-copropriete-qui-decide.html",
@@ -1586,9 +2253,15 @@
    "h1": "Travaux en copropriété : qui décide, qui paie ?",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/visiter-un-appartement-checklist.html",
@@ -1600,9 +2273,15 @@
    "h1": "Visiter un appartement : la check-list de l'acheteur",
    "nb_h2": 21,
    "images": 9,
-   "liens": 81,
+   "liens": 83,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-beziers.html",
@@ -1614,9 +2293,15 @@
    "h1": "Vivre à Béziers : centre ancien, canal et art de vivre",
    "nb_h2": 21,
    "images": 9,
-   "liens": 82,
+   "liens": 84,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-carcassonne.html",
@@ -1628,9 +2313,15 @@
    "h1": "Vivre à Carcassonne : la Cité, la Bastide et le canal du Midi",
    "nb_h2": 21,
    "images": 9,
-   "liens": 82,
+   "liens": 84,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-montpellier.html",
@@ -1642,9 +2333,15 @@
    "h1": "Vivre à Montpellier : du centre historique aux nouveaux quartiers",
    "nb_h2": 21,
    "images": 9,
-   "liens": 82,
+   "liens": 84,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/blog/vivre-a-nimes.html",
@@ -1656,9 +2353,15 @@
    "h1": "Vivre à Nîmes : Arènes, Écusson et art de vivre gardois",
    "nb_h2": 21,
    "images": 9,
-   "liens": 82,
+   "liens": 84,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/contact/",
@@ -1670,9 +2373,15 @@
    "h1": "Nous contacter.",
    "nb_h2": 11,
    "images": 4,
-   "liens": 84,
+   "liens": 86,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/cookies/",
@@ -1684,9 +2393,15 @@
    "h1": "Cookies et traceurs",
    "nb_h2": 14,
    "images": 4,
-   "liens": 71,
+   "liens": 73,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/equipe/",
@@ -1698,9 +2413,14 @@
    "h1": "L’équipe de l’agence.",
    "nb_h2": 9,
    "images": 5,
-   "liens": 72,
+   "liens": 74,
    "markdown": true,
    "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    },
     {
      "niveau": "avertissement",
      "code": "contenu-court",
@@ -1718,9 +2438,15 @@
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
-   "liens": 135,
+   "liens": 137,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/location/",
@@ -1732,9 +2458,15 @@
    "h1": "Louer et gérer, l'esprit tranquille.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 72,
+   "liens": 74,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/lotier-rgpd/",
@@ -1746,9 +2478,15 @@
    "h1": "Politique de confidentialité (RGPD)",
    "nb_h2": 25,
    "images": 4,
-   "liens": 88,
+   "liens": 90,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/mentions-legales/",
@@ -1760,9 +2498,15 @@
    "h1": "Mentions légales",
    "nb_h2": 24,
    "images": 4,
-   "liens": 82,
+   "liens": 84,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/mylotier/",
@@ -1774,9 +2518,15 @@
    "h1": "Votre espace client MyLotier.",
    "nb_h2": 10,
    "images": 5,
-   "liens": 72,
+   "liens": 74,
    "markdown": false,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/barbara-bouba/",
@@ -1788,9 +2538,15 @@
    "h1": "Barbara Bouba",
    "nb_h2": 11,
    "images": 38,
-   "liens": 175,
+   "liens": 177,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/celine-aubin/",
@@ -1802,9 +2558,15 @@
    "h1": "Céline Aubin",
    "nb_h2": 11,
    "images": 6,
-   "liens": 79,
+   "liens": 81,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/elodie-chardot/",
@@ -1816,9 +2578,15 @@
    "h1": "Élodie Chardot",
    "nb_h2": 11,
    "images": 19,
-   "liens": 118,
+   "liens": 120,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/frederique-gallucci/",
@@ -1830,9 +2598,15 @@
    "h1": "Frédérique Gallucci",
    "nb_h2": 11,
    "images": 13,
-   "liens": 100,
+   "liens": 102,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/",
@@ -1844,9 +2618,15 @@
    "h1": "Nos agents, près de chez vous.",
    "nb_h2": 9,
    "images": 9,
-   "liens": 91,
+   "liens": 93,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-agents/laetitia-dias/",
@@ -1858,9 +2638,15 @@
    "h1": "Laëtitia Dias",
    "nb_h2": 11,
    "images": 27,
-   "liens": 142,
+   "liens": 144,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/",
@@ -1872,9 +2658,15 @@
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 10,
    "images": 88,
-   "liens": 331,
+   "liens": 333,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/location-beziers/",
@@ -1886,9 +2678,15 @@
    "h1": "Biens à louer à Béziers.",
    "nb_h2": 10,
    "images": 12,
-   "liens": 101,
+   "liens": 103,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/location-capendu/",
@@ -1900,9 +2698,15 @@
    "h1": "Biens à louer à Capendu.",
    "nb_h2": 10,
    "images": 8,
-   "liens": 88,
+   "liens": 90,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-beziers/",
@@ -1914,9 +2718,15 @@
    "h1": "Biens à vendre à Béziers.",
    "nb_h2": 10,
    "images": 16,
-   "liens": 117,
+   "liens": 119,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-capendu/",
@@ -1928,9 +2738,15 @@
    "h1": "Biens à vendre à Capendu.",
    "nb_h2": 10,
    "images": 15,
-   "liens": 113,
+   "liens": 115,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-carcassonne/",
@@ -1942,9 +2758,15 @@
    "h1": "Biens à vendre à Carcassonne.",
    "nb_h2": 10,
    "images": 8,
-   "liens": 92,
+   "liens": 94,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-caveirac/",
@@ -1956,9 +2778,15 @@
    "h1": "Biens à vendre à Caveirac.",
    "nb_h2": 10,
    "images": 7,
-   "liens": 88,
+   "liens": 90,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-montpellier/",
@@ -1970,9 +2798,15 @@
    "h1": "Biens à vendre à Montpellier.",
    "nb_h2": 10,
    "images": 7,
-   "liens": 89,
+   "liens": 91,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-nimes/",
@@ -1984,9 +2818,15 @@
    "h1": "Biens à vendre à Nîmes.",
    "nb_h2": 10,
    "images": 13,
-   "liens": 107,
+   "liens": 109,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/nos-honoraires/",
@@ -1998,9 +2838,15 @@
    "h1": "Nos honoraires",
    "nb_h2": 14,
    "images": 4,
-   "liens": 70,
+   "liens": 72,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/notre-service/",
@@ -2012,9 +2858,15 @@
    "h1": "Un service client avant tout.",
    "nb_h2": 12,
    "images": 4,
-   "liens": 73,
+   "liens": 75,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/plan-du-site.html",
@@ -2026,9 +2878,15 @@
    "h1": "Plan du site",
    "nb_h2": 13,
    "images": 4,
-   "liens": 126,
+   "liens": 128,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/rejoindre/comparatif/",
@@ -2040,9 +2898,15 @@
    "h1": "Réseau, agence classique ou LOTIER : quel modèle choisir ?",
    "nb_h2": 13,
    "images": 4,
-   "liens": 73,
+   "liens": 75,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/rejoindre/",
@@ -2054,9 +2918,15 @@
    "h1": "Gagnez 75 %. Ne perdez pas de temps !",
    "nb_h2": 16,
    "images": 4,
-   "liens": 76,
+   "liens": 78,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/sites-partenaires/",
@@ -2068,9 +2938,15 @@
    "h1": "Nos sites partenaires.",
    "nb_h2": 13,
    "images": 9,
-   "liens": 80,
+   "liens": 82,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/syndic/",
@@ -2082,9 +2958,15 @@
    "h1": "Votre copropriété, en toute clarté.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 73,
+   "liens": 75,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   },
   {
    "url": "https://lotier.immo/vente/",
@@ -2096,9 +2978,15 @@
    "h1": "Vendre votre bien, sereinement.",
    "nb_h2": 13,
    "images": 4,
-   "liens": 72,
+   "liens": 74,
    "markdown": true,
-   "problemes": []
+   "problemes": [
+    {
+     "niveau": "erreur",
+     "code": "lien-casse",
+     "message": "Lien interne cassé : ../jeu/"
+    }
+   ]
   }
  ]
 }
