@@ -24,7 +24,6 @@ $lot = function (int $rang): string {
   </header>
   <main class="bloc reglement">
     <h1>Règlement du concours de Noël</h1>
-    <p class="avis">Règlement en cours de relecture par un juriste.</p>
 
     <h2>Article 1. Organisateur</h2>
     <p>Le concours est organisé par la SARL LOTIER, enseigne LOTIER Immobilier, société à responsabilité limitée au capital de 7 500 €, dont le siège est situé 40 rue Française, 1er étage, 34500 Béziers, immatriculée au RCS de Béziers sous le numéro 452 117 294, titulaire de la carte professionnelle CPI3401 2016 000 014 824 (ci-après « l’organisateur »).</p>
