@@ -61,7 +61,7 @@ if ($admin && $csrf_ok) {
     if ($a === 'mails-reglages') {
         $de = email_propre((string) ($_POST['de'] ?? ''));
         if (!$de) $erreur = 'Indiquez une adresse d’expédition valide.';
-        else { reglage('mails_de', $de); reglage('mails', ($_POST['actif'] ?? '') === '1' ? '1' : '0'); journal('e-mails', mails_actifs() ? 'activés' : 'désactivés'); $info = mails_actifs() ? 'E-mails activés : les prochains messages partiront automatiquement.' : 'E-mails désactivés : plus rien ne part.'; }
+        else { reglage('mails_de', $de); if ((string) ($_POST['smtp_mdp'] ?? '') !== '') { reglage('mails_smtp_mdp', (string) $_POST['smtp_mdp']); reglage('mails_smtp_erreur', ''); } if (($_POST['smtp_oublier'] ?? '') === '1') reglage('mails_smtp_mdp', ''); reglage('mails', ($_POST['actif'] ?? '') === '1' ? '1' : '0'); journal('e-mails', mails_actifs() ? 'activés' : 'désactivés'); $info = mails_actifs() ? 'E-mails activés : les prochains messages partiront automatiquement.' : 'E-mails désactivés : plus rien ne part.'; }
     }
     if ($a === 'mails-essai') {
         $vers = email_propre((string) ($_POST['vers'] ?? '')); $cle = (string) ($_POST['cle'] ?? '');
@@ -228,7 +228,9 @@ if ($admin) {
 
   <h2 id="mails">E-mails aux participants</h2>
 <?php $nbEnvois = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 1')->fetchColumn(); $nbEchecs = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 0')->fetchColumn(); $nbDesabo = (int) db()->query('SELECT COUNT(DISTINCT email) FROM dessins WHERE mails = 0')->fetchColumn(); ?>
-  <p>État : <b><?= mails_actifs() ? 'activés' : 'désactivés (rien ne part)' ?></b> · <?= $nbEnvois ?> envoyé(s) · <?= $nbEchecs ?> échec(s) · <?= $nbDesabo ?> désinscrit(s)</p>
+<?php if ((string) reglage('mails_smtp_erreur') !== ''): ?>  <p class="message">Dernier envoi authentifié en échec (<?= h((string) reglage('mails_smtp_erreur')) ?>). Vérifiez le mot de passe de la boîte.</p>
+<?php endif; ?>
+  <p>État : <b><?= mails_actifs() ? 'activés' : 'désactivés (rien ne part)' ?></b> · envoi <?= mails_smtp_actif() ? '<b>authentifié par la boîte</b>' : 'par le serveur du site (non authentifié)' ?> · <?= $nbEnvois ?> envoyé(s) · <?= $nbEchecs ?> échec(s) · <?= $nbDesabo ?> désinscrit(s)</p>
   <p class="aide">Chaque adulte reçoit un message à la réception du dessin, un autre à sa publication, puis un message tous les deux jours pendant les votes (conseils et point sur le classement), jusqu’aux résultats. Les envois programmés partent le matin, à partir de <?= MAILS_HEURE ?> h. Un lien de désinscription figure dans chaque message.</p>
 <?php $derniers = db()->query("SELECT e.quand, e.cle, e.ok, d.prenom, d.email FROM envois e JOIN dessins d ON d.id = e.dessin_id ORDER BY e.quand DESC LIMIT 12")->fetchAll(); if ($derniers): ?>
   <table class="classement" style="max-width:760px"><caption>Derniers envois</caption><thead><tr><th>Quand</th><th>Destinataire</th><th>Message</th><th>Résultat</th></tr></thead><tbody>
@@ -249,6 +251,10 @@ if ($admin) {
   </form>
   <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="mails-reglages">
     <p><label for="m-de">Adresse d’expédition</label><input id="m-de" name="de" type="email" required value="<?= h(mails_expediteur()) ?>"></p>
+    <p><label for="m-smtp">Mot de passe de la boîte d’expédition<?= mails_smtp_actif() ? ' (déjà enregistré)' : '' ?></label><input id="m-smtp" name="smtp_mdp" type="password" autocomplete="new-password" placeholder="<?= mails_smtp_actif() ? 'Laisser vide pour le conserver' : 'Celui de la boîte chez Hostinger' ?>"></p>
+    <p class="aide">Avec ce mot de passe, les e-mails partent par la boîte elle-même (envoi authentifié et signé), ce qui évite qu’ils soient écartés par Outlook, Gmail ou Orange. Sans lui, ils partent par le serveur du site, moins bien accepté. Le mot de passe est rangé avec les données du concours, hors du site.</p>
+<?php if (mails_smtp_actif()): ?>    <p class="case"><input id="m-oublier" name="smtp_oublier" type="checkbox" value="1"><label for="m-oublier">Oublier ce mot de passe (revenir à l’envoi par le serveur du site)</label></p>
+<?php endif; ?>
     <p class="case"><input id="m-actif" name="actif" type="checkbox" value="1"<?= mails_actifs() ? ' checked' : '' ?>><label for="m-actif">Activer l’envoi automatique des e-mails</label></p>
     <p class="aide">Avant d’activer : envoyez-vous un essai et vérifiez qu’il arrive bien dans la boîte de réception. Si vous modifiez les dates du concours pour un essai, désactivez d’abord les e-mails, sinon les participants recevront les messages correspondants.</p>
     <p><button class="btn rouge" type="submit">Enregistrer</button></p>

@@ -133,7 +133,32 @@ function mails_envoyer_a(string $a, string $objet, string $html, string $texte, 
     if (getenv('JEU_MAILS_VERS')) {      // essais en local : l'e-mail est écrit dans un dossier au lieu d'être envoyé
         return (bool) file_put_contents(rtrim(getenv('JEU_MAILS_VERS'), '/') . '/' . date('His') . '-' . bin2hex(random_bytes(3)) . '.eml', "To: $a\nSubject: $objet\n\n$texte\n\n$html");
     }
-    return @mail($a, '=?UTF-8?B?' . base64_encode($objet) . '?=', $corps, implode("\r\n", $entetes), '-f' . $de);
+    $objetCode = '=?UTF-8?B?' . base64_encode($objet) . '?=';
+    if (mails_smtp_actif()) return mails_smtp($a, $de, $objetCode, $entetes, $corps);      // envoi authentifié par la boîte : signé, mieux accepté
+    return @mail($a, $objetCode, $corps, implode("\r\n", $entetes), '-f' . $de);
+}
+
+// Envoi authentifié (SMTP) par la boîte d'expédition : le mot de passe est saisi dans l'administration et rangé avec les données, hors du site.
+function mails_smtp_actif(): bool { return (string) reglage('mails_smtp_mdp') !== ''; }
+function mails_smtp(string $a, string $de, string $objetCode, array $entetes, string $corps): bool {
+    $hote = getenv('JEU_SMTP_HOTE') ?: 'ssl://smtp.hostinger.com:465';
+    $echec = function (string $ou, string $rep = '') { reglage('mails_smtp_erreur', date('d/m H:i') . ' · ' . $ou . ($rep !== '' ? ' : ' . mb_substr(trim($rep), 0, 160) : '')); return false; };
+    $c = @stream_socket_client($hote, $no, $err, 15);
+    if (!$c) return $echec('connexion au serveur d’envoi impossible', (string) $err);
+    stream_set_timeout($c, 20);
+    $lire = function () use ($c): string { $r = ''; while (($l = fgets($c, 600)) !== false) { $r .= $l; if (strlen($l) < 4 || $l[3] === ' ') break; } return $r; };
+    $dire = function (string $cmd, string $attendu) use ($c, $lire): string { if ($cmd !== '') fwrite($c, $cmd . "\r\n"); $r = $lire(); return str_starts_with($r, $attendu) ? '' : ($r === '' ? 'pas de réponse' : $r); };
+    $etapes = [['', '220', 'accueil'], ['EHLO lotier.immo', '250', 'présentation'], ['AUTH LOGIN', '334', 'authentification'],
+               [base64_encode($de), '334', 'identifiant'], [base64_encode((string) reglage('mails_smtp_mdp')), '235', 'mot de passe refusé'],
+               ['MAIL FROM:<' . $de . '>', '250', 'expéditeur refusé'], ['RCPT TO:<' . $a . '>', '25', 'destinataire refusé'], ['DATA', '354', 'envoi du message']];
+    foreach ($etapes as [$cmd, $attendu, $nom]) { $r = $dire($cmd, $attendu); if ($r !== '') { @fwrite($c, "QUIT\r\n"); fclose($c); return $echec($nom, $r); } }
+    $message = implode("\r\n", array_merge(['Date: ' . date('r'), 'Message-ID: <' . bin2hex(random_bytes(12)) . '@lotier.immo>', 'To: <' . $a . '>', 'Subject: ' . $objetCode], $entetes)) . "\r\n\r\n" . $corps;
+    $message = preg_replace('/^\./m', '..', str_replace(["\r\n", "\r"], "\n", $message));
+    $r = $dire(str_replace("\n", "\r\n", rtrim($message, "\n")) . "\r\n.", '250');
+    @fwrite($c, "QUIT\r\n"); fclose($c);
+    if ($r !== '') return $echec('message refusé', $r);
+    reglage('mails_smtp_erreur', '');
+    return true;
 }
 
 // Dessin enrichi de son nombre de voix, de son rang et de la taille de sa catégorie.
