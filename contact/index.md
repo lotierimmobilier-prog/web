@@ -53,6 +53,14 @@ Accueil sur rendez-vous
 
 [04 67 11 28 31](tel:+33467112831)
 
+ Autour de l’agence
+
+## Le quartier de l’agence de Béziers
+
+Commerces, restaurants, écoles, stationnement : découvrez ce qui entoure notre agence du 40 rue Française, à Béziers.
+
+La carte est fournie par Google Maps. En l’affichant, votre navigateur se connecte aux serveurs de Google, qui reçoit alors votre adresse IP et peut déposer ses propres traceurs. [En savoir plus](https://lotier.immo/cookies/).
+
  Votre demande
 
 ## Choisir le bon interlocuteur
