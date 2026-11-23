@@ -2,6 +2,7 @@
 // Concours de Noël : administration (validation des dessins, résultats, exports). Accès par mot de passe.
 declare(strict_types=1);
 require __DIR__ . '/lib.php';
+require __DIR__ . '/mails.php';
 entetes_page();
 header('X-Robots-Tag: noindex, nofollow');
 
@@ -42,7 +43,7 @@ if ($admin && $csrf_ok) {
     if ($a === 'deconnexion') { $_SESSION = []; session_destroy(); header('Location: admin.php'); exit; }
     if (in_array($a, ['valider', 'refuser', 'suspendre'], true) && $id) {
         db()->prepare('UPDATE dessins SET statut = ?, traite_le = ? WHERE id = ?')->execute([['valider' => 'valide', 'refuser' => 'refuse', 'suspendre' => 'suspendu'][$a], date('Y-m-d H:i:s'), $id]);
-        journal($a, (string) $id); $info = ['valider' => 'Dessin publié.', 'refuser' => 'Dessin refusé (il n’est pas affiché).', 'suspendre' => 'Dessin suspendu : il n’est plus affiché et ne peut plus recevoir de vote. Ses données et ses votes sont conservés ; « Remettre en ligne » le republie.'][$a];
+        journal($a, (string) $id); if ($a === 'valider') mails_envoyer('publie', $id); $info = ['valider' => 'Dessin publié.', 'refuser' => 'Dessin refusé (il n’est pas affiché).', 'suspendre' => 'Dessin suspendu : il n’est plus affiché et ne peut plus recevoir de vote. Ses données et ses votes sont conservés ; « Remettre en ligne » le republie.'][$a];
     }
     if ($a === 'supprimer' && $id) {
         $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
@@ -57,6 +58,17 @@ if ($admin && $csrf_ok) {
             journal('demande : dessin suspendu', (string) $did); $info = 'Dessin suspendu et demande classée. Pour effacer aussi ses données, utilisez « Supprimer » sur le dessin.';
         }
     }
+    if ($a === 'mails-reglages') {
+        $de = email_propre((string) ($_POST['de'] ?? ''));
+        if (!$de) $erreur = 'Indiquez une adresse d’expédition valide.';
+        else { reglage('mails_de', $de); reglage('mails', ($_POST['actif'] ?? '') === '1' ? '1' : '0'); journal('e-mails', mails_actifs() ? 'activés' : 'désactivés'); $info = mails_actifs() ? 'E-mails activés : les prochains messages partiront automatiquement.' : 'E-mails désactivés : plus rien ne part.'; }
+    }
+    if ($a === 'mails-essai') {
+        $vers = email_propre((string) ($_POST['vers'] ?? '')); $cle = (string) ($_POST['cle'] ?? '');
+        if (!$vers || !isset(mails_modeles()[$cle])) $erreur = 'Indiquez une adresse valide et choisissez un message.';
+        else { [$o, $hh, $t] = mails_composer($cle, mails_exemple()); $ok = mails_envoyer_a($vers, '[Essai] ' . $o, $hh, $t); if ($ok) $info = 'Message d’essai envoyé à ' . $vers . '. Vérifiez aussi le dossier des indésirables.'; else $erreur = 'Le serveur a refusé l’envoi.'; }
+    }
+    if ($a === 'mails-tournee') { $n = mails_tournee(true); $info = $n . ' e-mail(s) envoyé(s).'; }
     if ($a === 'dates') {
         $dd = (string) ($_POST['depots'] ?? ''); $dv = (string) ($_POST['votes'] ?? '');
         $ok = fn($v) => preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) && checkdate((int) substr($v, 5, 2), (int) substr($v, 8, 2), (int) substr($v, 0, 4));
@@ -74,6 +86,10 @@ if ($admin && $csrf_ok) {
         if (mb_strlen($m) < 12) $erreur = 'Le nouveau mot de passe doit compter au moins 12 caractères.';
         else { reglage('admin', password_hash($m, PASSWORD_DEFAULT)); journal('admin', 'mot de passe changé'); $info = 'Mot de passe changé.'; }
     }
+}
+if ($admin && isset($_GET['apercu']) && isset(mails_modeles()[(string) $_GET['apercu']])) {
+    header('Content-Type: text/html; charset=utf-8'); header('Cache-Control: no-store');
+    echo mails_composer((string) $_GET['apercu'], mails_exemple())[1]; exit;
 }
 if ($admin && isset($_GET['export'])) {
     $quoi = $_GET['export'] === 'infolettre' ? 'infolettre' : 'participants';
@@ -111,7 +127,7 @@ if ($admin) {
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
   <title>Administration du concours de Noël</title>
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
   <style>
     .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
     .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
@@ -209,6 +225,28 @@ if ($admin) {
     </div>
   </div>
 <?php endforeach; ?>
+
+  <h2 id="mails">E-mails aux participants</h2>
+<?php $nbEnvois = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 1')->fetchColumn(); $nbEchecs = (int) db()->query('SELECT COUNT(*) FROM envois WHERE ok = 0')->fetchColumn(); $nbDesabo = (int) db()->query('SELECT COUNT(DISTINCT email) FROM dessins WHERE mails = 0')->fetchColumn(); ?>
+  <p>État : <b><?= mails_actifs() ? 'activés' : 'désactivés (rien ne part)' ?></b> · <?= $nbEnvois ?> envoyé(s) · <?= $nbEchecs ?> échec(s) · <?= $nbDesabo ?> désinscrit(s)</p>
+  <p class="aide">Chaque adulte reçoit un message à la réception du dessin, un autre à sa publication, puis un message tous les deux jours pendant les votes (conseils et point sur le classement), jusqu’aux résultats. Les envois programmés partent le matin, à partir de <?= MAILS_HEURE ?> h. Un lien de désinscription figure dans chaque message.</p>
+  <table class="classement" style="max-width:760px"><thead><tr><th>Quand</th><th>Objet</th><th></th></tr></thead><tbody>
+<?php foreach (mails_modeles() as $cle => $quand): ?><tr><td style="width:auto"><?= h($quand) ?></td><td><?= h(mails_contenu($cle, mails_exemple())[0]) ?></td><td><a href="admin.php?apercu=<?= h($cle) ?>" target="_blank" rel="noopener">Aperçu</a></td></tr>
+<?php endforeach; ?>
+  </tbody></table>
+  <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="mails-essai">
+    <p><label for="m-cle">Recevoir un message d’essai</label><select id="m-cle" name="cle"><?php foreach (mails_modeles() as $cle => $quand): ?><option value="<?= h($cle) ?>"><?= h(mails_contenu($cle, mails_exemple())[0]) ?></option><?php endforeach; ?></select></p>
+    <p><label for="m-vers">Votre adresse e-mail</label><input id="m-vers" name="vers" type="email" required></p>
+    <p><button class="btn clair" type="submit">M’envoyer l’essai</button></p>
+  </form>
+  <form method="post" class="boite"><?= $champ_csrf ?><input type="hidden" name="action" value="mails-reglages">
+    <p><label for="m-de">Adresse d’expédition</label><input id="m-de" name="de" type="email" required value="<?= h(mails_expediteur()) ?>"></p>
+    <p class="case"><input id="m-actif" name="actif" type="checkbox" value="1"<?= mails_actifs() ? ' checked' : '' ?>><label for="m-actif">Activer l’envoi automatique des e-mails</label></p>
+    <p class="aide">Avant d’activer : envoyez-vous un essai et vérifiez qu’il arrive bien dans la boîte de réception. Si vous modifiez les dates du concours pour un essai, désactivez d’abord les e-mails, sinon les participants recevront les messages correspondants.</p>
+    <p><button class="btn rouge" type="submit">Enregistrer</button></p>
+  </form>
+<?php if (mails_actifs()): ?>  <form method="post"><?= $champ_csrf ?><button class="btn clair" name="action" value="mails-tournee">Envoyer maintenant les messages du jour</button></form>
+<?php endif; ?>
 
   <h2 id="dates">Dates du concours</h2>
 <?php $dt = dates(); if ($dt['essai']): ?>

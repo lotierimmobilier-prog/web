@@ -15,7 +15,7 @@ $lot = function (int $rang): string {
   <meta name="description" content="Règlement du concours de dessin de Noël de LOTIER Immobilier : participation, votes, lots et protection des données personnelles.">
   <link rel="canonical" href="<?= h(JEU_URL) ?>reglement.php">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <header class="haut">
@@ -24,7 +24,7 @@ $lot = function (int $rang): string {
   </header>
   <main class="bloc reglement">
     <h1>Règlement du concours de Noël</h1>
-    <p class="avis">Projet de règlement, en cours de validation par un juriste. Les passages surlignés restent à confirmer.</p>
+    <p class="avis">Règlement en cours de relecture par un juriste.</p>
 
     <h2>Article 1. Organisateur</h2>
     <p>Le concours est organisé par la SARL LOTIER, enseigne LOTIER Immobilier, société à responsabilité limitée au capital de 7 500 €, dont le siège est situé 40 rue Française, 1er étage, 34500 Béziers, immatriculée au RCS de Béziers sous le numéro 452 117 294, titulaire de la carte professionnelle CPI3401 2016 000 014 824 (ci-après « l’organisateur »).</p>
@@ -73,10 +73,9 @@ $lot = function (int $rang): string {
     <ul>
       <li><b>Données collectées pour participer :</b> prénom et âge de l’artiste, photographie du dessin, adresse e-mail de l’adulte. Facultatif : lien avec l’artiste, code postal, projet immobilier, numéro de téléphone si un rappel est demandé.</li>
       <li><b>Données collectées pour voter :</b> adresse e-mail du votant, utilisée uniquement pour limiter les votes à un par jour.</li>
-      <li><b>Finalités :</b> organisation du concours, publication des dessins, désignation et information des gagnants, lutte contre la fraude. Si vous l’avez demandé : rappel par un conseiller, envoi de la lettre d’information.</li>
-      <li><b>Bases légales :</b> exécution du présent règlement pour la participation ; intérêt légitime pour la lutte contre la fraude ; consentement pour le rappel et la lettre d’information. <span class="a-valider">(à valider)</span></li>
+      <li><b>Finalités :</b> organisation du concours, publication des dessins, désignation et information des gagnants, lutte contre la fraude. Envoi à l’adulte déposant d’e-mails de suivi du concours (réception et publication du dessin, ouverture des votes, conseils, résultats), avec un lien de désinscription dans chaque message. Si vous l’avez demandé : rappel par un conseiller, envoi de la lettre d’information.</li>
       <li><b>Destinataires :</b> les seules équipes de LOTIER Immobilier. Les données ne sont ni vendues, ni cédées. Le site est hébergé par Hostinger, dans l’Union européenne.</li>
-      <li><b>Durées de conservation :</b> les dessins, les données des participants et les adresses des votants sont supprimés trois mois après la clôture des votes. Les coordonnées des gagnants sont conservées jusqu’à la remise de leur lot, et au plus tard jusqu’à l’expiration du délai de réclamation prévu à l’article 7. Un dessin est supprimé en cours de concours sur simple demande, par le <a href="retrait.php">formulaire de retrait</a>. Les dessins refusés sont supprimés sous <span class="a-valider">trente jours</span>. Les coordonnées des personnes ayant demandé un rappel ou la lettre d’information sont conservées <span class="a-valider">trois ans</span> au plus après le dernier contact.</li>
+      <li><b>Durées de conservation :</b> les dessins, les données des participants et les adresses des votants sont supprimés trois mois après la clôture des votes. Les coordonnées des gagnants sont conservées jusqu’à la remise de leur lot, et au plus tard jusqu’à l’expiration du délai de réclamation prévu à l’article 7. Un dessin est supprimé en cours de concours sur simple demande, par le <a href="retrait.php">formulaire de retrait</a>. Les dessins refusés sont supprimés sous trente jours. Les coordonnées des personnes ayant demandé un rappel ou la lettre d’information sont conservées trois ans au plus après le dernier contact.</li>
       <li><b>Sécurité :</b> les photographies sont réenregistrées sans leurs informations cachées (lieu de prise de vue, appareil). L’adresse de connexion n’est conservée que sous une forme chiffrée irréversible, pour limiter les abus.</li>
       <li><b>Vos droits :</b> accès, rectification, effacement, opposition, limitation, retrait du consentement, en écrivant à contact@lotier-immobilier.com. Le retrait d’un dessin se demande par le <a href="retrait.php">formulaire de retrait</a> ; il est effectué sous 72 heures. Vous pouvez adresser une réclamation à la CNIL (cnil.fr).</li>
     </ul>
