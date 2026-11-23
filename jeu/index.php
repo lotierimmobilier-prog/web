@@ -41,7 +41,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
 }
 $titre = $vedette ? 'Le dessin de ' . $vedette['prenom'] . ' | Concours de Noël LOTIER Immobilier' : 'Concours de Noël : dessine la maison du Père Noël | LOTIER Immobilier';
 $desc = $vedette ? texte_partage($vedette, $phase) : 'Concours de dessin de Noël de LOTIER Immobilier : dessine la maison du Père Noël, dépose ton dessin avant le ' . jour_mois(fin_depots()) . ' et fais voter tes proches. Gratuit, de 3 à 103 ans.';
-$image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $phase : JEU_URL . 'partage.jpg?v=1';
+$image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $phase . '&v=2' : JEU_URL . 'partage.jpg?v=1';
 ?><!doctype html>
 <html lang="fr">
 <head>
