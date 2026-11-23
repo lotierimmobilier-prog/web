@@ -132,8 +132,8 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
       <h3 class="sous-titre-pn">Et le lutin t’explique comment faire</h3>
       <div class="video-pn">
         <video controls playsinline preload="none" poster="lutin.jpg" width="960" height="540">
-          <source src="lutin.mp4?v=4" type="video/mp4">
-          <a href="lutin.mp4?v=4">Voir la vidéo du lutin</a>
+          <source src="lutin.mp4?v=5" type="video/mp4">
+          <a href="lutin.mp4?v=5">Voir la vidéo du lutin</a>
         </video>
       </div>
       <p class="petit">Vidéo de 24 secondes, avec le son. Les dates indiquées sont celles du concours. Personnage et voix créés par ordinateur.</p>
