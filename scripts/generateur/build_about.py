@@ -75,6 +75,13 @@ body += section("Nous joindre", "Téléphone et e-mail", f'''<div class="trio" d
         <article class="glass"><h3>Devenir agent</h3><p class="muted">Candidature au réseau.</p><a class="text-link" href="mailto:contact@lotier-immobilier.com">contact@lotier-immobilier.com</a></article>
       </div>''', "t-joindre")
 body += section("Nos agences", "Où nous trouver", f'<div class="trio" data-stagger>{offices}</div>', "t-agences")
+# Carte Google « autour de l'agence » : chargée seulement si le visiteur la demande (aucun appel à Google avant le clic).
+body += section("Autour de l’agence", "Le quartier de l’agence de Béziers", '''<div class="carte-quartier" data-carte-quartier>
+        <p>Commerces, restaurants, écoles, stationnement : découvrez ce qui entoure notre agence du 40 rue Française, à Béziers.</p>
+        <p><button type="button" class="btn btn-gold" data-carte-bouton>Afficher la carte interactive</button></p>
+        <p class="muted small">La carte est fournie par Google Maps. En l’affichant, votre navigateur se connecte aux serveurs de Google, qui reçoit alors votre adresse IP et peut déposer ses propres traceurs. <a class="text-link" href="../cookies/">En savoir plus</a>.</p>
+      </div>
+      <script>(function(){var z=document.querySelector('[data-carte-quartier]');if(!z)return;z.querySelector('[data-carte-bouton]').addEventListener('click',function(){var f=document.createElement('iframe');f.src='quartier.htm';f.title='Carte interactive du quartier de l’agence LOTIER Immobilier à Béziers';f.loading='lazy';f.className='carte-quartier-cadre';z.innerHTML='';z.appendChild(f);z.classList.add('ouverte');f.focus();});})();</script>''', "t-quartier")
 body += section("Votre demande", "Choisir le bon interlocuteur", f'''<ul class="plain-list">
         <li><a class="text-link" href="{prefix}index.html#estimer">Estimer mon bien</a> : demande d'estimation gratuite.</li>
         <li><a class="text-link" href="{prefix}location/">Location et gestion locative</a> : confier ou louer un bien.</li>

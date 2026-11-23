@@ -1396,3 +1396,10 @@ section[aria-labelledby^="eq-"] { padding-block: clamp(16px, 2vw, 28px); } secti
 .art-visuel figcaption { margin-top: 8px; font-size: 13.5px; color: var(--mut); }
 .prose ul.art-sources { font-size: 15px; }
 .art-sources a { color: var(--gold-t); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+
+/* Carte Google du quartier, page Contact : affichée à la demande. */
+.carte-quartier { border: 1px solid var(--line, rgba(15, 39, 68, .14)); border-radius: 18px; padding: 24px; background: #fff; max-width: 760px; }
+.carte-quartier p { margin: 0 0 14px; } .carte-quartier p:last-child { margin-bottom: 0; }
+.carte-quartier.ouverte { padding: 0; overflow: hidden; max-width: none; }
+.carte-quartier-cadre { display: block; width: 100%; height: min(640px, 80vh); border: 0; }
+@media (max-width: 640px) { .carte-quartier-cadre { height: 85vh; } }

@@ -356,6 +356,7 @@ legal_page("cookies", "Cookies et traceurs", "Ce que ce site enregistre sur votr
         <ul>
           <li><b>Auguste, l'assistant en ligne, et les formulaires</b> (contact, rappel, estimation) : ils sont fournis par Collab, le logiciel de gestion de LOTIER Immobilier. Ce que vous écrivez y est transmis pour vous répondre ; rien n'est envoyé tant que vous n'utilisez pas l'assistant ou un formulaire, à l'exception de l'image de l'assistant, chargée à l'ouverture de la page.</li>
           <li><b>Avis Google</b> : les avis sont affichés par le service Trustindex. Il n'est chargé que si vous cliquez sur le bouton d'affichage des avis sur la page d'accueil ; il peut alors déposer ses propres traceurs.</li>
+          <li><b>Carte du quartier</b> (page Contact) : elle est fournie par Google Maps. Elle n'est chargée que si vous cliquez sur « Afficher la carte interactive » ; Google reçoit alors votre adresse IP et peut déposer ses propres traceurs.</li>
           <li><b>Liens externes</b> (Google Maps pour un itinéraire, fiche Google, réseaux sociaux) : ce sont de simples liens. Aucune donnée n'est transmise tant que vous ne cliquez pas.</li>
         </ul>
         <p>Les polices de caractères, les images et les animations sont hébergées sur le site : leur affichage ne fait appel à aucun service tiers.</p>
