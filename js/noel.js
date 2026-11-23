@@ -46,6 +46,7 @@
     '.noel .noel-neige{display:block}' +
     '@keyframes noel-clin{0%,100%{opacity:1}50%{opacity:.45}}' +
     '@media (prefers-reduced-motion: no-preference){.noel-guirlande::before{animation:noel-clin 1.8s ease-in-out infinite}.noel-guirlande::after{animation:noel-clin 1.8s ease-in-out .9s infinite}}' +
+    '@media (max-width:1180px){.tb-noel .n-long{display:none}.tb-noel .n-court{display:inline}.topbar .tb-txt{display:none}}' +
     '@media (max-width:760px){.tb-noel .n-long{display:none}.tb-noel .n-court{display:inline}.tb-noel{gap:5px}.tb-noel svg{display:inline-block;width:14px;height:14px}.noel .tb-noel{padding-inline:9px}.noel-guirlande{height:25px;background-size:176px 25px}.noel-guirlande::before,.noel-guirlande::after{background-size:176px 25px}}' +
     '@media print{.noel-guirlande,.noel-neige,.tb-noel{display:none!important}}';
   d.head.appendChild(css);
@@ -111,7 +112,7 @@
     racine.classList.toggle('noel', actif);
     bouton.setAttribute('aria-pressed', actif ? 'true' : 'false');
     bouton.setAttribute('aria-label', actif ? 'Décor de Noël activé. Revenir au thème normal' : 'Activer le décor de Noël');
-    bouton.querySelector('.n-long').textContent = actif ? 'Revenir au thème normal' : 'Thème de Noël';
+    bouton.querySelector('.n-long').textContent = actif ? 'Thème normal' : 'Thème de Noël';
     bouton.querySelector('.n-court').textContent = actif ? 'Normal' : 'Noël';
     neige(actif);
   }
