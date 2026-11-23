@@ -42,7 +42,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
 }
 $titre = $vedette ? 'Le dessin de ' . $vedette['prenom'] . ' | Concours de Noël LOTIER Immobilier' : 'Concours de Noël : dessine la maison du Père Noël | LOTIER Immobilier';
 $desc = $vedette ? texte_partage($vedette, $phase) : 'Concours de dessin de Noël de LOTIER Immobilier : dessine la maison du Père Noël, dépose ton dessin avant le ' . jour_mois(fin_depots()) . ' et fais voter tes proches. Gratuit, de 3 à 103 ans.';
-$image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $phase . '&v=2' : JEU_URL . 'partage.jpg?v=1';
+$image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $phase . '&v=2' : JEU_URL . 'partage.jpg?v=2';
 ?><!doctype html>
 <html lang="fr">
 <head>
@@ -92,14 +92,14 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
           <div<?= $phase === 'depot' ? ' class="ici"' : '' ?>><dt>Dépôt des dessins</dt><dd>jusqu’au <?= h(jour_court(fin_depots())) ?></dd></div>
           <div<?= $phase === 'vote' ? ' class="ici"' : '' ?>><dt>Votes, un par jour</dt><dd><?= h(jour_court(debut_votes())) ?> → <?= h(jour_court(fin_votes())) ?></dd></div>
           <div><dt>Catégories d’âge</dt><dd>4</dd></div>
-          <div><dt>À gagner</dt><dd>12 bons cadeaux</dd></div>
+          <div><dt>À gagner</dt><dd>5 bons cadeaux</dd></div>
 <?php if ($compte): ?>          <div class="fort"><dt><?= $phase === 'depot' ? 'Il reste' : 'Il reste pour voter' ?></dt><dd><?= $j <= 1 ? 'dernier jour' : $j . ' jours' ?></dd></div>
 <?php endif; ?>
         </dl>
       </div>
     </section>
 
-    <div class="defile" aria-hidden="true"><div class="piste"><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>12 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i></div></div>
+    <div class="defile" aria-hidden="true"><div class="piste"><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>5 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>5 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>5 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i><span>La maison du Père Noël</span><i>✦</i><span>Concours de dessin</span><i>✦</i><span>De 3 à 103 ans</span><i>✦</i><span>Gratuit</span><i>✦</i><span>5 bons cadeaux à gagner</span><i>✦</i><span>Un vote par jour</span><i>✦</i></div></div>
 
     <section class="chiffres" aria-label="Le concours en chiffres">
       <div><b data-compte="<?= count($dessins) ?>"><?= count($dessins) ?></b><span><?= count($dessins) > 1 ? 'dessins en ligne' : 'dessin en ligne' ?></span></div>
