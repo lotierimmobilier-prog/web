@@ -1,7 +1,7 @@
 # Concours de Noël : pages dynamiques, jamais mises en cache ; fichiers internes non servis.
 DirectoryIndex index.php
 Options -Indexes
-<FilesMatch "^(lib\.php|README\.md)$">
+<FilesMatch "^(lib\.php|mails\.php|README\.md)$">
   Require all denied
 </FilesMatch>
 <IfModule mod_headers.c>

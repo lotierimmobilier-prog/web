@@ -196,3 +196,5 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
   45%, 100% { transform: translate(104vw, -24vw) rotate(-20deg) scale(.62); opacity: 0; }
 }
 @keyframes tangue { 50% { transform: translateY(-5px) rotate(-1.2deg); } }
+
+.petit { font-size: 14px; color: #5b6b80; margin-top: -4px; }

@@ -2,6 +2,7 @@
 // Concours de Noël : dépôt d'un dessin et vote. Réponses en JSON.
 declare(strict_types=1);
 require __DIR__ . '/lib.php';
+require __DIR__ . '/mails.php';
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') repondre(['erreur' => 'Méthode non autorisée.'], 405);
 $origine = $_SERVER['HTTP_ORIGIN'] ?? '';
@@ -49,6 +50,7 @@ if ($action === 'depot') {
                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
         ->execute([$jeton, $prenom, $age, categorie_de((int) $age), $email, $lien, $cp, $projet, $rappel, $tel, $infolettre, maintenant()->format('Y-m-d H:i:s'), ip()]);
     journal('depot', $jeton);
+    mails_envoyer('recu', (int) db()->lastInsertId());
     repondre(['ok' => true, 'jeton' => $jeton, 'prenom' => $prenom]);
 }
 

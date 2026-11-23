@@ -2,6 +2,7 @@
 // Concours de Noël LOTIER Immobilier : page publique (présentation, dépôt, galerie, votes, partage).
 declare(strict_types=1);
 require __DIR__ . '/lib.php';
+require __DIR__ . '/mails.php';
 entetes_page();
 
 $phase = phase();
@@ -61,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -183,6 +184,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
           </div>
           <p class="case"><input id="adulte" name="adulte" type="checkbox" value="1" required><label for="adulte">Je suis majeur. Si l’artiste a moins de 18 ans, je suis son parent ou son représentant légal, ou je dépose ce dessin avec leur accord. J’autorise LOTIER Immobilier à publier le dessin, le prénom et l’âge de l’artiste sur cette page.</label></p>
           <p class="case"><input id="reglement" name="reglement" type="checkbox" value="1" required><label for="reglement">J’ai lu et j’accepte le <a href="reglement.php" target="_blank" rel="noopener">règlement du concours</a>.</label></p>
+          <p class="petit">Vous recevrez par e-mail le suivi du concours (dessin en ligne, ouverture des votes, conseils pour être soutenu). Désinscription en un clic dans chaque message.</p>
         </fieldset>
         <fieldset><legend>Et si on parlait immobilier&nbsp;? <span class="facultatif">(facultatif)</span></legend>
           <div class="duo">
@@ -295,3 +297,6 @@ if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($fac
   <script src="app.js?v=5" defer></script>
 </body>
 </html>
+<?php
+if (mails_actifs()) { if (function_exists('fastcgi_finish_request')) fastcgi_finish_request(); try { mails_tournee(); } catch (Throwable $e) { journal('e-mails', 'erreur : ' . mb_substr($e->getMessage(), 0, 120)); } }
+
