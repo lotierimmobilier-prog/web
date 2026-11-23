@@ -74,6 +74,16 @@ $liste = $admin ? db()->query("SELECT d.*, (SELECT COUNT(*) FROM votes v WHERE v
 $compte = ['attente' => 0, 'valide' => 0, 'refuse' => 0];
 foreach ($liste as $d) $compte[$d['statut']]++;
 $champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
+$suivi = null;
+if ($admin) {
+    $jour = maintenant()->format('Y-m-d');
+    $un = fn(string $sql, array $p = []) => (function () use ($sql, $p) { $q = db()->prepare($sql); $q->execute($p); return (int) $q->fetchColumn(); })();
+    $suivi = ['total' => $un('SELECT COUNT(*) FROM votes'), 'jour' => $un('SELECT COUNT(*) FROM votes WHERE jour = ?', [$jour]), 'votants' => $un('SELECT COUNT(DISTINCT email) FROM votes'),
+              'par_jour' => db()->query('SELECT jour, COUNT(*) AS n FROM votes GROUP BY jour ORDER BY jour DESC LIMIT 30')->fetchAll(),
+              'alertes' => db()->query("SELECT v.jour, d.prenom, COUNT(*) AS n FROM votes v JOIN dessins d ON d.id = v.dessin_id GROUP BY v.jour, v.ip, v.dessin_id HAVING n >= 8 ORDER BY v.jour DESC, n DESC LIMIT 20")->fetchAll()];
+    $classement = array_fill_keys(array_keys(JEU_CATEGORIES), []);
+    foreach (dessins_valides() as $x) $classement[$x['categorie']][] = $x;
+}
 ?><!doctype html>
 <html lang="fr">
 <head>
@@ -91,6 +101,7 @@ $champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
     .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; }
     .ok { background: #dff3e4; color: #17502c; padding: 10px 14px; border-radius: 12px; font-weight: 600; }
     .diag { font-size: 14px; color: #4d5c70; } .diag code { background: #eef1f5; padding: 1px 5px; border-radius: 4px; }
+    .suivi { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 0 22px; } .adm .classement { max-width: none; } .adm .classement td, .adm .classement th { white-space: nowrap; } .adm .jours { max-width: 420px; }
     @media (max-width: 720px) { .ligne { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -114,13 +125,32 @@ $champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
 <?php else: ?>
   <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['refuse'] ?> refusé(s)</p>
   <p class="boutons"><a class="btn clair" href="admin.php">Actualiser</a><a class="btn clair" href="admin.php?export=participants">Exporter les participants (CSV)</a><a class="btn clair" href="admin.php?export=infolettre">Exporter les inscrits à la lettre d’information (CSV)</a><a class="btn clair" href="./" target="_blank" rel="noopener">Voir le concours</a></p>
+  <h2>Suivi des votes</h2>
+  <p><b><?= $suivi['total'] ?></b> vote(s) au total · <b><?= $suivi['jour'] ?></b> aujourd’hui · <b><?= $suivi['votants'] ?></b> votant(s) différent(s)</p>
+  <div class="suivi">
+<?php foreach (JEU_CATEGORIES as $cle => $nom): ?>
+    <table class="classement"><caption><?= h($nom) ?></caption><thead><tr><th>Rang</th><th>Prénom</th><th>Âge</th><th>Votes</th></tr></thead><tbody>
+<?php if (!$classement[$cle]): ?><tr><td colspan="4">Aucun dessin publié.</td></tr><?php endif; ?>
+<?php foreach ($classement[$cle] as $i => $x): ?><tr<?= $i < 3 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><?= h($x['prenom']) ?></td><td><?= (int) $x['age'] ?> ans</td><td><b><?= (int) $x['voix'] ?></b></td></tr><?php endforeach; ?>
+    </tbody></table>
+<?php endforeach; ?>
+  </div>
+<?php if ($suivi['par_jour']): ?>
+  <table class="classement jours"><caption>Votes par jour</caption><thead><tr><th>Jour</th><th>Votes</th></tr></thead><tbody>
+<?php foreach ($suivi['par_jour'] as $r): ?><tr><td style="width:auto"><?= h(fr_date($r['jour'])) ?></td><td><b><?= (int) $r['n'] ?></b></td></tr><?php endforeach; ?>
+  </tbody></table>
+<?php endif; ?>
+<?php if ($suivi['alertes']): ?>
+  <p class="message">À surveiller : beaucoup de votes pour un même dessin depuis une même connexion, le même jour.</p>
+  <ul><?php foreach ($suivi['alertes'] as $r): ?><li><?= h(fr_date($r['jour'])) ?> : <?= (int) $r['n'] ?> votes pour <?= h($r['prenom']) ?></li><?php endforeach; ?></ul>
+<?php endif; ?>
   <h2>Dessins</h2>
 <?php if (!$liste): ?><p>Aucun dessin pour le moment.</p><?php endif; ?>
 <?php foreach ($liste as $d): ?>
   <div class="ligne">
     <a href="image.php?d=<?= h($d['jeton']) ?>" target="_blank" rel="noopener"><img src="image.php?d=<?= h($d['jeton']) ?>&amp;v=1" alt="Dessin de <?= h($d['prenom']) ?>" loading="lazy"></a>
     <div>
-      <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'refuse' => 'Refusé'][$d['statut']] ?></span> · <?= (int) $d['voix'] ?> voix</p>
+      <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'refuse' => 'Refusé'][$d['statut']] ?></span> · <?= (int) $d['voix'] ?> vote(s)</p>
       <p>Adulte : <?= h($d['email']) ?><?= $d['lien'] !== '' ? ' (' . h($d['lien']) . ')' : '' ?></p>
       <p><?= $d['code_postal'] !== '' ? 'Code postal : ' . h($d['code_postal']) . ' · ' : '' ?><?= $d['projet'] !== '' ? 'Projet : ' . h(JEU_PROJETS[$d['projet']] ?? $d['projet']) . ' · ' : '' ?><?= $d['rappel'] ? '<b>À rappeler : ' . h($d['telephone']) . '</b> · ' : '' ?><?= $d['infolettre'] ? 'Lettre d’information : oui' : 'Lettre d’information : non' ?></p>
       <p class="diag">Déposé le <?= h($d['cree_le']) ?> · lien public : <code><?= h(JEU_URL . '?d=' . $d['jeton']) ?></code></p>

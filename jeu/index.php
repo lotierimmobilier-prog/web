@@ -24,7 +24,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
     $s = '<article class="carte" id="d-' . h($d['jeton']) . '" data-jeton="' . h($d['jeton']) . '" data-prenom="' . h($d['prenom']) . '" data-url="' . h($url) . '" data-texte="' . h(texte_partage($d, $phase)) . '">';
     $s .= '<a class="vue" href="image.php?d=' . h($d['jeton']) . '" target="_blank" rel="noopener"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=1" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
     $s .= '<div class="bas"><p class="qui"><b>' . h($d['prenom']) . '</b>, ' . (int) $d['age'] . ' ans</p>';
-    if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> voix' . ($phase === 'fini' && $rang >= 1 && $rang <= 3 ? ' · ' . ($rang === 1 ? '1er' : $rang . 'e') . ' prix' : '') . '</p>';
+    if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> ' . ($voix > 1 ? 'votes' : 'vote') . ($phase === 'fini' && $rang >= 1 && $rang <= 3 ? ' · ' . ($rang === 1 ? '1er' : $rang . 'e') . ' prix' : '') . '</p>';
     $s .= '<div class="actions">';
     if ($phase === 'vote') $s .= '<button type="button" class="btn rouge" data-voter>Voter pour ' . h($d['prenom']) . '</button>';
     $s .= '<button type="button" class="btn clair" data-partager>Partager</button></div></div></article>';
@@ -153,6 +153,12 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
       <p class="vide">Les premiers dessins arrivent… Le vôtre sera peut-être le premier&nbsp;!</p>
 <?php else: foreach (JEU_CATEGORIES as $cle => $nom): if (!$parCat[$cle]) continue; ?>
       <h3 class="cat"><?= h($nom) ?> <span>(<?= count($parCat[$cle]) ?>)</span></h3>
+<?php if ($phase !== 'depot'): ?>
+      <table class="classement"><caption>Classement, <?= h(mb_strtolower($nom)) ?></caption>
+        <thead><tr><th scope="col">Rang</th><th scope="col">Prénom</th><th scope="col">Âge</th><th scope="col">Votes</th></tr></thead>
+        <tbody><?php foreach ($parCat[$cle] as $i => $d): ?><tr<?= $i < 3 ? ' class="podium"' : '' ?>><td><?= $i + 1 ?></td><td><a href="#d-<?= h($d['jeton']) ?>"><?= h($d['prenom']) ?></a></td><td><?= (int) $d['age'] ?> ans</td><td><b><?= (int) $d['voix'] ?></b></td></tr><?php endforeach; ?></tbody>
+      </table>
+<?php endif; ?>
       <div class="grille"><?php foreach ($parCat[$cle] as $i => $d) echo carte($d, $phase, $i + 1); ?></div>
 <?php endforeach; endif; ?>
     </section>

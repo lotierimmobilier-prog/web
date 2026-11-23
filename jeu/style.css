@@ -58,7 +58,7 @@ legend { font-weight: 600; font-size: 20px; color: var(--nuit); padding: 0; marg
 .facultatif { font-weight: 400; font-size: 14px; color: #5b6b80; }
 .formulaire p { margin: 0 0 14px; }
 label { display: block; font-weight: 600; color: var(--nuit); margin-bottom: 5px; font-size: 16px; }
-input[type=text], input[type=email], input[type=number], input[type=tel], input[type=file], select, textarea { width: 100%; font: inherit; color: var(--nuit); background: #fff; border: 1.5px solid rgba(15, 39, 68, .32); border-radius: 12px; padding: 11px 13px; min-height: 48px; }
+input[type=text], input[type=email], input[type=number], input[type=tel], input[type=password], input[type=file], select, textarea { width: 100%; font: inherit; color: var(--nuit); background: #fff; border: 1.5px solid rgba(15, 39, 68, .32); border-radius: 12px; padding: 11px 13px; min-height: 48px; }
 textarea { min-height: 110px; resize: vertical; }
 small { display: block; color: #5b6b80; font-size: 14px; margin-top: 4px; }
 .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
@@ -81,6 +81,12 @@ small { display: block; color: #5b6b80; font-size: 14px; margin-top: 4px; }
 .carte .bas { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .carte p { margin: 0; } .qui { font-size: 18px; color: var(--nuit); } .voix { color: var(--rouge-f); font-weight: 600; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; } .actions .btn { flex: 1 1 auto; min-height: 44px; padding: 8px 14px; font-size: 15.5px; }
+.classement { width: 100%; max-width: 560px; border-collapse: collapse; background: #fff; border: 1px solid var(--trait); border-radius: 14px; overflow: hidden; margin: 0 0 18px; font-size: 16px; }
+.classement caption { text-align: left; font-weight: 600; color: var(--nuit); padding: 0 0 6px; }
+.classement th, .classement td { padding: 8px 14px; text-align: left; border-top: 1px solid var(--trait); }
+.classement thead th { background: var(--nuit); color: #fff; font-size: 13.5px; letter-spacing: .04em; text-transform: uppercase; border-top: 0; }
+.classement td:first-child, .classement th:first-child { width: 64px; } .classement td:last-child, .classement th:last-child { text-align: right; }
+.classement tr.podium td:first-child { font-weight: 600; color: var(--rouge-f); }
 .vedette .carte { border: 2px solid var(--rouge); }
 .vide { background: #fff; border: 1px dashed rgba(15, 39, 68, .3); border-radius: 20px; padding: 28px; text-align: center; font-size: 18px; }
 
