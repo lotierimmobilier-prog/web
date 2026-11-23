@@ -200,7 +200,7 @@ if ($admin) {
     <p><label for="nmdp">Changer le mot de passe</label><input id="nmdp" name="mdp" type="password" required minlength="12" autocomplete="new-password"></p>
     <p><button class="btn clair" type="submit">Changer</button></p>
   </form>
-  <p class="diag">Données rangées dans <code><?= h(dossier()) ?></code> (<?= str_starts_with(dossier(), __DIR__) ? '<b>dans le dossier public : à signaler</b>' : 'hors du dossier public' ?>) · PHP <?= h(PHP_VERSION) ?> · traitement d’image : <?= function_exists('imagecreatefromjpeg') ? 'oui' : '<b>absent</b>' ?> · adresse vue par le serveur : <code><?= h($_SERVER['REMOTE_ADDR'] ?? '') ?></code>, retenue : <code><?= h(ip_brute()) ?></code></p>
+  <p class="diag">Données rangées dans <code><?= h(dossier()) ?></code> (<?= str_starts_with(dossier(), __DIR__) ? '<b>dans le dossier public : à signaler</b>' : 'hors du dossier public' ?>) · PHP <?= h(PHP_VERSION) ?> · traitement d’image : <?= function_exists('imagecreatefromjpeg') ? 'oui' : '<b>absent</b>' ?> · texte sur les images de partage : <?= function_exists('imagettftext') ? 'oui' : '<b>absent</b> (le dessin seul est partagé)' ?> · adresse vue par le serveur : <code><?= h($_SERVER['REMOTE_ADDR'] ?? '') ?></code>, retenue : <code><?= h(ip_brute()) ?></code></p>
   <form method="post"><?= $champ_csrf ?><button class="btn clair" name="action" value="deconnexion">Se déconnecter</button></form>
 <?php endif; ?>
 </main>
