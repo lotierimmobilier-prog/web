@@ -200,21 +200,21 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
+ 350 000 €
 
-### Capendu studio meublé vendu loué terrasse renta brute
+### Ensemble immobilier de 6 lots
 
- Capendu · 27,4 m²
+ Capendu · 400 m² · 7 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
 
- 330 000 €
+ 60 000 €
 
-### Carcassonne Confort, élégance et espace pour toute la fami
+### Fond de commerce à vendre Axe principal traversant Capendu
 
- Carcassonne · 240 m² · 5 ch.
+ Capendu · 120 m²
 
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

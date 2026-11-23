@@ -1,18 +1,18 @@
 # Maison 6 pièces 127 m² à vendre à Comigne
 
-> Maison 6 pièces 127 m² à vendre à Comigne, 5 chambres, 239 000 €. Maison familiale rénovée avec piscine et sous-sol total Comigne Située à Comigne, charmant…
+> Maison 6 pièces 127 m² à vendre à Comigne, 5 chambres, 219 000 €. Maison familiale rénovée avec piscine et sous-sol total Comigne Située à Comigne, charmant…
 
 Source : https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/
 
 Maison avec jardin et piscine à Comigne
 
-**239 000 €** · Comigne · 127 m² · 5 chambres · 2 salles d'eau/bain
+**219 000 €** · Comigne · 127 m² · 5 chambres · 2 salles d'eau/bain
 
  VENTE 1 / 12
 
 ## En bref
 
-Maison de 127 m² à vendre à Comigne (Aude, 11) : 6 pièces, 5 chambres et 2 salles d'eau ou de bain. Prix : 239 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 289 m², terrasse, piscine, garage et parking. Construction de 1900, exposition nord sud, classe énergie B (96 kWh/m²/an), classe climat A. Référence 2_BBV30000907, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 127 m² à vendre à Comigne (Aude, 11) : 6 pièces, 5 chambres et 2 salles d'eau ou de bain. Prix : 219 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 289 m², terrasse, piscine, garage et parking. Construction de 1900, exposition nord sud, classe énergie B (96 kWh/m²/an), classe climat A. Référence 2_BBV30000907, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -151,7 +151,7 @@ Oui
 
 ## Détail du prix
 
-- Prix **239 000 €** *Frais d'agence inclus*
+- Prix **219 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
@@ -197,7 +197,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 239 000 €
+ 219 000 €
 
 Réf. 2_BBV30000907
 
@@ -234,25 +234,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -268,6 +250,8 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
+## Biens à proximité
+
  45 000 €
 
 ### Garage viabilisé de 134 m2 sur deux niveaux
@@ -275,6 +259,22 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 134 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+
+ 170 000 €
+
+### Immeuble avec 1 local commercial et 1 T4
+
+ Carcassonne · 170 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
+
+ 230 000 €
+
+### Immeuble de rapport
+
+ Carcassonne · 166 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

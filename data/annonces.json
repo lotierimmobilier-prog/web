@@ -1,7 +1,336 @@
 {
- "maj": "2026-11-22",
+ "maj": "2026-11-23",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "appartement-meuble-1-chambre",
+   "titre": "Appartement meublé 1 chambre",
+   "ville": "Carcassonne",
+   "type": "location",
+   "prix": 515.0,
+   "surface": 38.0,
+   "chambres": 1,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>A LOUER à CARCASSONNE, 55 rue du 4 septembre (11) – Appartement meublé de 38 m2 comprenant 1 chambre, un sejour/cuisine et une salle d’eau avec WC, l’appartement se situe au 1er étage d’un immeuble rénové entièrement. Environnement calme.</p><p>Assurance loyer impayé. Disponible immédiatement. Attention, certains éléments des photos appartiennent aux locataires, donc ne seront pas présents.</p><p>Loyer charges comprises : 515EUR par mois (uniquement ordures ménagères, ménage et éclairage des parties communes). L’eau et l’électricité restent à la charge du locataire.</p><p>Dépôt de garantie : 485EUR (un mois de loyer hors charges)</p><p>Honoraires de l’angence : 418EUR dont 114EUR pour l’état des lieux</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Appartement"
+      ],
+      [
+       "Surface habitable",
+       "38 m²"
+      ],
+      [
+       "Pièces",
+       "2"
+      ],
+      [
+       "Chambres",
+       "1"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Étage",
+       "1 / 3"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel électrique"
+      ],
+      [
+       "Cuisine",
+       "Américaine équipée"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Loyer charges comprises",
+       "515 € / mois"
+      ],
+      [
+       "Provisions sur charges",
+       "30 € / mois"
+      ],
+      [
+       "Honoraires état des lieux (TTC, charge locataire)",
+       "114 €"
+      ],
+      [
+       "Modalités de règlement des charges",
+       "Prévisionnelles mensuelles avec régularisation annuelle"
+      ],
+      [
+       "Dépôt de garantie",
+       "485 €"
+      ],
+      [
+       "Caractère meublé",
+       "Location meublée"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "9"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Secteur",
+       "Centre ville"
+      ],
+      [
+       "Ville",
+       "Carcassonne"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBLAP30000509",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 169,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 620,
+    "depenses_max": 880,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "honoraires": {
+    "locataire": 418,
+    "etat_des_lieux": 114
+   },
+   "photo": "assets/annonces/appartement-meuble-1-chambre.jpg",
+   "photos": [
+    "assets/annonces/appartement-meuble-1-chambre-1.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-3.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-4.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-5.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-6.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-7.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_c1f48f9e4d035b304ff2570a0d22e211.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_77a48e134198939cc8de4c27cbb1269a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_075779f305a292030b097dd6799b66bf.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_9b23b375ba24449cbfe4dc5f67a3975e.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_19aa4fa5b490035558e9617036b32570.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_065ecf5025d2fee8ac0978bbc68ee898.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_14ca107e363b5bda90d883301e7ed211.jpg"
+   ],
+   "schema": 3
+  },
+  {
+   "id": "maison-de-village-4-pieces-114-m2-renovee-quarante",
+   "titre": "Maison de village 4 pièces 114 m2, rénovée, Quarante",
+   "ville": "Quarante",
+   "type": "vente",
+   "prix": 142000.0,
+   "surface": 102.72,
+   "chambres": 3,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>Maison de village de 102 m2 habitables (114m2 avec la partie mansardée), à vendre à Quarante (Hérault), proposée à 142 000 EUR (honoraires à la charge du vendeur). Le bien se développe sur trois niveaux et affiche un excellent état général, sans travaux à prévoir.</p><p>Le rez-de-chaussée s’ouvre sur un séjour traversant de 38 m2 avec cuisine ouverte entièrement équipée — plaque à induction, four et micro-ondes encastrés, hotte et lave-vaisselle. Une cheminée à insert et un parquet stratifié confèrent à cet espace un caractère chaleureux. Ce niveau comprend également une salle d’eau avec douche, vasque et WC, ainsi que l’emplacement pour le lave-linge.</p><p>Au premier étage se trouvent deux chambres climatisées, dont une avec espace dressing, une salle de bain avec baignoire, douche et double vasque, ainsi qu’un WC indépendant.</p><p>Le second étage accueille une troisième grande chambre, elle aussi climatisée, avec une partie mansardée et un velux.</p><p>L’ensemble du logement bénéficie d’une VMC et d’une climatisation multi-splits réversible, assurant le chauffage et la climatisation en toutes saisons. Les menuiseries extérieures sont en PVC double vitrage, garantissant une bonne isolation phonique et thermique. Le bien affiche une classe énergétique DPE C.</p><p>Le bien est sans extérieur et sans stationnement privatif.</p><p>Quarante est un village de l’Hérault situé dans le Minervois, à environ 25 kilomètres à l’ouest de Béziers. Les commerces de première nécessité, l’école primaire et les services de proximité sont accessibles dans le village ou dans les communes voisines.</p><p>Bien référencé par LOTIER Immobilier, agence indépendante présente à Béziers, Narbonne, Carcassonne et dans l’Aude.</p><p>Honoraires à la charge du vendeur. Prix : 142 000 EUR.</p><p>Informations sur les risques auxquels ce bien est exposé disponibles sur le site Géorisques.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Maison/villa"
+      ],
+      [
+       "Surface habitable",
+       "102.72 m²"
+      ],
+      [
+       "Pièces",
+       "4"
+      ],
+      [
+       "Chambres",
+       "3"
+      ],
+      [
+       "Salles de bain",
+       "1"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "2"
+      ],
+      [
+       "Nombre d'étages",
+       "3"
+      ],
+      [
+       "Terrain",
+       "93 m²"
+      ],
+      [
+       "Année de construction",
+       "1948"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel"
+      ],
+      [
+       "Cuisine",
+       "Américaine équipée"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "142 000 €"
+      ],
+      [
+       "Charge honoraires",
+       "Vendeur"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Quarante"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBVMA30001061",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 119,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 770,
+    "depenses_max": 1100,
+    "prix_energies": "01/01/2024"
+   },
+   "mentions_prix": [],
+   "honoraires": null,
+   "photo": "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante.jpg",
+   "photos": [
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-1.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-2.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-3.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-4.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-5.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-6.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-7.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-8.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-9.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-10.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-11.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-12.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_2fe77ef9f6914de83adbb4b90f22271f.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_313edd3e70bcdfe68e8f17090d79e258.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_91e1a85ef70ca48d15e006e9ae632a00.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_1b01917ad16b2452be733c19ff44282e.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_16cfd76e30d1aafb4c8909bf82dfb027.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_a1732de2bba0bd50dad230d05a1a6270.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_deea01ddddbf2d545e0a6d579d16646b.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_de1003a35ee2c504109c21c0f5a1e7de.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_0deab1fe5e2d9b06ee0e8be00ff2347d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_9e9e0c9f4ce3b58811c53579fa0accfd.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_fd0542a4642e36bd51ca32c89b5dc3f8.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_8e3ee27d47b54f7b50c95e3563467b99.png"
+   ],
+   "schema": 3
+  },
   {
    "id": "maison-125-m2-cour-garage-vendue-louee-capendu",
    "titre": "Maison 125 m2, cour, garage, vendue louée, Capendu",
@@ -425,191 +754,6 @@
    "schema": 3
   },
   {
-   "id": "maison-de-village-renovee-avec-climatisation-louee-meublee-2",
-   "titre": "Maison de village rénovée avec climatisation louée meublée",
-   "ville": "Conques-sur-Orbiel",
-   "type": "location",
-   "prix": 650.0,
-   "surface": 81.5,
-   "chambres": 2,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2 (climatisation, double vitrage, volets roulants).</p><p>La maison comprend un rez-de-chaussée un hall pour accéder à la maison. Au premier étage, une cuisine aménagée et équipée, un séjour et une buanderie avec WC. Au second étage, deux chambres et une salle d’eau avec WC.</p><p>Cette maison est meublée et décorée avec goût, tout est neuf.</p><p>Les compteurs EDF et EAU restent à votre charge. Assurance loyer impayé, votre dossier devra être validé avant l’organisation de la visite. Dépôt de garantie : deux mois de loyer. Pas de garage, places de stationnement gratuites à quelques mètres.</p><p>Libre fin septembre</p><p>Loyer : 650EUR charges comprises (dont 20EUR de charges)</p><p>Dépôt de garantie : 1260EUR</p><p>Honoraires de l’agence : 400EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "81.5 m²"
-      ],
-      [
-       "Pièces",
-       "3"
-      ],
-      [
-       "Chambres",
-       "2"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "WC",
-       "2"
-      ],
-      [
-       "Nombre d'étages",
-       "3"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel"
-      ],
-      [
-       "Cuisine",
-       "Séparée équipée"
-      ],
-      [
-       "Exposition",
-       "Nord Ouest"
-      ],
-      [
-       "Climatisation",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "650 € / mois"
-      ],
-      [
-       "Provisions sur charges",
-       "20 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "244,50 €"
-      ],
-      [
-       "Modalités de règlement des charges",
-       "Prévisionnelles mensuelles avec régularisation annuelle"
-      ],
-      [
-       "Dépôt de garantie",
-       "1 260 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "2"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Conques-sur-Orbiel"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLMA30001058",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 112,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 3,
-     "classe": "A"
-    },
-    "depenses_min": 760,
-    "depenses_max": 1080,
-    "prix_energies": "01/01/2021"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 20 € de provisions sur charges",
-    "Location meublée"
-   ],
-   "honoraires": {
-    "locataire": 400,
-    "etat_des_lieux": 244.5
-   },
-   "photo": "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2.jpg",
-   "photos": [
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-1.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-2.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-3.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-4.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-5.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-6.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-7.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-8.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-9.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-10.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-11.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2-12.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_69932235d7c0d0f59626049592f71541.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_998807288c376f9513a9374c55a4f954.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_27f24681bfe452de60a4d800e256f913.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_2e416718381fd8ac31e1b34cc2aa4645.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_a1f5cb2961804ee9130581a8978ce86f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_9b9d2507b95561592ff60503726be4bb.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_31632ca8b4bff8d08d5239cf454180b1.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_3c35998f0780abdf459af10428ede77a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_2e04724001e672301d263e6e42b68382.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_dba7b776bed0ebbedab3b6ff55601e4d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_113d7769c14cb8bd189e9d1b7b5b1a1a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f0bb8ff7abab40596dbca3acda886138/photo_a3b2eee891af42ab3b3a9e401341c7d6.jpg"
-   ],
-   "schema": 3
-  },
-  {
    "id": "marguerittes-immeuble-avec-local-commercial-et-deux-appart",
    "titre": "MARGUERITTES – IMMEUBLE AVEC LOCAL COMMERCIAL ET DEUX APPART",
    "ville": "Marguerittes",
@@ -732,464 +876,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/0c580430efe76420791898456c94808f/photo_3af5592cc302078c2cbcda63e8c91c31.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/0c580430efe76420791898456c94808f/photo_b90b045eca11b58b9c0a07175d50656f.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/0c580430efe76420791898456c94808f/photo_f91ac6f0705d9fb79a2edcbb510dc638.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "maison-de-village-avec-terrasse",
-   "titre": "Maison de village avec terrasse",
-   "ville": "Capendu",
-   "type": "location",
-   "prix": 750.0,
-   "surface": 95.0,
-   "chambres": 4,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>A louer : Maison de village avec quatre chambres et une terrasse Capendu (11)</p><p>Située au coeur de Capendu, village dynamique disposant de toutes les commodités (médecins, pharmacie, commerces, salle de spectacle, piscine), cette maison de 95m2 sur trois niveaux allie charme de l’ancien et rénovations récentes.</p><p>Une belle terrasse au calme :</p><p>L’un des atouts majeurs de cette maison est sa grande terrasse de 33m2, à l’abri des regards, idéale pour profiter des beaux jours. Un cabanon bâti y est également présent, offrant un espace de rangement supplémentaire.</p><p>Rez-de-chaussée :</p><p>Ce niveau accueille une pièce de vie de 22m2, agrémentée d’une cuisine ouverte. Une cave de 3,4m2 complète cet étage, offrant un espace de stockage pratique.</p><p>Premier étage :</p><p>L’espace nuit comprend deux chambres : Une chambre de 11,6m2 avec dressing, une deuxième chambre de 12,4m2 avec vue dégagée. Ce niveau comprend également une salle de bain avec WC.</p><p>Deuxième étage :</p><p>Avec une surface totale de 40m2, ce niveau comprend deux chambres de 11m2 et 20m2, à rénover selon vos besoins : chambres supplémentaires, bureau, espace de loisirs…</p><p>Climatisation au rez-de-chaussée et au deuxième étage.</p><p>Loyer : 750EUR CC (le locataire devra souscrire un abonnement d’eau et d’électricité, seule la taxe d’ordures ménagères est comprise dans les charges)</p><p>Dépôt de garantie : 730EUR</p><p>Honoraires de l’agence : 700EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "95 m²"
-      ],
-      [
-       "Pièces",
-       "5"
-      ],
-      [
-       "Chambres",
-       "4"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Nombre d'étages",
-       "3"
-      ],
-      [
-       "Terrain",
-       "33 m²"
-      ],
-      [
-       "Année de construction",
-       "1948"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel"
-      ],
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Exposition",
-       "Nord"
-      ],
-      [
-       "Terrasse",
-       "Oui"
-      ],
-      [
-       "Cave",
-       "Oui"
-      ],
-      [
-       "Climatisation",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "750 € / mois"
-      ],
-      [
-       "Charges récupérables",
-       "20 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "285 €"
-      ],
-      [
-       "Dépôt de garantie",
-       "730 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location non meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Capendu"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLMA30000998",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 151,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 4,
-     "classe": "A"
-    },
-    "depenses_min": 890,
-    "depenses_max": 1250,
-    "prix_energies": "01/01/2021"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 20 € de charges récupérables",
-    "Location non meublée"
-   ],
-   "honoraires": {
-    "locataire": 700,
-    "etat_des_lieux": 285
-   },
-   "photo": "assets/annonces/maison-de-village-avec-terrasse.jpg",
-   "photos": [
-    "assets/annonces/maison-de-village-avec-terrasse-1.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-2.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-3.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-4.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-5.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-6.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-7.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-8.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-9.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-10.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-11.jpg",
-    "assets/annonces/maison-de-village-avec-terrasse-12.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_a014dafb1f8f3f26691d0a4c8a9fdec3.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_513f3edd20c705ec69013a9ba1d39550.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_92de587b1f11d07a170206282782f0ee.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_50b93789581e8b7701c1c8902009b2dd.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_bbe6ba96ecb61ebe939d157d818bebbc.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_68e108a7345be907e6922357238359dd.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_8133a46c36327ba9a8b7992e266fb473.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_130e91f5b89c0f6faa1b84c9a68f2559.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_f785ab94069b5d725de49fc6ea8fc1ee.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_0c103a4d2dcfbb2a753fc2155e167ea3.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_237b0b844a7f44cd5cdeaa23c2dcf2d6.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1efdc9f1713481bd65da39ecf3cca0a0/photo_1a22fbbf64b4b1991b142ceeb1b802ae.png"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "maison-de-village-renovee-avec-climatisation-louee-meublee",
-   "titre": "Maison de village rénovée avec climatisation louée meublée",
-   "ville": "Conques-sur-Orbiel",
-   "type": "location",
-   "prix": 650.0,
-   "surface": 81.5,
-   "chambres": 2,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>A LOUER à CONQUES-SUR-ORBIEL (11) – Maison de village meublée renovée de 81,5m2 (climatisation, double vitrage, volets roulants).</p><p>La maison comprend un rez-de-chaussée un hall pour accéder à la maison. Au premier étage, une cuisine aménagée et équipée, un séjour et une buanderie avec WC. Au second étage, deux chambres et une salle d’eau avec WC.</p><p>Cette maison est meublée et décorée avec goût, tout est neuf.</p><p>Les compteurs EDF et EAU restent à votre charge. Assurance loyer impayé, votre dossier devra être validé avant l’organisation de la visite. Dépôt de garantie : deux mois de loyer. Pas de garage, places de stationnement gratuites à quelques mètres.</p><p>Libre fin septembre</p><p>Loyer : 650EUR charges comprises (dont 20EUR de charges)</p><p>Dépôt de garantie : 1260EUR</p><p>Honoraires de l’agence : 400EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "81.5 m²"
-      ],
-      [
-       "Pièces",
-       "3"
-      ],
-      [
-       "Chambres",
-       "2"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "WC",
-       "2"
-      ],
-      [
-       "Nombre d'étages",
-       "3"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Cuisine",
-       "Séparée équipée"
-      ],
-      [
-       "Exposition",
-       "Nord Ouest"
-      ],
-      [
-       "Climatisation",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "650 € / mois"
-      ],
-      [
-       "Provisions sur charges",
-       "20 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "244,50 €"
-      ],
-      [
-       "Modalités de règlement des charges",
-       "Prévisionnelles mensuelles avec régularisation annuelle"
-      ],
-      [
-       "Dépôt de garantie",
-       "1 260 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "2"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Conques-sur-Orbiel"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLMA30000533",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 112,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 3,
-     "classe": "A"
-    },
-    "depenses_min": 760,
-    "depenses_max": 1080,
-    "prix_energies": "01/01/2021"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 20 € de provisions sur charges",
-    "Location meublée"
-   ],
-   "honoraires": {
-    "locataire": 400,
-    "etat_des_lieux": 244.5
-   },
-   "photo": "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee.jpg",
-   "photos": [
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-1.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-3.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-4.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-5.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-6.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-7.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-8.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-9.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-10.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-11.jpg",
-    "assets/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-12.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_2e416718381fd8ac31e1b34cc2aa4645.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_69932235d7c0d0f59626049592f71541.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_27f24681bfe452de60a4d800e256f913.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_998807288c376f9513a9374c55a4f954.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_a1f5cb2961804ee9130581a8978ce86f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_9b9d2507b95561592ff60503726be4bb.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_31632ca8b4bff8d08d5239cf454180b1.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_3c35998f0780abdf459af10428ede77a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_2e04724001e672301d263e6e42b68382.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_dba7b776bed0ebbedab3b6ff55601e4d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_113d7769c14cb8bd189e9d1b7b5b1a1a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/0e00fdefaa56c8063be364f62c4307aa/photo_a3b2eee891af42ab3b3a9e401341c7d6.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "a-louer-local-commercial-avec-mezzanine-entre-beziers-et",
-   "titre": "À LOUER LOCAL COMMERCIAL AVEC MEZZANINE ENTRE BÉZIERS ET",
-   "ville": "Béziers",
-   "type": "location",
-   "prix": 195.0,
-   "surface": 20.0,
-   "chambres": null,
-   "sdb": null,
-   "badges": [
-    "Exclusivité"
-   ],
-   "description_html": "<p>Idéalement situé entre Béziers et Maraussan, à seulement 5 minutes de l’accès à la rocade et du stade de la Présidente, ce local commercial bénéficie d’un emplacement stratégique et facilement accessible.</p><p>En bon état général, il dispose d’une surface d’environ 20 m2 au sol, complétée par une mezzanine de 12 m2, offrant un espace supplémentaire particulièrement pratique pour le rangement ou le stockage.</p><p>À l’extérieur, une possibilité de stationnement pour un véhicule vient compléter ce bien.</p><p>Grâce à sa situation géographique et à sa configuration fonctionnelle, ce local conviendra parfaitement à une activité de stockage ou à un professionnel recherchant un espace complémentaire.</p><p>Possibilité de louer l’ensemble immobilier selon la nature et les besoins de votre projet.</p><p>Ses points forts :</p><ul><li>Emplacement stratégique entre Béziers et Maraussan, proche de la rocade</li><li>Surface de 20 m2 avec mezzanine de 12 m2.</li><li>Bon état général, stationnement extérieur et possibilité de location de l’ensemble.</li></ul><p>Afin de vous accompagner dans votre projet de location commerciale, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite.</p><p>Pour plus de renseignements, merci de joindre votre agence Lotier Immobilier au 04.67.11.28.31 ou Laetitia Dias au 06.09.76.63.24.</p><p>Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Local"
-      ],
-      [
-       "Surface habitable",
-       "20 m²"
-      ],
-      [
-       "Année de construction",
-       "1900"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "195 € / mois"
-      ],
-      [
-       "Charges récupérables",
-       "5 € / mois"
-      ],
-      [
-       "Dépôt de garantie",
-       "200 €"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Béziers"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "15_DLLCO170001039",
-   "agent": {
-    "nom": "LAETITIA DIAS",
-    "email": "laetitia.dias@lotier-immobilier.com",
-    "telephone": "0609766324",
-    "photo": null
-   },
-   "energie": null,
-   "mentions_prix": [
-    "Charges comprises, dont 5 € de charges récupérables"
-   ],
-   "honoraires": {
-    "locataire": 160
-   },
-   "photo": "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et.jpg",
-   "photos": [
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-1.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-2.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-3.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-4.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-5.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-6.jpg",
-    "assets/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et-7.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_062cac32865290492850c77a7e61bc9f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_21c8b31ee1a1807a806964d27fa8662f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_642fa86602bfe8c8dcb61894b418eeda.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_749d0e48ca64f9e3c7e6b8d4dffb5bc7.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_7734f5ebe8587317cb8e729e3edce277.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_fa721706368979bc385dcce1deaf7260.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/e8689037035742ca0ae2be2ce7348d6f/photo_ef8f97176236fd464a5dba30bdeb9b4a.jpg"
    ],
    "schema": 3
   },
@@ -1983,7 +1669,7 @@
    "titre": "LOCAL COMMERCIAL BOULEVARD DE GENÈVE",
    "ville": "Béziers",
    "type": "vente",
-   "prix": 450.0,
+   "prix": 847.0,
    "surface": 77.0,
    "chambres": null,
    "sdb": null,
@@ -2017,7 +1703,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "450 €"
+       "847 €"
       ],
       [
        "Charge honoraires",
@@ -3075,166 +2761,6 @@
    "schema": 3
   },
   {
-   "id": "appartement-t2-meuble-a-capendu",
-   "titre": "Appartement T2 meublé à Capendu",
-   "ville": "Capendu",
-   "type": "location",
-   "prix": 450.0,
-   "surface": 33.4,
-   "chambres": 1,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>Appartement de 33m2 au rez-de-chaussée d’un petit immeuble comprenant trois appartements au centre de Capendu. Cet appartement, loué meublé, comprend une pièce de vie avec cuisine équipée, une chambre, une salle d’eau avec WC et un box avec banchement pour la machine à laver. Il a été entièrement rafraichi en novembre 2025. Tous les équipements : vaiselle, lit, canapé, ont 1 an et n’ont été utilisé que par un locataire.</p><p>Loyer : 450EUR charges comprises dont 20EUR de charges (taxe d’ordures ménagères, eau), l’électricité sera à la charge du locataire en prenant le compteur à son nom.</p><p>Dépôt de garantie : 860 EUR</p><p>Honoraires de l’agence : 360EUR</p><p>Libre en novembre 2026</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "33.4 m²"
-      ],
-      [
-       "Pièces",
-       "2"
-      ],
-      [
-       "Chambres",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Nombre d'étages",
-       "2"
-      ],
-      [
-       "Année de construction",
-       "1948"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique radiateur"
-      ],
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Ascenseur",
-       "Non"
-      ],
-      [
-       "Cave",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "450 € / mois"
-      ],
-      [
-       "Provisions sur charges",
-       "20 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "100,20 €"
-      ],
-      [
-       "Modalités de règlement des charges",
-       "Prévisionnelles mensuelles avec régularisation annuelle"
-      ],
-      [
-       "Dépôt de garantie",
-       "860 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Capendu"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLAP30000805",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 259,
-     "classe": "D"
-    },
-    "ges": {
-     "valeur": 8,
-     "classe": "B"
-    },
-    "depenses_min": 720,
-    "depenses_max": 1020,
-    "prix_energies": "01/01/2024"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 20 € de provisions sur charges",
-    "Location meublée"
-   ],
-   "honoraires": {
-    "locataire": 360,
-    "etat_des_lieux": 100.2
-   },
-   "photo": "assets/annonces/appartement-t2-meuble-a-capendu.jpg",
-   "photos": [
-    "assets/annonces/appartement-t2-meuble-a-capendu-1.jpg",
-    "assets/annonces/appartement-t2-meuble-a-capendu-2.jpg",
-    "assets/annonces/appartement-t2-meuble-a-capendu-3.jpg",
-    "assets/annonces/appartement-t2-meuble-a-capendu-4.jpg",
-    "assets/annonces/appartement-t2-meuble-a-capendu-5.jpg",
-    "assets/annonces/appartement-t2-meuble-a-capendu-6.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_0da834e63122eed80405220cdb16cfc1.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_862404c7860e945bab90f47355140a62.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_2d6ef25140dedc8a9ef496883301cf8d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_5b7b0e9cad35d91c8792bdd83a439484.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_7bd0d3aaa432f208aea41952ad85ee44.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/09f5fa58738824916cc82c1e0efbbc12/photo_ab046ce04487e32b744b92d59b2f25b6.jpg"
-   ],
-   "schema": 3
-  },
-  {
    "id": "clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison",
    "titre": "Clarensac dans la vaunage entre Nîmes et Montpellier maison",
    "ville": "Clarensac",
@@ -3995,157 +3521,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/d4a6634b22b6c57706f4c74edabe9091/photo_0288728c80229d260893d06e5388d6d1.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/d4a6634b22b6c57706f4c74edabe9091/photo_5ce1727870703730d85c4980c4edc4f3.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/d4a6634b22b6c57706f4c74edabe9091/photo_44c11c5815b859a88d1f24b4ff7387e3.png"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "capendu-studio-meuble-vendu-loue-terrasse-renta-brute",
-   "titre": "CAPENDU STUDIO MEUBLÉ VENDU LOUÉ TERRASSE RENTA BRUTE",
-   "ville": "Capendu",
-   "type": "vente",
-   "prix": 54000.0,
-   "surface": 27.4,
-   "chambres": null,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>LOTIER IMMOBILIER vous propose à Capendu ce studio meublé de 27,40 m2, vendu loué, idéal pour un investissement locatif.</p><p>Situé en rez-de-chaussée d’un petit ensemble immobilier composé de seulement 4 lots, ce studio offre un agencement fonctionnel et un extérieur particulièrement agréable.</p><p>Il se compose d’une pièce de vie avec cuisine ouverte équipée, d’un coin nuit séparé par une verrière, ainsi que d’une salle d’eau avec douche et WC.</p><p>Le véritable plus : une terrasse couverte d’environ 16 m2, à l’abri des regards, permettant de profiter d’un véritable espace de vie supplémentaire.</p><p>Le logement est vendu meublé et occupé. Le locataire est en place depuis mars 2025 et est à jour de ses loyers.</p><p>INFORMATIONS INVESTISSEUR</p><p>Prix de vente : 54 000 EUR</p><p>Loyer hors charges : 450 EUR/mois</p><p>Provision sur charges : 100 EUR/mois</p><p>Loyer charges comprises : 550 EUR/mois</p><p>Revenus locatifs hors charges : 5 400 EUR/an</p><p>Rentabilité brute : 10 %</p><p>Surface habitable : 27,40 m2</p><p>Terrasse couverte : environ 16 m2</p><p>Location meublée</p><p>Locataire en place depuis mars 2025</p><p>Locataire à jour de ses loyers</p><p>Ensemble immobilier de seulement 4 lots</p><p>Une opportunité particulièrement intéressante pour un investissement locatif avec une rentabilité brute de 10 %, un locataire déjà en place et aucun délai de mise en location.</p><p>Prix : 54 000 EUR</p><p>Un maison avec jardin et un appartement de 115m2 sont disponibles à la vente dans la même copropriété.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "27.4 m²"
-      ],
-      [
-       "Pièces",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Étage",
-       "0"
-      ],
-      [
-       "Année de construction",
-       "1970"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique radiateur"
-      ],
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Terrasse",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "54 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "4"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Capendu"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBVST30001010",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 225,
-     "classe": "D"
-    },
-    "ges": {
-     "valeur": 8,
-     "classe": "B"
-    },
-    "depenses_min": 650,
-    "depenses_max": 900,
-    "prix_energies": "01/01/2026"
-   },
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute.jpg",
-   "photos": [
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-1.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-2.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-3.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-4.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-5.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-6.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-7.jpg",
-    "assets/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute-8.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_2dfaae96bb358b78c9cbcfb65fd9378f.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_f5b09ed12c060eaa9ad60c0d4b71e7be.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_9f065a928dbba8216b18e16f25c02b4a.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_5472187695e67e633a3d190c5b08baa3.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_7e2db4d918d5984097b4c2989f99ff14.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_e17c26822981051e208e5cf969861efc.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_00cb996ffa31a8ad18cb029f149125d7.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8d35cfffb5c1d5f648038ab6c36b588b/photo_e21bdfbaf82a2ce60953ef0e0d22d605.png"
    ],
    "schema": 3
   },
@@ -6659,7 +6034,7 @@
    "titre": "Maison avec jardin et piscine à Comigne",
    "ville": "Comigne",
    "type": "vente",
-   "prix": 239000.0,
+   "prix": 219000.0,
    "surface": 127.0,
    "chambres": 5,
    "sdb": 2,
@@ -6741,7 +6116,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "239 000 €"
+       "219 000 €"
       ],
       [
        "Charge honoraires",
@@ -8859,175 +8234,11 @@
    "schema": 3
   },
   {
-   "id": "carcassonne-confort-elegance-et-espace-pour-toute-la-fami",
-   "titre": "Carcassonne Confort, élégance et espace pour toute la fami",
-   "ville": "Carcassonne",
-   "type": "vente",
-   "prix": 330000.0,
-   "surface": 240.0,
-   "chambres": 5,
-   "sdb": 1,
-   "badges": [
-    "Coup de coeur"
-   ],
-   "description_html": "<p>Située dans un quartier recherché, cette maison familiale T8 de 240 m2 sur un terrain de 617 m2 conjugue avec brio charme, confort et fonctionnalité.</p><p>La partie principale de la maison offre 3 chambres spacieuses, un salon lumineux de 23 m2, une salle à manger conviviale avec cheminée, ainsi qu’une cuisine américaine aménagée. Chaque espace a été pensé pour offrir un confort de vie optimal et une atmosphère chaleureuse.</p><p>Un appartement T3 indépendant, comprenant 2 chambres, complète l’ensemble. Il est idéal pour accueillir des proches, loger un adolescent en quête d’autonomie ou encore générer un revenu locatif.</p><p>Côté confort, la maison dispose d’un chauffage au sol au rez-de-chaussée pour une chaleur douce et homogène, et d’un système de climatisation à l’étage pour des étés agréables.</p><p>À l’extérieur, vous profiterez de deux patios, d’une grande terrasse et d’un jardin arboré avec piscine (à rénover devis disponible sur demande), parfaits pour savourer les beaux jours et partager des moments conviviaux.</p><p>Parfaitement équipée pour le quotidien, la propriété offre également un garage, des stationnements privatifs, trois toilettes, une salle de bains et une salle d’eau, ainsi que des buanderies. Le double vitrage assure une excellente isolation thermique et phonique.</p><p>À proximité immédiate des écoles, commerces, pharmacies et transports, elle bénéficie d’un emplacement privilégié, alliant praticité et tranquillité.</p><p>Une maison idéale pour une vie de famille ou un projet locatif.</p><p>Honoraires à la charge du vendeur.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "240 m²"
-      ],
-      [
-       "Pièces",
-       "8"
-      ],
-      [
-       "Chambres",
-       "5"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "2"
-      ],
-      [
-       "WC",
-       "3"
-      ],
-      [
-       "Nombre d'étages",
-       "1"
-      ],
-      [
-       "Terrain",
-       "617 m²"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Gaz"
-      ],
-      [
-       "Cuisine",
-       "Américaine"
-      ],
-      [
-       "Terrasse",
-       "Oui"
-      ],
-      [
-       "Parking",
-       "Oui"
-      ],
-      [
-       "Garage",
-       "Oui"
-      ],
-      [
-       "Climatisation",
-       "Oui"
-      ],
-      [
-       "Piscine",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "330 000 €"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Carcassonne"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBVMA30000789",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 119,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 24,
-     "classe": "C"
-    },
-    "depenses_min": 2590,
-    "depenses_max": 3570,
-    "prix_energies": "01/01/2023"
-   },
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami.jpg",
-   "photos": [
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-1.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-2.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-3.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-4.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-5.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-6.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-7.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-8.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-9.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-10.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-11.jpg",
-    "assets/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami-12.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_8938654181ae0c0350659b73e9f9f298.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_b66c5e8fc4da0038b94ef40c6581e6df.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_c14c13530562341194cce07480875433.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_ab1cb371e7b5c2dee887c49d492def45.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_14ea348f438006549458f52a71772228.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_2414e83a9d4d82a89e0141bee28155d3.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_872ac18ea66199a4cf884e67d1543dce.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_ac3cc480aa2bad093ace2a5c8fd19211.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_c1c05a7f0c92bf64193a3705bb25c917.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_bcfe1fe7d69f61da00285fbb2392938e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_6f7f8ab15daa791a08ef7937812424b6.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aadbd90768842e6effd33901603681a5/photo_ee54f0ff2eadb702511b5c596f0f54e6.jpg"
-   ],
-   "schema": 3
-  },
-  {
    "id": "ensemble-immobilier-de-6-lots",
    "titre": "Ensemble immobilier de 6 lots",
    "ville": "Capendu",
    "type": "vente",
-   "prix": 399900.0,
+   "prix": 350000.0,
    "surface": 400.0,
    "chambres": 7,
    "sdb": 4,
@@ -9101,7 +8312,11 @@
      "lignes": [
       [
        "Prix FAI",
-       "399 900 €"
+       "350 000 €"
+      ],
+      [
+       "Charge honoraires",
+       "Vendeur"
       ]
      ]
     },
@@ -10116,99 +9331,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/cc9ee30f4c4697fbf52a657084060d71/photo_0b50ab592928d67febeca539687fa172.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/cc9ee30f4c4697fbf52a657084060d71/photo_f741e7387a93d803aae64c8d0d30da48.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/cc9ee30f4c4697fbf52a657084060d71/photo_0edfd99ebc58f3ac41a57764a8460aef.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "terrain-constructible-de-3000m2-a-floure",
-   "titre": "Terrain constructible de 3000m2 à Floure",
-   "ville": "Floure",
-   "type": "vente",
-   "prix": 110000.0,
-   "surface": 3000.0,
-   "chambres": null,
-   "sdb": null,
-   "badges": [],
-   "description_html": "<p>À VENDRE Terrain constructible de 3 000 m2 avec gros oeuvre existant Floure (11)</p><p>Situé à Floure, charmant village de l’Aude à seulement 13 km de Carcassonne, ce terrain constructible de 3 000 m2 offre une opportunité rare : le gros oeuvre de la maison est déjà réalisé, vous permettant de reprendre le chantier rapidement.</p><p>Le permis de construire déposé prévoit une maison de 143 m2, comprenant :</p><p>3 chambres</p><p>Un garage</p><p>Une terrasse non couverte à l’avant</p><p>Une terrasse couverte à l’arrière</p><p>Le terrain bien exposé, offre une vue dégagée sur la campagne environnante.</p><p>Points forts :</p><p>Terrain viabilisé</p><p>Gros oeuvre déjà construit</p><p>Permis de construire en cours de validité</p><p>Proximité de Carcassonne et de ses commodités</p><p>Floure est une commune dynamique, bénéficiant de la proximité du Château de Floure, un hôtel de charme, et de nombreux sentiers de randonnée.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Terrain"
-      ],
-      [
-       "Surface habitable",
-       "3000 m²"
-      ],
-      [
-       "Terrain",
-       "3000 m²"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "110 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Floure"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBVTE30000685",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": null,
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/terrain-constructible-de-3000m2-a-floure.jpg",
-   "photos": [
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-1.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-2.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-3.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-4.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-5.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-6.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-7.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-8.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-9.jpg",
-    "assets/annonces/terrain-constructible-de-3000m2-a-floure-10.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_157ae43966861d0dee8b9536161d75dd.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_3c74e8dbfba767cd8b05366861210569.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_d5535ef648c1b0b5d2737ee6011015dc.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_fb7a65a59faef639a01af144c94ecfb7.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_306bc539824bfcc10789c1a884767b82.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_a42a6441d4d71af0f729c14eaa9282ac.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_2678418c6921c5d5325917e81088ce5e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_ef768410229954e1222c785c3e6d9b1f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_3fd3dec4203e46b8cee38ec61940a44d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/41a60fc0dbd4341eb49dbab2e293c11b/photo_5b7d2f9b6553272953caa904c54593cb.jpg"
    ],
    "schema": 3
   },

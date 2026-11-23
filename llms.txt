@@ -56,7 +56,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 - [Sites partenaires](https://lotier.immo/sites-partenaires/): Signabail (https://signabail.fr/), votre bail conforme, signé en ligne ; Constatio (https://constatio.fr/), l'état des lieux depuis votre téléphone ; Jérôme Bouba (https://jeromebouba.fr/), entrepreneur de l'immobilier en occitanie.
 
-## Annonces en cours (84)
+## Annonces en cours (78)
 
 - [Catalogue complet en JSON](https://lotier.immo/annonces/catalogue.json): toutes les annonces avec type de bien, commune, département, prix, surface, pièces, équipements, classe énergie, référence, agent, texte et date de mise à jour. Régénéré chaque jour.
 - [Maison 5 pièces 89 m² à vendre à Alès](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/): 164 300 €, Gard (30), classe énergie D, réf. 12_RFVMA70000869.
@@ -78,26 +78,23 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Terrain 1457 m² à vendre à Capendu](https://lotier.immo/annonces/terrain-de-loisir-a-capendu/): 25 000 €, Aude (11), réf. 2_BBVTE30000159.
 - [Maison 4 pièces 120 m² à vendre à Capendu](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/): 38 500 €, Aude (11), réf. 2_BBV30000797.
 - [Garage 134 m² à vendre à Capendu](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/): 45 000 €, Aude (11), réf. 2_BBV30000249.
-- [Studio 27 m² à vendre à Capendu](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/): 54 000 €, Aude (11), classe énergie D, réf. 2_BBVST30001010.
 - [Fonds de commerce 120 m² à vendre à Capendu](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/): 60 000 €, Aude (11), réf. 2_BBVCO30000842.
 - [Maison 5 pièces 122 m² à vendre à Capendu](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/): 85 000 €, Aude (11), classe énergie C, réf. 2_BBV30000919.
 - [Maison 4 pièces 125 m² à vendre à Capendu](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/): 95 000 €, Aude (11), classe énergie C, réf. 2_BBV30000937.
 - [Appartement 4 pièces 116 m² à vendre à Capendu](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/): 145 000 €, Aude (11), classe énergie C, réf. 2_BBVAP30001011.
 - [Maison 5 pièces 137 m² à vendre à Capendu](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/): 175 000 €, Aude (11), classe énergie C, réf. 2_BBVMA30000906.
 - [Maison 5 pièces 140 m² à vendre à Capendu](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/): 224 000 €, Aude (11), classe énergie C, réf. 2_BBVMA30001003.
-- [Immeuble 400 m² à vendre à Capendu](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/): 399 900 €, Aude (11), réf. 2_BBV30000787.
+- [Immeuble 400 m² à vendre à Capendu](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/): 350 000 €, Aude (11), réf. 2_BBV30000787.
 - [Appartement 2 pièces 50 m² à vendre à Carcassonne](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/): 80 000 €, Aude (11), classe énergie D, réf. 2_MAVAP130000883.
 - [Immeuble 170 m² à vendre à Carcassonne](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/): 170 000 €, Aude (11), classe énergie C, réf. 2_MAVIM130000208.
 - [Immeuble 166 m² à vendre à Carcassonne](https://lotier.immo/annonces/immeuble-de-rapport/): 230 000 €, Aude (11), classe énergie C, réf. 2_MAV130000581.
-- [Maison 8 pièces 240 m² à vendre à Carcassonne](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/): 330 000 €, Aude (11), classe énergie C, réf. 2_BBVMA30000789.
 - [Appartement 2 pièces 46 m² à vendre à Caveirac](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/): 220 000 €, Gard (30), classe énergie A, réf. 18_CEORE140000948.
 - [Appartement 2 pièces 46 m² à vendre à Caveirac](https://lotier.immo/annonces/caveirac-t2-neuf-avec-153-m2-de-jardin-et-frais-de-notaire/): 230 000 €, Gard (30), classe énergie A, réf. 18_CEORE140000950.
 - [Appartement 4 pièces 80 m² à vendre à Caveirac](https://lotier.immo/annonces/lecrin-des-ramias-un-t4-dexception-avec-jardin-au-coeur-d/): 360 000 €, Gard (30), classe énergie A, réf. 18_CEORE140000947.
 - [Maison 4 pièces 80 m² à vendre à Clarensac](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/): 149 000 €, Gard (30), classe énergie D, réf. 12_329.
 - [Maison 4 pièces 127 m² à vendre à Clarensac](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/): 320 000 €, Gard (30), classe énergie B, réf. 12_RFVMA70000739.
-- [Maison 6 pièces 127 m² à vendre à Comigne](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/): 239 000 €, Aude (11), classe énergie B, réf. 2_BBV30000907.
+- [Maison 6 pièces 127 m² à vendre à Comigne](https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/): 219 000 €, Aude (11), classe énergie B, réf. 2_BBV30000907.
 - [Terrain 8741 m² à vendre à Douzens](https://lotier.immo/annonces/terrain-agricole-de-plus-de-8000m2-a-douzens/): 5 000 €, Aude (11), réf. 2_BBVTE30000967.
-- [Terrain 3000 m² à vendre à Floure](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/): 110 000 €, Aude (11), réf. 2_BBVTE30000685.
 - [Appartement 3 pièces 68 m² à vendre à Garons](https://lotier.immo/annonces/garons-dans-residence-neuve-fin-2024-appartement-type-3-avec/): 234 900 €, Gard (30), classe énergie A, réf. 6_RFVAP70000537.
 - [Maison 4 pièces 90 m² à vendre à Langlade](https://lotier.immo/annonces/langlade-villa-neuve-t4-de-90m2-3-chambres-garage/): 399 000 €, Gard (30), classe énergie A, réf. 18_597.
 - [Maison 4 pièces 110 m² à vendre à Laure-Minervois](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/): 200 000 €, classe énergie B, réf. 2_BBV30000474.
@@ -117,6 +114,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Fonds de commerce 155 m² à vendre à Nîmes](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/): 365 000 €, Gard (30), classe énergie G, réf. 12_625.
 - [Maison 5 pièces 116 m² à vendre à Nîmes](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/): 395 000 €, Gard (30), classe énergie D, réf. 12_589.
 - [Maison 4 pièces 81 m² à vendre à Pezens](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/): 89 000 €, Aude (11), classe énergie D, réf. 2_BBV30000994.
+- [Maison 4 pièces 103 m² à vendre à Quarante](https://lotier.immo/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante/): 142 000 €, classe énergie C, réf. 2_BBVMA30001061.
 - [Maison 5 pièces 112 m² à vendre à Rieux-Minervois](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/): 65 000 €, Aude (11), classe énergie E, réf. 2_BBV30000827.
 - [Appartement 2 pièces 68 m² à vendre à Saint-Ambroix](https://lotier.immo/annonces/saint-ambroix-a-proximite-dales-local-commercial-appartem/): 57 000 €, Gard (30), classe énergie F, réf. 6_RFVAP70000759.
 - [Appartement 3 pièces 136 m² à vendre à Saint-Christol-lez-Alès](https://lotier.immo/annonces/saint-christol-les-ales-12144-m2-2-lots-terrasse-26-m/): 122 000 €, Gard (30), réf. 12_626.
@@ -126,7 +124,6 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Maison 8 pièces 320 m² à vendre à Villedubert](https://lotier.immo/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill/): 1 145 000 €, Aude (11), classe énergie B, réf. 2_BBVVI30000726.
 - [Maison 3 pièces 67 m² à vendre à Villemoustaussou](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/): 99 000 €, Aude (11), classe énergie D, réf. 2_BBV30000707.
 - [Maison 6 pièces 191 m² à vendre à Villeneuve-lès-Béziers](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/): 174 000 €, Hérault (34), classe énergie C, réf. 15_DLVMA170001012.
-- [Local commercial 20 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/): 195 € par mois, Hérault (34), réf. 15_DLLCO170001039.
 - [Appartement 2 pièces 33 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t2-de-31-m2-en-centre-ville-historique/): 394 € par mois, Hérault (34), classe énergie E, réf. 15_DLLAP170000959.
 - [Appartement 2 pièces 44 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/): 430 € par mois, Hérault (34), classe énergie E, réf. 15_DLLAP170000626.
 - [Appartement 3 pièces 57 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/): 504 € par mois, Hérault (34), classe énergie D, réf. 15_DLLAP170000830.
@@ -134,24 +131,20 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Appartement 3 pièces 55 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/): 635 € par mois, Hérault (34), classe énergie E, réf. 15_DLLAP170000568.
 - [Appartement 4 pièces 98 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/): 726 € par mois, Hérault (34), classe énergie C, réf. 15_DLLAP170000503.
 - [Bureaux 100 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/): 735 € par mois, Hérault (34), réf. 15_DLLCO170000377.
-- [Appartement 2 pièces 33 m² à louer à Capendu](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/): 450 € par mois, Aude (11), classe énergie D, réf. 2_BBLAP30000805.
 - [Local commercial 66 m² à louer à Capendu](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/): 660 € par mois, Aude (11), réf. 2_BBLCO30000383.
-- [Maison 5 pièces 95 m² à louer à Capendu](https://lotier.immo/annonces/maison-de-village-avec-terrasse/): 750 € par mois, Aude (11), classe énergie C, réf. 2_BBLMA30000998.
 - [Local commercial 180 m² à louer à Capendu](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/): 760 € par mois, Aude (11), réf. 2_BBLCO30000256.
+- [Appartement 2 pièces 38 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-meuble-1-chambre/): 515 € par mois, Aude (11), classe énergie C, réf. 2_BBLAP30000509.
 - [Appartement 4 pièces 107 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/): 750 € par mois, Aude (11), classe énergie D, réf. 2_BBLAP30000958.
-- [Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/): 650 € par mois, Aude (11), classe énergie C, réf. 2_BBLMA30001058.
-- [Maison 3 pièces 82 m² à louer à Conques-sur-Orbiel](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/): 650 € par mois, Aude (11), classe énergie C, réf. 2_BBLMA30000533.
 - [Appartement 3 pièces 70 m² à louer à Montpellier](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/): 850 € par mois, Hérault (34), réf. 12_271.
 - [Studio 15 m² à louer à Nîmes](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/): 415 € par mois, Gard (30), classe énergie C, réf. 12_274.
 
 ## Annonces par ville
 
 - [Biens à vendre à Béziers](https://lotier.immo/nos-annonces/vente-beziers/): 12 annonces.
-- [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 11 annonces.
+- [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces.
 - [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces.
-- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 8 annonces.
-- [Biens à louer à Capendu](https://lotier.immo/nos-annonces/location-capendu/): 4 annonces.
-- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces.
+- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 7 annonces.
+- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 3 annonces.
 - [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces.
 - [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces.
 

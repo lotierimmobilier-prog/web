@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 144,
+  "liens": 137,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 143,
+  "pages_indexables": 136,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -506,25 +506,6 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "ListItem",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
    "url": "https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/",
    "type": "autre",
    "balisage": [
@@ -818,13 +799,12 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/",
+   "url": "https://lotier.immo/annonces/appartement-meuble-1-chambre/",
    "type": "autre",
    "balisage": [
     "Apartment",
     "BreadcrumbList",
     "ListItem",
-    "LocationFeatureSpecification",
     "Offer",
     "Person",
     "Place",
@@ -885,46 +865,6 @@
    "balisage": [
     "Apartment",
     "BreadcrumbList",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/",
-   "type": "autre",
-   "balisage": [
-    "Apartment",
-    "BreadcrumbList",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "House",
     "ListItem",
     "LocationFeatureSpecification",
     "Offer",
@@ -1410,6 +1350,26 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante/",
+   "type": "autre",
+   "balisage": [
+    "BreadcrumbList",
+    "House",
+    "ListItem",
+    "LocationFeatureSpecification",
+    "Offer",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "QuantitativeValue",
+    "RealEstateListing",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/",
    "type": "autre",
    "balisage": [
@@ -1430,27 +1390,6 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/maison-de-village-avec-terrasse/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "House",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
    "url": "https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/",
    "type": "autre",
    "balisage": [
@@ -1465,48 +1404,6 @@
     "PropertyValue",
     "QuantitativeValue",
     "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "House",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "House",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
     "WebPage"
    ],
    "markdown": true,
@@ -1888,23 +1785,6 @@
   },
   {
    "url": "https://lotier.immo/annonces/terrain-constructible-de-1-470-m2-a-villedubert/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "ListItem",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -2546,22 +2426,6 @@
   },
   {
    "url": "https://lotier.immo/nos-annonces/location-beziers/",
-   "type": "autre",
-   "balisage": [
-    "Answer",
-    "BreadcrumbList",
-    "City",
-    "CollectionPage",
-    "FAQPage",
-    "ItemList",
-    "ListItem",
-    "Question"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/nos-annonces/location-capendu/",
    "type": "autre",
    "balisage": [
     "Answer",

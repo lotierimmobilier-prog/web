@@ -158,6 +158,14 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
+
  80 000 €
 
 ### Appartement loué de 50 m2 en rez-de-jardin situé dans une r
@@ -165,14 +173,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
  170 000 €
 
@@ -200,14 +200,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
- 450 € par mois
-
-### Appartement T2 meublé à Capendu
-
- Capendu · 33,4 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
  660 € par mois
 
 ### Local Commercial Zone Commercial Capendu
@@ -215,6 +207,14 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 66 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+ 145 000 €
+
+### Bel appartement de 115m2 avec terrasse à Capendu
+
+ Capendu · 115,8 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

@@ -14,6 +14,22 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
+
+ 142 000 €
+
+### Maison de village 4 pièces 114 m2, rénovée, Quarante
+
+ Quarante · 102,72 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante/)[Être rappelé](https://lotier.immo/contact/)
+
  95 000 €
 
 ### Maison 125 m2, cour, garage, vendue louée, Capendu
@@ -30,30 +46,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
 
- 650 € par mois
-
-### Maison de village rénovée avec climatisation louée meublée
-
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
-
- 750 € par mois
-
-### Maison de village avec terrasse
-
- Capendu · 95 m² · 4 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- 650 € par mois
-
-### Maison de village rénovée avec climatisation louée meublée
-
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
-
  750 € par mois
 
 ### Appartement T4 non meublé – centre ville Carcassonne
@@ -62,14 +54,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
- 450 € par mois
-
-### Appartement T2 meublé à Capendu
-
- Capendu · 33,4 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -77,14 +61,6 @@ Carcassonne · Narbonne
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
  224 000 €
 
@@ -126,7 +102,7 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
 
- 239 000 €
+ 219 000 €
 
 ### Maison avec jardin et piscine à Comigne
 
@@ -174,15 +150,7 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -213,14 +181,6 @@ Carcassonne · Narbonne
  Villemoustaussou · 67 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-de-63m2-a-villemoutaussou-vendue-louee/)[Être rappelé](https://lotier.immo/contact/)
-
- 110 000 €
-
-### Terrain constructible de 3000m2 à Floure
-
- Floure · 3000 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
 
  230 000 €
 
@@ -284,14 +244,14 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **33** biens en ligne
-- **26** à vendre
-- **7** à louer
-- **13** communes
+- **28** biens en ligne
+- **24** à vendre
+- **4** à louer
+- **12** communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
 
-Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
+Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
 
 ### Spécialités
 
@@ -313,9 +273,9 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 450 € à 760 € par mois.
 
 ### Biens proposés
 
-- 16 maisons
-- 5 appartements
-- 5 terrains
+- 13 maisons
+- 4 appartements
+- 4 terrains
 - 3 locaux commerciaux
 - 3 immeubles
 - 1 parking

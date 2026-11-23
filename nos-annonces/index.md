@@ -4,9 +4,25 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-67 biens à vendre et 17 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+65 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
+
+ 142 000 €
+
+### Maison de village 4 pièces 114 m2, rénovée, Quarante
+
+ Quarante · 102,72 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante/)[Être rappelé](https://lotier.immo/contact/)
 
  95 000 €
 
@@ -32,14 +48,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- 650 € par mois
-
-### Maison de village rénovée avec climatisation louée meublée
-
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
-
  255 000 €
 
 ### Marguerittes – immeuble avec local commercial et deux appart
@@ -47,30 +55,6 @@ Source : https://lotier.immo/nos-annonces/
  Marguerittes · 142 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
-
- 750 € par mois
-
-### Maison de village avec terrasse
-
- Capendu · 95 m² · 4 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- 650 € par mois
-
-### Maison de village rénovée avec climatisation louée meublée
-
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
-
- 195 € par mois
-
-### À louer local commercial avec mezzanine entre Béziers et
-
- Béziers · 20 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
 
  430 € par mois
 
@@ -168,14 +152,6 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
- 450 € par mois
-
-### Appartement T2 meublé à Capendu
-
- Capendu · 33,4 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
  320 000 €
 
 ### Clarensac dans la vaunage entre Nîmes et Montpellier maison
@@ -215,14 +191,6 @@ Source : https://lotier.immo/nos-annonces/
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
  122 000 €
 
@@ -360,7 +328,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
 
- 239 000 €
+ 219 000 €
 
 ### Maison avec jardin et piscine à Comigne
 
@@ -472,15 +440,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-arenes-appartement-type-3-de-75-m2-dans-immeuble-bour/)[Être rappelé](https://lotier.immo/contact/)
 
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -543,14 +503,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 33 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-studio-spacieux-de-31-m2-avec-balcon-et-garage-a/)[Être rappelé](https://lotier.immo/contact/)
-
- 110 000 €
-
-### Terrain constructible de 3000m2 à Floure
-
- Floure · 3000 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/terrain-constructible-de-3000m2-a-floure/)[Être rappelé](https://lotier.immo/contact/)
 
  230 000 €
 

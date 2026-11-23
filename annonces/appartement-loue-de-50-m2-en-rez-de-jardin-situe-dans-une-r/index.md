@@ -160,14 +160,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
  170 000 €
 
 ### Immeuble avec 1 local commercial et 1 T4
@@ -183,6 +175,14 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 166 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
+
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
 
  750 € par mois
 
@@ -202,21 +202,21 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
+
+ 60 000 €
+
+### Fond de commerce à vendre Axe principal traversant Capendu
+
+ Capendu · 120 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

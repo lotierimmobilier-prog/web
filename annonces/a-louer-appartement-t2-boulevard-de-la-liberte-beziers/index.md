@@ -212,13 +212,13 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/)[Être rappelé](https://lotier.immo/contact/)
 
- 195 € par mois
+ 135 000 €
 
-### À louer local commercial avec mezzanine entre Béziers et
+### À vendre appartement aux beaux volumes immeuble bourgeoi
 
- Béziers · 20 m²
+ Béziers · 100,17 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

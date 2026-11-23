@@ -1,20 +1,12 @@
 # Biens à louer *à Béziers.*
 
-> 8 biens à louer à Béziers avec LOTIER Immobilier : 6 appartements et 2 locaux commerciaux, de 195 € à 735 € par mois. Photos, prix, agent à contacter.
+> 7 biens à louer à Béziers avec LOTIER Immobilier : 6 appartements et 1 local commercial, de 394 € à 735 € par mois. Photos, prix, agent à contacter.
 
 Source : https://lotier.immo/nos-annonces/location-beziers/
 
-LOTIER Immobilier propose actuellement 8 biens à louer à Béziers : 6 appartements et 2 locaux commerciaux. Les loyers vont de 195 € à 735 € par mois. Les surfaces vont de 20 à 100 m².
+LOTIER Immobilier propose actuellement 7 biens à louer à Béziers : 6 appartements et 1 local commercial. Les loyers vont de 394 € à 735 € par mois. Les surfaces vont de 33 à 100 m².
 
 ## Liste des annonces
-
- 195 € par mois
-
-### À louer local commercial avec mezzanine entre Béziers et
-
- Béziers · 20 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-local-commercial-avec-mezzanine-entre-beziers-et/)[Être rappelé](https://lotier.immo/contact/)
 
  430 € par mois
 
@@ -83,14 +75,14 @@ LOTIER Immobilier propose actuellement 8 biens à louer à Béziers : 6 appartem
 ### Combien de biens sont à louer à Béziers chez LOTIER Immobilier ?
 **
 
-8 biens sont à louer à Béziers aujourd'hui : 6 appartements et 2 locaux commerciaux. Cette liste est reprise chaque jour du logiciel de l'agence.
+7 biens sont à louer à Béziers aujourd'hui : 6 appartements et 1 local commercial. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
 ### Quel budget prévoir pour louer à Béziers ?
 **
 
-Parmi nos annonces, les loyers vont de 195 € à 735 € par mois, avec un loyer médian de 533 € par mois. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
+Parmi nos annonces, les loyers vont de 394 € à 735 € par mois, avec un loyer médian de 533 € par mois. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
 
 **Question
 
@@ -106,7 +98,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Les honoraires de mise en location sont plafonnés par la loi et calculés au mètre carré : 8,07 €, 10,09 € ou 12,10 € TTC par m² selon la zone, plus 3,03 € TTC par m² pour l'état des lieux. Le détail figure sur la page Nos honoraires.
 
- [Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Location à Capendu (4)](https://lotier.immo/nos-annonces/location-capendu/)[Notre agence à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Notre agence à Béziers](https://lotier.immo/agence-immobiliere-beziers.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

@@ -1,10 +1,10 @@
 # Biens à vendre *à Carcassonne.*
 
-> 4 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles, 1 appartement et 1 maison, de 80 000 € à 330 000 €. Photos, prix, agent à contacter.
+> 3 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles et 1 appartement, de 80 000 € à 230 000 €. Photos, prix, agent à contacter.
 
 Source : https://lotier.immo/nos-annonces/vente-carcassonne/
 
-LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 immeubles, 1 appartement et 1 maison. Les prix vont de 80 000 € à 330 000 €. Les surfaces vont de 50 à 240 m².
+LOTIER Immobilier propose actuellement 3 biens à vendre à Carcassonne : 2 immeubles et 1 appartement. Les prix vont de 80 000 € à 230 000 €. Les surfaces vont de 50 à 170 m².
 
 ## Liste des annonces
 
@@ -15,14 +15,6 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
  230 000 €
 
@@ -51,14 +43,14 @@ LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 imme
 ### Combien de biens sont à vendre à Carcassonne chez LOTIER Immobilier ?
 **
 
-4 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles, 1 appartement et 1 maison. Cette liste est reprise chaque jour du logiciel de l'agence.
+3 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles et 1 appartement. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
 ### Quel budget prévoir pour acheter à Carcassonne ?
 **
 
-Parmi nos annonces, les prix vont de 80 000 € à 330 000 €, avec un prix médian de 230 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
+Parmi nos annonces, les prix vont de 80 000 € à 230 000 €, avec un prix médian de 170 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
 
 **Question
 
@@ -74,7 +66,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Oui. Les prix de vente affichés comprennent les honoraires de l'agence, qui sont à la charge du vendeur. Le barème est publié sur la page Nos honoraires.
 
- [Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Capendu (11)](https://lotier.immo/nos-annonces/vente-capendu/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Notre agence à Carcassonne](https://lotier.immo/agence-immobiliere-carcassonne.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Capendu (10)](https://lotier.immo/nos-annonces/vente-capendu/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Notre agence à Carcassonne](https://lotier.immo/agence-immobiliere-carcassonne.html)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

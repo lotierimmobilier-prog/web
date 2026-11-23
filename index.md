@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 142 000 €
+
+### Maison de village 4 pièces 114 m2, rénovée, Quarante
+
+ Quarante · 102,72 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante/)[Être rappelé](https://lotier.immo/contact/)
+
  95 000 €
 
 ### Maison 125 m2, cour, garage, vendue louée, Capendu
@@ -74,37 +82,29 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
 
- 261 000 €
+ 515 € par mois
 
-### Investissement Nîmes Murs commerciaux + studio loué 111
+### Appartement meublé 1 chambre
 
- Nîmes · 111,36 m²
+ Carcassonne · 38 m² · 1 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/investissement-nimes-murs-commerciaux-studio-loue-111/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
 
- 650 € par mois
+ 430 € par mois
 
-### Maison de village rénovée avec climatisation louée meublée
+### À louer appartement T2 boulevard de la Liberté Béziers
 
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
+ Béziers · 44,06 m² · 1 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee-2/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
- 750 € par mois
+ 415 € par mois
 
-### Maison de village avec terrasse
+### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
 
- Capendu · 95 m² · 4 ch.
+ Nîmes · 14,99 m²
 
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
- 650 € par mois
-
-### Maison de village rénovée avec climatisation louée meublée
-
- Conques-sur-Orbiel · 81,5 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-renovee-avec-climatisation-louee-meublee/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
  [Voir toutes les annonces ](https://lotier.immo/nos-annonces/)
 

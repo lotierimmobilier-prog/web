@@ -76,6 +76,14 @@ Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un 
 
 ## Biens à vendre et à louer *à Carcassonne et alentours.*
 
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
+
  750 € par mois
 
 ### Appartement T4 non meublé – centre ville Carcassonne
@@ -91,14 +99,6 @@ Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un 
  Carcassonne · 50 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/)[Être rappelé](https://lotier.immo/contact/)
-
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
 
  230 000 €
 
@@ -124,7 +124,7 @@ Cité médiévale, Bastide Saint-Louis, canal du Midi, Lac de la Cavayère : un 
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
-[Biens à vendre à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Carcassonne (3)](https://lotier.immo/nos-annonces/vente-carcassonne/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

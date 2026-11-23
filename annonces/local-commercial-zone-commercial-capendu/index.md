@@ -86,22 +86,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
 
- 450 € par mois
-
-### Appartement T2 meublé à Capendu
-
- Capendu · 33,4 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t2-meuble-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- 750 € par mois
-
-### Maison de village avec terrasse
-
- Capendu · 95 m² · 4 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-avec-terrasse/)[Être rappelé](https://lotier.immo/contact/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -110,17 +94,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
-## Biens à proximité
-
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -135,6 +109,32 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ 45 000 €
+
+### Garage viabilisé de 134 m2 sur deux niveaux
+
+ Capendu · 134 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+
+ 85 000 €
+
+### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
+
+ Capendu · 122 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+
+ 95 000 €
+
+### Maison 125 m2, cour, garage, vendue louée, Capendu
+
+ Capendu · 124,89 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

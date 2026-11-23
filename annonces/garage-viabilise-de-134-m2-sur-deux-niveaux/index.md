@@ -116,15 +116,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -140,8 +132,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
-## Biens à proximité
-
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -149,6 +139,8 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
 
  95 000 €
 
@@ -165,6 +157,14 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
+
+ 175 000 €
+
+### Maison familiale 136 m2 + 90 m2 de garages et dépendances
+
+ Capendu · 136,63 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

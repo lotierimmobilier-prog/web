@@ -1,18 +1,18 @@
 # Immeuble 400 m² à vendre à Capendu
 
-> Immeuble 400 m² à vendre à Capendu, 7 chambres, 399 900 €. Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place. Cet ensemble…
+> Immeuble 400 m² à vendre à Capendu, 7 chambres, 350 000 €. Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place. Cet ensemble…
 
 Source : https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/
 
 Ensemble immobilier de 6 lots
 
-**399 900 €** · Capendu · 400 m² · 7 chambres · 4 salles d'eau/bain
+**350 000 €** · Capendu · 400 m² · 7 chambres · 4 salles d'eau/bain
 
  VENTE 1 / 12
 
 ## En bref
 
-Immeuble de 400 m² à vendre à Capendu (Aude, 11) : 12 pièces, 7 chambres et 4 salles d'eau ou de bain. Prix : 399 900 €. Le bien comprend : terrain de 640 m², terrasse, balcon, garage et parking. Construction de 1948. Référence 2_BBV30000787, suivie par Barbara Bouba (LOTIER Immobilier).
+Immeuble de 400 m² à vendre à Capendu (Aude, 11) : 12 pièces, 7 chambres et 4 salles d'eau ou de bain. Prix : 350 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 640 m², terrasse, balcon, garage et parking. Construction de 1948. Référence 2_BBV30000787, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -130,7 +130,8 @@ Oui
 
 ## Détail du prix
 
-- Prix **399 900 €** *Frais d'agence inclus*
+- Prix **350 000 €** *Frais d'agence inclus*
+- Honoraires à la charge de **Vendeur**
 
 ## Estimer mon financement
 
@@ -159,7 +160,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 399 900 €
+ 350 000 €
 
 Réf. 2_BBV30000787
 
@@ -188,14 +189,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
  60 000 €
 
 ### Fond de commerce à vendre Axe principal traversant Capendu
@@ -212,8 +205,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
 
-## Biens à proximité
-
  85 000 €
 
 ### Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
@@ -221,6 +212,8 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 122 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
 
  95 000 €
 
@@ -237,6 +230,14 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 120 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
+
+ 175 000 €
+
+### Maison familiale 136 m2 + 90 m2 de garages et dépendances
+
+ Capendu · 136,63 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

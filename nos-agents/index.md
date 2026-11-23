@@ -14,7 +14,7 @@ Chaque agent LOTIER connaît son secteur. Touchez un portrait pour le découvrir
 
 Agent commercial indépendant · Carcassonne · Narbonne
 
-Narbonne, Lézignan, Capendu, Trèbes, Carcassonne [Voir sa page et ses 33 annonces](https://lotier.immo/nos-agents/barbara-bouba/)[06 51 45 06 63](tel:+33651450663)
+Narbonne, Lézignan, Capendu, Trèbes, Carcassonne [Voir sa page et ses 28 annonces](https://lotier.immo/nos-agents/barbara-bouba/)[06 51 45 06 63](tel:+33651450663)
 
 [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
 -
@@ -50,7 +50,7 @@ Caveirac, Nîmes, Aubais, Beaucaire, Calvisson [Voir sa page et ses 8 annonces](
 
 Agent commercial indépendant · Béziers
 
-Béziers, Maureilhan, Villeneuve-lès-Béziers [Voir sa page et ses 22 annonces](https://lotier.immo/nos-agents/laetitia-dias/)[06 09 76 63 24](tel:+33609766324)
+Béziers, Maureilhan, Villeneuve-lès-Béziers [Voir sa page et ses 21 annonces](https://lotier.immo/nos-agents/laetitia-dias/)[06 09 76 63 24](tel:+33609766324)
 
 [laetitia.dias@lotier-immobilier.com](mailto:laetitia.dias@lotier-immobilier.com)
 

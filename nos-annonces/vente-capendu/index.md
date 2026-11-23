@@ -1,10 +1,10 @@
 # Biens à vendre *à Capendu.*
 
-> 11 biens à vendre à Capendu avec LOTIER Immobilier : 5 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 399 900…
+> 10 biens à vendre à Capendu avec LOTIER Immobilier : 5 maisons, 1 appartement, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 350 000 €…
 
 Source : https://lotier.immo/nos-annonces/vente-capendu/
 
-LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 5 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Les prix vont de 25 000 € à 399 900 €. Les surfaces vont de 27 à 1457 m².
+LOTIER Immobilier propose actuellement 10 biens à vendre à Capendu : 5 maisons, 1 appartement, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Les prix vont de 25 000 € à 350 000 €. Les surfaces vont de 116 à 1457 m².
 
 ## Liste des annonces
 
@@ -23,14 +23,6 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 5 maisons
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
 
  224 000 €
 
@@ -72,7 +64,7 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 5 maisons
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/)[Être rappelé](https://lotier.immo/contact/)
 
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -107,14 +99,14 @@ LOTIER Immobilier propose actuellement 11 biens à vendre à Capendu : 5 maisons
 ### Combien de biens sont à vendre à Capendu chez LOTIER Immobilier ?
 **
 
-11 biens sont à vendre à Capendu aujourd'hui : 5 maisons, 2 appartements, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Cette liste est reprise chaque jour du logiciel de l'agence.
+10 biens sont à vendre à Capendu aujourd'hui : 5 maisons, 1 appartement, 1 local commercial, 1 immeuble, 1 parking et 1 terrain. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 
 ### Quel budget prévoir pour acheter à Capendu ?
 **
 
-Parmi nos annonces, les prix vont de 25 000 € à 399 900 €, avec un prix médian de 85 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
+Parmi nos annonces, les prix vont de 25 000 € à 350 000 €, avec un prix médian de 95 000 €. Ces montants reflètent nos annonces du moment, pas l'ensemble du marché.
 
 **Question
 
@@ -130,7 +122,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Oui. Les prix de vente affichés comprennent les honoraires de l'agence, qui sont à la charge du vendeur. Le barème est publié sur la page Nos honoraires.
 
- [Biens à louer à Capendu (4)](https://lotier.immo/nos-annonces/location-capendu/)[Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (3)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

@@ -190,25 +190,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 54 000 €
-
-### Capendu studio meublé vendu loué terrasse renta brute
-
- Capendu · 27,4 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/capendu-studio-meuble-vendu-loue-terrasse-renta-brute/)[Être rappelé](https://lotier.immo/contact/)
-
- 330 000 €
-
-### Carcassonne Confort, élégance et espace pour toute la fami
-
- Carcassonne · 240 m² · 5 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/carcassonne-confort-elegance-et-espace-pour-toute-la-fami/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
-
- 399 900 €
+ 350 000 €
 
 ### Ensemble immobilier de 6 lots
 
@@ -224,6 +206,8 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
+## Biens à proximité
+
  45 000 €
 
 ### Garage viabilisé de 134 m2 sur deux niveaux
@@ -231,6 +215,22 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 134 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/garage-viabilise-de-134-m2-sur-deux-niveaux/)[Être rappelé](https://lotier.immo/contact/)
+
+ 170 000 €
+
+### Immeuble avec 1 local commercial et 1 T4
+
+ Carcassonne · 170 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
+
+ 230 000 €
+
+### Immeuble de rapport
+
+ Carcassonne · 166 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 
