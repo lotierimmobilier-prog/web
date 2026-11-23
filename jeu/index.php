@@ -270,7 +270,7 @@ if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($fac
   <footer class="pied">
     <p><a href="reglement.php">Règlement du concours</a> · <a href="reglement.php#donnees">Vos données personnelles</a> · <a href="../lotier-rgpd/">Politique de protection des données</a> · <a href="../">lotier.immo</a></p>
     <p>Jeu gratuit et sans obligation d’achat, organisé par LOTIER Immobilier, 40 rue Française, 34500 Béziers. 04 67 11 28 31.</p>
-    <p><a class="cadenas" href="admin.php" rel="nofollow" aria-label="Administration du concours (accès réservé)" title="Administration"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg></a></p>
+    <p><a href="retrait.php">Retirer un dessin</a> · <a class="cadenas" href="admin.php" rel="nofollow" aria-label="Administration du concours (accès réservé)" title="Administration"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg></a></p>
   </footer>
 
   <dialog id="dlg-vote" aria-labelledby="t-vote">

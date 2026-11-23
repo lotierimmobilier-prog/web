@@ -77,6 +77,8 @@ function db(): PDO {
         jour TEXT NOT NULL, ip TEXT NOT NULL DEFAULT '', cree_le TEXT NOT NULL, UNIQUE (email, jour))");
     $pdo->exec("CREATE INDEX IF NOT EXISTS votes_dessin ON votes (dessin_id)");
     $pdo->exec("CREATE TABLE IF NOT EXISTS reglages (cle TEXT PRIMARY KEY, valeur TEXT NOT NULL)");
+    $pdo->exec("CREATE TABLE IF NOT EXISTS demandes (id INTEGER PRIMARY KEY AUTOINCREMENT, dessin_id INTEGER, prenom TEXT NOT NULL, email TEXT NOT NULL,
+        message TEXT NOT NULL DEFAULT '', cree_le TEXT NOT NULL, traite_le TEXT, ip TEXT NOT NULL DEFAULT '')");
     $pdo->exec("CREATE TABLE IF NOT EXISTS tentatives (ip TEXT NOT NULL, quand INTEGER NOT NULL)");
     $pdo->exec("CREATE TABLE IF NOT EXISTS journal (id INTEGER PRIMARY KEY AUTOINCREMENT, quand TEXT NOT NULL, action TEXT NOT NULL, detail TEXT NOT NULL DEFAULT '')");
     return $pdo;

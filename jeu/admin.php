@@ -48,6 +48,15 @@ if ($admin && $csrf_ok) {
         $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
         if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
     }
+    if ($a === 'demande-traitee' && $id) { db()->prepare('UPDATE demandes SET traite_le = ? WHERE id = ?')->execute([date('Y-m-d H:i:s'), $id]); journal('demande traitée', (string) $id); $info = 'Demande classée.'; }
+    if ($a === 'demande-suspendre' && $id) {
+        $q = db()->prepare('SELECT dessin_id FROM demandes WHERE id = ?'); $q->execute([$id]); $did = $q->fetchColumn();
+        if ($did) {
+            db()->prepare("UPDATE dessins SET statut = 'suspendu', traite_le = ? WHERE id = ?")->execute([date('Y-m-d H:i:s'), (int) $did]);
+            db()->prepare('UPDATE demandes SET traite_le = ? WHERE id = ?')->execute([date('Y-m-d H:i:s'), $id]);
+            journal('demande : dessin suspendu', (string) $did); $info = 'Dessin suspendu et demande classée. Pour effacer aussi ses données, utilisez « Supprimer » sur le dessin.';
+        }
+    }
     if ($a === 'dates') {
         $dd = (string) ($_POST['depots'] ?? ''); $dv = (string) ($_POST['votes'] ?? '');
         $ok = fn($v) => preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) && checkdate((int) substr($v, 5, 2), (int) substr($v, 8, 2), (int) substr($v, 0, 4));
@@ -83,6 +92,7 @@ if ($admin && isset($_GET['export'])) {
     exit;
 }
 $liste = $admin ? db()->query("SELECT d.*, (SELECT COUNT(*) FROM votes v WHERE v.dessin_id = d.id) AS voix FROM dessins d ORDER BY CASE statut WHEN 'attente' THEN 0 WHEN 'valide' THEN 1 WHEN 'suspendu' THEN 2 ELSE 3 END, categorie, voix DESC, cree_le")->fetchAll() : [];
+$demandes = $admin ? db()->query("SELECT q.*, d.prenom AS d_prenom, d.age AS d_age, d.statut AS d_statut, d.jeton AS d_jeton FROM demandes q LEFT JOIN dessins d ON d.id = q.dessin_id WHERE q.traite_le IS NULL ORDER BY q.id")->fetchAll() : [];
 $compte = ['attente' => 0, 'valide' => 0, 'suspendu' => 0, 'refuse' => 0];
 foreach ($liste as $d) $compte[$d['statut']]++;
 $champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
@@ -136,8 +146,31 @@ if ($admin) {
     <p><button class="btn rouge" type="submit">Se connecter</button></p>
   </form>
 <?php else: ?>
-  <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['suspendu'] ?> suspendu(s) · <?= $compte['refuse'] ?> refusé(s)</p>
+  <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['suspendu'] ?> suspendu(s) · <?= $compte['refuse'] ?> refusé(s)<?php if ($demandes): ?> · <a href="#demandes"><b><?= count($demandes) ?> demande(s) de retrait à traiter</b></a><?php endif; ?></p>
   <p class="boutons"><a class="btn clair" href="admin.php">Actualiser</a><a class="btn clair" href="admin.php?export=participants">Exporter les participants (CSV)</a><a class="btn clair" href="admin.php?export=infolettre">Exporter les inscrits à la lettre d’information (CSV)</a><a class="btn clair" href="./" target="_blank" rel="noopener">Voir le concours</a></p>
+<?php if ($demandes): ?>
+  <h2 id="demandes">Demandes de retrait (<?= count($demandes) ?>)</h2>
+<?php foreach ($demandes as $q): ?>
+  <div class="ligne demande">
+<?php if ($q['d_jeton']): ?>    <img src="image.php?d=<?= h($q['d_jeton']) ?>&amp;v=1" alt="Dessin concerné" width="150" height="112" loading="lazy">
+<?php else: ?>    <span></span>
+<?php endif; ?>
+    <div>
+      <p><b><?= h($q['prenom']) ?></b> · <?= h($q['email']) ?> · reçue le <?= h(fr_date($q['cree_le'])) ?> à <?= h(substr($q['cree_le'], 11, 5)) ?></p>
+<?php if ($q['d_jeton']): ?>      <p><span class="etat valide">Prénom et e-mail identiques à ceux du dépôt</span> · dessin de <?= h($q['d_prenom']) ?>, <?= (int) $q['d_age'] ?> ans, actuellement <?= h(['attente' => 'en attente', 'valide' => 'publié', 'suspendu' => 'suspendu', 'refuse' => 'refusé'][$q['d_statut']] ?? $q['d_statut']) ?></p>
+<?php else: ?>      <p><span class="etat refuse">Aucun dessin déposé avec ce prénom et cette adresse</span> · vérifiez avant d’agir, et répondez au demandeur.</p>
+<?php endif; ?>
+<?php if ($q['message'] !== ''): ?>      <p>« <?= nl2br(h($q['message'])) ?> »</p>
+<?php endif; ?>
+    </div>
+    <div>
+<?php if ($q['d_jeton'] && $q['d_statut'] !== 'suspendu'): ?>      <form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $q['id'] ?>"><button class="btn rouge" name="action" value="demande-suspendre">Suspendre le dessin</button></form>
+<?php endif; ?>
+      <form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $q['id'] ?>"><button class="btn clair" name="action" value="demande-traitee">Classer la demande</button></form>
+    </div>
+  </div>
+<?php endforeach; ?>
+<?php endif; ?>
   <h2>Suivi des votes</h2>
   <p><b><?= $suivi['total'] ?></b> vote(s) au total · <b><?= $suivi['jour'] ?></b> aujourd’hui · <b><?= $suivi['votants'] ?></b> votant(s) différent(s)</p>
   <div class="suivi">
