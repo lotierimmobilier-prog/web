@@ -83,7 +83,7 @@ if ($admin && $csrf_ok) {
     }
     if ($a === 'dates-officielles') { db()->exec("DELETE FROM reglages WHERE cle = 'dates'"); journal('dates', 'officielles'); header('Location: admin.php?ok=dates'); exit; }
     if ($a === 'vider-votes' && ($_POST['confirmation'] ?? '') === 'EFFACER') {
-        $n = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn(); db()->exec('DELETE FROM votes'); journal('votes', "effacés : $n"); $info = "$n vote(s) effacé(s).";
+        $n = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn(); db()->exec('DELETE FROM votes'); db()->exec('DELETE FROM votants'); journal('votes', "effacés : $n"); $info = "$n vote(s) effacé(s).";
     } elseif ($a === 'vider-votes') $erreur = 'Pour effacer les votes, écrivez EFFACER dans la case.';
     if ($a === 'mdp') {
         $m = (string) ($_POST['mdp'] ?? '');
@@ -120,7 +120,7 @@ $suivi = null;
 if ($admin) {
     $jour = maintenant()->format('Y-m-d');
     $un = fn(string $sql, array $p = []) => (function () use ($sql, $p) { $q = db()->prepare($sql); $q->execute($p); return (int) $q->fetchColumn(); })();
-    $suivi = ['total' => $un('SELECT COUNT(*) FROM votes'), 'jour' => $un('SELECT COUNT(*) FROM votes WHERE jour = ?', [$jour]), 'votants' => $un('SELECT COUNT(DISTINCT email) FROM votes'),
+    $suivi = ['total' => $un('SELECT COUNT(*) FROM votes'), 'jour' => $un('SELECT COUNT(*) FROM votes WHERE jour = ?', [$jour]), 'votants' => $un('SELECT COUNT(*) FROM votants'),
               'par_jour' => db()->query('SELECT jour, COUNT(*) AS n FROM votes GROUP BY jour ORDER BY jour DESC LIMIT 30')->fetchAll(),
               'alertes' => db()->query("SELECT v.jour, d.prenom, COUNT(*) AS n FROM votes v JOIN dessins d ON d.id = v.dessin_id GROUP BY v.jour, v.ip, v.dessin_id HAVING n >= 8 ORDER BY v.jour DESC, n DESC LIMIT 20")->fetchAll()];
     $classement = array_fill_keys(array_keys(JEU_CATEGORIES), []);

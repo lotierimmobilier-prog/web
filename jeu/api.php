@@ -69,7 +69,10 @@ if ($action === 'vote') {
     $q = db()->prepare('SELECT COUNT(*) FROM votes WHERE ip = ? AND jour = ?'); $q->execute([ip(), $jour]);
     if ((int) $q->fetchColumn() >= JEU_VOTES_PAR_IP) repondre(['erreur' => 'Trop de votes aujourd’hui depuis cette connexion. Revenez demain.'], 429);
     try {
-        db()->prepare('INSERT INTO votes (dessin_id, email, jour, ip, cree_le) VALUES (?, ?, ?, ?, ?)')->execute([$d['id'], $email, $jour, ip(), maintenant()->format('Y-m-d H:i:s')]);
+        $maint = maintenant()->format('Y-m-d H:i:s');
+        db()->prepare('INSERT OR IGNORE INTO votants (email, cree_le) VALUES (?, ?)')->execute([$email, $maint]);
+        $q = db()->prepare('SELECT id FROM votants WHERE email = ?'); $q->execute([$email]);
+        db()->prepare('INSERT INTO votes (dessin_id, votant_id, jour, ip, cree_le) VALUES (?, ?, ?, ?, ?)')->execute([$d['id'], (int) $q->fetchColumn(), $jour, ip(), $maint]);
     } catch (PDOException $e) {
         repondre(['erreur' => 'Vous avez déjà voté aujourd’hui avec cette adresse. Revenez demain : un vote par jour.'], 409);
     }

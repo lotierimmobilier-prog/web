@@ -72,9 +72,20 @@ function db(): PDO {
         email TEXT NOT NULL, lien TEXT NOT NULL DEFAULT '', code_postal TEXT NOT NULL DEFAULT '', projet TEXT NOT NULL DEFAULT '',
         rappel INTEGER NOT NULL DEFAULT 0, telephone TEXT NOT NULL DEFAULT '', infolettre INTEGER NOT NULL DEFAULT 0,
         statut TEXT NOT NULL DEFAULT 'attente', cree_le TEXT NOT NULL, traite_le TEXT, ip TEXT NOT NULL DEFAULT '')");
+    // Une adresse de votant n'est enregistrée qu'une seule fois, quel que soit le nombre de votes.
+    $pdo->exec("CREATE TABLE IF NOT EXISTS votants (id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL UNIQUE, cree_le TEXT NOT NULL)");
     $pdo->exec("CREATE TABLE IF NOT EXISTS votes (
-        id INTEGER PRIMARY KEY AUTOINCREMENT, dessin_id INTEGER NOT NULL REFERENCES dessins(id) ON DELETE CASCADE, email TEXT NOT NULL,
-        jour TEXT NOT NULL, ip TEXT NOT NULL DEFAULT '', cree_le TEXT NOT NULL, UNIQUE (email, jour))");
+        id INTEGER PRIMARY KEY AUTOINCREMENT, dessin_id INTEGER NOT NULL REFERENCES dessins(id) ON DELETE CASCADE, votant_id INTEGER NOT NULL REFERENCES votants(id) ON DELETE CASCADE,
+        jour TEXT NOT NULL, ip TEXT NOT NULL DEFAULT '', cree_le TEXT NOT NULL, UNIQUE (votant_id, jour))");
+    if (in_array('email', array_column($pdo->query('PRAGMA table_info(votes)')->fetchAll(), 'name'), true)) {   // ancienne base : une adresse par vote
+        $pdo->exec('BEGIN');
+        $pdo->exec("INSERT OR IGNORE INTO votants (email, cree_le) SELECT email, MIN(cree_le) FROM votes GROUP BY email");
+        $pdo->exec("CREATE TABLE votes_nv (id INTEGER PRIMARY KEY AUTOINCREMENT, dessin_id INTEGER NOT NULL REFERENCES dessins(id) ON DELETE CASCADE, votant_id INTEGER NOT NULL REFERENCES votants(id) ON DELETE CASCADE,
+            jour TEXT NOT NULL, ip TEXT NOT NULL DEFAULT '', cree_le TEXT NOT NULL, UNIQUE (votant_id, jour))");
+        $pdo->exec("INSERT INTO votes_nv (id, dessin_id, votant_id, jour, ip, cree_le) SELECT v.id, v.dessin_id, u.id, v.jour, v.ip, v.cree_le FROM votes v JOIN votants u ON u.email = v.email");
+        $pdo->exec('DROP TABLE votes'); $pdo->exec('ALTER TABLE votes_nv RENAME TO votes');
+        $pdo->exec('COMMIT');
+    }
     $pdo->exec("CREATE INDEX IF NOT EXISTS votes_dessin ON votes (dessin_id)");
     $pdo->exec("CREATE TABLE IF NOT EXISTS reglages (cle TEXT PRIMARY KEY, valeur TEXT NOT NULL)");
     $pdo->exec("CREATE TABLE IF NOT EXISTS demandes (id INTEGER PRIMARY KEY AUTOINCREMENT, dessin_id INTEGER, prenom TEXT NOT NULL, email TEXT NOT NULL,
