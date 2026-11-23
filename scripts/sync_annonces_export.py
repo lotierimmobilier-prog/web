@@ -27,7 +27,7 @@ IMG_DIR = ROOT / "assets" / "annonces"
 URL = "https://www.lotier-immobilier.com/lotier-immo.zip"
 UA = "LotierV2-sync/1.0 (+https://www.lotier-immobilier.com)"
 SCHEMA = 3
-PHOTOS_MAX = 12
+PHOTOS_MAX = 30           # l'export Hektor compte 30 colonnes de photos : toutes sont reprises
 NB_COLONNES_MIN = 328
 
 # Colonnes d'Annonces.csv (numérotées à partir de 1, comme dans la documentation Poliris).
