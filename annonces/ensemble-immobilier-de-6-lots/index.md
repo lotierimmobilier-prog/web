@@ -8,7 +8,7 @@ Ensemble immobilier de 6 lots
 
 **350 000 €** · Capendu · 400 m² · 7 chambres · 4 salles d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 23
 
 ## En bref
 

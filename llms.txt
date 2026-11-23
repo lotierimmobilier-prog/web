@@ -56,7 +56,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 - [Sites partenaires](https://lotier.immo/sites-partenaires/): Signabail (https://signabail.fr/), votre bail conforme, signé en ligne ; Constatio (https://constatio.fr/), l'état des lieux depuis votre téléphone ; Jérôme Bouba (https://jeromebouba.fr/), entrepreneur de l'immobilier en occitanie.
 
-## Annonces en cours (78)
+## Annonces en cours (79)
 
 - [Catalogue complet en JSON](https://lotier.immo/annonces/catalogue.json): toutes les annonces avec type de bien, commune, département, prix, surface, pièces, équipements, classe énergie, référence, agent, texte et date de mise à jour. Régénéré chaque jour.
 - [Maison 5 pièces 89 m² à vendre à Alès](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/): 164 300 €, Gard (30), classe énergie D, réf. 12_RFVMA70000869.
@@ -86,6 +86,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Maison 5 pièces 140 m² à vendre à Capendu](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/): 224 000 €, Aude (11), classe énergie C, réf. 2_BBVMA30001003.
 - [Immeuble 400 m² à vendre à Capendu](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/): 350 000 €, Aude (11), réf. 2_BBV30000787.
 - [Appartement 2 pièces 50 m² à vendre à Carcassonne](https://lotier.immo/annonces/appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r/): 80 000 €, Aude (11), classe énergie D, réf. 2_MAVAP130000883.
+- [Local commercial 160 m² à vendre à Carcassonne](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/): 119 000 €, Aude (11), réf. 2_BBVCO30001062.
 - [Immeuble 170 m² à vendre à Carcassonne](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/): 170 000 €, Aude (11), classe énergie C, réf. 2_MAVIM130000208.
 - [Immeuble 166 m² à vendre à Carcassonne](https://lotier.immo/annonces/immeuble-de-rapport/): 230 000 €, Aude (11), classe énergie C, réf. 2_MAV130000581.
 - [Appartement 2 pièces 46 m² à vendre à Caveirac](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/): 220 000 €, Gard (30), classe énergie A, réf. 18_CEORE140000948.
@@ -144,7 +145,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces.
 - [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces.
 - [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 7 annonces.
-- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 3 annonces.
+- [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces.
 - [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces.
 - [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces.
 

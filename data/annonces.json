@@ -3,6 +3,100 @@
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
   {
+   "id": "local-commercial-160-m2-a-vendre-carcassonne",
+   "titre": "Local commercial 160 m2 à vendre, Carcassonne",
+   "ville": "Carcassonne",
+   "type": "vente",
+   "prix": 119000.0,
+   "surface": 160.0,
+   "chambres": null,
+   "sdb": null,
+   "badges": [],
+   "description_html": "<p>Local commercial de 160 m2 situé au rez-de-chaussée, 9 avenue Bunau Varilla à Carcassonne, proposé à la vente au prix de 119 000 EUR, honoraires à la charge du vendeur. Le bien est actuellement occupé par un locataire professionnel (RANDSTAD) dans le cadre d’un bail commercial en cours depuis le 3 novembre 1994, générant un loyer de 3 185,06 EUR par trimestre, soit 12 740,24 EUR par an. Le bail se transmet à l’acquéreur.</p><p>Situé en rez-de-chaussée, le local se compose d’un espace d’accueil, d’une salle de réunion, d’un espace archives et d’une cave. Aucun travail n’est à prévoir pour le propriétaire bailleur, les travaux étant à la charge du locataire selon les termes du bail en cours.</p><p>Le chauffage est électrique. Le bien ne dispose pas d’extérieur ni de stationnement privatif.</p><p>Ce local bénéficie d’un emplacement de premier plan à proximité immédiate du centre-ville de Carcassonne, avec des commerces et des transports accessibles à quelques mètres.</p><p>Le bien est situé dans une copropriété de 31 lots. Les charges annuelles de copropriété s’élèvent en moyenne à 1 711 EUR par an. Aucune procédure judiciaire n’est en cours concernant la copropriété.</p><p>Bien vendu occupé — investissement locataire professionnel en place. Références cadastrales : BL 324. Lots concernés : lot 9 (5/1065), lot 15 (53/1065), lot 17 (10/1065), lot 18 (10/1065).</p><p>Prix de vente : 119 000 EUR. Honoraires à la charge du vendeur.</p><p>Informations sur les risques auxquels ce bien est exposé disponibles sur le site Géorisques.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Local"
+      ],
+      [
+       "Surface habitable",
+       "160 m²"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "119 000 €"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "31"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Carcassonne"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "2_BBVCO30001062",
+   "agent": {
+    "nom": "BARBARA BOUBA",
+    "email": "barbara.bouba@lotier-immobilier.com",
+    "telephone": "0651450663",
+    "photo": null
+   },
+   "energie": null,
+   "mentions_prix": [],
+   "honoraires": null,
+   "photo": "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne.jpg",
+   "photos": [
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-1.jpg",
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-2.jpg",
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-3.jpg",
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-4.jpg",
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-5.jpg",
+    "assets/annonces/local-commercial-160-m2-a-vendre-carcassonne-6.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_34be52d63956428d3e1a0b32cce23a39.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_40623a5bdb0fb47364cd338d9575c29c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_0e00e88a4ba01506ba8db9bc023a7a29.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_f373725da21ee7d7deb604c4359bda32.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_04943de6f1ddf45e01ba676587d416f2.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_ca72fdd412bc75eee80b97cc5afcf800.jpg"
+   ],
+   "schema": 3
+  },
+  {
    "id": "appartement-meuble-1-chambre",
    "titre": "Appartement meublé 1 chambre",
    "ville": "Carcassonne",
@@ -313,7 +407,12 @@
     "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-9.jpg",
     "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-10.jpg",
     "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-11.jpg",
-    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-12.jpg"
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-12.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-13.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-14.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-15.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-16.jpg",
+    "assets/annonces/maison-de-village-4-pieces-114-m2-renovee-quarante-17.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_2fe77ef9f6914de83adbb4b90f22271f.png",
@@ -327,7 +426,12 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_0deab1fe5e2d9b06ee0e8be00ff2347d.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_9e9e0c9f4ce3b58811c53579fa0accfd.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_fd0542a4642e36bd51ca32c89b5dc3f8.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_8e3ee27d47b54f7b50c95e3563467b99.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_8e3ee27d47b54f7b50c95e3563467b99.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_62e3dcc42ceef03774e5bac161f50196.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_ba355a55462753c88999ae30313cfdf8.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_7186e0c8b402bd6f3fcfb968bfaf6b12.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_69ee2e70bc207fbf1082042a345e2db4.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/91d5543f1b725e40fee7594931a029cc/photo_a7b73717c8d42ab1cd59e771162983cc.png"
    ],
    "schema": 3
   },
@@ -619,7 +723,22 @@
     "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-9.jpg",
     "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-10.jpg",
     "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-11.jpg",
-    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-12.jpg"
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-12.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-13.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-14.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-15.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-16.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-17.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-18.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-19.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-20.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-21.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-22.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-23.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-24.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-25.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-26.jpg",
+    "assets/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2-27.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f348e4d9aaf839bed586dda0b8aece1d.png",
@@ -633,7 +752,22 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f3cededb9da765559986a01bdeb8c1c3.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f4c59994e33302a5ddc52de98d4690dd.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_15b2de1c6c8af63e86fc68ad495b7c23.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_6d4897191d758d632b9c7897d849985e.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_6d4897191d758d632b9c7897d849985e.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_d51183c247125755beca480b5bad8582.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_8b625061c6efbf765a9d1482de4a6886.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_4217d9858e1424f2eb31e0cffe84afde.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_d2641e2b80f201d3006607fd6a7dd06a.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f4d0b894490b2653cbf8969fba3b8efe.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_160198b474f14c2f3be8b341bd133610.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_be48bfe547d7fb19668be9111d90fb7a.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_8e2127b695795872030072070f308cf4.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_e29c19cf72f8330185018ab67e2e6cc3.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_877815417c195466cf7437c7d5c9f86b.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_a0b3b9a7931ea84e562ef640815e8e0d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_583af21abdfb190d264c8ebb60a186da.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_f4f484d10f056d59f03205f63a4fe72f.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_e89c8cf401003186b9e3225a1fd1e23c.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/57fea9e533912326e2d3ace898ae0c3d/photo_cb8e331bfdcfb85cea26b1574b24350e.png"
    ],
    "schema": 3
   },
@@ -735,7 +869,8 @@
     "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-9.jpg",
     "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-10.jpg",
     "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-11.jpg",
-    "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-12.jpg"
+    "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-12.jpg",
+    "assets/annonces/immeuble-de-4-lots-123-32-m2-beziers-13.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_79a92f7f02f9ab6990eac388437c02e4.jpg",
@@ -749,7 +884,8 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_676c380023099d6c4bc7d7dccb99cd7e.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_0f0fe7e8d99d93025d6263e723a17b9c.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_12ba221b5142c0460ac34156448cafdb.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_af453095b7c5d2d2ac218837735074a4.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_af453095b7c5d2d2ac218837735074a4.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/64e2db6c927e639edcf91059268fb912/photo_ecfe3313ba376fe9d6f4c1c56c1de4f3.jpg"
    ],
    "schema": 3
   },
@@ -1050,7 +1186,8 @@
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-9.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-10.jpg",
     "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-11.jpg",
-    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-12.jpg"
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-12.jpg",
+    "assets/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers-13.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_3b04888a8fec86deb04eca04bb96513e.jpg",
@@ -1064,7 +1201,8 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_4abb773699752a72cfc455e69ad62f13.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_e1574f3013183a606cc9dcfd998230fa.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_ae5949038564645fa10b087b4c2a0335.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_0ad3194f57ecc64ca5e9f04a3712c128.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_0ad3194f57ecc64ca5e9f04a3712c128.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/b156517f91a2aa11f8dfecca4da07b2d/photo_843e707bb89cb7423ec33c9c662a23f8.jpg"
    ],
    "schema": 3
   },
@@ -1455,7 +1593,19 @@
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-9.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-10.jpg",
     "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-11.jpg",
-    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-12.jpg"
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-12.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-13.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-14.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-15.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-16.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-17.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-18.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-19.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-20.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-21.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-22.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-23.jpg",
+    "assets/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur-24.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_5db3e78f658539b764d08caa6277b67d.jpg",
@@ -1469,7 +1619,19 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_8a74cc5ef633a8571bbc2bccaced45ae.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_4b5a636d9b4fc53548fe0eb8d93234d6.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_f032cd1f320c2f59a398c3f9d656bb68.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_1f7ae0517db217c1fbd217157c7e6603.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_1f7ae0517db217c1fbd217157c7e6603.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_6e0d1c2b25b9e466d878ae92de418aa7.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_abbeef8a456b6d5ea412b5f50f2477b0.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_9b6f9fae8ad63ab26c19e5ac742e1e2a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_c6a513c50142f1b7111b7814ffb428f1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_1d594cf638fa39bca585ecd179bec4ec.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_d2997a8064482c3df79332952807fdc1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_b509bf2acad1a6a2b655fa65cb991f6c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_8a5a257a949e797eba72865f6000858b.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_aa97b26e87523d491616680670e2ef87.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_6b8823b4bcea14a8c0fa83982d52c8e6.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_4dbb5d9f88cb0492f6f72deaad2519da.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_9293f4520927a18a0602367b0888f03a.jpg"
    ],
    "schema": 3
   },
@@ -1646,7 +1808,10 @@
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-9.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-10.jpg",
     "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-11.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-12.jpg"
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-12.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-13.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-14.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-15.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_6227f3ea635947c232214348b24bb381.png",
@@ -1660,7 +1825,10 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_8f235cc1841df9772890e495101e4c4a.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_0aa4da515bc0c429bfdc376866fd2eb1.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_302405c706b59bb810c6bd6724a6b943.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_3902181b90e81688548db944ad865e08.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_3902181b90e81688548db944ad865e08.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_6f94edd73cc02fc9ff3efc40c5836610.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_462315070a7b234fc4b0390155f10e1b.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_324d7ec30939e413024913420e88bdc2.png"
    ],
    "schema": 3
   },
@@ -1752,7 +1920,8 @@
     "assets/annonces/local-commercial-boulevard-de-geneve-9.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-10.jpg",
     "assets/annonces/local-commercial-boulevard-de-geneve-11.jpg",
-    "assets/annonces/local-commercial-boulevard-de-geneve-12.jpg"
+    "assets/annonces/local-commercial-boulevard-de-geneve-12.jpg",
+    "assets/annonces/local-commercial-boulevard-de-geneve-13.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_c50f8632ee1876b29a2cdd200315a6de.jpg",
@@ -1766,7 +1935,8 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_c80d5f96c31bbbd5c60f84780384fe68.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_041b977ba15703e64f59a1f01eb71ff3.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_f93a25648d8bfe546df2a08ac185d47e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_e63ab4e12a7141d92a25b22d56a86296.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_e63ab4e12a7141d92a25b22d56a86296.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/30aec09cb65f20c371c374af223cdf74/photo_3595070a79ce381c1cf7fa619e2afea1.jpg"
    ],
    "schema": 3
   },
@@ -1919,7 +2089,11 @@
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-9.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-10.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-11.jpg",
-    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-12.jpg"
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-12.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-13.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-14.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-15.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-secteur-gare-marechal-16.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_86988b4e94be48b3bd164b43d1835e43.jpg",
@@ -1933,7 +2107,11 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_f81ed17fa985af0e4c31628c87ae26cb.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_25b2ed7e782bb7e36c60587721453168.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_c014f81d5bbad2ddf77a4d07362f43d2.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_aa4ccb140fe457541c7fda13ee4ea2ba.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_aa4ccb140fe457541c7fda13ee4ea2ba.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_c8cd1a5344a571e6803118762e487eee.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_4d0e9351c16bf5340d9ce956fd6f9392.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_5968612f0133b99b3c6c0572b37bded2.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9175c61db0c6b433f1ec543e5c5cde4b/photo_39d3ebb4d3d407d01c89cba90337a7fa.jpg"
    ],
    "schema": 3
   },
@@ -2262,7 +2440,10 @@
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-9.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-10.jpg",
     "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-11.jpg",
-    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-12.jpg"
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-12.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-13.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-14.jpg",
+    "assets/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage-15.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_3beac2b52042d6ff7da0b0e56057da7d.jpg",
@@ -2276,7 +2457,10 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_ae91972be643036474629b8d58b14016.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_c244a8a7764889d79371b3632c68d169.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_089e304a756da7cb4dfb886bb1a0de34.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_07d7e9b0efd929545f02a4783ae73119.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_07d7e9b0efd929545f02a4783ae73119.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_6ceee276ff34bee2378ec680a89ff3a1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_babe4889f0fca591bdbaf85bd1f06b0b.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_9e6fac65a297c02426f1ef32760ac4a3.jpg"
    ],
    "schema": 3
   },
@@ -2416,7 +2600,8 @@
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-9.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-10.jpg",
     "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-11.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-12.jpg"
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-12.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-13.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_95fa3a577174933bad0600f894b44369.jpg",
@@ -2430,7 +2615,8 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_84fd17b2ed8b34f3c7da0830a9a1bd2c.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_4d3d49ec1ec6c0dc95bddbd9eb6f8516.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_a4fc83cf1a3e668e3bb7197b9244af14.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_8d08b45fffdb3d00914928b0c2b8cd7f.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_8d08b45fffdb3d00914928b0c2b8cd7f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_ebdad6cdadaf8787d53d98ad42b12066.jpg"
    ],
    "schema": 3
   },
@@ -2910,7 +3096,9 @@
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-9.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-10.jpg",
     "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-11.jpg",
-    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-12.jpg"
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-12.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-13.jpg",
+    "assets/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison-14.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_19ca5eea93cb87319f370d0a3d4a2ec8.jpg",
@@ -2924,7 +3112,9 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_0c8d55bb14b67e77b82e23faad0d6d17.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_bee62ef2cb793271e0fd022ab1f9fd76.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_dae4b072edb5b9f38122a5aeaf0ef1d1.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_eb31052a2c66b27ca632a506338ccd32.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_eb31052a2c66b27ca632a506338ccd32.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_9a897a6e04911d6621a485cbe3ec6963.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/7077ea1dc19e0f8e978f5865201739c4/photo_fb380ca15cd40de9c8fbe49472f6778f.jpg"
    ],
    "schema": 3
   },
@@ -3921,7 +4111,19 @@
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-9.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-10.jpg",
     "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-11.jpg",
-    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-12.jpg"
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-12.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-13.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-14.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-15.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-16.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-17.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-18.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-19.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-20.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-21.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-22.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-23.jpg",
+    "assets/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et-24.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_e3aec539b13322fe3b275f388c2bd394.png",
@@ -3935,7 +4137,19 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_121f9d2da46abed75fd8f2fc83589607.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_d7af1e69e0aee2bc95d629d6dfe97877.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_f934631fa35d728f7dee73e2cb651f92.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_dd0ebbb535f0e7a35b4491b7e92c3f99.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_dd0ebbb535f0e7a35b4491b7e92c3f99.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_8bcf41064d8e0ac273f9971cc61a7bc2.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_6383321be5403de748335b7a3b7cc90d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_044e1ed9cdba44928adc39f3727c9b1e.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_5c88740b62809781fc29767a52182c93.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_279efcb672e5198225d030669ed924cc.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_9942b7177eff4ffca38dfde7b76ec62c.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_4b045ecda117533598dfcd5bf3f9a680.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_aabb5cfb09e6f1fc8a3a2930dde1b3b6.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_cfbb2995fea479760cb86ba2669c6c5f.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_f62cba98b93c0372d2c887e6960a69eb.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_0bb0c4a3c3639da305a6a9cd91b961f3.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/be08e1a27993f2487635dbed362ac4f8/photo_31c514e815a4881ccb0acdfd01ef2b59.png"
    ],
    "schema": 3
   },
@@ -4368,7 +4582,21 @@
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-9.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-10.jpg",
     "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-11.jpg",
-    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-12.jpg"
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-12.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-13.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-14.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-15.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-16.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-17.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-18.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-19.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-20.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-21.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-22.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-23.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-24.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-25.jpg",
+    "assets/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin-26.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_d28962d1edbb7d04a8c194be73611c99.png",
@@ -4382,7 +4610,21 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_0f5648d1eac290e951c0c923a7652d8c.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_847e93cf8a07e9f4dda20ce0f4b69571.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_3ed0bdc8ec96ce2eafb0151cf31de185.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_5d871fa0cf6d9e3b0b7af4bc5b0bdfbd.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_5d871fa0cf6d9e3b0b7af4bc5b0bdfbd.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_fb82fca840dd87e0506f92e891a663c0.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_6997e4fd7341ab3947390445035c1ec0.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_14b301fafffd61ac88d45982e5aaee15.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_c2789056f5cd60d71dfc79fd8fbd9746.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_bb137c1b5aeecedfff61fde306b2e0ea.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_de3718595344a80dde89f695ab3e9aea.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_a368ac6456c0e2ecdbcb15939264009f.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_6f75d4ef567388ab4d3c35688b724f3f.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_1920339d0bbc6056b8fc9894c22304c2.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_70c822c8fb69f5c3c6df7e9ac9c6a876.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_e94a3899dc13b55d834ff18739aa7232.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_695add87a6d2c16813e41f71ba9c9a29.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_c06e01ee56513478eda37b665569c3c2.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/748054f1c7aabeae16fc9b4f4aef053a/photo_5939edafc2eff39f10b4c0dcc62ccef5.png"
    ],
    "schema": 3
   },
@@ -5680,7 +5922,12 @@
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-9.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-10.jpg",
     "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-11.jpg",
-    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-12.jpg"
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-12.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-13.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-14.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-15.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-16.jpg",
+    "assets/annonces/a-vendre-appartement-t3-lumineux-avec-terrasse-box-en-sou-17.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_97cb9c3240cd458421c39e2048a6d159.jpg",
@@ -5694,7 +5941,12 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_4076f2d350684265421d089af11fe447.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_040dd831575acb9f20220e094bf88cc4.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_b3f4764d769497c885905c8e45afb7da.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_920f95a8eb480c6159642b4309f90dee.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_920f95a8eb480c6159642b4309f90dee.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_758b644a88b92678ad3574dc6e760b51.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_e7c4c94c7a7aa206fb4bb4bc1f71f51e.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_90f37ea4d9e5c284fba5b4f96bfe2418.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_d4020c90e72eac568c798e22a44f6f00.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ba27f329b7c43df87a6f78770de63a14/photo_7d61ab9ae893bbdb0b342b21857fa63d.jpg"
    ],
    "schema": 3
   },
@@ -6011,7 +6263,20 @@
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-9.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-10.jpg",
     "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-11.jpg",
-    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-12.jpg"
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-12.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-13.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-14.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-15.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-16.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-17.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-18.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-19.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-20.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-21.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-22.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-23.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-24.jpg",
+    "assets/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis-25.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_dbe808768f9e4ba0bdaea2369249bde4.png",
@@ -6025,7 +6290,20 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_9d65e8801290d3c35fbafa40b186c79d.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_4b40775da9042bf16b66303f084483f2.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_17a17bbebaef0f2ce5e55d7b432fa0b2.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_96fa281af3f41ff11f85f924e59b00b8.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_96fa281af3f41ff11f85f924e59b00b8.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_e3b66e62a10c93da2c1674b1e36dac38.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_d1042e926e7df540431f4f17966c0110.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_b187d7ad9e94fe80a84857ce4a40cab1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_690d518117f77d1f231bfeb22e0e81e6.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_321f393eced4a27c37dbbc661f467f55.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_ecce68a44dd200a692db5b443057e4d7.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_d8ed6e77f75922717845dc533ab722a5.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_8d57cc61e87ffb58eebb8cb551089c30.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_cda5c23034ffb4a229bdaeab00784e10.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_aff42d4a0f56eda08b6c1b07d44ac110.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_2d0388c669a8acfb3f7d43745183d8eb.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_1ff1d537668cbeab5b9f6528aca98f63.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/1d4c7faf6f2581bc292c74bd6bd58e32/photo_fcadf0dc9302d0040bc36a4eff05bba8.jpg"
    ],
    "schema": 3
   },
@@ -6173,7 +6451,13 @@
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-9.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-10.jpg",
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-11.jpg",
-    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-12.jpg"
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-12.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-13.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-14.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-15.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-16.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-17.jpg",
+    "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-18.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_d2ad0401a36fa3311ef85f927a919406.png",
@@ -6187,7 +6471,13 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_5d228b1f75e90d8c46ff2588aa710dd3.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_4c24341c2bd42d3b85ebeedbdea80e2d.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_54721f025a10a454c345cbb43596e232.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_32b9ea1b17dbeee34dc719ebec769327.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_32b9ea1b17dbeee34dc719ebec769327.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_4d16ea82a55b33b90aeb52177d5dfc99.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_99cb77fe22b1204563361be3d86b4a99.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_6c0c0c69ce3421eb77425e4912025136.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_2d0a21b3cf72e1bc136d4f304c67753d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_f2d0114aba61e792fe15c9b25d2219cc.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_46e03d4babad676446ce712ce6e29bd2.png"
    ],
    "schema": 3
   },
@@ -6335,7 +6625,24 @@
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-9.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-10.jpg",
     "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-11.jpg",
-    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-12.jpg"
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-12.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-13.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-14.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-15.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-16.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-17.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-18.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-19.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-20.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-21.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-22.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-23.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-24.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-25.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-26.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-27.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-28.jpg",
+    "assets/annonces/maison-familiale-136-m2-90-m2-de-garages-et-dependances-29.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_46910c5750eede762758552ecfbe4e13.png",
@@ -6349,7 +6656,24 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_eb3a1b2b1965b05b2202f45df575f559.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_5c209725eb205ad1f8177cf1d379a3e6.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_af2ac54a625537747dfde06987941af7.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_e483e03039e9e284bb9ea12a13aae0ea.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_e483e03039e9e284bb9ea12a13aae0ea.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_d32fbea82f492028f213a5f1cf1eebac.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_424156ee66fed404e1f6414f4a636a06.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_74079168c088d3a61fbc32b4b149048e.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_cf56152dd0e3cad47d1cb7149f387595.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_306fe68a60f0c765503620cd4fd1a840.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_589500bbd641b850a4cc00e5a3d1975c.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_e425d07ab79363ccc8bdf0c4195e254f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_cc7bc7a989e4f7e07eaecf9aacff9215.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_6f43df541d49f7b8966226ddb32e28c2.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_b12a7730e51ac85a42ac337c4709dfb8.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_da546816f61b59565dd0932ec87e427a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_6cc586f8a77fd1056f7bc40548a4f179.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_dc5859c856baf8cb324b43e28fd245f0.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_56da78f421e934b2959a28fa13eea658.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_f1c2f939c02b2ca80de8fee4338c69ad.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_2f956f9e42d116402acc7b83a563cba3.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/7e4330bb6004353f55303acfec2a4841/photo_a8b0085553e74df8ab5dff683314467f.jpg"
    ],
    "schema": 3
   },
@@ -6699,7 +7023,10 @@
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-9.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-10.jpg",
     "assets/annonces/proche-clementville-dernier-etage-avec-garage-11.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-12.jpg"
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-12.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-13.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-14.jpg",
+    "assets/annonces/proche-clementville-dernier-etage-avec-garage-15.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_0eba5d14a9c45e79f0a2ae505b9a0ba5.png",
@@ -6713,7 +7040,10 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_cd1226bc6a8fd53414a4c9e27cc0ef9d.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_ee4ae767b15ffe541d44eca5049f774b.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_dab81f467df2fa4345a099eec86a6d59.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_8b0c064688b2f3000a609e6c15611c20.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_8b0c064688b2f3000a609e6c15611c20.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_4af5c860f2f8f15ca0cdca8440a5426d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_c6aae1455a429d69e28b4bf0cfe321c6.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_135b6b45906a2aa69707fb366582c29f.jpg"
    ],
    "schema": 3
   },
@@ -7325,7 +7655,11 @@
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-9.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-10.jpg",
     "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-11.jpg",
-    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-12.jpg"
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-12.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-13.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-14.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-15.jpg",
+    "assets/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi-16.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_e62694a54af0e8353950deced14693c6.jpg",
@@ -7339,7 +7673,11 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_4905a5b782b94c124932b8da945f9b1a.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_a1532413f80b2efaa5c79b3522938e7e.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_91b1ccd37f8ff9e46c22c489ec9f9beb.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_e07727e8328fe387295d01d8232754fb.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_e07727e8328fe387295d01d8232754fb.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_44fcbe7261d252dd93cab267d52928c1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_0b0e9af967d96e698b45b9e21d240420.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_022f51d823f792539b23fdcecc326cfa.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/9069c3e44d671e863a6156b481aa2a21/photo_f4fe17c978e6e532544003e9eef1dbec.jpg"
    ],
    "schema": 3
   },
@@ -7778,7 +8116,16 @@
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-9.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-10.jpg",
     "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-11.jpg",
-    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-12.jpg"
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-12.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-13.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-14.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-15.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-16.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-17.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-18.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-19.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-20.jpg",
+    "assets/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu-21.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_47fb55e06ac1eee035e4df121c024bb5.jpg",
@@ -7792,7 +8139,16 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_bc0ec0d046059aa267175630d5e69e78.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_9c14e52cff38efd817fd775119d0b944.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_6bc0f6ef33e610a888e9c21afe69882a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_9aaec21eb3c7d807c034662a3b4727bc.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_9aaec21eb3c7d807c034662a3b4727bc.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_17071c7ba16aecc4fdbd37f8623ff32f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_b7f7c2aa1095a5fedb127c16c01c9fb5.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_2851bedfe3edfedfc8f2986cb3c58bbe.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_5e8131bb396f502e9bcc05a8ff152091.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_2399f87a1717d024e91f079443674f0a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_89680c2a98e4daef85ee9d51e232f3b5.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_257633d53f5e5f3d6fe6f131d822bd48.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_800e40e5aff476d5eacf1f0acc51fbbf.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/114e48b5577f419061185f8266cdb33c/photo_dcc87954bd90d40dccf6f3f62cede339.jpg"
    ],
    "schema": 3
   },
@@ -7932,7 +8288,25 @@
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-9.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-10.jpg",
     "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-11.jpg",
-    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-12.jpg"
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-12.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-13.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-14.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-15.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-16.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-17.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-18.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-19.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-20.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-21.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-22.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-23.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-24.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-25.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-26.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-27.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-28.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-29.jpg",
+    "assets/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois-30.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_8dcb32ddf1814211b20cb0f0607e256c.png",
@@ -7946,7 +8320,25 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_a9ccbfd94f90f108251377d60bb608f7.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_096fcb3e716837c0c8ca617144fdaa48.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_fa7acee497d304c74c1d2de329bac454.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_473a71c22cf0f9274f1a996527eda9f1.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_473a71c22cf0f9274f1a996527eda9f1.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_f62cd4ecb93ba85524b1100fcbd65601.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_34aab5d4dc3fdaa18cddcd218af3284b.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_7987669374f0258cd64ac6ab58855846.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_e6f5563cff02fcfcbe6e0f68e46c3b07.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_97c0e2db899c61e575b106ae0aeab9c9.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_b175004ebeab73f3156a6f5b04751680.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_3247975eddedd4f1ab73c9a6c99cebad.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_fe3d1a09a416fd4a3242adb4a5bf4e15.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_6b8514dcf47345d786294ff75399d385.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_34ea375f6f726a7253fe58df7e115539.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_3e94144b61ddd58fa2f5c396269d58a2.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_3898c70961421d0806752ecfe4014b00.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_8112081ac44530b880d0cac140ed89ad.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_b40568026810f709732f53504dad56ca.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_0336d6d592c3247b031afd89b4a78758.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_d947898eaf3a2e937e93d3d72ac91dec.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_b647186ec2be28870b0922350946fcd7.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/01872403297e128ac1331f04d76ab695/photo_985ff176a11011f8ccc0919a0074bc20.jpg"
    ],
    "schema": 3
   },
@@ -8076,7 +8468,12 @@
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-9.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-10.jpg",
     "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-11.jpg",
-    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-12.jpg"
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-12.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-13.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-14.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-15.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-16.jpg",
+    "assets/annonces/maison-de-village-a-renover-avec-grange-capendu-11-17.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_27c52d60c71fe142a7e59ca70e00d74b.jpg",
@@ -8090,7 +8487,12 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_c27c254002689e0220e6c6c5c0a8999d.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_07ac6e64756368d34ee86f0d1b4bc213.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_602153f9a123b8d0219346e277664f8b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_29020f49a0bbd21b6c52bcca8a2aa53b.png"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_29020f49a0bbd21b6c52bcca8a2aa53b.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_affdbe9381b6a080331d77b19029539c.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_78776134e877bffeb3ea254effdb8233.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_bf7c274b92e5b3c1e12bb5aca4c7ac20.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_c0012cde289d1212fc2c4b437ea8a883.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/efc3fde62318dbd659e2596f595322ba/photo_ab7e68dd0ca5f6e0c48880f182248ea3.jpg"
    ],
    "schema": 3
   },
@@ -8357,7 +8759,18 @@
     "assets/annonces/ensemble-immobilier-de-6-lots-9.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-10.jpg",
     "assets/annonces/ensemble-immobilier-de-6-lots-11.jpg",
-    "assets/annonces/ensemble-immobilier-de-6-lots-12.jpg"
+    "assets/annonces/ensemble-immobilier-de-6-lots-12.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-13.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-14.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-15.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-16.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-17.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-18.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-19.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-20.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-21.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-22.jpg",
+    "assets/annonces/ensemble-immobilier-de-6-lots-23.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_2391300a7615d01d6ba870693e805c9d.jpg",
@@ -8371,7 +8784,18 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_fdf222443b52fbb31fccb15ff7b01fa3.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_0bb39833c9f08746be4280a41eecadba.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_f107e14106ac5b4ddc2f6b71224a14a3.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_238d1aa15f0f850db0ae0a458cf2163f.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_238d1aa15f0f850db0ae0a458cf2163f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_c648bc88ee0c77b722a0af5fbc90fb90.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_4d9d225b012c63fa6f1944c3e843c512.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_5d936830f3a7a61d2b04ee5c509bb977.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_7202b0b28d970baeb3a765b75085eaa7.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_938614ddbbffa01316281438993746df.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_0655e1870024b2d0e8a5551317743484.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_ae27aeb62cbc2714469fe0a9b7139a95.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_efb6b675de61083cabea1051d0426a8d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_fe0a35e46a5441fa658067d204b9d821.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_be2b40dc9e4c8304129b189406e319a8.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/aebfdc47246664f82e66915989ae8adc/photo_889d15da490c1d821c20032880309cea.jpg"
    ],
    "schema": 3
   },
@@ -8767,7 +9191,25 @@
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-9.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-10.jpg",
     "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-11.jpg",
-    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-12.jpg"
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-12.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-13.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-14.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-15.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-16.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-17.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-18.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-19.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-20.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-21.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-22.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-23.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-24.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-25.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-26.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-27.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-28.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-29.jpg",
+    "assets/annonces/propriete-dexception-avec-vue-panoramique-et-piscine-vill-30.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_b77b4e6e80011e8137b7e49dd7780122.jpg",
@@ -8781,7 +9223,25 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_edef12ab2ca4faa18d086b0990572644.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_5042829774b02a19d850f0328b1ab742.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_054f59fc8e8feda10753a9c8c93cc56a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_483a373b62adf4950c5826cfcf54498d.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_483a373b62adf4950c5826cfcf54498d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_72e71542733a4aee1a7ae8834a2776ed.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_75f9e6c87328e7712134871f6248754f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_b9abcd38b7cc01ef6aa6cf277bf33d33.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_57f3d7bddad130543c4ef278ac79d778.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_f0852b1d06ad34fa5d2873abd090dbc3.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_3a1c60e7cfc5962da8fcd1fc778497b4.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_ed895b77bf4c6ad18096bc28d5eead7a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_43f0dd7160d65acfbd2c403bf0f59acf.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_e49e3d35c5a00560a765b6a54fdba6fb.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_067203b7988f5ad31a3371a1ebf66ab6.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_2afcd3025ff2f71c6d586f97af552a10.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_d797bd62350b81024422f6d70a695cde.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_b846e31d59883df866c05d8579c3e8f1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_147151f89e190ec178a9af96a8580676.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_575f81b104cf85ae72b696e3e629c74c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_7df326c03c690a82e81263631f1cac37.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_a638692db450937b755c7a72d35a3f07.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/bd472361490a94a0057fb08090df3450/photo_272481b252f9d107ed5be62548a3ab7e.jpg"
    ],
    "schema": 3
   },
@@ -9007,7 +9467,12 @@
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-9.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-10.jpg",
     "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-11.jpg",
-    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-12.jpg"
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-12.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-13.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-14.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-15.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-16.jpg",
+    "assets/annonces/a-vendre-maison-de-ville-avec-grand-garage-et-combles-amen-17.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_058b6bc309558e1fa6e68090837df1b0.jpg",
@@ -9021,7 +9486,12 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_2f714ca6f60467d07edccab59aba43d2.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_aa83f78f4e9f670f11d832afa6b9c5a2.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_41ae615d3b242f239af3f919155e412e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_e022471c3affe38e47d17419f7e99e36.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_e022471c3affe38e47d17419f7e99e36.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_9b4612804773d81f2a140f07dbd0011d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_5f16eb8892b350fb2ae0e316fc6c2c24.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_a6045dfd048436f79cb4b848f877d40a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_fc1de673af853a575277f2c3f20e54f7.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/ec11f12f43921c938991f5c0072e0151/photo_ed85e2add67e8964e5ac77c0b8d6efe9.jpg"
    ],
    "schema": 3
   },
@@ -9446,7 +9916,9 @@
     "assets/annonces/immeuble-de-rapport-9.jpg",
     "assets/annonces/immeuble-de-rapport-10.jpg",
     "assets/annonces/immeuble-de-rapport-11.jpg",
-    "assets/annonces/immeuble-de-rapport-12.jpg"
+    "assets/annonces/immeuble-de-rapport-12.jpg",
+    "assets/annonces/immeuble-de-rapport-13.jpg",
+    "assets/annonces/immeuble-de-rapport-14.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_1a9a521681adc3a6112a8e96ea6bc84c.jpg",
@@ -9460,7 +9932,9 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_17023eacf2a1b48627dc03434cddd6e1.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_138ca8056c718f43ca2116ce463d291b.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_e7baa2f335435377ee849300d59a6c25.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_a4605f0b9f56cca0ae2cc8fdaf658db8.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_a4605f0b9f56cca0ae2cc8fdaf658db8.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_e09f8ce69d34189f65947591b6a0ff5a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8395648b11deadd94955f9ddf8e1a530/photo_36c17097a444d8c04efa1f4a7f4dee79.jpg"
    ],
    "schema": 3
   },
@@ -10189,7 +10663,12 @@
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-9.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-10.jpg",
     "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-11.jpg",
-    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-12.jpg"
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-12.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-13.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-14.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-15.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-16.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a-17.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_eb90ae68161e1c3ce65ab9eacb84d0fb.jpg",
@@ -10203,7 +10682,12 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_2cfe5f178a6ebe2caaaab0c6d8b5ec5f.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_ab0becbcc00971146d2d1ab68782fa91.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_b112522a6dc17a480a84ea14c18d486e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_c620e2b968597a5cb707f28342b7a166.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_c620e2b968597a5cb707f28342b7a166.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_4586876fa54f42868a983ccbcb9bb2a9.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_ef45eec800c2c84b126c4f7bf57dece4.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_e1fdde5cc98cd5eee271cab098c0dec4.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_5cc136c7106a510928bbba04ded3e33c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/6aacdaf0e5d90b177fbff7e32d1fab0b/photo_65ba7dc76b84064785931f71f4e9e3c8.jpg"
    ],
    "schema": 3
   },
@@ -11058,7 +11542,8 @@
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-9.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-10.jpg",
     "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-11.jpg",
-    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-12.jpg"
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-12.jpg",
+    "assets/annonces/immeuble-avec-1-local-commercial-et-1-t4-13.jpg"
    ],
    "photos_source": [
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_7c5db7e82d3580874ba3d088ec0bb98d.jpg",
@@ -11072,7 +11557,8 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_7c2f7792e17cb0d9cc2a60e3f438266c.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_3993bd839ff75e7dd2b2fe2a024c2f62.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_4bf92feeb970f2646d89f212ac31e0e3.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_8d613f6e092626cadbd9748e817685d9.jpg"
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_8d613f6e092626cadbd9748e817685d9.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/8e2510390d29ef7cb7d206326b85af63/photo_a348f91b5e2169cc274e2adf31e01d08.jpg"
    ],
    "schema": 3
   },

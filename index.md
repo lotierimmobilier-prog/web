@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
  142 000 €
 
 ### Maison de village 4 pièces 114 m2, rénovée, Quarante
@@ -73,14 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Béziers · 95,32 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
-
- 255 000 €
-
-### Marguerittes – immeuble avec local commercial et deux appart
-
- Marguerittes · 142 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/marguerittes-immeuble-avec-local-commercial-et-deux-appart/)[Être rappelé](https://lotier.immo/contact/)
 
  515 € par mois
 

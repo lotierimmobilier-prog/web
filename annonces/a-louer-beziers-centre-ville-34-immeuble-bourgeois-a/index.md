@@ -8,7 +8,7 @@ A louer Béziers centre-ville (34) immeuble bourgeois a
 
 **726 € par mois** · Béziers · 98 m² · 2 chambres · 1 salle d'eau/bain
 
- LOCATION 1 / 12
+ LOCATION 1 / 17
 
 ## En bref
 

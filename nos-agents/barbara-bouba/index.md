@@ -14,6 +14,14 @@ Carcassonne · Narbonne
 ## Les biens de Barbara
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
  515 € par mois
 
 ### Appartement meublé 1 chambre
@@ -244,8 +252,8 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **28** biens en ligne
-- **24** à vendre
+- **29** biens en ligne
+- **25** à vendre
 - **4** à louer
 - **12** communes
 
@@ -258,9 +266,9 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
 - Vente
 - Location
 - Maisons et villas
+- Locaux commerciaux
 - Appartements
 - Terrains
-- Locaux commerciaux
 - Investissement locatif
 
 ### Communes couvertes
@@ -274,9 +282,9 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
 ### Biens proposés
 
 - 13 maisons
+- 4 locaux commerciaux
 - 4 appartements
 - 4 terrains
-- 3 locaux commerciaux
 - 3 immeubles
 - 1 parking
 

@@ -8,7 +8,7 @@ Propriété d’Exception avec Vue Panoramique et Piscine Vill
 
 **1 145 000 €** · Villedubert · 320 m² · 4 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 30
 
 ## En bref
 

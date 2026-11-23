@@ -8,7 +8,7 @@ Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
 **243 000 €** · Meynes · 87,16 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 13
 
 ## En bref
 

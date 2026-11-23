@@ -8,7 +8,7 @@ Nouveauté à Capendu maison 140 m2 avec piscine, garage et
 
 **224 000 €** · Capendu · 140 m² · 3 chambres
 
- VENTE 1 / 12
+ VENTE 1 / 24
 
 ## En bref
 

@@ -8,7 +8,7 @@ Source : https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-lib
 
 **430 € par mois** · Béziers · 44,06 m² · 1 chambre · 1 salle d'eau/bain
 
- LOCATION 1 / 12
+ LOCATION 1 / 13
 
 ## En bref
 

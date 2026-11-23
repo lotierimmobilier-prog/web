@@ -8,7 +8,7 @@ Nîmes quartier route D’uzes – maison type 5 avec magnifiqu
 
 **395 000 €** · Nîmes · 116 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 21
 
 ## En bref
 

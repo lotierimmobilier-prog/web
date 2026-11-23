@@ -8,7 +8,7 @@ Local commercial boulevard de Genève
 
 **Prix sur demande** · Béziers · 77 m²
 
- VENTE 1 / 12
+ VENTE 1 / 13
 
 ## En bref
 

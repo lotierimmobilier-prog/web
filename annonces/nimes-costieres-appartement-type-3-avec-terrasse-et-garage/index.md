@@ -8,7 +8,7 @@ Nîmes Costières appartement type 3 avec terrasse et garage
 
 **250 000 €** · Nîmes · 84 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 15
 
 ## En bref
 

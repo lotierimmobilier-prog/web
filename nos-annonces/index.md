@@ -4,9 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-65 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+66 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
  515 € par mois
 

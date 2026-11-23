@@ -1,12 +1,20 @@
 # Biens à vendre *à Carcassonne.*
 
-> 3 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles et 1 appartement, de 80 000 € à 230 000 €. Photos, prix, agent à contacter.
+> 4 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles, 1 local commercial et 1 appartement, de 80 000 € à 230 000 €. Photos, prix, agent à…
 
 Source : https://lotier.immo/nos-annonces/vente-carcassonne/
 
-LOTIER Immobilier propose actuellement 3 biens à vendre à Carcassonne : 2 immeubles et 1 appartement. Les prix vont de 80 000 € à 230 000 €. Les surfaces vont de 50 à 170 m².
+LOTIER Immobilier propose actuellement 4 biens à vendre à Carcassonne : 2 immeubles, 1 local commercial et 1 appartement. Les prix vont de 80 000 € à 230 000 €. Les surfaces vont de 50 à 170 m².
 
 ## Liste des annonces
+
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
  80 000 €
 
@@ -43,7 +51,7 @@ LOTIER Immobilier propose actuellement 3 biens à vendre à Carcassonne : 2 imme
 ### Combien de biens sont à vendre à Carcassonne chez LOTIER Immobilier ?
 **
 
-3 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles et 1 appartement. Cette liste est reprise chaque jour du logiciel de l'agence.
+4 biens sont à vendre à Carcassonne aujourd'hui : 2 immeubles, 1 local commercial et 1 appartement. Cette liste est reprise chaque jour du logiciel de l'agence.
 
 **Question
 

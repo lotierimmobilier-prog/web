@@ -8,7 +8,7 @@ Immeuble de 4 lots 123,32 m2 Béziers
 
 **289 000 €** · Béziers · 95,32 m²
 
- VENTE 1 / 12
+ VENTE 1 / 13
 
 ## En bref
 

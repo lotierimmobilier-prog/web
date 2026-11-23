@@ -8,7 +8,7 @@ Maison de 110m2 au total sur une parcelle de 2110m2
 
 **200 000 €** · Laure-Minervois · 110 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 27
 
 ## En bref
 

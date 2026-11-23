@@ -122,7 +122,7 @@ Chaque annonce indique l'agent qui présente le bien et son téléphone direct. 
 
 Oui. Les prix de vente affichés comprennent les honoraires de l'agence, qui sont à la charge du vendeur. Le barème est publié sur la page Nos honoraires.
 
- [Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (3)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
+ [Vente à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/)[Vente à Nîmes (9)](https://lotier.immo/nos-annonces/vente-nimes/)[Vente à Carcassonne (4)](https://lotier.immo/nos-annonces/vente-carcassonne/)[Vente à Caveirac (3)](https://lotier.immo/nos-annonces/vente-caveirac/)[Vente à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/)[Nos honoraires](https://lotier.immo/nos-honoraires/)[Nos agents](https://lotier.immo/nos-agents/)
 
 ---
 

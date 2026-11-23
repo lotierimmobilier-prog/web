@@ -8,7 +8,7 @@ Grande maison de village sur 3 niveaux à Rieux-Minervois
 
 **65 000 €** · Rieux-Minervois · 112,37 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 30
 
 ## En bref
 

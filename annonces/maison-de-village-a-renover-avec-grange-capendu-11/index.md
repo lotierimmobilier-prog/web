@@ -8,7 +8,7 @@ Maison de village à rénover avec grange Capendu (11)
 
 **38 500 €** · Capendu · 120 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 17
 
 ## En bref
 

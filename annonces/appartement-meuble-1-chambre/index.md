@@ -182,6 +182,14 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
  760 € par mois
 
 ### À Capendu, de 180m2 en location avec BARBARA BOUBA
@@ -197,14 +205,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 66 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
-
- 145 000 €
-
-### Bel appartement de 115m2 avec terrasse à Capendu
-
- Capendu · 115,8 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

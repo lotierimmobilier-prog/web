@@ -8,7 +8,7 @@ Maison familiale 136 m2 + 90 m2 de garages et dépendances
 
 **175 000 €** · Capendu · 136,63 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 29
 
 ## En bref
 

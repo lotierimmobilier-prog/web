@@ -8,7 +8,7 @@ Immeuble de rapport
 
 **230 000 €** · Carcassonne · 166 m²
 
- VENTE 1 / 12
+ VENTE 1 / 14
 
 ## En bref
 
@@ -169,6 +169,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-avec-1-local-commercial-et-1-t4/)[Être rappelé](https://lotier.immo/contact/)
 
+ 119 000 €
+
+### Local commercial 160 m2 à vendre, Carcassonne
+
+ Carcassonne · 160 m²
+
+ [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+
  515 € par mois
 
 ### Appartement meublé 1 chambre
@@ -177,6 +185,8 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
 
+## Biens à proximité
+
  750 € par mois
 
 ### Appartement T4 non meublé – centre ville Carcassonne
@@ -184,8 +194,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 106,58 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
 
  145 000 €
 
@@ -202,14 +210,6 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 400 m² · 7 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/ensemble-immobilier-de-6-lots/)[Être rappelé](https://lotier.immo/contact/)
-
- 60 000 €
-
-### Fond de commerce à vendre Axe principal traversant Capendu
-
- Capendu · 120 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

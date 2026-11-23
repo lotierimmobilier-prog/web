@@ -8,7 +8,7 @@ Proche Clémentville, dernier étage avec garage.
 
 **284 000 €** · Montpellier · 90,64 m² · 3 chambres · 2 salles d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 15
 
 ## En bref
 

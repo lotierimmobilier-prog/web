@@ -8,7 +8,7 @@ Maison avec jardin et piscine à Comigne
 
 **219 000 €** · Comigne · 127 m² · 5 chambres · 2 salles d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 18
 
 ## En bref
 

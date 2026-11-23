@@ -8,7 +8,7 @@ Maison 122 m2 avec garage 72 m2 et terrasse sans vis-à-vis
 
 **85 000 €** · Capendu · 122 m² · 3 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 25
 
 ## En bref
 

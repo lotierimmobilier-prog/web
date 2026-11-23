@@ -8,7 +8,7 @@ Source : https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2
 
 **174 000 €** · Villeneuve-lès-Béziers · 191 m² · 4 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 24
 
 ## En bref
 
