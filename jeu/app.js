@@ -141,6 +141,72 @@
     }, { passive: true });
   }
 
+  /* ---- Effets : apparition au défilement, compteurs, cartes inclinées, neige du haut de page ---- */
+  var calme = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  d.documentElement.classList.add('js');
+  if ('IntersectionObserver' in window && !calme) {
+    var obs = new IntersectionObserver(function (es) { es.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add('vu'); obs.unobserve(x.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+    tous('.apparait').forEach(function (s) { obs.observe(s); });
+    var obsC = new IntersectionObserver(function (es) {
+      es.forEach(function (x) {
+        if (!x.isIntersecting) return;
+        obsC.unobserve(x.target);
+        var b = x.target, fin = parseInt(b.getAttribute('data-compte'), 10) || 0, t0 = null;
+        if (fin < 2) return;
+        (function pas(t) { if (!t0) t0 = t; var k = Math.min(1, (t - t0) / 1100); b.textContent = Math.round(fin * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(pas); })(performance.now());
+      });
+    }, { threshold: 0.6 });
+    tous('[data-compte]').forEach(function (b) { obsC.observe(b); });
+  } else { tous('.apparait').forEach(function (s) { s.classList.add('vu'); }); }
+  if (!calme && window.matchMedia && matchMedia('(hover: hover)').matches) {
+    tous('.carte').forEach(function (c) {
+      c.addEventListener('pointermove', function (e) { var r = c.getBoundingClientRect(); c.style.setProperty('--ry', ((e.clientX - r.left) / r.width - 0.5) * 7 + 'deg'); c.style.setProperty('--rx', (0.5 - (e.clientY - r.top) / r.height) * 7 + 'deg'); });
+      c.addEventListener('pointerleave', function () { c.style.removeProperty('--rx'); c.style.removeProperty('--ry'); });
+    });
+  }
+  var hero = q('.hero');
+  if (hero && !calme) {
+    var toile = d.createElement('canvas'); toile.className = 'neige-h'; toile.setAttribute('aria-hidden', 'true'); hero.insertBefore(toile, hero.firstChild);
+    var cx = toile.getContext('2d'), L = 0, H = 0, fl = [], img = 0, visible = true;
+    var taille = function () { var r = Math.min(window.devicePixelRatio || 1, 2); L = hero.clientWidth; H = hero.clientHeight; toile.width = L * r; toile.height = H * r; cx.setTransform(r, 0, 0, r, 0, 0); var n = Math.round(Math.min(70, L / 18)); while (fl.length < n) fl.push({ x: Math.random() * L, y: Math.random() * H, r: 1.4 + Math.random() * 3, v: 0.3 + Math.random() * 0.7, d: Math.random() * 6 }); fl.length = n; };
+    var dessine = function () {
+      cx.clearRect(0, 0, L, H);
+      fl.forEach(function (f) { f.y += f.v; f.d += 0.012; f.x += Math.sin(f.d) * 0.4; if (f.y > H + 6) { f.y = -6; f.x = Math.random() * L; } cx.beginPath(); cx.fillStyle = 'rgba(255,255,255,.95)'; cx.shadowColor = 'rgba(120,100,80,.35)'; cx.shadowBlur = 4; cx.arc(f.x, f.y, f.r, 0, 6.2832); cx.fill(); });
+      if (visible) img = requestAnimationFrame(dessine);
+    };
+    taille(); window.addEventListener('resize', taille);
+    new IntersectionObserver(function (es) { visible = es[0].isIntersecting && !d.hidden; cancelAnimationFrame(img); if (visible) img = requestAnimationFrame(dessine); }).observe(hero);
+    d.addEventListener('visibilitychange', function () { visible = !d.hidden; cancelAnimationFrame(img); if (visible) img = requestAnimationFrame(dessine); });
+  }
+
+  /* ---- Carrousel en anneau des dessins (rotation continue, glissement à la souris ou au doigt, inertie) ---- */
+  var manege = q('[data-manege]');
+  if (manege) {
+    var anneau = q('.anneau', manege), faces = tous('.face', manege), nb = faces.length;
+    var rot = 0, vit = 0, dernier = 0, saisi = false, x0 = 0, parcouru = 0, rayon = 0, enVue = true, boucle = 0;
+    var auto = calme ? 0 : 9;                                    // degrés par seconde
+    var poser = function () {
+      var l = anneau.offsetWidth;
+      rayon = (l * 1.22) / (2 * Math.tan(Math.PI / nb));
+      faces.forEach(function (f, i) { f.style.transform = 'rotateY(' + (i * 360 / nb) + 'deg) translateZ(' + rayon + 'px)'; });
+    };
+    var appliquer = function () { anneau.style.transform = 'translateZ(' + (-rayon) + 'px) rotateY(' + rot + 'deg)'; };
+    var tourner = function (t) {
+      var dt = dernier ? Math.min((t - dernier) / 1000, 0.1) : 0; dernier = t;
+      if (!saisi) { if (Math.abs(vit) > 0.5) { rot += vit * dt; vit *= 0.94; } else { rot += auto * dt; } }
+      appliquer();
+      if (enVue) boucle = requestAnimationFrame(tourner);
+    };
+    poser(); appliquer(); window.addEventListener('resize', function () { poser(); appliquer(); });
+    manege.addEventListener('pointerdown', function (e) { saisi = true; x0 = e.clientX; parcouru = 0; vit = 0; manege.classList.add('saisi'); });
+    window.addEventListener('pointermove', function (e) { if (!saisi) return; var dx = e.clientX - x0; x0 = e.clientX; parcouru += Math.abs(dx); rot += dx * 0.35; vit = dx * 0.35 * 60; if (calme) appliquer(); });
+    var lacher = function () { saisi = false; manege.classList.remove('saisi'); };
+    window.addEventListener('pointerup', lacher); window.addEventListener('pointercancel', lacher);
+    manege.addEventListener('click', function (e) { if (parcouru > 8) { e.preventDefault(); e.stopPropagation(); } }, true);   // un glissement n'est pas un clic
+    manege.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    new IntersectionObserver(function (es) { enVue = es[0].isIntersecting; cancelAnimationFrame(boucle); dernier = 0; if (enVue) boucle = requestAnimationFrame(tourner); }).observe(manege);
+  }
+
   /* Arrivée par un lien partagé : on amène le visiteur au dessin. */
   var vedette = q('.vedette');
   if (vedette && !location.hash) vedette.scrollIntoView({ block: 'start' });
