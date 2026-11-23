@@ -41,7 +41,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
 }
 $titre = $vedette ? 'Le dessin de ' . $vedette['prenom'] . ' | Concours de Noël LOTIER Immobilier' : 'Concours de Noël : dessine la maison du Père Noël | LOTIER Immobilier';
 $desc = $vedette ? texte_partage($vedette, $phase) : 'Concours de dessin de Noël de LOTIER Immobilier : dessine la maison du Père Noël, dépose ton dessin avant le ' . jour_mois(fin_depots()) . ' et fais voter tes proches. Gratuit, de 3 à 103 ans.';
-$image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://lotier.immo/assets/og-lotier.jpg';
+$image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $phase : JEU_URL . 'partage.jpg?v=1';
 ?><!doctype html>
 <html lang="fr">
 <head>
@@ -55,6 +55,9 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:description" content="<?= h($desc) ?>">
   <meta property="og:url" content="<?= h(JEU_URL . ($vedette ? '?d=' . $vedette['jeton'] : '')) ?>">
   <meta property="og:image" content="<?= h($image) ?>">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Concours de Noël LOTIER Immobilier : dessine la maison du Père Noël">
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
