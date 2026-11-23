@@ -58,7 +58,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -69,17 +69,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 
   <main id="contenu">
     <section class="hero">
-      <div class="traineau" aria-hidden="true"><svg viewBox="0 0 330 96" width="330" height="96">
-        <g fill="none" stroke="#e3c98a" stroke-width="1.6" stroke-linecap="round"><path d="M96 52 C140 46 170 46 206 50"/><path d="M96 56 C140 52 190 52 262 50"/></g>
-        <g class="etoiles" fill="#e3c98a"><circle cx="8" cy="60" r="2.2"/><circle cx="22" cy="48" r="1.5"/><circle cx="30" cy="68" r="1.8"/><circle cx="2" cy="42" r="1.2"/><circle cx="16" cy="74" r="1.2"/></g>
-        <g class="renne"><path d="M196 50 q10-7 24-5 l8-10 q7-3 10 3 q3 5-3 8 l-5 2 q-1 8-8 10 l5 16 h-4 l-7-13 h-10 l-9 13 h-4 l6-17 q-5-2-3-7z" fill="#8a5a33"/><path d="M233 36 l-3-10 m3 10 l5-9 m-7 2 l-5-3 m9 3 l5-2" stroke="#5e3b1e" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M204 49 q8-3 14-1" stroke="#b8252e" stroke-width="3" stroke-linecap="round" fill="none"/></g>
-        <g class="renne r2"><path d="M250 46 q10-7 24-5 l8-10 q7-3 10 3 q3 5-3 8 l-5 2 q-1 8-8 10 l5 16 h-4 l-7-13 h-10 l-9 13 h-4 l6-17 q-5-2-3-7z" fill="#9a683d"/><path d="M287 32 l-3-10 m3 10 l5-9 m-7 2 l-5-3 m9 3 l5-2" stroke="#5e3b1e" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M258 45 q8-3 14-1" stroke="#b8252e" stroke-width="3" stroke-linecap="round" fill="none"/><circle cx="297" cy="37" r="3.2" fill="#e03a44"/></g>
-        <path d="M40 38 q-6-18 10-24 q16-4 22 10 q4 10-2 18z" fill="#7a4a22"/><path d="M48 16 q4-6 10-2" stroke="#e3c98a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-        <circle cx="86" cy="22" r="8.5" fill="#f3c9a8"/><path d="M77 20 q8-17 20-3 q-9-3-20 3z" fill="#c1272f"/><circle cx="98" cy="16" r="3.4" fill="#fff"/><path d="M77 21 h18 v4 h-18z" fill="#fff"/><path d="M79 26 q7 13 15 0 q-2 8-7.5 9 q-5.5-1-7.5-9z" fill="#fff"/>
-        <path d="M70 34 q14-8 28 0 l4 22 h-36z" fill="#c1272f"/><path d="M82 30 h6 v26 h-6z" fill="#fff"/><path d="M94 40 l16 8" stroke="#c1272f" stroke-width="6" stroke-linecap="round"/><circle cx="111" cy="49" r="3.6" fill="#1b1b1b"/>
-        <path d="M30 44 h78 q10 0 12 10 q1 14-14 14 h-62 q-14 0-14-24z" fill="#a31e27"/><path d="M34 50 h80" stroke="#e3c98a" stroke-width="3" stroke-linecap="round"/>
-        <path d="M24 80 h92 q14 0 16-14" fill="none" stroke="#c79a3a" stroke-width="3.4" stroke-linecap="round"/><path d="M50 68 v12 M96 68 v12" stroke="#c79a3a" stroke-width="3"/>
-      </svg></div>
+      <div class="traineau" aria-hidden="true"><img src="traineau.webp" alt="" width="900" height="222" decoding="async"></div>
       <p class="sur"><span class="point" aria-hidden="true"></span>Concours de dessin · gratuit · de 3 à 103 ans</p>
       <h1 aria-label="Dessine la maison du Père Noël"><span class="l1" aria-hidden="true">Dessine la mais<span class="boule" aria-hidden="true"><i></i></span>n</span><span class="l2" aria-hidden="true">du Père N<span class="boule" aria-hidden="true"><i></i></span>ël.</span></h1>
       <div class="hero-bas">
