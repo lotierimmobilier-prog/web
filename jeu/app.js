@@ -143,12 +143,13 @@
   }
 
   // Pendant la lecture de la vidéo du Père Noël, toutes les animations de la page sont suspendues : la vidéo reste fluide, même sur un appareil modeste.
-  var lecture = false, film = q('.video-pn video');
-  if (film) {
-    var etat = function (oui) { lecture = oui; d.documentElement.classList.toggle('lecture', oui); };
-    film.addEventListener('play', function () { etat(true); }); film.addEventListener('playing', function () { etat(true); });
-    film.addEventListener('pause', function () { etat(false); }); film.addEventListener('ended', function () { etat(false); });
-  }
+  var lecture = false;
+  d.querySelectorAll('.video-pn video').forEach(function (film) {
+    var etat = function () { lecture = Array.prototype.some.call(d.querySelectorAll('.video-pn video'), function (v) { return !v.paused && !v.ended; }); d.documentElement.classList.toggle('lecture', lecture); };
+    film.addEventListener('play', function () { etat(); }); film.addEventListener('playing', function () { etat(); });
+    film.addEventListener('pause', function () { etat(); }); film.addEventListener('ended', function () { etat(); });
+    film.addEventListener('play', function () { d.querySelectorAll('.video-pn video').forEach(function (autre) { if (autre !== film) autre.pause(); }); });      // une seule vidéo à la fois
+  });
 
   /* ---- Effets : apparition au défilement, compteurs, cartes inclinées, neige du haut de page ---- */
   var calme = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;

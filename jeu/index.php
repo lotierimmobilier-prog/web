@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=16">
+  <link rel="stylesheet" href="style.css?v=17">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -128,6 +128,15 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
         </video>
       </div>
       <p class="petit">«&nbsp;Cette année, j’ai une mission pour vous&nbsp;: dessinez-moi ma maison&nbsp;!&nbsp;» Vidéo de 22 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
+
+      <h3 class="sous-titre-pn">Et le lutin t’explique comment faire</h3>
+      <div class="video-pn">
+        <video controls playsinline preload="none" poster="lutin.jpg" width="960" height="540">
+          <source src="lutin.mp4?v=1" type="video/mp4">
+          <a href="lutin.mp4?v=1">Voir la vidéo du lutin</a>
+        </video>
+      </div>
+      <p class="petit">Vidéo de 8 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
     </section>
 
     <section class="bloc apparait" aria-labelledby="t-comment">
@@ -314,7 +323,7 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=7" defer></script>
+  <script src="app.js?v=9" defer></script>
 </body>
 </html>
 <?php

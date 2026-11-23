@@ -221,3 +221,4 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 .lecture .traineau { visibility: hidden; }
 .video-pn video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #14100c; }
 .message-pn .petit { margin-top: 12px; max-width: 860px; }
+.sous-titre-pn { font-size: clamp(20px, 2.6vw, 26px); margin: 30px 0 12px; }
