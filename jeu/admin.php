@@ -40,9 +40,9 @@ $admin = !empty($_SESSION['admin']) && $empreinte !== null;
 if ($admin && $csrf_ok) {
     $a = (string) ($_POST['action'] ?? ''); $id = (int) ($_POST['id'] ?? 0);
     if ($a === 'deconnexion') { $_SESSION = []; session_destroy(); header('Location: admin.php'); exit; }
-    if (in_array($a, ['valider', 'refuser'], true) && $id) {
-        db()->prepare('UPDATE dessins SET statut = ?, traite_le = ? WHERE id = ?')->execute([$a === 'valider' ? 'valide' : 'refuse', date('Y-m-d H:i:s'), $id]);
-        journal($a, (string) $id); $info = $a === 'valider' ? 'Dessin publié.' : 'Dessin refusé (il n’est pas affiché).';
+    if (in_array($a, ['valider', 'refuser', 'suspendre'], true) && $id) {
+        db()->prepare('UPDATE dessins SET statut = ?, traite_le = ? WHERE id = ?')->execute([['valider' => 'valide', 'refuser' => 'refuse', 'suspendre' => 'suspendu'][$a], date('Y-m-d H:i:s'), $id]);
+        journal($a, (string) $id); $info = ['valider' => 'Dessin publié.', 'refuser' => 'Dessin refusé (il n’est pas affiché).', 'suspendre' => 'Dessin suspendu : il n’est plus affiché et ne peut plus recevoir de vote. Ses données et ses votes sont conservés ; « Remettre en ligne » le republie.'][$a];
     }
     if ($a === 'supprimer' && $id) {
         $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
@@ -82,8 +82,8 @@ if ($admin && isset($_GET['export'])) {
     journal('export', $quoi);
     exit;
 }
-$liste = $admin ? db()->query("SELECT d.*, (SELECT COUNT(*) FROM votes v WHERE v.dessin_id = d.id) AS voix FROM dessins d ORDER BY CASE statut WHEN 'attente' THEN 0 WHEN 'valide' THEN 1 ELSE 2 END, categorie, voix DESC, cree_le")->fetchAll() : [];
-$compte = ['attente' => 0, 'valide' => 0, 'refuse' => 0];
+$liste = $admin ? db()->query("SELECT d.*, (SELECT COUNT(*) FROM votes v WHERE v.dessin_id = d.id) AS voix FROM dessins d ORDER BY CASE statut WHEN 'attente' THEN 0 WHEN 'valide' THEN 1 WHEN 'suspendu' THEN 2 ELSE 3 END, categorie, voix DESC, cree_le")->fetchAll() : [];
+$compte = ['attente' => 0, 'valide' => 0, 'suspendu' => 0, 'refuse' => 0];
 foreach ($liste as $d) $compte[$d['statut']]++;
 $champ_csrf = '<input type="hidden" name="csrf" value="' . h($csrf) . '">';
 $suivi = null;
@@ -110,7 +110,7 @@ if ($admin) {
     .ligne img { border-radius: 10px; width: 150px; } .ligne p { margin: 0 0 3px; font-size: 15px; } .ligne form { display: inline; }
     .ligne .btn { min-height: 38px; padding: 6px 14px; font-size: 14.5px; margin: 0 0 6px 6px; }
     .etat { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 600; }
-    .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; }
+    .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; } .suspendu { background: #e6e9ee; color: #33415a; }
     .alerte { background: #fff3cd; color: #5c4a10; padding: 10px 14px; border-radius: 12px; max-width: 640px; } .adm .aide { font-size: 14px; color: #4d5c70; margin: 6px 0; } .adm .boite + form, .adm form + .boite { margin-top: 12px; }
     .ok { background: #dff3e4; color: #17502c; padding: 10px 14px; border-radius: 12px; font-weight: 600; }
     .diag { font-size: 14px; color: #4d5c70; } .diag code { background: #eef1f5; padding: 1px 5px; border-radius: 4px; }
@@ -136,7 +136,7 @@ if ($admin) {
     <p><button class="btn rouge" type="submit">Se connecter</button></p>
   </form>
 <?php else: ?>
-  <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['refuse'] ?> refusé(s)</p>
+  <p>Phase en cours : <b><?= ['depot' => 'dépôt des dessins', 'vote' => 'votes', 'fini' => 'concours terminé'][phase()] ?></b> · <?= $compte['attente'] ?> en attente · <?= $compte['valide'] ?> publié(s) · <?= $compte['suspendu'] ?> suspendu(s) · <?= $compte['refuse'] ?> refusé(s)</p>
   <p class="boutons"><a class="btn clair" href="admin.php">Actualiser</a><a class="btn clair" href="admin.php?export=participants">Exporter les participants (CSV)</a><a class="btn clair" href="admin.php?export=infolettre">Exporter les inscrits à la lettre d’information (CSV)</a><a class="btn clair" href="./" target="_blank" rel="noopener">Voir le concours</a></p>
   <h2>Suivi des votes</h2>
   <p><b><?= $suivi['total'] ?></b> vote(s) au total · <b><?= $suivi['jour'] ?></b> aujourd’hui · <b><?= $suivi['votants'] ?></b> votant(s) différent(s)</p>
@@ -163,13 +163,14 @@ if ($admin) {
   <div class="ligne">
     <a href="image.php?d=<?= h($d['jeton']) ?>" target="_blank" rel="noopener"><img src="image.php?d=<?= h($d['jeton']) ?>&amp;v=1" alt="Dessin de <?= h($d['prenom']) ?>" loading="lazy"></a>
     <div>
-      <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'refuse' => 'Refusé'][$d['statut']] ?></span> · <?= (int) $d['voix'] ?> vote(s)</p>
+      <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'suspendu' => 'Suspendu', 'refuse' => 'Refusé'][$d['statut']] ?? $d['statut'] ?></span> · <?= (int) $d['voix'] ?> vote(s)</p>
       <p>Adulte : <?= h($d['email']) ?><?= $d['lien'] !== '' ? ' (' . h($d['lien']) . ')' : '' ?></p>
       <p><?= $d['code_postal'] !== '' ? 'Code postal : ' . h($d['code_postal']) . ' · ' : '' ?><?= $d['projet'] !== '' ? 'Projet : ' . h(JEU_PROJETS[$d['projet']] ?? $d['projet']) . ' · ' : '' ?><?= $d['rappel'] ? '<b>À rappeler : ' . h($d['telephone']) . '</b> · ' : '' ?><?= $d['infolettre'] ? 'Lettre d’information : oui' : 'Lettre d’information : non' ?></p>
       <p class="diag">Déposé le <?= h($d['cree_le']) ?> · lien public : <code><?= h(JEU_URL . '?d=' . $d['jeton']) ?></code></p>
     </div>
     <div>
-<?php if ($d['statut'] !== 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn rouge" name="action" value="valider">Publier</button></form><?php endif; ?>
+<?php if ($d['statut'] !== 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn rouge" name="action" value="valider"><?= $d['statut'] === 'suspendu' ? 'Remettre en ligne' : 'Publier' ?></button></form><?php endif; ?>
+<?php if ($d['statut'] === 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="suspendre">Suspendre</button></form><?php endif; ?>
 <?php if ($d['statut'] !== 'refuse'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="refuser">Refuser</button></form><?php endif; ?>
       <form method="post" onsubmit="return confirm('Supprimer définitivement ce dessin, ses données et ses votes ?')"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="supprimer">Supprimer</button></form>
     </div>

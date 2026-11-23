@@ -16,6 +16,6 @@ $fichier = chemin_dessin($jeton, isset($_GET['v']));
 if (($statut !== 'valide' && !$admin) || $statut === false || !is_file($fichier)) { http_response_code(404); exit; }
 header('Content-Type: image/jpeg');
 header('X-Content-Type-Options: nosniff');
-header('Cache-Control: ' . ($statut === 'valide' ? 'public, max-age=86400' : 'private, no-store'));
+header('Cache-Control: ' . ($statut === 'valide' ? 'public, max-age=3600' : 'private, no-store'));
 header('Content-Length: ' . filesize($fichier));
 readfile($fichier);
