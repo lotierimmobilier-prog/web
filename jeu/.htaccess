@@ -1,0 +1,16 @@
+# Concours de Noël : pages dynamiques, jamais mises en cache ; fichiers internes non servis.
+DirectoryIndex index.php
+Options -Indexes
+<FilesMatch "^(lib\.php|README\.md)$">
+  Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+  <FilesMatch "\.php$">
+    Header set Cache-Control "no-store"
+    Header set X-Robots-Tag "noarchive"
+  </FilesMatch>
+</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^data(/|$) - [R=404,L]
+</IfModule>

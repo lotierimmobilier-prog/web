@@ -1,0 +1,98 @@
+/* Concours de Noël LOTIER Immobilier : charte rouge. */
+@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 400 600; font-display: swap; src: url("../assets/fonts/dm-sans-latin.woff2") format("woff2"); }
+@font-face { font-family: "DM Serif Display"; font-style: normal; font-weight: 400; font-display: swap; src: url("../assets/fonts/dm-serif-display-latin.woff2") format("woff2"); }
+:root { --rouge: #b3323a; --rouge-f: #8f2530; --rouge-c: #cf4a50; --nuit: #0f2744; --or: #e3c98a; --creme: #fbf6ee; --txt: #2d3b4f; --trait: rgba(15, 39, 68, .14); }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 20px; }
+body { margin: 0; font-family: "DM Sans", system-ui, Arial, sans-serif; color: var(--txt); background: var(--creme); line-height: 1.6; font-size: 17px; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--rouge-f); text-underline-offset: 3px; }
+h1, h2, h3 { color: var(--nuit); line-height: 1.12; letter-spacing: -.02em; margin: 0; }
+em { font-family: "DM Serif Display", Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: 0; }
+.evitement { position: absolute; left: -999px; top: 8px; background: #fff; padding: 8px 14px; border-radius: 8px; z-index: 10; }
+.evitement:focus { left: 8px; }
+:focus-visible { outline: 3px solid var(--nuit); outline-offset: 3px; border-radius: 6px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 10px 20px; border-radius: 999px; border: 1.5px solid transparent; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; text-align: center; }
+.btn.rouge { background: linear-gradient(135deg, var(--rouge-c), var(--rouge)); color: #fff; box-shadow: 0 2px 6px rgba(143, 37, 48, .28); }
+.btn.rouge:hover { background: linear-gradient(135deg, #bb3b42, var(--rouge-f)); }
+.btn.clair { background: #fff; color: var(--nuit); border-color: rgba(15, 39, 68, .3); }
+.btn.clair:hover { border-color: var(--nuit); }
+.btn.grand { min-height: 54px; padding: 12px 28px; font-size: 18px; }
+.btn[disabled] { opacity: .6; cursor: progress; }
+.boutons { display: flex; flex-wrap: wrap; gap: 12px; margin: 0; }
+
+.haut { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px clamp(16px, 5vw, 48px); background: #fff; border-bottom: 1px solid var(--trait); position: relative; z-index: 2; }
+.haut .logo img { width: 150px; }
+.haut nav { display: flex; gap: 6px 20px; flex-wrap: wrap; justify-content: flex-end; }
+.haut nav a { color: var(--nuit); font-weight: 600; text-decoration: none; padding: 8px 0; }
+.haut nav a:hover { text-decoration: underline; }
+
+.hero { position: relative; z-index: 1; padding: clamp(40px, 8vw, 88px) clamp(16px, 5vw, 48px) clamp(36px, 6vw, 64px); background: radial-gradient(1200px 500px at 85% -10%, rgba(227, 201, 138, .28), transparent 60%), linear-gradient(160deg, #a12b34 0%, #7d1f2a 55%, #3a1830 100%); color: #fff; overflow: hidden; }
+.hero > * { max-width: 900px; }
+.hero .sur { margin: 0 0 14px; font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--or); }
+.hero h1 { color: #fff; font-size: clamp(38px, 7.4vw, 76px); }
+.hero h1 em { color: var(--or); display: block; }
+.hero .chapo { font-size: clamp(18px, 2.2vw, 22px); margin: 20px 0 28px; max-width: 640px; color: rgba(255, 255, 255, .93); }
+.hero .btn.clair { background: rgba(255, 255, 255, .12); color: #fff; border-color: rgba(255, 255, 255, .55); }
+.etapes { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 40px 0 0; padding: 0; }
+.etapes li { border: 1px solid rgba(255, 255, 255, .25); border-radius: 16px; padding: 14px 16px; background: rgba(255, 255, 255, .07); }
+.etapes li.ici { background: #fff; color: var(--nuit); border-color: #fff; }
+.etapes b { display: block; font-size: 15px; } .etapes span { font-size: 14px; opacity: .9; }
+.neige { position: fixed; inset: 0; pointer-events: none; z-index: 3; opacity: .7; background-image: radial-gradient(3px 3px at 20px 30px, #fff 50%, transparent 51%), radial-gradient(2px 2px at 110px 90px, #fff 50%, transparent 51%), radial-gradient(4px 4px at 170px 160px, #fff 50%, transparent 51%), radial-gradient(2px 2px at 60px 200px, #fff 50%, transparent 51%); background-size: 240px 240px; }
+@media (prefers-reduced-motion: no-preference) { .neige { animation: neige 14s linear infinite; } }
+@keyframes neige { to { background-position: 40px 240px, -30px 240px, 20px 240px, -20px 240px; } }
+
+.bloc { max-width: 1120px; margin: 0 auto; padding: clamp(36px, 6vw, 64px) clamp(16px, 5vw, 48px) 0; position: relative; z-index: 1; }
+.bloc h2 { font-size: clamp(28px, 4.2vw, 42px); margin-bottom: 14px; }
+.intro { max-width: 720px; margin: 0 0 22px; font-size: 18px; }
+.trois { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+.trois > div { background: #fff; border: 1px solid var(--trait); border-radius: 20px; padding: 22px; }
+.trois h3 { font-size: 20px; margin: 10px 0 6px; } .trois p { margin: 0; }
+.num { display: inline-flex; width: 40px; height: 40px; border-radius: 50%; align-items: center; justify-content: center; background: var(--rouge); color: #fff; font-weight: 600; font-size: 19px; }
+.cats { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; }
+.cats span { background: #fff; border: 1px solid var(--trait); border-radius: 999px; padding: 6px 14px; font-weight: 600; color: var(--nuit); font-size: 15px; }
+
+.formulaire { background: #fff; border: 1px solid var(--trait); border-radius: 24px; padding: clamp(18px, 3vw, 32px); max-width: 780px; }
+fieldset { border: 0; padding: 0; margin: 0 0 22px; }
+legend { font-weight: 600; font-size: 20px; color: var(--nuit); padding: 0; margin-bottom: 10px; }
+.facultatif { font-weight: 400; font-size: 14px; color: #5b6b80; }
+.formulaire p { margin: 0 0 14px; }
+label { display: block; font-weight: 600; color: var(--nuit); margin-bottom: 5px; font-size: 16px; }
+input[type=text], input[type=email], input[type=number], input[type=tel], input[type=file], select, textarea { width: 100%; font: inherit; color: var(--nuit); background: #fff; border: 1.5px solid rgba(15, 39, 68, .32); border-radius: 12px; padding: 11px 13px; min-height: 48px; }
+textarea { min-height: 110px; resize: vertical; }
+small { display: block; color: #5b6b80; font-size: 14px; margin-top: 4px; }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+.case { display: grid; grid-template-columns: 24px 1fr; gap: 12px; align-items: start; }
+.case input { width: 22px; height: 22px; margin: 3px 0 0; accent-color: var(--rouge); }
+.case label { font-weight: 400; margin: 0; color: var(--txt); }
+.piege { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.rgpd { font-size: 14.5px; color: #4d5c70; background: var(--creme); border-radius: 12px; padding: 12px 14px; }
+.message { color: var(--rouge-f); font-weight: 600; min-height: 1.4em; margin: 0 0 10px; }
+#apercu img { max-height: 260px; border-radius: 12px; border: 1px solid var(--trait); }
+.merci { background: #fff; border: 2px solid var(--rouge); border-radius: 24px; padding: clamp(20px, 3vw, 32px); max-width: 780px; }
+.merci h3 { font-size: 24px; margin-bottom: 10px; }
+
+.cat { font-size: 22px; margin: 30px 0 14px; } .cat span { font-weight: 400; color: #5b6b80; font-size: 17px; }
+.grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.grille.une { grid-template-columns: minmax(0, 520px); }
+.carte { background: #fff; border: 1px solid var(--trait); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; }
+.carte .vue { display: block; background: #f1ebdf; aspect-ratio: 4 / 3; }
+.carte .vue img { width: 100%; height: 100%; object-fit: contain; }
+.carte .bas { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.carte p { margin: 0; } .qui { font-size: 18px; color: var(--nuit); } .voix { color: var(--rouge-f); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; } .actions .btn { flex: 1 1 auto; min-height: 44px; padding: 8px 14px; font-size: 15.5px; }
+.vedette .carte { border: 2px solid var(--rouge); }
+.vide { background: #fff; border: 1px dashed rgba(15, 39, 68, .3); border-radius: 20px; padding: 28px; text-align: center; font-size: 18px; }
+
+.pied { max-width: 1120px; margin: 56px auto 0; padding: 24px clamp(16px, 5vw, 48px) 40px; border-top: 1px solid var(--trait); font-size: 15px; color: #4d5c70; position: relative; z-index: 1; }
+.pied p { margin: 0 0 6px; }
+dialog { border: 0; border-radius: 22px; padding: clamp(18px, 4vw, 30px); max-width: min(520px, calc(100vw - 28px)); width: 100%; color: var(--txt); }
+dialog::backdrop { background: rgba(15, 39, 68, .55); }
+dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px; }
+.reseaux { display: flex; flex-wrap: wrap; gap: 8px; } .reseaux .btn { flex: 1 1 calc(50% - 8px); }
+
+.reglement { max-width: 860px; } .reglement h2 { font-size: 24px; margin: 30px 0 8px; } .reglement p, .reglement li { font-size: 16.5px; } .reglement ul { padding-left: 22px; }
+.avis { background: #fff3cd; border: 1px solid #e0c36a; border-radius: 12px; padding: 12px 16px; font-weight: 600; color: #5c4a10; }
+.a-valider { background: #fff3cd; padding: 0 4px; border-radius: 4px; }
+@media (max-width: 720px) { body { font-size: 16px; } .trois, .etapes, .duo { grid-template-columns: 1fr; } .haut .logo img { width: 120px; } .reseaux .btn { flex-basis: 100%; } }
+@media print { .neige, .haut nav, .btn { display: none !important; } }
