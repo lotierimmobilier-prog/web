@@ -54,7 +54,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -197,6 +197,21 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     </section>
 <?php endif; ?>
 
+<?php if ($dessins): $faces = $dessins; while (count($faces) < 8) $faces = array_merge($faces, $dessins); $faces = array_slice($faces, 0, 16); ?>
+    <section class="ronde" aria-labelledby="t-ronde">
+      <p class="sur"><span class="point" aria-hidden="true"></span>La galerie</p>
+      <h2 id="t-ronde">La ronde <em>des dessins.</em></h2>
+      <div class="manege" data-manege aria-label="Carrousel des dessins : faites glisser pour le faire tourner">
+        <div class="incline"><div class="anneau">
+<?php foreach ($faces as $f): ?>
+          <a class="face" href="#d-<?= h($f['jeton']) ?>" draggable="false"><span class="recto" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)"></span><span class="verso" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)" aria-hidden="true"></span><span class="nom"><?= h($f['prenom']) ?>, <?= (int) $f['age'] ?> ans<?= $phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '' ?></span></a>
+<?php endforeach; ?>
+        </div></div>
+      </div>
+      <p class="aide">Faites glisser pour faire tourner · touchez un dessin pour le voir</p>
+    </section>
+<?php endif; ?>
+
     <section class="bloc apparait" id="galerie" aria-labelledby="t-galerie">
       <h2 id="t-galerie"><?= $phase === 'fini' ? 'Les résultats' : 'Les dessins' ?></h2>
 <?php if ($phase === 'depot'): ?>
@@ -258,6 +273,6 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=3" defer></script>
+  <script src="app.js?v=4" defer></script>
 </body>
 </html>

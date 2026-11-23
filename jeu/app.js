@@ -179,6 +179,34 @@
     d.addEventListener('visibilitychange', function () { visible = !d.hidden; cancelAnimationFrame(img); if (visible) img = requestAnimationFrame(dessine); });
   }
 
+  /* ---- Carrousel en anneau des dessins (rotation continue, glissement à la souris ou au doigt, inertie) ---- */
+  var manege = q('[data-manege]');
+  if (manege) {
+    var anneau = q('.anneau', manege), faces = tous('.face', manege), nb = faces.length;
+    var rot = 0, vit = 0, dernier = 0, saisi = false, x0 = 0, parcouru = 0, rayon = 0, enVue = true, boucle = 0;
+    var auto = calme ? 0 : 9;                                    // degrés par seconde
+    var poser = function () {
+      var l = anneau.offsetWidth;
+      rayon = (l * 1.22) / (2 * Math.tan(Math.PI / nb));
+      faces.forEach(function (f, i) { f.style.transform = 'rotateY(' + (i * 360 / nb) + 'deg) translateZ(' + rayon + 'px)'; });
+    };
+    var appliquer = function () { anneau.style.transform = 'translateZ(' + (-rayon) + 'px) rotateY(' + rot + 'deg)'; };
+    var tourner = function (t) {
+      var dt = dernier ? Math.min((t - dernier) / 1000, 0.1) : 0; dernier = t;
+      if (!saisi) { if (Math.abs(vit) > 0.5) { rot += vit * dt; vit *= 0.94; } else { rot += auto * dt; } }
+      appliquer();
+      if (enVue) boucle = requestAnimationFrame(tourner);
+    };
+    poser(); appliquer(); window.addEventListener('resize', function () { poser(); appliquer(); });
+    manege.addEventListener('pointerdown', function (e) { saisi = true; x0 = e.clientX; parcouru = 0; vit = 0; manege.classList.add('saisi'); });
+    window.addEventListener('pointermove', function (e) { if (!saisi) return; var dx = e.clientX - x0; x0 = e.clientX; parcouru += Math.abs(dx); rot += dx * 0.35; vit = dx * 0.35 * 60; if (calme) appliquer(); });
+    var lacher = function () { saisi = false; manege.classList.remove('saisi'); };
+    window.addEventListener('pointerup', lacher); window.addEventListener('pointercancel', lacher);
+    manege.addEventListener('click', function (e) { if (parcouru > 8) { e.preventDefault(); e.stopPropagation(); } }, true);   // un glissement n'est pas un clic
+    manege.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    new IntersectionObserver(function (es) { enVue = es[0].isIntersecting; cancelAnimationFrame(boucle); dernier = 0; if (enVue) boucle = requestAnimationFrame(tourner); }).observe(manege);
+  }
+
   /* Arrivée par un lien partagé : on amène le visiteur au dessin. */
   var vedette = q('.vedette');
   if (vedette && !location.hash) vedette.scrollIntoView({ block: 'start' });
