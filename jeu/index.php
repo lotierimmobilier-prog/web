@@ -53,59 +53,40 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <a class="evitement" href="#contenu">Aller au contenu</a>
-  <div class="neige" aria-hidden="true"></div>
   <header class="haut">
     <a class="logo" href="../" aria-label="LOTIER Immobilier, retour au site"><img src="../assets/lotier-logo-330.png" alt="LOTIER Immobilier" width="165" height="56"></a>
-    <nav aria-label="Concours"><a href="#galerie">Les dessins</a><a href="reglement.php">Règlement</a></nav>
+    <nav aria-label="Concours"><a href="#galerie">Les dessins</a><a href="reglement.php">Règlement</a><a href="../">lotier.immo</a><?php if ($phase === 'depot'): ?><a class="pastille" href="#participer">Participer</a><?php endif; ?></nav>
   </header>
 
   <main id="contenu">
     <section class="hero">
-      <div class="guirlande" aria-hidden="true"></div>
-      <div class="hero-in"><div class="hero-txt">
-      <p class="sur">Concours de dessin · gratuit · de 3 à 103 ans</p>
-      <h1>Dessine <em>la maison du Père Noël</em></h1>
-      <p class="chapo">Cheminée qui fume, atelier des lutins, garage à traîneau… À quoi ressemble la maison du Père Noël&nbsp;? Montre-le-nous, et fais voter toute la famille.</p>
+      <p class="sur"><span class="point" aria-hidden="true"></span>Concours de dessin · gratuit · de 3 à 103 ans</p>
+      <h1 aria-label="Dessine la maison du Père Noël"><span class="l1" aria-hidden="true">Dessine la mais<span class="boule" aria-hidden="true"><i></i></span>n</span><span class="l2" aria-hidden="true">du Père N<span class="boule" aria-hidden="true"><i></i></span>ël.</span></h1>
+      <div class="hero-bas">
+        <p class="chapo">Cheminée qui fume, atelier des lutins, garage à traîneau… À quoi ressemble la maison du Père Noël&nbsp;? Montre-le-nous, et fais voter toute la famille.</p>
+        <p class="hero-cta">
 <?php if ($phase === 'depot'): ?>
-      <p class="boutons"><a class="btn rouge grand" href="#participer">Déposer un dessin</a><a class="btn clair grand" href="#galerie">Voir les dessins</a></p>
+          <a class="btn rouge grand" href="#participer">Déposer un dessin <span aria-hidden="true">→</span></a><a class="lien" href="#galerie">Voir les dessins</a>
 <?php elseif ($phase === 'vote'): ?>
-      <p class="boutons"><a class="btn rouge grand" href="#galerie">Voter pour un dessin</a></p>
+          <a class="btn rouge grand" href="#galerie">Voter pour un dessin <span aria-hidden="true">→</span></a><a class="lien" href="reglement.php">Lire le règlement</a>
 <?php else: ?>
-      <p class="boutons"><a class="btn rouge grand" href="#galerie">Voir les résultats</a></p>
+          <a class="btn rouge grand" href="#galerie">Voir les résultats <span aria-hidden="true">→</span></a><a class="lien" href="reglement.php">Lire le règlement</a>
 <?php endif; ?>
-<?php if ($compte): ?>      <p class="compte"><?= h($compte) ?></p>
+        </p>
+        <dl class="fiche">
+          <div class="tete"><dt>Concours de Noël 2026</dt><dd><?= h(['depot' => 'Dépôts ouverts', 'vote' => 'Votes ouverts', 'fini' => 'Terminé'][$phase]) ?></dd></div>
+          <div<?= $phase === 'depot' ? ' class="ici"' : '' ?>><dt>Dépôt des dessins</dt><dd>jusqu’au 14 déc.</dd></div>
+          <div<?= $phase === 'vote' ? ' class="ici"' : '' ?>><dt>Votes, un par jour</dt><dd>15 déc. → 6 janv.</dd></div>
+          <div><dt>Catégories d’âge</dt><dd>4</dd></div>
+          <div><dt>À gagner</dt><dd>12 bons cadeaux</dd></div>
+<?php if ($compte): ?>          <div class="fort"><dt><?= $phase === 'depot' ? 'Il reste' : 'Il reste pour voter' ?></dt><dd><?= $j <= 1 ? 'dernier jour' : $j . ' jours' ?></dd></div>
 <?php endif; ?>
+        </dl>
       </div>
-      <svg class="scene" viewBox="0 0 520 440" role="img" aria-label="Illustration : la maison du Père Noël sous la neige">
-        <circle cx="420" cy="78" r="38" fill="#fbe9b7"/><circle cx="436" cy="68" r="34" fill="#7d1f2a" opacity=".55"/>
-        <g fill="#fff" opacity=".9"><circle cx="70" cy="60" r="2.5"/><circle cx="150" cy="30" r="2"/><circle cx="250" cy="70" r="2.5"/><circle cx="330" cy="26" r="2"/><circle cx="480" cy="170" r="2"/><circle cx="40" cy="170" r="2"/><circle cx="200" cy="120" r="1.8"/></g>
-        <path d="M0 360 Q130 300 260 340 T520 320 V440 H0Z" fill="#f4ece0"/><path d="M0 392 Q160 350 300 384 T520 372 V440 H0Z" fill="#fff"/>
-        <g><path d="M70 372 l28-64 28 64z" fill="#1f5c43"/><path d="M78 338 l20-48 20 48z" fill="#27704f"/><path d="M84 306 l14-34 14 34z" fill="#2f8a5f"/><rect x="93" y="372" width="10" height="14" fill="#5b3a22"/><path d="M84 306 l14-34 14 34 q-14-10-28 0z" fill="#fff" opacity=".9"/></g>
-        <g><path d="M418 366 l24-56 24 56z" fill="#1f5c43"/><path d="M425 336 l17-42 17 42z" fill="#27704f"/><rect x="437" y="366" width="9" height="13" fill="#5b3a22"/><path d="M425 336 l17-42 17 42 q-17-12-34 0z" fill="#fff" opacity=".9"/></g>
-        <rect x="300" y="150" width="34" height="74" fill="#8f2530"/><rect x="294" y="142" width="46" height="14" rx="5" fill="#fff"/>
-        <g fill="#fff" opacity=".8" class="fumee"><circle cx="318" cy="118" r="11"/><circle cx="334" cy="92" r="14"/><circle cx="356" cy="62" r="18"/></g>
-        <rect x="160" y="226" width="210" height="150" rx="6" fill="#f6dfb8"/>
-        <path d="M134 236 L265 132 L396 236Z" fill="#b3323a"/><path d="M134 236 L265 132 L396 236 l-16 0 L265 152 L150 236Z" fill="#fff"/>
-        <path d="M150 236 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 10 0z" fill="#fff"/>
-        <circle cx="265" cy="196" r="17" fill="#fbe9b7" stroke="#8f2530" stroke-width="4"/><path d="M265 180v32M249 196h32" stroke="#8f2530" stroke-width="3"/>
-        <rect x="184" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M210 262v52M184 288h52" stroke="#8f2530" stroke-width="4"/>
-        <rect x="294" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M320 262v52M294 288h52" stroke="#8f2530" stroke-width="4"/>
-        <path d="M242 376 v-58 a23 23 0 0 1 46 0 v58z" fill="#1f5c43"/><circle cx="279" cy="346" r="3.5" fill="#e3c98a"/>
-        <circle cx="265" cy="304" r="13" fill="none" stroke="#2f8a5f" stroke-width="6"/><circle cx="265" cy="316" r="4" fill="#b3323a"/>
-        <path d="M160 376 h210 v8 H160z" fill="#fff"/>
-        <g><rect x="384" y="336" width="6" height="42" fill="#5b3a22"/><rect x="368" y="322" width="64" height="26" rx="4" fill="#fff" stroke="#8f2530" stroke-width="3"/><text x="400" y="340" text-anchor="middle" font-size="12" font-weight="700" fill="#8f2530" font-family="Arial, sans-serif">Père Noël</text></g>
-      </svg>
-      </div>
-      <ol class="etapes" aria-label="Calendrier du concours">
-        <li class="<?= $phase === 'depot' ? 'ici' : '' ?>"><b>Jusqu’au 14 décembre</b><span>Dépôt des dessins</span></li>
-        <li class="<?= $phase === 'vote' ? 'ici' : '' ?>"><b>Du 15 décembre au 6 janvier</b><span>Un vote par jour</span></li>
-        <li class="<?= $phase === 'fini' ? 'ici' : '' ?>"><b>Après le 6 janvier</b><span>Trois gagnants par catégorie</span></li>
-      </ol>
-      <svg class="vague" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60 Q180 10 360 44 T720 40 T1080 52 T1440 30 V90 H0Z" fill="#fbf6ee"/></svg>
     </section>
 
 <?php if ($vedette): ?>
@@ -128,10 +109,32 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <section class="bloc" aria-labelledby="t-lots">
       <h2 id="t-lots">À gagner</h2>
       <p class="intro">Dans chacune des quatre catégories, les trois dessins les plus soutenus remportent un bon cadeau culturel : livres, musique, spectacles, loisirs créatifs… Douze gagnants en tout.</p>
+      <div class="gagner"><div>
       <div class="lots">
         <div class="lot or"><span class="medaille">1</span><h3>1er prix</h3><p>Bon cadeau culturel</p></div>
         <div class="lot argent"><span class="medaille">2</span><h3>2e prix</h3><p>Bon cadeau culturel</p></div>
         <div class="lot bronze"><span class="medaille">3</span><h3>3e prix</h3><p>Bon cadeau culturel</p></div>
+      </div>
+      </div>
+      <svg class="scene" viewBox="0 0 520 440" role="img" aria-label="Illustration : la maison du Père Noël sous la neige">
+        <circle cx="420" cy="78" r="38" fill="#fbe9b7"/><circle cx="436" cy="68" r="34" fill="#7d1f2a" opacity=".55"/>
+        <g fill="#fff" opacity=".9"><circle cx="70" cy="60" r="2.5"/><circle cx="150" cy="30" r="2"/><circle cx="250" cy="70" r="2.5"/><circle cx="330" cy="26" r="2"/><circle cx="480" cy="170" r="2"/><circle cx="40" cy="170" r="2"/><circle cx="200" cy="120" r="1.8"/></g>
+        <path d="M0 360 Q130 300 260 340 T520 320 V440 H0Z" fill="#f4ece0"/><path d="M0 392 Q160 350 300 384 T520 372 V440 H0Z" fill="#fff"/>
+        <g><path d="M70 372 l28-64 28 64z" fill="#1f5c43"/><path d="M78 338 l20-48 20 48z" fill="#27704f"/><path d="M84 306 l14-34 14 34z" fill="#2f8a5f"/><rect x="93" y="372" width="10" height="14" fill="#5b3a22"/><path d="M84 306 l14-34 14 34 q-14-10-28 0z" fill="#fff" opacity=".9"/></g>
+        <g><path d="M418 366 l24-56 24 56z" fill="#1f5c43"/><path d="M425 336 l17-42 17 42z" fill="#27704f"/><rect x="437" y="366" width="9" height="13" fill="#5b3a22"/><path d="M425 336 l17-42 17 42 q-17-12-34 0z" fill="#fff" opacity=".9"/></g>
+        <rect x="300" y="150" width="34" height="74" fill="#8f2530"/><rect x="294" y="142" width="46" height="14" rx="5" fill="#fff"/>
+        <g fill="#fff" opacity=".8" class="fumee"><circle cx="318" cy="118" r="11"/><circle cx="334" cy="92" r="14"/><circle cx="356" cy="62" r="18"/></g>
+        <rect x="160" y="226" width="210" height="150" rx="6" fill="#f6dfb8"/>
+        <path d="M134 236 L265 132 L396 236Z" fill="#b3323a"/><path d="M134 236 L265 132 L396 236 l-16 0 L265 152 L150 236Z" fill="#fff"/>
+        <path d="M150 236 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 10 0z" fill="#fff"/>
+        <circle cx="265" cy="196" r="17" fill="#fbe9b7" stroke="#8f2530" stroke-width="4"/><path d="M265 180v32M249 196h32" stroke="#8f2530" stroke-width="3"/>
+        <rect x="184" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M210 262v52M184 288h52" stroke="#8f2530" stroke-width="4"/>
+        <rect x="294" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M320 262v52M294 288h52" stroke="#8f2530" stroke-width="4"/>
+        <path d="M242 376 v-58 a23 23 0 0 1 46 0 v58z" fill="#1f5c43"/><circle cx="279" cy="346" r="3.5" fill="#e3c98a"/>
+        <circle cx="265" cy="304" r="13" fill="none" stroke="#2f8a5f" stroke-width="6"/><circle cx="265" cy="316" r="4" fill="#b3323a"/>
+        <path d="M160 376 h210 v8 H160z" fill="#fff"/>
+        <g><rect x="384" y="336" width="6" height="42" fill="#5b3a22"/><rect x="368" y="322" width="64" height="26" rx="4" fill="#fff" stroke="#8f2530" stroke-width="3"/><text x="400" y="340" text-anchor="middle" font-size="12" font-weight="700" fill="#8f2530" font-family="Arial, sans-serif">Père Noël</text></g>
+      </svg>
       </div>
     </section>
 
@@ -228,6 +231,6 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=1" defer></script>
+  <script src="app.js?v=2" defer></script>
 </body>
 </html>

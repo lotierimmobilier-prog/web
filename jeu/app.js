@@ -129,6 +129,18 @@
   tous('[data-fermer]').forEach(function (b) { b.addEventListener('click', function () { b.closest('dialog').close(); }); });
   tous('dialog').forEach(function (g) { g.addEventListener('click', function (e) { if (e.target === g) g.close(); }); });
 
+  /* Les boules de Noël du titre : leur reflet suit le pointeur. */
+  var boules = tous('.boule i');
+  if (boules.length && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    d.addEventListener('pointermove', function (e) {
+      boules.forEach(function (b) {
+        var r = b.parentNode.getBoundingClientRect(), dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+        var n = Math.sqrt(dx * dx + dy * dy) || 1, k = r.width * 0.2;
+        b.style.transform = 'translate(' + (dx / n * k) + 'px,' + (dy / n * k) + 'px)';
+      });
+    }, { passive: true });
+  }
+
   /* Arrivée par un lien partagé : on amène le visiteur au dessin. */
   var vedette = q('.vedette');
   if (vedette && !location.hash) vedette.scrollIntoView({ block: 'start' });
