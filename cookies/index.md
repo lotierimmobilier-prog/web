@@ -33,7 +33,7 @@ La mesure est active par défaut. Vous pouvez la refuser à tout moment : clique
 
 - **Avis Google** : les avis sont affichés par le service Trustindex. Il n'est chargé que si vous cliquez sur le bouton d'affichage des avis sur la page d'accueil ; il peut alors déposer ses propres traceurs.
 
-- **Carte du quartier** (page Contact) : elle est fournie par Google Maps. Elle n'est chargée que si vous cliquez sur « Afficher la carte interactive » ; Google reçoit alors votre adresse IP et peut déposer ses propres traceurs.
+- **Carte du quartier** (page Contact) : elle est fournie par Google Maps. Elle se charge lorsque vous arrivez à la rubrique « Autour de l'agence » de cette page ; Google reçoit alors votre adresse IP et peut déposer ses propres traceurs.
 
 - **Liens externes** (Google Maps pour un itinéraire, fiche Google, réseaux sociaux) : ce sont de simples liens. Aucune donnée n'est transmise tant que vous ne cliquez pas.
 

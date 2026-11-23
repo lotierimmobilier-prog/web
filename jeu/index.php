@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -118,6 +118,17 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
       <div class="grille une"><?= carte($vedette, $phase) ?></div>
     </section>
 <?php endif; ?>
+
+    <section class="bloc apparait message-pn" aria-labelledby="t-message">
+      <h2 id="t-message">Le message du Père Noël</h2>
+      <div class="video-pn">
+        <video controls playsinline preload="none" poster="pere-noel.jpg" width="1280" height="720">
+          <source src="pere-noel.mp4" type="video/mp4">
+          <a href="pere-noel.mp4">Voir la vidéo du Père Noël</a>
+        </video>
+      </div>
+      <p class="petit">«&nbsp;Cette année, j’ai une mission pour vous&nbsp;: dessinez-moi ma maison&nbsp;!&nbsp;» Vidéo de 24 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
+    </section>
 
     <section class="bloc apparait" aria-labelledby="t-comment">
       <h2 id="t-comment">Comment ça marche&nbsp;?</h2>
