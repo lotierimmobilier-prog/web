@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=12">
+  <link rel="stylesheet" href="style.css?v=13">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -122,9 +122,9 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
     <section class="bloc apparait message-pn" aria-labelledby="t-message">
       <h2 id="t-message">Le message du Père Noël</h2>
       <div class="video-pn">
-        <video controls playsinline preload="none" poster="pere-noel.jpg" width="1280" height="720">
-          <source src="pere-noel.mp4" type="video/mp4">
-          <a href="pere-noel.mp4">Voir la vidéo du Père Noël</a>
+        <video controls playsinline preload="none" poster="pere-noel.jpg" width="960" height="540">
+          <source src="pere-noel.mp4?v=2" type="video/mp4">
+          <a href="pere-noel.mp4?v=2">Voir la vidéo du Père Noël</a>
         </video>
       </div>
       <p class="petit">«&nbsp;Cette année, j’ai une mission pour vous&nbsp;: dessinez-moi ma maison&nbsp;!&nbsp;» Vidéo de 24 secondes, avec le son. Personnage et voix créés par ordinateur.</p>
@@ -314,7 +314,7 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=6" defer></script>
+  <script src="app.js?v=7" defer></script>
 </body>
 </html>
 <?php
