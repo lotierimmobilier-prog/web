@@ -15,7 +15,7 @@ $lot = function (int $rang): string {
   <meta name="description" content="Règlement du concours de dessin de Noël de LOTIER Immobilier : participation, votes, lots et protection des données personnelles.">
   <link rel="canonical" href="<?= h(JEU_URL) ?>reglement.php">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
   <header class="haut">
@@ -33,8 +33,8 @@ $lot = function (int $rang): string {
     <h2>Article 2. Thème et calendrier</h2>
     <p>Les participants réalisent un dessin sur le thème « <?= h(JEU_THEME) ?> ».</p>
     <ul>
-      <li>Dépôt des dessins : de l’ouverture du concours au <?= fr_date(JEU_FIN_DEPOTS) ?> à 23 h 59 (heure de Paris).</li>
-      <li>Votes du public : du <?= fr_date(JEU_DEBUT_VOTES) ?> au <?= fr_date(JEU_FIN_VOTES) ?> à 23 h 59.</li>
+      <li>Dépôt des dessins : de l’ouverture du concours au <?= fr_date(fin_depots()) ?> à 23 h 59 (heure de Paris).</li>
+      <li>Votes du public : du <?= fr_date(debut_votes()) ?> au <?= fr_date(fin_votes()) ?> à 23 h 59.</li>
       <li>Annonce des résultats : dans les quinze jours qui suivent la clôture des votes.</li>
     </ul>
 
@@ -52,7 +52,7 @@ $lot = function (int $rang): string {
     <p>Seuls le dessin, le prénom et l’âge du participant sont affichés. L’adresse e-mail et le numéro de téléphone ne sont jamais rendus publics.</p>
 
     <h2>Article 6. Votes</h2>
-    <p>Du <?= fr_date(JEU_DEBUT_VOTES) ?> au <?= fr_date(JEU_FIN_VOTES) ?>, toute personne peut voter pour le dessin de son choix, à raison d’un vote par jour et par adresse e-mail. Il n’est pas possible de voter pour un dessin déposé avec sa propre adresse e-mail.</p>
+    <p>Du <?= fr_date(debut_votes()) ?> au <?= fr_date(fin_votes()) ?>, toute personne peut voter pour le dessin de son choix, à raison d’un vote par jour et par adresse e-mail. Il n’est pas possible de voter pour un dessin déposé avec sa propre adresse e-mail.</p>
     <p>Le partage d’un dessin par messagerie ou sur les réseaux sociaux est libre et n’apporte aucun avantage. L’organisateur peut annuler les votes obtenus de façon manifestement frauduleuse (adresses créées en série, automates), et exclure le dessin concerné.</p>
 
     <h2>Article 7. Lots</h2>

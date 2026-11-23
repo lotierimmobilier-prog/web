@@ -6,11 +6,15 @@ entetes_page();
 
 $phase = phase();
 $dessins = dessins_valides();
+// Dessins d'exemple, hors concours : sans prénom, sans âge, sans vote. Ils disparaissent dès qu'il y a assez de vrais dessins, et dès l'ouverture des votes.
+$exemples = [];
+if (phase() === 'depot' && count($dessins) < JEU_EXEMPLES) foreach (glob(__DIR__ . '/exemples/exemple-*.jpg') ?: [] as $f) $exemples[] = 'exemples/' . basename($f);
+sort($exemples, SORT_NATURAL);
 $vedette = null;
 $jd = (string) ($_GET['d'] ?? '');
 if (preg_match('/^[a-f0-9]{16}$/', $jd)) { foreach ($dessins as $x) { if ($x['jeton'] === $jd) { $vedette = $x; break; } } }
 $reste = function (string $fin): int { return max(0, (int) ceil(((new DateTimeImmutable($fin))->getTimestamp() - maintenant()->getTimestamp()) / 86400)); };
-$j = $phase === 'depot' ? $reste(JEU_FIN_DEPOTS) : ($phase === 'vote' ? $reste(JEU_FIN_VOTES) : 0);
+$j = $phase === 'depot' ? $reste(fin_depots()) : ($phase === 'vote' ? $reste(fin_votes()) : 0);
 $compte = $phase === 'depot' ? ($j <= 1 ? 'Dernier jour pour déposer un dessin !' : "Plus que $j jours pour déposer un dessin")
         : ($phase === 'vote' ? ($j <= 1 ? 'Dernier jour pour voter !' : "Plus que $j jours pour voter") : '');
 $nbVotes = (int) db()->query('SELECT COUNT(*) FROM votes')->fetchColumn();
@@ -19,8 +23,8 @@ foreach ($dessins as $x) { $parCat[$x['categorie']][] = $x; }
 
 function texte_partage(array $d, string $phase): string {
     $p = $d['prenom'];
-    if ($phase === 'vote') return "Aidez $p à gagner le concours de Noël de LOTIER Immobilier ! Son dessin de la maison du Père Noël attend votre vote (un vote par jour, jusqu’au 6 janvier) :";
-    if ($phase === 'depot') return "$p participe au concours de Noël de LOTIER Immobilier ! Venez voir son dessin de la maison du Père Noël. Les votes ouvrent le 15 décembre :";
+    if ($phase === 'vote') return "Aidez $p à gagner le concours de Noël de LOTIER Immobilier ! Son dessin de la maison du Père Noël attend votre vote (un vote par jour, jusqu’au " . jour_mois(fin_votes()) . ") :";
+    if ($phase === 'depot') return "$p participe au concours de Noël de LOTIER Immobilier ! Venez voir son dessin de la maison du Père Noël. Les votes ouvrent le " . jour_mois(debut_votes()) . " :";
     return "$p a participé au concours de Noël de LOTIER Immobilier. Voici son dessin de la maison du Père Noël :";
 }
 function carte(array $d, string $phase, int $rang = 0): string {
@@ -36,7 +40,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
     return $s;
 }
 $titre = $vedette ? 'Le dessin de ' . $vedette['prenom'] . ' | Concours de Noël LOTIER Immobilier' : 'Concours de Noël : dessine la maison du Père Noël | LOTIER Immobilier';
-$desc = $vedette ? texte_partage($vedette, $phase) : 'Concours de dessin de Noël de LOTIER Immobilier : dessine la maison du Père Noël, dépose ton dessin avant le 14 décembre et fais voter tes proches. Gratuit, de 3 à 103 ans.';
+$desc = $vedette ? texte_partage($vedette, $phase) : 'Concours de dessin de Noël de LOTIER Immobilier : dessine la maison du Père Noël, dépose ton dessin avant le ' . jour_mois(fin_depots()) . ' et fais voter tes proches. Gratuit, de 3 à 103 ans.';
 $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://lotier.immo/assets/og-lotier.jpg';
 ?><!doctype html>
 <html lang="fr">
@@ -54,9 +58,9 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
-<body>
+<body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
   <header class="haut">
     <a class="logo" href="../" aria-label="LOTIER Immobilier, retour au site"><img src="../assets/lotier-logo-330.png" alt="LOTIER Immobilier" width="165" height="56"></a>
@@ -65,6 +69,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 
   <main id="contenu">
     <section class="hero">
+      <div class="traineau" aria-hidden="true"><img src="traineau.webp" alt="" width="900" height="222" decoding="async"></div>
       <p class="sur"><span class="point" aria-hidden="true"></span>Concours de dessin · gratuit · de 3 à 103 ans</p>
       <h1 aria-label="Dessine la maison du Père Noël"><span class="l1" aria-hidden="true">Dessine la mais<span class="boule" aria-hidden="true"><i></i></span>n</span><span class="l2" aria-hidden="true">du Père N<span class="boule" aria-hidden="true"><i></i></span>ël.</span></h1>
       <div class="hero-bas">
@@ -80,8 +85,8 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
         </p>
         <dl class="fiche">
           <div class="tete"><dt>Concours de Noël 2026</dt><dd><?= h(['depot' => 'Dépôts ouverts', 'vote' => 'Votes ouverts', 'fini' => 'Terminé'][$phase]) ?></dd></div>
-          <div<?= $phase === 'depot' ? ' class="ici"' : '' ?>><dt>Dépôt des dessins</dt><dd>jusqu’au 14 déc.</dd></div>
-          <div<?= $phase === 'vote' ? ' class="ici"' : '' ?>><dt>Votes, un par jour</dt><dd>15 déc. → 6 janv.</dd></div>
+          <div<?= $phase === 'depot' ? ' class="ici"' : '' ?>><dt>Dépôt des dessins</dt><dd>jusqu’au <?= h(jour_court(fin_depots())) ?></dd></div>
+          <div<?= $phase === 'vote' ? ' class="ici"' : '' ?>><dt>Votes, un par jour</dt><dd><?= h(jour_court(debut_votes())) ?> → <?= h(jour_court(fin_votes())) ?></dd></div>
           <div><dt>Catégories d’âge</dt><dd>4</dd></div>
           <div><dt>À gagner</dt><dd>12 bons cadeaux</dd></div>
 <?php if ($compte): ?>          <div class="fort"><dt><?= $phase === 'depot' ? 'Il reste' : 'Il reste pour voter' ?></dt><dd><?= $j <= 1 ? 'dernier jour' : $j . ' jours' ?></dd></div>
@@ -191,20 +196,24 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
       </form>
       <div id="merci" class="merci" hidden tabindex="-1">
         <h3>Merci, le dessin de <span data-merci-prenom></span> est bien arrivé&nbsp;!</h3>
-        <p>L’équipe LOTIER le regarde et le publie sous 12&nbsp;heures. En attendant, prévenez la famille&nbsp;: les votes ouvrent le 15 décembre.</p>
+        <p>L’équipe LOTIER le regarde et le publie sous 12&nbsp;heures. En attendant, prévenez la famille&nbsp;: les votes ouvrent le <?= h(jour_mois(debut_votes())) ?>.</p>
         <p class="boutons"><button type="button" class="btn rouge" data-partager-merci>Prévenir mes proches</button><a class="btn clair" href="./">Déposer un autre dessin</a></p>
       </div>
     </section>
 <?php endif; ?>
 
-<?php if ($dessins): $faces = $dessins; while (count($faces) < 8) $faces = array_merge($faces, $dessins); $faces = array_slice($faces, 0, 16); ?>
+<?php
+$faces = [];
+foreach ($dessins as $f) $faces[] = ['lien' => '#d-' . $f['jeton'], 'image' => 'image.php?d=' . $f['jeton'] . '&v=1', 'nom' => $f['prenom'] . ', ' . (int) $f['age'] . ' ans' . ($phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '')];
+foreach ($exemples as $f) $faces[] = ['lien' => '#inspiration', 'image' => $f, 'nom' => 'Exemple, hors concours'];
+if ($faces): $base = $faces; while (count($faces) < 8) $faces = array_merge($faces, $base); $faces = array_slice($faces, 0, 16); ?>
     <section class="ronde" aria-labelledby="t-ronde">
       <p class="sur"><span class="point" aria-hidden="true"></span>La galerie</p>
       <h2 id="t-ronde">La ronde <em>des dessins.</em></h2>
       <div class="manege" data-manege aria-label="Carrousel des dessins : faites glisser pour le faire tourner">
         <div class="incline"><div class="anneau">
 <?php foreach ($faces as $f): ?>
-          <a class="face" href="#d-<?= h($f['jeton']) ?>" draggable="false"><span class="recto" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)"></span><span class="verso" style="background-image:url(image.php?d=<?= h($f['jeton']) ?>&amp;v=1)" aria-hidden="true"></span><span class="nom"><?= h($f['prenom']) ?>, <?= (int) $f['age'] ?> ans<?= $phase !== 'depot' ? ' · ' . (int) $f['voix'] . ((int) $f['voix'] > 1 ? ' votes' : ' vote') : '' ?></span></a>
+          <a class="face" href="<?= h($f['lien']) ?>" draggable="false"><span class="recto" style="background-image:url(<?= h($f['image']) ?>)"></span><span class="verso" style="background-image:url(<?= h($f['image']) ?>)" aria-hidden="true"></span><span class="nom"><?= h($f['nom']) ?></span></a>
 <?php endforeach; ?>
         </div></div>
       </div>
@@ -215,9 +224,9 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <section class="bloc apparait" id="galerie" aria-labelledby="t-galerie">
       <h2 id="t-galerie"><?= $phase === 'fini' ? 'Les résultats' : 'Les dessins' ?></h2>
 <?php if ($phase === 'depot'): ?>
-      <p class="intro">Les votes ouvrent le 15 décembre. D’ici là, admirez, et partagez vos préférés.</p>
+      <p class="intro">Les votes ouvrent le <?= h(jour_mois(debut_votes())) ?>. D’ici là, admirez, et partagez vos préférés.</p>
 <?php elseif ($phase === 'vote'): ?>
-      <p class="intro">Un vote par jour et par adresse e-mail, jusqu’au 6 janvier. Revenez demain pour voter à nouveau.</p>
+      <p class="intro">Un vote par jour et par adresse e-mail, jusqu’au <?= h(jour_mois(fin_votes())) ?>. Revenez demain pour voter à nouveau.</p>
 <?php else: ?>
       <p class="intro">Les votes sont clos. Bravo à tous les artistes&nbsp;! Les gagnants sont prévenus par e-mail.</p>
 <?php endif; ?>
@@ -233,6 +242,13 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 <?php endif; ?>
       <div class="grille"><?php foreach ($parCat[$cle] as $i => $d) echo carte($d, $phase, $i + 1); ?></div>
 <?php endforeach; endif; ?>
+<?php if ($exemples): ?>
+      <div class="inspiration" id="inspiration">
+        <h3 class="cat">Pour s’inspirer <span>(exemples, hors concours)</span></h3>
+        <p class="intro">En panne d’idée&nbsp;? Voici quelques illustrations d’exemple préparées par LOTIER Immobilier. Elles ne participent pas au concours et ne reçoivent aucun vote&nbsp;: elles laisseront la place aux vrais dessins au fil des dépôts.</p>
+        <div class="grille"><?php foreach ($exemples as $f): ?><figure class="carte exemple"><span class="vue"><img src="<?= h($f) ?>" alt="Illustration d’exemple, hors concours : la maison du Père Noël" loading="lazy" width="960" height="540"></span><figcaption class="bas"><p class="etiquette">Exemple, hors concours</p></figcaption></figure><?php endforeach; ?></div>
+      </div>
+<?php endif; ?>
     </section>
   </main>
 
@@ -273,6 +289,6 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=5" defer></script>
 </body>
 </html>

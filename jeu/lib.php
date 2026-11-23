@@ -9,9 +9,9 @@ mb_internal_encoding('UTF-8');
 const JEU_NOM = 'Concours de Noël';
 const JEU_THEME = 'La maison du Père Noël';
 const JEU_URL = 'https://lotier.immo/jeu/';
-const JEU_FIN_DEPOTS = '2026-12-14 23:59:59';
-const JEU_DEBUT_VOTES = '2026-12-15 00:00:00';
-const JEU_FIN_VOTES = '2027-01-06 23:59:59';
+// Dates officielles. L'administration peut les remplacer (réglage « dates ») pour un essai, puis y revenir.
+const JEU_FIN_DEPOTS = '2026-12-14';     // dernier jour des dépôts, jusqu'à 23 h 59
+const JEU_FIN_VOTES = '2027-01-06';      // dernier jour des votes, jusqu'à 23 h 59 ; les votes ouvrent le lendemain de la fin des dépôts
 const JEU_CATEGORIES = ['3-5' => 'De 3 à 5 ans', '6-8' => 'De 6 à 8 ans', '9-12' => 'De 9 à 12 ans', '13+' => '13 ans et plus'];
 const JEU_PROJETS = ['' => 'Aucun projet pour le moment', 'vendre' => 'Vendre un bien', 'acheter' => 'Acheter un bien', 'louer' => 'Trouver une location',
                      'mettre-en-location' => 'Mettre un bien en location', 'estimer' => 'Faire estimer un bien'];
@@ -21,6 +21,7 @@ const JEU_DESSINS_PAR_EMAIL = 6;      // une famille nombreuse reste possible
 const JEU_POIDS_MAX = 12 * 1024 * 1024;
 // Valeur des bons cadeaux culturels (euros TTC) pour les 1er, 2e et 3e de chaque catégorie. null = pas encore fixée.
 const JEU_LOTS = [1 => null, 2 => null, 3 => null];
+const JEU_EXEMPLES = 8;              // dessins d'exemple (hors concours) affichés tant qu'il y a moins de N vrais dessins en ligne
 
 function maintenant(): DateTimeImmutable {
     $essai = getenv('JEU_DATE');            // essais en local uniquement (variable d'environnement absente du serveur)
@@ -28,8 +29,8 @@ function maintenant(): DateTimeImmutable {
 }
 function phase(): string {
     $n = maintenant()->format('Y-m-d H:i:s');
-    if ($n <= JEU_FIN_DEPOTS) return 'depot';
-    if ($n <= JEU_FIN_VOTES) return 'vote';
+    if ($n <= fin_depots()) return 'depot';
+    if ($n <= fin_votes()) return 'vote';
     return 'fini';
 }
 function categorie_de(int $age): string {
@@ -88,6 +89,25 @@ function reglage(string $cle, ?string $valeur = null): ?string {
     $q = db()->prepare('SELECT valeur FROM reglages WHERE cle = ?'); $q->execute([$cle]);
     $v = $q->fetchColumn();
     return $v === false ? null : (string) $v;
+}
+// Dates du concours : celles choisies dans l'administration si elles existent et sont cohérentes, sinon les dates officielles.
+function dates(): array {
+    static $d = null;
+    if ($d !== null) return $d;
+    $d = ['depots' => JEU_FIN_DEPOTS, 'votes' => JEU_FIN_VOTES, 'essai' => false];
+    $r = json_decode((string) reglage('dates'), true);
+    $ok = fn($v) => is_string($v) && preg_match('/^\d{4}-\d{2}-\d{2}$/', $v) && checkdate((int) substr($v, 5, 2), (int) substr($v, 8, 2), (int) substr($v, 0, 4));
+    if (is_array($r) && $ok($r['depots'] ?? null) && $ok($r['votes'] ?? null) && $r['votes'] > $r['depots']) $d = ['depots' => $r['depots'], 'votes' => $r['votes'], 'essai' => true];
+    return $d;
+}
+function fin_depots(): string { return dates()['depots'] . ' 23:59:59'; }
+function debut_votes(): string { return (new DateTimeImmutable(dates()['depots']))->modify('+1 day')->format('Y-m-d') . ' 00:00:00'; }
+function fin_votes(): string { return dates()['votes'] . ' 23:59:59'; }
+function jour_mois(string $d): string { return preg_replace('/ \d{4}$/', '', fr_date($d)); }      // « 15 décembre »
+function jour_court(string $d): string {                                                            // « 15 déc. »
+    static $m = [1 => 'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+    $t = new DateTimeImmutable($d);
+    return ($t->format('j') === '1' ? '1er' : $t->format('j')) . ' ' . $m[(int) $t->format('n')];
 }
 function journal(string $action, string $detail = ''): void {
     db()->prepare('INSERT INTO journal (quand, action, detail) VALUES (?, ?, ?)')->execute([date('Y-m-d H:i:s'), $action, $detail]);
