@@ -9,6 +9,10 @@ $dessins = dessins_valides();
 $vedette = null;
 $jd = (string) ($_GET['d'] ?? '');
 if (preg_match('/^[a-f0-9]{16}$/', $jd)) { foreach ($dessins as $x) { if ($x['jeton'] === $jd) { $vedette = $x; break; } } }
+$reste = function (string $fin): int { return max(0, (int) ceil(((new DateTimeImmutable($fin))->getTimestamp() - maintenant()->getTimestamp()) / 86400)); };
+$j = $phase === 'depot' ? $reste(JEU_FIN_DEPOTS) : ($phase === 'vote' ? $reste(JEU_FIN_VOTES) : 0);
+$compte = $phase === 'depot' ? ($j <= 1 ? 'Dernier jour pour déposer un dessin !' : "Plus que $j jours pour déposer un dessin")
+        : ($phase === 'vote' ? ($j <= 1 ? 'Dernier jour pour voter !' : "Plus que $j jours pour voter") : '');
 $parCat = array_fill_keys(array_keys(JEU_CATEGORIES), []);
 foreach ($dessins as $x) { $parCat[$x['categorie']][] = $x; }
 
@@ -49,7 +53,7 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -61,6 +65,8 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 
   <main id="contenu">
     <section class="hero">
+      <div class="guirlande" aria-hidden="true"></div>
+      <div class="hero-in"><div class="hero-txt">
       <p class="sur">Concours de dessin · gratuit · de 3 à 103 ans</p>
       <h1>Dessine <em>la maison du Père Noël</em></h1>
       <p class="chapo">Cheminée qui fume, atelier des lutins, garage à traîneau… À quoi ressemble la maison du Père Noël&nbsp;? Montre-le-nous, et fais voter toute la famille.</p>
@@ -71,11 +77,35 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
 <?php else: ?>
       <p class="boutons"><a class="btn rouge grand" href="#galerie">Voir les résultats</a></p>
 <?php endif; ?>
+<?php if ($compte): ?>      <p class="compte"><?= h($compte) ?></p>
+<?php endif; ?>
+      </div>
+      <svg class="scene" viewBox="0 0 520 440" role="img" aria-label="Illustration : la maison du Père Noël sous la neige">
+        <circle cx="420" cy="78" r="38" fill="#fbe9b7"/><circle cx="436" cy="68" r="34" fill="#7d1f2a" opacity=".55"/>
+        <g fill="#fff" opacity=".9"><circle cx="70" cy="60" r="2.5"/><circle cx="150" cy="30" r="2"/><circle cx="250" cy="70" r="2.5"/><circle cx="330" cy="26" r="2"/><circle cx="480" cy="170" r="2"/><circle cx="40" cy="170" r="2"/><circle cx="200" cy="120" r="1.8"/></g>
+        <path d="M0 360 Q130 300 260 340 T520 320 V440 H0Z" fill="#f4ece0"/><path d="M0 392 Q160 350 300 384 T520 372 V440 H0Z" fill="#fff"/>
+        <g><path d="M70 372 l28-64 28 64z" fill="#1f5c43"/><path d="M78 338 l20-48 20 48z" fill="#27704f"/><path d="M84 306 l14-34 14 34z" fill="#2f8a5f"/><rect x="93" y="372" width="10" height="14" fill="#5b3a22"/><path d="M84 306 l14-34 14 34 q-14-10-28 0z" fill="#fff" opacity=".9"/></g>
+        <g><path d="M418 366 l24-56 24 56z" fill="#1f5c43"/><path d="M425 336 l17-42 17 42z" fill="#27704f"/><rect x="437" y="366" width="9" height="13" fill="#5b3a22"/><path d="M425 336 l17-42 17 42 q-17-12-34 0z" fill="#fff" opacity=".9"/></g>
+        <rect x="300" y="150" width="34" height="74" fill="#8f2530"/><rect x="294" y="142" width="46" height="14" rx="5" fill="#fff"/>
+        <g fill="#fff" opacity=".8" class="fumee"><circle cx="318" cy="118" r="11"/><circle cx="334" cy="92" r="14"/><circle cx="356" cy="62" r="18"/></g>
+        <rect x="160" y="226" width="210" height="150" rx="6" fill="#f6dfb8"/>
+        <path d="M134 236 L265 132 L396 236Z" fill="#b3323a"/><path d="M134 236 L265 132 L396 236 l-16 0 L265 152 L150 236Z" fill="#fff"/>
+        <path d="M150 236 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 20 0 q10 14 10 0z" fill="#fff"/>
+        <circle cx="265" cy="196" r="17" fill="#fbe9b7" stroke="#8f2530" stroke-width="4"/><path d="M265 180v32M249 196h32" stroke="#8f2530" stroke-width="3"/>
+        <rect x="184" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M210 262v52M184 288h52" stroke="#8f2530" stroke-width="4"/>
+        <rect x="294" y="262" width="52" height="52" rx="5" fill="#fbe08a" stroke="#8f2530" stroke-width="5"/><path d="M320 262v52M294 288h52" stroke="#8f2530" stroke-width="4"/>
+        <path d="M242 376 v-58 a23 23 0 0 1 46 0 v58z" fill="#1f5c43"/><circle cx="279" cy="346" r="3.5" fill="#e3c98a"/>
+        <circle cx="265" cy="304" r="13" fill="none" stroke="#2f8a5f" stroke-width="6"/><circle cx="265" cy="316" r="4" fill="#b3323a"/>
+        <path d="M160 376 h210 v8 H160z" fill="#fff"/>
+        <g><rect x="384" y="336" width="6" height="42" fill="#5b3a22"/><rect x="368" y="322" width="64" height="26" rx="4" fill="#fff" stroke="#8f2530" stroke-width="3"/><text x="400" y="340" text-anchor="middle" font-size="12" font-weight="700" fill="#8f2530" font-family="Arial, sans-serif">Père Noël</text></g>
+      </svg>
+      </div>
       <ol class="etapes" aria-label="Calendrier du concours">
         <li class="<?= $phase === 'depot' ? 'ici' : '' ?>"><b>Jusqu’au 14 décembre</b><span>Dépôt des dessins</span></li>
         <li class="<?= $phase === 'vote' ? 'ici' : '' ?>"><b>Du 15 décembre au 6 janvier</b><span>Un vote par jour</span></li>
         <li class="<?= $phase === 'fini' ? 'ici' : '' ?>"><b>Après le 6 janvier</b><span>Trois gagnants par catégorie</span></li>
       </ol>
+      <svg class="vague" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60 Q180 10 360 44 T720 40 T1080 52 T1440 30 V90 H0Z" fill="#fbf6ee"/></svg>
     </section>
 
 <?php if ($vedette): ?>
@@ -88,11 +118,21 @@ $image = $vedette ? JEU_URL . 'image.php?d=' . $vedette['jeton'] : 'https://loti
     <section class="bloc" aria-labelledby="t-comment">
       <h2 id="t-comment">Comment ça marche&nbsp;?</h2>
       <div class="trois">
-        <div><span class="num">1</span><h3>On dessine</h3><p>Crayons, feutres, peinture, collage&nbsp;: tout est permis, sur une feuille, autour du thème «&nbsp;<?= h(JEU_THEME) ?>&nbsp;».</p></div>
-        <div><span class="num">2</span><h3>Un adulte envoie la photo</h3><p>Papa, maman, tatie, papy ou mamie prend le dessin en photo et le dépose ici. L’équipe LOTIER le publie sous 12&nbsp;heures.</p></div>
-        <div><span class="num">3</span><h3>On fait voter</h3><p>À partir du 15 décembre, chacun peut voter une fois par jour. Les trois dessins les plus soutenus de chaque catégorie gagnent un bon cadeau culturel.</p></div>
+        <div><span class="num">1</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40l4-12L32 8l8 8-20 20z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/><path d="M27 13l8 8M8 40l12-4-8-8z" fill="#8f2530" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On dessine</h3><p>Crayons, feutres, peinture, collage&nbsp;: tout est permis, sur une feuille, autour du thème «&nbsp;<?= h(JEU_THEME) ?>&nbsp;».</p></div>
+        <div><span class="num">2</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="14" width="36" height="26" rx="5" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5"/><path d="M17 14l3-5h8l3 5" fill="none" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/><circle cx="24" cy="27" r="7" fill="#fff" stroke="#8f2530" stroke-width="2.5"/></svg><h3>Un adulte envoie la photo</h3><p>Papa, maman, tatie, papy ou mamie prend le dessin en photo et le dépose ici. L’équipe LOTIER le publie sous 12&nbsp;heures.</p></div>
+        <div><span class="num">3</span><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 31 7 19a9 9 0 0 1 17-4 9 9 0 0 1 17 4c0 12-17 22-17 22z" fill="#f6dfb8" stroke="#8f2530" stroke-width="2.5" stroke-linejoin="round"/></svg><h3>On fait voter</h3><p>À partir du 15 décembre, chacun peut voter une fois par jour. Les trois dessins les plus soutenus de chaque catégorie gagnent un bon cadeau culturel.</p></div>
       </div>
       <p class="cats"><?php foreach (JEU_CATEGORIES as $c): ?><span><?= h($c) ?></span><?php endforeach; ?></p>
+    </section>
+
+    <section class="bloc" aria-labelledby="t-lots">
+      <h2 id="t-lots">À gagner</h2>
+      <p class="intro">Dans chacune des quatre catégories, les trois dessins les plus soutenus remportent un bon cadeau culturel : livres, musique, spectacles, loisirs créatifs… Douze gagnants en tout.</p>
+      <div class="lots">
+        <div class="lot or"><span class="medaille">1</span><h3>1er prix</h3><p>Bon cadeau culturel</p></div>
+        <div class="lot argent"><span class="medaille">2</span><h3>2e prix</h3><p>Bon cadeau culturel</p></div>
+        <div class="lot bronze"><span class="medaille">3</span><h3>3e prix</h3><p>Bon cadeau culturel</p></div>
+      </div>
     </section>
 
 <?php if ($phase === 'depot'): ?>
