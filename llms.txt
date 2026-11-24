@@ -56,7 +56,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 
 - [Sites partenaires](https://lotier.immo/sites-partenaires/): Signabail (https://signabail.fr/), votre bail conforme, signé en ligne ; Constatio (https://constatio.fr/), l'état des lieux depuis votre téléphone ; Jérôme Bouba (https://jeromebouba.fr/), entrepreneur de l'immobilier en occitanie.
 
-## Annonces en cours (79)
+## Annonces en cours (78)
 
 - [Catalogue complet en JSON](https://lotier.immo/annonces/catalogue.json): toutes les annonces avec type de bien, commune, département, prix, surface, pièces, équipements, classe énergie, référence, agent, texte et date de mise à jour. Régénéré chaque jour.
 - [Maison 5 pièces 89 m² à vendre à Alès](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/): 164 300 €, Gard (30), classe énergie D, réf. 12_RFVMA70000869.
@@ -129,7 +129,6 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Appartement 2 pièces 44 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/): 430 € par mois, Hérault (34), classe énergie E, réf. 15_DLLAP170000626.
 - [Appartement 3 pièces 57 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/): 504 € par mois, Hérault (34), classe énergie D, réf. 15_DLLAP170000830.
 - [Appartement 3 pièces 65 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/): 533 € par mois, Hérault (34), classe énergie C, réf. 15_DLLAP170000831.
-- [Appartement 3 pièces 55 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/): 635 € par mois, Hérault (34), classe énergie E, réf. 15_DLLAP170000568.
 - [Appartement 4 pièces 98 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-immeuble-bourgeois-a/): 726 € par mois, Hérault (34), classe énergie C, réf. 15_DLLAP170000503.
 - [Bureaux 100 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/): 735 € par mois, Hérault (34), réf. 15_DLLCO170000377.
 - [Local commercial 66 m² à louer à Capendu](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/): 660 € par mois, Aude (11), réf. 2_BBLCO30000383.
@@ -144,7 +143,7 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Biens à vendre à Béziers](https://lotier.immo/nos-annonces/vente-beziers/): 12 annonces.
 - [Biens à vendre à Capendu](https://lotier.immo/nos-annonces/vente-capendu/): 10 annonces.
 - [Biens à vendre à Nîmes](https://lotier.immo/nos-annonces/vente-nimes/): 9 annonces.
-- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 7 annonces.
+- [Biens à louer à Béziers](https://lotier.immo/nos-annonces/location-beziers/): 6 annonces.
 - [Biens à vendre à Carcassonne](https://lotier.immo/nos-annonces/vente-carcassonne/): 4 annonces.
 - [Biens à vendre à Caveirac](https://lotier.immo/nos-annonces/vente-caveirac/): 3 annonces.
 - [Biens à vendre à Montpellier](https://lotier.immo/nos-annonces/vente-montpellier/): 3 annonces.

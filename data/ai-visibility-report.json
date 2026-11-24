@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 138,
+  "liens": 137,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 137,
+  "pages_indexables": 136,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -431,27 +431,6 @@
     "Apartment",
     "BreadcrumbList",
     "ListItem",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "UnitPriceSpecification",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/",
-   "type": "autre",
-   "balisage": [
-    "Apartment",
-    "BreadcrumbList",
-    "ListItem",
-    "LocationFeatureSpecification",
     "Offer",
     "Person",
     "Place",

@@ -86,14 +86,6 @@ Béziers
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
 
- 635 € par mois
-
-### A louer Béziers centre-ville (34) appartement T3 bis ave
-
- Béziers · 54,9 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
-
  394 € par mois
 
 ### À louer appartement T2 de 31 m2 en centre-ville historique
@@ -188,9 +180,9 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Laëtitia
 
-- **21** biens en ligne
+- **20** biens en ligne
 - **14** à vendre
-- **7** à louer
+- **6** à louer
 - **3** communes
 
 Laëtitia Dias est agent commercial indépendant LOTIER Immobilier, secteur Béziers.
@@ -214,7 +206,7 @@ Ventes de 55 000 € à 357 000 € · loyers de 394 € à 735 € par mois.
 
 ### Biens proposés
 
-- 13 appartements
+- 12 appartements
 - 3 immeubles
 - 3 maisons
 - 2 locaux commerciaux

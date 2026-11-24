@@ -4,7 +4,7 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-66 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+66 biens à vendre et 12 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
 
@@ -183,14 +183,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 185 m² · 5 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-quartier-cathedrale-34-immeuble-a-fort/)[Être rappelé](https://lotier.immo/contact/)
-
- 635 € par mois
-
-### A louer Béziers centre-ville (34) appartement T3 bis ave
-
- Béziers · 54,9 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
 
  145 000 €
 

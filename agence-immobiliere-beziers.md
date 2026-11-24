@@ -124,7 +124,7 @@ Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoi
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
-[Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/) · [Biens à louer à Béziers (7)](https://lotier.immo/nos-annonces/location-beziers/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/) · [Biens à louer à Béziers (6)](https://lotier.immo/nos-annonces/location-beziers/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 
