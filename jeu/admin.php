@@ -131,7 +131,7 @@ if ($admin) {
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
   <title>Administration du concours de Noël</title>
-  <link rel="stylesheet" href="style.css?v=20">
+  <link rel="stylesheet" href="style.css?v=21">
   <style>
     .adm { max-width: 1180px; margin: 0 auto; padding: 24px clamp(14px, 3vw, 32px) 60px; }
     .adm h1 { font-size: 30px; margin-bottom: 6px; } .adm h2 { font-size: 22px; margin: 28px 0 10px; }
