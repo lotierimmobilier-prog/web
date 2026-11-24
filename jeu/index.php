@@ -32,7 +32,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
     $url = JEU_URL . '?d=' . $d['jeton'];
     $voix = (int) $d['voix'];
     $s = '<article class="carte" id="d-' . h($d['jeton']) . '" data-jeton="' . h($d['jeton']) . '" data-prenom="' . h($d['prenom']) . '" data-url="' . h($url) . '" data-texte="' . h(texte_partage($d, $phase)) . '">';
-    $s .= '<a class="vue" href="image.php?d=' . h($d['jeton']) . '" target="_blank" rel="noopener"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=1" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
+    $s .= '<a class="vue" href="image.php?d=' . h($d['jeton']) . '" target="_blank" rel="noopener"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=' . (int) @filemtime(chemin_dessin($d['jeton'], true)) . '" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
     $s .= '<div class="bas"><p class="qui"><b>' . h($d['prenom']) . '</b>, ' . (int) $d['age'] . ' ans</p>';
     if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> ' . ($voix > 1 ? 'votes' : 'vote') . ($phase === 'fini' && $rang === 1 ? ' · gagnant de la catégorie' : '') . ($phase === 'fini' && (int) reglage('jury') === (int) ($d['id'] ?? 0) ? ' · prix du jury' : '') . '</p>';
     $s .= '<div class="actions">';

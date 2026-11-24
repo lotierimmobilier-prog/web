@@ -183,7 +183,11 @@ function enregistrer_image(string $source, string $jeton): bool {
         $angle = [3 => 180, 6 => -90, 8 => 90][$o] ?? 0;
         if ($angle) { $r = imagerotate($im, $angle, 0); if ($r) { $im = $r; } }
     }
-    foreach ([[1600, false, 84], [640, true, 80]] as [$max, $vignette, $qualite]) {
+    return ecrire_images($im, $jeton);
+}
+// Écrit la photo (1600 px au plus) et sa vignette (640 px) à partir d'une image GD.
+function ecrire_images($im, string $jeton): bool {
+    foreach ([[1600, false, 86], [640, true, 80]] as [$max, $vignette, $qualite]) {
         $l = imagesx($im); $ht = imagesy($im);
         $k = min(1, $max / max($l, $ht));
         $nl = max(1, (int) round($l * $k)); $nh = max(1, (int) round($ht * $k));
@@ -192,6 +196,36 @@ function enregistrer_image(string $source, string $jeton): bool {
         imagecopyresampled($sortie, $im, 0, 0, 0, 0, $nl, $nh, $l, $ht);
         if (!imagejpeg($sortie, chemin_dessin($jeton, $vignette), $qualite)) return false;
     }
+    return true;
+}
+function chemin_original(string $jeton): string { return dossier() . '/dessins/' . $jeton . '-orig.jpg'; }
+// Administration : tourne la photo d'un quart de tour (angle en degrés, sens des aiguilles d'une montre) puis la recadre.
+// Le cadre est donné en fractions (0 à 1) de la photo déjà tournée. La photo d'origine est gardée une fois pour pouvoir la rétablir.
+function modifier_image(string $jeton, int $angle, float $x, float $y, float $w, float $h): bool {
+    $f = chemin_dessin($jeton);
+    if (!is_file($f)) return false;
+    if (!is_file(chemin_original($jeton))) @copy($f, chemin_original($jeton));
+    $im = @imagecreatefromjpeg($f);
+    if (!$im) return false;
+    $angle = (($angle % 360) + 360) % 360;
+    if ($angle) { $r = imagerotate($im, -$angle, 0xFFFFFF); if (!$r) return false; $im = $r; }
+    $x = max(0.0, min(1.0, $x)); $y = max(0.0, min(1.0, $y)); $w = max(0.0, min(1.0 - $x, $w)); $h = max(0.0, min(1.0 - $y, $h));
+    if ($w > 0.995 && $h > 0.995) { $x = $y = 0.0; $w = $h = 1.0; }
+    if ($w < 1.0 || $h < 1.0) {
+        $L = imagesx($im); $H = imagesy($im);
+        $pw = (int) round($w * $L); $ph = (int) round($h * $H);
+        if ($pw < 100 || $ph < 100) return false;
+        $c = imagecrop($im, ['x' => (int) round($x * $L), 'y' => (int) round($y * $H), 'width' => $pw, 'height' => $ph]);
+        if (!$c) return false;
+        $im = $c;
+    }
+    return ecrire_images($im, $jeton);
+}
+function restaurer_image(string $jeton): bool {
+    $o = chemin_original($jeton);
+    $im = is_file($o) ? @imagecreatefromjpeg($o) : false;
+    if (!$im || !ecrire_images($im, $jeton)) return false;
+    @unlink($o);
     return true;
 }
 function dessins_valides(): array {
