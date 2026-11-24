@@ -55,10 +55,6 @@ em { font-family: "DM Serif Display", Georgia, serif; font-style: italic; font-w
 .pastille .pn { flex: none; width: 32px; height: 32px; padding: 2px; margin: -4px 0 -4px -6px; border-radius: 50%; background: #f3dfae; box-shadow: 0 1px 3px rgba(0, 0, 0, .25); }
 @media (prefers-reduced-motion: no-preference) { .pastille .pn { animation: pn-salut 3.2s ease-in-out 1.5s infinite; transform-origin: 50% 90%; } }
 @keyframes pn-salut { 0%, 86%, 100% { transform: rotate(0); } 90% { transform: rotate(-12deg); } 94% { transform: rotate(10deg); } 97% { transform: rotate(-6deg); } }
-.gagner { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 40px); align-items: center; }
-.scene { width: 100%; height: auto; border-radius: 28px; background: linear-gradient(180deg, #3a1830, #7d1f2a); box-shadow: 0 14px 34px rgba(15, 39, 68, .18); }
-@media (prefers-reduced-motion: no-preference) { .fumee circle { animation: fumee 5s ease-in-out infinite; } .fumee circle:nth-child(2) { animation-delay: .8s; } .fumee circle:nth-child(3) { animation-delay: 1.6s; } }
-@keyframes fumee { 0%, 100% { transform: translateY(0); opacity: .8; } 50% { transform: translateY(-9px); opacity: .45; } }
 
 .defile { background: #14100c; color: #ece6da; overflow: hidden; padding: 14px 0; position: relative; z-index: 1; }
 .piste { display: flex; align-items: center; gap: 28px; width: max-content; font-size: clamp(17px, 2.2vw, 26px); font-weight: 600; letter-spacing: -.02em; white-space: nowrap; }
@@ -108,21 +104,8 @@ em { font-family: "DM Serif Display", Georgia, serif; font-style: italic; font-w
 .neige-h { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
 .hero > :not(.neige-h) { position: relative; z-index: 1; }
 .bloc { max-width: 1120px; margin: 0 auto; padding: clamp(36px, 6vw, 64px) clamp(16px, 5vw, 48px) 0; position: relative; z-index: 1; }
-.bloc h2 { font-size: clamp(28px, 4.2vw, 42px); margin-bottom: 14px; position: relative; padding-bottom: 12px; }
-.bloc h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 56px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, var(--rouge), var(--or)); }
+.bloc h2 { font-size: clamp(28px, 4.2vw, 42px); margin-bottom: 14px; letter-spacing: -.035em; }
 .intro { max-width: 720px; margin: 0 0 22px; font-size: 18px; }
-.trois { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
-.trois > div { background: #fff; border: 1px solid var(--trait); border-radius: 22px; padding: 26px 22px 22px; position: relative; box-shadow: 0 6px 20px rgba(15, 39, 68, .06); }
-.trois .num { position: absolute; top: -16px; left: 20px; box-shadow: 0 4px 10px rgba(143, 37, 48, .3); }
-.ico { width: 52px; height: 52px; display: block; margin: 6px 0 2px; }
-.lots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-.lot { background: #fff; border: 1px solid var(--trait); border-radius: 22px; padding: 22px; text-align: center; box-shadow: 0 6px 20px rgba(15, 39, 68, .06); }
-.lot h3 { font-size: 21px; margin: 10px 0 2px; } .lot p { margin: 0; color: #4d5c70; }
-.medaille { display: inline-flex; width: 58px; height: 58px; border-radius: 50%; align-items: center; justify-content: center; font-family: "DM Serif Display", Georgia, serif; font-size: 28px; color: #fff; border: 4px solid rgba(255, 255, 255, .7); box-shadow: 0 4px 12px rgba(15, 39, 68, .2); }
-.lot.or .medaille { background: linear-gradient(135deg, #e9c462, #b8892a); } .lot.argent .medaille { background: linear-gradient(135deg, #cfd6df, #8d98a6); } .lot.bronze .medaille { background: linear-gradient(135deg, #d9a07a, #a8663c); }
-.lot.or { border-color: #e3c98a; }
-.trois h3 { font-size: 20px; margin: 10px 0 6px; } .trois p { margin: 0; }
-.num { display: inline-flex; width: 40px; height: 40px; border-radius: 50%; align-items: center; justify-content: center; background: var(--rouge); color: #fff; font-weight: 600; font-size: 19px; }
 .cats { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; }
 .cats span { background: #fff; border: 1px solid var(--trait); border-radius: 999px; padding: 6px 14px; font-weight: 600; color: var(--nuit); font-size: 15px; }
 
@@ -193,8 +176,8 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 .reglement { max-width: 860px; } .reglement h2 { font-size: 24px; margin: 30px 0 8px; } .reglement p, .reglement li { font-size: 16.5px; } .reglement ul { padding-left: 22px; }
 .avis { background: #fff3cd; border: 1px solid #e0c36a; border-radius: 12px; padding: 12px 16px; font-weight: 600; color: #5c4a10; }
 .a-valider { background: #fff3cd; padding: 0 4px; border-radius: 4px; }
-@media (max-width: 900px) { .hero-bas { grid-template-columns: 1fr; } .hero .chapo { max-width: none; } .gagner { grid-template-columns: 1fr; } .scene { max-width: 360px; margin: 0 auto; } .haut nav a:nth-child(3) { display: none; } }
-@media (max-width: 720px) { body { font-size: 16px; } .trois, .duo { grid-template-columns: 1fr; } .chiffres { grid-template-columns: 1fr 1fr; } .chiffres div { padding-left: 0; border-right: 0; border-top: 1px solid rgba(20, 16, 12, .14); } .chiffres div:nth-child(-n+2) { border-top: 0; } .lots { grid-template-columns: repeat(2, 1fr); gap: 8px; } .lot { padding: 14px 8px; } .lot h3 { font-size: 17px; } .lot p { font-size: 13.5px; } .medaille { width: 46px; height: 46px; font-size: 22px; } .trois { gap: 26px; } .haut .logo img { width: 120px; } .reseaux .btn { flex-basis: 100%; } }
+@media (max-width: 900px) { .hero-bas { grid-template-columns: 1fr; } .hero .chapo { max-width: none; } .haut nav a:nth-child(3) { display: none; } }
+@media (max-width: 720px) { body { font-size: 16px; } .duo { grid-template-columns: 1fr; } .chiffres { grid-template-columns: 1fr 1fr; } .chiffres div { padding-left: 0; border-right: 0; border-top: 1px solid rgba(20, 16, 12, .14); } .chiffres div:nth-child(-n+2) { border-top: 0; } .haut .logo img { width: 120px; } .reseaux .btn { flex-basis: 100%; } }
 @media print { .neige, .haut nav, .btn { display: none !important; } }
 
 /* Le traîneau du Père Noël traverse le titre puis s'envole. */
@@ -222,3 +205,26 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 .video-pn video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #14100c; }
 .message-pn .petit { margin-top: 12px; max-width: 860px; }
 .sous-titre-pn { font-size: clamp(20px, 2.6vw, 26px); margin: 30px 0 12px; }
+
+/* Comment ça marche et À gagner : mise en page éditoriale, dans le ton de l'en-tête (filets, grands chiffres, libellés en chasse fixe). */
+.kick { margin: 0 0 12px; font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: #5d564c; }
+.bloc h2.grand-titre { font-size: clamp(44px, 8vw, 96px); line-height: .95; letter-spacing: -.055em; font-weight: 600; margin-bottom: 22px; }
+.etapes { list-style: none; margin: 0; padding: 0; }
+.etapes li { display: grid; grid-template-columns: clamp(70px, 11vw, 140px) minmax(0, 1fr); column-gap: clamp(6px, 2vw, 24px); border-top: 1.5px solid rgba(20, 16, 12, .2); padding: 22px 0 26px; }
+.etapes li:last-child { border-bottom: 1.5px solid rgba(20, 16, 12, .2); }
+.etapes .n { font-size: clamp(60px, 9.5vw, 116px); line-height: .8; letter-spacing: -.07em; font-weight: 600; color: #a79f92; }
+.etapes h3 { font-size: clamp(21px, 2.6vw, 29px); margin: 0 0 6px; }
+.etapes p { margin: 0; max-width: 640px; }
+@media (min-width: 900px) { .etapes li > div { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.3fr); gap: 36px; align-items: start; } .etapes h3 { margin: 0; } }
+.gain { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(22px, 5vw, 80px); align-items: end; }
+.bloc h2.cinq-titre { display: flex; align-items: flex-end; gap: 14px; font-size: clamp(24px, 3vw, 34px); line-height: 1.1; margin: 0 0 14px; }
+.cinq-titre b { font-size: clamp(130px, 22vw, 230px); line-height: .78; letter-spacing: -.08em; font-weight: 600; color: var(--rouge-f); }
+.cinq-titre > span { padding-bottom: 6px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.gain .intro { margin: 0; }
+.gains { margin: 0; border-bottom: 1px dotted rgba(20, 16, 12, .35); }
+.gains > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 18px; padding: 16px 0; border-top: 1px dotted rgba(20, 16, 12, .35); align-items: baseline; }
+.gains dt { grid-column: 1 / -1; font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: #5d564c; }
+.gains dd { display: contents; margin: 0; color: var(--nuit); }
+.gains dd b { font-weight: 600; text-align: right; white-space: nowrap; }
+@media (max-width: 900px) { .gain { grid-template-columns: 1fr; } }

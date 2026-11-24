@@ -15,7 +15,7 @@ $lot = function ($rang): string {
   <meta name="description" content="Règlement du concours de dessin de Noël de LOTIER Immobilier : participation, votes, lots et protection des données personnelles.">
   <link rel="canonical" href="<?= h(JEU_URL) ?>reglement.php">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=20">
+  <link rel="stylesheet" href="style.css?v=21">
 </head>
 <body>
   <header class="haut">
