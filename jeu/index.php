@@ -32,7 +32,7 @@ function carte(array $d, string $phase, int $rang = 0): string {
     $url = JEU_URL . '?d=' . $d['jeton'];
     $voix = (int) $d['voix'];
     $s = '<article class="carte" id="d-' . h($d['jeton']) . '" data-jeton="' . h($d['jeton']) . '" data-prenom="' . h($d['prenom']) . '" data-url="' . h($url) . '" data-texte="' . h(texte_partage($d, $phase)) . '">';
-    $s .= '<a class="vue" href="image.php?d=' . h($d['jeton']) . '" target="_blank" rel="noopener"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=' . (int) @filemtime(chemin_dessin($d['jeton'], true)) . '" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
+    $s .= '<a class="vue" data-agrandir href="image.php?d=' . h($d['jeton']) . '&amp;t=' . (int) @filemtime(chemin_dessin($d['jeton'])) . '" target="_blank" rel="noopener" aria-label="Agrandir le dessin de ' . h($d['prenom']) . '"><img src="image.php?d=' . h($d['jeton']) . '&amp;v=' . (int) @filemtime(chemin_dessin($d['jeton'], true)) . '" alt="Dessin de ' . h($d['prenom']) . ', ' . (int) $d['age'] . ' ans : la maison du Père Noël" loading="lazy" width="640" height="480"></a>';
     $s .= '<div class="bas"><p class="qui"><b>' . h($d['prenom']) . '</b>, ' . (int) $d['age'] . ' ans</p>';
     if ($phase !== 'depot') $s .= '<p class="voix"><span data-voix>' . $voix . '</span> ' . ($voix > 1 ? 'votes' : 'vote') . ($phase === 'fini' && $rang === 1 ? ' · gagnant de la catégorie' : '') . ($phase === 'fini' && (int) reglage('jury') === (int) ($d['id'] ?? 0) ? ' · prix du jury' : '') . '</p>';
     $s .= '<div class="actions">';
@@ -62,7 +62,7 @@ $image = $vedette ? JEU_URL . 'partage.php?d=' . $vedette['jeton'] . '&p=' . $ph
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
-  <link rel="stylesheet" href="style.css?v=21">
+  <link rel="stylesheet" href="style.css?v=22">
 </head>
 <body data-votes="<?= h(jour_mois(debut_votes())) ?>">
   <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -286,6 +286,17 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
     <p><a href="retrait.php">Retirer un dessin</a> · <a class="cadenas" href="admin.php" rel="nofollow" aria-label="Administration du concours (accès réservé)" title="Administration"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></svg></a></p>
   </footer>
 
+  <dialog id="dlg-photo" class="dlg-photo" data-phase="<?= h($phase) ?>" aria-label="Dessin agrandi">
+    <button type="button" class="fermer-photo" data-fermer aria-label="Fermer">×</button>
+    <img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p class="legende-photo"><b data-photo-prenom></b> <span data-photo-age></span></p>
+    <p class="boutons">
+<?php if ($phase === 'vote'): ?>      <button type="button" class="btn rouge" data-photo-voter>Voter pour <span data-photo-prenom2></span></button>
+<?php endif; ?>      <button type="button" class="btn <?= $phase === 'vote' ? 'clair' : 'rouge' ?>" data-photo-partager><?= $phase === 'depot' ? 'Partager le concours' : ($phase === 'vote' ? 'Partager ce dessin' : 'Partager ce dessin') ?></button>
+<?php if ($phase === 'depot'): ?>      <a class="btn clair" href="#participer" data-fermer>Déposer mon dessin</a>
+<?php endif; ?>    </p>
+  </dialog>
+
   <dialog id="dlg-vote" aria-labelledby="t-vote">
     <form id="vote" method="dialog" novalidate>
       <h2 id="t-vote">Voter pour <span data-vote-prenom></span></h2>
@@ -306,7 +317,7 @@ if ($faces): $base = $faces; while (count($faces) < 4) $faces = array_merge($fac
     <p><button type="button" class="btn clair" data-fermer>Fermer</button></p>
   </dialog>
 
-  <script src="app.js?v=10" defer></script>
+  <script src="app.js?v=11" defer></script>
 </body>
 </html>
 <?php

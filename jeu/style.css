@@ -228,3 +228,11 @@ dialog h2 { font-size: 24px; margin-bottom: 10px; } dialog p { margin: 0 0 14px;
 .gains dd { display: contents; margin: 0; color: var(--nuit); }
 .gains dd b { font-weight: 600; text-align: right; white-space: nowrap; }
 @media (max-width: 900px) { .gain { grid-template-columns: 1fr; } }
+
+/* Dessin agrandi */
+dialog.dlg-photo { max-width: min(920px, calc(100vw - 20px)); padding: 14px; text-align: center; overflow: visible; }
+.dlg-photo img { display: block; width: 100%; max-height: 68vh; object-fit: contain; background: #fff; border-radius: 10px; }
+.dlg-photo .legende-photo { margin: 12px 0 8px; font-size: 19px; color: var(--nuit); }
+.dlg-photo .boutons { justify-content: center; margin: 0; }
+.dlg-photo .fermer-photo { position: absolute; right: -8px; top: -8px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--nuit); color: #fff; font-size: 26px; line-height: 1; cursor: pointer; box-shadow: 0 4px 12px rgba(0, 0, 0, .3); }
+.carte .vue[data-agrandir] { cursor: zoom-in; }

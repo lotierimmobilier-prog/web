@@ -127,6 +127,28 @@
   q('[data-r=natif]', dlgPartage).addEventListener('click', function () {
     navigator.share({ text: zone.value.trim(), url: urlPartage }).catch(function () { /* partage annulé */ });
   });
+  /* ---- Dessin agrandi : selon la date, on propose de voter ou de partager le concours ---- */
+  var dlgPhoto = q('#dlg-photo'), cartePhoto = null;
+  if (dlgPhoto) {
+    var imgPhoto = q('img', dlgPhoto);
+    tous('a[data-agrandir]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;      // ouverture dans un nouvel onglet : comportement habituel
+        e.preventDefault();
+        cartePhoto = a.closest('.carte');
+        var prenom = cartePhoto.dataset.prenom, age = (q('.qui', cartePhoto).textContent.match(/,\s*(.*)$/) || [])[1] || '';
+        tous('[data-photo-prenom]', dlgPhoto).forEach(function (s) { s.textContent = prenom; });
+        tous('[data-photo-prenom2]', dlgPhoto).forEach(function (s) { s.textContent = prenom; });
+        q('[data-photo-age]', dlgPhoto).textContent = age ? '· ' + age : '';
+        imgPhoto.alt = q('img', a).alt; imgPhoto.src = a.href;
+        var bv = q('[data-photo-voter]', dlgPhoto); if (bv) bv.hidden = !q('[data-voter]', cartePhoto);
+        dlgPhoto.showModal();
+      });
+    });
+    var pv = q('[data-photo-voter]', dlgPhoto);
+    if (pv) pv.addEventListener('click', function () { var b = q('[data-voter]', cartePhoto); dlgPhoto.close(); if (b) b.click(); });
+    q('[data-photo-partager]', dlgPhoto).addEventListener('click', function () { var b = q('[data-partager]', cartePhoto); dlgPhoto.close(); if (b) b.click(); });
+  }
   tous('[data-fermer]').forEach(function (b) { b.addEventListener('click', function () { b.closest('dialog').close(); }); });
   tous('dialog').forEach(function (g) { g.addEventListener('click', function (e) { if (e.target === g) g.close(); }); });
 
