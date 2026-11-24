@@ -47,7 +47,16 @@ if ($admin && $csrf_ok) {
     }
     if ($a === 'supprimer' && $id) {
         $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
-        if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
+        if ($j) { @unlink(chemin_dessin($j)); @unlink(chemin_dessin($j, true)); @unlink(chemin_original($j)); db()->prepare('DELETE FROM dessins WHERE id = ?')->execute([$id]); journal('supprimer', (string) $id); $info = 'Dessin, données et votes associés supprimés.'; }
+    }
+    if (in_array($a, ['image-modifier', 'image-original'], true) && $id) {
+        $q = db()->prepare('SELECT jeton FROM dessins WHERE id = ?'); $q->execute([$id]); $j = $q->fetchColumn();
+        if ($j && $a === 'image-original') { $ok = restaurer_image($j); journal('photo', $ok ? "original rétabli : $id" : "échec : $id"); if ($ok) $info = 'Photo d’origine rétablie.'; else $erreur = 'Aucune photo d’origine à rétablir.'; }
+        elseif ($j) {
+            $ok = modifier_image($j, (int) ($_POST['angle'] ?? 0), (float) ($_POST['x'] ?? 0), (float) ($_POST['y'] ?? 0), (float) ($_POST['w'] ?? 1), (float) ($_POST['h'] ?? 1));
+            journal('photo', $ok ? "retouchée : $id" : "échec : $id");
+            if ($ok) $info = 'Photo retouchée.'; else $erreur = 'La photo n’a pas pu être retouchée (cadre trop petit ?).';
+        }
     }
     if ($a === 'demande-traitee' && $id) { db()->prepare('UPDATE demandes SET traite_le = ? WHERE id = ?')->execute([date('Y-m-d H:i:s'), $id]); journal('demande traitée', (string) $id); $info = 'Demande classée.'; }
     if (in_array($a, ['jury', 'jury-retirer'], true) && $id) {
@@ -138,6 +147,10 @@ if ($admin) {
     .boite { background: #fff; border: 1px solid var(--trait); border-radius: 18px; padding: 20px; max-width: 460px; }
     .ligne { display: grid; grid-template-columns: 150px 1fr auto; gap: 16px; align-items: start; background: #fff; border: 1px solid var(--trait); border-radius: 16px; padding: 12px; margin-bottom: 10px; }
     .ligne img { border-radius: 10px; width: 150px; } .ligne p { margin: 0 0 3px; font-size: 15px; } .ligne form { display: inline; }
+    dialog#retouche { border: 0; border-radius: 18px; padding: 20px; max-width: min(640px, 94vw); box-shadow: 0 20px 60px rgba(0, 0, 0, .35); } dialog#retouche::backdrop { background: rgba(20, 16, 12, .6); }
+    .zone-retouche { position: relative; margin: 18px auto; width: max-content; max-width: 100%; touch-action: none; user-select: none; clip-path: inset(-16px); } .zone-retouche canvas { display: block; max-width: 100%; border-radius: 6px; background: #eee; }
+    .cadre-retouche { position: absolute; border: 2px solid #fff; box-shadow: 0 0 0 9999px rgba(20, 16, 12, .55); cursor: move; } .cadre-retouche i { position: absolute; width: 26px; height: 26px; background: #fff; border: 3px solid #8f2530; border-radius: 50%; margin: -13px; } .cadre-retouche i[data-c="nw"] { left: 0; top: 0; cursor: nwse-resize; } .cadre-retouche i[data-c="ne"] { left: 100%; top: 0; cursor: nesw-resize; } .cadre-retouche i[data-c="sw"] { left: 0; top: 100%; cursor: nesw-resize; } .cadre-retouche i[data-c="se"] { left: 100%; top: 100%; cursor: nwse-resize; }
+    .actions-retouche { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; } .actions-retouche .btn { margin: 0; }
     .ligne .btn { min-height: 38px; padding: 6px 14px; font-size: 14.5px; margin: 0 0 6px 6px; }
     .etat { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 600; }
     .attente { background: #fff3cd; color: #5c4a10; } .valide { background: #dff3e4; color: #17502c; } .refuse { background: #f6dddd; color: #7a1f27; } .suspendu { background: #e6e9ee; color: #33415a; }
@@ -214,7 +227,7 @@ if ($admin) {
 <?php if (!$liste): ?><p>Aucun dessin pour le moment.</p><?php endif; ?>
 <?php foreach ($liste as $d): ?>
   <div class="ligne">
-    <a href="image.php?d=<?= h($d['jeton']) ?>" target="_blank" rel="noopener"><img src="image.php?d=<?= h($d['jeton']) ?>&amp;v=1" alt="Dessin de <?= h($d['prenom']) ?>" loading="lazy"></a>
+    <a href="image.php?d=<?= h($d['jeton']) ?>" target="_blank" rel="noopener"><img src="image.php?d=<?= h($d['jeton']) ?>&amp;v=<?= (int) @filemtime(chemin_dessin($d['jeton'], true)) ?>" alt="Dessin de <?= h($d['prenom']) ?>" loading="lazy"></a>
     <div>
       <p><b><?= h($d['prenom']) ?></b>, <?= (int) $d['age'] ?> ans · <?= h(JEU_CATEGORIES[$d['categorie']] ?? $d['categorie']) ?> · <span class="etat <?= h($d['statut']) ?>"><?= ['attente' => 'En attente', 'valide' => 'Publié', 'suspendu' => 'Suspendu', 'refuse' => 'Refusé'][$d['statut']] ?? $d['statut'] ?></span> · <?= (int) $d['voix'] ?> vote(s)</p>
       <p>Adulte : <?= h($d['email']) ?><?= $d['lien'] !== '' ? ' (' . h($d['lien']) . ')' : '' ?></p>
@@ -222,6 +235,7 @@ if ($admin) {
       <p class="diag">Déposé le <?= h($d['cree_le']) ?> · lien public : <code><?= h(JEU_URL . '?d=' . $d['jeton']) ?></code></p>
     </div>
     <div>
+      <button type="button" class="btn clair js-retoucher" data-id="<?= (int) $d['id'] ?>" data-jeton="<?= h($d['jeton']) ?>" data-prenom="<?= h($d['prenom']) ?>" data-original="<?= is_file(chemin_original($d['jeton'])) ? '1' : '0' ?>">↻ Tourner / recadrer</button>
 <?php if ($d['statut'] !== 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn rouge" name="action" value="valider"><?= $d['statut'] === 'suspendu' ? 'Remettre en ligne' : 'Publier' ?></button></form><?php endif; ?>
 <?php if ($d['statut'] === 'valide'): ?><form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><button class="btn clair" name="action" value="suspendre">Suspendre</button></form>
 <form method="post"><?= $champ_csrf ?><input type="hidden" name="id" value="<?= (int) $d['id'] ?>"><?php if ((int) reglage('jury') === (int) $d['id']): ?><button class="btn clair" name="action" value="jury-retirer">★ Retirer le prix du jury</button><?php else: ?><button class="btn clair" name="action" value="jury">★ Prix du jury</button><?php endif; ?></form><?php endif; ?>
@@ -295,5 +309,26 @@ if ($admin) {
   <form method="post"><?= $champ_csrf ?><button class="btn clair" name="action" value="deconnexion">Se déconnecter</button></form>
 <?php endif; ?>
 </main>
+<?php if ($admin): ?>
+<dialog id="retouche" aria-labelledby="retouche-titre">
+  <form method="post" id="retouche-form">
+    <?= $champ_csrf ?><input type="hidden" name="action" value="image-modifier"><input type="hidden" name="id"><input type="hidden" name="angle" value="0"><input type="hidden" name="x" value="0"><input type="hidden" name="y" value="0"><input type="hidden" name="w" value="1"><input type="hidden" name="h" value="1">
+    <h3 id="retouche-titre">Retoucher la photo</h3>
+    <p class="diag">Tournez la photo, puis tirez les coins du cadre pour recadrer. Rien n’est modifié tant que vous n’enregistrez pas.</p>
+    <div class="zone-retouche"><canvas id="retouche-toile" width="10" height="10"></canvas><div class="cadre-retouche" id="retouche-cadre"><i data-c="nw"></i><i data-c="ne"></i><i data-c="sw"></i><i data-c="se"></i></div></div>
+    <div class="actions-retouche">
+      <button type="button" class="btn clair" data-tourner="-90">↺ Tourner à gauche</button>
+      <button type="button" class="btn clair" data-tourner="90">↻ Tourner à droite</button>
+      <button type="button" class="btn clair" id="retouche-tout">Tout le dessin</button>
+    </div>
+    <div class="actions-retouche">
+      <button type="submit" class="btn rouge">Enregistrer</button>
+      <button type="button" class="btn clair" id="retouche-annuler">Annuler</button>
+      <button type="submit" class="btn clair" id="retouche-original" name="action" value="image-original" hidden>Rétablir la photo d’origine</button>
+    </div>
+  </form>
+</dialog>
+<script src="admin-photo.js?v=1" defer></script>
+<?php endif; ?>
 </body>
 </html>
