@@ -4,9 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-66 biens à vendre et 12 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+66 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 635 € par mois
+
+### A louer Béziers centre-ville (34) appartement T3 bis ave
+
+ Béziers · 54,9 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
 
  119 000 €
 
@@ -224,7 +232,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-vendre-fond-de-commerce-restaurant/)[Être rappelé](https://lotier.immo/contact/)
 
- 89 000 €
+ 84 000 €
 
 ### Maison vendue louée et meublée Investissement locatif clé
 
@@ -424,9 +432,9 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 33 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison de village à rénover Capendu (11)
 
  Capendu · 120 m² · 3 ch.
 

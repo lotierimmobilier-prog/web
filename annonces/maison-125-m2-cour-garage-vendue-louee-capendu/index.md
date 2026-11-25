@@ -226,9 +226,9 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-122-m2-avec-garage-72-m2-et-terrasse-sans-vis-a-vis/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 33 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison de village à rénover Capendu (11)
 
  Capendu · 120 m² · 3 ch.
 

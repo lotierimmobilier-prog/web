@@ -1,18 +1,18 @@
 # Maison 4 pièces 120 m² à vendre à Capendu
 
-> Maison 4 pièces 120 m² à vendre à Capendu, 3 chambres, 38 500 €. Maison de village à rénover Capendu (11) Située au coeur du village dynamique de Capendu…
+> Maison 4 pièces 120 m² à vendre à Capendu, 3 chambres, 33 000 €. Maison de village à rénover Capendu (11) Située au coeur du village dynamique de Capendu…
 
 Source : https://lotier.immo/annonces/maison-de-village-a-renover-avec-grange-capendu-11/
 
-Maison de village à rénover avec grange Capendu (11)
+Maison de village à rénover Capendu (11)
 
-**38 500 €** · Capendu · 120 m² · 3 chambres · 1 salle d'eau/bain
+**33 000 €** · Capendu · 120 m² · 3 chambres · 1 salle d'eau/bain
 
  VENTE 1 / 17
 
 ## En bref
 
-Maison de 120 m² à vendre à Capendu (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 38 500 €, honoraires à la charge du vendeur. Le bien comprend : garage et parking. Construction de 1900, exposition est. Référence 2_BBV30000797, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 120 m² à vendre à Capendu (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 33 000 €, honoraires à la charge du vendeur. Le bien comprend : garage et parking. Construction de 1900, exposition est. Référence 2_BBV30000797, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -32,8 +32,6 @@ Située au coeur du village dynamique de Capendu, entre Carcassonne et Narbonne,
 La maison est entièrement à rénover : toiture, planchers, électricité, plomberie et aménagement intérieur. Elle ne dispose pas de système de chauffage et les fenêtres sont en simple vitrage.
 
 Répartition des espaces : o Rez-de-chaussée : pièce de vie, cuisine et WC séparé o 1er étage : deux chambres et une salle d’eau o 2e étage : une chambre et un grenier
-
-En complément, une grange non attenante de 45 m² au sol sur deux niveaux vient enrichir le bien (toiture à refaire), idéale pour du stockage, un atelier ou un futur aménagement selon vos besoins.
 
 Un bien destiné aux amateurs de rénovation ou investisseurs souhaitant valoriser un projet au coeur d’un village vivant et recherché.
 
@@ -93,7 +91,7 @@ Oui
 
 ## Détail du prix
 
-- Prix **38 500 €** *Frais d'agence inclus*
+- Prix **33 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Estimer mon financement
@@ -123,7 +121,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 38 500 €
+ 33 000 €
 
 Réf. 2_BBV30000797
 

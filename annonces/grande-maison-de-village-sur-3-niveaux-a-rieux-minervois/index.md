@@ -188,7 +188,7 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Barbara
 
- 89 000 €
+ 84 000 €
 
 ### Maison vendue louée et meublée Investissement locatif clé
 

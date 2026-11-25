@@ -76,6 +76,14 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
 
 ## Nos biens les plus proches, *autour d’Agde.*
 
+ 635 € par mois
+
+### A louer Béziers centre-ville (34) appartement T3 bis ave
+
+ Béziers · 54,9 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
+
  289 000 €
 
 ### Immeuble de 4 lots 123,32 m2 Béziers
@@ -115,14 +123,6 @@ Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand o
  Béziers · 65,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
-
- 504 € par mois
-
-### À louer appartement T3 spacieux en centre-ville historique
-
- Béziers · 57,12 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
 
 [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 

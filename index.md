@@ -82,6 +82,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
+ 635 € par mois
+
+### A louer Béziers centre-ville (34) appartement T3 bis ave
+
+ Béziers · 54,9 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
+
  515 € par mois
 
 ### Appartement meublé 1 chambre
@@ -97,14 +105,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Béziers · 44,06 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
-
- 415 € par mois
-
-### Nîmes – a louer – studio – 14,99m2 – centre ville proche fac
-
- Nîmes · 14,99 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
  [Voir toutes les annonces ](https://lotier.immo/nos-annonces/)
 

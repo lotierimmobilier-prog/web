@@ -76,6 +76,14 @@ Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoi
 
 ## Biens à vendre et à louer *à Béziers.*
 
+ 635 € par mois
+
+### A louer Béziers centre-ville (34) appartement T3 bis ave
+
+ Béziers · 54,9 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
+
  289 000 €
 
 ### Immeuble de 4 lots 123,32 m2 Béziers
@@ -116,15 +124,7 @@ Quartiers, canal du Midi, proximité de la mer, transports : ce qu'il faut savoi
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique-2/)[Être rappelé](https://lotier.immo/contact/)
 
- 504 € par mois
-
-### À louer appartement T3 spacieux en centre-ville historique
-
- Béziers · 57,12 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t3-spacieux-en-centre-ville-historique/)[Être rappelé](https://lotier.immo/contact/)
-
-[Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/) · [Biens à louer à Béziers (6)](https://lotier.immo/nos-annonces/location-beziers/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+[Biens à vendre à Béziers (12)](https://lotier.immo/nos-annonces/vente-beziers/) · [Biens à louer à Béziers (7)](https://lotier.immo/nos-annonces/location-beziers/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

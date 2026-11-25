@@ -1,7 +1,179 @@
 {
- "maj": "2026-11-24",
+ "maj": "2026-11-25",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "a-louer-beziers-centre-ville-34-appartement-t3-bis-ave",
+   "titre": "A LOUER BÉZIERS CENTRE-VILLE (34) APPARTEMENT T3 BIS AVE",
+   "ville": "Béziers",
+   "type": "location",
+   "prix": 635.0,
+   "surface": 54.9,
+   "chambres": 2,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>Situé au rez de chaussée étage d’un petit immeuble de 4 niveaux, à proximité immédiate des commerces et des transports, nous vous présentons cet appartement de type T3 bis, lumineux et spacieux, offrant un cadre de vie agréable et pratique.</p><p>Il se compose d’un séjour lumineux avec cuisine indépendante, aménagée et équipée, offrant confort et fonctionnalité. L’appartement dispose également d’une salle de bains avec wc. Il dispose de 2 chambres et d’un bureau pouvant faire office de chambre d’appoint.</p><p>Vous pourrez également profiter d’un petit espace extérieur, parfait pour un moment de détente.</p><p>Ce bien est idéalement situé, proche de tous les commerces et transports nécessaires à votre confort.</p><p>Ses points forts :</p><ul><li>Appartement lumineux et fonctionnel au 1er étage d’un petit immeuble de 4 niveaux.</li><li>Séjour avec cuisine indépendante aménagée et équipée.</li><li>Petit espace extérieur agréable.</li><li>Emplacement idéal : proche de tous commerces et transports.</li></ul><p>Afin de vous accompagner dans votre projet de location, merci de bien vouloir déposer en ligne les documents obligatoires afin de constituer votre dossier locataire ou de joindre Laetitia Dias au 06.09.76.63.24.</p><p>Lien : https://app.zelok.fr/preinscription?code-agence=ZELOK194</p><p>Cette annonce vous est proposée par DIAS LAETITIA – EI – NoRSAC: 850128372, Enregistré à Greffe du tribunal de commerce de ARGENTEUIL</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Appartement"
+      ],
+      [
+       "Surface habitable",
+       "54.9 m²"
+      ],
+      [
+       "Pièces",
+       "3"
+      ],
+      [
+       "Chambres",
+       "2"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Nombre d'étages",
+       "3"
+      ],
+      [
+       "Année de construction",
+       "1940"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel électrique radiateur"
+      ],
+      [
+       "Cuisine",
+       "Séparée"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Terrasse",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Loyer charges comprises",
+       "635 € / mois"
+      ],
+      [
+       "Provisions sur charges",
+       "30 € / mois"
+      ],
+      [
+       "Honoraires état des lieux (TTC, charge locataire)",
+       "164,70 €"
+      ],
+      [
+       "Modalités de règlement des charges",
+       "Prévisionnelles mensuelles avec régularisation annuelle"
+      ],
+      [
+       "Dépôt de garantie",
+       "600 €"
+      ],
+      [
+       "Caractère meublé",
+       "Location non meublée"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Secteur",
+       "Commerces, bus, autoroutes et principaux axes."
+      ],
+      [
+       "Ville",
+       "Béziers"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "15_DLLAP170001063",
+   "agent": {
+    "nom": "LAETITIA DIAS",
+    "email": "laetitia.dias@lotier-immobilier.com",
+    "telephone": "0609766324",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 288,
+     "classe": "E"
+    },
+    "ges": {
+     "valeur": 9,
+     "classe": "B"
+    },
+    "depenses_min": 1230,
+    "depenses_max": 1710,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "honoraires": {
+    "locataire": 603.9,
+    "etat_des_lieux": 164.7
+   },
+   "photo": "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave.jpg",
+   "photos": [
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-1.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-2.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-3.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-4.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-5.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-6.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-7.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-8.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-9.jpg",
+    "assets/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave-10.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_8dbdcfbec5acea88b6bfb06abceabf6a.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_15152c96b0b4b15db7e6ff550665ad9d.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_75d9d90decab1a5aeea68a6a44b3b383.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_767a05834e1791cb1c4842767507c540.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_2d93492d2059db43496afe895c27b04a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_a6fae085e90f9287f6ed6d549822f6d0.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_a4636569ffa8dc308dfd0168f0f19ab4.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_b2f615ae88d50a7063a12688dab4ce3d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_6a066783c20df986a8ebf3444f3c06ae.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/15/1238c23cbb8bf4a58d0f22a47314b136/photo_4061841b1ab17166a039723656cc0e5a.jpg"
+   ],
+   "schema": 3
+  },
   {
    "id": "local-commercial-160-m2-a-vendre-carcassonne",
    "titre": "Local commercial 160 m2 à vendre, Carcassonne",
@@ -4119,7 +4291,7 @@
    "titre": "Maison vendue louée et meublée Investissement locatif clé",
    "ville": "Pezens",
    "type": "vente",
-   "prix": 89000.0,
+   "prix": 84000.0,
    "surface": 81.0,
    "chambres": 2,
    "sdb": 1,
@@ -4195,7 +4367,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "89 000 €"
+       "84 000 €"
       ],
       [
        "Charge honoraires",
@@ -6151,7 +6323,7 @@
    "chambres": 5,
    "sdb": 2,
    "badges": [],
-   "description_html": "<p>Maison familiale rénovée avec piscine et sous-sol total Comigne</p><p>Située à Comigne, charmant village des Corbières apprécié pour son environnement calme et sa proximité avec Carcassonne, cette maison familiale de 127 m2 entièrement rénovée offre des prestations modernes et de beaux volumes.</p><p>Édifiée sur deux niveaux, elle bénéficie d’un cadre de vie agréable avec jardin, piscine et terrasse, idéal pour une famille recherchant confort et tranquillité.</p><p>Description du bien</p><p>Rez-de-chaussée :</p><ul><li>Grande cuisine aménagée et équipée récente ouverte sur une belle pièce de vie lumineuse</li></ul><ul><li>Chambre de 8m2 ou bureau</li></ul><ul><li>Chambre de 11m2</li></ul><ul><li>Suite parentale avec salle d’eau privative</li></ul><ul><li>WC indépendant</li></ul><p>Étage :</p><ul><li>2 chambres supplémentaires</li></ul><ul><li>Salle d’eau</li></ul><ul><li>WC indépendant</li></ul><p>Extérieurs et annexes :</p><ul><li>Terrasse de 24 m2</li></ul><ul><li>Jardin agréable</li></ul><ul><li>Piscine au sel</li></ul><ul><li>Local piscine</li></ul><ul><li>Sous-sol / garage total de 113 m2</li></ul><ul><li>Portail électrique</li></ul><p>Prestations :</p><ul><li>Maison entièrement rénovée (travaux réalisés il y a moins de 10 ans)</li></ul><ul><li>Climatisation réversible gainable</li></ul><ul><li>Menuiseries aluminium</li></ul><ul><li>Volets roulants électriques côté jardin</li></ul><ul><li>Toiture récente</li></ul><ul><li>Isolation du plancher</li></ul><ul><li>Alarme</li></ul><ul><li>Maison lumineuse et bien entretenue</li></ul><p>Localisation :</p><p>Comigne village recherché des Corbières offrant un environnement paisible tout en restant proche de Carcassonne et des principaux axes de circulation.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
+   "description_html": "<p>Cette maison familiale de 127 m2, proposée à la vente à Comigne, village des Corbières dans l’Aude, offre 5 pièces dont 4 chambres, 2 salles d’eau et un sous-sol total de 113 m2. Le bien a été entièrement rénové il y a moins de 10 ans et se présente dans un très bon état général.</p><p>Le rez-de-chaussée s’organise autour d’une grande cuisine aménagée et équipée, ouverte sur une pièce de vie lumineuse. On y trouve également une chambre de 8 m2 pouvant servir de bureau, une chambre de 11 m2, une suite parentale avec salle d’eau privative, ainsi qu’un WC indépendant.</p><p>L’étage comprend 2 chambres supplémentaires, une salle d’eau et un WC indépendant.</p><p>Le sous-sol total de 113 m2 constitue un garage de grande capacité, accessible par portail électrique.</p><p>Côté extérieur, une terrasse de 24 m2 donne accès au jardin et à la piscine au sel, complétée d’un local technique dédié. Les menuiseries sont en aluminium avec volets roulants électriques côté jardin. La toiture est récente et le plancher est isolé. La maison est équipée d’une climatisation réversible gainable et d’une alarme.</p><p>Comigne est un village paisible des Corbières, situé en environnement calme, à proximité de Carcassonne et de Narbonne.</p><p>Bien proposé par LOTIER Immobilier.</p><p>Classe énergie : B. Classe climat : A. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques.</p><p>Prix de vente : 219000EUR honoraires d’agence inclus (à la charge du vendeur). Taxe foncière : 1603EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr – Annonce rédigée et publiée par un Agent Mandataire -</p>",
    "blocs": [
     {
      "titre": "Caractéristiques",
@@ -6294,10 +6466,10 @@
     "assets/annonces/maison-avec-jardin-et-piscine-a-comigne-18.jpg"
    ],
    "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_a840a775516c4c939937f026ae1c721e.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_dcd2d7725b1fec8d1b71121c5e9980b9.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_4d16ea82a55b33b90aeb52177d5dfc99.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_d2ad0401a36fa3311ef85f927a919406.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_dcd2d7725b1fec8d1b71121c5e9980b9.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_a840a775516c4c939937f026ae1c721e.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_ba79046a86b32a700000c72502f44e30.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_472ac926e156773fe3826b38b3207c4e.png",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/c5967e2a815485fe8be4f1dabeb1970b/photo_bad9d358bf3e774abcafb0fd7ed45d6a.png",
@@ -8178,17 +8350,17 @@
   },
   {
    "id": "maison-de-village-a-renover-avec-grange-capendu-11",
-   "titre": "Maison de village à rénover avec grange Capendu (11)",
+   "titre": "Maison de village à rénover Capendu (11)",
    "ville": "Capendu",
    "type": "vente",
-   "prix": 38500.0,
+   "prix": 33000.0,
    "surface": 120.0,
    "chambres": 3,
    "sdb": 1,
    "badges": [
     "Exclusivité"
    ],
-   "description_html": "<p>Maison de village à rénover Capendu (11)</p><p>Située au coeur du village dynamique de Capendu, entre Carcassonne et Narbonne, cette maison d’environ 120 m2 sur trois niveaux offre un beau potentiel pour un projet de rénovation complète. Capendu dispose de nombreuses commodités (écoles, commerces, professionnels de santé, infrastructures sportives) et bénéficie d’un emplacement stratégique au sein du Minervois.</p><p>La maison est entièrement à rénover : toiture, planchers, électricité, plomberie et aménagement intérieur. Elle ne dispose pas de système de chauffage et les fenêtres sont en simple vitrage.</p><p>Répartition des espaces : o Rez-de-chaussée : pièce de vie, cuisine et WC séparé o 1er étage : deux chambres et une salle d’eau o 2e étage : une chambre et un grenier</p><p>En complément, une grange non attenante de 45 m2 au sol sur deux niveaux vient enrichir le bien (toiture à refaire), idéale pour du stockage, un atelier ou un futur aménagement selon vos besoins.</p><p>Un bien destiné aux amateurs de rénovation ou investisseurs souhaitant valoriser un projet au coeur d’un village vivant et recherché.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "description_html": "<p>Maison de village à rénover Capendu (11)</p><p>Située au coeur du village dynamique de Capendu, entre Carcassonne et Narbonne, cette maison d’environ 120 m2 sur trois niveaux offre un beau potentiel pour un projet de rénovation complète. Capendu dispose de nombreuses commodités (écoles, commerces, professionnels de santé, infrastructures sportives) et bénéficie d’un emplacement stratégique au sein du Minervois.</p><p>La maison est entièrement à rénover : toiture, planchers, électricité, plomberie et aménagement intérieur. Elle ne dispose pas de système de chauffage et les fenêtres sont en simple vitrage.</p><p>Répartition des espaces : o Rez-de-chaussée : pièce de vie, cuisine et WC séparé o 1er étage : deux chambres et une salle d’eau o 2e étage : une chambre et un grenier</p><p>Un bien destiné aux amateurs de rénovation ou investisseurs souhaitant valoriser un projet au coeur d’un village vivant et recherché.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
    "blocs": [
     {
      "titre": "Caractéristiques",
@@ -8257,7 +8429,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "38 500 €"
+       "33 000 €"
       ],
       [
        "Charge honoraires",
@@ -8479,7 +8651,7 @@
    "chambres": 7,
    "sdb": 4,
    "badges": [],
-   "description_html": "<p>Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place.</p><p>Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation.</p><p>Il se compose des lots suivants :</p><p>Maison principale de 143 m2 avec jardin et grand garage</p><p>Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée F/F, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900EUR par mois.</p><p>Local commercial</p><p>Actuellement loué pour un loyer mensuel de 457 EUR.</p><p>Studio de 19 m2 avec jardin et climatisation</p><p>Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 EUR.</p><p>Classe énergétique : C / A.</p><p>Ce logement a bénéficié de récents travaux d’amélioration.</p><p>Appartement T3 de 77 m2 avec jardin, garage et cave</p><p>Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 EUR.</p><p>Classe énergétique : C / A.</p><p>Ce logement a également bénéficié de travaux récents.</p><p>Garage indépendant</p><p>Actuellement loué pour 57 EUR par mois.</p><p>Appartement T3</p><p>Actuellement loué pour un loyer mensuel de 516 EUR.</p><p>Les atouts de l’ensemble</p><ul><li>Revenus locatifs déjà en place sur la majorité des lots</li><li>Diversification des revenus entre habitation et commerce</li><li>Potentiel d’optimisation de la maison principale après rénovation énergétique</li><li>Travaux récents réalisés sur plusieurs logements</li><li>Présence de jardins et dépendances</li><li>Investissement offrant à la fois rendement immédiat et potentiel de valorisation</li></ul><p>Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "description_html": "<p>Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place. Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation. Il se compose des lots suivants : Maison principale de 143 m2 avec jardin et grand garage Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée E/E, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900EUR par mois. Local commercial Actuellement loué pour un loyer mensuel de 457 EUR. Studio de 19 m2 avec jardin et climatisation Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 EUR. Classe énergétique : C / A. Ce logement a bénéficié de récents travaux d’amélioration. Appartement T3 de 77 m2 avec jardin, garage et cave Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 EUR. Classe énergétique : C / A. Ce logement a également bénéficié de travaux récents. Garage indépendant Actuellement loué pour 57 EUR par mois. Appartement T3 Actuellement loué pour un loyer mensuel de 516 EUR. Les atouts de l’ensemble o Revenus locatifs déjà en place sur la majorité des lots o Diversification des revenus entre habitation et commerce o Potentiel d’optimisation de la maison principale après rénovation énergétique o Travaux récents réalisés sur plusieurs logements o Présence de jardins et dépendances o Investissement offrant à la fois rendement immédiat et potentiel de valorisation Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
    "blocs": [
     {
      "titre": "Caractéristiques",

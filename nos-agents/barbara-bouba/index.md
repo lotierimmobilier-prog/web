@@ -78,7 +78,7 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/nouveaute-a-capendu-maison-140-m2-avec-piscine-garage-et/)[Être rappelé](https://lotier.immo/contact/)
 
- 89 000 €
+ 84 000 €
 
 ### Maison vendue louée et meublée Investissement locatif clé
 
@@ -150,9 +150,9 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 33 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison de village à rénover Capendu (11)
 
  Capendu · 120 m² · 3 ch.
 

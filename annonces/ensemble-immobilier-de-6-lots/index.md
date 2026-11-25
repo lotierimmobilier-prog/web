@@ -25,54 +25,7 @@ Immeuble de 400 m² à vendre à Capendu (Aude, 11) : 12 pièces, 7 chambres et
 
 ## Description
 
-Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place.
-
-Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation.
-
-Il se compose des lots suivants :
-
-Maison principale de 143 m² avec jardin et grand garage
-
-Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée F/F, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900 € par mois.
-
-Local commercial
-
-Actuellement loué pour un loyer mensuel de 457 €.
-
-Studio de 19 m² avec jardin et climatisation
-
-Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 €.
-
-Classe énergétique : C / A.
-
-Ce logement a bénéficié de récents travaux d’amélioration.
-
-Appartement T3 de 77 m² avec jardin, garage et cave
-
-Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 €.
-
-Classe énergétique : C / A.
-
-Ce logement a également bénéficié de travaux récents.
-
-Garage indépendant
-
-Actuellement loué pour 57 € par mois.
-
-Appartement T3
-
-Actuellement loué pour un loyer mensuel de 516 €.
-
-Les atouts de l’ensemble
-
-- Revenus locatifs déjà en place sur la majorité des lots
-- Diversification des revenus entre habitation et commerce
-- Potentiel d’optimisation de la maison principale après rénovation énergétique
-- Travaux récents réalisés sur plusieurs logements
-- Présence de jardins et dépendances
-- Investissement offrant à la fois rendement immédiat et potentiel de valorisation
-
-Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.
+Ensemble immobilier de rapport composé de plusieurs lots Revenus locatifs en place. Cet ensemble immobilier constitue une opportunité intéressante pour un investisseur souhaitant bénéficier de revenus locatifs immédiats tout en conservant un potentiel de valorisation. Il se compose des lots suivants : Maison principale de 143 m² avec jardin et grand garage Actuellement libre de toute occupation. Cette maison de 5 chambres offre de beaux volumes et un extérieur privatif. Des travaux de rénovation énergétique sont à prévoir, notamment en raison de son système de chauffage au fioul. Classée E/E, elle ne peut actuellement pas être proposée à la location en l’état. Rénovée, elle pourra se louer 900 € par mois. Local commercial Actuellement loué pour un loyer mensuel de 457 €. Studio de 19 m² avec jardin et climatisation Loué non meublé à compter de mi-juillet 2026 pour un loyer mensuel de 300 €. Classe énergétique : C / A. Ce logement a bénéficié de récents travaux d’amélioration. Appartement T3 de 77 m² avec jardin, garage et cave Loué non meublé à compter de fin juillet 2026 pour un loyer mensuel de 750 €. Classe énergétique : C / A. Ce logement a également bénéficié de travaux récents. Garage indépendant Actuellement loué pour 57 € par mois. Appartement T3 Actuellement loué pour un loyer mensuel de 516 €. Les atouts de l’ensemble o Revenus locatifs déjà en place sur la majorité des lots o Diversification des revenus entre habitation et commerce o Potentiel d’optimisation de la maison principale après rénovation énergétique o Travaux récents réalisés sur plusieurs logements o Présence de jardins et dépendances o Investissement offrant à la fois rendement immédiat et potentiel de valorisation Cet ensemble immobilier représente une opportunité pour un investisseur recherchant un bien générant des revenus locatifs tout en conservant un potentiel de développement grâce à la rénovation de la maison principale.
 
 - Annonce rédigée et publiée par un Agent Mandataire -
 
@@ -223,9 +176,9 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 33 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison de village à rénover Capendu (11)
 
  Capendu · 120 m² · 3 ch.
 

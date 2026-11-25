@@ -193,6 +193,14 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
+ 635 € par mois
+
+### A louer Béziers centre-ville (34) appartement T3 bis ave
+
+ Béziers · 54,9 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
+
  735 € par mois
 
 ### À louer bureaux de caractère rue Clemenceau, coeur de vil
@@ -208,14 +216,6 @@ Annonce proposée par LOTIER Immobilier.
  Béziers · 100,17 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-aux-beaux-volumes-immeuble-bourgeoi/)[Être rappelé](https://lotier.immo/contact/)
-
- 55 000 €
-
-### À vendre appartement T2 bis avec terrasse dernier étage,
-
- Béziers · 48,34 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-vendre-appartement-t2-bis-avec-terrasse-dernier-etage/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

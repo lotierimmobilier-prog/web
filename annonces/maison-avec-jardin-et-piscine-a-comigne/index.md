@@ -1,6 +1,6 @@
 # Maison 6 pièces 127 m² à vendre à Comigne
 
-> Maison 6 pièces 127 m² à vendre à Comigne, 5 chambres, 219 000 €. Maison familiale rénovée avec piscine et sous-sol total Comigne Située à Comigne, charmant…
+> Maison 6 pièces 127 m² à vendre à Comigne, 5 chambres, 219 000 €. Cette maison familiale de 127 m², proposée à la vente à Comigne, village des Corbières dans…
 
 Source : https://lotier.immo/annonces/maison-avec-jardin-et-piscine-a-comigne/
 
@@ -25,69 +25,23 @@ Maison de 127 m² à vendre à Comigne (Aude, 11) : 6 pièces, 5 chambres et 2 
 
 ## Description
 
-Maison familiale rénovée avec piscine et sous-sol total Comigne
+Cette maison familiale de 127 m², proposée à la vente à Comigne, village des Corbières dans l’Aude, offre 5 pièces dont 4 chambres, 2 salles d’eau et un sous-sol total de 113 m². Le bien a été entièrement rénové il y a moins de 10 ans et se présente dans un très bon état général.
 
-Située à Comigne, charmant village des Corbières apprécié pour son environnement calme et sa proximité avec Carcassonne, cette maison familiale de 127 m² entièrement rénovée offre des prestations modernes et de beaux volumes.
+Le rez-de-chaussée s’organise autour d’une grande cuisine aménagée et équipée, ouverte sur une pièce de vie lumineuse. On y trouve également une chambre de 8 m² pouvant servir de bureau, une chambre de 11 m², une suite parentale avec salle d’eau privative, ainsi qu’un WC indépendant.
 
-Édifiée sur deux niveaux, elle bénéficie d’un cadre de vie agréable avec jardin, piscine et terrasse, idéal pour une famille recherchant confort et tranquillité.
+L’étage comprend 2 chambres supplémentaires, une salle d’eau et un WC indépendant.
 
-Description du bien
+Le sous-sol total de 113 m² constitue un garage de grande capacité, accessible par portail électrique.
 
-Rez-de-chaussée :
+Côté extérieur, une terrasse de 24 m² donne accès au jardin et à la piscine au sel, complétée d’un local technique dédié. Les menuiseries sont en aluminium avec volets roulants électriques côté jardin. La toiture est récente et le plancher est isolé. La maison est équipée d’une climatisation réversible gainable et d’une alarme.
 
-- Grande cuisine aménagée et équipée récente ouverte sur une belle pièce de vie lumineuse
+Comigne est un village paisible des Corbières, situé en environnement calme, à proximité de Carcassonne et de Narbonne.
 
-- Chambre de 8 m² ou bureau
+Bien proposé par LOTIER Immobilier.
 
-- Chambre de 11 m²
+Classe énergie : B. Classe climat : A. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques.
 
-- Suite parentale avec salle d’eau privative
-
-- WC indépendant
-
-Étage :
-
-- 2 chambres supplémentaires
-
-- Salle d’eau
-
-- WC indépendant
-
-Extérieurs et annexes :
-
-- Terrasse de 24 m²
-
-- Jardin agréable
-
-- Piscine au sel
-
-- Local piscine
-
-- Sous-sol / garage total de 113 m²
-
-- Portail électrique
-
-Prestations :
-
-- Maison entièrement rénovée (travaux réalisés il y a moins de 10 ans)
-
-- Climatisation réversible gainable
-
-- Menuiseries aluminium
-
-- Volets roulants électriques côté jardin
-
-- Toiture récente
-
-- Isolation du plancher
-
-- Alarme
-
-- Maison lumineuse et bien entretenue
-
-Localisation :
-
-Comigne village recherché des Corbières offrant un environnement paisible tout en restant proche de Carcassonne et des principaux axes de circulation.
+Prix de vente : 219000 € honoraires d’agence inclus (à la charge du vendeur). Taxe foncière : 1603 €
 
 ## Les atouts du bien
 

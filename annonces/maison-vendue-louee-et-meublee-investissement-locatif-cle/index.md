@@ -1,18 +1,18 @@
 # Maison 4 pièces 81 m² à vendre à Pezens
 
-> Maison 4 pièces 81 m² à vendre à Pezens, 2 chambres, 89 000 €. Maison vendue louée et meublée Investissement locatif clé en main Pezens (11170) Exclusivité…
+> Maison 4 pièces 81 m² à vendre à Pezens, 2 chambres, 84 000 €. Maison vendue louée et meublée Investissement locatif clé en main Pezens (11170) Exclusivité…
 
 Source : https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/
 
 Maison vendue louée et meublée Investissement locatif clé
 
-**89 000 €** · Pezens · 81 m² · 2 chambres · 1 salle d'eau/bain
+**84 000 €** · Pezens · 81 m² · 2 chambres · 1 salle d'eau/bain
 
  VENTE 1 / 11
 
 ## En bref
 
-Maison de 81 m² à vendre à Pezens (Aude, 11) : 4 pièces, 2 chambres et 1 salle d'eau ou de bain. Prix : 89 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 40 m² et climatisation. Construction de 1960, chauffage individuel, classe énergie D (193 kWh/m²/an), classe climat B. Référence 2_BBV30000994, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 81 m² à vendre à Pezens (Aude, 11) : 4 pièces, 2 chambres et 1 salle d'eau ou de bain. Prix : 84 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 40 m² et climatisation. Construction de 1960, chauffage individuel, classe énergie D (193 kWh/m²/an), classe climat B. Référence 2_BBV30000994, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -146,7 +146,7 @@ Oui
 
 ## Détail du prix
 
-- Prix **89 000 €** *Frais d'agence inclus*
+- Prix **84 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
@@ -191,7 +191,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 89 000 €
+ 84 000 €
 
 Réf. 2_BBV30000994
 

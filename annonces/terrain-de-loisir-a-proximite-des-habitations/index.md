@@ -96,7 +96,7 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/grande-maison-de-village-sur-3-niveaux-a-rieux-minervois/)[Être rappelé](https://lotier.immo/contact/)
 
- 89 000 €
+ 84 000 €
 
 ### Maison vendue louée et meublée Investissement locatif clé
 

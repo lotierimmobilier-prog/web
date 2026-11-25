@@ -56,9 +56,9 @@ LOTIER Immobilier propose actuellement 10 biens à vendre à Capendu : 5 maisons
 
  [Voir l'annonce](https://lotier.immo/annonces/fond-de-commerce-a-vendre-axe-principal-traversant-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 38 500 €
+ 33 000 €
 
-### Maison de village à rénover avec grange Capendu (11)
+### Maison de village à rénover Capendu (11)
 
  Capendu · 120 m² · 3 ch.
 
