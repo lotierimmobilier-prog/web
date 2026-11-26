@@ -76,20 +76,12 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
  Blog
 
-## Les 23 articles par thème
+## Les 26 articles par thème
  [Voir l'index du blog](https://lotier.immo/blog/)
-
-### Acheter
-
-- [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
-- [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
-- [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
-- [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
-- [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
-- [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
 
 ### Bailleur
 
+- [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
 - [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
 - [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
 - [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
@@ -97,10 +89,21 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
 ### Vendre
 
+- [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
 - [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
 - [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
 - [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
 - [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
+
+### Acheter
+
+- [MaPrimeRénov' en 2027 : ce que l'on sait des pompes à chaleur](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
+- [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+- [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
+- [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
+- [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
+- [Frais de notaire : à quoi correspondent-ils vraiment ?](https://lotier.immo/blog/frais-de-notaire-comprendre.html)
+- [Compromis de vente : ce qu'il faut vérifier avant de signer](https://lotier.immo/blog/compromis-de-vente-points-de-vigilance.html)
 
 ### Locataire
 

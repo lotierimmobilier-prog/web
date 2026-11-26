@@ -103,6 +103,12 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Bailleur** 26 novembre 2026 5 min
+
+### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
+
+L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
+
  **Bailleur** 18 novembre 2026 5 min
 
 ### [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
@@ -114,12 +120,6 @@ Depuis le 1er janvier 2026, le DPE est plus favorable aux logements chauffés à
 ### [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
 
 Ce que mesure le diagnostic de performance énergétique, sa durée de validité, son impact sur la vente et la location, et comment améliorer la classe d'un logement.
-
- **Bailleur** 6 février 2026 4 min
-
-### [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
-
-Durée du bail, dépôt de garantie, fiscalité, mobilier obligatoire : comparer la location meublée et la location vide pour choisir selon votre projet.
 
 Recrutement
 

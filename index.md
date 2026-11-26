@@ -259,25 +259,25 @@ Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la mac
 
 ## L'actu immo de la semaine
 
- [Tous les articles (23)](https://lotier.immo/blog/)
+ [Tous les articles (26)](https://lotier.immo/blog/)
 
- Acheter · 18 novembre 2026
+ Bailleur · 26 novembre 2026
+
+### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
+
+L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
+ [Lire l'article](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
+
+ Vendre · 26 novembre 2026
+
+### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
+[Lire l'article](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html) Acheter · 26 novembre 2026
+
+### [MaPrimeRénov' en 2027 : ce que l'on sait des pompes à chaleur](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
+[Lire l'article](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html) Acheter · 18 novembre 2026
 
 ### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
-
-Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
- [Lire l'article](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
-
- Acheter · 18 novembre 2026
-
-### [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
-[Lire l'article](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html) Bailleur · 18 novembre 2026
-
-### [DPE : le nouveau calcul de 2026 et l'échéance de 2028](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html)
-[Lire l'article](https://lotier.immo/blog/dpe-nouveau-calcul-2026-location-2028.html) Vendre · 26 octobre 2026
-
-### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
-[Lire l'article](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+[Lire l'article](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
 
  Devenir agent
 

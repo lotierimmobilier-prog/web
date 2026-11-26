@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 135,
+  "liens": 138,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 134,
+  "pages_indexables": 137,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2069,6 +2069,24 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html",
    "type": "article",
    "balisage": [
@@ -2103,6 +2121,24 @@
    "problemes": []
   },
   {
+   "url": "https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
    "url": "https://lotier.immo/blog/meuble-ou-vide-choisir-location.html",
    "type": "article",
    "balisage": [
@@ -2126,6 +2162,24 @@
     "Answer",
     "BlogPosting",
     "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
     "FAQPage",
     "ImageObject",
     "ListItem",
