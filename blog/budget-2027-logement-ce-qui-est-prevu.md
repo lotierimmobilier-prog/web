@@ -123,6 +123,12 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Acheter** 26 novembre 2026 4 min
+
+### [MaPrimeRénov' en 2027 : ce que l'on sait des pompes à chaleur](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
+
+Le gouvernement veut sortir les pompes à chaleur de MaPrimeRénov' au 1er janvier 2027 et réduire les crédits de l'Anah. Ce qui est annoncé, ce qui n'est pas voté, et comment préparer ses travaux.
+
  **Acheter** 18 novembre 2026 5 min
 
 ### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
@@ -134,12 +140,6 @@ Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédi
 ### [Visiter un appartement : la check-list de l'acheteur](https://lotier.immo/blog/visiter-un-appartement-checklist.html)
 
 Ce qu'il faut observer et demander pendant une visite : état général, humidité, bruit, parties communes, charges. Une check-list simple à imprimer.
-
- **Acheter** 22 septembre 2026 4 min
-
-### [Premier achat immobilier : 6 erreurs à éviter](https://lotier.immo/blog/premier-achat-erreurs-a-eviter.html)
-
-Budget sans marge, charges oubliées, travaux sous-estimés, copropriété non vérifiée : les six erreurs les plus fréquentes lors d'un premier achat.
 
 Recrutement
 

@@ -107,17 +107,17 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 
 Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
 
- **Acheter** 18 novembre 2026 5 min
+ **Bailleur** 26 novembre 2026 5 min
 
-### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
 
-Autour de 3,6 à 3,7 % sur 20 ans en novembre 2026 : pourquoi les taux de crédit immobilier remontent, ce que cela change pour un achat et comment préparer son dossier.
+L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
 
- **Acheter** 18 novembre 2026 6 min
+ **Vendre** 26 novembre 2026 4 min
 
-### [Budget 2027 : ce que le projet de loi prévoit pour le logement](https://lotier.immo/blog/budget-2027-logement-ce-qui-est-prevu.html)
+### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
 
-Prêt à taux zéro élargi aux jeunes parents, location meublée moins avantageuse, MaPrimeRénov' recentrée, APL gelées : les mesures logement du projet de loi de finances 2027, encore en discussion.
+Les prix de l'ancien reculent de 0,1 % en octobre 2026 pendant que les taux de crédit dépassent 3,6 %. Ce que cela change pour vendre ou acheter, ville par ville.
 
 Recrutement
 

@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://lotier.immo/blog/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -666,6 +666,24 @@
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html</loc>

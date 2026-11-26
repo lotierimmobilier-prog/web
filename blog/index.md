@@ -1,6 +1,6 @@
 # Blog immobilier : conseils pour vendre, acheter, louer | LOTIER
 
-> 23 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
+> 26 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
 
 Source : https://lotier.immo/blog/
 
@@ -8,9 +8,27 @@ Le blog de l'agence
 
 # Conseils et actualités *de l'immobilier.*
 
-Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 23 guides écrits par les conseillers de LOTIER Immobilier.
+Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 26 guides écrits par les conseillers de LOTIER Immobilier.
 
 ## Tous les articles
+
+ **Bailleur** 26 novembre 2026 5 min
+
+### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
+
+L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
+
+ **Vendre** 26 novembre 2026 4 min
+
+### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
+
+Les prix de l'ancien reculent de 0,1 % en octobre 2026 pendant que les taux de crédit dépassent 3,6 %. Ce que cela change pour vendre ou acheter, ville par ville.
+
+ **Acheter** 26 novembre 2026 4 min
+
+### [MaPrimeRénov' en 2027 : ce que l'on sait des pompes à chaleur](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
+
+Le gouvernement veut sortir les pompes à chaleur de MaPrimeRénov' au 1er janvier 2027 et réduire les crédits de l'Anah. Ce qui est annoncé, ce qui n'est pas voté, et comment préparer ses travaux.
 
  **Acheter** 18 novembre 2026 5 min
 

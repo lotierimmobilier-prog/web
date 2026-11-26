@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-label="Révision de loyer : 650 € multiplié par 148,06 et divisé par 145,77 donne 660,21 €, soit 10,21 € de plus par mois, 1,57 % de hausse.">
+<rect width="900" height="470" fill="#ffffff"/>
+<text x="40" y="54" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#0f2744">Réviser un loyer : le calcul pas à pas</text>
+<rect x="50" y="120" width="170" height="150" rx="14" fill="#f4efe4"/>
+<text x="135" y="158" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">Loyer actuel</text>
+<text x="135" y="246" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#0f2744">650,00 €</text>
+<text x="240" y="208" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#c8102e">×</text>
+<rect x="260" y="120" width="170" height="150" rx="14" fill="#f4efe4"/>
+<text x="345" y="158" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">IRL du trimestre</text>
+<text x="345" y="246" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#0f2744">148,06</text>
+<text x="450" y="208" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#c8102e">÷</text>
+<rect x="470" y="120" width="170" height="150" rx="14" fill="#f4efe4"/>
+<text x="555" y="158" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">IRL du même</text>
+<text x="555" y="177" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">trimestre un an</text>
+<text x="555" y="196" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">avant</text>
+<text x="555" y="246" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#0f2744">145,77</text>
+<text x="660" y="208" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#c8102e">=</text>
+<rect x="680" y="120" width="170" height="150" rx="14" fill="#0f2744"/>
+<text x="765" y="158" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#d9d2c3">Nouveau loyer</text>
+<text x="765" y="246" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">660,21 €</text>
+<text x="450" y="330" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#c8102e">+10,21 € par mois, soit +1,57 %</text>
+<text x="450" y="372" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">Exemple pour un bail dont la révision se fait sur l&#x27;IRL du 3e trimestre : 650</text>
+<text x="450" y="393" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#52647c">× 148,06 ÷ 145,77. Le résultat est arrondi à la deuxième décimale.</text>
+<text x="450" y="440" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="600" fill="#0f2744">Sans clause de révision dans le bail, le loyer ne peut pas être révisé.</text>
+</svg>
