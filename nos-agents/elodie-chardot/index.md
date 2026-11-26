@@ -14,6 +14,14 @@ Nîmes Montpellier
 ## Les biens de Élodie
  [Toutes les annonces](https://lotier.immo/nos-annonces/)
 
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+
  255 000 €
 
 ### Marguerittes – immeuble avec local commercial et deux appart
@@ -86,14 +94,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
 
- 284 000 €
-
-### Proche Clémentville, dernier étage avec garage.
-
- Montpellier · 90,64 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
-
  395 000 €
 
 ### Nîmes quartier route D’uzes – maison type 5 avec magnifiqu
@@ -110,14 +110,6 @@ Nîmes Montpellier
 
  [Voir l'annonce](https://lotier.immo/annonces/uzes-terrain-840m2-viabilise/)[Être rappelé](https://lotier.immo/contact/)
 
- 149 000 €
-
-### Clarensac – maison de village – 3 chambres – environ 100m2 d
-
- Clarensac · 80 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -132,10 +124,10 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Élodie
 
-- **14** biens en ligne
-- **12** à vendre
+- **13** biens en ligne
+- **11** à vendre
 - **2** à louer
-- **7** communes
+- **8** communes
 
 Élodie Chardot est agent commercial indépendant LOTIER Immobilier, secteur Nîmes et Montpellier.
 
@@ -158,7 +150,7 @@ Ventes de 45 000 € à 395 000 € · loyers de 415 € à 850 € par mois.
 
 ### Biens proposés
 
-- 6 appartements
+- 5 appartements
 - 4 maisons
 - 2 locaux commerciaux
 - 1 immeuble

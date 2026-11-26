@@ -1,7 +1,163 @@
 {
- "maj": "2026-11-25",
+ "maj": "2026-11-26",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch",
+   "titre": "BAISSE DE PRIX – MEYNES – MAISON DE VILLAGE – 87,16M2 – 2 CH",
+   "ville": "Meynes",
+   "type": "vente",
+   "prix": 243000.0,
+   "surface": 87.16,
+   "chambres": 2,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>BAISSE DE PRIX</p><p>À Meynes, charmant village situé à seulement 15 minutes de Nîmes, découvrez cette magnifique maison de village entièrement rénovée avec soin. D’une superficie totale de 87,16 m2 répartis sur trois niveaux, elle offre un cadre de vie moderne, chaleureux et sans aucun travaux à prévoir. Dès l’entrée, vous apprécierez les rangements intégrés, la buanderie fonctionnelle et le WC indépendant, ainsi que le garage carrelé équipé d’une porte automatique, idéal pour un usage quotidien.</p><p>Au premier étage, la grande pièce à vivre lumineuse constitue un véritable coup de coeur. Elle accueille une cuisine contemporaine laquée blanc, totalement équipée et pensée pour être aussi belle que pratique, avec de nombreux rangements et un accès direct à un balcon agréable. La qualité de rénovation se ressent dans chaque détail : double vitrage, pompe à chaleur, climatisation réversible, spots encastrés, rambarde en fer forgé et visiophone.</p><p>Le dernier niveau abrite deux chambres confortables, toutes deux dotées de placards aménagés et d’un éclairage soigné. La salle d’eau, élégante et moderne, offre une grande douche à l’italienne, un meuble double vasque et un second WC indépendant. La toiture, entièrement neuve et couverte par une garantie décennale, vous assure une tranquillité totale pour les années à venir.</p><p>Cette maison est idéale pour ceux qui recherchent un bien impeccable, lumineux et prêt à habiter dans un environnement calme et recherché. Une très belle opportunité à saisir rapidement !</p><p>Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Maison/villa"
+      ],
+      [
+       "Surface habitable",
+       "87.16 m²"
+      ],
+      [
+       "Pièces",
+       "3"
+      ],
+      [
+       "Chambres",
+       "2"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "2"
+      ],
+      [
+       "Nombre d'étages",
+       "3"
+      ],
+      [
+       "Année de construction",
+       "1940"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel électrique radiateur"
+      ],
+      [
+       "Cuisine",
+       "Américaine équipée"
+      ],
+      [
+       "Exposition",
+       "Est"
+      ],
+      [
+       "Garage",
+       "Oui"
+      ],
+      [
+       "Climatisation",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Prix FAI",
+       "243 000 €"
+      ],
+      [
+       "Charge honoraires",
+       "Vendeur"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Meynes"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "12_521",
+   "agent": {
+    "nom": "Elodie CHARDOT",
+    "email": "elodie.chardot@lotier-immobilier.com",
+    "telephone": "0673035196",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 103,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 3,
+     "classe": "A"
+    },
+    "depenses_min": 750,
+    "depenses_max": 1070,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [],
+   "honoraires": null,
+   "photo": "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch.jpg",
+   "photos": [
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-1.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-2.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-3.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-4.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-5.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-6.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-7.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-8.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-9.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-10.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-11.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-12.jpg",
+    "assets/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch-13.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_95fa3a577174933bad0600f894b44369.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_f9bbd8739d0873360b2bdd371aa73135.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_19e98c3e932d4638e2d4676297c44a7d.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_56776cb96bc94f008dc7d52fcd1eb13c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_e4d7d047fc74db686de591e0bd1bcf0e.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_42277d8522a9af5c874978d130c4a4e5.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_ba2bd1a0d4ca9803ba60b01869a5e1ab.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_24df6ac140aff9abe6c3300b8c378148.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_84fd17b2ed8b34f3c7da0830a9a1bd2c.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_4d3d49ec1ec6c0dc95bddbd9eb6f8516.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_a4fc83cf1a3e668e3bb7197b9244af14.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_8d08b45fffdb3d00914928b0c2b8cd7f.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/12/a83636955eea01152d325c4fdf580139/photo_ebdad6cdadaf8787d53d98ad42b12066.jpg"
+   ],
+   "schema": 3
+  },
   {
    "id": "a-louer-beziers-centre-ville-34-appartement-t3-bis-ave",
    "titre": "A LOUER BÉZIERS CENTRE-VILLE (34) APPARTEMENT T3 BIS AVE",
@@ -2633,162 +2789,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_6ceee276ff34bee2378ec680a89ff3a1.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_babe4889f0fca591bdbaf85bd1f06b0b.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/18/96fbf6743204a8b66590d4d61d13288a/photo_9e6fac65a297c02426f1ef32760ac4a3.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "baisse-de-prix-meynes-maison-de-village-8716m2-2-ch",
-   "titre": "BAISSE DE PRIX – MEYNES – MAISON DE VILLAGE – 87,16M2 – 2 CH",
-   "ville": "Meynes",
-   "type": "vente",
-   "prix": 243000.0,
-   "surface": 87.16,
-   "chambres": 2,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>BAISSE DE PRIX</p><p>À Meynes, charmant village situé à seulement 15 minutes de Nîmes, découvrez cette magnifique maison de village entièrement rénovée avec soin. D’une superficie totale de 87,16 m2 répartis sur trois niveaux, elle offre un cadre de vie moderne, chaleureux et sans aucun travaux à prévoir. Dès l’entrée, vous apprécierez les rangements intégrés, la buanderie fonctionnelle et le WC indépendant, ainsi que le garage carrelé équipé d’une porte automatique, idéal pour un usage quotidien.</p><p>Au premier étage, la grande pièce à vivre lumineuse constitue un véritable coup de coeur. Elle accueille une cuisine contemporaine laquée blanc, totalement équipée et pensée pour être aussi belle que pratique, avec de nombreux rangements et un accès direct à un balcon agréable. La qualité de rénovation se ressent dans chaque détail : double vitrage, pompe à chaleur, climatisation réversible, spots encastrés, rambarde en fer forgé et visiophone.</p><p>Le dernier niveau abrite deux chambres confortables, toutes deux dotées de placards aménagés et d’un éclairage soigné. La salle d’eau, élégante et moderne, offre une grande douche à l’italienne, un meuble double vasque et un second WC indépendant. La toiture, entièrement neuve et couverte par une garantie décennale, vous assure une tranquillité totale pour les années à venir.</p><p>Cette maison est idéale pour ceux qui recherchent un bien impeccable, lumineux et prêt à habiter dans un environnement calme et recherché. Une très belle opportunité à saisir rapidement !</p><p>Cette annonce vous est proposée par AUBIN Céline – EI – NoRSAC: , Enregistré à Greffe du tribunal de commerce de</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "87.16 m²"
-      ],
-      [
-       "Pièces",
-       "3"
-      ],
-      [
-       "Chambres",
-       "2"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "2"
-      ],
-      [
-       "Nombre d'étages",
-       "3"
-      ],
-      [
-       "Année de construction",
-       "1940"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique radiateur"
-      ],
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Exposition",
-       "Est"
-      ],
-      [
-       "Garage",
-       "Oui"
-      ],
-      [
-       "Climatisation",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "243 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Meynes"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "17_521",
-   "agent": {
-    "nom": "CELINE AUBIN",
-    "email": "celine.aubin@lotier-immobilier.com",
-    "telephone": "0616293531",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 103,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 3,
-     "classe": "A"
-    },
-    "depenses_min": 750,
-    "depenses_max": 1070,
-    "prix_energies": "01/01/2021"
-   },
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch.jpg",
-   "photos": [
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-1.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-2.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-3.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-4.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-5.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-6.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-7.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-8.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-9.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-10.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-11.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-12.jpg",
-    "assets/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch-13.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_95fa3a577174933bad0600f894b44369.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_f9bbd8739d0873360b2bdd371aa73135.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_19e98c3e932d4638e2d4676297c44a7d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_56776cb96bc94f008dc7d52fcd1eb13c.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_e4d7d047fc74db686de591e0bd1bcf0e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_42277d8522a9af5c874978d130c4a4e5.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_ba2bd1a0d4ca9803ba60b01869a5e1ab.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_24df6ac140aff9abe6c3300b8c378148.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_84fd17b2ed8b34f3c7da0830a9a1bd2c.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_4d3d49ec1ec6c0dc95bddbd9eb6f8516.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_a4fc83cf1a3e668e3bb7197b9244af14.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_8d08b45fffdb3d00914928b0c2b8cd7f.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/17/a83636955eea01152d325c4fdf580139/photo_ebdad6cdadaf8787d53d98ad42b12066.jpg"
    ],
    "schema": 3
   },
@@ -6872,188 +6872,6 @@
    "schema": 3
   },
   {
-   "id": "proche-clementville-dernier-etage-avec-garage",
-   "titre": "Proche Clémentville, dernier étage avec garage.",
-   "ville": "Montpellier",
-   "type": "vente",
-   "prix": 284000.0,
-   "surface": 90.64,
-   "chambres": 3,
-   "sdb": 2,
-   "badges": [],
-   "description_html": "<p>Montpellier Clémenville / St Clément</p><p>Grand appartement traversant au 4e et dernier étage avec ascenseur ; pas de voisin au-dessus, pas de bruit, juste le silence. Ce 4 pièces vit grand et s’organise avec intelligence. La lumière entre généreusement à toute heure, jusqu’à la terrasse ouverte sur la verdure, sans vis-à-vis : l’endroit idéal pour le café du matin et les soirées d’été.Tout est à portée de pas : tramway et bus à deux minutes, commerces en bas de la rue, écoles du quartier, clinique Clémentville. Le chauffage individuel au gaz assure un confort en toutes saisons, en toute autonomie.Un garage fermé en sous-sol complète l’ensemble, dans ce secteur, c’est une certitude, pas un détail.</p><p>Afin de vous accompagner dans votre projet d’achat, merci de bien vouloir nous contacter pour toute information complémentaire ou pour organiser une visite. Pour plus de renseignements, merci de me contacter</p><p>Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "90.64 m²"
-      ],
-      [
-       "Pièces",
-       "4"
-      ],
-      [
-       "Chambres",
-       "3"
-      ],
-      [
-       "Salles d'eau",
-       "2"
-      ],
-      [
-       "WC",
-       "2"
-      ],
-      [
-       "Étage",
-       "4 / 4"
-      ],
-      [
-       "Année de construction",
-       "1983"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Exposition",
-       "Est Ouest"
-      ],
-      [
-       "Ascenseur",
-       "Oui"
-      ],
-      [
-       "Terrasse",
-       "Oui"
-      ],
-      [
-       "Garage",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "284 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "99"
-      ],
-      [
-       "Charges annuelles",
-       "3 055 €/an"
-      ],
-      [
-       "Procédures en cours",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Secteur",
-       "clinique St Clément"
-      ],
-      [
-       "Ville",
-       "Montpellier"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "12_587",
-   "agent": {
-    "nom": "Elodie CHARDOT",
-    "email": "elodie.chardot@lotier-immobilier.com",
-    "telephone": "0673035196",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 196,
-     "classe": "D"
-    },
-    "ges": {
-     "valeur": 42,
-     "classe": "D"
-    }
-   },
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/proche-clementville-dernier-etage-avec-garage.jpg",
-   "photos": [
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-1.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-2.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-3.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-4.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-5.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-6.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-7.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-8.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-9.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-10.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-11.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-12.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-13.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-14.jpg",
-    "assets/annonces/proche-clementville-dernier-etage-avec-garage-15.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_0eba5d14a9c45e79f0a2ae505b9a0ba5.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_bc86269cabc8e289823717ee8be8c23d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_01d722e65e196bb2f4b18de19ba932f4.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_feacc0843b928bc55b13a34c06b00a3b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_a0d077dc494a4097887930a26e92546c.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_28816c1228460c324c07d401e5be3a7c.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_06890e08049e249fbfd0620bcfab0391.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_9c20eafa6c503566f034c5e601e2d994.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_cd1226bc6a8fd53414a4c9e27cc0ef9d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_ee4ae767b15ffe541d44eca5049f774b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_dab81f467df2fa4345a099eec86a6d59.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_8b0c064688b2f3000a609e6c15611c20.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_4af5c860f2f8f15ca0cdca8440a5426d.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_c6aae1455a429d69e28b4bf0cfe321c6.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/744af10a27e431ccbaae3b5e628f2380/photo_135b6b45906a2aa69707fb366582c29f.jpg"
-   ],
-   "schema": 3
-  },
-  {
    "id": "appartement-loue-de-50-m2-en-rez-de-jardin-situe-dans-une-r",
    "titre": "Appartement loué de 50 m2 en rez-de-jardin situé dans une r",
    "ville": "Carcassonne",
@@ -11116,154 +10934,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/78b94859922e332f47ec5f55f95a499d/photo_bee0eb58482a4cda5ea54110a5baec69.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/78b94859922e332f47ec5f55f95a499d/photo_379042c69bafb78b4d973db2dfda3725.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/78b94859922e332f47ec5f55f95a499d/photo_875983202b343605cf0148d36b8c7c5e.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "clarensac-maison-de-village-3-chambres-environ-100m2-d",
-   "titre": "CLARENSAC – MAISON DE VILLAGE – 3 CHAMBRES – environ 100M2 d",
-   "ville": "Clarensac",
-   "type": "vente",
-   "prix": 149000.0,
-   "surface": 80.0,
-   "chambres": 3,
-   "sdb": 1,
-   "badges": [
-    "Exclusivité"
-   ],
-   "description_html": "<p>BAISSE DE PRIX – RETOUR À LA VENTE CAUSE DEMENAGEMENT – CLARENSAC – MAISON DE VILLAGE – 3 CHAMBRES – ENVIRON 100M2 DONT + 20M2 DE COMBLE AMÉNAGÉE</p><p>Située dans le charmant village de Clarensac, cette jolie maison de village offre une superficie d’environ 100m2 (dont 20m2 de comble amènagée) avec de nombreux atouts.</p><p>Au rez-de-chaussée, vous trouverez une cuisine ouverte entièrement équipée, idéale pour préparer de délicieux repas en famille ou entre amis. Le salon cocoonoing vous offre un espace de détente agréable, parfait pour se relaxer après une longue journée.</p><p>À l’étage, vous découvrirez trois chambres confortables, offrant un espace privé propice au repos et à la tranquillité. Une salle de bain moderne avec douche à l’italienne et baignoire complète cet étage.</p><p>Située dans une petite rue calme, à proximité des commerces, des écoles et des transports en commun, cette maison est l’endroit idéal pour installer votre famille et profiter d’une vie paisible dans un cadre pittoresque.</p><p>Ne laissez pas passer cette opportunité unique d’acquérir cette jolie maison de village à Clarensac. Contactez-moi dès maintenant pour organiser une visite et découvrir toutes ses qualités. Elodie CHARDOT, votre conseillere LOTIER immobiler.</p><p>Cette annonce vous est proposée par ELODIE CHARDOT – SARL – NoRSAC: 882042278, Enregistré à Greffe du tribunal de commerce de NIMES</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Maison/villa"
-      ],
-      [
-       "Surface habitable",
-       "80 m²"
-      ],
-      [
-       "Pièces",
-       "4"
-      ],
-      [
-       "Chambres",
-       "3"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Nombre d'étages",
-       "2"
-      ],
-      [
-       "Année de construction",
-       "1880"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique radiateur"
-      ],
-      [
-       "Cuisine",
-       "Américaine"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Prix FAI",
-       "149 000 €"
-      ],
-      [
-       "Charge honoraires",
-       "Vendeur"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Clarensac"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "12_329",
-   "agent": {
-    "nom": "Elodie CHARDOT",
-    "email": "elodie.chardot@lotier-immobilier.com",
-    "telephone": "0673035196",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 200,
-     "classe": "D"
-    },
-    "ges": {
-     "valeur": 30,
-     "classe": "D"
-    },
-    "depenses_min": 1150,
-    "depenses_max": 1990,
-    "prix_energies": "01/01/2000"
-   },
-   "mentions_prix": [],
-   "honoraires": null,
-   "photo": "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d.jpg",
-   "photos": [
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-1.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-2.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-3.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-4.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-5.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-6.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-7.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-8.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-9.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-10.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-11.jpg",
-    "assets/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d-12.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_b0cfa06200d656523aa622161b8f18bb.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_c8b27369397f6af6a11a1d1a8d448f96.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_c68b55dac37f5ae281fa0962d614b832.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_5a12f85e90d646b0af90a864edf79011.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_8bbc9a68a18be66f406eeb6dcd685adf.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_ab02006d30b30552a3355de4d3c446e4.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_b76d28320102e02069872fc58df7ef4c.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_742e610b48a371b2eb6952b82f0cdeb2.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_e748b3a1c93614a384e729fccf7b859c.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_8d1a3418c6b6f96c2c10722b7d3bc26b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_c8458e5b2c979ffc0512c4be82a5ec1b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/12/6ccf80704a57773f2867f1905137a12e/photo_2441fabb28053255b296611e48e8eba0.jpg"
    ],
    "schema": 3
   },

@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 138,
+  "liens": 135,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 137,
+  "pages_indexables": 134,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -840,7 +840,7 @@
    "problemes": []
   },
   {
-   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/",
+   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/",
    "type": "autre",
    "balisage": [
     "BreadcrumbList",
@@ -927,25 +927,6 @@
     "House",
     "ListItem",
     "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/",
-   "type": "autre",
-   "balisage": [
-    "BreadcrumbList",
-    "House",
-    "ListItem",
     "Offer",
     "Person",
     "Place",
@@ -1691,26 +1672,6 @@
    "balisage": [
     "BreadcrumbList",
     "House",
-    "ListItem",
-    "LocationFeatureSpecification",
-    "Offer",
-    "Person",
-    "Place",
-    "PostalAddress",
-    "PropertyValue",
-    "QuantitativeValue",
-    "RealEstateListing",
-    "WebPage"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/",
-   "type": "autre",
-   "balisage": [
-    "Apartment",
-    "BreadcrumbList",
     "ListItem",
     "LocationFeatureSpecification",
     "Offer",
@@ -2508,22 +2469,6 @@
   },
   {
    "url": "https://lotier.immo/nos-annonces/vente-caveirac/",
-   "type": "autre",
-   "balisage": [
-    "Answer",
-    "BreadcrumbList",
-    "City",
-    "CollectionPage",
-    "FAQPage",
-    "ItemList",
-    "ListItem",
-    "Question"
-   ],
-   "markdown": true,
-   "problemes": []
-  },
-  {
-   "url": "https://lotier.immo/nos-annonces/vente-montpellier/",
    "type": "autre",
    "balisage": [
     "Answer",

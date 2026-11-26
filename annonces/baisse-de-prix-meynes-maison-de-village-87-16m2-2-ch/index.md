@@ -1,47 +1,48 @@
-# Maison 4 pièces 80 m² à vendre à Clarensac
+# Maison 3 pièces 87 m² à vendre à Meynes
 
-> Maison 4 pièces 80 m² à vendre à Clarensac, 3 chambres, 149 000 €. BAISSE DE PRIX – RETOUR À LA VENTE CAUSE DEMENAGEMENT – CLARENSAC – MAISON DE VILLAGE – 3…
+> Maison 3 pièces 87 m² à vendre à Meynes, 2 chambres, 243 000 €. À Meynes, charmant village situé à seulement 15 minutes de Nîmes, découvrez cette magnifique…
 
-Source : https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/
+Source : https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/
 
-Clarensac – maison de village – 3 chambres – environ 100m2 d
+Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
-**149 000 €** · Clarensac · 80 m² · 3 chambres · 1 salle d'eau/bain
+**243 000 €** · Meynes · 87,16 m² · 2 chambres · 1 salle d'eau/bain
 
- VENTE 1 / 12
+ VENTE 1 / 13
 
 ## En bref
 
-Maison de 80 m² à vendre à Clarensac (Gard, 30) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 149 000 €, honoraires à la charge du vendeur. Construction de 1880, chauffage individuel électrique radiateur, classe énergie D (200 kWh/m²/an), classe climat D. Référence 12_329, suivie par Elodie Chardot (LOTIER Immobilier).
+Maison de 87,16 m² à vendre à Meynes (Gard, 30) : 3 pièces, 2 chambres et 1 salle d'eau ou de bain. Prix : 243 000 €, honoraires à la charge du vendeur. Le bien comprend : garage et climatisation. Construction de 1940, chauffage individuel électrique radiateur, exposition est, classe énergie C (103 kWh/m²/an), classe climat A. Référence 12_521, suivie par Elodie Chardot (LOTIER Immobilier).
 
 ## Informations clés
 
-- **80 m²** Surface
-- **4** Pièces
-- **3** Chambres
+- **87,16 m²** Surface
+- **3** Pièces
+- **2** Chambres
 - **1** Salle d'eau/bain
-- **1880** Construction
+- **1940** Construction
 - **Individuel électrique radiateur** Chauffage
 
 ## Description
 
-BAISSE DE PRIX – RETOUR À LA VENTE CAUSE DEMENAGEMENT – CLARENSAC – MAISON DE VILLAGE – 3 CHAMBRES – ENVIRON 100 m² DONT + 20 m² DE COMBLE AMÉNAGÉE
+BAISSE DE PRIX
 
-Située dans le charmant village de Clarensac, cette jolie maison de village offre une superficie d’environ 100 m² (dont 20 m² de comble amènagée) avec de nombreux atouts.
+À Meynes, charmant village situé à seulement 15 minutes de Nîmes, découvrez cette magnifique maison de village entièrement rénovée avec soin. D’une superficie totale de 87,16 m² répartis sur trois niveaux, elle offre un cadre de vie moderne, chaleureux et sans aucun travaux à prévoir. Dès l’entrée, vous apprécierez les rangements intégrés, la buanderie fonctionnelle et le WC indépendant, ainsi que le garage carrelé équipé d’une porte automatique, idéal pour un usage quotidien.
 
-Au rez-de-chaussée, vous trouverez une cuisine ouverte entièrement équipée, idéale pour préparer de délicieux repas en famille ou entre amis. Le salon cocoonoing vous offre un espace de détente agréable, parfait pour se relaxer après une longue journée.
+Au premier étage, la grande pièce à vivre lumineuse constitue un véritable coup de coeur. Elle accueille une cuisine contemporaine laquée blanc, totalement équipée et pensée pour être aussi belle que pratique, avec de nombreux rangements et un accès direct à un balcon agréable. La qualité de rénovation se ressent dans chaque détail : double vitrage, pompe à chaleur, climatisation réversible, spots encastrés, rambarde en fer forgé et visiophone.
 
-À l’étage, vous découvrirez trois chambres confortables, offrant un espace privé propice au repos et à la tranquillité. Une salle de bain moderne avec douche à l’italienne et baignoire complète cet étage.
+Le dernier niveau abrite deux chambres confortables, toutes deux dotées de placards aménagés et d’un éclairage soigné. La salle d’eau, élégante et moderne, offre une grande douche à l’italienne, un meuble double vasque et un second WC indépendant. La toiture, entièrement neuve et couverte par une garantie décennale, vous assure une tranquillité totale pour les années à venir.
 
-Située dans une petite rue calme, à proximité des commerces, des écoles et des transports en commun, cette maison est l’endroit idéal pour installer votre famille et profiter d’une vie paisible dans un cadre pittoresque.
-
-Ne laissez pas passer cette opportunité unique d’acquérir cette jolie maison de village à Clarensac. Contactez-moi dès maintenant pour organiser une visite et découvrir toutes ses qualités. Elodie CHARDOT, votre conseillere LOTIER immobiler.
+Cette maison est idéale pour ceux qui recherchent un bien impeccable, lumineux et prêt à habiter dans un environnement calme et recherché. Une très belle opportunité à saisir rapidement !
 
 - Annonce rédigée et publiée par un Agent Mandataire -
 
 ## Les atouts du bien
 
-- Cuisine américaine
+- Garage
+- Climatisation
+- Cuisine américaine équipée
+- Exposition est
 
 ## Caractéristiques
 
@@ -51,28 +52,25 @@ Ne laissez pas passer cette opportunité unique d’acquérir cette jolie maison
 Maison/villa
 
 **Surface habitable**
-80 m²
+87.16 m²
 
 **Pièces**
-4
-
-**Chambres**
 3
 
-**Salles de bain**
-1
+**Chambres**
+2
 
 **Salles d'eau**
 1
 
 **WC**
-1
-
-**Nombre d'étages**
 2
 
+**Nombre d'étages**
+3
+
 **Année de construction**
-1880
+1940
 
 ### Équipements et confort
 
@@ -80,25 +78,34 @@ Maison/villa
 Individuel électrique radiateur
 
 **Cuisine**
-Américaine
+Américaine équipée
+
+**Exposition**
+Est
+
+**Garage**
+Oui
+
+**Climatisation**
+Oui
 
 ## Détail du prix
 
-- Prix **149 000 €** *Frais d'agence inclus*
+- Prix **243 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
-DPE · Consommation d'énergie **200** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **30** kg CO₂/m².an A B C D E F G
+DPE · Consommation d'énergie **103** kWh/m².an A B C D E F G GES · Émissions de gaz à effet de serre **3** kg CO₂/m².an A B C D E F G
 
-Dépenses annuelles d’énergie estimées : **entre 1 150 € et 1 990 €** par an.
+Dépenses annuelles d’énergie estimées : **entre 750 € et 1 070 €** par an.
 
 **Voir le diagnostic complet**
 
-DPE classe D, 200 kWh/m².an ; GES classe D, 30 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
+DPE classe C, 103 kWh/m².an ; GES classe A, 3 kg CO₂/m².an.Diagnostic de performance énergétique Logement économe Logement énergivore Émissions de gaz à effet de serre Faible émission Forte émission
 
-Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 1 150 € et 1 990 € par an.
+Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 750 € et 1 070 € par an.
 
-Prix moyens des énergies indexés au 01/01/2000 (abonnement compris).
+Prix moyens des énergies indexés au 01/01/2021 (abonnement compris).
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : [www.georisques.gouv.fr](https://www.georisques.gouv.fr).
 
@@ -129,12 +136,12 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 149 000 €
+ 243 000 €
 
-Réf. 12_329
+Réf. 12_521
 
-- 80 m²
-- 3 chambres
+- 87,16 m²
+- 2 chambres
 - 1 salle d'eau/bain
 
  **[Élodie Chardot](https://lotier.immo/nos-agents/elodie-chardot/)** Votre contact LOTIER Immobilier
@@ -150,14 +157,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Elodie
 
- 320 000 €
-
-### Clarensac dans la vaunage entre Nîmes et Montpellier maison
-
- Clarensac · 127 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -165,6 +164,14 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ 320 000 €
+
+### Clarensac dans la vaunage entre Nîmes et Montpellier maison
+
+ Clarensac · 127 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
 
  365 000 €
 
@@ -184,14 +191,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- 243 000 €
-
-### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
-
- Meynes · 87,16 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
-
  230 000 €
 
 ### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
@@ -207,6 +206,14 @@ Annonce proposée par LOTIER Immobilier.
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ 299 000 €
+
+### Coup de coeur à Aubais : T3 neuf avec terrasse dans une résid
+
+ Aubais · 69 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

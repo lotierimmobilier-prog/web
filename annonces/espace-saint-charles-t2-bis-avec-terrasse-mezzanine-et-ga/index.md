@@ -182,14 +182,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/montpellier-appartement-2-pieces-avec-cave-et-cour-privati/)[Être rappelé](https://lotier.immo/contact/)
 
- 284 000 €
-
-### Proche Clémentville, dernier étage avec garage.
-
- Montpellier · 90,64 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
-
  850 € par mois
 
 ### Montpellier estanove appartement 2 chambres idéal étud
@@ -206,15 +198,15 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
 
-## Biens à proximité
-
  243 000 €
 
 ### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
  Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
 
  230 000 €
 
@@ -231,6 +223,14 @@ Annonce proposée par LOTIER Immobilier.
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ 320 000 €
+
+### Clarensac dans la vaunage entre Nîmes et Montpellier maison
+
+ Clarensac · 127 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

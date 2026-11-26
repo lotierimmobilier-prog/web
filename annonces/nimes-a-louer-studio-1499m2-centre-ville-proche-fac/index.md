@@ -155,13 +155,13 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-quartier-route-duzes-maison-type-5-avec-magnifiqu/)[Être rappelé](https://lotier.immo/contact/)
 
- 320 000 €
+ 243 000 €
 
-### Clarensac dans la vaunage entre Nîmes et Montpellier maison
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
 
- Clarensac · 127 m² · 3 ch.
+ Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
 ## Biens à proximité
 

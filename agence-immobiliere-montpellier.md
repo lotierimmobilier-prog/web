@@ -100,14 +100,6 @@ Des quartiers animés et proches du centre, très recherchés par les étudiants
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
 
- 284 000 €
-
-### Proche Clémentville, dernier étage avec garage.
-
- Montpellier · 90,64 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
-
  261 000 €
 
 ### Investissement Nîmes Murs commerciaux + studio loué 111
@@ -124,7 +116,15 @@ Des quartiers animés et proches du centre, très recherchés par les étudiants
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/)[Être rappelé](https://lotier.immo/contact/)
 
-[Biens à vendre à Montpellier (3)](https://lotier.immo/nos-annonces/vente-montpellier/) · [Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
+ 250 000 €
+
+### Nîmes Costières appartement type 3 avec terrasse et garage
+
+ Nîmes · 84 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
+
+[Voir toutes nos annonces](https://lotier.immo/nos-annonces/)
 
  Questions fréquentes
 

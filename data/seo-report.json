@@ -2,14 +2,14 @@
  "version": 1,
  "site": "https://lotier.immo",
  "resume": {
-  "pages_auditees": 142,
-  "pages_indexables": 137,
-  "erreurs": 142,
-  "avertissements": 1,
+  "pages_auditees": 139,
+  "pages_indexables": 134,
+  "erreurs": 139,
+  "avertissements": 2,
   "pages_sans_probleme": 0,
   "problemes_par_type": {
-   "contenu-court": 1,
-   "lien-casse": 142
+   "contenu-court": 2,
+   "lien-casse": 139
   }
  },
  "fichiers": {
@@ -19,7 +19,7 @@
   "robots_declare_sitemap": true,
   "content_signal": true,
   "carte_serveur_mcp": true,
-  "pages_markdown": 141
+  "pages_markdown": 138
  },
  "problemes_site": [],
  "pages": [
@@ -149,11 +149,11 @@
    "indexable": true,
    "titre": "Agence immobilière Montpellier : vente, location, syndic | LOTIER",
    "description": "LOTIER Immobilier, agence immobilière indépendante à Montpellier : vente, location, gestion locative et syndic de copropriété. Estimez votre bien avec un conseiller.",
-   "mots": 819,
+   "mots": 815,
    "h1": "Agence immobilière à Montpellier",
    "nb_h2": 17,
    "images": 15,
-   "liens": 110,
+   "liens": 109,
    "markdown": true,
    "problemes": [
     {
@@ -549,7 +549,7 @@
    "indexable": true,
    "titre": "Fonds de commerce 49 m² à vendre à Nîmes | LOTIER",
    "description": "Fonds de commerce 49 m² à vendre à Nîmes, 45 000 €. À VENDRE FOND DE COMMERCE – CENTRE VILLE DE NÎMES – ENVIRON 49 m² – TRÈS BIEN SITUÉ. Je vous propose ce…",
-   "mots": 705,
+   "mots": 708,
    "h1": "Fonds de commerce 49 m² à vendre à Nîmes",
    "nb_h2": 18,
    "images": 16,
@@ -629,7 +629,7 @@
    "indexable": true,
    "titre": "Maison 5 pièces 89 m² à vendre à Alès | LOTIER",
    "description": "Maison 5 pièces 89 m² à vendre à Alès, 4 chambres, 164 300 €. À VENDRE à ALES (Gard) – Maison des années 60 avec jardin, à rafraîchir selon vos goûts Implantée…",
-   "mots": 1033,
+   "mots": 1036,
    "h1": "Maison 5 pièces 89 m² à vendre à Alès",
    "nb_h2": 20,
    "images": 27,
@@ -704,16 +704,16 @@
    ]
   },
   {
-   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/",
-   "fichier": "annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/index.html",
+   "url": "https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/",
+   "fichier": "annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/index.html",
    "indexable": true,
    "titre": "Maison 3 pièces 87 m² à vendre à Meynes | LOTIER",
    "description": "Maison 3 pièces 87 m² à vendre à Meynes, 2 chambres, 243 000 €. À Meynes, charmant village situé à seulement 15 minutes de Nîmes, découvrez cette magnifique…",
-   "mots": 986,
+   "mots": 1084,
    "h1": "Maison 3 pièces 87 m² à vendre à Meynes",
-   "nb_h2": 19,
-   "images": 25,
-   "liens": 89,
+   "nb_h2": 20,
+   "images": 29,
+   "liens": 101,
    "markdown": true,
    "problemes": [
     {
@@ -789,30 +789,10 @@
    "indexable": true,
    "titre": "Maison 4 pièces 127 m² à vendre à Clarensac | LOTIER",
    "description": "Maison 4 pièces 127 m² à vendre à Clarensac, 3 chambres, 320 000 €. À VENDRE à CLARENSAC (Gard) – Maison de plain-pied avec piscine, jardin clos et panneaux…",
-   "mots": 1053,
+   "mots": 1056,
    "h1": "Maison 4 pièces 127 m² à vendre à Clarensac",
    "nb_h2": 20,
    "images": 30,
-   "liens": 101,
-   "markdown": true,
-   "problemes": [
-    {
-     "niveau": "erreur",
-     "code": "lien-casse",
-     "message": "Lien interne cassé : ../../jeu/"
-    }
-   ]
-  },
-  {
-   "url": "https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/",
-   "fichier": "annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/index.html",
-   "indexable": true,
-   "titre": "Maison 4 pièces 80 m² à vendre à Clarensac | LOTIER",
-   "description": "Maison 4 pièces 80 m² à vendre à Clarensac, 3 chambres, 149 000 €. BAISSE DE PRIX – RETOUR À LA VENTE CAUSE DEMENAGEMENT – CLARENSAC – MAISON DE VILLAGE – 3…",
-   "mots": 1024,
-   "h1": "Maison 4 pièces 80 m² à vendre à Clarensac",
-   "nb_h2": 20,
-   "images": 28,
    "liens": 101,
    "markdown": true,
    "problemes": [
@@ -889,11 +869,11 @@
    "indexable": true,
    "titre": "Appartement 2 pièces 41 m² à vendre à Montpellier | LOTIER",
    "description": "Appartement 2 pièces 41 m² à vendre à Montpellier, 1 chambre, 241 000 €. Situé dans l’un des secteurs les plus prisés de Montpellier, à deux pas du Jardin des…",
-   "mots": 983,
+   "mots": 985,
    "h1": "Appartement 2 pièces 41 m² à vendre à Montpellier",
    "nb_h2": 20,
    "images": 26,
-   "liens": 102,
+   "liens": 101,
    "markdown": true,
    "problemes": [
     {
@@ -1349,7 +1329,7 @@
    "indexable": true,
    "titre": "Immeuble 142 m² à vendre à Marguerittes | LOTIER",
    "description": "Immeuble 142 m² à vendre à Marguerittes, 255 000 €. À Marguerittes, dans le Gard, découvrez cet immeuble composé d’un local commercial et de deux logements…",
-   "mots": 835,
+   "mots": 838,
    "h1": "Immeuble 142 m² à vendre à Marguerittes",
    "nb_h2": 19,
    "images": 24,
@@ -1369,11 +1349,11 @@
    "indexable": true,
    "titre": "Appartement 2 pièces 52 m² à vendre à Montpellier | LOTIER",
    "description": "Appartement 2 pièces 52 m² à vendre à Montpellier, 1 chambre, 155 000 €. À deux pas du nouvel arrêt de tramway « Place du 8 Mai 1945 », au sein d’une petite…",
-   "mots": 956,
+   "mots": 958,
    "h1": "Appartement 2 pièces 52 m² à vendre à Montpellier",
    "nb_h2": 20,
    "images": 24,
-   "liens": 102,
+   "liens": 101,
    "markdown": true,
    "problemes": [
     {
@@ -1389,7 +1369,7 @@
    "indexable": true,
    "titre": "Appartement 3 pièces 70 m² à louer à Montpellier | LOTIER",
    "description": "Appartement 3 pièces 70 m² à louer à Montpellier, 2 chambres, 850 € par mois. Situé dans le quartier Estanove à Montpellier, dans un environnement agréable et…",
-   "mots": 697,
+   "mots": 702,
    "h1": "Appartement 3 pièces 70 m² à louer à Montpellier",
    "nb_h2": 18,
    "images": 22,
@@ -1409,7 +1389,7 @@
    "indexable": true,
    "titre": "Studio 15 m² à louer à Nîmes | LOTIER",
    "description": "Studio 15 m² à louer à Nîmes, 415 € par mois. NÎMES – A LOUER – STUDIO – 14,99 m² – CENTRE VILLE PROCHE PLACE DE LA REVOLUTION, DANS UN PETIT IMMEUBLE DE DEUX…",
-   "mots": 715,
+   "mots": 718,
    "h1": "Studio 15 m² à louer à Nîmes",
    "nb_h2": 19,
    "images": 20,
@@ -1429,7 +1409,7 @@
    "indexable": true,
    "titre": "Fonds de commerce 155 m² à vendre à Nîmes | LOTIER",
    "description": "Fonds de commerce 155 m² à vendre à Nîmes, 365 000 €. À VENDRE Fonds de commerce Restaurant Nîmes Emplacement de choix au coeur d’un secteur dynamique ! Situé…",
-   "mots": 941,
+   "mots": 944,
    "h1": "Fonds de commerce 155 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 21,
@@ -1549,7 +1529,7 @@
    "indexable": true,
    "titre": "Maison 5 pièces 116 m² à vendre à Nîmes | LOTIER",
    "description": "Maison 5 pièces 116 m² à vendre à Nîmes, 3 chambres, 395 000 €. NÎMES Quartier Route d’Uzès Propriété de charme avec vue panoramique exceptionnelle Située dans…",
-   "mots": 1188,
+   "mots": 1191,
    "h1": "Maison 5 pièces 116 m² à vendre à Nîmes",
    "nb_h2": 20,
    "images": 37,
@@ -1574,26 +1554,6 @@
    "nb_h2": 20,
    "images": 40,
    "liens": 103,
-   "markdown": true,
-   "problemes": [
-    {
-     "niveau": "erreur",
-     "code": "lien-casse",
-     "message": "Lien interne cassé : ../../jeu/"
-    }
-   ]
-  },
-  {
-   "url": "https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/",
-   "fichier": "annonces/proche-clementville-dernier-etage-avec-garage/index.html",
-   "indexable": true,
-   "titre": "Appartement 4 pièces 91 m² à vendre à Montpellier | LOTIER",
-   "description": "Appartement 4 pièces 91 m² à vendre à Montpellier, 3 chambres, 284 000 €. Montpellier Clémenville / St Clément Grand appartement traversant au 4e et dernier…",
-   "mots": 987,
-   "h1": "Appartement 4 pièces 91 m² à vendre à Montpellier",
-   "nb_h2": 20,
-   "images": 31,
-   "liens": 102,
    "markdown": true,
    "problemes": [
     {
@@ -1649,7 +1609,7 @@
    "indexable": true,
    "titre": "Appartement 3 pièces 136 m² à vendre à Saint-Christol-lez-Alès",
    "description": "Appartement 3 pièces 136 m² à vendre à Saint-Christol-lez-Alès, 122 000 €. SAINT-CHRISTOL-LÈS-ALÈS 121,44 m² 2 LOTS TERRASSE 26 m² FORT POTENTIEL Idéalement…",
-   "mots": 957,
+   "mots": 960,
    "h1": "Appartement 3 pièces 136 m² à vendre à Saint-Christol-lez-Alès",
    "nb_h2": 19,
    "images": 26,
@@ -1769,7 +1729,7 @@
    "indexable": true,
    "titre": "Terrain 840 m² à vendre à Uzès | LOTIER",
    "description": "Terrain 840 m² à vendre à Uzès, 214 000 €. Dans un environnement privilégié, à seulement quelques minutes du centre historique d’Uzès, découvrez ce terrain…",
-   "mots": 687,
+   "mots": 690,
    "h1": "Terrain 840 m² à vendre à Uzès",
    "nb_h2": 18,
    "images": 20,
@@ -2334,7 +2294,7 @@
    "indexable": true,
    "titre": "Agence immobilière Béziers, Montpellier, Nîmes | LOTIER",
    "description": "Agence immobilière indépendante à Béziers, Montpellier, Nîmes et Carcassonne : vente, location, gestion locative et syndic de copropriété. Estimez votre bien.",
-   "mots": 1282,
+   "mots": 1287,
    "h1": "Votre bien, notre métier.",
    "nb_h2": 19,
    "images": 54,
@@ -2453,18 +2413,23 @@
    "fichier": "nos-agents/celine-aubin/index.html",
    "indexable": true,
    "titre": "Céline Aubin, agent immobilier à Meynes | LOTIER",
-   "description": "Céline Aubin, agent commercial indépendant LOTIER Immobilier. Secteur : Meynes. Coordonnées et annonces.",
-   "mots": 167,
+   "description": "Céline Aubin, agent commercial indépendant LOTIER Immobilier. Secteur : Meynes. Coordonnées et présentation.",
+   "mots": 125,
    "h1": "Céline Aubin",
    "nb_h2": 11,
-   "images": 6,
-   "liens": 81,
+   "images": 5,
+   "liens": 80,
    "markdown": true,
    "problemes": [
     {
      "niveau": "erreur",
      "code": "lien-casse",
      "message": "Lien interne cassé : ../../jeu/"
+    },
+    {
+     "niveau": "avertissement",
+     "code": "contenu-court",
+     "message": "Contenu court (125 mots)."
     }
    ]
   },
@@ -2474,11 +2439,11 @@
    "indexable": true,
    "titre": "Élodie Chardot, agent immobilier à Nîmes | LOTIER",
    "description": "Élodie Chardot, agent commercial indépendant LOTIER Immobilier. Secteur : Nîmes, Montpellier. Coordonnées et annonces.",
-   "mots": 554,
+   "mots": 538,
    "h1": "Élodie Chardot",
    "nb_h2": 11,
-   "images": 19,
-   "liens": 120,
+   "images": 18,
+   "liens": 117,
    "markdown": true,
    "problemes": [
     {
@@ -2514,7 +2479,7 @@
    "indexable": true,
    "titre": "Agents immobiliers à Béziers, Nîmes, Carcassonne | LOTIER",
    "description": "Les agents LOTIER Immobilier par secteur : Béziers, Carcassonne, Narbonne, Montpellier, Nîmes. Coordonnées, annonces et présentation de chaque conseiller.",
-   "mots": 210,
+   "mots": 207,
    "h1": "Nos agents, près de chez vous.",
    "nb_h2": 9,
    "images": 9,
@@ -2554,11 +2519,11 @@
    "indexable": true,
    "titre": "Nos annonces immobilières : vente et location | LOTIER",
    "description": "Annonces de vente et de location de LOTIER Immobilier à Béziers, Narbonne, Carcassonne, Montpellier, Nîmes et alentours : appartements, maisons, locaux, terrains.",
-   "mots": 1968,
+   "mots": 1922,
    "h1": "Nos annonces, ventes et locations.",
    "nb_h2": 10,
-   "images": 83,
-   "liens": 317,
+   "images": 81,
+   "liens": 310,
    "markdown": true,
    "problemes": [
     {
@@ -2594,11 +2559,11 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Béziers : 12 biens | LOTIER",
    "description": "12 biens à vendre à Béziers avec LOTIER Immobilier : 7 appartements, 3 immeubles, 1 local commercial et 1 maison, de 55 000 € à 357 000 €. Photos, prix, agent…",
-   "mots": 520,
+   "mots": 516,
    "h1": "Biens à vendre à Béziers.",
    "nb_h2": 10,
    "images": 16,
-   "liens": 119,
+   "liens": 118,
    "markdown": true,
    "problemes": [
     {
@@ -2614,11 +2579,11 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Capendu : 10 biens | LOTIER",
    "description": "10 biens à vendre à Capendu avec LOTIER Immobilier : 5 maisons, 1 appartement, 1 local commercial, 1 immeuble, 1 parking et 1 terrain, de 25 000 € à 350 000 €…",
-   "mots": 466,
+   "mots": 462,
    "h1": "Biens à vendre à Capendu.",
    "nb_h2": 10,
    "images": 14,
-   "liens": 111,
+   "liens": 110,
    "markdown": true,
    "problemes": [
     {
@@ -2634,11 +2599,11 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Carcassonne : 4 biens | LOTIER",
    "description": "4 biens à vendre à Carcassonne avec LOTIER Immobilier : 2 immeubles, 1 local commercial et 1 appartement, de 80 000 € à 230 000 €. Photos, prix, agent à…",
-   "mots": 325,
+   "mots": 321,
    "h1": "Biens à vendre à Carcassonne.",
    "nb_h2": 10,
    "images": 8,
-   "liens": 94,
+   "liens": 93,
    "markdown": true,
    "problemes": [
     {
@@ -2654,31 +2619,11 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Caveirac : 3 biens | LOTIER",
    "description": "3 biens à vendre à Caveirac avec LOTIER Immobilier : 3 appartements, de 220 000 € à 360 000 €. Photos, prix, agent à contacter.",
-   "mots": 310,
+   "mots": 306,
    "h1": "Biens à vendre à Caveirac.",
    "nb_h2": 10,
    "images": 7,
-   "liens": 90,
-   "markdown": true,
-   "problemes": [
-    {
-     "niveau": "erreur",
-     "code": "lien-casse",
-     "message": "Lien interne cassé : ../../jeu/"
-    }
-   ]
-  },
-  {
-   "url": "https://lotier.immo/nos-annonces/vente-montpellier/",
-   "fichier": "nos-annonces/vente-montpellier/index.html",
-   "indexable": true,
-   "titre": "Immobilier à vendre à Montpellier : 3 biens | LOTIER",
-   "description": "3 biens à vendre à Montpellier avec LOTIER Immobilier : 3 appartements, de 155 000 € à 284 000 €. Photos, prix, agent à contacter.",
-   "mots": 302,
-   "h1": "Biens à vendre à Montpellier.",
-   "nb_h2": 10,
-   "images": 7,
-   "liens": 91,
+   "liens": 89,
    "markdown": true,
    "problemes": [
     {
@@ -2694,11 +2639,11 @@
    "indexable": true,
    "titre": "Immobilier à vendre à Nîmes : 9 biens | LOTIER",
    "description": "9 biens à vendre à Nîmes avec LOTIER Immobilier : 5 appartements, 2 locaux commerciaux et 1 maison, de 45 000 € à 395 000 €. Photos, prix, agent à contacter.",
-   "mots": 448,
+   "mots": 444,
    "h1": "Biens à vendre à Nîmes.",
    "nb_h2": 10,
    "images": 13,
-   "liens": 109,
+   "liens": 108,
    "markdown": true,
    "problemes": [
     {

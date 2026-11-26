@@ -42,6 +42,14 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
 ## Les biens du moment
 
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+
  119 000 €
 
 ### Local commercial 160 m2 à vendre, Carcassonne
@@ -73,14 +81,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Laure-Minervois · 110 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
-
- 289 000 €
-
-### Immeuble de 4 lots 123,32 m2 Béziers
-
- Béziers · 95,32 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-4-lots-123-32-m2-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
  635 € par mois
 

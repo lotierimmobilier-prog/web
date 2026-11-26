@@ -154,6 +154,14 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/ales-maison-des-annees-60-de-90-m2-avec-jardin-et-parking-4/)[Être rappelé](https://lotier.immo/contact/)
 
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+
  320 000 €
 
 ### Clarensac dans la vaunage entre Nîmes et Montpellier maison
@@ -161,14 +169,6 @@ Annonce proposée par LOTIER Immobilier.
  Clarensac · 127 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/clarensac-dans-la-vaunage-entre-nimes-et-montpellier-maison/)[Être rappelé](https://lotier.immo/contact/)
-
- 149 000 €
-
-### Clarensac – maison de village – 3 chambres – environ 100m2 d
-
- Clarensac · 80 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

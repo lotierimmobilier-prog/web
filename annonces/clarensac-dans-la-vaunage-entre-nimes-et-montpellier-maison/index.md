@@ -184,14 +184,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Les autres biens de Elodie
 
- 149 000 €
-
-### Clarensac – maison de village – 3 chambres – environ 100m2 d
-
- Clarensac · 80 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
-
  45 000 €
 
 ### À vendre fond de commerce – centre ville de Nîmes – environ
@@ -199,6 +191,14 @@ Annonce proposée par LOTIER Immobilier.
  Nîmes · 48,96 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-fond-de-commerce-centre-ville-de-nimes-environ/)[Être rappelé](https://lotier.immo/contact/)
+
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
  365 000 €
 
@@ -218,14 +218,6 @@ Annonce proposée par LOTIER Immobilier.
 
 ## Biens à proximité
 
- 243 000 €
-
-### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
-
- Meynes · 87,16 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
-
  230 000 €
 
 ### Caveirac T2 neuf avec 153 m2 de jardin et frais de notaire
@@ -241,6 +233,14 @@ Annonce proposée par LOTIER Immobilier.
  Caveirac · 45,78 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/caveirac-t2-neuf-avec-patio-privatif-et-frais-de-notaire-r/)[Être rappelé](https://lotier.immo/contact/)
+
+ 299 000 €
+
+### Coup de coeur à Aubais : T3 neuf avec terrasse dans une résid
+
+ Aubais · 69 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/coup-de-coeur-a-aubais-t3-neuf-avec-terrasse-dans-une-resid/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

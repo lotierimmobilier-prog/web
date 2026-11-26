@@ -230,7 +230,7 @@ Annonce proposée par LOTIER Immobilier.
 
  Meynes · 87,16 m² · 2 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
  320 000 €
 

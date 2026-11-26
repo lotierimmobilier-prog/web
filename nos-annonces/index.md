@@ -4,9 +4,17 @@
 
 Source : https://lotier.immo/nos-annonces/
 
-66 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
+64 biens à vendre et 13 à louer autour de Béziers, Narbonne, Carcassonne, Montpellier et Nîmes. Un bien vous intéresse ? Un conseiller vous rappelle.
 
 ## Liste des annonces
+
+ 243 000 €
+
+### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
+
+ Meynes · 87,16 m² · 2 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
  635 € par mois
 
@@ -143,14 +151,6 @@ Source : https://lotier.immo/nos-annonces/
  Nîmes · 84 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/nimes-costieres-appartement-type-3-avec-terrasse-et-garage/)[Être rappelé](https://lotier.immo/contact/)
-
- 243 000 €
-
-### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
-
- Meynes · 87,16 m² · 2 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/baisse-de-prix-meynes-maison-de-village-8716m2-2-ch/)[Être rappelé](https://lotier.immo/contact/)
 
  533 € par mois
 
@@ -359,14 +359,6 @@ Source : https://lotier.immo/nos-annonces/
  Montpellier · 41,07 m² · 1 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/espace-saint-charles-t2-bis-avec-terrasse-mezzanine-et-ga/)[Être rappelé](https://lotier.immo/contact/)
-
- 284 000 €
-
-### Proche Clémentville, dernier étage avec garage.
-
- Montpellier · 90,64 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/proche-clementville-dernier-etage-avec-garage/)[Être rappelé](https://lotier.immo/contact/)
 
  80 000 €
 
@@ -591,14 +583,6 @@ Source : https://lotier.immo/nos-annonces/
  Béziers · 120 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-beziers-34-quartier-de-la-crouzette-maison-t7/)[Être rappelé](https://lotier.immo/contact/)
-
- 149 000 €
-
-### Clarensac – maison de village – 3 chambres – environ 100m2 d
-
- Clarensac · 80 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/clarensac-maison-de-village-3-chambres-environ-100m2-d/)[Être rappelé](https://lotier.immo/contact/)
 
  760 € par mois
 

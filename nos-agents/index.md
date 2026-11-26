@@ -23,7 +23,7 @@ Narbonne, Lézignan, Capendu, Trèbes, Carcassonne [Voir sa page et ses 29 annon
 
 Agent commercial indépendant · Nîmes
 
-Meynes [Voir sa page et son annonce](https://lotier.immo/nos-agents/celine-aubin/)[06 16 29 35 31](tel:+33616293531)
+Meynes [Voir sa page](https://lotier.immo/nos-agents/celine-aubin/)[06 16 29 35 31](tel:+33616293531)
 
 [celine.aubin@lotier-immobilier.com](mailto:celine.aubin@lotier-immobilier.com)
 -
@@ -32,7 +32,7 @@ Meynes [Voir sa page et son annonce](https://lotier.immo/nos-agents/celine-aubin
 
 Agent commercial indépendant · Nîmes · Montpellier
 
-Nîmes, Montpellier [Voir sa page et ses 14 annonces](https://lotier.immo/nos-agents/elodie-chardot/)[06 73 03 51 96](tel:+33673035196)
+Nîmes, Montpellier [Voir sa page et ses 13 annonces](https://lotier.immo/nos-agents/elodie-chardot/)[06 73 03 51 96](tel:+33673035196)
 
 [elodie.chardot@lotier-immobilier.com](mailto:elodie.chardot@lotier-immobilier.com)
 -
