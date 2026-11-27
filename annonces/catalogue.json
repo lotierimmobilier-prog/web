@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26",
+ "maj": "2026-11-27",
  "source": "LOTIER Immobilier",
  "site": "https://lotier.immo/",
  "licence": "Lecture libre ; citer LOTIER Immobilier et l'adresse de la fiche.",
@@ -370,14 +370,14 @@
    "url": "https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/",
    "titre": "Maison 4 pièces 110 m² à vendre à Laure-Minervois",
    "titre_agent": "Maison de 110m2 au total sur une parcelle de 2110m2",
-   "resume": "Maison de 110 m² à vendre à Laure-Minervois : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 200 000 €, honoraires à la charge du vendeur. Le bien comprend : parking et climatisation. Construction de 1982, chauffage individuel, exposition nord, classe énergie B (91 kWh/m²/an), classe climat A. Référence 2_BBV30000474, suivie par Barbara Bouba (LOTIER Immobilier).",
+   "resume": "Maison de 110 m² à vendre à Laure-Minervois : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 210 000 €, honoraires à la charge du vendeur. Le bien comprend : parking et climatisation. Construction de 1982, chauffage individuel, exposition nord, classe énergie B (91 kWh/m²/an), classe climat A. Référence 2_BBV30000474, suivie par Barbara Bouba (LOTIER Immobilier).",
    "transaction": "vente",
    "type_bien": "Maison",
    "ville": "Laure-Minervois",
    "departement": null,
    "departement_nom": null,
    "secteur": null,
-   "prix": 200000.0,
+   "prix": 210000.0,
    "prix_unite": "EUR",
    "mentions_prix": [],
    "surface_m2": 110.0,
@@ -414,13 +414,13 @@
     "Exposition": "Nord",
     "Parking": "Oui",
     "Climatisation": "Oui",
-    "Prix FAI": "200 000 €",
+    "Prix FAI": "210 000 €",
     "Charge honoraires": "Vendeur",
     "Ville": "Laure-Minervois",
     "Pays": "France"
    },
    "date_publication": "2026-11-20",
-   "date_mise_a_jour": "2026-11-23"
+   "date_mise_a_jour": "2026-11-27"
   },
   {
    "id": "immeuble-de-4-lots-123-32-m2-beziers",
@@ -1707,14 +1707,14 @@
    "url": "https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/",
    "titre": "Maison 4 pièces 105 m² à vendre à Trèbes",
    "titre_agent": "TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin",
-   "resume": "Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 207 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition est ouest, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).",
+   "resume": "Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 195 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition est ouest, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).",
    "transaction": "vente",
    "type_bien": "Maison",
    "ville": "Trèbes",
    "departement": "11",
    "departement_nom": "Aude",
    "secteur": null,
-   "prix": 207000.0,
+   "prix": 195000.0,
    "prix_unite": "EUR",
    "mentions_prix": [],
    "surface_m2": 105.0,
@@ -1756,13 +1756,13 @@
     "Ascenseur": "Non",
     "Terrasse": "Oui",
     "Climatisation": "Oui",
-    "Prix FAI": "207 000 €",
+    "Prix FAI": "195 000 €",
     "Charge honoraires": "Vendeur",
     "Ville": "Trèbes",
     "Pays": "France"
    },
    "date_publication": null,
-   "date_mise_a_jour": "2026-11-23"
+   "date_mise_a_jour": "2026-11-27"
   },
   {
    "id": "montpellier-appartement-2-pieces-avec-cave-et-cour-privati",

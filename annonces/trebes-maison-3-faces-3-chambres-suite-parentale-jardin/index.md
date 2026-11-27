@@ -1,18 +1,18 @@
 # Maison 4 pièces 105 m² à vendre à Trèbes
 
-> Maison 4 pièces 105 m² à vendre à Trèbes, 3 chambres, 207 000 €. À Trèbes, à quelques minutes de Carcassonne, découvrez cette maison 3 faces qui se distingue…
+> Maison 4 pièces 105 m² à vendre à Trèbes, 3 chambres, 195 000 €. À Trèbes, à quelques minutes de Carcassonne, découvrez cette maison 3 faces qui se distingue…
 
 Source : https://lotier.immo/annonces/trebes-maison-3-faces-3-chambres-suite-parentale-jardin/
 
 TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
 
-**207 000 €** · Trèbes · 105 m² · 3 chambres · 1 salle d'eau/bain
+**195 000 €** · Trèbes · 105 m² · 3 chambres · 1 salle d'eau/bain
 
  VENTE 1 / 26
 
 ## En bref
 
-Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 207 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition est ouest, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 105 m² à vendre à Trèbes (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 195 000 €, honoraires à la charge du vendeur. Le bien comprend : terrain de 315 m², terrasse et climatisation. Construction de 1970, chauffage individuel, exposition est ouest, classe énergie B (99 kWh/m²/an), classe climat A. Référence 2_BBV30000987, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -107,7 +107,7 @@ Oui
 
 ## Détail du prix
 
-- Prix **207 000 €** *Frais d'agence inclus*
+- Prix **195 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
@@ -153,7 +153,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 207 000 €
+ 195 000 €
 
 Réf. 2_BBV30000987
 

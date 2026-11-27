@@ -56,7 +56,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 200 000 €
+ 210 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
 
@@ -240,7 +240,7 @@ Source : https://lotier.immo/nos-annonces/
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-vendue-louee-et-meublee-investissement-locatif-cle/)[Être rappelé](https://lotier.immo/contact/)
 
- 207 000 €
+ 195 000 €
 
 ### TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin
 

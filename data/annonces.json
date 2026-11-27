@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26",
+ "maj": "2026-11-27",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
   {
@@ -928,7 +928,7 @@
    "titre": "Maison de 110m2 au total sur une parcelle de 2110m2",
    "ville": "Laure-Minervois",
    "type": "vente",
-   "prix": 200000.0,
+   "prix": 210000.0,
    "surface": 110.0,
    "chambres": 3,
    "sdb": 1,
@@ -994,7 +994,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "200 000 €"
+       "210 000 €"
       ],
       [
        "Charge honoraires",
@@ -4445,7 +4445,7 @@
    "titre": "TRÈBES Maison 3 faces, 3 chambres, suite parentale, jardin",
    "ville": "Trèbes",
    "type": "vente",
-   "prix": 207000.0,
+   "prix": 195000.0,
    "surface": 105.0,
    "chambres": 3,
    "sdb": 1,
@@ -4531,7 +4531,7 @@
      "lignes": [
       [
        "Prix FAI",
-       "207 000 €"
+       "195 000 €"
       ],
       [
        "Charge honoraires",

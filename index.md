@@ -74,7 +74,7 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-125-m2-cour-garage-vendue-louee-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
- 200 000 €
+ 210 000 €
 
 ### Maison de 110m2 au total sur une parcelle de 2110m2
 

@@ -1,18 +1,18 @@
 # Maison 4 pièces 110 m² à vendre à Laure-Minervois
 
-> Maison 4 pièces 110 m² à vendre à Laure-Minervois, 3 chambres, 200 000 €. À VENDRE Maison de plain-pied rénovée avec grand terrain Laure-Minervois (11) À…
+> Maison 4 pièces 110 m² à vendre à Laure-Minervois, 3 chambres, 210 000 €. À VENDRE Maison de plain-pied rénovée avec grand terrain Laure-Minervois (11) À…
 
 Source : https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/
 
 Maison de 110m2 au total sur une parcelle de 2110m2
 
-**200 000 €** · Laure-Minervois · 110 m² · 3 chambres · 1 salle d'eau/bain
+**210 000 €** · Laure-Minervois · 110 m² · 3 chambres · 1 salle d'eau/bain
 
  VENTE 1 / 27
 
 ## En bref
 
-Maison de 110 m² à vendre à Laure-Minervois : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 200 000 €, honoraires à la charge du vendeur. Le bien comprend : parking et climatisation. Construction de 1982, chauffage individuel, exposition nord, classe énergie B (91 kWh/m²/an), classe climat A. Référence 2_BBV30000474, suivie par Barbara Bouba (LOTIER Immobilier).
+Maison de 110 m² à vendre à Laure-Minervois : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Prix : 210 000 €, honoraires à la charge du vendeur. Le bien comprend : parking et climatisation. Construction de 1982, chauffage individuel, exposition nord, classe énergie B (91 kWh/m²/an), classe climat A. Référence 2_BBV30000474, suivie par Barbara Bouba (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -118,7 +118,7 @@ Oui
 
 ## Détail du prix
 
-- Prix **200 000 €** *Frais d'agence inclus*
+- Prix **210 000 €** *Frais d'agence inclus*
 - Honoraires à la charge de **Vendeur**
 
 ## Bilan énergétique
@@ -163,7 +163,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  PRIX
- 200 000 €
+ 210 000 €
 
 Réf. 2_BBV30000474
 
