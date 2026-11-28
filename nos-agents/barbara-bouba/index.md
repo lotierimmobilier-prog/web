@@ -22,14 +22,6 @@ Carcassonne · Narbonne
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
- 515 € par mois
-
-### Appartement meublé 1 chambre
-
- Carcassonne · 38 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
-
  142 000 €
 
 ### Maison de village 4 pièces 114 m2, rénovée, Quarante
@@ -53,14 +45,6 @@ Carcassonne · Narbonne
  Laure-Minervois · 110 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
-
- 750 € par mois
-
-### Appartement T4 non meublé – centre ville Carcassonne
-
- Carcassonne · 106,58 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
  145 000 €
 
@@ -252,14 +236,14 @@ Aucune annonce ne correspond à ces critères.
 
 ## Faire connaissance avec Barbara
 
-- **29** biens en ligne
+- **27** biens en ligne
 - **25** à vendre
-- **4** à louer
+- **2** à louer
 - **12** communes
 
 Barbara Bouba est agent commercial indépendant LOTIER Immobilier, secteur Carcassonne · Narbonne.
 
-Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
+Ventes de 5 000 € à 1 145 000 € · loyers de 660 € à 760 € par mois.
 
 ### Spécialités
 
@@ -267,9 +251,9 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
 - Location
 - Maisons et villas
 - Locaux commerciaux
-- Appartements
 - Terrains
 - Investissement locatif
+- Appartements
 
 ### Communes couvertes
 
@@ -283,9 +267,9 @@ Ventes de 5 000 € à 1 145 000 € · loyers de 515 € à 760 € par mois.
 
 - 13 maisons
 - 4 locaux commerciaux
-- 4 appartements
 - 4 terrains
 - 3 immeubles
+- 2 appartements
 - 1 parking
 
 Agent commercial indépendant de la SARL LOTIER Immobilier, immatriculé au RSAC de Carcassonne sous le n° 890009269. Carte professionnelle de LOTIER : CPI3401 2016 000 014 824, délivrée par la CCI de l'Hérault. Garantie financière : SOCAF.

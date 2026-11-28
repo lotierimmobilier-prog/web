@@ -8,6 +8,22 @@ Source : https://lotier.immo/nos-annonces/
 
 ## Liste des annonces
 
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre-2/)[Être rappelé](https://lotier.immo/contact/)
+
+ 750 € par mois
+
+### Appartement T4 non meublé – centre ville Carcassonne
+
+ Carcassonne · 106,58 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/)[Être rappelé](https://lotier.immo/contact/)
+
  243 000 €
 
 ### Baisse de prix – Meynes – maison de village – 87,16m2 – 2 ch
@@ -31,14 +47,6 @@ Source : https://lotier.immo/nos-annonces/
  Carcassonne · 160 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
- 515 € par mois
-
-### Appartement meublé 1 chambre
-
- Carcassonne · 38 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
 
  142 000 €
 
@@ -111,14 +119,6 @@ Source : https://lotier.immo/nos-annonces/
  Villeneuve-lès-Béziers · 191 m² · 4 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-vendre-maison-de-village-denviron-190-m2-avec-exterieur/)[Être rappelé](https://lotier.immo/contact/)
-
- 750 € par mois
-
-### Appartement T4 non meublé – centre ville Carcassonne
-
- Carcassonne · 106,58 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
  Prix sur demande
 

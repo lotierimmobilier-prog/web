@@ -132,8 +132,8 @@ Béziers, Montpellier, Nîmes, Avignon, Narbonne, Carcassonne, Agde et leurs env
 - [Bureaux 100 m² à louer à Béziers](https://lotier.immo/annonces/a-louer-bureaux-de-caractere-rue-clemenceau-coeur-de-vil/): 735 € par mois, Hérault (34), réf. 15_DLLCO170000377.
 - [Local commercial 66 m² à louer à Capendu](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/): 660 € par mois, Aude (11), réf. 2_BBLCO30000383.
 - [Local commercial 180 m² à louer à Capendu](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/): 760 € par mois, Aude (11), réf. 2_BBLCO30000256.
-- [Appartement 2 pièces 38 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-meuble-1-chambre/): 515 € par mois, Aude (11), classe énergie C, réf. 2_BBLAP30000509.
-- [Appartement 4 pièces 107 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/): 750 € par mois, Aude (11), classe énergie D, réf. 2_BBLAP30000958.
+- [Appartement 2 pièces 38 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-meuble-1-chambre-2/): 515 € par mois, Aude (11), classe énergie C, réf. 21_BBLAP30000509.
+- [Appartement 4 pièces 107 m² à louer à Carcassonne](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/): 750 € par mois, Aude (11), classe énergie D, réf. 21_BBLAP30000958.
 - [Appartement 3 pièces 70 m² à louer à Montpellier](https://lotier.immo/annonces/montpellier-estanove-appartement-2-chambres-ideal-etud/): 850 € par mois, Hérault (34), réf. 12_271.
 - [Studio 15 m² à louer à Nîmes](https://lotier.immo/annonces/nimes-a-louer-studio-1499m2-centre-ville-proche-fac/): 415 € par mois, Gard (30), classe énergie C, réf. 12_274.
 

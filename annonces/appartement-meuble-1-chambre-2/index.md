@@ -2,7 +2,7 @@
 
 > Appartement 2 pièces 38 m² à louer à Carcassonne, 1 chambre, 515 € par mois. A LOUER à CARCASSONNE, 55 rue du 4 septembre (11) – Appartement meublé de 38 m²…
 
-Source : https://lotier.immo/annonces/appartement-meuble-1-chambre/
+Source : https://lotier.immo/annonces/appartement-meuble-1-chambre-2/
 
 Appartement meublé 1 chambre
 
@@ -12,7 +12,7 @@ Appartement meublé 1 chambre
 
 ## En bref
 
-Appartement de 38 m² à louer à Carcassonne (Aude, 11), secteur Centre ville : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Loyer : 515 € par mois, charges comprises (location meublée) ; dépôt de garantie : 485 €. Étage 1 sur 3, chauffage individuel électrique, classe énergie C (169 kWh/m²/an), classe climat A. Référence 2_BBLAP30000509, suivie par Barbara Bouba (LOTIER Immobilier).
+Appartement de 38 m² à louer à Carcassonne (Aude, 11), secteur Centre ville : 2 pièces, 1 chambre et 1 salle d'eau ou de bain. Loyer : 515 € par mois, charges comprises (location meublée) ; dépôt de garantie : 485 €. Étage 1 sur 3, chauffage individuel électrique, classe énergie C (169 kWh/m²/an), classe climat A. Référence 21_BBLAP30000509, suivie par Jonathan Gasser (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -120,7 +120,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 ## Mentions légales
 
 - Honoraires de l’angence : 418 € dont 114 € pour l’état des lieux
-- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Cette annonce vous est proposée par GASSER Jonathan – EI – NoRSAC: 750022337, Enregistré à de Carcassonne
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER
@@ -129,24 +129,22 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Charges comprises, dont 30 € de provisions sur charges
 - Location meublée
 
-Réf. 2_BBLAP30000509
+Réf. 21_BBLAP30000509
 
 - 38 m²
 - 1 chambre
 - 1 salle d'eau/bain
 
- **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
- [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
- [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
+ **Jonathan Gasser** Votre contact LOTIER Immobilier
+ [Appeler Jonathan **06 52 55 99 16** ](tel:+33652559916)
+ [jonathan.gasser@lotier-immobilier.com](mailto:jonathan.gasser@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
-
-Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
 
 Annonce proposée par LOTIER Immobilier.
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-## Les autres biens de Barbara
+## Les autres biens de Jonathan
 
  750 € par mois
 
@@ -154,7 +152,9 @@ Annonce proposée par LOTIER Immobilier.
 
  Carcassonne · 106,58 m² · 3 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
 
  80 000 €
 
@@ -179,32 +179,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 166 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
-
- 119 000 €
-
-### Local commercial 160 m2 à vendre, Carcassonne
-
- Carcassonne · 160 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
- 760 € par mois
-
-### À Capendu, de 180m2 en location avec BARBARA BOUBA
-
- Capendu · 180 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
-
- 660 € par mois
-
-### Local Commercial Zone Commercial Capendu
-
- Capendu · 66 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

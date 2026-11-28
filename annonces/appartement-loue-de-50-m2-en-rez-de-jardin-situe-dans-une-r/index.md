@@ -184,24 +184,6 @@ Annonce proposée par LOTIER Immobilier.
 
  [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
 
- 515 € par mois
-
-### Appartement meublé 1 chambre
-
- Carcassonne · 38 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
-
- 750 € par mois
-
-### Appartement T4 non meublé – centre ville Carcassonne
-
- Carcassonne · 106,58 m² · 3 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
  145 000 €
 
 ### Bel appartement de 115m2 avec terrasse à Capendu
@@ -209,6 +191,24 @@ Annonce proposée par LOTIER Immobilier.
  Capendu · 115,8 m² · 3 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/bel-appartement-de-115m2-avec-terrasse-a-capendu/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
+
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre-2/)[Être rappelé](https://lotier.immo/contact/)
+
+ 750 € par mois
+
+### Appartement T4 non meublé – centre ville Carcassonne
+
+ Carcassonne · 106,58 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/)[Être rappelé](https://lotier.immo/contact/)
 
  350 000 €
 

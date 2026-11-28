@@ -1,8 +1,8 @@
 # Appartement 4 pièces 107 m² à louer à Carcassonne
 
-> Appartement 4 pièces 107 m² à louer à Carcassonne, 3 chambres, 750 € par mois. Magnifique appartement au deuxième étage (sans ascenceur) avec 3 chambres au…
+> Appartement 4 pièces 107 m² à louer à Carcassonne, 3 chambres, 750 € par mois. Appartement de 4 pièces 106.58 m² situé rue Armagnac à proximité de la place…
 
-Source : https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne/
+Source : https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/
 
 Appartement T4 non meublé – centre ville Carcassonne
 
@@ -12,7 +12,7 @@ Appartement T4 non meublé – centre ville Carcassonne
 
 ## En bref
 
-Appartement de 106,58 m² à louer à Carcassonne (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Loyer : 750 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 670 €. Le bien comprend : cave. Étage 2 sur 3, construction de 1948, chauffage individuel gaz, classe énergie D (199 kWh/m²/an), classe climat D. Référence 2_BBLAP30000958, suivie par Barbara Bouba (LOTIER Immobilier).
+Appartement de 106,58 m² à louer à Carcassonne (Aude, 11) : 4 pièces, 3 chambres et 1 salle d'eau ou de bain. Loyer : 750 € par mois, charges comprises (location non meublée) ; dépôt de garantie : 670 €. Le bien comprend : cave. Étage 2 sur 3, construction de 1948, chauffage individuel gaz, classe énergie D (199 kWh/m²/an), classe climat D. Référence 21_BBLAP30000958, suivie par Jonathan Gasser (LOTIER Immobilier).
 
 ## Informations clés
 
@@ -26,15 +26,21 @@ Appartement de 106,58 m² à louer à Carcassonne (Aude, 11) : 4 pièces, 3 cha
 
 ## Description
 
-Magnifique appartement au deuxième étage (sans ascenceur) avec 3 chambres au centre ville de Carcassonne. Pièces spatieuses avec beaucoup cachet, grand hall d’entrée, salle d’eau avec baignoire et douche, WC séparé, buanderie.
+Appartement de 4 pièces 106.58 m² situé rue Armagnac à proximité de la place Carnot en plein centre de Carcassonne, proposé à la location au loyer de 750 € charges comprises, disponible immédiatement.
 
-L’appartement est complété par une cave et un grenier.
+Installé au deuxième étage d’un immeuble sans ascenseur, cet appartement rénové offre un grand hall d’entrée qui donne le ton : les volumes sont généreux et le cachet de l’ancien est préservé.
 
-Les chambres font 15 m², 21 m² et 12 m².
+Le séjour , ouvre sur la vie du logement. Les trois chambres mesurent respectivement 21 m², 15 m² et 12 m², offrant une belle flexibilité . La salle d’eau est équipée d’une baignoire et d’une douche. Les toilettes sont séparées. Une buanderie complète l’ensemble pour plus de confort au quotidien.
 
-Loyer CC 750 € dont 80 € de charges (ordures ménagères et eau).
+L’appartement bénéficie également d’un grenier, espaces de rangement précieux en centre-ville. Il n’y a pas de stationnement privatif ni d’extérieur.
 
-Dépôt de garantie : 670 €
+Le chauffage fonctionne au gaz. Les classes DPE et GES D.
+
+Situé rue Armagnac, à quelques pas de la place Carnot, ce logement profite de toute la vie du centre historique de Carcassonne : commerces, marchés, transports et services à portée de main.
+
+Loyer : 670 € hors charges, soit 750 € charges comprises. Charges : 80 € par mois (ordures ménagères et eau). Dépôt de garantie : 670 €. Honoraires d’agence à la charge du locataire : 500 €. Logement non meublé, disponible immédiatement.
+
+Bien proposé par LOTIER Immobilier, agence indépendante implantée à Carcassonne et dans toute la région Occitanie.
 
 - Annonce rédigée et publiée par un Agent Mandataire -
 
@@ -129,8 +135,7 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 
 ## Mentions légales
 
-- Honoraires de l’agence : 500 €
-- Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE
+- Cette annonce vous est proposée par GASSER Jonathan – EI – NoRSAC: 750022337, Enregistré à de Carcassonne
 - Barème des honoraires de LOTIER Immobilier : [voir la page Honoraires](https://lotier.immo/nos-honoraires/).
 
  LOYER
@@ -139,24 +144,22 @@ Comparez et souscrivez en quelques minutes les meilleurs prix pour l’énergie,
 - Charges comprises, dont 80 € de provisions sur charges
 - Location non meublée
 
-Réf. 2_BBLAP30000958
+Réf. 21_BBLAP30000958
 
 - 106,58 m²
 - 3 chambres
 - 1 salle d'eau/bain
 
- **[Barbara Bouba](https://lotier.immo/nos-agents/barbara-bouba/)** Votre contact LOTIER Immobilier
- [Appeler Barbara **06 51 45 06 63** ](tel:+33651450663)
- [barbara.bouba@lotier-immobilier.com](mailto:barbara.bouba@lotier-immobilier.com)
+ **Jonathan Gasser** Votre contact LOTIER Immobilier
+ [Appeler Jonathan **06 52 55 99 16** ](tel:+33652559916)
+ [jonathan.gasser@lotier-immobilier.com](mailto:jonathan.gasser@lotier-immobilier.com)
  [Être rappelé ](https://lotier.immo/contact/)
-
-Agent commercial indépendant · immatriculé au RSAC de Carcassonne n° 890009269
 
 Annonce proposée par LOTIER Immobilier.
 
 [← Toutes les annonces](https://lotier.immo/nos-annonces/)
 
-## Les autres biens de Barbara
+## Les autres biens de Jonathan
 
  515 € par mois
 
@@ -164,7 +167,9 @@ Annonce proposée par LOTIER Immobilier.
 
  Carcassonne · 38 m² · 1 ch.
 
- [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre-2/)[Être rappelé](https://lotier.immo/contact/)
+
+## Biens à proximité
 
  80 000 €
 
@@ -189,32 +194,6 @@ Annonce proposée par LOTIER Immobilier.
  Carcassonne · 166 m²
 
  [Voir l'annonce](https://lotier.immo/annonces/immeuble-de-rapport/)[Être rappelé](https://lotier.immo/contact/)
-
-## Biens à proximité
-
- 119 000 €
-
-### Local commercial 160 m2 à vendre, Carcassonne
-
- Carcassonne · 160 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/local-commercial-160-m2-a-vendre-carcassonne/)[Être rappelé](https://lotier.immo/contact/)
-
- 760 € par mois
-
-### À Capendu, de 180m2 en location avec BARBARA BOUBA
-
- Capendu · 180 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/a-capendu-de-180m2-en-location-avec-barbara-bouba/)[Être rappelé](https://lotier.immo/contact/)
-
- 660 € par mois
-
-### Local Commercial Zone Commercial Capendu
-
- Capendu · 66 m²
-
- [Voir l'annonce](https://lotier.immo/annonces/local-commercial-zone-commercial-capendu/)[Être rappelé](https://lotier.immo/contact/)
 
 ---
 

@@ -1,7 +1,379 @@
 {
- "maj": "2026-11-27",
+ "maj": "2026-11-28",
  "source": "Export Hektor de l'agence (lotier-immo.zip)",
  "annonces": [
+  {
+   "id": "appartement-meuble-1-chambre-2",
+   "titre": "Appartement meublé 1 chambre",
+   "ville": "Carcassonne",
+   "type": "location",
+   "prix": 515.0,
+   "surface": 38.0,
+   "chambres": 1,
+   "sdb": 1,
+   "badges": [],
+   "description_html": "<p>A LOUER à CARCASSONNE, 55 rue du 4 septembre (11) – Appartement meublé de 38 m2 comprenant 1 chambre, un sejour/cuisine et une salle d’eau avec WC, l’appartement se situe au 1er étage d’un immeuble rénové entièrement. Environnement calme.</p><p>Assurance loyer impayé. Disponible immédiatement. Attention, certains éléments des photos appartiennent aux locataires, donc ne seront pas présents.</p><p>Loyer charges comprises : 515EUR par mois (uniquement ordures ménagères, ménage et éclairage des parties communes). L’eau et l’électricité restent à la charge du locataire.</p><p>Dépôt de garantie : 485EUR (un mois de loyer hors charges)</p><p>Honoraires de l’angence : 418EUR dont 114EUR pour l’état des lieux</p><p>Cette annonce vous est proposée par GASSER Jonathan – EI – NoRSAC: 750022337, Enregistré à de Carcassonne</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Appartement"
+      ],
+      [
+       "Surface habitable",
+       "38 m²"
+      ],
+      [
+       "Pièces",
+       "2"
+      ],
+      [
+       "Chambres",
+       "1"
+      ],
+      [
+       "Salles d'eau",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Étage",
+       "1 / 3"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel électrique"
+      ],
+      [
+       "Cuisine",
+       "Américaine équipée"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Loyer charges comprises",
+       "515 € / mois"
+      ],
+      [
+       "Provisions sur charges",
+       "30 € / mois"
+      ],
+      [
+       "Honoraires état des lieux (TTC, charge locataire)",
+       "114 €"
+      ],
+      [
+       "Modalités de règlement des charges",
+       "Prévisionnelles mensuelles avec régularisation annuelle"
+      ],
+      [
+       "Dépôt de garantie",
+       "485 €"
+      ],
+      [
+       "Caractère meublé",
+       "Location meublée"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "9"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Secteur",
+       "Centre ville"
+      ],
+      [
+       "Ville",
+       "Carcassonne"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "21_BBLAP30000509",
+   "agent": {
+    "nom": "Jonathan GASSER",
+    "email": "jonathan.gasser@lotier-immobilier.com",
+    "telephone": "0652559916",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 169,
+     "classe": "C"
+    },
+    "ges": {
+     "valeur": 5,
+     "classe": "A"
+    },
+    "depenses_min": 620,
+    "depenses_max": 880,
+    "prix_energies": "01/01/2021"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 30 € de provisions sur charges",
+    "Location meublée"
+   ],
+   "honoraires": {
+    "locataire": 418,
+    "etat_des_lieux": 114
+   },
+   "photo": "assets/annonces/appartement-meuble-1-chambre-2.jpg",
+   "photos": [
+    "assets/annonces/appartement-meuble-1-chambre-2-1.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-2.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-3.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-4.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-5.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-6.jpg",
+    "assets/annonces/appartement-meuble-1-chambre-2-7.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_c1f48f9e4d035b304ff2570a0d22e211.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_77a48e134198939cc8de4c27cbb1269a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_075779f305a292030b097dd6799b66bf.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_9b23b375ba24449cbfe4dc5f67a3975e.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_19aa4fa5b490035558e9617036b32570.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_065ecf5025d2fee8ac0978bbc68ee898.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_14ca107e363b5bda90d883301e7ed211.jpg"
+   ],
+   "schema": 3
+  },
+  {
+   "id": "appartement-t4-non-meuble-centre-ville-carcassonne-2",
+   "titre": "Appartement T4 non meublé – centre ville Carcassonne",
+   "ville": "Carcassonne",
+   "type": "location",
+   "prix": 750.0,
+   "surface": 106.58,
+   "chambres": 3,
+   "sdb": 1,
+   "badges": [
+    "Exclusivité"
+   ],
+   "description_html": "<p>Appartement de 4 pièces 106.58 m2 situé rue Armagnac à proximité de la place Carnot en plein centre de Carcassonne, proposé à la location au loyer de 750 EUR charges comprises, disponible immédiatement.</p><p>Installé au deuxième étage d’un immeuble sans ascenseur, cet appartement rénové offre un grand hall d’entrée qui donne le ton : les volumes sont généreux et le cachet de l’ancien est préservé.</p><p>Le séjour , ouvre sur la vie du logement. Les trois chambres mesurent respectivement 21 m2, 15 m2 et 12 m2, offrant une belle flexibilité . La salle d’eau est équipée d’une baignoire et d’une douche. Les toilettes sont séparées. Une buanderie complète l’ensemble pour plus de confort au quotidien.</p><p>L’appartement bénéficie également d’un grenier, espaces de rangement précieux en centre-ville. Il n’y a pas de stationnement privatif ni d’extérieur.</p><p>Le chauffage fonctionne au gaz. Les classes DPE et GES D.</p><p>Situé rue Armagnac, à quelques pas de la place Carnot, ce logement profite de toute la vie du centre historique de Carcassonne : commerces, marchés, transports et services à portée de main.</p><p>Loyer : 670 EUR hors charges, soit 750 EUR charges comprises. Charges : 80 EUR par mois (ordures ménagères et eau). Dépôt de garantie : 670 EUR. Honoraires d’agence à la charge du locataire : 500 EUR. Logement non meublé, disponible immédiatement.</p><p>Bien proposé par LOTIER Immobilier, agence indépendante implantée à Carcassonne et dans toute la région Occitanie.</p><p>Cette annonce vous est proposée par GASSER Jonathan – EI – NoRSAC: 750022337, Enregistré à de Carcassonne</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
+   "blocs": [
+    {
+     "titre": "Caractéristiques",
+     "lignes": [
+      [
+       "Type de bien",
+       "Appartement"
+      ],
+      [
+       "Surface habitable",
+       "106.58 m²"
+      ],
+      [
+       "Pièces",
+       "4"
+      ],
+      [
+       "Chambres",
+       "3"
+      ],
+      [
+       "Salles de bain",
+       "1"
+      ],
+      [
+       "WC",
+       "1"
+      ],
+      [
+       "Étage",
+       "2 / 3"
+      ],
+      [
+       "Année de construction",
+       "1948"
+      ]
+     ]
+    },
+    {
+     "titre": "Équipements et confort",
+     "lignes": [
+      [
+       "Chauffage",
+       "Individuel gaz"
+      ],
+      [
+       "Cuisine",
+       "Séparée équipée"
+      ],
+      [
+       "Ascenseur",
+       "Non"
+      ],
+      [
+       "Cave",
+       "Oui"
+      ]
+     ]
+    },
+    {
+     "titre": "Informations financières",
+     "lignes": [
+      [
+       "Loyer charges comprises",
+       "750 € / mois"
+      ],
+      [
+       "Provisions sur charges",
+       "80 € / mois"
+      ],
+      [
+       "Honoraires état des lieux (TTC, charge locataire)",
+       "300 €"
+      ],
+      [
+       "Modalités de règlement des charges",
+       "Prévisionnelles mensuelles avec régularisation annuelle"
+      ],
+      [
+       "Dépôt de garantie",
+       "670 €"
+      ],
+      [
+       "Caractère meublé",
+       "Location non meublée"
+      ]
+     ]
+    },
+    {
+     "titre": "Copropriété (loi ALUR)",
+     "lignes": [
+      [
+       "Copropriété",
+       "Oui"
+      ],
+      [
+       "Nombre de lots",
+       "8"
+      ],
+      [
+       "Procédures en cours",
+       "Non"
+      ]
+     ]
+    },
+    {
+     "titre": "Situation",
+     "lignes": [
+      [
+       "Ville",
+       "Carcassonne"
+      ],
+      [
+       "Pays",
+       "France"
+      ]
+     ]
+    }
+   ],
+   "reference": "21_BBLAP30000958",
+   "agent": {
+    "nom": "Jonathan GASSER",
+    "email": "jonathan.gasser@lotier-immobilier.com",
+    "telephone": "0652559916",
+    "photo": null
+   },
+   "energie": {
+    "dpe": {
+     "valeur": 199,
+     "classe": "D"
+    },
+    "ges": {
+     "valeur": 41,
+     "classe": "D"
+    },
+    "depenses_min": 1940,
+    "depenses_max": 2670,
+    "prix_energies": "01/01/2025"
+   },
+   "mentions_prix": [
+    "Charges comprises, dont 80 € de provisions sur charges",
+    "Location non meublée"
+   ],
+   "honoraires": {
+    "locataire": 500,
+    "etat_des_lieux": 300
+   },
+   "photo": "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2.jpg",
+   "photos": [
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-1.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-2.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-3.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-4.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-5.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-6.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-7.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-8.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-9.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-10.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-11.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-12.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-13.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-14.jpg",
+    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2-15.jpg"
+   ],
+   "photos_source": [
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_239be1573a334455815dff5c8830498a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_c9fdaf2efb89efa604344375e1e0f47b.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_6227f3ea635947c232214348b24bb381.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_21bdc271511c05b808a55a985d05aab9.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_aed3f2fdc363c11a28b170000d5bf646.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_66ec775bd81618ed46cdee865d7e6dd5.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_89388cb53255fa1cedb65e40d795d41e.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_ebd541c57ea32e77587242f119c5e590.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_8f235cc1841df9772890e495101e4c4a.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_0aa4da515bc0c429bfdc376866fd2eb1.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_302405c706b59bb810c6bd6724a6b943.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_3902181b90e81688548db944ad865e08.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_6f94edd73cc02fc9ff3efc40c5836610.png",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_462315070a7b234fc4b0390155f10e1b.jpg",
+    "https://lotier-immo.staticlbi.com/wa/images/biens/21/f834486f7e89648f05f8b1a1b5a106a5/photo_324d7ec30939e413024913420e88bdc2.png"
+   ],
+   "schema": 3
+  },
   {
    "id": "baisse-de-prix-meynes-maison-de-village-87-16m2-2-ch",
    "titre": "BAISSE DE PRIX – MEYNES – MAISON DE VILLAGE – 87,16M2 – 2 CH",
@@ -421,181 +793,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_f373725da21ee7d7deb604c4359bda32.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_04943de6f1ddf45e01ba676587d416f2.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/2/3be086ec640f83fe4a7492e3abc2a5fb/photo_ca72fdd412bc75eee80b97cc5afcf800.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "appartement-meuble-1-chambre",
-   "titre": "Appartement meublé 1 chambre",
-   "ville": "Carcassonne",
-   "type": "location",
-   "prix": 515.0,
-   "surface": 38.0,
-   "chambres": 1,
-   "sdb": 1,
-   "badges": [],
-   "description_html": "<p>A LOUER à CARCASSONNE, 55 rue du 4 septembre (11) – Appartement meublé de 38 m2 comprenant 1 chambre, un sejour/cuisine et une salle d’eau avec WC, l’appartement se situe au 1er étage d’un immeuble rénové entièrement. Environnement calme.</p><p>Assurance loyer impayé. Disponible immédiatement. Attention, certains éléments des photos appartiennent aux locataires, donc ne seront pas présents.</p><p>Loyer charges comprises : 515EUR par mois (uniquement ordures ménagères, ménage et éclairage des parties communes). L’eau et l’électricité restent à la charge du locataire.</p><p>Dépôt de garantie : 485EUR (un mois de loyer hors charges)</p><p>Honoraires de l’angence : 418EUR dont 114EUR pour l’état des lieux</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "38 m²"
-      ],
-      [
-       "Pièces",
-       "2"
-      ],
-      [
-       "Chambres",
-       "1"
-      ],
-      [
-       "Salles d'eau",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Étage",
-       "1 / 3"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel électrique"
-      ],
-      [
-       "Cuisine",
-       "Américaine équipée"
-      ],
-      [
-       "Ascenseur",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "515 € / mois"
-      ],
-      [
-       "Provisions sur charges",
-       "30 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "114 €"
-      ],
-      [
-       "Modalités de règlement des charges",
-       "Prévisionnelles mensuelles avec régularisation annuelle"
-      ],
-      [
-       "Dépôt de garantie",
-       "485 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "9"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Secteur",
-       "Centre ville"
-      ],
-      [
-       "Ville",
-       "Carcassonne"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLAP30000509",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 169,
-     "classe": "C"
-    },
-    "ges": {
-     "valeur": 5,
-     "classe": "A"
-    },
-    "depenses_min": 620,
-    "depenses_max": 880,
-    "prix_energies": "01/01/2021"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 30 € de provisions sur charges",
-    "Location meublée"
-   ],
-   "honoraires": {
-    "locataire": 418,
-    "etat_des_lieux": 114
-   },
-   "photo": "assets/annonces/appartement-meuble-1-chambre.jpg",
-   "photos": [
-    "assets/annonces/appartement-meuble-1-chambre-1.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-2.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-3.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-4.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-5.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-6.jpg",
-    "assets/annonces/appartement-meuble-1-chambre-7.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_c1f48f9e4d035b304ff2570a0d22e211.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_77a48e134198939cc8de4c27cbb1269a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_075779f305a292030b097dd6799b66bf.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_9b23b375ba24449cbfe4dc5f67a3975e.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_19aa4fa5b490035558e9617036b32570.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_065ecf5025d2fee8ac0978bbc68ee898.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/b5d4a1c9f3c34f7ffb691c81b95b2a91/photo_14ca107e363b5bda90d883301e7ed211.jpg"
    ],
    "schema": 3
   },
@@ -1960,203 +2157,6 @@
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_6b8823b4bcea14a8c0fa83982d52c8e6.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_4dbb5d9f88cb0492f6f72deaad2519da.jpg",
     "https://lotier-immo.staticlbi.com/wa/images/biens/15/7eaa7df0dfbbc5c9e096ad196fa4176b/photo_9293f4520927a18a0602367b0888f03a.jpg"
-   ],
-   "schema": 3
-  },
-  {
-   "id": "appartement-t4-non-meuble-centre-ville-carcassonne",
-   "titre": "Appartement T4 non meublé – centre ville Carcassonne",
-   "ville": "Carcassonne",
-   "type": "location",
-   "prix": 750.0,
-   "surface": 106.58,
-   "chambres": 3,
-   "sdb": 1,
-   "badges": [
-    "Exclusivité"
-   ],
-   "description_html": "<p>Magnifique appartement au deuxième étage (sans ascenceur) avec 3 chambres au centre ville de Carcassonne. Pièces spatieuses avec beaucoup cachet, grand hall d’entrée, salle d’eau avec baignoire et douche, WC séparé, buanderie.</p><p>L’appartement est complété par une cave et un grenier.</p><p>Les chambres font 15m2, 21m2 et 12m2.</p><p>Loyer CC 750EUR dont 80EUR de charges (ordures ménagères et eau).</p><p>Dépôt de garantie : 670EUR</p><p>Honoraires de l’agence : 500EUR</p><p>Cette annonce vous est proposée par BOUBA BARBARA IMMO – EI – NoRSAC: 890009269, Enregistré à Greffe du tribunal de commerce de CARCASSONNE</p><ul><li>Annonce rédigée et publiée par un Agent Mandataire -</li></ul>",
-   "blocs": [
-    {
-     "titre": "Caractéristiques",
-     "lignes": [
-      [
-       "Type de bien",
-       "Appartement"
-      ],
-      [
-       "Surface habitable",
-       "106.58 m²"
-      ],
-      [
-       "Pièces",
-       "4"
-      ],
-      [
-       "Chambres",
-       "3"
-      ],
-      [
-       "Salles de bain",
-       "1"
-      ],
-      [
-       "WC",
-       "1"
-      ],
-      [
-       "Étage",
-       "2 / 3"
-      ],
-      [
-       "Année de construction",
-       "1948"
-      ]
-     ]
-    },
-    {
-     "titre": "Équipements et confort",
-     "lignes": [
-      [
-       "Chauffage",
-       "Individuel gaz"
-      ],
-      [
-       "Cuisine",
-       "Séparée équipée"
-      ],
-      [
-       "Ascenseur",
-       "Non"
-      ],
-      [
-       "Cave",
-       "Oui"
-      ]
-     ]
-    },
-    {
-     "titre": "Informations financières",
-     "lignes": [
-      [
-       "Loyer charges comprises",
-       "750 € / mois"
-      ],
-      [
-       "Provisions sur charges",
-       "80 € / mois"
-      ],
-      [
-       "Honoraires état des lieux (TTC, charge locataire)",
-       "300 €"
-      ],
-      [
-       "Modalités de règlement des charges",
-       "Prévisionnelles mensuelles avec régularisation annuelle"
-      ],
-      [
-       "Dépôt de garantie",
-       "670 €"
-      ],
-      [
-       "Caractère meublé",
-       "Location non meublée"
-      ]
-     ]
-    },
-    {
-     "titre": "Copropriété (loi ALUR)",
-     "lignes": [
-      [
-       "Copropriété",
-       "Oui"
-      ],
-      [
-       "Nombre de lots",
-       "8"
-      ],
-      [
-       "Procédures en cours",
-       "Non"
-      ]
-     ]
-    },
-    {
-     "titre": "Situation",
-     "lignes": [
-      [
-       "Ville",
-       "Carcassonne"
-      ],
-      [
-       "Pays",
-       "France"
-      ]
-     ]
-    }
-   ],
-   "reference": "2_BBLAP30000958",
-   "agent": {
-    "nom": "BARBARA BOUBA",
-    "email": "barbara.bouba@lotier-immobilier.com",
-    "telephone": "0651450663",
-    "photo": null
-   },
-   "energie": {
-    "dpe": {
-     "valeur": 199,
-     "classe": "D"
-    },
-    "ges": {
-     "valeur": 41,
-     "classe": "D"
-    },
-    "depenses_min": 1940,
-    "depenses_max": 2670,
-    "prix_energies": "01/01/2025"
-   },
-   "mentions_prix": [
-    "Charges comprises, dont 80 € de provisions sur charges",
-    "Location non meublée"
-   ],
-   "honoraires": {
-    "locataire": 500,
-    "etat_des_lieux": 300
-   },
-   "photo": "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne.jpg",
-   "photos": [
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-1.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-3.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-4.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-5.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-6.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-7.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-8.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-9.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-10.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-11.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-12.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-13.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-14.jpg",
-    "assets/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-15.jpg"
-   ],
-   "photos_source": [
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_6227f3ea635947c232214348b24bb381.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_c9fdaf2efb89efa604344375e1e0f47b.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_239be1573a334455815dff5c8830498a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_21bdc271511c05b808a55a985d05aab9.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_aed3f2fdc363c11a28b170000d5bf646.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_66ec775bd81618ed46cdee865d7e6dd5.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_89388cb53255fa1cedb65e40d795d41e.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_ebd541c57ea32e77587242f119c5e590.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_8f235cc1841df9772890e495101e4c4a.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_0aa4da515bc0c429bfdc376866fd2eb1.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_302405c706b59bb810c6bd6724a6b943.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_3902181b90e81688548db944ad865e08.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_6f94edd73cc02fc9ff3efc40c5836610.png",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_462315070a7b234fc4b0390155f10e1b.jpg",
-    "https://lotier-immo.staticlbi.com/wa/images/biens/2/f834486f7e89648f05f8b1a1b5a106a5/photo_324d7ec30939e413024913420e88bdc2.png"
    ],
    "schema": 3
   },

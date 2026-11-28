@@ -82,6 +82,22 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
 
  [Voir l'annonce](https://lotier.immo/annonces/maison-de-110m2-au-total-sur-une-parcelle-de-2110m2/)[Être rappelé](https://lotier.immo/contact/)
 
+ 515 € par mois
+
+### Appartement meublé 1 chambre
+
+ Carcassonne · 38 m² · 1 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre-2/)[Être rappelé](https://lotier.immo/contact/)
+
+ 750 € par mois
+
+### Appartement T4 non meublé – centre ville Carcassonne
+
+ Carcassonne · 106,58 m² · 3 ch.
+
+ [Voir l'annonce](https://lotier.immo/annonces/appartement-t4-non-meuble-centre-ville-carcassonne-2/)[Être rappelé](https://lotier.immo/contact/)
+
  635 € par mois
 
 ### A louer Béziers centre-ville (34) appartement T3 bis ave
@@ -89,22 +105,6 @@ Assemblées, charges, travaux : une gestion claire et transparente pour votre co
  Béziers · 54,9 m² · 2 ch.
 
  [Voir l'annonce](https://lotier.immo/annonces/a-louer-beziers-centre-ville-34-appartement-t3-bis-ave/)[Être rappelé](https://lotier.immo/contact/)
-
- 515 € par mois
-
-### Appartement meublé 1 chambre
-
- Carcassonne · 38 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/appartement-meuble-1-chambre/)[Être rappelé](https://lotier.immo/contact/)
-
- 430 € par mois
-
-### À louer appartement T2 boulevard de la Liberté Béziers
-
- Béziers · 44,06 m² · 1 ch.
-
- [Voir l'annonce](https://lotier.immo/annonces/a-louer-appartement-t2-boulevard-de-la-liberte-beziers/)[Être rappelé](https://lotier.immo/contact/)
 
  [Voir toutes les annonces ](https://lotier.immo/nos-annonces/)
 
