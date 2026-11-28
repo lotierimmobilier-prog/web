@@ -116,11 +116,11 @@ Provisions, charges courantes, travaux, fonds de travaux, régularisation : comp
 
 Parties communes et privatives, vote en assemblée, travaux urgents, financement, plan pluriannuel : comprendre comment se décident et se financent les travaux d'un immeuble.
 
- **Bailleur** 26 novembre 2026 5 min
+ **Vendre** 28 novembre 2026 7 min
 
-### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
+### [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
 
-L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
+Indices Notaires-Insee du 24 novembre 2026 : −0,3 % au 3e trimestre, −1,2 % sur un an, 956 000 ventes. Ce que ces chiffres changent si vous vendez.
 
 Recrutement
 

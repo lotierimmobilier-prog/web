@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://lotier.immo/blog/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -666,6 +666,12 @@
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html</loc>

@@ -1,6 +1,6 @@
 # Blog immobilier : conseils pour vendre, acheter, louer | LOTIER
 
-> 26 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
+> 27 guides pratiques sur la vente, l'achat, la location et la copropriété, et des présentations de Béziers, Montpellier, Nîmes et Carcassonne.
 
 Source : https://lotier.immo/blog/
 
@@ -8,9 +8,15 @@ Le blog de l'agence
 
 # Conseils et actualités *de l'immobilier.*
 
-Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 26 guides écrits par les conseillers de LOTIER Immobilier.
+Vendre, acheter, louer, gérer une copropriété, mieux connaître nos villes : 27 guides écrits par les conseillers de LOTIER Immobilier.
 
 ## Tous les articles
+
+ **Vendre** 28 novembre 2026 7 min
+
+### [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
+
+Indices Notaires-Insee du 24 novembre 2026 : −0,3 % au 3e trimestre, −1,2 % sur un an, 956 000 ventes. Ce que ces chiffres changent si vous vendez.
 
  **Bailleur** 26 novembre 2026 5 min
 

@@ -107,17 +107,17 @@ Recherche du locataire, bail, état des lieux, suivi : une gestion locative à p
 
 Montant maximum, délai de restitution et retenues autorisées : tout ce que locataires et propriétaires doivent savoir sur le dépôt de garantie d'une location.
 
+ **Vendre** 28 novembre 2026 7 min
+
+### [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
+
+Indices Notaires-Insee du 24 novembre 2026 : −0,3 % au 3e trimestre, −1,2 % sur un an, 956 000 ventes. Ce que ces chiffres changent si vous vendez.
+
  **Bailleur** 26 novembre 2026 5 min
 
 ### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
 
 L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
-
- **Vendre** 26 novembre 2026 4 min
-
-### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
-
-Les prix de l'ancien reculent de 0,1 % en octobre 2026 pendant que les taux de crédit dépassent 3,6 %. Ce que cela change pour vendre ou acheter, ville par ville.
 
 Recrutement
 

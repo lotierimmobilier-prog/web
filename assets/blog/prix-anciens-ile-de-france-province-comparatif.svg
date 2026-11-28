@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Prix des logements anciens au troisième trimestre 2026 : Île-de-France moins 0,9 % sur le trimestre et moins 1,5 % sur un an ; province 0,0 % sur le trimestre et moins 1,1 % sur un an ; France entière moins 0,3 % et moins 1,2 %.">
+<rect width="900" height="500" fill="#ffffff"/>
+<text x="40" y="54" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#0f2744">Prix des logements anciens : Île-de-France et province</text>
+<text x="40" y="84" text-anchor="start" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#52647c">Troisième trimestre 2026, indices Notaires-Insee (données provisoires)</text>
+<rect x="40" y="112" width="390" height="250" rx="14" fill="#0f2744"/>
+<text x="235" y="152" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Île-de-France</text>
+<rect x="205" y="166" width="60" height="3" fill="#c8102e"/>
+<line x1="235" y1="196" x2="235" y2="302" stroke="#d9d2c3" stroke-width="1" opacity="0.5"/>
+<text x="140" y="218" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#d9d2c3">Sur le trimestre</text>
+<text x="140" y="286" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">−0,9 %</text>
+<text x="330" y="218" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#d9d2c3">Sur un an</text>
+<text x="330" y="286" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">−1,5 %</text>
+<rect x="470" y="112" width="390" height="250" rx="14" fill="#f4efe4"/>
+<text x="665" y="152" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#0f2744">Province</text>
+<rect x="635" y="166" width="60" height="3" fill="#c8102e"/>
+<line x1="665" y1="196" x2="665" y2="302" stroke="#52647c" stroke-width="1" opacity="0.5"/>
+<text x="570" y="218" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#52647c">Sur le trimestre</text>
+<text x="570" y="286" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#0f2744">0,0 %</text>
+<text x="760" y="218" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#52647c">Sur un an</text>
+<text x="760" y="286" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#0f2744">−1,1 %</text>
+<text x="235" y="338" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#d9d2c3">Après −0,6 % au printemps</text>
+<text x="665" y="338" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#52647c">Après −1,2 % au printemps</text>
+<rect x="40" y="386" width="820" height="56" rx="12" fill="#ffffff" stroke="#d9d2c3" stroke-width="1.5"/>
+<text x="450" y="421" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#c8102e">France entière (hors Mayotte) : −0,3 % sur le trimestre, −1,2 % sur un an</text>
+<text x="450" y="474" text-anchor="middle" font-family="'DM Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#52647c">Source : Insee, publication du 24 novembre 2026. Variations trimestrielles corrigées des variations saisonnières.</text>
+</svg>

@@ -259,25 +259,25 @@ Devenez agent LOTIER et gardez 75 % de vos commissions HT. Lui, il garde la mac
 
 ## L'actu immo de la semaine
 
- [Tous les articles (26)](https://lotier.immo/blog/)
+ [Tous les articles (27)](https://lotier.immo/blog/)
+
+ Vendre · 28 novembre 2026
+
+### [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
+
+Indices Notaires-Insee du 24 novembre 2026 : −0,3 % au 3e trimestre, −1,2 % sur un an, 956 000 ventes. Ce que ces chiffres changent si vous vendez.
+ [Lire l'article](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
 
  Bailleur · 26 novembre 2026
 
 ### [IRL du 3e trimestre 2026 : jusqu'à +1,57 % pour réviser un loyer](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
-
-L'indice de référence des loyers du 3e trimestre 2026 est de 148,06, soit +1,57 % sur un an. Comment calculer la révision, quels délais respecter et quels logements sont exclus.
- [Lire l'article](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html)
-
- Vendre · 26 novembre 2026
+[Lire l'article](https://lotier.immo/blog/irl-3e-trimestre-2026-reviser-loyer.html) Vendre · 26 novembre 2026
 
 ### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
 [Lire l'article](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html) Acheter · 26 novembre 2026
 
 ### [MaPrimeRénov' en 2027 : ce que l'on sait des pompes à chaleur](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
-[Lire l'article](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html) Acheter · 18 novembre 2026
-
-### [Crédit immobilier : les taux remontent en novembre 2026](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
-[Lire l'article](https://lotier.immo/blog/taux-credit-immobilier-novembre-2026.html)
+[Lire l'article](https://lotier.immo/blog/maprimerenov-2027-pompes-a-chaleur-cee.html)
 
  Devenir agent
 
