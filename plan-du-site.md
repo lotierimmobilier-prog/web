@@ -76,8 +76,17 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 
  Blog
 
-## Les 26 articles par thème
+## Les 27 articles par thème
  [Voir l'index du blog](https://lotier.immo/blog/)
+
+### Vendre
+
+- [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
+- [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
+- [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
+- [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
+- [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
+- [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
 
 ### Bailleur
 
@@ -86,14 +95,6 @@ Toutes les pages du site de LOTIER Immobilier, par thème.
 - [Loyers impayés : les bons réflexes du propriétaire](https://lotier.immo/blog/loyers-impayes-reflexes-proprietaire.html)
 - [DPE : comprendre les classes A à G](https://lotier.immo/blog/dpe-classes-a-g-comprendre.html)
 - [Louer son bien : meublé ou vide ?](https://lotier.immo/blog/meuble-ou-vide-choisir-location.html)
-
-### Vendre
-
-- [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
-- [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
-- [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
-- [Mandat exclusif ou mandat simple : que choisir pour vendre ?](https://lotier.immo/blog/mandat-exclusif-ou-simple.html)
-- [Les diagnostics immobiliers obligatoires pour vendre](https://lotier.immo/blog/diagnostics-immobiliers-obligatoires-vente.html)
 
 ### Acheter
 

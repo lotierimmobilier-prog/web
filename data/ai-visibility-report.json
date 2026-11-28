@@ -157,11 +157,11 @@
  "note_entrainement": "Content-Signal ai-train=no demande aux robots de ne pas entraîner de modèle, mais robots.txt autorise encore ces robots d'entraînement : décision éditoriale à confirmer.",
  "llms_txt": {
   "present": true,
-  "liens": 138,
+  "liens": 139,
   "liens_invalides": []
  },
  "couverture": {
-  "pages_indexables": 137,
+  "pages_indexables": 138,
   "markdown": 1.0,
   "donnees_structurees": 1.0
  },
@@ -2174,6 +2174,24 @@
   },
   {
    "url": "https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html",
+   "type": "article",
+   "balisage": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "CreativeWork",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Question",
+    "WebPage"
+   ],
+   "markdown": true,
+   "problemes": []
+  },
+  {
+   "url": "https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html",
    "type": "article",
    "balisage": [
     "Answer",

@@ -100,6 +100,12 @@ Nos conseillers vous présentent les biens qui correspondent à votre budget et 
 ## Dans le même esprit
  [Tous les articles](https://lotier.immo/blog/)
 
+ **Vendre** 28 novembre 2026 7 min
+
+### [Prix de l'immobilier ancien : −1,2 % sur un an, la province se stabilise](https://lotier.immo/blog/prix-logements-anciens-3e-trimestre-2026-notaires-insee.html)
+
+Indices Notaires-Insee du 24 novembre 2026 : −0,3 % au 3e trimestre, −1,2 % sur un an, 956 000 ventes. Ce que ces chiffres changent si vous vendez.
+
  **Vendre** 26 novembre 2026 4 min
 
 ### [Prix en léger recul, taux en hausse : un nouveau rapport de force](https://lotier.immo/blog/prix-immobilier-fin-2026-nouveau-rapport-de-force.html)
@@ -111,12 +117,6 @@ Les prix de l'ancien reculent de 0,1 % en octobre 2026 pendant que les taux de c
 ### [Home staging : 8 gestes simples pour mieux vendre](https://lotier.immo/blog/home-staging-mieux-vendre.html)
 
 Désencombrer, dépersonnaliser, réparer, éclairer : huit gestes peu coûteux pour valoriser votre bien avant les photos et les premières visites.
-
- **Vendre** 17 septembre 2026 4 min
-
-### [Fixer le bon prix : pourquoi une estimation sérieuse change tout](https://lotier.immo/blog/fixer-le-bon-prix-estimation.html)
-
-Comment un conseiller estime la valeur d'un bien, les erreurs à éviter quand on fixe son prix, et pourquoi un prix trop élevé ralentit la vente.
 
 Recrutement
 
